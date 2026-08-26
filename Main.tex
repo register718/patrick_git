@@ -1,0 +1,186 @@
+% \documentclass[draftcls, journal, onecolumn]{IEEEtran}
+%\documentclass[journal,draftcls,onecolumn,12pt,twoside]{IEEEtranTCOM}
+% \documentclass[journal,draftcls,onecolumn,12pt,twoside]{IEEEtranTCOM}
+\documentclass[journal]{IEEEtran}
+\usepackage{acronym}
+%%%
+\usepackage{bm}
+\usepackage{booktabs}
+% \usepackage{multirow}
+% \usepackage{fancyhdr}
+% \usepackage[cmex10]{amsmath}
+% \usepackage{algorithm}
+% \usepackage{algpseudocode}
+% \usepackage{algorithmicx}
+% \usepackage{filecontents}
+% \usepackage[dvipsnames]{xcolor}
+%\usepackage{mwe,tikz}
+% \usepackage[percent]{overpic}
+% \pagestyle{empty}
+% \usepackage{todonotes}
+\usepackage{tabularx}
+% \usepackage{arydshln}
+% \usepackage{verbatim}
+%\usepackage{ulem} % sout
+% \usepackage{gensymb}
+\usepackage{stfloats}% <-- added
+% \usepackage{mathrsfs}
+%%%
+\usepackage{siunitx}
+\DeclareSIUnit{\atm}{atm}
+\DeclareSIUnit{\bar}{bar}
+\normalsize
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{amsthm}
+\newtheorem{lemma}{Lemma}
+% \usepackage{algorithmic}
+% \usepackage{graphicx, nicefrac}
+% \usepackage{textcomp}
+% \usepackage{xcolor}
+% \usepackage{subcaption}
+% \usepackage[ruled,vlined]{algorithm2e}
+% \usepackage{ulem}
+\usepackage{setspace} 
+\usepackage{mathtools}
+%vv% -- Packages from Infocom
+%\usepackage[cmex10]{amsmath}
+%\usepackage{amssymb}
+\usepackage{color}
+\usepackage{array}
+\usepackage[version=4]{mhchem}
+%\usepackage{graphicx}
+%\usepackage{subfig}
+\usepackage{float}
+\usepackage{stmaryrd}
+%\usepackage{enumitem}
+\usepackage{soul}
+\usepackage{stackrel}
+\usepackage{epstopdf}
+\usepackage{url}
+% 
+%^^%
+\usepackage{cite}
+%\usepackage[final]{graphicx}
+% \usepackage{subfig}
+% \usepackage{enumitem}
+\usepackage{tikz}
+%\usetikzlibrary{shapes,arrows,positioning}
+\usetikzlibrary{automata,arrows,positioning,calc}
+\usepackage{bigints}
+% \usepackage{lineno} % To obtain line numbers
+\usepackage{bbm}
+ \usepackage{dsfont}
+ \newcolumntype{L}[1]{>{\raggedright\arraybackslash}m{#1}} % Left-aligned with vertical centering
+\newcolumntype{C}[1]{>{\centering\arraybackslash}m{#1}}  
+% *** GRAPHICS RELATED PACKAGES ***
+%
+\ifCLASSINFOpdf
+  % \usepackage[pdftex]{graphicx}
+  % declare the path(s) where your graphic files are
+  % \graphicspath{{../pdf/}{../jpeg/}}
+  % and their extensions so you won't have to specify these with
+  % every instance of \includegraphics
+  % \DeclareGraphicsExtensions{.pdf,.jpeg,.png}
+\else
+  % or other class option (dvipsone, dvipdf, if not using dvips). graphicx
+  % will default to the driver specified in the system graphics.cfg if no
+  % driver is specified.
+  % \usepackage[dvips]{graphicx}
+  % declare the path(s) where your graphic files are
+  % \graphicspath{{../eps/}}
+  % and their extensions so you won't have to specify these with
+  % every instance of \includegraphics
+  % \DeclareGraphicsExtensions{.eps}
+\fi
+
+
+%\hyphenation{op-tical net-works semi-conduc-tor}
+
+\input{acronyms.tex}
+
+\begin{document}
+
+\title{Title}
+%
+\author{
+    Johannes Konrad,
+    Maximilian Schäfer, and
+    Fardad Vakilipoor
+    \\
+    % \IEEEauthorrefmark{1}Friedrich-Alexander-Universität Erlangen-Nürnberg, Erlangen, Germany\\
+    % \IEEEauthorrefmark{2}Hochschule Geisenheim University, Geisenheim, Germany
+\thanks{This paper was presented in part at the 13th ACM International Conference on Nanoscale Computing and Communication(cite the confi here) [DOI: add doi later.}
+\thanks{Johannes Konrad,
+    Maximilian Sch\"afer, and
+    Fardad Vakilipoor are with the Institute for Digital Communications, Friedrich-Alexander-Universität Erlangen-Nürnberg, Germany (e-mail: johannes.konrad@fau.de).}}
+
+% and the end of the author line. i.e., if you had this:
+% 
+% \author{....lastname \thanks{...} \thanks{...} }
+%                     ^------------^------------^----Do not want these spaces!
+%
+% a space would be appended to the last name and could cause every name on that
+% line to be shifted left slightly. This is one of those "LaTeX things". For
+% instance, "\textbf{A} \textbf{B}" will typeset as "A B" not "AB". To get
+% "AB" then you have to do: "\textbf{A}\textbf{B}"
+% \thanks is no different in this regard, so shield the last } of each \thanks
+% that ends a line with a % and do not let a space in before the next \thanks.
+% Spaces after \IEEEmembership other than the last one are OK (and needed) as
+% you are supposed to have spaces between the names. For what it is worth,
+% this is a minor point as most people would not even notice if the said evil
+% space somehow managed to creep in.
+
+
+% The paper headers
+\markboth{Konrad \MakeLowercase{et al.}: title (somehow abbreviated terms, or shorter version}%
+{Konrad \MakeLowercase{\emph{et al.}}}
+
+% make the title area
+\maketitle
+
+% As a general rule, do not put math, special symbols or citations
+% in the abstract or keywords.
+\begin{abstract}
+%
+Abstract...
+\end{abstract}
+%%
+%%
+\begin{IEEEkeywords}
+molecular communication, agriculture, pest control.
+\end{IEEEkeywords}
+%%
+%%
+\acresetall
+\IEEEpeerreviewmaketitle
+%%
+\section{Introduction}
+Introduce \\
+Motivate \\
+Literature Review\\
+List Contributions (bullet points)\\
+Outline of the paper\\
+%
+% The remainder of the paper is organized as follows. Section~\ref{sec:agriMC} provides background on agricultural \ac{MC}; Section~\ref{sec:hipvMC} introduces the \ac{HIPV}-based \ac{MC} system and \ac{TX} design; Section~\ref{sec:system} derives the Reynolds-averaged advection-diffusion channel model; Section~\ref{sec:Analytical} presents its closed-form analytical solution under both ground boundary conditions; Section~\ref{sec:CEI} introduces the \ac{CEI} coverage metric; Section~\ref{sec:simulation} presents simulation results across \ac{TX} arrangements, release times, dates, and locations; and Section~\ref{sec:conclusion} concludes the paper.
+%%
+%%
+\section{Section 1}
+
+\section{Section 2}
+
+\section{Section 3}
+%%
+%%
+\section{Conclusion}\label{sec:conclusion}
+
+%
+% \appendices
+
+\ifCLASSOPTIONcaptionsoff
+  \newpage
+\fi
+\bibliographystyle{IEEEtran}
+\bibliography{Bibliography}
+
+
+\end{document}
