@@ -1,0 +1,4 @@
+- First verify model, either Table equation. Directly cite the point where the information is.
+- Memory, justify story with paper, justifing solution
+- Movment over shape changes. Endliche Menge an zuständen die fix geschickt gewählt werden muss, dass sie immer zusammenpassen
+- Collective movement with molecule exchange
