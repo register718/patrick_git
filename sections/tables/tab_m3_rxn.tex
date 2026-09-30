@@ -1,6 +1,6 @@
 \begin{table*}[!t]
 \centering
-\caption{Module~3 reactions in the default configuration. GEF$_R$ and GAP are the cytosolic RasG exchange factor and GTPase-activating protein (asterisk: active form); $\mathrm{RasG}^{\mathrm{GTP/GDP}}$ are the membrane-bound Ras states; B is the substrate of the delayed brake (3.3c--e), activated by PKBR1$^*$ from Module~8.}
+\caption{Module~3 reactions in the default configuration. GEF$_R$ and GAP are the cytosolic RasG exchange factor and GTPase-activating protein (asterisk: active form); $\mathrm{RasG}^{\mathrm{GTP/GDP}}$ are the membrane-bound Ras states; B is the substrate of the delayed brake (3.3c--e), activated by PKBR1$^*$ from Module~8. A coloured reaction is the one to which the equally coloured statement in the text and the equally coloured passage in the cited paper refer; a small square appends a further statement.}
 \label{tab:m3rxn}
 \footnotesize
 \renewcommand{\arraystretch}{1.15}
@@ -8,18 +8,18 @@
 \toprule
 ID & Reaction & Propensity (rate law)\\
 \midrule
-3.1 & $\mathrm{G}_{\beta\gamma}+\mathrm{GEF_R} \to \mathrm{GEF_R^*}+\mathrm{G}_{\beta\gamma}$ & $k_{E,\mathrm{on}}[\mathrm{G}_{\beta\gamma}][\mathrm{GEF_R}]$ \\
-3.2 & $\mathrm{GEF_R^*} \to \mathrm{GEF_R}$ & $k_{E,\mathrm{off}}[\mathrm{GEF_R^*}]$ \\
-3.3 & $\mathrm{GEF_R^*}+\mathrm{RasG}^{\mathrm{GDP}} \to \mathrm{RasG}^{\mathrm{GTP}}+\mathrm{GEF_R^*}$ & $k_{R,\mathrm{on}}[\mathrm{GEF_R^*}][\mathrm{RasG}^{\mathrm{GDP}}]$ \\
-3.4e & $\mathrm{G}_{\beta\gamma}+\mathrm{GAP} \to \mathrm{GAP^*}+\mathrm{G}_{\beta\gamma}$ & $k_{I,\mathrm{on}}[\mathrm{G}_{\beta\gamma}][\mathrm{GAP}]$ \\
-3.4b & $\mathrm{GAP} \to \mathrm{GAP^*}$ & $k_{I,\mathrm{b}}[\mathrm{GAP}]$ \\
+\mkn{M3-kort}{M3-prop,M3-legi}{3.1} & \mkn{M3-kort}{M3-prop,M3-legi}{$\mathrm{G}_{\beta\gamma}+\mathrm{GEF_R} \to \mathrm{GEF_R^*}+\mathrm{G}_{\beta\gamma}$} & $k_{E,\mathrm{on}}[\mathrm{G}_{\beta\gamma}][\mathrm{GEF_R}]$ \\
+\mkt{M3-peak-fast}{3.2} & \mkt{M3-peak-fast}{$\mathrm{GEF_R^*} \to \mathrm{GEF_R}$} & $k_{E,\mathrm{off}}[\mathrm{GEF_R^*}]$ \\
+\mkn{M3-gefr}{M3-trans}{3.3} & \mkn{M3-gefr}{M3-trans}{$\mathrm{GEF_R^*}+\mathrm{RasG}^{\mathrm{GDP}} \to \mathrm{RasG}^{\mathrm{GTP}}+\mathrm{GEF_R^*}$} & $k_{R,\mathrm{on}}[\mathrm{GEF_R^*}][\mathrm{RasG}^{\mathrm{GDP}}]$ \\
+\mkn{M3-prop}{M3-gap-glob,M3-legi,M3-iffl}{3.4e} & \mkn{M3-prop}{M3-gap-glob,M3-legi,M3-iffl}{$\mathrm{G}_{\beta\gamma}+\mathrm{GAP} \to \mathrm{GAP^*}+\mathrm{G}_{\beta\gamma}$} & $k_{I,\mathrm{on}}[\mathrm{G}_{\beta\gamma}][\mathrm{GAP}]$ \\
+\mkt{M3-basal-gap}{3.4b} & \mkt{M3-basal-gap}{$\mathrm{GAP} \to \mathrm{GAP^*}$} & $k_{I,\mathrm{b}}[\mathrm{GAP}]$ \\
 3.4f & $\mathrm{R}_p\mathrm{C}+\mathrm{GAP} \to \mathrm{GAP^*}+\mathrm{R}_p\mathrm{C}$ & $k_{I,p}[\mathrm{R}_p\mathrm{C}][\mathrm{GAP}]\ \ (k_{I,p}=0)$ \\
-3.5 & $\mathrm{GAP^*} \to \mathrm{GAP}$ & $k_{I,\mathrm{off}}[\mathrm{GAP^*}]$ \\
-3.7z & $\mathrm{GAP^*}+\mathrm{RasG}^{\mathrm{GTP}} \to \mathrm{RasG}^{\mathrm{GDP}}+\mathrm{GAP^*}$ & $k_\mathrm{cat}[\mathrm{GAP^*}]\,\dfrac{[\mathrm{RasG}^{\mathrm{GTP}}]}{K_\mathrm{NF1}+[\mathrm{RasG}^{\mathrm{GTP}}]}$ \\
-3.3b & $\mathrm{RasG}^{\mathrm{GDP}}+\mathrm{PIP3} \to \mathrm{RasG}^{\mathrm{GTP}}+\mathrm{PIP3}$ & $k_\mathrm{PIP3}[\mathrm{PIP3}][\mathrm{RasG}^{\mathrm{GDP}}]$ \\
-3.3c & $\mathrm{PKBR1}^*+\mathrm{B} \to \mathrm{B}^*+\mathrm{PKBR1}^*$ & $k_{B,\mathrm{on}}[\mathrm{PKBR1}^*][\mathrm{B}]$ \\
-3.3d & $\mathrm{B}^* \to \mathrm{B}$ & $k_{B,\mathrm{off}}[\mathrm{B}^*]$ \\
-3.3e & $\mathrm{B}^*+\mathrm{RasG}^{\mathrm{GTP}} \to \mathrm{RasG}^{\mathrm{GDP}}+\mathrm{B}^*$ & $k_{B,\mathrm{hyd}}[\mathrm{B}^*][\mathrm{RasG}^{\mathrm{GTP}}]$ \\
+\mkt{M3-slower-inh}{3.5} & \mkt{M3-slower-inh}{$\mathrm{GAP^*} \to \mathrm{GAP}$} & $k_{I,\mathrm{off}}[\mathrm{GAP^*}]$ \\
+\mkn{M3-rect}{M3-nf1kin}{3.7z} & \mkn{M3-rect}{M3-nf1kin}{$\mathrm{GAP^*}+\mathrm{RasG}^{\mathrm{GTP}} \to \mathrm{RasG}^{\mathrm{GDP}}+\mathrm{GAP^*}$} & $k_\mathrm{cat}[\mathrm{GAP^*}]\,\dfrac{[\mathrm{RasG}^{\mathrm{GTP}}]}{K_\mathrm{NF1}+[\mathrm{RasG}^{\mathrm{GTP}}]}$ \\
+\mkn{M3-pfb}{M3-kat}{3.3b} & \mkn{M3-pfb}{M3-kat}{$\mathrm{RasG}^{\mathrm{GDP}}+\mathrm{PIP3} \to \mathrm{RasG}^{\mathrm{GTP}}+\mathrm{PIP3}$} & $k_\mathrm{PIP3}[\mathrm{PIP3}][\mathrm{RasG}^{\mathrm{GDP}}]$ \\
+\mkn{M3-sca1}{M3-miao-ext}{3.3c} & \mkn{M3-sca1}{M3-miao-ext}{$\mathrm{PKBR1}^*+\mathrm{B} \to \mathrm{B}^*+\mathrm{PKBR1}^*$} & $k_{B,\mathrm{on}}[\mathrm{PKBR1}^*][\mathrm{B}]$ \\
+\mkt{M3-miao-ext}{3.3d} & \mkt{M3-miao-ext}{$\mathrm{B}^* \to \mathrm{B}$} & $k_{B,\mathrm{off}}[\mathrm{B}^*]$ \\
+\mkn{M3-ch-adapt}{M3-miao-ext,M3-miao-mech}{3.3e} & \mkn{M3-ch-adapt}{M3-miao-ext,M3-miao-mech}{$\mathrm{B}^*+\mathrm{RasG}^{\mathrm{GTP}} \to \mathrm{RasG}^{\mathrm{GDP}}+\mathrm{B}^*$} & $k_{B,\mathrm{hyd}}[\mathrm{B}^*][\mathrm{RasG}^{\mathrm{GTP}}]$ \\
 \bottomrule
 \end{tabularx}
 \end{table*}
