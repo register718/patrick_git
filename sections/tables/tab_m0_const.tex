@@ -11,8 +11,8 @@ Symbol & Value & Unit & Basis & Meaning, justification, source\\
 $H_{\max}$ & \num{100} & $\mathrm{molec/voxel}$ & E & Steady-state level of the abstract \emph{Hunger} variable; held at full developmental competence. \\
 $k_H$ & \num{2.8e-4} & $\mathrm{s^{-1}}$ & E & Relaxation of Hunger ($\tau\approx 1$\,h); the production rate is $H_{\max}k_H$. A slow developmental clock, not a measured rate. \\
 $H_{1/2},\ n_c$ & \num{60},\ 4 & $\mathrm{molec/voxel}$ & E & Half-competence level and steepness of the competence gate; $c(H_{\max})=0.885$. \\
-$k_0$ & \num{3.5} & $\mathrm{molec\,s^{-1}\,cell^{-1}}$ & C & Ignition (seed) rate at full competence. Set on the stochastic engine so that the mean inter-pulse interval of an isolated cell is 726\,s; target \mkt{1}{{$\approx\!12$}\,min}~\cite{ford2023}. \\
-$k_1$ & \num{0.08} & $\mathrm{molec^{-1}s^{-1}}$ & C & Autocatalysis ($2\mathrm X\to3\mathrm X$); creates the excitation threshold ($\approx\!23$ molecules). \\
+$k_0$ & \num{3.5} & $\mathrm{molec\,s^{-1}\,cell^{-1}}$ & C & Ignition (seed) rate before the competence gate ($c(H_{\max})=0.885$). Set on the stochastic engine so that the mean inter-pulse interval of an isolated cell is 726\,s; target \mkt{1}{{$\approx\!12$}\,min}~\cite{ford2023}. \\
+$k_1$ & \num{0.08} & $\mathrm{molec^{-1}s^{-1}}$ & C & Autocatalysis ($2\mathrm X\to3\mathrm X$); creates the excitation threshold ($\approx\!24$ molecules). \\
 $k_6$ & \num{5e-4} & $\mathrm{molec^{-2}s^{-1}}$ & C & Cubic self-limitation; bounds the spike at $\approx\!456$ molecules per cell. \\
 $k_2$ & \num{1} & $\mathrm{s^{-1}}$ & C & Basal removal of X (relaxation time 1\,s). \\
 $k_3$ & \num{6.25e-5} & $\mathrm{molec^{-1}s^{-1}}$ & C & Spike-triggered production of the recovery variable Y. \\
