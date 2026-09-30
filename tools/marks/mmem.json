@@ -1,0 +1,27 @@
+{
+ "module": "Mmem",
+ "claims": {
+  "mem_dir": {
+   "text": "cells keep directed motion in the back of a wave for the natural 6 min period, reverse for longer periods (memory)",
+   "color": 1
+  },
+  "mem_carrier": {
+   "text": "the molecular basis of the cellular memory remains to be determined",
+   "color": 2
+  }
+ },
+ "papers": {
+  "skoge2014": [
+   {
+    "claim": "mem_dir",
+    "page": 1,
+    "start": "We find that cells exhibit memory and maintain directed motion toward the wave source in the back of the wave for the natural period of 6 min, but increasingly reverse direction for longer wave periods"
+   },
+   {
+    "claim": "mem_carrier",
+    "page": 4,
+    "start": "Although the molecular basis of cellular memory remains to be determined"
+   }
+  ]
+ }
+}

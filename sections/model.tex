@@ -21,7 +21,7 @@ Intracellular cAMP is exported (Module~9), degraded intracellularly and feeds ba
 \paragraph{Spatial discretisation and stochastic engine.}
 The domain is a square lattice with voxel edge $2\,\mu$m, so that one voxel has a volume of $8\,\mu\mathrm{m}^3$ and $1\,\mu\mathrm{M}$ corresponds to $M=4817.6$ molecules per voxel.
 A cell occupies $N_\mathrm{vox}=13$ voxels (a $3\times3$ block plus one voxel on each side), i.e.\ $104\,\mu\mathrm{m}^3$.
-In every time step of $\Delta t=2$\,ms, each voxel runs an exact stochastic simulation of its reactions up to $\Delta t$~\cite{gillespie1977}, after which molecules move to neighbouring voxels; the diffusion step requires $D\Delta t/\Delta x^2\le0.25$, which holds for the fastest species, cAMP ($D=350\,\mu\mathrm{m^2/s}$, value $0.175$).
+In every time step of $\Delta t=2$\,ms, each voxel runs \mk{Mgen-ssa}{an exact stochastic simulation of its reactions} up to $\Delta t$~\cite{gillespie1977}, after which molecules move to neighbouring voxels; the diffusion step requires $D\Delta t/\Delta x^2\le0.25$, which holds for the fastest species, cAMP ($D=350\,\mu\mathrm{m^2/s}$, value $0.175$).
 Membrane-bound and cytosolic species of the cell are confined to its voxels, whereas extracellular species (cAMP$_e$, PdsA$_e$, PdiA and their complex) live on the world lattice, which they leave at the domain boundary.
 Because the cost of a step scales with the total propensity, uniform rate multipliers change the run time.
 
