@@ -8,19 +8,19 @@
 \toprule
 Symbol & Value & Unit & Basis & Meaning, justification, source\\
 \midrule
-$R_\mathrm{tot}$ & \num{3077} & $\mathrm{molec/voxel}$ & E & 40\,001 receptors per cell ($0.64\,\mu$M). Cells developed for 4\,h carry about $7\times10^4$ binding sites~\cite{johnson1991}, and Biswas et al.\ use $7\times10^4\pm5\times10^3$~\cite{biswas2021}; the model value is a lower design choice. \\
-$k_\mathrm{on}$ & \num{7.5} & $\mu\mathrm{M}^{-1}\mathrm{s}^{-1}$ & L & Fast high-affinity class H of Ref.~\cite{biswas2021}, Table~1, taken from~\cite{vanhaastert1984}. \\
-$k_\mathrm{off}$ & \num{0.45} & $\mathrm{s^{-1}}$ & L & Gives $K_d=k_\mathrm{off}/k_\mathrm{on}=60$\,nM, the fast high-affinity class ($\approx\!40$\,\% of sites) of~\cite{vanhaastert1984}. \\
-$\varepsilon_p$ & \num{0.125} &  & C & Ratio of on-rates of R$_p$ and R. Chosen so that $K_{d,p}=480$\,nM, close to the 450\,nM low-affinity class of~\cite{vanhaastert1984}; the loss of affinity on phosphorylation is documented in~\cite{caterina1995b,caterina1995a}. \\
+$R_\mathrm{tot}$ & \num{3077} & $\mathrm{molec/voxel}$ & E & 40\,001 receptors per cell ($0.64\,\mu$M). \mkt{M1-rtot}{Cells developed for 4\,h carry about $7\times10^4$ binding sites}~\cite{johnson1991}\mkt{M1-rtot}{, and Biswas et al.~use $7\times10^4\pm5\times10^3$}~\cite{biswas2021}; the model value is a lower design choice. \\
+$k_\mathrm{on}$ & \num{7.5} & $\mu\mathrm{M}^{-1}\mathrm{s}^{-1}$ & L & \mkt{M1-kon-tab}{Fast high-affinity class H of Ref.}~\cite{biswas2021}\mkt{M1-kon-tab}{, Table~1, taken from}~\cite{vanhaastert1984}. \\
+$k_\mathrm{off}$ & \num{0.45} & $\mathrm{s^{-1}}$ & L & Gives $K_d=k_\mathrm{off}/k_\mathrm{on}=60$\,nM, \mkt{M1-fast-high}{the fast high-affinity class ($\approx\!40$\,\% of sites) of}~\cite{vanhaastert1984}. \\
+$\varepsilon_p$ & \num{0.125} &  & C & Ratio of on-rates of R$_p$ and R. Chosen so that $K_{d,p}=480$\,nM, which puts R$_p$C at about 30\,\% occupancy at the peak of the simulated wave ($\approx\!204$\,nM at the sender), and close to \mkt{M1-fast-low}{the 450\,nM low-affinity class of}~\cite{vanhaastert1984}; \mkt{M1-aff-red}{the loss of affinity on phosphorylation is documented in}~\cite{caterina1995b,caterina1995a}. \\
 $k_{\mathrm{on},p}$ & \num{0.938} & $\mu\mathrm{M}^{-1}\mathrm{s}^{-1}$ & D & $\varepsilon_p k_\mathrm{on}$. The affinity loss is carried by the on-rate, so R$_p$ still binds and releases cAMP. \\
-$k_{\mathrm{off},p}$ & \num{0.45} & $\mathrm{s^{-1}}$ & L & Equal to $k_\mathrm{off}$; the fast dissociation half-life of $\approx\!1$\,s is common to both fast classes~\cite{vanhaastert1984}. \\
-$k_\mathrm{ph}$ & \num{0.02} & $\mathrm{s^{-1}}$ & L & Agonist-induced phosphorylation ($t_{1/2}=35$\,s) against $t_{1/2}\approx45$\,s at saturating cAMP in~\cite{vaughan1988}. \\
-$k_{\mathrm{ph}0}$ & \num{5e-4} & $\mathrm{s^{-1}}$ & E & Ligand-independent phosphorylation (40$\times$ slower); a basal component exists~\cite{vaughan1988,hereld1994}. \\
-$k_\mathrm{dp}$ & \num{5e-3} & $\mathrm{s^{-1}}$ & C & Dephosphorylation of the bound receptor ($t_{1/2}=139$\,s). Sets the phosphorylated fraction $k_\mathrm{ph}/(k_\mathrm{ph}+k_\mathrm{dp})=80\,\%$ under sustained saturating cAMP, matching the $>\!80\,\%$ loss of high-affinity binding~\cite{vanhaastert1984,johnson1991}. \\
-$k_\mathrm{b}$ & \num{5.78e-3} & $\mathrm{s^{-1}}$ & L & $t_{1/2}=2$\,min, the receptor dephosphorylation half-time after removal of the stimulus~\cite{vaughan1988}. \\
+$k_{\mathrm{off},p}$ & \num{0.45} & $\mathrm{s^{-1}}$ & L & Equal to $k_\mathrm{off}$; \mkt{M1-koff1s}{the fast dissociation half-life of $\approx\!1$\,s is common to both fast classes}~\cite{vanhaastert1984}. \\
+$k_\mathrm{ph}$ & \num{0.02} & $\mathrm{s^{-1}}$ & D & Agonist-induced phosphorylation ($t_{1/2}=35$\,s), of the order of the measured \mkt{M1-phos45}{$t_{1/2}\approx45$\,s at saturating cAMP in}~\cite{vaughan1988}. \\
+$k_{\mathrm{ph}0}$ & \num{5e-4} & $\mathrm{s^{-1}}$ & E & Ligand-independent phosphorylation (40$\times$ slower); \mkt{M1-basal}{a basal component exists}~\cite{vaughan1988,hereld1994}. \\
+$k_\mathrm{dp}$ & \num{5e-3} & $\mathrm{s^{-1}}$ & C & Dephosphorylation of the bound receptor ($t_{1/2}=139$\,s). Sets the phosphorylated fraction $k_\mathrm{ph}/(k_\mathrm{ph}+k_\mathrm{dp})=80\,\%$ under sustained saturating cAMP, matching \mkt{M1-loss80}{the loss of more than $80\,\%$ of the surface binding sites}~\cite{johnson1991} and \mkt{M1-h10}{the fall of the high-affinity fraction to $\approx\!10\,\%$}~\cite{vanhaastert1984}. \\
+$k_\mathrm{b}$ & \num{5.78e-3} & $\mathrm{s^{-1}}$ & L & $t_{1/2}=2$\,min, \mkt{M1-deph2}{the receptor dephosphorylation half-time after removal of the stimulus}~\cite{vaughan1988}. \\
 $k_A,\ k_{A,\mathrm{off}}$ & \num{0.07},\ \num{0.02} & $\mu\mathrm{M}^{-1}\mathrm{s}^{-1},\ \mathrm{s^{-1}}$ & E & Adapter charged by RC ($\tau=50$\,s); dormant in the default network (see text). \\
 $[\mathrm{A}]_\mathrm{tot}$ & \num{154} & $\mathrm{molec/voxel}$ & E & Adapter pool. \\
-$D_{\mathrm{R}}$ & \num{0.024} & $\mu\mathrm{m^2/s}$ & L & Common lateral diffusion constant of transmembrane proteins in \emph{Dictyostelium}, $0.024\pm0.004\,\mu\mathrm{m}^2/\mathrm{s}$ ($n=27$)~\cite{takebayashi2023}; Biswas et al.\ use $0.027$~\cite{biswas2021,ueda2001}. \\
+$D_{\mathrm{R}}$ & \num{0.024} & $\mu\mathrm{m^2/s}$ & L & \mkt{M1-dif-t}{Common lateral diffusion constant of transmembrane proteins in \emph{Dictyostelium}, $0.024\pm0.004\,\mu\mathrm{m}^2/\mathrm{s}$ ($n=27$)}~\cite{takebayashi2023}; \mkt{M1-dif-u}{Biswas et al.~use $0.027$}~\cite{biswas2021,ueda2001}. \\
 $D_{\mathrm{A}}$ & \num{10} & $\mu\mathrm{m^2/s}$ & E & Generic cytosolic value. \\
 \bottomrule
 \end{tabularx}

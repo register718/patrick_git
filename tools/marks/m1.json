@@ -1,0 +1,366 @@
+{
+ "module": "M1",
+ "claims": {
+  "slow4": {
+   "text": "about 4 % of the sites dissociate slowly (Kd = 12.5 nM)",
+   "color": 1
+  },
+  "fast_high": {
+   "text": "about 40 % of the sites are fast dissociating, high affinity (Kd = 60 nM)",
+   "color": 2
+  },
+  "fast_low": {
+   "text": "about 60 % of the sites are fast dissociating, low affinity (Kd = 450 nM)",
+   "color": 3
+  },
+  "conv9": {
+   "text": "under cAMP high-affinity sites convert to low-affinity ones, first-order, half-life about 9 s",
+   "color": 4
+  },
+  "h10": {
+   "text": "the fraction of high-affinity sites falls from about 40 % to about 10 % under cAMP",
+   "color": 5
+  },
+  "koff1s": {
+   "text": "high- and low-affinity fast sites both dissociate with a half-life of about 1 s",
+   "color": 6
+  },
+  "ratio75": {
+   "text": "Kd ratio of the two fast classes: 450/60 = 7.5",
+   "color": 7
+  },
+  "kon_tab": {
+   "text": "k_on = 7.5 /uM/s and k_off = 0.45 /s of the high-affinity class H (Table 1 of Biswas, from Van Haastert 1984 Table II)",
+   "color": 8
+  },
+  "ser_phos": {
+   "text": "occupancy induces phosphorylation of serine clusters in the C-terminal domain",
+   "color": 9
+  },
+  "phos45": {
+   "text": "agonist-induced phosphorylation at saturating cAMP: t1/2 = 45 s",
+   "color": 1
+  },
+  "basal": {
+   "text": "ligand-independent basal phosphorylation exists",
+   "color": 2
+  },
+  "deph2": {
+   "text": "dephosphorylation after removal of the stimulus: half-time 2 min",
+   "color": 3
+  },
+  "llb_corr": {
+   "text": "loss of ligand binding is correlated with receptor phosphorylation",
+   "color": 4
+  },
+  "aff_red": {
+   "text": "phosphorylation reduces the affinity of the receptor, cAR1 remains on the surface",
+   "color": 5
+  },
+  "aff35": {
+   "text": "3-5-fold reduction in affinity of the major low-affinity class",
+   "color": 6
+  },
+  "loss80": {
+   "text": "prolonged cAMP stimulation removes more than 80 % of the surface binding sites",
+   "color": 7
+  },
+  "bis_red": {
+   "text": "reduced-order receptor model of Biswas et al. (Table 1 rows 27/28), R + cAMP <-> RC",
+   "color": 9
+  },
+  "bis_full": {
+   "text": "full multi-affinity receptor model of Biswas et al. (Table 1, 10 species, rows 1-26)",
+   "color": 1
+  },
+  "rtot": {
+   "text": "cells developed for 4 h carry about 7e4 binding sites; Biswas use 70,000 +/- 5,000",
+   "color": 2
+  },
+  "dif_t": {
+   "text": "mean lateral diffusion of 27 transmembrane proteins in Dictyostelium: 0.024 +/- 0.004 um2/s",
+   "color": 8
+  },
+  "dif_u": {
+   "text": "diffusion constant of occupied cAR1 about 2.7e-2 um2/s (Ueda 2001; used by Biswas)",
+   "color": 3
+  },
+  "fcd": {
+   "text": "the magnitude of the cAMP relay response is set by the fold change of extracellular cAMP",
+   "color": 4
+  },
+  "kim_ok": {
+   "text": "phosphorylation-deficient receptors still adapt and mediate chemotaxis",
+   "color": 5
+  }
+ },
+ "papers": {
+  "vanhaastert1984": [
+   {
+    "claim": "slow4",
+    "page": 1,
+    "start": "In the absence of cAMP about 4% of the sites are slowly",
+    "end": "12.5 nM"
+   },
+   {
+    "claim": "fast_high",
+    "page": 1,
+    "start": "about 40% are fast dissociating with high affinity",
+    "end": "60 nM"
+   },
+   {
+    "claim": "fast_low",
+    "page": 1,
+    "start": "and about 60% are fast dissociating with low affinity",
+    "end": "450 nM"
+   },
+   {
+    "claim": "h10",
+    "page": 1,
+    "start": "The number of high-affinity sites decreases to a minimum of about 10%",
+    "end": "to about 90%"
+   },
+   {
+    "claim": "conv9",
+    "page": 1,
+    "start": "This transition of binding types shows first-order",
+    "end": "of about 9"
+   },
+   {
+    "claim": "koff1s",
+    "page": 1,
+    "start": "affinity binding sites are both fast dissociating with a half-life of about 1 s"
+   },
+   {
+    "claim": "ratio75",
+    "page": 8,
+    "start": "Furthermore, we know that",
+    "end": "a = 7.5"
+   },
+   {
+    "claim": "kon_tab",
+    "page": 7,
+    "start": "",
+    "rect": [
+     312,
+     402,
+     442,
+     434
+    ],
+    "label": "kon_tab table rows"
+   }
+  ],
+  "vaughan1988": [
+   {
+    "claim": "ser_phos",
+    "page": 1,
+    "start": "while conversion of the R to D forms, induced by the chemoattractant, is accompanied by at least a 4-fold increase in the level of phosphorylation"
+   },
+   {
+    "claim": "phos45",
+    "page": 1,
+    "start": "When cells are stimulated with saturating levels of cAMP, increased phosphorylation is detectable within 5 s",
+    "end": "of 45 s"
+   },
+   {
+    "claim": "basal",
+    "page": 1,
+    "start": "The R form is phosphorylated in a ligand-independent manner"
+   },
+   {
+    "claim": "basal",
+    "page": 3,
+    "start": "there is a basal amount of receptor phosphorylation in unstimulated cells"
+   },
+   {
+    "claim": "deph2",
+    "page": 1,
+    "start": "Dephosphorylation of receptor, initiated by removal of the stimulus, is detectable within 30 s, has a half-time of 2 min"
+   }
+  ],
+  "hereld1994": [
+   {
+    "claim": "ser_phos",
+    "page": 1,
+    "start": "Biochemical analyses indicate the electrophoretic mobility shift is caused by phosphorylation of serine",
+    "end": "cytoplasmic domain"
+   },
+   {
+    "claim": "ser_phos",
+    "page": 1,
+    "start": "the stimulus induces the addition of approximately two phosphates to cluster 1 and one to cluster 2"
+   },
+   {
+    "claim": "basal",
+    "page": 1,
+    "start": "basal phosphorylation occurs predominantly in cluster",
+    "end": "lesser extent in cluster"
+   }
+  ],
+  "caterina1995a": [
+   {
+    "claim": "llb_corr",
+    "page": 1,
+    "start": "under all conditions tested, the extent of loss of binding is correlated",
+    "end": "altered mobility form"
+   }
+  ],
+  "caterina1995b": [
+   {
+    "claim": "aff_red",
+    "page": 1,
+    "start": "this apparent loss of ligand binding is largely due to a significant reduction in the affinity of cARl for cAMP"
+   },
+   {
+    "claim": "aff_red",
+    "page": 1,
+    "start": "proteolysis of intact cells and immunofluorescence suggested that cARl remains on the cell-surface",
+    "end": "following cAMP treatment"
+   },
+   {
+    "claim": "llb_corr",
+    "page": 1,
+    "start": "agonist-induced loss of ligand binding is impaired in cARl mutants lacking a cluster of cytoplasmic serine residues"
+   },
+   {
+    "claim": "aff35",
+    "page": 3,
+    "start": "there is a 3-5-fold reduction in the cAMP affinity of the major",
+    "end": "without an appreciable loss of binding sites"
+   },
+   {
+    "claim": "aff35",
+    "page": 6,
+    "start": "appears to involve a 3-5-fold reduction in the affinity of the",
+    "end": "receptor form"
+   }
+  ],
+  "johnson1991": [
+   {
+    "claim": "rtot",
+    "page": 3,
+    "start": "Developed B18 cells (•) express about 7",
+    "end": "binding sites/cell"
+   },
+   {
+    "claim": "rtot",
+    "page": 3,
+    "start": "veloped for 4 h expressed about 7 X 104 sites/cell"
+   },
+   {
+    "claim": "loss80",
+    "page": 1,
+    "start": "the number of surface cAMP binding sites in cARl cells was reduced by over",
+    "end": "80%"
+   },
+   {
+    "claim": "loss80",
+    "page": 5,
+    "start": "a maximum loss of 80% of surface binding",
+    "end": "sites"
+   }
+  ],
+  "kim1997": [
+   {
+    "claim": "kim_ok",
+    "page": 1,
+    "start": "completely prevented agonist-induced loss of ligand binding but did not impair the adaptation of several receptor-mediated responses",
+    "end": "actin polymerization"
+   }
+  ],
+  "kamino2017": [
+   {
+    "claim": "fcd",
+    "page": 1,
+    "start": "the magnitude of the cAMP relay response of individual cells is determined by fold change in the extracellular cAMP concentrations"
+   }
+  ],
+  "takebayashi2023": [
+   {
+    "claim": "dif_t",
+    "page": 2,
+    "start": "The average diffusion coefficient for all 27 proteins was 0.024",
+    "end": "(mean±s.d.)"
+   }
+  ],
+  "ueda2001": [
+   {
+    "claim": "dif_u",
+    "page": 2,
+    "start": "The diffusion constant calculated from the motions of individual occupied receptors was about"
+   }
+  ],
+  "biswas2021": [
+   {
+    "claim": "aff35",
+    "page": 5,
+    "start": "a 3– 5-fold decrease in the binding affinity of the low affinity class (L) has been reported"
+   },
+   {
+    "claim": "bis_full",
+    "page": 5,
+    "start": "Our complete receptor model consists of 10 reacting species and 26 reactions in total"
+   },
+   {
+    "claim": "bis_full",
+    "page": 7,
+    "start": "",
+    "rect": [
+     36,
+     170,
+     556,
+     529
+    ],
+    "label": "bis_full table rows"
+   },
+   {
+    "claim": "kon_tab",
+    "page": 7,
+    "start": "Parameter values for reaction no. 1–10 are from",
+    "end": "[42]"
+   },
+   {
+    "claim": "kon_tab",
+    "page": 7,
+    "start": "",
+    "rect": [
+     36,
+     145,
+     556,
+     170
+    ],
+    "label": "kon_tab table rows"
+   },
+   {
+    "claim": "rtot",
+    "page": 7,
+    "start": "The total number of receptor molecules followed a Gaussian distribution",
+    "end": "5,000 molecules, respectively"
+   },
+   {
+    "claim": "dif_u",
+    "page": 7,
+    "start": "The diffusion constants for all the GPCRs are assumed to be",
+    "end": "[45]"
+   },
+   {
+    "claim": "bis_red",
+    "page": 7,
+    "start": "order model that could capture the essential spatiotemporal dynamics",
+    "end": "single occupied (R:C) state"
+   },
+   {
+    "claim": "bis_red",
+    "page": 7,
+    "start": "",
+    "rect": [
+     36,
+     529,
+     556,
+     562
+    ],
+    "label": "bis_red table rows"
+   }
+  ]
+ }
+}
