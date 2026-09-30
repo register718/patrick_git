@@ -1,0 +1,17 @@
+% Colour marks: \mk{<colour id>}{<text>} highlights a statement of the model text in the colour of the
+% passage that supports it in the cited paper (sources_marked/<module>/<paper>.pdf).
+% The colour ids and RGB values are those of tools/mark_pdfs.py; the claim behind each id is listed
+% per module in tools/marks/<module>.json.  Remove the \input{marks} line to typeset without marks.
+\definecolor{mk1}{RGB}{255,235,59}   % yellow
+\definecolor{mk2}{RGB}{139,220,110}  % green
+\definecolor{mk3}{RGB}{100,215,240}  % cyan
+\definecolor{mk4}{RGB}{255,150,200}  % pink
+\definecolor{mk5}{RGB}{255,178,80}   % orange
+\definecolor{mk6}{RGB}{200,160,255}  % violet
+\definecolor{mk7}{RGB}{215,180,130}  % tan
+\definecolor{mk8}{RGB}{140,170,255}  % blue
+\definecolor{mk9}{RGB}{255,120,110}  % salmon
+\definecolor{mk10}{RGB}{190,190,190} % grey
+\newcommand{\mk}[2]{\begingroup\sethlcolor{mk#1}\hl{#2}\endgroup}
+% \mkt: same for text inside tabularx cells (soul cannot be used there); the marked text does not break lines.
+\newcommand{\mkt}[2]{{\setlength{\fboxsep}{0.5pt}\colorbox{mk#1}{#2}}}
