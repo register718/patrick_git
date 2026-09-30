@@ -1,0 +1,226 @@
+{
+ "module": "M2",
+ "claims": {
+  "jan_fret": {
+   "text": "the G-protein heterotrimer dissociates and reassociates rapidly on addition and removal of cAMP (FRET)",
+   "color": 1
+  },
+  "jan_ss": {
+   "text": "during continuous stimulation G-protein activation reaches a dose-dependent steady state and does not decline while responses subside",
+   "color": 2
+  },
+  "jan_phos": {
+   "text": "occupied receptors catalyse the G-protein cycle whether or not they are phosphorylated",
+   "color": 3
+  },
+  "kort": {
+   "text": "the initial Ras response requires Gbeta but not Galpha2",
+   "color": 4
+  },
+  "kat": {
+   "text": "symmetry breaking and amplification of chemoattractant sensing occur between the heterotrimeric G protein and Ras",
+   "color": 5
+  },
+  "bis_g": {
+   "text": "G-protein module of Biswas et al.: parameters chosen (Table 2) to match measured dissociation and reassociation half-times",
+   "color": 6
+  },
+  "tang_diss": {
+   "text": "loss of FRET (G-protein dissociation) half-time 3.4 +/- 1.4 s",
+   "color": 7
+  },
+  "tang_reass": {
+   "text": "reassociation (recovery of FRET) half-times 28.7-32.3 s",
+   "color": 8
+  },
+  "bis_tdiss": {
+   "text": "Biswas Table 2: modelled dissociation half-time 3.0-3.3 s",
+   "color": 9
+  },
+  "bis_ke0": {
+   "text": "Biswas Table 2, reaction 1: basal exchange k_E0 = 2.18e-7 /s at G:R ratio 3",
+   "color": 1
+  },
+  "bis_ratio": {
+   "text": "Biswas et al. chose the total G-protein to be three times the total number of receptors",
+   "color": 2
+  },
+  "bis_eq": {
+   "text": "Biswas Table 3: k_E acts on the sum of all occupied classes RL (H:C+L:C+S:C+PH:C+PL:C), i.e. equal weights",
+   "color": 3
+  },
+  "bis_D": {
+   "text": "Biswas Table 3 caption: D(Galpha2betagamma) = D(Gbetagamma) = 0.2 um2/s",
+   "color": 4
+  },
+  "elzie": {
+   "text": "G proteins cycle between cytosol and plasma membrane; Galpha2, Gbeta and Ggamma recover with similar FRAP kinetics",
+   "color": 5
+  }
+ },
+ "papers": {
+  "janetopoulos2001": [
+   {
+    "claim": "jan_fret",
+    "page": 1,
+    "start": "The G-protein heterotrimer",
+    "end": "addition and removal of chemoattractant"
+   },
+   {
+    "claim": "jan_ss",
+    "page": 1,
+    "start": "During continuous stimulation, G-protein activation reached a dose-",
+    "end": "the activation did not decline"
+   },
+   {
+    "claim": "jan_phos",
+    "page": 1,
+    "start": "occupied receptors, whether or not they are phospho-",
+    "end": "catalyze the G-protein cycle"
+   }
+  ],
+  "tang2014": [
+   {
+    "claim": "tang_diss",
+    "page": 6,
+    "start": "Interestingly, loss of FRET occurred with a half-time of",
+    "end": "B3 s"
+   },
+   {
+    "claim": "tang_diss",
+    "page": 6,
+    "start": "t1/2=3.4",
+    "end": "1.4 s"
+   },
+   {
+    "claim": "tang_reass",
+    "page": 6,
+    "start": "t1/2=32.3",
+    "end": "5.3 s"
+   },
+   {
+    "claim": "tang_reass",
+    "page": 6,
+    "start": "t1/2=28.7",
+    "end": "6.2 s"
+   },
+   {
+    "claim": "tang_reass",
+    "page": 6,
+    "start": "whereas the recovery of FRET after removal of stimulus occurred"
+   },
+   {
+    "claim": "tang_reass",
+    "page": 7,
+    "start": "at a slower rate, with a half-time of B30 s"
+   }
+  ],
+  "kortholt2013": [
+   {
+    "claim": "kort",
+    "page": 1,
+    "start": "This transient Ras activation is present in ga2",
+    "end": "Gbc mediates the initial activation of Ras"
+   }
+  ],
+  "kataria2013": [
+   {
+    "claim": "kat",
+    "page": 1,
+    "start": "Symmetry breaking and amplification of chemoattractant sensing occurs between heterotrimeric G protein signaling and Ras activation"
+   }
+  ],
+  "elzie2009": [
+   {
+    "claim": "elzie",
+    "page": 1,
+    "start": "Our data show that inactive and active G-proteins cycle between the cytosol and plasma membrane"
+   },
+   {
+    "claim": "elzie",
+    "page": 4,
+    "start": "Gα2-CFP, β-CFP and γ-YFP had similar recovery",
+    "end": "significantly slower"
+   }
+  ],
+  "biswas2021": [
+   {
+    "claim": "bis_g",
+    "page": 8,
+    "start": "The parameters for the Gβγ dynamics were chosen (Table 2) to match experimentally measured half-times",
+    "end": "subunits [17]"
+   },
+   {
+    "claim": "bis_g",
+    "page": 10,
+    "start": "Table 2. Parameters for G-protein dynamics",
+    "end": "from [17]"
+   },
+   {
+    "claim": "bis_ratio",
+    "page": 8,
+    "start": "We chose the total G-proteins to be three times the total number of receptors"
+   },
+   {
+    "claim": "bis_ke0",
+    "page": 10,
+    "start": "",
+    "rect": [
+     40,
+     637,
+     210,
+     650
+    ],
+    "label": "bis_ke0 Table 2"
+   },
+   {
+    "claim": "bis_ke0",
+    "page": 10,
+    "start": "",
+    "rect": [
+     418,
+     637,
+     440,
+     650
+    ],
+    "label": "bis_ke0 Table 2"
+   },
+   {
+    "claim": "bis_tdiss",
+    "page": 10,
+    "start": "",
+    "rect": [
+     196,
+     679,
+     224,
+     703
+    ],
+    "label": "bis_tdiss Table 2"
+   },
+   {
+    "claim": "bis_tdiss",
+    "page": 10,
+    "start": "",
+    "rect": [
+     416,
+     679,
+     440,
+     703
+    ],
+    "label": "bis_tdiss Table 2"
+   },
+   {
+    "claim": "bis_eq",
+    "page": 11,
+    "start": "Table 3. Parameters for LEGI modules. RL is the total occupied receptors",
+    "end": "PL:C)"
+   },
+   {
+    "claim": "bis_D",
+    "page": 11,
+    "start": "The nominal values for the diffusion constants are",
+    "end": "0.2"
+   }
+  ]
+ }
+}
