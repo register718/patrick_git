@@ -1,0 +1,551 @@
+REPORTS
+
+Receptor-Mediated Activation
+of Heterotrimeric G-Proteins in
+Living Cells
+Chris Janetopoulos,* Tian Jin,* Peter Devreotes*†
+
+Chemoattractants, hormones, neurotransmitters, odorants, and other sensory stimuli exert
+their effects on cells through a vast family
+of serpentine G-protein–coupled receptors
+(GPCRs). Excited receptors catalyze the exchange of guanosine triphosphate (GTP) for
+guanosine diphosphate (GDP) and the dissociation of the G-protein heterotrimer, allowing both the GTP-bound ␣ subunit and free
+␤␥ complexes to signal to downstream effectors. The intrinsic guanosine triphosphatase
+(GTPase) activity of the ␣-subunit hydrolyzes the bound GTP and the heterotrimer reassociates, completing the cycle (1, 2). These
+mechanisms have been derived from studies
+using isolated membranes and purified proteins and have not yet been directly observed
+in living cells.
+In shallow gradients of chemoattractants,
+cells such as D. discoideum amoebae and
+leukocytes can activate physiological responses selectively at the cell’s leading edge
+even when the chemoattractant receptors and
+G-proteins are distributed uniformly on the
+plasma membrane (3–6). The tightly restricted localization of the physiological responses
+requires a global adaptation process that also
+causes the responses to rapidly subside during persistent stimulation. Does global adaptation occur at the level of the G-protein cycle
+or at a subsequent step? To determine the
+kinetics and to localize sites of G-protein
+activation in cells and tissues, we developed a
+method to directly visualize G-protein disasDepartment of Biological Chemistry, Johns Hopkins
+Medical Institutions, Baltimore, MD 21205, USA.
+*Present address: Department of Cell Biology and
+Anatomy, Johns Hopkins Medical Institutions, Baltimore, MD 21205, USA.
+†To whom correspondence should be addressed.
+
+2408
+
+sociation. We reasoned that fluorescence resonance energy transfer (FRET) between
+probes attached to the ␣ and ␤␥ subunits
+would allow real-time measurements and imaging of G-protein signaling (7). To test this
+strategy, we tagged G␣2 and G␤ of D. discoideum with cyan and yellow fluorescent
+
+Fig. 1. Functional interaction of
+G␤-YFP and G␣2-CFP in living
+cells. (A) CFP was inserted into
+the helical domain of G␣2 in a
+location optimal for FRET with
+YFP fused to the NH2-terminus
+of G␤ (36). (B) Lysates of g␣2–
+(lane 1), wild-type (lane 2), G␣2CFP/g␣2– (lane 3), ␣2-CFP:␤-YFP
+cells (lane 4), g␤– cells (lane 5),
+and G␤-YFP/g␤– cell lines (lane
+6) were subjected to immunoblot analyses. G␣2 antisera detect an appropriate band in wildtype cells (not shown) and a
+band at 72 kD in the G␣2-CFP/
+g␣2– and ␣2-CFP:␤-YFP cells.
+Antisera against GFP (Clontech,
+Palo Alto, CA) recognize the
+G␣2-CFP band at 72 kD in the
+G␣2-CFP/g␣2– cells, a doublet of
+the 72-kD band and a 70-kD
+band of G␤-YFP in the ␣2-CFP:
+␤-YFP cells, and the 70-kD band
+in the G␤-YFP/g␤– cells. (C) In
+vivo actin polymerization assays
+of g␣2– (light blue), wild-type
+(dark blue), and ␣2-CFP:␤-YFP
+(green) cells were carried out as
+previously described (37). Cells
+were stimulated with 100 nM
+cAMP at t ⫽ 0 and fixed at times
+shown. Mean values for an experiment done in duplicate are shown. Two other independent experiments were performed and
+yielded similar results. (D) Cells were differentiated with repeated cAMP stimuli for 6 hours and
+were then examined for chemotactic response in a micropipette assay. At t ⫽ 0, a micropipette
+was filled with 1 ␮M cAMP and placed on the surface of the coverglass. The positions at time 0 and
+10 min are shown. Bar, 10 ␮m.
+
+23 MARCH 2001 VOL 291 SCIENCE www.sciencemag.org
+
+Downloaded from https://www.science.org at University Erlangen Nuernberg on September 30, 2026
+
+Receptor-mediated activation of heterotrimeric GTP– binding proteins (G-proteins) was visualized in living Dictyostelium discoideum cells by monitoring
+fluorescence resonance energy transfer (FRET) between ␣- and ␤- subunits
+fused to cyan and yellow fluorescent proteins. The G-protein heterotrimer
+rapidly dissociated and reassociated upon addition and removal of chemoattractant. During continuous stimulation, G-protein activation reached a dosedependent steady-state level. Even though physiological responses subsided,
+the activation did not decline. Thus, adaptation occurs at another point in the
+signaling pathway, and occupied receptors, whether or not they are phosphorylated, catalyze the G-protein cycle. Construction of similar energy-transfer
+pairs of mammalian G-proteins should enable direct in situ mechanistic studies
+and applications such as drug screening and identifying ligands of newly found
+G-protein–coupled receptors.
+
+proteins and used FRET to observe the state
+of the G-protein heterotrimer in living cells
+(8).
+We assessed the activities of the fusion
+proteins by phenotypic rescue of G␣2 and G␤
+null cell lines. Fusion of enhanced yellow
+fluorescent protein (YFP) to the NH2-terminus of G␤ did not impair the capacity of G␤
+to rescue the chemotactic defects of G␤ null
+mutants (g␤– cells) (6, 9). Guided by the
+crystal structures of several mammalian heterotrimers (10, 11), we inserted the enhanced
+cyan fluorescent protein (CFP) into the first
+loop (between ␣A and ␣B) of the helical
+domain of G␣2. Mutants that do not express
+G␣2 (g␣2– cells) are completely deficient in
+chemoattractant-induced responses and therefore are unable to aggregate and differentiate
+(12). Stable expression of G␣2-CFP rescued
+the chemotactic and developmental defects of
+the g␣2– cells (13). Chemoattractants triggered in vivo actin polymerization, and chemoattractant-filled micropipettes induced
+chemotactic responses. Similarly, co-transformation with G␣2-CFP and G␤-YFP rescued the g␣2– cells (Fig. 1) (14).
+Studies of cell lines expressing fluorescent subunits showed direct, specific transfer
+of resonance energy from G␣2-CFP to G␤YFP when the two proteins were co-expressed (Fig. 2A). We excited living, differ-
+
+REPORTS
+
+Fig. 2. Fluorescence spectra of
+cell lines. (A) G␣2-CFP/g␣2–
+cells (light blue), ␣2-CFP:␤-YFP
+cells (dark blue), and mixture of
+equal number of G␣2-CFP/g␣2–
+and G␤-YFP/g␤– cells (green)
+were excited in a Spex Fluoromax-2 fluorimeter at 440 nm
+and emission spectra were collected and processed (15). (B)
+Emission spectra from ␣2-CFP:␤YFP cells before (dark blue) and
+after (light blue) treatment with
+100 ␮M cAMP. (C) Kinetics of
+transient loss of FRET fluorescence after addition of 100 ␮M
+cAMP to ␣2-CFP:␤-YFP cells (38).
+(D) Cells were observed with excitation and emission bandpass
+filters of 420 nm to 450 nm
+(Chroma Exciter 436/20) and
+520 nm to 550 nm (Chroma
+Emitter 535/30), respectively.
+Mean intensities were calculated
+in IPLab Spectrum by manually
+circumscribing the membrane of
+multiple cells. The three curves
+represent individual cells from
+three different video sequences.
+Arrows indicate the frame at
+which the stimulus was added.
+(E) Difference images of consecutive frames captured at 3 s intervals were calculated in IPLab
+Spectrum. Stimulus was added
+between frames labeled 0 and
+3 s; small cell indicated by the
+arrow was dislodged by the disturbance. Bar, 10 ␮m.
+
+FRET fluorescence decreased by about 70%
+(17). Only ␣2-CFP:␤-YFP cells showed a
+change in fluorescence intensity when stimulated (18). The large decrease suggests that
+the heterotrimer may dissociate rather than
+merely change conformation. We measured
+the kinetics of loss and restoration of the
+FRET fluorescence upon addition and removal of the stimulus (Fig. 2C). The response was
+maximal within 10 s of stimulation, the earliest time point taken. In other experiments,
+the response reached 90% of the maximum
+within a few seconds (16). As the cAMP was
+removed by the endogenous phosphodiesterase, the FRET fluorescence returned to its
+maximal level within 2 min. Activation is at
+least as fast as the most rapid receptor-mediated physiological responses such as actin
+polymerization and Pleckstrin homology
+(PH)– domain translocation.
+We attempted to directly visualize the
+change in the FRET fluorescence by conventional fluorescence microscopy. When ␣2CFP:␤-YFP cells were excited with blue light
+(420 to 460 nM) and observed in the yellow
+range (525 to 540 nM), there was a fluorescent signal on the membrane as well as within
+the cell perimeter (Fig. 2, D and E). These
+fluorescent signals were lower in cells expressing ␣2-CFP or ␤-YFP alone, even
+
+though these cells were highly fluorescent
+when examined with the appropriate cyan or
+yellow filter sets. When a saturating dose of
+cAMP was added to the ␣2-CFP:␤-YFP
+cells, the membrane signal decreased by
+about 15% within 6 s and did not reappear
+during the 1-min period of observation. The
+signal within the perimeter of the cell also
+displayed a slight decrease. We visualized the
+response by subtracting consecutive frames
+from one another (Fig. 2E). These microscopy results extend and confirm the fluorometric observations.
+Treatment with increasing concentrations
+of cAMP and two of its analogs, 2⬘ deoxyadenosine-3⬘,5⬘ monophosphate (2⬘-dcAMP)
+and 8-bromoadenosine-3⬘,5⬘ monophosphate
+(8-Br-cAMP) decreased the FRET fluorescence in a dose-dependent manner (Fig. 3).
+To quantitate the response for each analog,
+we subtracted the spectrum for the highest
+concentration from that of each of the lower
+concentrations. The negative values from 475
+to 520 nm reflect the gain in cyan fluorescence, and the positive values from 520 to
+550 nm reflect the loss in yellow fluorescence
+(Fig. 3A; see also Fig. 2B). Processing of this
+data yielded EC50s for cAMP, 2⬘-dcAMP,
+and 8-Br-cAMP of about 10 nM, 20 nM, and
+2 ␮M, respectively, which were shifted to the
+left of their reported binding affinities (average KDs ⬇ 180 nM, 1␮M, and 32 ␮M,
+respectively) (19). This suggests that the
+steady-state level of G-protein activation saturates before all receptors are fully occupied
+and favors the possibility that the receptors
+act catalytically (20). Addition of 1 mM 5⬘AMP, which does not bind to the cAMP
+receptor (cAR1), had no effect on the FRET
+fluorescence. These data validate the hypothesis, based on previous genetic studies (12),
+that the heterotrimeric G-protein formed from
+G␣2 [1 of 11 known ␣-subunits in D. discoideum (21, 22)] and the unique ␤␥-complex
+are directly linked to the cAMP chemoattractant receptors.
+Prolonged stimulation of D. discoideum
+cells with cAMP induces adaptation of a
+number of physiological responses, such as
+actin polymerization and PH-domain recruitment to the plasma membrane (23). Yet previous studies have suggested that receptors
+remain coupled to G-proteins in adapted cells
+(24). To examine adaptation of the G-protein
+heterotrimer, we persistently stimulated ␣2CFP:␤-YFP cells with 100 nM cAMP for 18
+min. Half the cells were left to recover in the
+absence of cAMP and half were exposed to
+10 ␮M cAMP for an additional 10 min. During the first 18 min of treatment, the FRET
+fluorescence in living cells decreased and
+remained near 20% of the initial value (Fig.
+4A) (25). Cells that were no longer exposed
+to cAMP after 18 min showed a gradual
+increase in FRET fluorescence, reflecting the
+
+www.sciencemag.org SCIENCE VOL 291 23 MARCH 2001
+
+Downloaded from https://www.science.org at University Erlangen Nuernberg on September 30, 2026
+
+entiated cells at 440 nm and recorded the
+emission spectrum between 460 and 600 nm.
+The co-transformed cells showed an extra
+emission peak near 527 nm, corresponding to
+the FRET fluorescence (15). Cell lines expressing G␣2-CFP alone or mixtures of cells
+containing either G␣2-CFP or G␤-YFP alone
+did not display this additional peak. Co-transformation of G␣2-CFP and G␤-YFP into g␤–
+cells gave similar results; here, we focused on
+the co-transformed g␣2– cells (designated
+␣2-CFP:␤-YFP cells). The FRET fluorescence was observed in both membrane and
+supernatant fractions prepared from ␣2-CFP:
+␤-YFP cells, suggesting heterotrimers exist
+in the cytoplasm as well as on the plasma
+membrane. The FRET fluorescence disappeared after treatment of membranes with
+Mg2⫹ plus GTP-␥-S, but not with GTP-␥-S
+alone (16).
+Addition of the chemoattractant cyclic
+adenosine 3⬘,5⬘ monophosphate (cAMP) to
+␣2-CFP:␤-YFP cells triggered a rapid, substantial loss of FRET fluorescence reflecting
+receptor-mediated activation and dissociation
+of the G-protein heterotrimer (Fig. 2B). There
+was a decrease in the YFP emission signal
+near 527 nm and a parallel increase in the
+CFP emission signals near 475 and 501 nm.
+The 490:527 ratio increased by 32%; the
+
+2409
+
+REPORTS
+
+gradual degradation of cAMP by endogenous
+phosphodiesterase. Cells treated with 10 ␮M
+cAMP showed a further decrease in FRET
+fluorescence. In lysates from naı̈ve ␣2-CFP:
+␤-YFP cells, GTP-␥-S stimulated the binding
+of PH-domains to membranes (3, 26). This
+response was lost in cells pretreated with
+cAMP (Fig. 4B), indicating that these cells
+adapt normally. Because persistent stimulation does not return the G-proteins to the
+heterotrimeric or “off ” position, adaptation
+of the physiological responses must occur at
+another point in the signaling pathway.
+
+The persistent activation of the G-protein
+cycle is surprising because agonist-induced
+phosphorylation of the receptors reaches a
+plateau within a few minutes (27). Immunoblots of selected time points showed the expected steady-state level of receptor phosphorylation (Fig. 4C). Next, sets of cells were
+stimulated with cAMP for 0, 15 s, or 15 min
+and then washed at 0°, a condition known to
+prevent receptor dephosphorylation (Fig. 4D,
+inset). After washing, the FRET fluorescence
+of the three sets of cells was nearly identical,
+indicating that the G-protein heterotrimer re-
+
+Fig. 4. Continuous activation of the G-protein cycle. (A) ␣2-CFP:
+␤-YFP cells were treated with 3 mM caffeine
+and were maintained
+at 100 nM cAMP by
+adding fresh cAMP every minute for 18 min
+and then divided into
+two sets. One set received no further cAMP,
+whereas the second was
+increased to 10 ␮M
+cAMP. Spectra were
+processed as described
+(39). (B) Cells were
+treated with cAMP for
+0 or 15 min, lysed, and
+then incubated in the
+presence or absence
+of GTP-␥-S with a supernatant from cells expressing PHCRAC-GFP (3). After 2 min, membranes were
+collected and binding of the PHCRAC-GFP was assessed by immunoblot analysis using antibodies to
+GFP. (C) Immunoblot analysis shows separation of the cAR1 doublet into its lower ( phosphorylated) and higher (nonphosphorylated) mobility forms (32). (D) Identical sets of cells received buffer
+(control), one addition of 100 ␮M cAMP for 15 s (15 sec), or 15 additions, once per minute (15
+min). All sets were then washed at 0°. Bars show the fraction (⫾SD) of FRET fluorescence before
+(–) and after (⫹) addition of a second cAMP stimulus (10 ␮M). Immunoblot analyses of cAR1 in
+samples taken after washing and before restimulation show control (lanes 1 and 4), 15 s treated
+(lanes 2 and 5), and 15 min treated (lanes 3 and 6). The average fraction of unphosphorylated
+receptor remaining after 0, 15 s, and 15 min were 100, 89, and 9%, respectively. Duplicate
+experiments performed on different days were averaged.
+
+2410
+
+associated even though receptors remained
+phosphorylated. Subsequent stimulus addition caused a parallel loss of FRET fluorescence in each set of cells (Fig. 4D). Agonistinduced phosphorylation of other GPCRs
+facilitates a series of downstream events
+such as arrestin binding that uncouple excited receptors from G-proteins (28–31).
+Phosphorylation of cAR1 decreases its affinity for cAMP (32 ); however, the low
+affinity receptors continue to trigger the
+G-protein cycle.
+The evidence presented here is consistent with the model of the steady-state Gprotein cycle derived from in vitro measurements, although a mechanism of adaptation is absent (1). The rapid kinetics,
+reversibility, and dose-dependence suggest
+that occupied receptors repeatedly elicit Gprotein activation. It is expected that regulators of G-protein signaling (RGS proteins) will influence the steady-state ratio
+of active and inactive G-proteins (33, 34 )
+and not shape the time courses of the physiological responses because adaptation
+does not directly involve the G-protein cycle. The persistent kinetics of G-protein
+activation suggests that its spatial pattern
+likely reflects the shallow external gradient
+of receptor occupancy rather than the tightly restricted localization of the physiological responses. Thus, restriction of the response to the cell’s leading edge may involve pathways beyond or independent
+from the G-protein cycle.
+References and Notes
+
+1. A. G. Gilman, Annu. Rev. Biochem. 56, 615 (1987).
+2. H. E. Hamm, J. Biol. Chem. 273, 669 (1998).
+3. C. A. Parent, B. J. Blacklock, W. M. Froehlich, D. B.
+Murphy, P. N. Devreotes, Cell 95, 81 (1998).
+4. Z. Xiao, N. Zhang, D. B. Murphy, P. N. Devreotes,
+J. Cell Biol. 139, 365 (1997).
+
+23 MARCH 2001 VOL 291 SCIENCE www.sciencemag.org
+
+Downloaded from https://www.science.org at University Erlangen Nuernberg on September 30, 2026
+
+Fig. 3. Dose-response curves for
+cAMP, 2⬘-dcAMP, 8-Br cAMP
+and 5⬘ AMP. (A) Difference fluorescence spectrum of ␣2-CFP:
+␤-YFP cells treated with increasing concentrations of cAMP.
+Cells were treated with caffeine
+and stimulated with 0 (dark
+blue), 1nM (magenta), 10 nM
+(orange), 100nM (light green), 1
+␮M (violet), 10 ␮M (brown), and
+100 ␮M cAMP (dashed line) in
+the presence of 10 mM dithiothreitol, and analyzed in the fluorimeter 15 s after mixing. (B) Dose-response curves for cAMP (dark blue), 2⬘-dcAMP
+(light blue), and 8-Br cAMP (green), and 5⬘ AMP (orange). Data from two independent experiments were averaged for each curve. Data was processed as described
+(39).
+
+REPORTS
+29. J. Chen, C. L. Makino, N. S. Peachey, D. A. Baylor, M. I.
+Simon, Science 267, 374 (1995).
+30. J. Vinós, K. Jalink, R. W. Hardy, S. G. Britt, C. S. Zuker,
+Science 277, 687 (1997).
+31. R. R. Gainetdinov et al., Neuron 24, 1029 (1999).
+32. M. Caterina, P. N. Devreotes, J. Borleis, D. Hereld,
+J. Biol. Chem. 270, 8667 (1995).
+33. L. De Vries, B. Zheng, T. Fischer, E. Elenko, M. G.
+Farquhar, Annu. Rev. Pharmacol. Toxicol. 40, 235
+(2000).
+34. D. M. Berman, A. G. Gilman, J. Biol. Chem. 273, 1269
+(1998).
+35. A. B. Cubitt, R. Heim, L. A. Woollenweber, Methods
+Cell Biol. 58, 19 (1999).
+36. Enhanced CFP is a class 5 (F64L, S65T, Y66W,
+N146I, M153T, V163A) and the enhanced YFP is a
+class 4 (S65G, V68L, S72A, T203Y) GFP variant
+(35).
+
+37. S. H. Zigmond, M. Joyce, J. Borleis, G. M. Bokoch, P. N.
+Devreotes, J. Cell Biol. 138, 363 (1997).
+38. Cells were scanned between 515 and 540 nm, normalized to the fluorescence at 527 nm of a 460- to
+600-nm emission spectrum of ␣2-CFP:␤-YFP cells (no
+cAMP). Spectra were corrected by subtraction of a
+normalized wild-type spectrum.
+39. Spectra were first normalized to the integral from
+475 to 550 nm. The spectrum at the highest dose was
+then subtracted from each of the other spectra. The
+areas under the differences curves were integrated
+from 475 to 520 nm and from 520 to 550 nm, and
+the absolute values were summed.
+40. The authors wish to thank S. van Es, C. A. Parent, and
+L. Tang for advice and assistance in designing constructs and D. Murphy for help with the microscopy.
+Supported by NIH grants GM28007 and GM34933 to
+P.N.D. and an ACS Fellowship to C.J.
+15 September 2000; accepted 12 February 2001
+
+Length of the Flagellar Hook
+and the Capacity of the Type III
+Export Apparatus
+Shigeru Makishima,1 Kaoru Komoriya,2 Shigeru Yamaguchi,3
+Shin-Ichi Aizawa1*
+Length determination in biology generally uses molecular rulers. The hook, a
+part of the flagellum of motile bacteria, has an invariant length. Here, we
+examined hook length and found that it was determined not by molecular rulers
+but probably by the amount of subunit protein secreted by the flagellar export
+apparatus. The export apparatus shares common features with the type III
+virulence-factor secretion machinery and thus may be used more widely in
+length determination of structures other than flagella.
+The bacterial flagellum, a rotary device for motility, is a supramolecular structure consisting of
+more than 20 different proteins that build up into
+three distinctive substructures: the filament,
+hook, and basal structure (1, 2). In Salmonella
+enterica serovar Typhimurium, the hook has an
+average length of 55 nm with a standard deviation of 6 nm (3), whereas the filament length
+varies over a wide range. In order to elucidate
+the mechanism regulating the invariant length of
+the hook, we used mutants that give rise to
+hooks of indefinite length, called “polyhooks.”
+The mutation sites in these strains are not in the
+hook protein gene ( f lgE) but are in the f liK
+gene, suggesting that FliK acts as a length controller or a molecular ruler of the hook (4–7).
+If FliK were a simple molecular ruler, truncated FliK’s should produce shorter, not longer,
+hooks. However, all f liK mutants so far studied
+give rise to long polyhooks (8). In order to
+identify what controls the hook length, it is
+necessary to find mutants that produce short
+1
+Department of Biosciences, Teikyo University, 1-1
+Toyosatodai, Utsunomiya 320-8551, Japan. 2Department of Applied Biochemistry, Utsunomiya University, Utsunomiya 321-8505, Japan. 3Izumi Campus,
+Meiji University, 1-9-1 Eifuku, Suginami, Tokyo 1680064, Japan.
+
+*To whom correspondence should be addressed. Email: aizawa@nasu.bio.teikyo-u.ac.jp
+
+hooks. After an extensive survey, we found
+such strains with mutations in the f liG, f liM,
+and f liN genes.
+Mutation in these three genes gives rise to
+different phenotypes, depending on the degree
+of their defects: Fla– (filament-less) mutants
+derive from major defects, and Mot– (motilityless) or Che– (chemotaxis-less) mutants are
+from minor defects (9, 10). These three genes
+are commonly called the switch genes, putting
+an emphasis on the behavioral phenotype Che–,
+in which the switch mechanism of the motor
+rotation is perturbed.
+In the early stage of the survey by electron
+microscopy, we found short hooks in the
+intact flagella isolated from f liG mutants
+with Che– phenotypes (Fig. 1A). The hook
+portion of the flagella looked less curved than
+that of the wild type, implying the shortness
+of the hook. In order to reveal the hook length
+more explicitly, hook-basal bodies (HBBs)
+were isolated (Fig. 1B), and the hook lengths
+were measured to produce diagrams of length
+distribution. The hook length of SJW2325
+( f liG/Che–) was 26.8 ⫾ 8.0 nm, about half
+the length of the wild type (Fig. 2A).
+Next, we isolated HBBs from both Che⫺
+and Mot– mutants of all the switch genes in our
+collection (three f liG/Che–, seven f liM/Che–,
+one f liN/Che–, two f liG/Mot–, five f liM/Mot–,
+
+www.sciencemag.org SCIENCE VOL 291 23 MARCH 2001
+
+Downloaded from https://www.science.org at University Erlangen Nuernberg on September 30, 2026
+
+5. G. Servant et al., Science 287, 1037 (2000).
+6. T. Jin, N. Zhang, Y. Long, C. A. Parent, P. N. Devreotes,
+Science 287, 1034 (2000).
+7. R. R. Neubig, M. P. Connolly, A. E. Remmers, FEBS Lett.
+355, 251 (1994).
+8. R. Heim, R. Y. Tsien, Curr. Biol. 6, 178 (1996).
+9. The gene encoding the full-length YFP was fused to
+the NH2-terminus of the G␤ gene. A Bgl II restriction
+site was added at the junction that consisted of two
+additional amino acids, arginine and serine. This
+␤-YFP fusion protein was cloned into the CV5 vector.
+CV5 was derived from p88 by addition of an actin 15
+expression cassette from pMC34 (3).
+10. D. G. Lambright et al., Nature 379, 311 (1996).
+11. M. A. Wall et al., Cell 83, 1047 (1995).
+12. A. Kumagai et al., Cell 57, 265 (1989).
+13. The gene encoding the full-length CFP was inserted into
+a Spe I site after residue 90, in the loop between the ␣A
+and the ␣B helices, of the G␣2 cDNA. The Spe I site also
+added a threonine and serine residue at the NH2- and
+COOH-terminal boundaries of the insertion, respectively. This fusion was cloned into the CV5 vector. The g␣2–
+cells were transformed, and individual G418 resistant
+clones were selected. Rescued cells formed fruiting bodies and viable spores.
+14. Equal amounts of plasmids carrying the G␣2-CFP and
+G␤-YFP fusions were mixed and transformed into
+g␣2⫺ cells. Individual G418 resistant clones were
+selected. Greater than 90% of transformed cells expressed both proteins.
+15. The magnitude of the FRET fluorescence compared
+with that of G␤-YFP directly excited at 490 nM and
+not relayed through G␣2-CFP varied from 7% (Fig. 2)
+to 12%. Emission spectra were collected between
+460 and 600 nm (excitation at 440 nm) of the
+following lines: ␣2-CFP:␤-YFP, a mixture of G␣2-CFP/
+g␣2– and G␤-YFP/g␤–, and wild-type (AX3). Spectra
+were normalized to the fluorescence at 600 nm of
+the ␣2-CFP:␤-YFP cells, and the wild-type spectrum
+was subtracted from the others. The corrected spectra were normalized to the fluorescence at 490 nm of
+the ␣2-CFP:␤-YFP cells (see Fig. 2A). The amount of
+FRET fluorescence was determined by subtracting
+from the spectrum of the ␣2-CFP:␤-YFP cells either
+the spectrum of the mixed cells or that of the G␣2CFP/g␣2– cells. In the latter case, a further correction
+was made for the fluorescence emitted from G␤YFP/g␤– directly excited at 440 nm.
+16. C. Janetopoulos, P. N. Devreotes, unpublished data.
+17. The residual signal may be due to cytoplasmic heterotrimer or a portion of membrane associated heterotrimer that remains during persistent stimulation.
+18. The emission spectra of G␣2-CFP cells (excited at
+440 nM), G␤-YFP cells (excited at 440 or 490 nM), or
+mixtures of G␣2-CFP cells and G␤-YFP cells (excited
+at 440 nM) did not change after stimulation.
+19. R. L. Johnson et al., J. Biol. Chem. 267, 4600 (1992).
+20. The EC50’s of cAMP-induced actin polymerization,
+adenylyl cyclase activation, and calcium influx are 1
+nM, 10 nM, and 200 nM, respectively. This suggests
+that there is a further amplification in the actin
+response and none in the adenylyl cyclase response.
+Interestingly, the calcium response requires more
+occupied receptors than does G-protein activation.
+This is consistent with the observation that the calcium response is partially independent of G-proteins.
+21. L. J. Wu, P. N. Devreotes, Biochem. Biophys. Res.
+Commun. 179, 1141 (1991).
+22. S. van Es, P. N. Devreotes, Cell Mol. Life Sci. 55, 1341
+(1999).
+23. C. A. Parent, P. N. Devreotes, Annu. Rev. Biochem. 65,
+411 (1996).
+24. E. Snaar-Jagalska, S. van Es, F. Kesbeke, P. J. Van
+Haastert, Eur. J. Biochem. 195, 715 (1991).
+25. In another experiment, we added a single dose of 100
+␮M cAMP plus dithiothreitol to inhibit phosphodiesterase. Activation did not subside during 6 min of
+observation.
+26. P. J. Lilly, P. N. Devreotes, J. Cell Biol. 129, 1659
+(1995).
+27. R. A. Vaughan, P. N. Devreotes, J. Biol. Chem. 263,
+14538 (1988).
+28. A. Mendez, N. V. Krasnoperova, J. Lem, J. Chen, Methods Enzymol. 316, 167 (2000).
+
+2411
+
+Receptor-Mediated Activation of Heterotrimeric G-Proteins in Living Cells
+Chris Janetopoulos, Tian Jin, and Peter Devreotes
+
+Science 291 (5512), . DOI: 10.1126/science.1055835
+
+Use of this article is subject to the Terms of service
+Science (ISSN 1095-9203) is published by the American Association for the Advancement of Science. 1200 New York Avenue NW,
+Washington, DC 20005. The title Science is a registered trademark of AAAS.
+
+Downloaded from https://www.science.org at University Erlangen Nuernberg on September 30, 2026
+
+View the article online
+https://www.science.org/doi/10.1126/science.1055835
+Permissions
+https://www.science.org/help/reprints-and-permissions
+
+

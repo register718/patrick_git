@@ -1,0 +1,695 @@
+6982
+
+Biochemistry 1991, 30, 6982-6986
+
+Schreier, M. H., & Staehelin, T. (1973) Nature New Biol.
+242, 35-38.
+Schreier, M. H., Emi, B., & Staehelin, T. (1977) J. Mol. Biol.
+116, 727-753.
+Setyono, B., van Steeg, H., & Voorma, H. O. (1984) Biochim.
+Biophys. Acta 782, 242-246.
+Sonenberg, N., & Shatkin, A. J. (1977) Proc. Natl. Acad. Sci.
+U.S.A. 74, 4288-4292.
+Sonenberg, N., Morgan, M. A., Merrick, W. C., & Shatkin,
+A. J. (1978) Proc. Natl. Acad. Sci. U.S.A. 75 4843-4847.
+Sonenberg, N., Morgan, M. A., Testa, D., Colonno, R. J., &
+
+Shatkin, A. J. (1979) Nucleic Acids Res. 7, 15-29.
+Thompson, H. A., Sadnik, I., Scheinbuks, J., & Moldave, K.
+(1977) Biochemistry 16, 2221-2230.
+Trachsel, H., & Staehelin, T. (1979) Biochim. Biophys. Acta
+565, 305-314.
+Trachsel, H., Emi, B., Schreier, M. H., & Staehellin, T. (1977)
+J. Mol. Biol. 116, 755-767.
+
+Weber, G. (1975) Adv. Protein Chem. 29, 2-78.
+Westerman, P., & Nygard, O. (1984) Nucleic Acids Res. 12,
+8887-8897.
+
+Ronald L. Johnson,* Roxanne A. Vaughan,*-8 Michael J. Caterina,* Peter J. M. Van Haastert,11 and
+Peter N. Devreotes*-*
+Department of Biological Chemistry, School of Medicine, Johns Hopkins University, Baltimore, Maryland 21205, and
+Department of Biochemistry, University of Groningen, 9747AG Groningen, The Netherlands
+Received February 14, 1991; Revised Manuscript Received April 19, 1991
+
+cARl, the cAMP receptor expressed normally during the early aggregation stage of the
+Dictyostelium developmental program, has been expressed during the growth stage, when only low amounts
+of endogenous receptors are present. Transformants expressing cARl have 7-40 times over growth stage
+and 3-5-fold over aggregation stage levels of endogenous receptors. The high amounts of cARl protein
+expressed constitutively throughout early development did not drastically disrupt the developmental program;
+the onset of aggregation was delayed by 1-3 h, and then subsequent stages proceeded normally. The affinity
+of the expressed cARl was similar to that of the endogenous receptors in aggregation stage cells when
+measured either in phosphate buffer (two affinity states with Kd’s of approximately 30 and 300 nM) or
+in 3 M ammonium sulfate (one affinity state with a ATd of 2-3 nM). When expressed during growth, cARl
+did not appear to couple to its normal effectors since these cells failed to carry out chemotaxis or to elevate
+cGMP or cAMP levels when stimulated with cAMP. However, cAMP stimulated phosphorylation, and
+loss of ligand binding of cARl did occur. Like aggregation stage control cells, the cARl protein shifted
+in apparent molecular mass from 40 to 43 kDa and became highly phosphorylated when exposed to cAMP.
+In addition, the number of surface cAMP binding sites in cARl cells was reduced by over 80% during
+prolonged cAMP stimulation. These results define a useful system to express altered cARl proteins and
+examine their regulatory functions.
+abstract:
+
+activation of adenylyl cyclase. The newly synthesized intracellular cAMP is then secreted from the cell. Ligand binding
+also causes adaptation which uncouples the receptor from its
+effectors within minutes. The rapid removal of extracellular
+
+Dictyostelium discoideum normally live as freely growing
+
+amoebae, but when deprived of nutrients, cell division and
+growth cease, and the cells enter a developmental program that
+results in the formation of a multicellular structure. During
+early development, organizing centers arise which secrete
+cAMP* every 6 min. The released cAMP stimulates neighboring cells, which relay the chemical signal outward in the
+form of concentric or spiral waves (Tomchik & Devreotes,
+1981). The propagated waves of cAMP act as chemoattractant gradients which coordinate the migration of cells toward
+the aggregation center (Devreotes, 1982).
+Early aggregation is coordinated by a G-protein-linked
+signal transduction system. Extracellular cAMP binds to a
+cell surface receptor, coupled to a G-protein, which leads to
+
+cAMP by cell surface phosphodiesterases allows the receptors
+to resensitize, and the cycle is reinitiated (Klein et al., 1985;
+Janssens & Van Haastert, 1987; Gundersen et al., 1989).
+A cAMP receptor (denoted cARl) has been cloned and its
+primary sequence determined (Klein et al., 1988). Characteristic of other G-protein-coupled receptors, such as rhodopsin
+
+1
+
+(Hargrave, 1986) and the adrenergic receptors (Dohlman et
+al., 1987), its predicted sequence encodes a protein consisting
+of seven transmembrane domains followed by a hydrophilic
+C-terminal region. This cytoplasmic region contains 18 serines,
+
+•This work was supported by National Institutes of Health Grant
+GM-34933.
+*
+To whom correspondence should be addressed.
+•Johns Hopkins University.
+I Present address: Alcohol Drug Abuse and Mental Health Administration, NIDA, Addiction Research Center, Baltimore, MD 21224.
+University of Groningen.
+
+Abbreviations: cAR, cAMP receptor; cAMP, adenosine cyclic
+3',5'-monophosphate; cGMP, guanosine cyclic 3',5'-monophosphate;
+LLB, loss of ligand binding; DB, developmental buffer; HBS, Hepesbuffered saline; PB, phosphate buffer; AS, ammonium sulfate; DTT,
+dithiothreitol; SDS-PAGE, sodium dodecyl sulfate-polyacrylamide gel
+electrophoresis.
+1
+
+II
+
+0006-2960/91 /0430-6982S02.50/0
+
+&copy;
+
+1991 American Chemical Society
+
+Downloaded from pubs.​acs.​org/​bichaw/​article-pdf/​30/​28/​6982/​1107071/​bi00242a025.​pdf by FRIEDRICH-ALEXANDER-UNIV user on 30 September 2026
+
+Overexpression of the cAMP Receptor 1 in Growing Dictyostelium Cells1,
+
+Biochemistry, Vol. 30, No. 28, 1991
+
+cAMP Receptor in Dictyostelium
+cDNA
+
+some of which are the sites of ligand-induced phosphorylation
+
+The kinetics of cARl
+and
+phosphorylation
+dephosphorylation correlate strongly with
+that of adaptation and deadaptation (Vaughan & Devreotes,
+1988).
+Recently, several other cAMP receptors, cAR2-cAR4, have
+been cloned. This family of receptor subtypes share about 60%
+identity in the transmembrane and loop regions but have
+distinct cytoplasmic C-termini (Saxe et al., 1991). Each receptor has a unique pattern of expression during development.
+For instance, growing cells have only low amounts of cARl
+protein, but during development, cARl expression rises to a
+maximum in the early aggregate stage and then declines (Klein
+et al., 1987). The peak expression of other cAMP receptor
+subtypes is subsequent to that of cARl although there is some
+overlap (Saxe et al., 1991). However, since no cAR is significantly expressed during growth, cAR’s expressed exogenously at that time are detectable against a negligible background of other receptor subtypes. Such a system simplifies
+the examination of binding and regulatory phenomena of each
+
+(R. Vaughan, unpublished data).
+
+mations were done as described (Nellen et al., 1984) with some
+modifications. AX-3 cells (5 X 107) were grown overnight in
+20 mM Bis-Tris HL-5 in Petri dishes, and medium was
+changed again the following morning. DNA (5-10 Mg) was
+precipitated in 0.125 M CaCl2 in 1 X HBS 30 min prior to
+adding to the cells. Four hours later, cells were treated for
+5 min with 14% glycerol (w/v) and then incubated in HL-5
+overnight. Transformants were cloned the following day and
+selected with HL-5 containing 20 Mg/mL G418. Cell lines
+were derived from individual clones which appeared after 2-3
+weeks.
+Stable expression of cARl could be maintained only when
+cARl cells were grown on surfaces. When they were maintained in shaking culture for several weeks, cARl expression
+levels fluctuated or plummeted. The basis of this instability
+is not known, but substrate adhesion can alter actin promotor
+activity (Knecht & Loomis, 1987). The level of cARl expression varied by about 20-fold between individual clones
+
+within a transformation while some transformations yielded
+no expression. cARl expression levels stabilized after about
+a month in culture on plates.
+cAMP Binding Assays. cAMP binding in phosphate buffer
+
+growth as well as early development. These observations define
+a convenient means to study these regulatory properties of
+cARl by mutation without regard for the potential effects on
+development.
+
+(PB) was performed in the absence or presence of ammonium
+sulfate (AS) as described (Van Haastert, 1985). In brief, 8
+X 106 cells were added to PB containing 10 mM DTT, 10 nM
+(3H)cAMP, and various concentrations of cAMP in a 100-mL
+volume at 4 °C. Cells were incubated 1 min and then centrifuged for 2 min at lOOOOg. To determine binding in AS,
+the above assay included 850 mL of 3 M AS and, after adding
+cells, 50 mL of 10 mg/mL BSA. Cells were incubated 5-7
+min and then centrifuged for 3 min. For both assays, the
+supernatants were carefully aspirated and the cells were resuspended in 80 mL of 0.1 M formic acid. One milliliter of
+scintillation fluid was then added and the radioactivity determined. Nonspecific binding was determined by adding
+excess cAMP to the incubation mixture at a final concentration
+of 1 mM (PB) or 0.1 mM (AS). Binding curves were best
+fit using the computer modeling program ligand (Munson
+6 Rodbard, 1980).
+Other Assays. Whole cells were labeled with 100 nM 8N3-(32P)cAMP for photoaffinity labeling (Devreotes et al.,
+1987) or with (32P)Pi (Vaughan & Devreotes, 1988) for in vivo
+phosphorylation as described. Loss of ligand binding was
+assayed as described (Van Haastert, 1987) by shaking 5 X
+107 cells in 2 mL of phosphate buffer in the presence or absence of 100 mM cAMP and 10 mM DTT for 15 min. Cells
+were washed in 15 mL of PB three times at 4 °C, and specific
+binding sites were measured by using 5 nM (3H)cAMP in PB.
+Whole cells were immunoprecipitated and immunoblotted as
+described (Klein et al., 1987).
+
+Materials and Methods
+
+Results
+
+Cell Growth and Development. AX-3 cells were grown in
+HL-5 media, and vector-transformed cells were grown in HL-5
+media with 20 Mg/mL G418. Cells were grown to a density
+of approximately 5 X 106/mL and developed by shaking at
+2 X 107/mL in development buffer (DB) as described (Devreotes et al., 1987). Cells were prepared for assays by washing
+in an equal volume and resuspending at 108 cells/mL in DB.
+Vector Construction and Transformation. pB6 (Klein et
+al., 1988) was digested with BamHl/EcoKV to isolate a
+full-length cARl cDNA (cARl) or digested with Fokl/Nael
+to create a truncation in the C-terminal region at amino acid
+311 (cARl A311). Bglll linkers were added to each and then
+ligated into the Bglll site of the expression vector, pB18 (gift
+of R. Firtel), in the sense orientation (Figure 1). Transfor-
+
+Expression of cARl Protein. To express cARl during
+growth, a full-length cDNA was fused to the Dictyostelium
+actin 15 promoter in the sense orientation in the expression
+vector pB18 (Figure 1). This promoter is constitutiveiy active
+during growth and throughout early development (Knecht et
+al., 1986). This construct or pB18 were transformed into AX-3
+cells. Stable transformant clones were selected and screened
+for cARl expression by immunoblotting with a polyclonal
+cARl antiserum. One clone with a high level of expression
+(designated cARl cells) and one control clone (designated B18
+cells) were characterized further.
+As previously reported, cARl cells express 7-40 times more
+binding sites than control transformed cells (Klein et al., 1988).
+To verify that the additional binding sites were expressed from
+
+cAR.
+We have used this system to examine the biochemical
+properties of cARl. cARl expressed during growth has a
+similar affinity to the cAMP binding sites expressed during
+the aggregate stage. The receptor undergoes at least two of
+its normal ligand-induced regulatory functions: phosphorylation and loss of ligand binding. Hence the components
+involved in cARl -mediated desensitization are present during
+
+Downloaded from pubs.​acs.​org/​bichaw/​article-pdf/​30/​28/​6982/​1107071/​bi00242a025.​pdf by FRIEDRICH-ALEXANDER-UNIV user on 30 September 2026
+
+figure 1: pB18 expression construct. pB18 is a derivative of pUC18
+which contains the actin 6 Neo cassette to encode neomycin resistance.
+cDNAs encoding cARl or cARl A311 were cloned in the sense
+orientation in the unique Bglll site. The strong and constitutiveiy
+active actin 15 promoter controls transcription.
+
+6983
+
+Johnson et al.
+
+Biochemistry, Vol. 30, No. 28, 1991
+
+6984
+
+Table I: Summary of Binding Parameters of BIS and cARl Cells'1
+
+ammonium sulfate
+
+phosphate buffer
+
+(nM)
+cell
+
+high
+
+low
+
+1
+
+BIS
+
+40 ± 9
+
+350 ± 180
+
+11
+
+B18
+
+III
+
+cARl
+cARl
+
+25 ± 8
+
+110 ± 14
+86 ± 22
+230 ± 45
+
+expt
+
+(nM)
+
+sites/cell (X1000)
+low
+high
+17 ± 12
+
+58 ± 13
+
+high
+1.8 ± 0.26
+
+64 ± 3
+75 ± 38
+
+190 ± 17
+260 ± 34
+
+low
+
+sites/cell (XI000)
+low
+high
+96 ± 2
+nd
+nd
+
+nd
+nd
+
+370 ± 6
+
+3.5 ± 0.34
+
+determined at 9 or 10 different cAMP concentrations in phosphate buffer (PB) in the absence or presence of 3 M
+ammonium sulfate (AS) and used to create Scatchard plots. Binding curves were fitted with the ligand program for models with one or two binding
+sites and their affinities assigned. Data are shown for the mode! that statistically fits the data best. Three independent experiments were performed
+with cAMP binding assayed either on both cells in PB or for one set of cells in both PB and AS. ‘nd, not determined.
+°
+
+(3H)cAMP binding was
+
+1
+
+23456
+
+78
+
+9 10 1112
+
+Hrs
+
+0123468
+
+10
+
+66
+
+-
+
+-
+
+-
+
+-
+
+-
+
+45
+36
+24
+DF
+
+FIGURE 3: Developmental regulation of exogenously or endogenously
+expressed cARl protein. B18 or cARl cells were developed and
+
+examined for expression of cARl protein by immunoblots with cARl
+antiserum. Receptor expression in control cells (B18) was induced
+at 3 h, peaked at 6-8 h, and then declined in development. cARl
+cells expressed high levels of protein throughout the first 10 h of
+development.
+
+Photoaffinity labeling of cARl and cARl A311 cells.
+Growing (lanes 1-3) or developed B18 (lanes 4-6), growing cARl
+(lanes 7-9), and growing cARl A311 (lanes 10-12) cells were photoaffinity labeled with (32P)-8-N3-cAMP. Nonspecific labeling was
+examined by including excess cold cAMP into the assay (lanes 3, 6,
+9, and 12). Full-length cARl migatesat 40 IcDa while cARl A311
+is approximately 24 kDa,
+figure
+
+2:
+
+the transforming plasmid, we used an identical expression
+construct, cARl A311, in which the insert was a truncated
+form of cARl. The cARl A311 cells expressed about onethird as many cAMP binding sites as the cARl cells (data
+not shown). When photoaffinity-labeled with (32P)-8-N3cAMP (Figure 2), the exogenously expressed cARl (lanes
+7-9) migrated as a 40-kDa protein, identical in size with the
+
+endogenously expressed cARl (lanes 4-6) in developed B18
+cells. However, cARl A311 appeared as a 24-kDa protein
+(lanes 10-12). Darker exposure of the autoradiograph revealed
+low amounts of full-length cARl protein present in the cARl
+A311 lane, which indicated that the endogenous cARl locus
+was not disrupted. Thus the additional cAMP binding sites
+resulted from plasmid expression and not from induction of
+the endogenous cARl gene(s).
+To examine the developmental expression of the exogenous
+receptor, cAR cells were developed by shaking for times up
+to 10 h and cARl protein was examined by immunoblot
+(Figure 3). As in wild-type cells, the endogenous cARl in
+B18 cells is developmental^ regulated; protein levels begin to
+rise at 3 h, peak between 6 and 8, and then decline (Klein et
+al., 1987). cARl cells, however, expressed high levels of cARl
+protein during growth (0 h), which increased slightly
+throughout the first 10 h of development. This level was
+3-5-fold higher than the peak expression attained in developed
+B18 cells. High levels of constitutive expression are consistent
+with previous studies using the actin 15 promoter (Knecht et
+al., 1986).
+The affinity of cARl expressed in growing cells was determined by assaying for surface (3H)cAMP binding in
+phosphate buffer (PB). As shown in Figure 4 and Table I,
+
+BOUND
+(SITES/cm. I
+
+lOOO)
+
+4: Scatchard analysts of cARl and developed B18 cells.
+Receptor affinity was determined by the binding of (3H)cAMP to
+cells in phosphate buffer. Developed B18 cells (•) express about 7
+X 104 binding sites/cell while cARl cells (O) have over 3 X 10s
+sites/cell. Both cell lines have two affinity states of about 30 and
+300 nM (see Table I).
+figure
+
+1
+
+the affinity of cARl expressed from plasmid during growth
+is similar to that of the endogenous cAMP binding sites in
+developed cells. Two affinity states were detected: a highaffinity state of 25 nM (cARl) or 40 nM (B18) and a lowaffinity state, which comprised most of the binding sites, of
+230 nM (cARl) or 350 nM (B18). A second experiment
+revealed only one affinity state for both cARl and developed
+B18 cells of 86 and 110 nM, respectively. The relative number
+of cAMP binding sites correlates well with relative cARl
+protein levels in each cell line. Control cells which were developed for 4 h expressed about 7 X 104 sites/cell, while cARl
+cells expressed approximately (2-3) X 105 sites/cell in the
+growth stage. cAMP binding assayed in the presence of 3 M
+ammonium sulfate increases the apparent affinity for cAMP
+
+Downloaded from pubs.​acs.​org/​bichaw/​article-pdf/​30/​28/​6982/​1107071/​bi00242a025.​pdf by FRIEDRICH-ALEXANDER-UNIV user on 30 September 2026
+
+B18
+
+cAMP Receptor in Dictyostelium
+
+Biochemistry, Vol. 30, No. 28, 1991
+
+12345678
+
+6985
+
+Table 11: Loss of Ligand Binding”
+% cAMP binding sites lost
+
+after ligand stimulation
+B18
+
+_cARl_84
+
+76 ± 5.3
+
+±
+
+2.3_
+
+“Developed Bt8 or growing cARl cells were assayed for surface
+cAMP binding sites with or without preincubation with unlabclcd
+cAMP. Results are from three experiments.
+
+phate buffer. As shown in Table II, both cell lines lost at least
+75% of their surface binding sites even though the growing
+cARl cells expressed over 3 times the number of binding sites
+compared to developed B18 cells.
+
+5: Receptor phosphorylation in cARl and B18 cells. Growing
+(lanes 1-4) and developed (lanes 5-8) cARl (lanes 1, 2, 5, and 6)
+or B18 (lanes 3, 4, 7, and 8) cells were labeled in vivo with (32P)P,
+in the presence (lanes 2, 4, 6, and 8) or absence (lanes I, 3, 5, and
+7) of cAMP, Receptor protein was immunoprecipitated with cARl
+antiserum and separated by SDS-PAGE. The apparent molecular
+mass (kDa) of basal and ligand stimulated receptors is shown on the
+
+figure
+
+right.
+
+by about 30-fold and exposes additional receptor sites (Van
+Haastert, 1985). For both cARl and developed B18 cells, the
+affinity for cAMP {Ki = 4 and 2 nM, respectively) and the
+number of sites exposed (3.7 X 105 and 9.6 X 104 sites/cell,
+respectively) in ammonium sulfate were similarly enhanced
+(Table I).
+cARl did not appear to couple to its normal effectors when
+expressed during the growth stage. These cells did not display
+cAMP-mediated chemotaxis, cGMP increases, or cAMP increases above vector control backgrounds (data not shown).
+Surprisingly, the high level of constitutive expression of cAR
+had only a modest dominate phenotype; it delayed the onset
+of aggregation by 1-3 h. Once development was in progress,
+however, it proceeded normally. Aggregation centers, wave
+patterns, and the typical morphological stages were all present.
+Regulatory Properties of Expressed cARl. To examine the
+ligand-induced phosphorylation of cARl expressed during
+growth, cells were labeled in vivo with (32P)P; and incubated
+in the presence or absence of 10 jtM cAMP. The receptor was
+then immunoprecipitated with cARl antiserum (Figure 5).
+The endogenous cARl in developed cells migrated as a 40-kDa
+band (R form) in the basal state (lane 7), and following
+stimulation with cAMP, it shifted to 43 kDa (D form) and
+became highly phosphorylated (lane 8). A similar transition
+and increase in phosphorylation were observed in growing
+cARl cells, and consistent with the increased amount of expression, higher levels of phosphorylation were observed (lanes
+and 2). The kinetics (ti/2 = 90 s) and dose dependency (Zf50
+=
+5 nM) of phosphorylation observed in developed wild-type
+cells (Vaughan & Devreotes, 1988) appeared to be the same
+in growing cARl cells (unpublished data).
+In developed cells, persistent incubation with cAMP causes
+a loss of surface cAMP binding sites, a process termed loss
+of ligand binding (LLB) (Klein & Juliani, 1977; Van Haastert,
+1987). The transformed cell lines were used to determine
+whether the cells would similarly undergo LLB during the
+growth stage. Both growing cARl and developed B18 cells
+were incubated in the presence or absence of 0.1 mM cAMP
+for 15 min and washed repeatedly, and the number of surface
+cAMP binding sites were detected with (3H)cAMP in phos1
+
+1
+
+cARl plays a critical role in development since mutant cell
+lines that lack cARl by antisense mutagenesis (Klein et al.,
+1988; Sun et al., 1990) or gene disruption (Sun & Devreotes,
+1991) fail to differentiate. We have established stable cell lines
+which express cARl up to 40 times over that of the endogenous
+receptors during growth and 3-5 times the peak developmcntally regulated levels. When starved, cARl cells are able
+to differentiate and make fruiting bodies. The initiation of
+the developmental program was delayed for several hours, with
+cells remaining as a monolayer before proceeding into development.
+We had expected the premature overexpression of cARl
+would severely disrupt the developmental program. The cAMP
+oscillator, which is responsible for center formation and proper
+functioning of cell-cell signaling, has been theoretically
+modeled. To create oscillations, these models require a precise
+interplay among the activities of surface cAMP receptors,
+adenylyt cyclase, and phosphodiesterase. Oscillatory behavior
+is limited to a specific range of these activities, and if any of
+these ranges are exceeded, the system becomes unbalanced and
+the oscillations stop (Goldbeter & Segel, 1977; Martiel &
+Goldbeter, 1987). Hence, overexpression of only cARl is
+predicted to disrupt the oscillator and block development. The
+relatively normal development of the cARl cells contradicts
+this prediction. It is possible that the receptor is not the
+limiting factor in adenylyl cyclase activation and thus an increase in cARl levels does not correspondingly increase adenylyl cyclase activation. Instead, other components in this
+signaling pathway, such as G«2, the G-protein presumed to
+couple to cARl, may be in limiting quantities. In addition,
+we have noted that the kinetics of receptor phosphorylation
+proceeds normally in the cARl cells. The capacity of this
+regulatory system may allow the response to adapt with similar
+kinetics over a wide range of receptor levels and allow proper
+development.
+The cAMP binding affinity of cARl expressed in growing
+cells is similar to that of the endogenous receptors expressed
+in aggregation. Previous equilibrium binding studies with
+aggregation stage cells have shown two affinities: a highaffinity site of approximately 10 nM and a low-affinity site,
+comprising most of the binding, of 150-450 nM (Green &
+Newell, 1975; van Haastert, 1985). In agreement with these
+studies, some of our binding data were best fit for two affinity
+sites of approximately 30 and 300 nM for both B18 and cARl
+cells. In one experiment, however, both cell lines appeared
+to have an intermediate affinity for cAMP (Table I). Highaffinity sites are thought to result from coupling to a G-protein
+(Birnbaumer et al., 1985) In wild-type cells, G«2 is coordinately expressed with cARl (Kumagi et al., 1989; Pupillo et
+al., 1989) but has variable low levels present in the growth
+stage. The high-affinity sites in growing cARl cells may result
+
+Downloaded from pubs.​acs.​org/​bichaw/​article-pdf/​30/​28/​6982/​1107071/​bi00242a025.​pdf by FRIEDRICH-ALEXANDER-UNIV user on 30 September 2026
+
+Discussion
+
+6986
+
+Biochemistry, Vol. 30, No. 28, 1991
+
+Acknowledgments
+We thank P. Ford for help in preparing the manuscript and
+R. Firtel for generously providing the expression vector pB18.
+Registry No. cAMP, 60-92-4.
+
+References
+Birnbaumer, L., Codina, J., Mattera, R., Cerione, R. A.,
+Hildebrandt, J. D., Sunyer, T., Rofas, F. J., Caron, M. G.,
+Lefkowitz, R. J., & Iyengar, R. (1985) in Recent Progress
+in Hormone Research (Greep, R. O., Ed.) pp 41-99, Academic Press, Orlando.
+Devreotes, P. N. (1982) in The Development of Dictyostelium
+discoideum (Loomis, W. F., Ed.) pp 117-168, Academic
+Press, New York.
+Devreotes, P., Fontana, D., Klein, P., Sherring, J., & Theibert,
+A. (1987) Methods Cell Biol. 28, 299-331.
+Dohlman, H. G., Caron, M. G., & Lefkowitz, R. J. (1987)
+Biochemistry 26, 2657-2664.
+Goldbeter, A., & Segel, L. A. (1977) Proc. Natl. Acad. Sci.
+U.S.A. 74, 1543-1547.
+Green, A. A., & Newell, P. C. (1975) Cell 6, 129-136.
+Gundersen, R. E., Johnson, R., Lilly, P., Pitt, G., Pupillo, M.,
+Sun, T., Vaughan, R., & Devreotes, P. N. (1989) in Cell
+to Cell Signalling-. From Experiments to Theoretical
+Models (Goldbeter, A., Ed.) pp 477-488, Academic Press,
+London.
+Hargrave, P. A. (1986) in The Retina (Adler, R., & Farber,
+D., Eds.) pp 207-237, Academic Press, New York.
+Janssens, P. M. W., & Van Haastert, P. J. M. (1987) Microbiol. Rev. 51, 396-418.
+Klein, C., & Juliani, M. H. (1977) Cell 10, 329-335.
+Klein, P., Fontana, D., Knox, B., Theibert, A., & Devreotes,
+P. (1985) Cold Spring Harbor Symp. Quant. Biol. 50,
+787-799.
+Klein, P„ Vaughan, R., Borleis, J., & Devreotes, P. (1987)
+J. Biol. Chem. 262, 358-364.
+Klein, P. S., Sun, T. J., Saxe, C. L., Kimmel, A. R., Johnson,
+R. L., & Devreotes, P. N. (1988) Science 241, 1467-1472.
+Knecht, D. A., & Loomis, W, F. (1987) Science 236,
+1081-1086.
+Knecht, D. A., Cohen, S. M., Loomis, W. F., & Lodish, H.
+F. (1986) Mol. Cell. Biol. 6, 3973-3983.
+Kumagai, A., Pupillo, M., Gundersen, R., Miake-Lye, R.,
+Devreotes, P. N., & Firtel, R. A. (1989) Cell 57, 265-275.
+Lohse, M. J., Benovic, J. L., Caron, M. G., & Lefkowitz, R.
+J. (1990) J. Biol. Chem. 265, 3202-3209.
+Martiel, J. L., & Goldbeter, A. (1987) Biophys. J. 52,
+807-828.
+Munson, P. J., & Rodbard, D. (1980) Anal. Biochem. 107,
+220-239.
+Nellen, W., Silan, C., & Firtel, R. A. (1984) Mol. Cell. Biol.
+4, 2890-2898.
+Pupillo, M., Kumagai, A., Pitt, G. S., Firtel, R. A., & Devreotes, P. N. (1989) Proc. Natl. Acad. Sci. U.S.A. 86,
+4892-4896.
+Saxe, C. L., Johnson, R., Devreotes, P. N., & Kimmel, A. R.
+(1991) Dev. Genet. 12, 6-13.
+Sun, T. J., & Devreotes, P. N. (1991) Genes Dev. 5, 572-582.
+Sun, T. J., Van Haastert, P. J. M., & Devreotes, P. N. (1990)
+J. Cell Biol. 110, 1549-1554.
+Tomchik, K. J., & Devreotes, P. N. (1981) Science 212,
+443-446.
+Van Haastert, P. J. M. (1985) Biochim. Biophys. Acta 845,
+254-260.
+Van Haastert, P. J. M. (1987) J. Biol. Chem. 262, 7700-7704.
+Vaughan, R. A., & Devreotes, P. N. (1988) J. Biol. Chem.
+263, 14538-14543.
+
+Downloaded from pubs.​acs.​org/​bichaw/​article-pdf/​30/​28/​6982/​1107071/​bi00242a025.​pdf by FRIEDRICH-ALEXANDER-UNIV user on 30 September 2026
+
+from coupling to Ga2 or to a G-protein more abundant during
+growth, Gal.
+Van Haastert (1985) has shown that, in developed cells, the
+receptor affinity for cAMP increases by 30-fold when 3.4 M
+ammonium sulfate is added to the binding assay. This affinity
+enhancement is caused by a reduction in the dissociation rate
+of cAMP from the receptors. In our studies, cAMP binding
+in the presence of ammonium sulfate enhanced receptor affinity and the number of exposed binding sites similarly in both
+cell lines. In B18 and cARl, ammonium sulfate decreased
+the apparent Kd s to 2 and 4 nM, respectively.
+Basal and cAMP-induced phosphorylation of cARl occurs
+similarly whether the receptor is expressed endogenously in
+aggregation stage cells or from plasmid in growing cells. A
+time course of trypsin or endoproteinase Lys-C digestion of
+the 32P-labeled receptor or C-terminal domain shows that the
+pattern of phosphopeptides generated is similar in both sets
+of cells (unpublished data). This indicates that the ligandinduced receptor kinase acts on the same sites of cARl both
+during growth and development. Furthermore, the kinetics
+of phosphorylation and dephosphorylation are comparable
+(unpublished data), suggesting that the cARl kinase and
+phosphatase are already present in nonlimiting amounts in
+growing cells.
+When preincubated with ligand, cAMP receptors undergo
+a loss of ligand binding (LLB) and no longer bind extracellular
+cAMP (Klein & Juliani, 1977; Van Haastert, 1987). Studies
+in mammalian systems have shown that, after prolonged ligand
+stimulation, 0 adrenergic receptors occupy a distinct membrane
+compartment which can be separated from the plasma membrane by sucrose density gradient centrifugation (Lohse et al.,
+1990). In developed Dictyostelium cells, previous experiments
+have demonstrated a maximum loss of 80% of surface binding
+sites after stimulation with 1 juM cAMP for 15 min (Van
+Haastert, 1987). Our results show both cell lines lose at least
+75% of surface cAMP binding. The extent of LLB is independent of the level of cARl overexpression, which suggests
+that this mechanism is not easily saturated.
+These results expand our ability to examine the functions
+of cAMP receptors. For cARl, we can now study receptor
+phosphorylation and LLB by introducing altered or chimeric
+cAR proteins during the growth state and examine these two
+regulatory mechanisms. For each cAR subtype, we can study
+the properties of cAMP binding; recently both cAR2 and
+cAR3 have been expressed and the binding and pharmacological aspects of each cAR compared (unpublished data).
+cAR clones can now be expressed in an environment that is
+free of their normally associated effectors and G-proteins as
+well as in mutant cells that are blocked in development.
+Coexpression of G-protein a-subunits with cAR’s may enable
+signal transduction to occur out of the context of normal
+development and allow the examination of receptor/G-protein
+coupling. In addition, it may be possible to introduce and
+overexpress G-protein-coupled receptors from other eukaryotic
+organisms and examine their ability to couple with Dictyostelium signal transduction components.
+
+Johnson et al.
+
+

@@ -1,0 +1,41 @@
+\subsection{Module 4: PIP3, PTEN and the PkbA Feedback}\label{sec:m4}
+
+\paragraph{Role.}
+In chemotaxing cells PI3K moves to the plasma membrane at the front and PTEN shows a reciprocal distribution at the back~\cite{funamoto2002,iijima2002}.
+Bulk PIP3 rises transiently after a stimulus, PI3K activation increases within 5\,s and then declines, and the changes are larger and longer in cells lacking PTEN~\cite{huang2003}.
+PIP3 is read out by PH-domain proteins such as CRAC, whose translocation reflects activation of the G-protein pathway~\cite{parent1998}; after uniform stimulation PHCrac-GFP translocation peaks after 6--8\,s and disappears after about 20\,s, followed by small patches from about 30\,s~\cite{postma2003}.
+Ras activates PI3K~\cite{sasaki2004,fukushima2019}, and PIP3 in turn suppresses the membrane binding of PTEN, so that PIP3 and PTEN are mutually inhibitory and can form a bistable pair~\cite{matsuoka2018}.
+A delayed negative feedback that reduces Ras and PI3K activity is provided by the PKBs, whose activation lags behind that of Ras and PI3K~\cite{miao2017,charest2010}.
+Module~4 implements these elements with a conserved lipid pool, a conserved PTEN pool and a two-step PkbA arm.
+
+\input{sections/tables/tab_m4_rxn}
+\input{sections/tables/tab_m4_const}
+
+\paragraph{Reactions.}
+\begin{description}\itemsep0pt
+\item[4.1/4.2] RasG-GTP recruits cytosolic PI3K to the membrane, and membrane PI3K is released again. The release rate sets how fast PI3K activity declines after the stimulus~\cite{huang2003}.
+\item[4.3] Membrane PI3K converts PIP2 to PIP3. The flux is proportional to the membrane PI3K count and does not depend on PIP3, so the rate constant sets the PIP3 count and not its contrast.
+\item[4.4/4.5] PTEN docks on membrane PIP2 and is released; this gives PTEN its steady membrane fraction.
+\item[4.6c] PIP3 evicts PTEN from the membrane through a cooperative gate; this is the mutual inhibition PIP3 $\dashv$ PTEN~\cite{matsuoka2018}. The Hill-type form is used, instead of a mass-action form, because it separates a low-PIP3 state (PTEN on the membrane) from a high-PIP3 state (PTEN off the membrane).
+\item[4.7] Membrane PTEN removes the 3-phosphate of PIP3~\cite{iijima2002,huang2003}.
+\item[4.8] A PTEN-independent phosphatase (a 5-phosphatase such as SHIP) removes PIP3. It is the dominant sink at rest: without it PTEN, which is evicted by PIP3, would be the only route out of PIP3 and the resting cell would convert 60\,\% of the lipid pool to PIP3. The two-step dephosphorylation via PI(3,4)P$_2$ is collapsed to one step, which preserves the flux out of PIP3 but does not resolve PI(3,4)P$_2$, a species that is itself part of the Ras excitable network~\cite{li2018}.
+\item[4.10/4.11] PIP3 recruits the kinase PkbA (Akt) by its PH domain, and PkbA is released from the membrane. PkbA is recruited to the membrane in response to cAMP in a PI3K-dependent way and its activation is transient~\cite{meili1999}.
+\item[4.12/4.13] Membrane PkbA is activated by TORC2, which is active at the front and acts through the hydrophobic motif~\cite{kamimura2008}, and inactivated with $\tau=50$\,s. The two-step activation (PIP3-dependent recruitment first, TORC2-dependent phosphorylation second) is a coincidence detector and provides the lag behind PIP3 that a delayed negative feedback needs. The phosphoinositide-dependent kinases PdkA and PdkB, which phosphorylate the activation loop~\cite{kamimura2010}, are not modelled; activation-loop and hydrophobic-motif phosphorylation are lumped into one step.
+\item[4.14] Active PkbA removes PI3K from the membrane. The literature target of the feedback is the Sca1/RasGEF/PP2A complex and thus RasC~\cite{charest2010}; because that complex is not resolved, the feedback is applied at its Module~4 end point (less Ras-GTP implies less membrane PI3K). Sign, locality and delay follow the published mechanism, and only the intermediate is omitted.
+\end{description}
+PkbA (with a PH domain, recruited by PIP3) and PKBR1 (myristoylated, constitutively at the membrane, PI3K-independent) are two different gene products~\cite{meili1999,meili2000}; Module~4 owns PkbA and Module~8 owns PKBR1, so that no reaction describes the same species twice.
+
+\paragraph{Constants.}
+All rates of reactions 4.1--4.8 are multiplied by the clock factor $s_4=20$.
+A uniform factor on all rates in a module is a clock, not a re-parameterisation: every steady state, every activated fraction and the loop gain are unchanged, and only the time scales are divided.
+What limits PIP3 formation is the flux against the pool that has to be converted (about $1.7\times10^3$ molecules per voxel per second against a pool of about $6\times10^4$), and the factor was chosen so that PIP3 forms within seconds of a 40\,s stimulus.
+The constants $k_\mathrm{syn}$, $k_{PT,\mathrm{on}}$ and $k_{PT}$ are expressed relative to legacy pool sizes (divided by the ratio of the present pool to the legacy pool), so that the flux per pool does not change when the pools were enlarged.
+Enlarging a production-rate constant raises resting and peak PIP3 together, so it changes the PIP3 count (and hence the noise), not the contrast; it was therefore used as a noise lever and not as a contrast lever.
+$k_{K,\mathrm{on}}$ and $k_{K,\mathrm{act}}$ are solved from resting-rate anchors (0.002 and $8.5\times10^{-3}$\,s$^{-1}$), so that the resting rate of the feedback arm is fixed and does not silently rescale when Modules~3 and~8 are retuned.
+The slow recruitment ($k_{K,\mathrm{on}}$) delays the feedback, so that it acts after the cAMP pulse and not during it.
+The PIP3 gate $K_\mathrm{ev}$ was set on the steep flank of the eviction curve; a value of the half-point above 19.5\,\% of the lipid pool made the PIP3 domain a winner-take-all latch whose orientation was set by the initial condition and not by the gradient.
+
+\paragraph{Limitations.}
+The mutual inhibition of Module~4 alone does not amplify a spatial signal: for the pools used its loop gain stays below one, so that the amplification of the polarity signal is provided by the Ras$\to$PIP3 feedback 3.3b and not by PTEN.
+The PkbA feedback is required for a reset after a pulse: without it PIP3 keeps rising after the stimulus has ended.
+The gate of reaction 4.12 reads TORC2, which is activated by RasC in the literature~\cite{cai2010}; the coupling of Module~8 to Module~4 through TORC2$^*$ follows this.

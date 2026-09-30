@@ -1,0 +1,571 @@
+THE JOURNAL OF BIOLOGICAL CHEMISTRY
+© 1999 by The American Society for Biochemistry and Molecular Biology, Inc.
+
+Vol. 274, No. 39, Issue of September 24, pp. 27379 –27384, 1999
+Printed in U.S.A.
+
+The RdeA-RegA System, a Eukaryotic Phospho-relay Controlling
+cAMP Breakdown*
+(Received for publication, May 21, 1999, and in revised form, July 8, 1999)
+
+Peter A. Thomason‡§, David Traynor‡, Jeffry B. Stock¶, and Robert R. Kay‡
+From the ‡Medical Research Council Laboratory of Molecular Biology, Hills Road, Cambridge, CB2 2QH,
+United Kingdom and the ¶Department of Molecular Biology, Princeton University, Princeton, New Jersey 08544
+
+The regA and rdeA gene products of Dictyostelium are
+involved in the regulation of cAMP signaling. The response regulator, RegA, is composed of an N-terminal
+receiver domain linked to a C-terminal cAMP-phosphodiesterase domain. RdeA may be a phospho-transfer
+protein that supplies phosphates to RegA. We show genetically that phospho-RegA is the activated form of the
+enzyme in vivo, in that the predicted site of aspartate
+phosphorylation is required for full activity. We show
+biochemically that RdeA and RegA communicate, as evidenced by phospho-transfer between the two proteins
+in vitro. Phospho-transfer is dependent on the presumed
+phospho-accepting amino acids, histidine 65 of RdeA
+and aspartate 212 of RegA, and occurs in both directions. Phosphorylation of RegA by a heterologous phospho-donor protein activates RegA phosphodiesterase
+activity at least 20-fold. Our results suggest that the
+histidine phosphotransfer protein, RdeA, and the response regulator, RegA, constitute two essential elements in a eukaryotic His-Asp phospho-relay network
+that regulates Dictyostelium development and fruiting
+body maturation.
+
+Eukaryotic His-Asp phospho-relay networks are thought to
+consist of a signal-regulated histidine protein kinase (HPK)1
+containing an ATP-binding catalytic core, a site of histidine
+phosphorylation (the H-domain), and a receiver domain containing a site of aspartate phosphorylation (1). Downstream of
+the HPK is a cognate response regulator protein that also
+possesses a receiver domain, phosphorylation of which modulates the activity of the response regulator. Communication
+between the two receiver domains occurs via a histidine phosphotransfer protein (HPt), which acts as a histidine-phosphorylated intermediary allowing phosphate to be shuttled between the conserved aspartate residues of the two receiver
+domains. In bacteria, the HPt moiety can be fused to the C
+terminus of a hybrid HPK, as with ArcB or BvgS for example,
+or be a separate protein, such as LuxU (1, 2). In eukaryotes, the
+only characterized HPt protein is Ypd1 from Saccharomyces
+cerevisiae, which like LuxU, is a separate protein (2, 3).
+The osmo-sensing pathway of S. cerevisiae is the best under-
+
+* This work was supported by the United Kingdom Medical Research
+Council and by an International Research Scholars award from the
+Howard Hughes Medical Institute (to R. R. K.). The costs of publication
+of this article were defrayed in part by the payment of page charges.
+This article must therefore be hereby marked “advertisement” in accordance with 18 U.S.C. Section 1734 solely to indicate this fact.
+§ To whom correspondence should be addressed. Tel.: 44-1223402349; Fax: 44-1223-412142; E-mail: thomason@mrc-lmb.cam.ac.uk.
+1
+The abbreviations used are: HPK, histidine protein kinase; PKA,
+cAMP-dependent protein kinase; PDE, phosphodiesterase; WT, wild
+type; GST, glutathione-S-transferase; HPt, histidine phosphotransfer
+protein; PAGE, polyacrylamide gel electrophoresis.
+This paper is available on line at http://www.jbc.org
+
+This is an Open Access article under the CC BY license.
+
+stood of the two eukaryotic phospho-relays so far characterized
+(they are both present in yeast and share components) (3). It
+consists of the histidine protein kinase Sln1, the histidine
+phosphotransfer protein Ypd1, and the response regulator
+Ssk1. The catalytic domain of Sln1 is thought to trans-phosphorylate the H-domain of another Sln1 monomer within an
+HPK dimer complex. The Sln1 receiver domain acquires the
+phosphate at a conserved aspartate residue and relays it to the
+Ypd1 H-domain. Lastly, the receiver domain of Ssk1 dephosphorylates Ypd1, transferring the phosphate onto itself. Genetic analyses have shown that the unphosphorylated form of
+Ssk1 is the active species (4).
+The Ssk1 response regulator controls activity of the HOG
+mitogen-activated protein kinase pathway in S. cerevisiae, by
+acting as a direct regulator of the Ssk2 mitogen-activated protein kinase kinase kinase (3, 4). Only two other eukaryotic
+response regulators have so far been studied: Skn7, a yeast
+transcription factor (5, 6), and the Dictyostelium protein RegA,
+a cAMP phosphodiesterase (PDE) (7–9).
+The cAMP/protein kinase A (PKA) pathway is central to
+regulating Dictyostelium development (10 –16). On starvation,
+individual cells begin to secrete pulses of cAMP, which acts as
+a ligand for a family of G-protein-coupled receptors. Receptor
+activation leads to the production of second messengers including cGMP and cAMP (17). A large proportion of the cAMP is
+probably exported from the cell to continue intercellular signaling; levels of external cAMP are regulated by the secreted
+phosphodiesterase, PdsA (18).
+cAMP also acts inside the cell to control the activity of PKA
+(19). Recently an intracellular cAMP PDE has been discovered
+(8, 9). This enzyme, RegA, serves a critical function in controlling the rate of Dictyostelium development, because a regA null
+mutant develops rapidly and produces spores prematurely,
+similar to the rdeC mutants (which lack functional PKA Rsubunit) (7–9). A third class of mutant, rdeA, also shares this
+phenotype (9, 20 –22) The RegA phosphodiesterase probably
+acts to restrain the activity of PKA during development, because dominant negative mutations of PKA are epistatic to a
+regA mutation (8, 9).
+rdeA mutants have elevated cAMP levels, as do regA mutants, consistent with RegA phosphodiesterase activity being
+lowered in rdeA mutants (20, 23). A biochemical connection
+between RdeA, RegA, and the adenylyl cyclase ACB has recently been suggested on the basis of genetic studies and the
+use of a PDE inhibitor (23). The rdeA gene encodes a 254-amino
+acid protein with little overall sequence similarity to any other
+protein. However, RdeA does show homology to histidine phosphotransfer proteins in a 20-amino acid region in its N-terminal half. This region includes a predicted site of histidine phosphorylation, His65, a residue essential for RdeA function in vivo
+(21). The S. cerevisiae YPD1 gene, which encodes a known HPt
+protein, complements a Dictyostelium rdeA mutant (21).
+
+27379
+
+27380
+
+RdeA-RegA Phospho-relay of Dictyostelium
+
+EXPERIMENTAL PROCEDURES
+
+parallel phosphorylation reactions containing [g-32P]ATP and measuring the incorporation of radiolabel into H-domain (correction was
+made for purity of the labeled ATP). For PDE activity measurements,
+initial rates were used.
+For determination of specific activities of RegA proteins, PDE assays
+were performed with 200 mM cAMP as substrate (Km 5 5 mM approximately). PDE assays were performed as described (9); briefly, reactions
+were performed in 50 mM Tris-Cl, pH 8.0, 50 mM KCl, 5 mM MgCl2, 10%
+glycerol, at 25 °C for 30 min. Protein amounts were assessed by SDSPAGE followed by gel densitometry, against a bovine serum albumin
+standard curve.
+Western Blotting—Polyclonal anti-RegA antiserum (R1/2F) was the
+primary antibody, used at 1:5,000 final dilution. The secondary antibody was goat anti-rabbit horseradish peroxidase conjugate (Bio-Rad),
+used at 1:12,500 dilution. Detection was by enhanced chemiluminescence (Amersham Pharmacia Biotech). Bands were quantitated by densitometry (Molecular Dynamics).
+
+Cell Methods—Cells were grown and developed at 22 °C (24). Expression plasmids were introduced into cells by electroporation using a
+Bio-Rad Gene Pulser (0.9 kV, 3 microfarad). Transformants were selected at 20 mg/ml G418 and stably maintained at 5 mg/ml G418 in
+axenic culture.
+Cells were developed on KK2-agar (20 mM K1K2PO4 1 2 mM MgSO4;
+1.8% Oxoid L28 agar) at a density of 1.6 3 106 cm22. For spore counts,
+developing structures were disrupted by syringing in KK2 buffer 1
+0.3% cemulsol. Detergent-resistant spores were scored by microscopy
+and plated out for viability after washing.
+Molecular Biology—Restriction enzymes and T4 DNA ligase were
+from New England Biolabs. A rescue plasmid carrying the regA gene
+positioned in-frame downstream of its own promoter has been described
+(9). The D212N mutant regA cDNA was used to replace the wild type
+cDNA in this construct (using BamHI-XhoI) to give plasmid pPT17.
+These constructs were used to “rescue” the regA null strain HM1015,
+giving strains HM2040 (with wild type cDNA) and HM2049 (with
+D212N cDNA), respectively.
+The receiver domain of RegA (the region covering amino acids 126 –
+316 was used) was amplified from either the wild type or D212N mutant
+cDNA by polymerase chain reaction, using oligonucleotides containing
+a BamHI site (59 primer) and EcoRI site (39 primer). This DNA was
+cloned into an actin15 expression vector possessing an in-frame Myc3
+tag at the 39 end of the insert to give plasmids pPT46 (WT) and pPT43
+(D212N). The Myc tag encoded three copies of the amino acid sequence:
+EQKLISEEDLG. The plasmids were transformed into Ax2 cells to give
+strains HM2046 (with WT receiver) and HM2047 (with D212N receiver), respectively.
+The rdeA cDNA was amplified by polymerase chain reaction and
+cloned into the bacterial expression vector pGEX-5X1 (Amersham Pharmacia Biotech) at the BamHI and XhoI sites (giving plasmid pPT15).
+GST fusion proteins were prepared from isopropyl-1-thio-b-D-galactopyranoside-induced Escherichia coli BL21 by standard methods. The
+purity of the final proteins was about 75%, estimated by Coomassie
+staining.
+The rdeA cDNA was mutagenized to create H63Q and H65Q mutants
+using the QuikchangeTM method (Stratagene). The mutagenized rdeA
+inserts were transferred to pGEX-5X1 for bacterial expression (plasmids pPT39 (H63Q) and pPT40 (H65Q)). All constructs were confirmed
+free of errors by DNA sequencing (ABI377).
+In Vitro Radiolabeling of Proteins—Radiochemicals were from Amersham Pharmacia Biotech. GST fusion proteins were used at 10 mM
+equivalent. Labeling with acetyl-[32P]phosphate was as before (9); reactions were for 30 min. Proteins were separated on SDS-polyacrylamide gel electrophoresis (PAGE) (performed at 4 °C) and then transferred to Immobilon P membrane (Millipore) by electroblotting (at 4 °C).
+Membrane was exposed to a PhosphorImager screen and then stained
+with Coomassie Blue to localize proteins.
+Phosphorylation of RdeA or CheA H-domain by CheA catalytic domain was done at pH 8.0 in 50 mM Tris-Cl, 50 mM KCl, 5 mM MgCl2,
+10% glycerol, containing 10 mM ATP (for RdeA) or 0.2 mM ATP (for CheA
+H-domain) and [g-32P]ATP, for 2 h at 25 °C, in a volume of 50 ml. Free
+ATP was removed by spun column gel filtration using Sepharose G50.
+For phospho-transfer reactions, all proteins were used at 10 mM.
+Activation of RegA by Phospho-H-domain—Preparation of the catalytic and H-domains of CheA has been described (25). H-domain (1–200
+mM) was phosphorylated by CheA catalytic domain as above but without
+radiolabeled ATP. RegA (WT or D212N mutant) and cAMP substrate
+was added to the prephosphorylated H-domain, and phosphodiesterase
+activity was determined in a standard assay (9). The amount of phospho-H present at the start of the PDE assay was assessed by performing
+
+Requirement of Asp212 for RegA Activation in Vivo—RegA
+phosphodiesterase activity is stimulated by phosphorylation in
+vitro. A mutant version of RegA in which the predicted site of
+phosphorylation in the receiver domain, Asp212, has been replaced by asparagine is neither phosphorylated nor activated (9).
+To determine whether RegA activity in living cells is similarly regulated through aspartate phosphorylation, we compared the effects of expressing wild type and D212N mutant
+RegA in the regA null strain HM1015. Transformed cell lines
+were grown in axenic culture and plated on non-nutrient agar
+to initiate development. The rate of development of these various strains was followed by the appearance of detergent-resistant spores. In the wild type, these appear at 21–24 h, but in
+the regA null mutant this is brought forward to about 14 h.
+When wild type regA is expressed in a regA null background
+under the control of its own promoter (Prom::WT), it restores
+normal timing of development (Fig. 1A). In contrast, expression
+of the D212N mutant version of RegA (Prom::DN) only slightly
+delays spore production (by 1–2 h) relative to the regA null
+mutant (Fig. 1A). Essentially similar results are obtained when
+RegA expression is driven from the strong actin15 promoter
+(A15::DN and A15::WT, respectively). For A15::DN, spores are
+produced at about 20 –22 h of development, whereas in
+A15::WT spore production does not occur until 42– 48 h of
+development (results not shown).
+In these experiments, the expression levels of the wild type
+and mutant forms of RegA are an important factor. Fig. 1B
+shows that when expressed from the RegA promoter, D212N
+and WT RegA have similar, though not precisely the same,
+expression levels, as monitored by Western blotting and densitometry. RegA expression appears to be biphasic in these
+strains, declining from high, steady levels to a lower level prior
+to culmination and then increasing again as maturation continues (Fig. 1B). In the Prom::D212N strain, the phase of this
+expression is shifted forward by about 5 h relative to the
+Prom::WT strain, possibly as a consequence of the rapid development of the Prom::D212N strain. The ability of WT RegA to
+delay development more strongly than D212N RegA cannot,
+therefore, be due simply to expression differences between the
+two versions of the enzyme.
+The level of RegA expressed in these two strains is approximately 5-fold higher than that of endogenous RegA present in
+wild type Ax2 cells. When RegA expression is driven from the
+strong actin15 promoter, however, RegA levels reach about
+25-fold those present in wild type cells (data not shown), i.e. a
+further increase of 5-fold. Thus, the finding that the A15::DN
+strain has very similar timing of spore production to the
+Prom::WT strain supports further the hypothesis that RegA
+D212N is less active than RegA WT in vivo. On Western blots,
+RegA appears as a doublet consisting of a strong upper band
+
+The N-terminal receiver domain of RegA has been shown to
+control its PDE activity in vitro: phosphorylation of aspartate
+212 in the receiver domain activates the PDE domain. It is not
+known, however, whether RegA activity is controlled by the
+receiver domain in the cell, and if so, in what manner. We
+present results showing that RegA phosphorylated on its receiver domain in vivo is in an activated state. In light of the
+suggestion that RdeA and RegA function on the same pathway
+to control cAMP levels, we investigated whether RdeA is an
+upstream activator of RegA. We present phospho-transfer evidence that this is indeed the case. Furthermore, we show that
+RegA can be activated by phospho-transfer from an H-domain
+protein in vitro.
+
+RESULTS
+
+RdeA-RegA Phospho-relay of Dictyostelium
+
+27381
+
+FIG. 2. Reverse phospho-transfer from RegA receiver domain
+to RdeA. GST fusion proteins of the RegA receiver domain (RR) and
+RdeA, either alone or in the combinations indicated, were incubated in
+the presence of acetyl [32P]phosphate and then separated by SDSPAGE. Proteins were transferred to Immobilon P membrane by electroblotting and then exposed to a PhosphorImager screen for localization of radiolabeled bands. The membrane was stained with Coomassie
+Blue for protein localization. Essentially identical results were obtained
+in three independent experiments.
+
+FIG. 1. A, rescue of regA null mutant by expression of wild type or
+D212N regA. The regA null strain (HM1015, E) was transformed with
+a plasmid encoding wild type or D212N RegA cDNA downstream of the
+RegA promoter, creating strains HM2040 (Prom::WT, M) and HM2049
+(Prom::D212N, f), respectively. The ability of the expressed RegA to
+inhibit the rapid development of the regA null was determined by
+monitoring the time course of spore production throughout development. Results are expressed as spores formed (as the percentage of
+input cells) against time of development and are representative of four
+similar experiments. B, quantitation of RegA protein in regA rescue
+strains. Soluble cell extracts (20 mg) were prepared from HM2040 and
+HM2049 throughout development and probed with RegA antiserum to
+monitor levels of expressed RegA protein (indicated by the arrowheads).
+Extracts from HM2040 are labeled as WT, and extracts from HM2049
+are labeled as DN.
+
+and a more minor lower band, in roughly constant proportions.
+Neither band occurs in a regA null strain (9). This pattern may
+represent a modification such as proteolytic processing or phosphorylation. Because both bands are also present in the D212N
+RegA-expressing strains (e.g. Fig. 1B), this cannot be due to
+Asp212 phosphorylation.
+The finding that D212N RegA causes some rescue of the regA
+null phenotype indicates that RegA PDE activity is not entirely
+dependent on Asp212 phosphorylation. To confirm this finding in
+vitro, the specific activities of WT and D212N RegA were determined. Both forms of the enzyme have PDE activity in vitro, and
+the specific activity of each (in the absence of phosphorylation) is
+approximately 0.08 mmol/min/mg protein (at 25 °C).
+Dominant Negative Action of Free Receiver Domain Requires
+Asp212—When RegA receiver domain is overexpressed in wild
+type Ax2 cells, it acts as a dominant negative (9). To determine
+whether the Asp212 predicted site of phosphorylation is required for this effect, Myc-tagged versions of the receiver domain were expressed in Ax2 cells under control of the actin15
+promoter. Expression of the receiver domains was confirmed by
+Western blotting for the C-terminal Myc epitope (not shown).
+The wild type receiver domain (strain HM2046) behaved as a
+dominant negative, as expected; development in this strain was
+rapid and spore production precocious (results not shown),
+similar to previous findings (9). Expression of the D212N receiver domain (strain HM2047) had no effect on the development of Ax2 (not shown), showing that Asp212 is essential for
+the dominant negative action.
+Reverse Phospho-transfer from RegA to RdeA—The above
+
+results indicate that RegA functions as a response regulator
+whose activity in the cell is controlled by phosphorylation. The
+immediate upstream phosphate donor for the RegA receiver
+domain is likely to be a HPt protein (1). Genetic evidence
+suggests that the RdeA protein may serve this function (see the
+Introduction).
+To investigate whether there is communication between
+RdeA and RegA, in vitro phospho-transfer between the two
+proteins was investigated. For this, the ability of some receiver
+domains to specifically autophosphorylate using the artificial
+phospho-donor acetyl phosphate was exploited (26). Bacterially
+expressed (GST-fused) RegA receiver domain was incubated
+with acetyl [32P]phosphate, resulting in phosphorylation (Fig.
+2, lane 1). Phosphorylation required Asp212, because the
+D212N mutant protein was not phosphorylated (lane 2; as
+reported previously (9)), nor were three versions of (GST-)
+RdeA (wild type, H63Q control mutant, and H65Q mutant,
+lanes 3–5). Addition of wild type or H63Q RdeA to acetyl
+[32P]phosphate, together with wild type receiver domain, resulted in the appearance of [32P] label on RdeA (lanes 6 –7).
+RdeA phosphorylation was dependent on residue His65 of
+RdeA, because a H65Q mutant version did not become labeled
+under these conditions (lane 8). Labeling of wild type RdeA
+required the presence of wild type receiver domain, because the
+D212N version did not support phosphorylation of RdeA from
+acetyl phosphate (lane 9).
+Phospho-transfer to RdeA also occurred when purified phospho-receiver domain (which had been separated away from
+acetyl phosphate by gel filtration) was added to RdeA (data not
+shown). These results show that RdeA can be phosphorylated
+on His65 by a phospho-transfer mechanism dependent on
+Asp212 of the RegA receiver domain. In the proposed linear
+phospho-relay scheme, this represents reverse phospho-relay.
+Similar in vitro reverse transfer is seen between the Spo0B and
+Spo0F proteins of the Bacillus subtilis sporulation phosphorelay (27), and between the ArcA and ArcB proteins of the E.
+coli anoxic redox control phospho-relay (28).
+Forward Phospho-transfer from RdeA to RegA—To demonstrate phospho-transfer from RdeA to RegA receiver domain, a
+method for direct RdeA phosphorylation was required. For this,
+a heterologous system employing the bacterial chemotaxis protein CheA was devised. In vitro, the isolated catalytic domain of
+CheA phosphorylated RdeA (Fig. 3A). The phosphate present
+on RdeA was resistant to alkali but entirely removed by acid
+treatment (results not shown), suggesting a phosphoramidate
+linkage, such as phospho-histidine. Furthermore, phosphoryl-
+
+27382
+
+RdeA-RegA Phospho-relay of Dictyostelium
+
+FIG. 3. A, phosphorylation of RdeA by CheA catalytic domain. GSTRdeA wild type, H63Q mutant, or H65Q mutant protein, as indicated,
+was incubated with CheA catalytic domain and [g-32P]ATP. After removal of ATP, proteins were separated by SDS-PAGE and transferred
+to Immobilon P membrane by electroblotting. Radiolabeled proteins
+were localized by exposure to a PhosphorImager screen, and protein
+bands were localized by Coomassie Blue staining. B, phospho-transfer
+from RdeA to RegA receiver domain. GST-[32P]RdeA was incubated
+with GST-RegA receiver domain (RR) protein, either wild type or
+D212N mutant as indicated, for the times shown. Reactions were terminated by placing samples on dry ice. Proteins were separated by
+SDS-PAGE, electroblotted, and exposed to a PhosphorImager screen.
+Protein bands were visualized by Coomassie Blue staining. Results
+shown are representative of four similar experiments.
+
+ation of RdeA required His65 (Fig. 3A), implying that this is the
+site of phosphorylation.
+When RegA receiver domain was added to [32P]RdeA, label
+was transferred to the wild type but not D212N receiver domain
+(Fig. 3B); in the presence of D212N receiver domain, phosphoRdeA was stable over the time course of the experiment (estimated t1⁄2 . 6 h). Wild type receiver domain rapidly removed the 32P
+label from phospho-RdeA, but labeling of the receiver itself was
+transient. This is likely due in part to the instability of aspartylphosphate but also to intrinsic phosphatase activity of the receiver. The half-life of phospho-RdeA in the presence of 10 mM WT
+receiver domain was approximately 5 min.
+Activation of RegA by Phospho-transfer from an H-domain—
+Because phospho-transfer from a cognate H-domain protein to
+RegA receiver domain is predicted to activate the phosphodiesterase, the ability of phospho-RdeA to activate RegA in vitro
+was investigated. However, activation could not be demonstrated using CheA catalytic domain to phosphorylate RdeA,
+because of the inefficiency of this reaction. Nevertheless, the
+principle could be demonstrated using a heterologous phosphodonor protein. For this, the H-domain (i.e. the P1-domain) of
+CheA, which is the normal substrate of the CheA catalytic
+domain, was used as phospho-donor for RegA.
+Phospho-H-domain, phosphorylated using CheA catalytic domain and [g-32P]ATP (as for RdeA above), was rapidly dephosphorylated by RegA receiver domain (t1⁄2 of phospho-H-domain
+was ;3 min in the presence of 10 mM receiver domain) (results
+not shown), which concomitantly acquired this phosphate. As
+with transfer from RdeA to the RegA receiver domain, phosphotransfer from CheA H-domain required Asp212 of the RegA
+receiver domain (not shown). To investigate the activation of
+RegA, a coupled assay was employed. A standard phosphodiesterase reaction was supplemented with (unphosphorylated)
+CheA H-domain and ATP. A PDE assay was initiated by addition of RegA (either wild type or D212N), and the rate of cAMP
+hydrolysis was monitored under these conditions, prior to the
+addition of CheA catalytic domain. CheA catalytic domain was
+then added, and its effect on PDE activity was determined. Fig.
+4A shows that CheA catalytic domain stimulated PDE activity
+only in the reaction containing wild type RegA together with
+CheA H-domain and ATP. All other reactions, lacking any one
+of these components or containing D212N RegA instead of wild
+type RegA, showed no stimulation. Thus, there was no direct
+
+FIG. 4. A, activation of RegA by phospho-transfer from CheA phospho-H-domain. Phosphodiesterase reactions were supplemented with
+20 mM unphosphorylated CheA H-domain and 1 mM ATP. CheA catalytic domain (1 mM) was added at the time indicated by the arrow.
+Reactions were as follows: all components present (●); no H-domain (E);
+no ATP (f); no catalytic domain (M); all components present but RegA
+D212N used (Œ). B, mechanism of RegA activation in the coupled assay.
+CheA catalytic domain phosphorylates CheA H-domain in a reaction
+that consumes ATP. In this heterologous system, phospho-H-domain
+transfers phosphate to Asp212 of RegA, stimulating PDE activity. The
+phospho-transfer step is independent of CheA kinase activity because
+purified phospho-H-domain (free of any ATP) will donate phosphate to
+RegA and thereby activate it (results not shown).
+
+effect of CheA catalytic domain on RegA activity, but rather
+activation was via phospho-transfer from phosphorylated Hdomain (Fig. 4B). Furthermore, because D212N RegA showed
+no response, activation required Asp212.
+To analyze the dose-response relationship of RegA activation
+by phospho-H-domain, a modified version of the coupled assay
+was used. Fig. 4A shows that there is a lag phase after addition
+of CheA catalytic domain before RegA is significantly activated.
+This represents the period during which phospho-H-domain
+must accumulate to sufficient concentrations to activate RegA.
+To avoid this lag phase, unphosphorylated CheA H-domain (at
+various concentrations) was preincubated with CheA catalytic
+domain and ATP. The amount of phospho-H-domain produced
+was determined from identical parallel reactions that also contained [g-32P]ATP. RegA was added directly to the above reactions, containing known amounts of phospho-H-domain, and
+PDE activity was determined. Fig. 5 shows the dose-response
+curve for RegA activation by phospho-H-domain; activation
+required a threshold phospho-H concentration of about 1 mM,
+and maximal activation occurred at about 50 mM. At saturation,
+
+RdeA-RegA Phospho-relay of Dictyostelium
+
+FIG. 5. Dose-response curve of RegA activation by phospho-Hdomain. GST-RegA incubated in a coupled assay with the indicated
+concentrations of phospho-H-domain was assayed for phosphodiesterase activity. The concentration of phospho-H shown is the calculated
+initial concentration. Changes in phospho-H concentration during the
+assay were not determined; however, reactions were linear with time
+over the whole course of the assay, and all rates of hydrolysis shown are
+initial rates. Results shown are from one experiment representative of
+three similar experiments. Errors were typically ,5% (error bars not
+shown).
+
+RegA was activated at least 20-fold by phospho-transfer from
+CheA H-domain.
+DISCUSSION
+
+The RdeA-RegA Phospho-relay System—Previous in vitro studies suggested that the phosphorylated form of RegA is the more
+active species. We have shown that this is also the case in vivo, in
+that a nonphosphorylatable version of RegA fails to restore wild
+type development to a regA null Dictyostelium strain and therefore is much less active than wild type RegA in the cell.
+A possible connection between RdeA and RegA was suggested on genetic grounds (9, 21). The phospho-transfer experiments presented under “Results” provide direct evidence for
+biochemical communication between RdeA and RegA. Importantly, all of the phospho-transfer activities between RdeA and
+RegA require both His65 of RdeA and Asp212 of RegA; both of
+these are essential residues in vivo.
+It seems very likely that RdeA functions upstream of RegA
+on a phospho-relay pathway to control cAMP levels. The proposed phospho-relay pathway is shown in Fig. 6 (after Refs. 9
+and 21). As outlined above, rdeA and regA null mutants share
+many characteristics, both having rapid development, premature spore maturation, and a common biochemical defect, i.e.
+elevated cAMP. However, the rdeA null phenotype appears
+more severe, suggesting that RdeA may supply phosphate to
+other response regulators. The loss of regulation of such putative response regulators in an rdeA mutant could contribute to
+the severity of the rdeA null phenotype.
+In devising a method for RdeA phosphorylation, we showed
+that RdeA behaves as an H-domain protein in vitro, in that it
+acts as a substrate for CheA catalytic domain. This supports
+previous in vivo evidence showing that an rdeA null mutant
+can be complemented by the yeast H-domain-encoding gene,
+YPD1 (21). Interestingly, a different method has recently been
+used to phosphorylate Ypd1 itself in vitro, that of phosphotransfer from phospho-CheY (29). CheY is a cognate response
+regulator (i.e. downstream target) of CheA; phosphorylation of
+Ypd1 by CheA catalytic domain has not been tested, but our
+results with RdeA suggest that this method would also work.
+Thus, the known eukaryotic H-domain protein, Ypd1 and the
+proposed H-domain protein RdeA will directly couple to proteins of the bacterial CheA-CheY system in vitro. It may be
+possible to use the CheA-CheY network to help study further
+
+27383
+
+FIG. 6. Model of proposed RdeA-RegA phospho-relay pathway.
+The model as previously proposed (9, 21) is shown with the newly
+established biochemical connection between RdeA and RegA indicated
+as a bi-directional phospho-transfer. For simplicity, phosphorylation of
+the HPK H-domain by the HPK catalytic domain is not shown. Connections between RdeA and upstream HPKs remain undefined and are
+shown by dashed arrows. The H-domain protein RdeA is a point of
+integration in the phospho-relay network, allowing communication between the two receiver domains. It may also communicate with other
+receiver domains on response regulators that have yet to be discovered.
+
+eukaryotic response regulator and H-domain proteins when
+they are discovered. Phosphorylated CheA H-domain, for example, may activate other response regulators as it does RegA.
+Control of RegA Activity—As with all enzymes whose activity
+is regulated by phosphorylation, RegA activity in vivo must
+reflect the relative levels of kinase and phosphatase activities
+directed toward RegA. One factor regulating phospho-RegA
+levels may be intrinsic aspartate phosphatase activity, as mentioned above, but there are likely other factors too. Bacteria
+possess specific aspartate phosphatases (e.g. RapA/B and
+Spo0E in B. subtilis) (30) and phosphatase-activating proteins
+(e.g. CheZ) (31). However, little is known about the dephosphorylation of aspartyl-phosphate in eukaryotes and homologs of
+the above genes have not been found so far.
+Because we have shown that phosphate can be transferred
+either forward, from RdeA to RegA, or backward, from RegA to
+RdeA, depending on the relative concentrations of the phosphodonor proteins, reverse phospho-relay could contribute to control of RegA activity. Such a mechanism is thought to occur in
+the regulation of the ArcB-ArcA system in E. coli (28), under
+conditions where the receiver domain of the hybrid kinase ArcB
+exhibits aspartate phosphatase activity. The balance of opposing kinase/phosphatase activities of HPK enzymes represents
+an important regulatory area in phospho-relay networks.
+Integration of the RdeA-RegA Phospho-relay—RegA controls
+many aspects of Dictyostelium development. regA null mutants
+begin development earlier, aggregate faster, do not undertake
+developmental arrest at the slug stage, and display precocious
+terminal differentiation compared with wild type strains. Potentially, RegA activity is controlled at all of these stages.
+The kinases that input phosphate to the RegA pathway (or
+extract phosphate by reverse phospho-relay) are not yet defined. Several genes encoding putative hybrid histidine kinases
+have been cloned from Dictyostelium (32–35) and further candidates also exist (36). Mutations in genes encoding upstream
+kinases that activate RegA should resemble the regA null.
+None of the mutants in the four characterized genes have this
+phenotype, but this may be due to some degree of functional
+overlap. However, because individual null mutants in these
+four genes all have distinct developmental phenotypes, there
+must be significant genetic specificity among the kinases.
+Of the four putative histidine kinases, DhkC seems to be the
+clearest candidate activator of the RegA pathway, because the
+dhkC null strain shows aspects of rapid development (35). For
+DhkA and DhkB, genetic evidence suggests that they may be
+inhibitors of the RegA pathway (33, 34). One way in which they
+could do this is by regulating the stability of phospho-RegA,
+perhaps by a mechanism such as those discussed above. Finally, DokA may also have a role in cAMP signaling during late
+development, because a dokA null mutant fails to make mature
+
+27384
+
+RdeA-RegA Phospho-relay of Dictyostelium
+
+spores during culmination (32) and thus may have defects in
+PKA activation.
+Multiple histidine kinases in Dictyostelium, with the potential to act as receptors, may control RegA (and thus cAMP)
+signaling in response to multiple extracellular ligands, many of
+which may remain to be discovered. Candidate ligands so far
+include ammonia, the proposed ligand for DhkC (35), the spore
+germination inhibitor discadenine (a proposed ligand for DhkB
+(34)), and the spore differentiation factors. Spore differentiation factor-2 has been proposed to signal via DhkA to inhibit
+the RegA pathway (37). Whichever ligands and receptors do
+contribute to RegA control, their inputs must be integrated to
+produce an appropriate output, in terms of PKA activity, to
+co-ordinate development.
+Acknowledgments—We are grateful to Julian Gross and Peter
+Newell for supplying the original rdeA cDNA and to Sandra Da Re and
+Misha Levit for CheA reagents. We thank Sebastien Mesnildrey and
+Hugh Pelham for helpful comments on the manuscript.
+REFERENCES
+1. Appleby, J. L., Parkinson, J. S., and Bourret, R. B. (1996) Cell 86, 845– 848
+2. Freeman, J. A., and Bassler, B. L. (1999) J. Bacteriol. 181, 899 –906
+3. Posas, F., Wurgler-Murphy, S. M., Maeda, T., Witten, E. A., Thai, T. C., and
+Saito, H. (1996) Cell 86, 865– 875
+4. Posas, F., and Saito, H. (1998) EMBO J. 17, 1385–1394
+5. Brown, J. L., Bussey, H., and Stewart, R. C. (1994) EMBO J. 13, 5186 –5194
+6. Li, S., Ault, A., Malone, C. L., Raitt, D., Dean, S., Johnston, L. H., Deschenes,
+R. J., and Fassler, J. S. (1998) EMBO J. 17, 6952– 6962
+7. Shaulsky, G., Escalante, R., and Loomis, W. F. (1996) Proc. Natl. Acad. Sci.
+U. S. A. 93, 15260 –15265
+8. Shaulsky, G., Fuller, D., and Loomis, W. F. (1998) Development 125, 691– 699
+9. Thomason, P. A., Traynor, D., Cavet, G., Chang, W.-T., Harwood, A. J., and
+Kay, R. R. (1998) EMBO J. 17, 2838 –2845
+10. Mann, S. K. O., and Firtel, R. A. (1993) Development 119, 135–146
+11. Mann, S. K. O., Richardson, D. L., Lee, S., Kimmel, A. R., and Firtel, R. A.
+(1994) Proc. Natl. Acad. Sci. U. S. A. 91, 10561–10565
+
+12. Mann, S. K., Brown, J. M., Briscoe, C., Parent, C., Pitt, G., Devreotes, P. N.,
+and Firtel, R. A. (1997) Dev. Biol. 183, 208 –221
+13. Harwood, A. J., Hopper, N. A., Simon, M. N., Bouzid, S., Veron, M., and
+Williams, J. G. (1992) Dev. Biol. 149, 90 –99
+14. Harwood, A. J., Hopper, N. A., Simon, M. N., Driscoll, D. M., Veron, M., and
+Williams, J. G. (1992) Cell 69, 615– 624
+15. Hopper, N. A., Harwood, A. J., Bouzid, S., Veron, M., and Williams, J. G. (1993)
+EMBO J. 12, 2459 –2466
+16. Hopper, N. A., Anjard, C., Reymond, C. D., and Williams, J. G. (1993) Development 119, 147–154
+17. Parent, C. A., and Devreotes, P. N. (1996) Annu. Rev. Biochem. 65, 411– 440
+18. Lacombe, M. L., Podgorski, G. J., Franke, J., and Kessin, R. H. (1986) J. Biol.
+Chem. 261, 16811–16817
+19. Firtel, R. A. (1996) Curr. Opin. Genet. Dev. 6, 545–54
+20. Abe, K., and Yanagisawa, K. (1983) Dev. Biol. 95, 200 –210
+21. Chang, W. T., Thomason, P. A., Gross, J. D., and Newell, P. C. (1998) EMBO
+J. 17, 2809 –2816
+22. Kessin, R. (1977) Cell 10, 703–708
+23. Kim, H.-J., Chang, W.-T., Meima, M., Gross, J. D., and Schaap, P. (1998)
+J. Biol. Chem. 273, 30859 –30862
+24. Watts, D. J., and Ashworth, J. M. (1970) Biochem. J. 119, 171–174
+25. Levit, M., Liu, Y., Surette, M., and Stock, J. (1996) J. Biol. Chem. 271,
+32057–32063
+26. Lukat, G. S., McCleary, W. R., Stock, A. M., and Stock, J. B. (1992) Proc. Natl.
+Acad. Sci. U. S. A. 89, 718 –722
+27. Burbulys, D., Trach, K. A., and Hoch, J. A. (1991) Cell 64, 545–552
+28. Georgellis, D., Kwon, O., De Wulf, P., and Lin, E. C. C. (1998) J. Biol. Chem.
+273, 32864 –32869
+29. Janiak-Spens, F., Sparling, J. M., Gurfinkel, M., and West, A. H. (1999) J.
+Bacteriol. 181, 411– 417
+30. Perego, M., and Hoch, J. A. (1996) Trends Genet. 12, 97–101
+31. Bourret, R. B., Borkovich, K. A., and Simon, M. I. (1991) Annu. Rev. Biochem.
+60, 401– 441
+32. Schuster, S. C., Noegel, A. A., Oehme, F., Gerisch, G., and Simon, M. I. (1996)
+EMBO J. 15, 3880 –3889
+33. Wang, N., Shaulsky, G., Escalante, R., and Loomis, W. F. (1996) EMBO J. 15,
+3890 –3898
+34. Zinda, M. J., and Singleton, C. K. (1998) Dev. Biol. 196, 171– 83
+35. Singleton, C. K., Zinda, M. J., Mykytka, B., and Yang, P. (1998) Dev. Biol. 203,
+345–357
+36. Thomason, P., Traynor, D., and Kay, R. (1999) Trends Genet. 15, 15–19
+37. Anjard, C., Zeng, C., Loomis, W. F., and Nellen, W. (1998) Dev. Biol. 193,
+146 –155
+
+

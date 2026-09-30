@@ -1,0 +1,2 @@
+sudo apt install texlive-publishers
+sudo apt install texlive-fonts-extra

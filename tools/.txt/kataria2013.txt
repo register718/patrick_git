@@ -1,0 +1,587 @@
+Dictyostelium Ric8 is a nonreceptor guanine exchange
+factor for heterotrimeric G proteins and is important
+for development and chemotaxis
+Rama Katariaa, Xuehua Xub, Fabrizia Fusettic, Ineke Keizer-Gunninka, Tian Jinb, Peter J. M. van Haasterta,
+and Arjan Kortholta,1
+a
+Department of Cell Biochemistry, University of Groningen, 9747 AG, Groningen, The Netherlands; bChemotaxis Signal Section; Laboratory of
+Immunogenetics, National Institute of Allergy and Infectious Diseases, National Institutes of Health, Rockville, MD 20892; and cDepartment of Biochemistry,
+and Netherlands Proteomics Centre, Groningen Biological Sciences and Biotechnology Institute, University of Groningen, 9747 AG, Groningen,
+The Netherlands
+
+Downloaded from https://www.pnas.org by Universitaetsbibliothek Erlangen-Nuernberg on September 30, 2026 from IP address 131.188.6.13.
+
+Edited by Robert R. Kay, MRC Laboratory of Molecular Biology, Cambridge, United Kingdom, and accepted by the Editorial Board March 7, 2013 (received for
+review January 31, 2013)
+
+Heterotrimeric G proteins couple external signals to the activation
+of intracellular signal transduction pathways. Agonist-stimulated
+guanine nucleotide exchange activity of G-protein-coupled receptors results in the exchange of G-protein-bound GDP to GTP and
+the dissociation and activation of the complex into Gα-GTP and
+a Gβγ dimer. In Dictyostelium, a basal chemotaxis pathway consisting of heterotrimeric and monomeric G proteins is sufﬁcient for
+chemotaxis. Symmetry breaking and ampliﬁcation of chemoattractant sensing occurs between heterotrimeric G protein signaling
+and Ras activation. In a pull-down screen coupled to mass spectrometry, with Gα proteins as bait, we have identiﬁed resistant to
+inhibitors of cholinesterase 8 (Ric8) as a nonreceptor guanine nucleotide exchange factor for Gα-protein. Ric8 is not essential for
+the initial activation of heterotrimeric G proteins or Ras by uniform
+chemoattractant; however, it ampliﬁes Gα signaling, which is essential for Ras-mediated symmetry breaking during chemotaxis
+and development.
+
+G protein, Gα2βγ, is approximately proportional to the steepness
+of the gradient (17, 18). In contrast, activation of RasC and RasG
+is much stronger in the front than in the rear of cells undergoing
+chemotaxis (19–21). This reveals that Ras is the most upstream
+component of the signaling cascade, which shows stronger activation at the leading edge than the steepness of the gradient,
+suggesting that symmetry breaking occurs between heterotrimeric G protein signaling and Ras activation.
+To gain further insight into the mechanism of symmetry breaking
+and chemotaxis, we have used a proteomic approach to identify
+regulators of G-protein signaling. The G proteins Gα2 and Gα4
+were used as bait in pull-down screens, and interacting proteins
+were identiﬁed by mass spectroscopy. One of the binding partners, resistant to inhibitors of cholinesterase 8 (Ric8), was characterized as a nonreceptor guanine exchange factor (GEF) for
+Gα2 and Gα4 protein. Deletion studies reveal that Ric8 is critical
+for G-protein activation, development, and symmetry breaking of
+Ras and chemotaxis.
+
+C
+
+Ric8 Interacts Speciﬁcally with Gα Proteins. To identify regulators of
+
+hemotaxis is a dynamic cellular process that leads to the
+directed movement of cells along extracellular gradients (1,
+2). Chemotaxis plays important and diverse roles in different
+organisms, from tracking down food sources in prokaryotes to
+helping mediate immune response, tissue maintenance, and organization of embryos in metazoa (3–6). The free soil-living
+amoeba Dictyostelium discoideum has been an important model
+system for studying the mechanism by which cells sense and respond to chemoattractants (7).
+In Dictyostelium, the signal cascade for chemotaxis begins with
+the binding of a chemoattractant (cAMP or folic acid) to speciﬁc
+receptors, resulting in the activation of the associated G proteins
+Gαβγ and downstream signaling pathways. This results in cytoskeletal rearrangement, with Filamentous-actin (F-actin) at the
+front and myosin ﬁlaments at the rear of the cell (7). Dictyostelium contains one Gβ subunit and one Gγ subunit, both of which
+are essential for chemotaxis to cAMP or folate. Of the 12
+identiﬁed Gα subunits, Gα2 is coupled to the cAR1 receptor and
+is essential for cAMP-mediated chemotaxis (8–10), whereas Gα4
+is essential for mediating chemotaxis toward folate (11). Dictyostelium cells can detect very shallow spatial gradients of ∼1%
+concentration difference across the cell (12). Previously, a basal
+signaling module was identiﬁed that provides Ras activation at
+the leading edge, which is sufﬁcient for chemotaxis (13). The
+four Ras-activated pathways, PI3K, TorC2, PLA2, and sGC, are
+not required for Ras activation and chemotaxis to folate or to
+steep gradients of cAMP, but they do provide directional
+memory and improved orientation of the cell, which together
+allows chemotaxis in more shallow cAMP gradients. Because
+chemotaxis and Ras activation are completely lost in cells lacking
+chemoattractant receptors (14), Gβγ (15), and RasC/G (16), the
+basal signaling module has to consist of at least surface receptors
+and heterotrimeric and monomeric G proteins (13). The activation of cAMP receptors and dissociation of their associated
+
+6424–6429 | PNAS | April 16, 2013 | vol. 110 | no. 16
+
+Results and Discussion
+heterotrimeric G protein signaling, we performed pull-down
+screens from Dictyostelium lysates with puriﬁed Gα proteins as
+bait (Fig. S1A). By using mass spectrometry, a Dictyostelium homolog of human Ric8 (16% homology) was identiﬁed as a potential binding partner of Gα2 and Gα4. Ric8 belongs to a family
+of proteins that is conserved in fungi and animals but that is
+absent in plants and does not share conserved domains with other
+proteins (22). Ric8 has been implicated in the activation of
+a subset of Gα proteins, including mammalian Gαq, Gαi1, and
+Gαo (23, 24). A reverse pull-down mass-spectroscopy experiment
+with puriﬁed GST-fused Ric8 as bait in Dictyostelium lysate
+conﬁrmed its binding to Gα2 and Gα4 and, in addition, revealed
+binding of Ric8 to Gα1, Gα7, Gα9, and Gα12. Ric8 does not bind
+to Gβγ (Fig. S1 A and B).
+To conﬁrm that Dictyostelium Ric8 can directly interact with Gα,
+the proteins were expressed and puriﬁed from Escherichia coli and
+subsequently used in GSH pull-down experiments (Fig. 1A). Using
+recombinant GST-Gα1, GST-Gα2, or GST-Gα4 as bait, we
+were able to pull down recombinant Ric8 protein, whereas GST
+does not bind to Ric8 (Fig. 1A). Pull-down experiments in a lysate
+of Dictyostelium cells expressing GFP-tagged Ric8 with the
+
+Author contributions: P.J.M.v.H. and A.K. designed research; R.K., X.X., F.F., I.K.-G., and
+A.K. performed research; R.K., X.X., F.F., T.J., P.J.M.v.H., and A.K. analyzed data; and R.K.,
+X.X., F.F., P.J.M.v.H., and A.K. wrote the paper.
+The authors declare no conﬂict of interest.
+This article is a PNAS Direct Submission. R.R.K. is a guest editor invited by the Editorial
+Board.
+1
+
+To whom correspondence should be addressed. E-mail: A.Kortholt@rug.nl.
+
+This article contains supporting information online at www.pnas.org/lookup/suppl/doi:10.
+1073/pnas.1301851110/-/DCSupplemental.
+
+www.pnas.org/cgi/doi/10.1073/pnas.1301851110
+
+recombinant puriﬁed GST-fused Gα proteins as bait (Fig. 1B)
+show that the interaction between Ric8 and Gα proteins can occur
+in vivo. To determine whether Ric8 binds speciﬁcally to heterotrimeric G proteins, we performed a GSH pull-down experiment
+with recombinant small G proteins as bait. None of the tested
+GST-tagged Ras, Rap, or Rac proteins showed interaction with
+Ric8 (Fig. S2 A and B).
+Together, these results demonstrate that Dictyostelium Ric8
+binds directly and speciﬁcally to Gα proteins.
+Ric8 Is a Nonreceptor GEF for Gα Proteins. G proteins are molecular
+switches that cycle between an inactive GDP and active GTP
+bound state. This G-protein cycle is regulated by guanine nucleotide exchange factors (GEFs) that catalyze the exchange of GDP
+for GTP. Heterotrimeric G proteins are activated by G-proteincoupled receptors. Upon ligand binding, these receptors undergo
+a conformational change that enables them to catalyze the exchange of inactive GDP-bound to active GTP-bound Gα (25–27).
+However, recently, nonreceptor GEFs, including Ric8, also have
+been identiﬁed (28–31). To investigate whether Dictyostelium
+Ric8 also acts as a GEF for Gα proteins, we performed in vitro
+nucleotide exchange assays. For these experiments, recombinant
+Gα2 and Gα4 proteins were loaded with 3H-GDP. The exchange
+reaction was started by the addition of excessive GDP in the
+presence or absence of puriﬁed Ric8. Nucleotide exchange was
+measured as decay of protein-associated radioactivity caused by
+the release of 3H-GDP from Gα2 or Gα4 (Fig. 1 C and D). In the
+presence of Ric8, the nucleotide exchange of both Gα2 and Gα4
+is ∼2.5-fold faster compared with the intrinsic dissociation rate.
+Consistent with the absence of interaction between Ras proteins
+and Ric8 in pull-down assays, Ric8 does not stimulate the nucleotide exchange of small G proteins (Fig. S2 C and D), indicating that Ric8 acts as a GEF speciﬁc for Gα proteins.
+Ric8 Is Essential for Development. To study the role of Ric8 in Dictyostelium, the phenotype of cells lacking ric8 and cells expressing
+Kataria et al.
+
+Ric8 Is Essential for Chemotaxis Toward Folate and Shallow Gradients of
+cAMP. The role of Ric8 in chemotaxis toward cAMP was inves-
+
+tigated using a micropipette assay. All cells were pulsed with cAMP
+during starvation. In a steep gradient of cAMP (>10 nM/μm),
+wild-type cells were very polarized and robustly moved toward the
+pipette (Fig. 3A). Under these conditions, ric8-null cells and
+Ric8OE cells migrate with an efﬁciency similar to that of wild-type
+cells; however, Ric8OE cells have decreased speed, which could
+be a result of the various small pseudopods that the cells makes
+at the leading edge (Fig. 3A).
+The input signal for chemotaxis is a spatial gradient of cAMP
+(dC/dx). Because the gradient applied in our described pipette
+experiment is much stronger than the gradient to which cells are
+exposed during natural waves (34, 35), we determined the gradient that induces half-maximal chemotaxis, (dC/dx)50 (see ref.
+34 for the equations that deﬁne the spatial gradient at different
+distances from a pipette). Cells lacking ric8 fail to chemotax in
+shallow gradients (<100 pM/μm). Mutant cells require a ∼50fold steeper gradient and have a ∼10% lower maximal response
+than wild-type cells (Fig. 3 A and B). This suggests that Ric8mediated regulation of Gα is critical to allow chemotaxis in more
+shallow cAMP gradients.
+Folate chemotaxis requires activation of Gα4βγ (11) and Ras
+activation at the leading edge (36). To determine the contribution of Ric8 to folate chemotaxis, we applied gradients of folate
+to wild-type, ric8-null, and Ric8OE cells (Fig. 3A and Movies S1,
+S2, and S3). Although Ric8OE cells have a comparable chemotaxis index and speed compared with wild-type cells, they respond faster and start moving earlier toward the folate pipette
+(Movie S3). In contrast, ric8-null cells move more slowly and
+randomly and do not show any folate-directed cell movement,
+indicating that Ric8 is essential for chemotaxis toward folate.
+Ric8 Ampliﬁes Ras Activation at the Leading Edge. To investigate the
+role of Ric8 in symmetry breaking and directional movement in
+more detail, we obtained quantitative data on Ras activation,
+which can be detected as the translocation of RBD-Raf-GFP
+from the cytoplasm to Ras-GTP at the membrane (13). On uniform stimulation with cAMP (Fig. 4 A and C) or folate (Fig. 4 B
+PNAS | April 16, 2013 | vol. 110 | no. 16 | 6425
+
+CELL BIOLOGY
+
+Downloaded from https://www.pnas.org by Universitaetsbibliothek Erlangen-Nuernberg on September 30, 2026 from IP address 131.188.6.13.
+
+Fig. 1. Ric8 interacts with Gα proteins. (A) Pull-down with recombinant
+puriﬁed GST, GST-Gα1, GST-Gα2, or GST-Gα4 as bait and recombinant Ric8 as
+prey. (B) Recombinant GST, GST-Gα2, and GST-Gα4 bound to GSH beads were
+incubated with GFP-Ric8 cell lysate. Beads were precipitated, and the
+amount of GFP-Ric8 was detected by Western blotting, using antibody
+speciﬁc for GFP. The ﬁgure is representative of three independent experiments. Ric8 is a GEF for Gα proteins. Gα2 (C) and Gα4 (D) were loaded with
+3
+H-GDP and incubated with (closed circles) and without (open circles) Ric8 in
+the presence of excess GDP, and nucleotide release was plotted as the decay
+of radioactivity with time. Data are mean and SD of at least three independent experiments; signiﬁcantly different from control without Ric8 at
+*P < 0.01 and **P < 0.05, Student t test.
+
+N-terminal GFP-tagged Ric8 (Ric8OE) was analyzed. The knockout strain was generated by homologous recombination, and
+successful gene disruption was conﬁrmed by PCR (Fig. S3A).
+GFP-Ric8 is uniformly distributed in the cytosol, which does
+not alter when stimulated with cAMP (Fig. S3B). Because both
+Dictyostelium Gα2 and Gα4 are important for multicellular development (9, 11), the Ric8 mutants were tested in an aggregation
+assay. In wild-type (AX3), aggregation centers are formed after
+6 h, Mexican hats are visible after 16 h, and after 24 h, cells culminate into fruiting bodies (Fig. 2A). In contrast, ric8-null cells
+completely failed to form streams and aggregates. This phenotype
+is completely reverted on reexpression of Ric8 (Fig. 2A).
+A possible explanation for the phenotype of ric8-null cells
+could be a defect in cAMP relay and the accompanied defect in
+expression of developmental genes. To address this, we studied
+the expression of the developmental marker cAR1 in starved
+wild-type and ric8-null cells (Fig. 2B). Starved ric8-null cells
+totally lack expression of cAR1. However, in ric8-null cells
+stimulated exogenously with cAMP pulses, cAR1 expression is
+comparable to that of wild-type cells (Fig. 2B). Consistent with
+a defect in signal relay, ric8-null cells mixed with wild-type in a
+ratio of 50:50, or cAMP-pulsed ric8-null cells, showed normal
+development when plated on nonnutrient agar. Previous experiments have shown that correct expression of cAR1 requires
+functional Gα2 (9). In contrast, phosphorylation of cAR1 is independent of heterotrimeric G proteins (32). Phosphorylation of
+cAR1 can be analyzed using a gel-mobility shift assay (33). As
+indicated in Fig. 2C, ric8-null and wild-type cells show a similar
+cAMP-induced shift in the mobility of cAR1.
+Together, these results suggest that Ric8 is essential for the
+regulation and function of Gα during development.
+
+Downloaded from https://www.pnas.org by Universitaetsbibliothek Erlangen-Nuernberg on September 30, 2026 from IP address 131.188.6.13.
+
+Fig. 2. Ric8 is essential for multicellular development.
+(A) Cells were plated on nonnutrient agar and
+allowed to develop. Pictures were taken at the indicated times after starvation. Whereas AX3 and
+Ric8OE formed fruiting bodies after 24 h, ric8-null
+cells completely failed to aggregate (Scale bar: 1
+mm.) (B) The level of expression of cAR1 was determined by Western blot with antibody speciﬁc for
+cAR1. Contrary to wild-type cells, starved ric8-null
+cells do not express cAR1, whereas on pulsing exogenously with cAMP, expression of cAR1 returns to
+normal. (C) The phosphorylation of cAR1 was determined using a mobility shift assay. Western blot
+with α-cAR1 antibody shows similar cAMP-stimulated cAR1 phosphorylation in ric8-null cells compared with wild-type cells.
+
+and D), RBD-Raf-GFP transiently translocates uniformly to the
+cell boundary. Cells lacking ric8 and Ric8OE exhibit essentially the
+same maximal response as wild-type cells; however, ric8-null cells
+require higher cAMP and folate concentrations (Fig. 4 E and F).
+On application of a chemoattractant gradient to wild-type
+cells, initially RBD-Raf-GFP transiently translocates uniformly
+to the cell boundary, which is then followed by RBD-Raf-GFP
+localization at the side of the cell facing the gradient (Figs. 3C
+and 4A). In a steep gradient of cAMP, ric8-null cells also exhibit
+strong localization of RBD-Raf-GFP at the leading edge and
+perform good chemotaxis (Fig. 3 B and C). However, ric8-null
+cells are less polarized and have a broader leading edge, with
+RBD-Raf-GFP enriched in a larger crescent (14.2 ± 2.4 μm)
+compared with wild-type (7.5 ± 0.6 μm). Application of a shallow
+gradient of cAMP or folate induces a short transient uniform
+Ras activation, but compared with wild-type cells, the speciﬁc upgradient translocation of RBD-Raf-GFP is strongly reduced in
+ric8-null cells, and ric8-null cells show little (cAMP) or no (folate) directional movement to the pipet (Fig. 3).
+Ric8 Ampliﬁes Heterotrimeric G-Protein Signaling. To study the exact
+role of Ric8 in the heterotrimeric G-protein cycle, we obtained
+quantitative data on Gα2 expression and activation. Mammalian
+Ric8 has GEF activity to convert Gα-GDP back to the activated
+Gα-GTP form, but in some cases it also acts as a chaperone to
+improve the expression and folding of G proteins (37). Western
+blot analysis shows that the level of expression of Gα2 in starved
+ric8-null cells is similar to that of wild-type cells (Fig. 5A), indicating that Dictyostelium Ric8, in contrast to mammalian Ric8
+(37), does not play a role in the expression or folding of G proteins.
+In Dictyostelium cells, binding of cAMP to the receptor and
+subsequent activation and dissociation of Gα2 leads to a decreased afﬁnity of cAR1 for cAMP (38). The interaction between
+cAR1 and Gα2 can be monitored in vitro as the inhibition of
+cAMP binding induced by full activation of Gα2 with nonhydrolysable GTPγS. In both wild-type and ric8-null cells, GTPγS
+6426 | www.pnas.org/cgi/doi/10.1073/pnas.1301851110
+
+reduces cAMP binding by 24% and 28%, respectively, indicating
+that Ric8 is not necessary for Gα2 activation by GTPγS.
+Dissociation of Gαβγ can be monitored in vivo by measuring
+the cAMP-induced FRET change between FRET pairs (Gα2–
+Cerulean and/or Gβ–Venus) (Fig. 5B and ref. 39). The FRET
+loss on exposure of uniform cAMP is presented as an increased
+ratio of Cerulean and Venus intensities (Icerulean/IVenus). The
+maximum FRET change in ric8-null cells, both at high and low
+cAMP concentration, is ∼40% of that seen in wild-type cells
+(Fig. 5 C and D). Half maximum activation for wild-type and
+ric8-null cells is reached after ∼6 and 10 s, respectively. These
+results indicate that ric8-null cells have both a decreased and
+slower Gα dissociation response compared with wild-type cells.
+Because of the intrinsic Gα-associated GTPase activity, GTP is
+hydrolyzed to GDP; the produced Gα-GDP then rapidly associates with Gβγ to form the inactive heterotrimer (25–27). Thus,
+both Ric8 and Gβγ interact with Gα in a GDP-dependent
+manner, suggesting they use partly overlapping binding pockets.
+To address whether Ric8 can inhibit the association of Gα-GDP
+to Gβγ, pull-down studies with cells expressing GST-Gα and
+GFP-Gβγ were performed in the presence and absence of Ric8
+that was expressed and puriﬁed from E. coli (Fig. 5E). Consistent
+with our hypothesis, an increasing concentration of Ric8 results
+in decreased GFP-Gβγ binding to GST-Gα2.
+Model for the Function of Ric8. Binding of chemoattractants to Gprotein-coupled receptors enables them to activate heterotrimeric G proteins by exchanging the G-protein-bound GDP to
+GTP. This exchange promotes disassociation of the Gαβγ complex into Gα-GTP and a Gβγ dimer, both of which can regulate
+a diverse set of downstream effectors (Fig. 6). Because of the
+intrinsic Gα-associated GTPase activity, GTP is hydrolyzed to
+GDP; the produced Gα-GDP rapidly associates with Gβγ to
+form the inactive heterotrimer (25–27).
+We have shown that Dictyostelium Ric8 binds to free Gα-GDP
+and that the GEF activity of Ric8 stimulates the exchange of
+Kataria et al.
+
+Gα-GDP back to the active GTP-bound form. In this way,
+Ric8 enhances receptor-mediated activation of heterotrimeric G
+proteins. Ric8 does not alter localization on stimulation, however,
+suggesting that it is uniformly activated or regulated by local activation, rather than translocation. To date, we cannot exclude
+that there is local binding of Gα2 to Ric8, but because of the
+background of Ric8 binding to multiple other uniform localized
+Gα subunits, the cAMP-mediated Ric8 translocation is below the
+detection limit.
+Regulators of G-protein signaling proteins are potential candidates to catalyze the reverse reaction by acting as a GTPase
+activating protein (GAP) on Gα-GTP (40). In this model, Ric8 is
+not essential for the initial activation of heterotrimeric G proteins or Ras by uniform stimulation with chemoattractants.
+However, cells lacking ric8 require higher uniform concentrations of cAMP and folate for maximal activation, and Ric8 is
+important for persistent Ras activation in a gradient of chemoattractant. In the absence of Ric8, persistent Ras activation in
+a cAMP gradient is impaired, but not absent, because G proteins
+are still partly activated. Therefore, ric8-null cells can only perform chemotaxis in steep gradients of cAMP. In contrast, cells
+lacking ric8 do not show any up-gradient activation of Ras or
+movement toward folate.
+Chemotaxis of unpolarized wild-type cells to folate requires
+steeper gradients and is less efﬁcient than chemotaxis of polarized cells to cAMP. Previously, it was shown that the four ampliﬁcation pathways do not contribute to folate chemotaxis, and
+consistent with the current data, folate chemotaxis depends more
+on the basal heterotrimeric and monomeric signaling pathway
+than cAMP chemotaxis (13). Furthermore, cells lacking gα4 still
+have a signiﬁcant Ras response to uniform folate, but similar to
+ric8-null cells, they do not show the speciﬁc up-gradient response
+or directional movement in a folate gradient (Fig. S4). This
+suggests that like Ric8, Gα4 is not essential for uniform Ras
+Kataria et al.
+
+CELL BIOLOGY
+
+Downloaded from https://www.pnas.org by Universitaetsbibliothek Erlangen-Nuernberg on September 30, 2026 from IP address 131.188.6.13.
+
+Fig. 3. Ric8 is essential for chemotaxis toward folate and shallow gradients
+of cAMP. (A) Chemotaxis index and speed of AX3, ric8-null, and Ric8OE cells
+moving toward a micropipette ﬁlled with the indicated concentration of
+cAMP or folate. Data are the means and SD of at least eight cells. (B) Chemotaxis of ric8-null cells toward cAMP is dose-dependent. The chemotaxis
+index of wild-type (open circle) and ric8-null (closed circle) cells was measured
+at different distances from micropipettes that contained different concentration of cAMP (0.1 μM to 10 nM). Using equations for the gradient formed
+at different distances from the pipette, the spatial gradient (dC/dx, in nM/μm)
+was calculated. Data are the means and SD of at least eight cells. (C) Altered
+Ras activation in ric8-null cells in cAMP gradients. Representative images of
+RBD-Raf-GFP expressing cells. (I) Cells in shallow gradients (approximately 0.1
+nM/μm). (II) Cells in steep gradients (10 nM/μm). (Scale bar: 5 μm.)
+
+activation but is critical for symmetry breaking of Ras in a folate
+gradient.
+We speculate that Dictyostelium Gα2 potentiates at least two
+positive feedback loops that are essential for cAMP relay and
+chemotaxis, respectively. During cAMP relay, extracellular cAMP
+induces the formation of intracellular cAMP that is secreted,
+thereby inducing more cAMP production. This system leads to
+autonomous cAMP oscillations with a period of ∼5 min. The
+fundamental theoretical properties of cAMP relay have been well
+established: it requires an excitable system and threshold cAMP
+stimulation to obtain autocatalytic activation (41–44). The impaired activation of Gα2 in ric8-null cells leads to reduced excitability and a higher threshold for cAMP to induce oscillations.
+The experiments reveal that free-running cAMP oscillations do
+not occur in ric8-null cells, and therefore cell development is
+inhibited. Consistent with the notion that Gα2 can be activated to
+some extent in ric8-null cells, exogenously applied cAMP pulses
+can fully restore this developmental defect. Gα2 also activates
+a second autocatalytic feedback loop that is involved in chemotaxis. A gradient of ∼10% concentration difference of cAMP
+across the cell leads to a strong intracellular gradient of Ras activation that is at least 10-fold stronger in the front than in the
+rear of the cell. The molecular mechanism of this symmetry
+breaking of Ras activation is not well understood but includes
+tight regulation of RasGEFs and RasGAPs (21, 45) and most
+likely involves actin and myosin feedback loops on Ras activity at
+the front and rear of the of the cell, respectively (19, 46).
+The presented experiments suggest that Ric8 and Gα2 can
+initiate the activation of this loop. Cells lacking ric8 require
+higher uniform concentrations of cAMP for maximal activation
+of Ras, and much steeper cAMP gradients are required to obtain
+Ras activation at the leading edge and chemotaxis. The mechanism
+
+Fig. 4. Images of RBD-Raf-GFP expressing cells in buffer, 4–6 s after uniform
+stimulation with 1 μM cAMP (A) and on uniform or gradient stimulation with
+1 μM folate (B). (Scale bar: 5 μm.) Time-course of RBD-Raf-GFP translocation
+from cytoplasm to the membrane on stimulation with 1 μM cAMP (C) and 1 μM
+folate (D), respectively. Dose-response curve for the uniform cAMP-stimulated
+(E) and folate-stimulated (F) Ras response. Shown is the maximum depletion of
+RBD-Raf-GFP from cytoplasm as the mean and SEM of at least 5 cells.
+
+PNAS | April 16, 2013 | vol. 110 | no. 16 | 6427
+
+Gα Interaction Screen. A detailed protocol for the Gα pull-down screen and
+mass spectrometry is provided in the SI Materials and Methods.
+GSH Binding and Activation Assays. Detailed protocols are provided in the SI
+Materials and Methods. In short, binding of Ric8 to Gα was tested with GSH
+pull-down experiments, in vitro exchange activity was measured as the decay in radioactivity of 3H-GDP-Gα, and to detect in vivo Gα activity, the
+previously described FRET assay was used (39).
+
+Downloaded from https://www.pnas.org by Universitaetsbibliothek Erlangen-Nuernberg on September 30, 2026 from IP address 131.188.6.13.
+
+cAR1 and Gα Expression. Expression of cAR1 and Gα was determined by
+Western blot, using anti-cAR1 antibodies and anti-Gα antibodies (Gramsch
+Laboratories), respectively. cAR1 phosphorylation was analyzed using a gelmobility shift assay (33).
+
+Fig. 5. Ric8 ampliﬁes heterotrimeric G protein signaling. (A) Ric8 is not
+a chaperone for Gα proteins. Expression of Gα2 in AX3 and ric8-null cells
+starved in shaking culture for 6 h with or without pulsing with cAMP was
+detected by Western blotting with speciﬁc antibodies against Gα. (B) cAMP
+binding to the receptor leads to dissociation of G proteins, which can be
+monitored by measuring FRET loss between CFP-Gα and YFP-Gβ. AX3 (C) and
+ric8-null (D) cells were transformed with the FRET pair, Gα2-Cerulean and GβVenus. FRET change is presented as the intensity ratio of Cerulean and Venus
+(ICerulean/IVenus) on stimulation with 10 μM cAMP (black) and 10 nM cAMP
+(gray). (E) Ric8 inhibits Gβγ interaction with Gα. GST-Gα2-overexpressing cells
+were lysed and incubated with increasing concentrations of Ric8, followed
+by incubation with GFP-Gβγ lysate. The amount of Gβγ bound to Gα2 was
+detected by Western blotting, using anti-GFP antibodies.
+
+by which Gα2 protein induces symmetry breaking of Ras activation is the most critical in chemotaxis. Therefore, it will be
+important to identify further regulators and downstream effectors of Gα signaling; our mass pull-down screen could be important in this enterprise.
+Experiments on the function of Ric8 in mammalian cells have
+suggested an implication in the regulation of olfactory signaling via
+Gαolf (47), Gq-mediated ERK activation (48), and G-proteinmediated neural function and embryogenesis (49, 50). This illustrates the relevant functions of mammalian Ric-8 in the regulation
+of G-protein signaling and suggests a similar mechanism of Ric8mediated excitation of Gα-protein signaling as described here for
+Dictyostelium. Furthermore, it will now be important to see
+whether the same role and mechanism hold true for other critical
+mammalian G-protein-mediated processes, such as Ca2+ oscillations and the migration of lymphocytes during immune response.
+Materials and Methods
+Cell Culture. AX3 was used as a parent strain to make all cell lines. The indicated Dictyostelium ric8 (GenBank accession number: DDB_G0292036)
+overexpressing and knock-out constructs were constructed (SI Materials and
+Methods) and transformed to Dictyostelium cells. Cells were grown in HL5-C
+medium including glucose (ForMedium) and containing, for selection, the
+respective antibiotics at a concentration of 10 μg/mL.
+Protein Puriﬁcation. Ric8, Gα2, and Gα4 were expressed from a pGEX4T1
+plasmid containing an N-terminal GST and Tobacco Etch Virus (TEV) cleavage
+side. Proteins were isolated, as previously described, by GSH afﬁnity, cleavage, and size-exclusion chromatography (51). The puriﬁed proteins were
+analyzed by SDS/PAGE, and the concentration was determined by Bradford’s
+method (Bio-Rad).
+
+6428 | www.pnas.org/cgi/doi/10.1073/pnas.1301851110
+
+Fig. 6. Ric8 is a regulator of G-protein signaling. Binding of cAMP to the
+cell-surface receptor, cAR1, results in the activation and disassociation of the
+Gα2-GDP/Gβγ complex into Gα2-GTP and Gβγ. Because of the intrinsic Gα2associated GTPase activity, GTP is hydrolyzed to GDP, and the inactive
+heterotrimer rapidly reassociates. Ric8 binds, ampliﬁes, and extends Gα2
+activation by stimulating the exchange of Gα2-GDP back to the active GTPbound form (red arrow). In this way, Ric8 lowers the thresholds for cAMP
+and increases the excitability of Gα2 signaling, which is essential for processes with autocatalytic loops. In Dictyostelium, active Gα2 regulates the
+activity of Ras-GEF and/or Ras-GAPs, and thereby activates at least two Rasmediated pathways consisting of autocatalytic feedback loops (dotted lines)
+that are essential for cAMP relay (purple) and symmetry breaking during
+chemotaxis (green).
+
+Kataria et al.
+
+the spatial gradient at a minimum distance of 30 μm and a maximum distance of 100 μm from the pipette is stable at 5–10 s after application of the
+pipette. It holds that the concentration is given by C(x) = αdC/dx (34), where
+α is a constant.
+Movies were recorded with an Olympus microscope equipped with JVC TKC1381 camera. The chemotaxis index and speed were determined as previously described, using ImageJ (National Institutes of Health, Bethesda), with
+the position of the centroid of the cells determined every 1 min (52).
+Confocal images were recorded using a Zeiss LSM 510 METANLO confocal
+laser scanning microscope equipped with a Zeiss plan-apochromatic X63
+numerical aperture 1.4 objective. The quantiﬁcation of ﬂuorescence intensity was done as described before (13).
+
+1. Hoeller O, Kay RR (2007) Chemotaxis in the absence of PIP3 gradients. Curr Biol 17(9):
+813–817.
+2. Swaney KF, Huang CH, Devreotes PN (2010) Eukaryotic chemotaxis: A network of
+signaling pathways controls motility, directional sensing, and polarity. Annu Rev Biophys 39:265–289.
+3. Rubel EW, Cramer KS (2002) Choosing axonal real estate: Location, location, location.
+J Comp Neurol 448(1):1–5.
+4. Martin P, Parkhurst SM (2004) Parallels between tissue repair and embryo morphogenesis. Development 131(13):3021–3034.
+5. Moser B, Loetscher P (2001) Lymphocyte trafﬁc control by chemokines. Nat Immunol
+2(2):123–128.
+6. Thelen M (2001) Dancing to the tune of chemokines. Nat Immunol 2(2):129–134.
+7. Van Haastert PJM, Devreotes PN (2004) Chemotaxis: Signalling the way forward. Nat
+Rev Mol Cell Biol 5(8):626–634.
+8. Kumagai A, et al. (1989) Regulation and function of G alpha protein subunits in
+Dictyostelium. Cell 57(2):265–275.
+9. Kumagai A, Hadwiger JA, Pupillo M, Firtel RA (1991) Molecular genetic analysis of
+two G alpha protein subunits in Dictyostelium. J Biol Chem 266(2):1220–1228.
+10. Okaichi K, Cubitt AB, Pitt GS, Firtel RA (1992) Amino acid substitutions in the Dictyostelium G alpha subunit G alpha 2 produce dominant negative phenotypes and
+inhibit the activation of adenylyl cyclase, guanylyl cyclase, and phospholipase C. Mol
+Biol Cell 3(7):735–747.
+11. Hadwiger JA, Lee S, Firtel RA (1994) The G alpha subunit G alpha 4 couples to pterin
+receptors and identiﬁes a signaling pathway that is essential for multicellular development in Dictyostelium. Proc Natl Acad Sci USA 91(22):10566–10570.
+12. Mato JM, Losada A, Nanjundiah V, Konijn TM (1975) Signal input for a chemotactic
+response in the cellular slime mold Dictyostelium discoideum. Proc Natl Acad Sci USA
+72(12):4991–4993.
+13. Kortholt A, et al. (2011) Dictyostelium chemotaxis: Essential Ras activation and accessory signalling pathways for ampliﬁcation. EMBO Rep 12(12):1273–1279.
+14. Sun TJ, Devreotes PN (1991) Gene targeting of the aggregation stage cAMP receptor
+cAR1 in Dictyostelium. Genes Dev 5(4):572–582.
+15. Wu LJ, Valkema R, Vanhaastert PJM, Devreotes PN (1995) The G-Protein Beta-Subunit
+Is Essential for Multiple Responses to Chemoattractants in Dictyostelium. J Cell Biol
+129:1667–1675.
+16. Bolourani P, Spiegelman GB, Weeks G (2006) Delineation of the roles played by RasG
+and RasC in cAMP-dependent signal transduction during the early development of
+Dictyostelium discoideum. Mol Biol Cell 17:4543–4550.
+17. Jin T, Zhang N, Long Y, Parent CA, Devreotes PN (2000) Localization of the G protein
+betagamma complex in living cells during chemotaxis. Science 287(5455):1034–1036.
+18. Xiao Z, Zhang N, Murphy DB, Devreotes PN (1997) Dynamic distribution of chemoattractant receptors in living cells during chemotaxis and persistent stimulation. J Cell
+Biol 139(2):365–374.
+19. Sasaki AT, et al. (2007) G protein-independent Ras/PI3K/F-actin circuit regulates basic
+cell motility. J Cell Biol 178(2):185–191.
+20. Sasaki AT, Chun C, Takeda K, Firtel RA (2004) Localized Ras signaling at the leading
+edge regulates PI3K, cell polarity, and directional cell movement. J Cell Biol 167(3):
+505–518.
+21. Zhang S, Charest PG, Firtel RA (2008) Spatiotemporal regulation of Ras activity provides directional sensing. Curr Biol 18(20):1587–1593.
+22. Wilkie TM, Kinch L (2005) New roles for Galpha and RGS proteins: Communication
+continues despite pulling sisters apart. Curr Biol 15(20):R843–R854.
+23. Chan P, Gabay M, Wright FA, Tall GG (2011) Ric-8B is a GTP-dependent G protein
+alphas guanine nucleotide exchange factor. J Biol Chem 286(22):19932–19942.
+24. Tall GG, Krumins AM, Gilman AG (2003) Mammalian Ric-8A (synembryn) is a heterotrimeric Galpha protein guanine nucleotide exchange factor. J Biol Chem 278(10):
+8356–8362.
+25. Clapham DE, Neer EJ (1993) New roles for G-protein beta gamma-dimers in transmembrane signalling. Nature 365(6445):403–406.
+26. Clapham DE, Neer EJ (1997) G protein beta gamma subunits. Annu Rev Pharmacol
+Toxicol 37:167–203.
+27. Ford CE, et al. (1998) Molecular basis for interactions of G protein betagamma subunits with effectors. Science 280(5367):1271–1274.
+
+28. Sato M, Ribas C, Hildebrandt JD, Lanier SM (1996) Characterization of a G-protein
+activator in the neuroblastoma-glioma cell hybrid NG108-15. J Biol Chem 271(47):
+30052–30060.
+29. Cismowski MJ, Takesono A, Bernard ML, Duzic E, Lanier SM (2001) Receptor-independent activators of heterotrimeric G-proteins. Life Sci 68(19-20):2301–2308.
+30. Bernard ML, Peterson YK, Chung P, Jourdan J, Lanier SM (2001) Selective interaction
+of AGS3 with G-proteins and the inﬂuence of AGS3 on the activation state of Gproteins. J Biol Chem 276(2):1585–1593.
+31. Kroslak T, Koch T, Kahl E, Höllt V (2001) Human phosphatidylethanolamine-binding
+protein facilitates heterotrimeric G protein-dependent signaling. J Biol Chem 276(43):
+39772–39778.
+32. Milne JL, Devreotes PN (1993) The surface cyclic AMP receptors, cAR1, cAR2, and cAR3,
+promote Ca2+ inﬂux in Dictyostelium discoideum by a G alpha 2-independent
+mechanism. Mol Biol Cell 4(3):283–292.
+33. Jin T, et al. (1998) Temperature-sensitive Gbeta mutants discriminate between G
+protein-dependent and -independent signaling mediated by serpentine receptors.
+EMBO J 17(17):5076–5084.
+34. Postma M, van Haastert PJ (2009) Mathematics of experimentally generated chemoattractant gradients. Methods Mol Biol 571:473–488.
+35. Tomchik KJ, Devreotes PN (1981) Adenosine 3′,5′-monophosphate waves in Dictyostelium discoideum: A demonstration by isotope dilution—ﬂuorography. Science
+212(4493):443–446.
+36. Lim CJ, et al. (2005) Loss of the Dictyostelium RasC protein alters vegetative cell size,
+motility and endocytosis. Exp Cell Res 306(1):47–55.
+37. Gabay M, et al. (2011) Ric-8 proteins are molecular chaperones that direct nascent G
+protein α subunit membrane association. Sci Signal 4(200):ra79.
+38. Van Haastert PJ (2006) Analysis of signal transduction: Formation of cAMP, cGMP, and
+Ins(1,4,5)P3 in vivo and in vitro. Methods Mol Biol 346:369–392.
+39. Xu X, Meier-Schellersheim M, Jiao X, Nelson LE, Jin T (2005) Quantitative imaging of
+single live cells reveals spatiotemporal dynamics of multistep signaling events of
+chemoattractant gradient sensing in Dictyostelium. Mol Biol Cell 16(2):676–688.
+40. Sun B, Firtel RA (2003) A regulator of G protein signaling-containing kinase is important for chemotaxis and multicellular development in dictyostelium. Mol Biol Cell
+14(4):1727–1743.
+41. Goldbeter A (2006) Oscillations and waves of cyclic AMP in Dictyostelium: A prototype
+for spatio-temporal organization and pulsatile intercellular communication. Bull
+Math Biol 68(5):1095–1109.
+42. McMains VC, Liao XH, Kimmel AR (2008) Oscillatory signaling and network responses
+during the development of Dictyostelium discoideum. Ageing Res Rev 7(3):234–248.
+43. Halloy J, Lauzeral J, Goldbeter A (1998) Modeling oscillations and waves of cAMP in
+Dictyostelium discoideum cells. Biophys Chem 72(1-2):9–19.
+44. Wang CJ, Bergmann A, Lin B, Kim K, Levchenko A (2012) Diverse sensitivity thresholds
+in dynamic signaling responses by social amoebae. Sci Signal 5(213):ra17.
+45. Kortholt A, van Haastert PJ (2008) Highlighting the role of Ras and Rap during Dictyostelium chemotaxis. Cell Signal 20(8):1415–1422.
+46. Sasaki AT, Firtel RA (2006) Regulation of chemotaxis by the orchestrated activation of
+Ras, PI3K, and TOR. Eur J Cell Biol 85(9-10):873–895.
+47. Von Dannecker LE, Mercadante AF, Malnic B (2005) Ric-8B, an olfactory putative GTP
+exchange factor, ampliﬁes signal transduction through the olfactory-speciﬁc G-protein Galphaolf. J Neurosci 25(15):3793–3800.
+48. Hinrichs MV, Torrejón M, Montecino M, Olate J (2012) Ric-8: Different cellular roles
+for a heterotrimeric G-protein GEF. J Cell Biochem 113(9):2797–2805.
+49. Tõnissoo T, et al. (2006) Heterozygous mice with Ric-8 mutation exhibit impaired
+spatial memory and decreased anxiety. Behav Brain Res 167(1):42–48.
+50. Tõnissoo T, et al. (2010) Nucleotide exchange factor RIC-8 is indispensable in mammalian early development. Dev Dyn 239(12):3404–3415.
+51. Kortholt A, et al. (2006) Characterization of the GbpD-activated Rap1 pathway regulating adhesion and cell polarity in Dictyostelium discoideum. J Biol Chem 281(33):
+23367–23376.
+52. Veltman DM, Van Haastert PJ (2006) Guanylyl cyclase protein and cGMP product independently control front and back of chemotaxing Dictyostelium cells. Mol Biol Cell
+17(9):3921–3929.
+
+Kataria et al.
+
+ACKNOWLEDGMENTS. This work was supported by National Institutes of
+Health intramural funding from the National Institute of Allergy and
+Infectious Diseases (to X.X. and T.J.).
+
+PNAS | April 16, 2013 | vol. 110 | no. 16 | 6429
+
+CELL BIOLOGY
+
+Downloaded from https://www.pnas.org by Universitaetsbibliothek Erlangen-Nuernberg on September 30, 2026 from IP address 131.188.6.13.
+
+Development, Chemotaxis, and Confocal Imaging. Dictyostelium cells (2 × 107)
+were collected, washed, and resuspended in PB (10mM KH2PO4/Na2HPO4,
+pH 6.5). After washing, the cells were placed on nonnutrient agar plates
+(15 g/L agar in PB), and pictures were taken at the indicated times with a
+Zeiss Stemi SV11 microscope, 2× objective, equipped with DCM130 camera.
+To obtain cells that are responsive to cAMP, cells were either starved for 6 h
+on nonnutrient agar plates or pulsed for 6 h with 0.1 μM cAMP in PB. For
+chemotaxis to cAMP, we used pipettes with a tip opening of 0.5 μm containing cAMP at concentrations varying between 0.1 mM and 10 nM cAMP.
+For folate chemotaxis, vegetative cells were washed twice with PB; the
+conditions used were 1 μM folate, a pipette tip opening of 3 μm, and a
+pressure of 2 hPa (Femtojet, Eppendorf). Chemotaxis data were recorded at
+different distances from the pipette. The actual gradient was measured with
+the ﬂuorescent dye Alexa Fluor 594 (Invitrogen), which was added to the
+chemoattractant solution; the local concentration was recorded in the red
+channel of the confocal microscope (34). These experiments revealed that
+
+

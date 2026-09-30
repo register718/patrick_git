@@ -1,0 +1,26 @@
+\begin{table*}[!t]
+\centering
+\caption{Module~4 reactions: PI3K recruitment, PIP3/PTEN mutual inhibition, PIP3 removal, and the delayed PkbA feedback. Subscripts c and m denote cytosolic and membrane-bound forms; $N$ is a molecule count per voxel.}
+\label{tab:m4rxn}
+\footnotesize
+\renewcommand{\arraystretch}{1.15}
+\begin{tabularx}{\textwidth}{@{}l>{\raggedright\arraybackslash}p{0.37\textwidth}>{\raggedright\arraybackslash}X@{}}
+\toprule
+ID & Reaction & Propensity (rate law)\\
+\midrule
+4.1 & $\mathrm{RasG}^{\mathrm{GTP}}+\mathrm{PI3K}_c \to \mathrm{PI3K}_m+\mathrm{RasG}^{\mathrm{GTP}}$ & $k_{3K,\mathrm{on}}[\mathrm{RasG}^{\mathrm{GTP}}][\mathrm{PI3K}_c]$ \\
+4.2 & $\mathrm{PI3K}_m \to \mathrm{PI3K}_c$ & $k_{3K,\mathrm{off}}[\mathrm{PI3K}_m]$ \\
+4.3 & $\mathrm{PIP2}+\mathrm{PI3K}_m \to \mathrm{PIP3}+\mathrm{PI3K}_m$ & $k_\mathrm{syn}[\mathrm{PIP2}][\mathrm{PI3K}_m]$ \\
+4.4 & $\mathrm{PTEN}_c+\mathrm{PIP2} \to \mathrm{PTEN}_m+\mathrm{PIP2}$ & $k_{PT,\mathrm{on}}[\mathrm{PTEN}_c][\mathrm{PIP2}]$ \\
+4.5 & $\mathrm{PTEN}_m \to \mathrm{PTEN}_c$ & $k_{PT,\mathrm{off}}[\mathrm{PTEN}_m]$ \\
+4.6c & $\mathrm{PTEN}_m \to \mathrm{PTEN}_c$ & $k_\mathrm{ev}[\mathrm{PTEN}_m]\,\dfrac{N_\mathrm{PIP3}^2}{K_\mathrm{ev}^2+N_\mathrm{PIP3}^2}$ \\
+4.7 & $\mathrm{PIP3}+\mathrm{PTEN}_m \to \mathrm{PIP2}+\mathrm{PTEN}_m$ & $k_{PT}[\mathrm{PIP3}][\mathrm{PTEN}_m]$ \\
+4.8 & $\mathrm{PIP3} \to \mathrm{PIP2}$ & $k_\mathrm{SH}[\mathrm{PIP3}]$ \\
+4.10 & $\mathrm{PIP3}+\mathrm{PKBA}_c \to \mathrm{PKBA}_m+\mathrm{PIP3}$ & $k_{K,\mathrm{on}}[\mathrm{PIP3}][\mathrm{PKBA}_c]$ \\
+4.11 & $\mathrm{PKBA}_m \to \mathrm{PKBA}_c$ & $k_{K,\mathrm{off}}[\mathrm{PKBA}_m]$ \\
+4.12 & $\mathrm{PKBA}_m+\mathrm{TORC2}^* \to \mathrm{PKBA}_m^*+\mathrm{TORC2}^*$ & $k_{K,\mathrm{act}}[\mathrm{PKBA}_m][\mathrm{TORC2}^*]$ \\
+4.13 & $\mathrm{PKBA}_m^* \to \mathrm{PKBA}_c$ & $k_{K,\mathrm{deact}}[\mathrm{PKBA}_m^*]$ \\
+4.14 & $\mathrm{PKBA}_m^*+\mathrm{PI3K}_m \to \mathrm{PKBA}_m^*+\mathrm{PI3K}_c$ & $k_{K,\mathrm{fb}}[\mathrm{PKBA}_m^*][\mathrm{PI3K}_m]$ \\
+\bottomrule
+\end{tabularx}
+\end{table*}

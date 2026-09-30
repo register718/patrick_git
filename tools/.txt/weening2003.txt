@@ -1,0 +1,632 @@
+Available online at www.sciencedirect.com
+R
+
+Developmental Biology 255 (2003) 373–382
+
+www.elsevier.com/locate/ydbio
+
+Contrasting activities of the aggregative and late PDSA promoters
+in Dictyostelium development
+Karin E. Weening,a Irene Verkerke-Van Wijk,b Christopher R. Thompson,c
+Richard H. Kessin,d Gregory J. Podgorski,e and Pauline Schaapa,*
+a
+
+School of Life Sciences, University of Dundee, Dundee DD1 5EH, UK
+Department of Biology, University of Leiden, 2333 AL Leiden, The Netherlands
+c
+MRC Laboratory of Molecular Biology, Cambridge CB2 2QH, UK
+d
+Department of Anatomy and Cell Biology, College of Physicians and Surgeons of Columbia University, New York, NY 10032, USA
+e
+Department of Biology, Utah State University, Logan, UT 84322-5305, USA
+b
+
+Received for publication 26 July 2002, revised 7 November 2002, accepted 11 November 2002
+
+Abstract
+Expression of the Dictyostelium PdsA gene from the aggregative (PdA) and late (PdL) promoter is essential for aggregation and slug
+morphogenesis, respectively. We studied the regulation of the PdA and PdL promoters in slugs using labile ␤-galactosidase (gal) reporter
+enzymes. PdL was active in prestalk cells as was also found with stable gal. PdA activity decreased strongly in slugs from all cells, except
+those at the rear. This is almost opposite to PdA activity traced with stable gal, where slugs showed sustained activity with highest levels
+at the front. PdA was down-regulated after aggregation irrespective of stimulation with any of the factors known to control gene expression.
+PdL activity was induced in cell suspension by cAMP and DIF acting in synergy. However, a DIF-less mutant showed normal PdL activity
+during development, suggesting that DIF does not control PdL in vivo. Dissection of the PdL promoter showed that all sequences essential
+for correct spatiotemporal control of promoter activity are downstream of the transcription start site in a region between ⫺383 and ⫺19
+nucleotides relative to the start codon. Removal of nucleotides to position ⫺364 eliminated responsiveness to DIF and cAMP, but normal
+PdL activity in prestalk cells in slugs was retained. Further 5⬘ deletions abolished all promoter activity. This result also indicates that the
+induction by DIF and cAMP as seen in cell suspensions is not essential for PdL activity in normal development.
+© 2003 Elsevier Science (USA). All rights reserved.
+Keywords: Dictyostelium discoideum; Cyclic nucleotide phosphodiesterase; Promoter analysis; Morphogenetic signaling; Differentiation inducing factor
+
+Introduction
+Extracellular cAMP signaling controls morphogenetic
+movement and prespore gene expression during multicellular development of Dictyostelium discoideum (Anjard et al.,
+2001; Bretschneider et al., 1995; Wang et al., 1988b). Three
+adenylyl cyclases, ACA, ACB, and ACG, have been identified that synthesize cAMP (Kim et al., 1998; Pitt et al.,
+1992; Soderbom et al., 1999) and one extracellular phosphodiesterase (PDE) that degrades it (Lacombe et al., 1986).
+* Corresponding author. School of Life Sciences, University of
+Dundee, MSI/WTB complex, Dow Street, Dundee DD1 5EH, UK. Fax:
+⫹44-1382-345386.
+E-mail address: p.schaap@dundee.ac.uk (P. Schaap).
+
+The single PdsA gene, that encodes PDE, is regulated at the
+transcriptional level by three promoters that control expression during growth, aggregation, and multicellular development, respectively (Faure et al., 1990). The multicellular
+(late) promoter element is only active in the prestalk cell
+population (Hall et al., 1993). PDE enzyme activity is regulated by PDI, a secreted PDE inhibitor (Wu and Franke,
+1990).
+It has not been possible to associate any of the adenylyl
+cyclases with a specific role in either slug morphogenesis or
+prespore gene expression, because null mutants in any of
+them can still form migrating slugs and express prespore
+genes, although in the case of ACA null mutants, this
+requires overexpression of PKA or prestimulation with
+cAMP (Pitt et al., 1992, 1993; Soderbom et al., 1999; Wang
+
+0012-1606/03/$ – see front matter © 2003 Elsevier Science (USA). All rights reserved.
+doi:10.1016/S0012-1606(02)00077-5
+
+374
+
+K.E. Weening et al. / Developmental Biology 255 (2003) 373–382
+
+and Kuspa, 1997). This is probably due to partial overlap in
+the function of these enzymes (Anjard et al., 2001). In
+contrast, more severe effects are observed when PDE expression is altered. Loss-of-function mutants in PDE cannot
+aggregate at all (Darmon et al., 1978). Aggregation can be
+restored by expression of PDE from the aggregative promoter (PdA), while restoration of slug and fruiting body
+formation requires expression from the late promoter (PdL)
+(Sucgang et al., 1997). The essential role of PDE in slug
+morphogenesis was also demonstrated by experiments
+where PDI was expressed from a prestalk promoter. This
+inhibited late PDE activity and blocked slug morphogenesis
+(Wu et al., 1995). Gain-of-function of PDE is equally disruptive in the slug stage. Overexpression of PDE accelerates
+the aggregation process, but arrests tip formation and cell
+differentiation (Faure et al., 1988).
+Despite the crucial role of correct PDE expression for
+multicellular development, little is known about the regulation of the gene by the PdL promoter. It is also not
+clear whether expression from the PdA promoter plays a
+role in the slug stage. Similar to control of the ACA gene,
+transcription controlled by the PdA promoter is downregulated after aggregation (Faure et al., 1990; Pitt et al.,
+1992). In the case of ACA, this was due to selective
+cessation of transcription in posterior cells resulting in
+exclusive expression in the tip region (Verkerke-van
+Wijk et al., 2001). Other components of the oscillatory
+signaling system, such as cAR1, G␣2, G␤, Aimless, and
+CRAC, become similarly enriched in the tip/prestalk region (Tsujioka et al., 2000) and this may also be the case
+for PdA.
+To gain insight into the regulation of PDE expression
+during multicellular development, we studied the patterns
+of PdA and PdL promoter activity by using labile ␤-galactosidase reporter proteins (Detterbeck et al., 1994).
+PdA is downregulated after aggregation in most cells,
+except those at the rear-guard and basal disc. PdL is
+active in prestalk cells and is synergistically activated by
+cAMP and DIF in disaggregated cells. However, deletion
+studies of the PdL promoter and analysis of DIF-less
+mutants show that at least DIF is not the activating signal
+in normal development.
+
+Materials and methods
+
+Promoter deletions and plasmid construction
+The 1.5-kb PdA promoter was amplified by PCR from
+vector pGalA (Hall et al., 1993) using oligonucleotides that
+generate XbaI and Bg/II sites at the 5⬘ and 3⬘ ends of the
+promoter, respectively. The XbaI/BglII-digested product
+was ligated into the XbaI/BglII-digested vector 63-iDQgal
+to generate PdA-ile-gal.
+The GalL cell line used previously (Hall et al., 1993) was
+cotransformed with plasmid pB10T, which carries the neomycin selection cassette, and plasmid pGalL, which contains a gene fusion of PdL and lacZ. In our hands, ␤-galactosidase expression in this cell line was weak and declined
+progressively during cell culture. We made two new vectors, PdL-gal and PdL-ile-gal, in which PdL was fused to
+stable and labile variants of LacZ, respectively. PdL-gal was
+made by replacing the Kpnl/Xhol lacZ fragment of pDdgal17 (Harwood and Drury, 1990) with the Kpnl/Xhol PdLlacZ fragment from pGalL. PdL-ile-gal was made subsequently by fusing the Xbal-BglII fragment from PdL-gal
+that contained the PdL promoter to ubi-ile-gal in the Xbal/
+BglII-digested vector 63-iDQgal.
+To construct promoter deletions, the 0.72-kb PdL promoter was subcloned into the pLITMUS29 vector by
+using the EcoRI/HindIII restriction sites. This yielded the
+plasmid PdL-pLIT29, which contained an exonuclease III
+protected 3⬘ overhang (NsiI) and an exonuclease III digestible 5⬘ overhang (EcoRI). Five micrograms of PdLpLIT29 plasmid, digested with NsiI/EcoRI, were treated
+under standard conditions for the preparation of exonuclease III-generated 5⬘ deletions (Ausubel et al., 1990).
+Samples from selected time points from the deletion
+reactions were used to transform E. coli DH5 cells. Estimates of the deletion end point were made by agarose
+gel electorophoresis and precisely determined by DNA
+sequencing. The BglII/HindIII promoter fragments of selected deletion constructs were fused to the lacZ gene in
+vector pDdgal17. Promoter fragments were also constructed by using PCR. PCRs were performed by using
+the oligonucleotide primers indicated in Fig. 7. All 5⬘
+primers contained a XbaI site and all 3⬘ primers contained
+a BgIII site to allow fusion of the amplified DNA to the
+lacZ gene in pDdgal17 or 63iDQgal. Correct amplification of all PCR-generated constructs was determined by
+DNA sequencing. Dictyostelium AX3 cells were transformed with all constructs, and AX2 and HM1030 cells
+(Thompson and Kay, 2000) were transformed with PdLile-gal.
+
+Materials
+Growth and incubation conditions
+Differentiation Inducing Factor (DIF) was obtained from
+Affinity Research Products (UK), and chlorophenylred ␤-Dgalactopyranoside (CPRG) was from Roche (UK). Exonuclease III, mung bean nuclease, and pLITMUS29 were from
+New England Biolabs (USA). The DNA sequencing kit
+Sequenase 2.0 was obtained from US Biochemical (USA).
+
+All cell lines were grown in standard axenic medium,
+which was supplemented with 20 ␮g/ml G418 for cells
+transformed with Pde promoter fusions with stable or labile
+gal and with 5 ␮g/ml blasticidin for the DIFless mutant
+HM1030. To modulate PdA or PdL promoter activity in cell
+
+K.E. Weening et al. / Developmental Biology 255 (2003) 373–382
+
+suspension, exponentially growing cells were harvested,
+washed in 10 mM Na/K-phosphate buffer, pH 6.5 (PB), and
+distributed on 1.5% agar in PB at 3 ⫻ 106 cells/cm2. Cells
+were incubated at 22°C until aggregation territories or loose
+aggregates had formed. Aggregates were dissociated by
+vigorous pipetting, resuspended in PB at 3 ⫻ 106 cells/ml,
+and challenged with variables at 22°C and 150 rpm for
+6 –10 h.
+For detection of PdA or PdL promoter activity in developing structures, cells were harvested from growth medium,
+distributed at 106 cells/cm2 over nitrocellulose filters, supported by PB agar, and incubated at 22°C until the stage of
+interest had been reached.
+Spectrophotometric and histochemical ␤-galactosidase
+assays
+For spectrophotometric quantitation of ␤-galactosidase
+activity, cells were lysed by freeze-thawing, and 100-␮l
+aliquots of lysate were incubated at 22°C in microtiter plate
+wells with 30 ␮l of 2.5⫻ Z-buffer and 20 ␮l of 40 mM
+CPRG (Dingermann et al., 1989). The OD574 was measured
+at regular time intervals by using a microtiter plate reader.
+Activity was expressed as the increase of OD574 per hour
+per mg protein.
+For histochemical staining, nitrocellulose filters supporting developing cells were fixed for 20 mins with 0.25%
+glutaraldehyde and 2% Tween-20 in Z-buffer, washed thoroughly, and subsequently incubated with 1 mM X-gal in
+Z-buffer containing 5 mM K3[Fe(CN)]6 and 5 mM
+K4[Fe(CN)]6 for 1– 4 h (Dingermann et al., 1989).
+
+Results
+
+375
+
+When measured with the ile-gal reporter, PdA activity
+becomes detectable after a few hours of starvation and is
+visible in most of the cells when they are collecting into
+aggregation streams (Fig. 1A). Once cells have formed tight
+mounds, expression begins to decline. This decline is first
+visible in the tip region (Fig. 1B) and later spreads over the
+anterior 75% of the slug. During culmination, PdA activity
+is concentrated at the basal disc/lower cup area (Fig. 1D,
+arrow) and becomes restricted to the basal disc when fruiting bodies have formed (Fig. 1E, arrow). The prestalk and
+stalk cells show almost no PdA activity (Fig. 1C and E).
+This pattern is quite different from that observed with the
+stable gal reporter. In this case, all cells continue to show
+high activity after aggregation, but particularly those at the
+tip (Hall et al., 1993).
+The pattern of PdL promoter activity measured with the
+ile-gal reporter is not very different from that observed with
+the stable gal reporter (Hall et al., 1993). PdL is first active
+at the tip and in a few scattered cells in mounds (Fig. 2B).
+During slug formation, activity becomes most pronounced
+in the anterior prestalk region and in cells scattered throughout the prespore region (Fig 2C). In fruiting bodies, only the
+apical prestalk cells show activity, and there is no significant
+activity in the stalk and basal disc (Fig. 2D).
+A quantitative assay for ␤-galactosidase in cell lysates
+shows that PdA activity increases after 4 h of starvation to
+reach a peak at 10 h of development. PdL activity increases
+after cells have formed mounds, to reach a maximum during
+fruiting body formation (Fig. 3). These temporal expression
+patterns closely follow those of the PdA and PdL mRNAs,
+respectively (Faure et al., 1990), which indicates that the
+labile reporter gene traces promoter activity reliably.
+Signals that up- and down-regulate PdA and PdL
+promoter activity
+
+Expression patterns of PdA and PdL
+The patterns of activity of the aggregative and late promoters of the PDE gene have been studied previously by
+using a reporter gene that encodes a stable form of ␤-galactosidase (Hall et al., 1993). In cases where promoter
+activity is transient, stable reporters can provide misleading
+information because the activity of the reporter protein
+persists, when the mRNA has already dissappeared (Detterbeck et al., 1994). To avoid this problem, the PdA and PdL
+promoters were fused to a chimeric DNA encoding ubiquitin-isoleucine-␤-galactosidase to give vectors PdA-ile-gal
+and PdL-ile-gal. After translation, the ubiquitin is cleaved
+off and exposes the isoleucine at the N terminus of ␤-galactosidase, which reduces its half-life to about 60 min
+(Bachmair et al., 1986; Detterbeck et al., 1994; Gonda et al.,
+1989). The ile-gal constructs cannot be used when promoter
+activity is low, because they yield considerably lower absolute activities of ␤-galactosidase than the stable constructs. For deletion studies of the PdL promoter, we therefore also used a stable PdL-gal construct.
+
+Upon starvation, PdA activity is induced by the prestarvation factor PSF (Clarke and Gomer, 1995) and further upregulated by cAMP (Franke et al., 1987). After aggregation,
+PdA activity is down-regulated dramatically in the prestalk cell
+population, while PdL activity is induced in these cells. We
+examined the signals most likely to trigger both events. The
+predominant signals for postaggregative gene regulation are
+micromolar cAMP, which induces prespore gene expression
+(Kay, 1982; Wang et al., 1988b), and DIF, which induces
+prestalk gene expression (Morris et al., 1987; Williams et al.,
+1987). We also included nanomolar cAMP pulses, isopropylidene adenosine (IPA), and a combination of micromolar
+cAMP and DIF. cAMP acts in synergy with DIF to induce the
+prestalk gene ecmA; cAMP pulses are likely to be responsible
+for tip-specific expression of ACA in slugs (Verkerke-van Wijk
+et al., 2001), while adenosine acts as an inhibitor of prespore
+differentiation (Schaap and Wang, 1986; Weijer and Durston,
+1985). IPA is a metabolically stable analog of adenosine
+(Soede et al., 1996).
+Cells expressing the PdA or PdL ile-gal constructs were
+
+376
+
+K.E. Weening et al. / Developmental Biology 255 (2003) 373–382
+
+Fig. 1. Patterns of PdA promoter activity during normal development. PdA-ile-gal cells were distributed on nitrocellulose filters supported by PB agar and
+incubated at 22°C. Cells were fixed and stained with X-gal after they had formed streaming aggregates (A), tipped aggregates (B), migrating slugs (C), early
+culminants (D), and mature fruiting bodies (E). Scale bar, 100 ␮M.
+Fig. 2. Patterns of PdL promoter activity during normal development. PdL-ile-gal cells were incubated at 22°C on nitrocellulose filters and stained with X-gal
+after they had formed streaming aggregates (A), tipped aggregates (B), migrating slugs (C), and mature fruiting bodies (D). Scale bar, 100 ␮M.
+
+developed to the loose aggregate stage. The aggregates were
+dissociated into single cells and incubated for 10 h with the
+different stimuli. Fig. 4A shows that PdA activity decreased
+strongly, regardless of any added stimulus. However, after
+an initial decline, cAMP pulses induced a modest transient
+increase in activity. A stronger but also transient increase
+
+was induced by the combination of cAMP and DIF. PdL
+was induced to moderate levels with micromolar cAMP.
+Neither DIF alone nor any of the other stimuli induced any
+significant PdL activity. However, high levels of activity
+were induced by the combination of cAMP and DIF (Fig.
+4B). This combinatorial effect of cAMP and DIF can either
+
+K.E. Weening et al. / Developmental Biology 255 (2003) 373–382
+
+Fig. 3. Developmental regulation of PdA and PdL promoter activity.
+PdA-ile-gal and PdL-ile-gal cells were distributed on PB agar and incubated for 24 h at 22°C. Cells were harvested at 2-h intervals, and ␤-galactosidase activity was measured in cell lysates. Data were standardized
+on the protein content of the cell lysate and are expressed as percentage of
+enzyme activity at t ⫽ 10 h for PdA and at t ⫽ 24 h for PdL. Means and
+s.e.m. of three time courses, assayed in quadruplicate, are presented.
+
+be due to the signals acting in synergy, or to one signal
+inducing responsiveness to the other. After prestimulation
+of cells with cAMP or DIF, maximal induction still required
+both signals acting together. Furthermore, responsiveness of
+the cells to either signal was decreased rather than increased
+(data not shown). This suggests that cAMP and DIF act in
+synergy on PdL activation.
+Is PdL regulated by DIF and cAMP during normal
+development?
+To answer this question, we introduced the PdL-ile-gal
+construct into a mutant that cannot synthesize DIF (Thompson
+and Kay, 2000). Fig. 5 shows that, in the DIF-less mutant
+HM1030, PdL activity is high in anterior prestalk cells and
+scattered cells in the prespore region of slugs and in the apical
+region of fruiting bodies. This is identical to the PdL activity
+pattern in wild-type cells and suggests that DIF is not required
+to induce PdL expression in the developing organism.
+As a second approach, we identified regions in the PdL
+promoter that mediate its expression during normal development and its induction by cAMP and DIF in cell suspension. A set of PdL promoter modifications was prepared as
+nested 5⬘ deletions (⌬ constructs) or as PCR-amplified promoter fragments (P constructs) (Fig. 6) and fused to stable
+or labile reporter genes. We measured the activity of the
+promoter fragments during normal development and during
+induction in cell suspensions with DIF and cAMP. All 5⬘
+deletion constructs up to 4⌬, in which the entire untranscribed region is deleted, showed the same pattern of expression in slugs as the intact PdL promoter (Fig. 7A and
+B), with high levels of expression in the prestalk region and
+in the anterior-like cells. However, the intensity of staining
+decreased with the shorter constructs and was too low for
+the ile-gal gene fusions to remain detectable. During incubation in suspension, all constructs showed high levels of
+
+377
+
+Fig. 4. Effects of cAMP, DIF, and IPA on PdA and PdL promoter activity.
+PdA-ile-gal and PdL-ile-gal cells were incubated on PB agar until loose
+aggregates had formed (t ⫽ 10 h). Cells from dissociated aggregates were
+resuspended in PB and incubated for 10 h with 30 nM cAMP pulses, 300
+␮M cAMP/h, 100 nM DIF added once, 300 ␮M cAMP/h plus 100 nM DIF,
+1 mM IPA, or without additive. Cells were lysed and assayed for ␤-galactosidase activity, which was standardized to the protein content of the
+lysates. Data are expressed as percentage of activity at t ⫽ 0 h for PdA and
+activity at t ⫽ 10 h after the cAMP plus DIF treatment for PdL. Means and
+s.e.m. of three experiments performed in quadruplicate are presented.
+
+induction by the combination of DIF and cAMP and some
+induction by cAMP alone. The absolute levels of ␤-galactosidase decreased 3- to 4-fold when the region between
+⫺554 and ⫺462 bp was deleted (Fig. 6C). In constructs 5P
+and 6P, that lacked most of the transcribed region, ␤-galactosidase activity was undetectable in slugs and could no
+longer be induced by cAMP and DIF. This indicates that
+regions downstream of the start site of transcription are
+essential for promoter function.
+Constructs 7P and 8P, which contain the predicted
+
+Fig. 5. PdL promoter activity in the DIFless mutant. The DIFless mutant
+HM1030 was transformed with the PdL-ile-gal vector. Transformed cells
+were incubated at 22°C on nitrocellulose filters and stained with X-gal after
+they had formed migrating slugs (A) and mature fruiting bodies (B). Scale
+bar, 100 ␮M.
+
+378
+
+K.E. Weening et al. / Developmental Biology 255 (2003) 373–382
+
+Fig. 6. Overview of promoter deletions and their effect on expression patterns and induction in vitro. (A) Nucleotide sequence of the PdL promoter. The
+promoter sequence was retrieved from Faure et al. (1990) and renumbered for convenience with the start codon at position ⫹1. The original numbering is
+indicated between parentheses. Deletion end points of ExoIII-generated constructs 2⌬, 3⌬, and 4⌬ are indicated by arrows. The sequences of PCR primers,
+a– k, are indicated in bold and their direction by arrows. The TATA box predicted by Faure et al. (1990) is underlined. Transcribed regions are shown in upper
+case and nontranscribed regions in lower case. (B) Schematic of deletions. The first column provides construct names, the second column shows a schematic
+view of the constructs and, in the case of PCR-generated constructs, the position of primers used in their creation. The next column indicates relative induction
+by 100 ␮M cAMP plus 100 nM DIF (⫺, no significant induction; ⫹, ⫹⫹, ⫹⫹⫹, moderate, strong, and very strong induction, respectively). The last column
+summarizes the expression pattern of ␤-galactosidase in the transformants. (C) Response of deletion constructs to cAMP and DIF. Dissociated loose
+aggregates of cells transformed with deletion constructs were incubated without additives (⫺), 100 ␮M cAMP/h, 100 nM DIF, or a combination of 100 ␮M
+cAMP/h with 100 nM DIF (cAMP ⫹ DIF) and assayed for ␤-galactosidase activity and protein levels. Two or three independently transformed clones were
+tested twice for each construct in an assay performed in triplicate. The absolute ␤-galactosidase activities (⌬ OD/h mg protein) obtained after incubation of
+individual clones for each construct with the different variables were averaged, and means and s.e.m. of the pooled data are indicated.
+
+TATA box and most of the 5⬘ leader sequence, showed
+the same expression pattern in migrating slugs as the
+intact promoter as well as good inducibility by cAMP
+plus DIF (Figs. 6C and 7E). Expression in slugs and
+inducibility by cAMP plus DIF was completely lost from
+the shorter construct 9P (Figs. 6C and 7F), indicating that
+the essential promoter sequences reside between ⫺70 and
+⫺383 bp from the start codon. A deletion from ⫺383 to
+⫺364 (compare constructs 4⌬ and 10P) retained the
+normal expression pattern in migrating slugs, but lost
+cAMP and DIF inducibility (Figs. 6C and 7G). In a
+further deletion, up to ⫺255, all promoter activity was
+lost (Fig. 7H). This indicates that one region of the
+promoter controls normal expression in slugs and another
+is implicated in induction by cAMP plus DIF in cell
+suspension.
+
+Discussion
+Opposite expression patterns for the aggregative and late
+PdsA promoters
+The PdsA gene, that encodes PDE, has an elaborate
+structure with different promoters controlling expression of
+the gene during growth, aggregation, and postaggregative
+development (Faure et al., 1990). The function of PDE
+during growth is not clear, but it is essential for aggregation
+and later morphogenesis (Darmon et al., 1978; Sucgang et
+al., 1997; Wu et al., 1995).
+When measured with a stable gal reporter, PdA-driven
+␤-galactosidase activity increases strongly during aggregation and remains very pronounced in slugs with highest
+apparent activity in the anterior prestalk cells (Hall et al.,
+
+Fig. 7. Expression patterns of PdL promoter deletion constructs. Cells transformed with the different deletion constructs were developed on nitrocellulose
+filters until migrating slugs had formed and stained for ␤-galactosidase activity. The construct code (see Fig. 7B) is indicated on each photograph. The
+transformant carrying the full-length PdL promoter was photographed after 1 h of staining, and all others after 4 h. Scale bar, 100 ␮M.
+
+380
+
+K.E. Weening et al. / Developmental Biology 255 (2003) 373–382
+
+1993). A labile reporter presents quite a different pattern. In
+this case, PdA also increases during aggregation, but decreases once mounds have formed. This decrease spreads as
+an anterior to posterior wave until only the rear-guard and
+basal disc cells show activity (Fig. 1). PdA transcripts also
+decrease markedly after aggregation (Faure et al., 1990), so
+the activity measured with the labile ile-gal construct is
+likely to follow PdA promoter activity closely. The prestalkenriched expression that was detected with the stable gal is
+most likely a memory effect, reflecting a tendency for
+prestalk sorting in cells that strongly expressed PdA during
+aggregation and never lost the stable ␤-galactosidase enzyme later. This is supported by findings that prestalk sorting and high PDE expression during aggregation are both
+properties of cells that enter development in early cell cycle
+phase (Wang et al., 1988a; Weijer et al., 1984). No significant differences were found for the stable and labile lacZ
+versions of the PdL promoter (Fig. 2) (Hall et al., 1993).
+This is probably due to the fact that this promoter is expressed so late that memory effects do not have time to
+become established.
+The pattern of expression of PdL is exactly opposite to
+that of PdA with predominant expression in the prestalk
+region and in the anterior-like cell population. These different distributions are in good agreement with the distribution
+of PDE enzyme activity in slugs as detected by microdissection. Also here, high activity was detected in both the
+anterior prestalk region and rear-guard/basal disc region
+with little activity in the intervening prespore region (Brown
+and Rutherford, 1980). In situ hybridization also shows the
+presence of PdsA mRNA in the prestalk and rear-guard/
+basal disc regions (Tsujioka et al., 2001).
+Signals that regulate postaggregative PdA and PdL
+promoter activity
+Consensus models for regulation of cell-type specification in Dictyostelium indicate micromolar cAMP and DIF as
+inducers of prespore and prestalk cell differentiation, respectively. Micromolar cAMP can potentially be generated
+by the adenylyl cyclases ACA, ACB, and ACG, which are
+all expressed in slugs (Alvarez-Curto and Scehaap, unpublished results; Soderbom et al., 1999; Verkerke-Van Wijk et
+al., 2001). DIF is generated by prespore cells to trigger
+conversion of a proportion of their number into anterior-like
+cells (Kay and Thompson, 2001). These cells then sort to
+the anterior to form the prestalk region (Sternfeld and
+David, 1982). Earlier work showed that PdL mRNA was
+elevated in cells that were treated with DIF after a 10-h
+pretreatment with 5 mM cAMP (Franke et al., 1991). We
+show here that DIF also induces PdL activity in cells that
+have developed into mounds under more physiological conditions. However, they only do so when cAMP is present at
+the same time.
+We attempted to identify the signal that triggers the
+precipitous decline in PdA promoter activity once aggre-
+
+gates have formed. We found that dissociating aggregated
+cells did not block the decline in PdA promoter activity,
+making it unlikely that cell– cell contact or a diffusible
+signal secreted in the aggregate is the trigger.
+DIF activates PdL in cell suspension, but not in the intact
+organism
+PdL is strongly upregulated by DIF and cAMP in suspensions of dissociated cells, but two lines of evidence
+indicate that at least DIF does not regulate expression of the
+gene in slugs: (1) a mutant that is defective in DIF synthesis
+showed normal expression of PdL in slugs and fruiting
+bodies (Fig. 6); (2) Deletion analysis of the PdL promoter
+indicated that a region from ⫺383 to ⫺364, relative to the
+start codon, is required for DIF/cAMP induction in disaggregated cells. However, when this region was deleted, PdL
+expression in prestalk and anterior-like cells in slugs was
+not diminished. The PdL promoter showed another unusual
+feature; primary transcriptional regulatory elements lie in
+the 5⬘ leader sequence of the gene. Deletions of this region
+eliminated promoter activity, whereas deletions that removed regions upstream of the transcription start site only
+reduced the efficiency of transcription.
+Prestalk genes share no common inductive signal
+A number of genes, such as ecmA, ecmB, rasD, carB,
+and PdL, are first expressed in the prestalk cell population
+(Reymond et al., 1984; Saxe III et al., 1993; Williams et al.,
+1987). Other genes, such as gpaB (Ga2), gpbA (G␤), carA,
+acaA, dagA (CRAC), and aleA (aimless), are expressed in
+most cells during aggregation and later become prestalk
+specific (Carrel et al., 1994; Tsujioka et al., 2001; Verkerkevan Wijk et al., 2001). This is most likely because their
+expression is down-regulated in prespore cells.
+In contrast to prespore genes, which are dependent on
+cAMP for expression in cell suspension and in intact slugs
+(Anjard et al., 2001; Kay, 1982; Wang et al., 1988b), the
+prestalk genes share no common mode of induction. EcmA,
+ecmB, and PdL are all DIF-inducible in suspension (Williams et al., 1987), but only the pstO subdomain of the ecmA
+promoter requires DIF for expression in slugs (Thompson
+and Kay, 2000). carB and rasD are induced by micromolar
+cAMP in suspension (Reymond et al., 1984; Saxe III et al.,
+1993), while AcaA expression is maintained in dissociated
+slug cells by cAMP pulses (Verkerke-van Wijk et al., 2001).
+This heterogeneity in regulation is most likely a consequence of the multifunctionality of cells in the anterior
+region of the slug. The posterior prespore cells loose the
+chemotactic functions of aggregative cells and show a concerted pattern of gene activities that prepare them for encapsulation. In contrast, the anterior cells continue to play a
+very active role in cAMP signaling and chemotaxis; in
+addition, they acquire novel roles in phototaxis, thermotaxis, and synthesis of the mucopolysaccharide sheath. The
+
+K.E. Weening et al. / Developmental Biology 255 (2003) 373–382
+
+gene products that are required for this plethora of activities
+are probably under control of several regulatory feedback
+loops, using any of a number of intercellular interactions.
+The overriding characteristic of the prestalk region may
+be that these cells are inhibited to enter the spore pathway
+and can therefore remain fully competent for signaling and
+motility. The function of DIF in this scheme could be to act
+as a prespore inhibitor rather than a prestalk inducer. The
+expression of PdL and probably other prestalk genes are
+likely to require signaling interactions that remain to be
+identified.
+
+Acknowledgments
+We thank Harry MacWilliams for his kind gift of the
+63-iDQgal vector. This research was supported by Grants
+805-31-051 and 805-17048 from the Life Sciences Foundation of the Netherlands Organisation for Scientific Research
+(to I.V. and K.E.W., respectively) and by Wellcome Trust
+University Award Grant 057137. R.H.K. is supported by
+NIH Grant GM33136.
+
+References
+Anjard, C., Soderbom, F., Loomis, W.F., 2001. Requirements for the
+adenylyl cyclases in the development of Dictyostelium. Development
+128, 3649 –3654.
+Ausubel, F., Brent, R., Kingston, R., Moore, D., Seidman, J., Smith, J.,
+Struhl, K., 1990. Current Protocols in Molecular Biology. John Wiley
+& Sons, New York.
+Bachmair, A., Finley, D., Varshavsky, A., 1986. In vivo half-life of a
+protein is a function of its amino-terminal residue. Science 234, 179 –
+186.
+Berks, M., Kay, R.R., 1990. Combinatorial control of cell differentiation
+by cAMP and DIF-1 during development of Dictyostelium discoideum.
+Development 11, 977–984.
+Bretschneider, T., Siegert, F., Weijer, C.J., 1995. Three-dimensional scroll
+waves of cAMP could direct cell movement and gene expression in
+Dictyostelium slugs. Proc. Natl. Acad. Sci. USA 92, 4387– 4391.
+Brown, S.S., Rutherford, C.L., 1980. Localization of cyclic nucleotide
+phosphodiesterase in the multicellular stages of Dictyostelium discoideum. Differentiation 16, 173–183.
+Carrel, F., Dharmawardhane, S., Clark, A.M., Powell-Coffman, J.A., Firtel,
+R.A., 1994. Spatial and temporal expression of the Dictyostelium discoideum G␣ protein subunit G␣2: expression of a dominant negative
+protein inhibits proper prestalk to stalk differentiation. Mol. Biol. Cell
+5, 7–16.
+Darmon, M., Barra, J., Brachet, P., 1978. The role of phosphodiesterase in
+aggregation of Dictyostelium discodeum. J. Cell Sci. 31, 233–243.
+Detterbeck, S., Morandini, P., Wetterauer, B., Bachmair, A., Fischer, K.,
+MacWilliams, H.K., 1994. The “prespore-like cells” of Dictyostelium
+have ceased to express a prespore gene: analysis using short-lived
+beta-galactosidases as reporters. Development 120, 2847–2855.
+Dingermann, T., Reindl, N., Werner, H., Hildebrandt, M., Nellen, W.,
+Harwood, A., Williams, J., Nerke, K., 1989. Optimization and in situ
+detection of Escherichia coli beta-galactosidase gene expression in
+Dictyostelium discoideum. Gene 85, 353–362.
+Faure, M., Franke, J., Hall, A.L., Podgorski, G.J., Kessin, R.H., 1990. The
+cyclic nucleotide phosphodiesterase gene of Dictyostelium discoideum
+
+381
+
+contains three promoters specific for growth, aggregation, and late
+development. Mol. Cell. Biol. 10, 1921–1930.
+Faure, M., Podgorski, G.J., Franke, J., Kessin, R.H., 1988. Disruption of
+Dictyostelium discoideum morphogenesis by overproduction of cAMP
+phosphodiesterase. Proc. Natl. Acad. Sci. USA 85, 8076 – 8080.
+Franke, J., Faure, M., Wu, L., Hall, A.L., Podgorski, G.J., Kessin, R.H.,
+1991. Cyclic nucleotide phosphodiesterase of Dictyostelium discoideum and its glycoprotein inhibitor: structure and expression of their
+genes. Dev. Genet. 12, 104 –112.
+Franke, J., Podgorski, G.J., Kessin, R.H., 1987. The expression of two
+transcripts of the phosphodiesterase gene during the development of
+Dictyostelium discoideum. Dev. Biol. 124, 504 –511.
+Gonda, D.K., Bachmair, A., Wunning, I., Tobias, J.W., Lane, W.S., Varshavsky, A., 1989. Universality and structure of the N-end rule. J. Biol.
+Chem. 264, 16700 –16712.
+Hall, A.L., Franke, J., Faure, M., Kessin, R.H., 1993. The role of the cyclic
+nucleotide phosphodiesterase of Dictyostelium discoideum during
+growth, aggregation, and morphogenesis: overexpression and localization studies with the separate promoters of the Pde. Dev. Biol. 157,
+73– 84.
+Harwood, A.J., Drury, L., 1990. New vectors for expression of the E. coli
+lacZ gene in Dictyostelium. Nucleic Acids Res. 18, 4292.
+Kay, R.R., 1982. cAMP and spore differentiation in Dictyostelium discoideum. Proc. Natl. Acad. Sci. USA 79, 3228 –3231.
+Kay, R.R., Thompson, C.R., 2001. Cross-induction of cell types in Dictyostelium: evidence that DIF-1 is made by prespore cells. Development 128, 4959 – 4966.
+Kim, H.J., Chang, W.T., Meima, M., Gross, J.D., Schaap, P., 1998. A novel
+adenylyl cyclase detected in rapidly developing mutants of Dictyostelium. J. Biol. Chem. 273, 30859 –30862.
+Lacombe, M.-L., Podgorski, G.J., Franke, J., Kessin, R.H., 1986. Molecular cloning and developmental expression of the cyclic nucleotide
+phosphodiesterase gene of Dictyostelium discoideum. J. Biol. Chem.
+261, 16811–16817.
+Meima, M.E., Schaap, P., 1999. Fingerprinting of adenylyl cyclase activities during Dictyostelium development indicates a dominant role for
+adenylyl cyclase B in terminal differentiation. Dev. Biol. 212, 182–190.
+Morris, H.R., Taylor, G.W., Masento, M.S., Jermyn, K.A., Kay, R.R.,
+1987. Chemical structure of the morphogen differentiation inducing
+factor from Dictyostelium discoideum. Nature 133, 811– 814.
+Pitt, G.S., Brandt, R., Lin, K.C., Devreotes, P.N., Schaap, P., 1993. Extracellular cAMP is sufficient to restore developmental gene expression
+and morphogenesis in Dictyostelium cells lacking the aggregation adenylyl cyclase (ACA). Genes Dev. 7, 2172–2180.
+Pitt, G.S., Milona, N., Borleis, J., Lin, K.C., Reed, R.R., Devreotes, P.N.,
+1992. Structurally distinct and stage-specific adenylyl cyclase genes
+play different roles in Dictyostelium development. Cell 69, 305–315.
+Reymond, C.D., Gomer, R.H., Mehdy, M.C., Firtel, R.A., 1984. Developmental regulation of a Dictyostelium gene encoding a protein homologous to mammalian ras protein. Cell 39, 141–148.
+Saxe III, C.L., Ginsburg, G.T., Louis, J.M., Johnson, R., Devreotes, P.N.,
+Kimmel, A.R., 1993. CAR2, a prestalk cAMP receptor required for
+normal tip formation and late development of Dictyostelium discoideum. Genes Dev. 7, 262–272.
+Schaap, P., Wang, M., 1986. Interactions between adenosine and oscillatory cAMP signaling regulate size and pattern in Dictyostelium. Cell
+45, 137–144.
+So, J.-S., Weeks, G., 1992. The effects of presumptive morphogens on
+prestalk and prespore cell gene expression in monolayers of Dictyostelium discoideum. Differentiation 51, 73–78.
+Soderbom, F., Anjard, C., Iranfar, N., Fuller, D., Loomis, W.F., 1999. An
+adenylyl cyclase that functions during late development of Dictyostelium. Development 126, 5463–5471.
+Soede, R.D.M., Hopper, N.A., Williams, J.G., Schaap, P., 1996. Extracellular cAMP depletion triggers stalk gene expression in Dictyostelium:
+disparities in developmental timing and dose dependency indicate that
+
+382
+
+K.E. Weening et al. / Developmental Biology 255 (2003) 373–382
+
+prespore induction and stalk repression by cAMP are mediated by
+separate signaling pathways. Dev. Biol. 177, 152–159.
+Sternfeld, J., David, C.N., 1982. Fate and regulation of anterior-like cells
+in Dictyostelium slugs. Dev. Biol. 93, 111–118.
+Sucgang, R., Weijer, C.J., Siegert, F., Franke, J., Kessin, R.H., 1997. Null
+mutations of the Dictyostelium cyclic nucleotide phosphodiesterase
+gene block chemotactic cell movement in developing aggregates. Dev.
+Biol. 192, 181–192.
+Thompson, C.R., Kay, R.R., 2000. The role of DIF-1 signaling in Dictyostelium development. Mol. Cell 6, 1509 –1514.
+Tsujioka, M., Yokoyama, M., Nishio, K., Kuwayama, H., Morio, T.,
+Katoh, M., Urushihara, H., Saito, T., Ochiai, H., Tanaka, Y., Takeuchi,
+I., Maeda, M., 2001. Spatial expression patterns of genes involved in
+cyclic AMP responses in Dictyostelium discoideum development. Dev.
+Growth Differ. 43, 275–283.
+Verkerke-van Wijk, I., Fukuzawa, M., Devreotes, P.N., Schaap, P., 2001.
+Adenylyl cyclase A expression is tip-specific in Dictyostelium slugs
+and directs StatA nuclear translocation and CudA gene expression.
+Dev. Biol. 234, 151–160.
+Wang, B., Kuspa, A., 1997. Dictyostelium development in the absence of
+cAMP. Science 277, 251–254.
+Wang, M., Aerts, R.J., Spek, W., Schaap, P., 1988a. Cell cycle phase in
+
+Dictyostelium discoideum is correlated with the expression of cyclic
+AMP production, detection, and degradation. Dev. Biol. 125, 410 – 416.
+Wang, M., Van Driel, R., Schaap, P., 1988b. Cyclic AMP-phosphodiesterase induces dedifferentiation of prespore cells in Dictyostelium discoideum slugs: evidence that cyclic AMP is the morphogenetic signal
+for prespore differentiation. Development 103, 611– 618.
+Weijer, C.J., Durston, A.J., 1985. Influence of cyclic AMP and hydrolysis
+products on cell type regulation in Dictyostelium discoideum. J. Embryol. Exp. Morphol. 86, 19 –37.
+Weijer, C.J., Duschl, G., David, C.N., 1984. Dependence of cell-type
+proportioning and sorting on cell cycle phase in Dictyostelium discoideum. J. Cell Sci. 70, 133–145.
+Williams, J.G., Ceccarelli, A., McRobbie, S., Mahbubani, H., Kay, R.R.,
+Early, A., Berks, M., Jermyn, K.A., 1987. Direct induction of Dictyostelium prestalk gene expression by DIF provides evidence that DIF is
+a morphogen. Cell 49, 185–192.
+Wu, L., Franke, J., 1990. A developmentally regulated and cAMP-repressible gene of Dictyostelium discoideum: cloning and expression of the
+gene encoding cyclic nucleotide phosphodiesterase inhibitor. J. Cell
+Biol. 91, 51–56.
+Wu, L., Franke, J., Blanton, R.L., Podgorski, G.J., Kessin, R.H., 1995. The
+phosphodiesterase secreted by prestalk cells is necessary for Dictyostelium discoideum. Dev. Biol. 167, 1– 8.
+
+

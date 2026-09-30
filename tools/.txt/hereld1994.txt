@@ -1,0 +1,1084 @@
+RE
+JOURNAL
+OF BIOKICICAL
+CHEMISTRY
+0 1994 by The American Society for Biochemistry and Molecular Biology, Inc.
+
+Vol. 269, No. 9,Issue of M m h 4, pp. 7036-7044, 1994
+Printed in U.S.A.
+
+Localization of Ligand-induced Phosphorylation Sites to Serine
+of the Dictyostelium cAMP
+Clusters in the C-terminal Domain
+Receptor, cARl*
+(Received for publication, June 17, 1993, and in revised form, September 30, 1993)
+
+Dale HereldS, Roxanne Vaughanl,Ji Yun Kim, Jane Borleis, andPeter Devreotesn
+From the Department of Biological Chemistry, The Johns Hopkins University School of Medicine,
+Baltimore, Maryland 21205
+
+When Dictyostelium cells are stimulated with cyclic
+gic receptors, muscarinic acetylcholine receptors, mating factor
+adenosine 3’,S‘-monophosphate (CAMP), the major
+sur- receptors of yeast, and CAMP receptors of Dictyostelium (reface CAMP receptorexpressedinearlydevelopment,
+viewed in Ref. 1).
+cAR1, undergoes a rapid phosphorylation and parallel
+Dictyostelium utilizes extracellular CAMP for cell-to-cell comdecrease in electrophoretic mobility which may serve
+to
+munication
+during a starvation-induced developmental proG protein-coupled receptor. gram which transforms a population of unicellular amebas into
+regulate the activity of this
+Biochemical analyses indicate the electrophoretic mo- a multicellular fruiting body. When stimulated by CAMP, cells
+bility shift is caused by phosphorylationof serine resi- respond by moving toward thesource of CAMP,by relaying the
+18 CAMPsignal to other cells (termed signaling), and by altering
+dues within the C-terminal cytoplasmic domain. The
+serines of this domain are grouped in four clusters, destheir patternof gene expression (reviewed in Refs. 2,3). These
+ignated 1 to 4 (in N- toC-terminalorder).
+T w o apresponses are mediated by four homologous CAMP receptors
+proaches were taken to determine the distribution of
+each transiently expressedat a characteristic stage in
+phosphorylationsites among the serine clusters. First, (CARS),
+a
+development
+(4, 5L2 Targeted gene disruptions have shown
+proteolytic analysis of the C-terminal domain was perthat
+cAR1,
+which
+is maximally expressed during the aggregaformed. Second, mutants lacking various combinations
+of the serine clusters were created
+by site-directed mu- tion stage, accounts for most of the CAMP-binding sites and
+mediates responses tocAMP at this stage(6).cAR2, cAR3, and
+tagenesis and their abilities to undergo ligand-induced
+at later times
+cAR4 are believed to carry out similar functions
+modification were determined. Both approaches yielded
+(7,
+8h2
+in
+development
+corroborativeresultsconsistentwiththefollowing
+In the signaling response, exogenous CAMP triggers a tranmodel: the stimulus induces the addition of approxi2; sient activation of adenylyl cyclase which results in the tranmately two phosphatesto cluster 1 and one to cluster
+basal phosphorylationoccurs predominantly in cluster sient secretion of CAMP. Theattenuation of theresponse,
+3 and toa lesser extent in cluster
+2; and cluster4 is not termed adaptation, has been
+extensively investigated (9).Once
+phosphorylated.Thephosphorylation-deficientrecepcells are adapted to a subsaturating concentration of ligand,
+tor mutants should be useful for establishing the role
+of remain responsive to further increments. The magnitude
+they
+ligand-induced phosphorylation ofcARl in chemotaxis, of the elicited response is proportional to thechange in receptor
+cell-cell signaling, and gene expression.
+occupancy. When a stimulus is removed, cells regain sensitivity
+(or deadapt) with a half-time of a few minutes (10).
+A similar uncoupling process is observed for a variety of G
+The cell surface receptors for a wide variety of hormones, protein-coupled receptors. Studies of p-adrenergic receptors
+neurotransmitters, and related extracellular ligands are char- and rhodopsin suggest that ligand-inducedphosphorylation
+acterized by a common structure consisting of seven mem- plays a fundamental role in this process (reviewed in Ref. 1)
+brane-spanning segments. In general, these receptors transand, analogously, theligand-dependent phosphorylation of
+intermediary
+G cARl is correlated, in terms of kinetics and dose-dependence,
+duce signals to effectors by activating
+pr0teins.l Well-studied examples include rhodopsin,p-adrener- with adaptation. Dephosphorylation and deadaptationare also
+coincident (11).These correlations suggest that adaptation of
+* This work was supported by National Institutes of Health Grant adenylyl cyclase activation and perhaps other cARl-mediated
+GM34933 (to P.N. D.).The costs of publication of this article were events require phosphorylation of cAR1.
+defrayed in part by the payment of page charges. This article must
+Previous studies have shown that cARl is basally phosphotherefore be herebymarked “advertisement” in accordancewith 18
+rylated and, upon exposure of cells to CAMP, approximately 4
+U.S.C. Section 1734 solely t o indicate this fact.
+additional mol of phosphate are rapidly transferred to each
+$Supported by a fellowshipfromTheDamonRunyon-Walter
+Winchell Cancer Research Fund.
+mole of receptor (12). Concomitantly, a marked electrophoretic
+5 This author’s contribution this
+to work was substantial including all mobility decrease occurs. We demonstrate here that the elecof the experimentswhich utilized developedAX3 cells.
+Present address:
+Neuroscience Branch, NationalInstitute on Drug Abuse,Addiction Re- trophoretic mobility shift is a consequence of phosphorylation
+and that basal and ligand-stimulated phosphorylation occurs
+search Center, Baltimore, MD 21224.
+1 To whom correspondence should be addressed Dept. of Biological principally on serine residues within the C-terminalcytoplasChemistry, The Johns Hopkins University School of Medicine, 725 N. mic domain of cAR1. Based on the deduced sequence of CAR1
+Wolfe Street, Baltimore, MD 21205. Tel.: 410-955-3225; Fax: 410-955(4), the 18 serines in the C-terminal
+cytoplasmic domain canbe
+5759.
+1 The abbreviations used are: G protein, guanine nucleotide-binding
+regulatory protein;CAMP, cyclic adenosine 3’,5’-monophosphate;CAR, PAGE, polyacrylamide gel electrophoresis; TAME, N-a-p-tosyl-L-argi3-[(cholamidopropyl)-dimethylammoniol-1- ninemethyl ester; TLCK,N-a-p-tosyl-L-lysinechloromethylketone;
+cAMP receptor;CHAPS,
+propanesulfonate;GTPyS,guanosine
+5’-[y-thioltriphosphate; MES, TPCK, N-tosyl-L-phenylalanine chloromethyl ketone.
+A. Kimmel, personal communication.
+2-(N-morpholino)ethanesulfonic acid; NCS,
+N-chlorosuccinimide;
+
+7036
+
+This is an Open Access article under the CC BY license.
+
+Phosphorylation
+Sites
+
+T
+
+T
+
+in a Dictyostelium CAMP Receptor
+
+P
+
+T
+
+7037
+
+265
+
+1
+
+2
+
+"
+
+-
+
+3 m 4
+
+50 aa
+FIG.1. Schematic view of the C A R 1 polypeptide. The positions of serine residues (0)and putative membrane segments (shaded) as proposed
+by Klein et al. (4) are indicated. Brackets numbered 1 4 identlfy the 4 serine clusters of the C-terminal cytoplasmic domain. Potential NCS cleavage
+sites including naturally occurring tryptophan residues (0)
+and a single tryptophan inserted into mutant 335W336 (m) are indicated. Also shown
+are potential Lys-C cleavage sites (A) and the C terminus of truncated mutant JK365. Residues referred to in the text are numbered. The C
+terminus-specific antiserum described in the text is directed against the small region identified by the solid bar.
+AX3 cells, membranes were prepared immediately following labeling
+and CAMP stimulation by hypotonic lysis as described by Klein et al.
+(18) except that RB was replaced with ERB (20m~ Tris-HC1, pH 7.5;5
+m~ EDTA 0.5 m~ dithiothreitol; 1 mg/mI each of benzamidine and
+1,lO-phenanthroline; 10 pg/ml each of TPCK, TLCK, and TAME; 0.6
+pg/ml each of chymostatin and pepstatin A; 0.5 pg/ml antipain; 0.1
+pg/ml each of leupeptin and aprotinin; 250 pg/ml N-carbobenzoxy+
+phenylalanine; 100 pg/ml phenylmethylsulfonylfluoride).The cARl in
+these membranes was subjected to either SDS solubilization and immunoprecipitation or trypsinization (described below).
+Isolation of cARl Using CHAPS-Wild-type and mutant forms of
+MATERIALS AND METHODS
+cARl wereenriched by extracting labeled transformed cells three times
+Mutagenesis of CAR141 cDNA 6B (4), subcloned into the EcoRI with ice-cold 1%CHAPS in EFtB and 10 m i n , 12,000 x g centrifugations
+site of bacteriophage M13mp18 DNA, was used as template in oligo- (19). cAR1, which is not solubilized by CHAPS, was then solubilized
+nucleotide-directed mutagenesis reactions performed as previously
+from the resulting pellet with sample buffer for SDS-PAGE. cARl
+is the
+described (13). Mutagenic oligonucleotides used are summarized in
+predominant phosphoprotein in the resulting preparation (see below).
+Table I.
+Experiments not shown indicate that this procedure is comparable to
+The serines of clusters 1, 2, and 4 were substituted with either
+immunoprecipitation for isolation of 32P-labeledcAR1.
+alanine or glycine as indicated in Table I. The overlapping oligonucleocARl Immunoprecipitations-Immunoprecipitations were performed
+tides designed to mutate cluster 1 were utilized in twosuccessive
+rounds of mutagenesis. The 8 serines and single intervening leucine of as previously described (11). Briefly, membrane-associated cARl was
+cluster 3 were deleted. Multiple serine clusters were mutated in reac- first solubilized with sample buffer containing 0.5% SDS and diluted
+tions including mixtures of appropriate oligonucleotidesand either the 5-fold with immunoprecipitation buffer to yield a final SDS concentrawild-type or cluster 1-mutated template. Each serine cluster mutant is tion of 0.1% beforethe addition of antiserum and protein A-Sepharose.
+designated by "cm" followed by 1, 2, 3, and/or 4 indicating which of its Samples of the soluble C-terminal domain producedby trypsinization of
+serine clusters are mutated. For example, cm1234 is mutatedin all four membranes (see below) wereimmunoprecipitated similarly except they
+serine clusters. The unmutated, or wild-type, receptor is designated as were diluted only 3-fold with immunoprecipitation buffer without introducing SDS. Unless specified otherwise, antiserum raised against
+wt.
+Site-directed mutagenesis was also used to insert a tryptophan resi- intact cARl (12) was used.
+Production of C nrminus-specific Antiserum-A hgtll p-galactosiddue aRer H3= in 3357111336. The C terminally truncated mutant JK365
+was produced by exonuclease I11 digestion of the cARl cDNA. At its C ase fusion protein encoding the 18 C-terminal amino acids of cARl was
+terminus is L366 of cARl followed by the vector-encoded pentapeptide gel purified and used to generate rabbit antiserum (4). The ability of a
+synthetic peptide identical to the 18 C-terminal amino acids to deplete
+-wNSIS.
+Dunsformution of Dictyostelium-Wild-type and mutated cDNAs receptor antibodies present in the antiserumdemonstrated its specificwere ligated into the EcoRI site of Bluescript plasmid (Stratagene) ity for the C terminus of cARl (not shown).
+cARl was immunoPhosphatase neatment of ~ARl-~~P,-Labeled
+which had been modified by the insertion of a BglII linker into the
+EcoRV site. They were then moved as a BamHI-BglII fragment to the precipitated, and the resulting immune complexes (including protein
+BglII site of either of the following G418-selectableexpression vectors: A-Sepharose) werewashed with phosphatase buffer (20n m HEPES, pH
+pB18, an integrating vector (described in Ref. 14), or pJK1, an extra- 8.0, 25 n m KC1, 15 m~ MgCl,, 0.05% Triton X-100, and 0.1% SDS)and
+chromosomal vector(described in Ref. 15). Expression constructs were then resuspended in 100 pl of phosphatase buffer. Calf intestinal alkaintroduced into Dictyostelium discoideumstrain AX3 byelectroporation line phosphatase (5 units, Boehringer Mannheim) was added where
+essentially as described by Dynes and Firtel (16). Stably transformed indicated, and samples were incubated at 37 "C for 1 h. After washing
+clones, resistant t o G418 (20pg/ml), were screened for cARlexpression once with phosphatase buffer, the treated immunoprecipatates were
+solubilized with sample buffer for electrophoresis.
+in the vegetative state by immunoblotting.
+Phosphoamino Acid An~lysis-~~P~-Labeled
+cARl was immunopreCell Growth and Development-AX3 cells were grown in HL5 medium and developed as previously described (17). Development was cipitated and subjected to SDS-PAGE. Gel regions containing cARl
+initiated by washing the cells twice in Mes DB (20 m~ MES, pH 6.5,2 were excised, hydrated in 50 m~ NH4HC03, and subjected to trypsin
+n m MgSO,, 0.2 IMI CaCl2). Cellsat 2 x 107/mlof MES DB were shaken proteolysis for 24 h. Material released from the gel fragments was
+for 4 h with the application of pulses of50 n~ CAMP every 6 min. lyophilized, resuspended in 6 N HC1, and hydrolyzed for 2 h at 110 "C
+Transformants were grown in HL-5 containing 20 pg/ml G418 and were under Nz. Hydrolysates were subjected to two dimensional electrophoresis on cellulose plates as previously described (20) followed by autoused without developing them.
+"P Labeling and CAMP Stimulation of Cells-Developed AX3 cells or radiography. Unlabeled phosphoamino acid standards, added to the
+vegetative transformants were washed and resuspended at lo8 celldml hydrolysates, were visualized with ninhydrin.
+7kypsinization of Membranes-Membranes prepared from labeled
+in MES DB.Caffeine, which blocksspontaneous CAMP oscillations(17),
+and 1 mCi of carrier-free 32Pi(ICN) were added per ml of cell suspen- AX3 cells were resuspended in EFtB lacking TLCK, phenylmethylsulsion. Aftershaking for 30 min, half of the labeled cells werestimulated
+fonyl fluoride, leupeptin, and aprotinin and were treated with trypsin
+) added with CAMP (Worthington)at room temperature with occasional mixing.Unless othfor 5 min with 1p~ CAMP. Dithiothreitol(10 m ~was
+to inhibit its degradation by extracellular phosphodiesterase. The sub- erwise indicated, digestions were performedwith 100 pg/mltrypsin for
+scripts "-CAMP" and "+CAMP" modify the names of receptors (wild-type 30 min and terminated by the addition of soybean trypsin inhibitor
+and mutant) isolated from unstimulated and stimulated cells, respec- (Worthington)to a final concentration of 150 pg/ml.Samples were centively.
+trifuged at 10,000 revolutiondmin for 15 min and the supernatants
+Preparation of Membranes-For experiments utilizing developed recovered. As described in the text, this treatment liberates a soluble
+
+viewed as being organized in four clusters which we have designated, inN- to C-terminal order, as clusters 1through 4 (Fig.
+1).By a combination of proteolytic analysis and site-directed
+mutagenesis, we have determined the distribution of phosphorylation sites among these serine clusters. The non-phosphorylatable CAR1 mutants which are described here should be
+useful in studies of the functional significance of CAR1 phosphorylation.
+
+Phosphorylation Sites in a Dictyostelium CAMP Receptor
+
+7038
+
+TABLE
+I
+Oligonucleotides usedfor site-directed mutagenesis of CAR1
+Sequence"
+
+Mutation effectedb
+
+Serine
+Cluster
+AtTectedc
+
+CAATAACAATCCAGCACCATAT
+CACCATATGGTGCAGGTCGTGGTAC
+CGTGGTACTGCTGGTAAAACTA
+GTGCAATGTGGTGCCGATATG
+GAGCAATGTGCTTTGGAAAG
+
+SeP9-Ala
+SeFo2-Gly, SeFo3+Ala, SeFM+Gly
+SeFo8+Ala
+SeFz4+Gly, SeFZ6+Ala
+SeF31+Ala
+Deletes SeFmthrough SeF68
+SeFa3-Ala,
+Inserts 'IYp after His335
+
+1
+1
+1
+2
+2
+3
+4
+NA
+
+AATGATGAAGGTAGATGAAGAAAAAC
+
+SeP8S-Ala
+AATATTCAAATT$CACTGCAACA?@.TGG
+GGAAAGACATtggCCAAATATGG
+
+Although antisense oligonucleotides were used, their sense sequences are shown in 5'-3' orientation. Underlined nucleotides represent
+substitutions, lowercase identifies inserted nucleotides, and the symbol A marks the position of deleted nucleotides.
+Atrected residues are numbered relative t o the N-terminal methionine of cAR1. Arrows denote substitutions.
+e Serine clusters defined as in Fig. 1. NA, not applicable.
+a
+
+C-terminal receptor fragment.
+RESULTS
+m n i t y Purification of the C-terminal Dyptic F r a g m e n t 4 1 C
+Relationship of Phosphorylation to Electrophoretic Mobility
+terminus-specific antibodies were
+covalently
+coupled
+to protein
+AR1 is developmentally regulated,
+A-Sepharose C U B (Pharmacia LKB Biotechnology Inc.) as described Shift-The expression of C
+previously (21).Up to 10 volumes of supernatant from trypsinized mem- reaching maximal levels after 4-6 h of development (12). As
+branes were applied to a column of the resin which wasthen extensively previously reported and shown in Fig. 2 A , stimulation of dewashed with 0.2 M triethanolamine, pH 8.2, 0.5% sodium deoxycholate
+veloped AX3 cells with l p~ CAMP induced a rapid phosphofollowed by0.2 M triethanolamine, pH 8.2,0.5 M NaCl and finally eluted
+rylation
+and concomitant decrease in electrophoretic mobility
+with 0.2 M triethanolamine, pH 12.Fractions containing the C-terminal
+of cARl (lanes 1 and 2). Treatment of cARl extracted from
+fragment were identified by SDS-PAGE, pooled,and dialyzed against 5
+m~ EDTA, 20 m~ Tris, pH 8.0. The immunoaffinity matrix quantita- basal andCAMP-stimulated cells (referred toas CAR1--p and
+tively removed the C-terminal fragment from the extract and yields cARl+-p)
+with alkaline phosphatase resulted in the loss of
+were typically 50-90%.
+32Pifrom both forms (lanes 3 and 4 ) . Unlabeled CAR1 samples
+Electrophoresis-Unlessspecified otherwise, SDS-PAGE was perreceived the same treatments and their
+electrophoretic mobiliformed accordingto Laemmli (22). Some receptor digests were analyzed
+ties wereanalyzed by immunoblotting (Fig. 2 B ) . Following
+by"low molecular weight" SDS-PAGEon 18% gels as previously dewith
+scribed (23). In contrast to standard gels, the separating gels of these in vitro dephosphorylation, c A R 1 + d P comigrated
+have a pH of 9.3 and contain 10% glyceroland a acrylamidelbis-acryl- cAFt1"p
+while dephosphorylation of cAR1-dp did not alter
+amide ratio of 200:l.
+its mobility.
+Cleavage by N-Chlorosuccinimide (NCS)-Wild-type
+and mutant
+to phosWe next subjected CAR^--^ and cAFtl+-p
+cARl were excised from gels and treated with NCS as previously described (24). The treated gel pieces were briefly washed, dried, and phoamino acid analysis in order to identify the amino acids
+contained predomiinserted into the wells of a second gel. NCS
+treatment of Lys-C digestion modified. As shown in Fig. 2C, C A R L cAR1,mp contained a trace
+products was performed by lyophilizing and reconstituting them in 50% nantly phosphoserinewhile
+acetic acid containing 5 mg/ml NCS. Following a 30-min incubation, amount of phosphothreonine in addition to phosphoserine. No
+samples were concentrated and acetic acidremoved by evaporation phosphotyrosine was detected in either form. Nearly all of the
+prior to SDS-PAGE.
+5-fold increaseinphosphate
+incorporationinduced by the
+Endoproteinase Lys-CDigestion-The affinity-purified C-terminal
+stimulus
+occurred
+on
+serine
+residues.
+Taken together, these
+fragment was digested with endoproteinase Lys-C (Boehringer Mannobserved transition inelectrophoheim; 100-200 ng addeal00 pl sample) a t 37 "C forthe indicated times. results demonstrate that the
+retic mobility of cARl is a direct result of stimulus-induced
+Alternatively, wild-type and mutant forms of intact cARl from transformants were excised from gels.
+The rehydrated gel pieces were mixed addition of phosphates to serine residues.
+overnight with 2 volumes of 30 m~ Tris-HC1, pH8.0,7.5 m~ EDTA, and
+Localization of the Major Site of Basal and Ligand-induced
+0.075% SDS containing 1pdml Lys-C. The eluates, typically containing
+Phosphorylation-According to the proposed topological model
+70% of the total radioactivity, were lyophilized and reconstituted in
+of cARl (4), there are 20 cytoplasmically disposed serine resisample buffer for electrophoresis.
+Quantitation of Mutant Receptor Phosphorylation-In order to quan- dues; 2 are within the loop which joins the fifth and sixth
+18 are in the
+titate the amount of c A R l on immunoblots, a standard curve relating transmembrane segments, and the remaining
+cAR1-bound lZ5Iand the amount of CAR1 protein was constructed as C-terminal cytoplasmic domain. Tao and Klein (25) proposed
+sample were that a 23-kDa phosphopeptide, generated by chymotrypsin
+follows. Increasing amounts of a single 32P-labeledwt+subjected to standard SDS-PAGE and electrophoreticallytransferred to treatment of cells, represents the C-terminal half
+of cARl and
+a polyvinylidene difluoridemembrane (Millipore). The membrane was
+then probed with C terminus-specificantiserum followed by lZSI-protein contains these 20 serines. Using controlled proteolysis, we obA. Using an autoradiographic image as a guide, each region of the tained evidence that the sitesof phosphorylation are localized
+membrane containing CAR1was excised, and theassociated 32Pand lZsI to the large C-terminal domain. Membranes containing 32Piwere quantitated by Cerenkov and gamma counting. Background ra- labeled cAR1+dp were digested with increasing amounts of
+dioactivities were subtracted, and lZImeasurements were corrected for trypsin (Fig. 3A). At concentrations above 1&ml, the proteo32Pwhich could be detected by gamma counting. The amount of cARl lytic treatment released a soluble phosphorylated polypeptide
+was taken as the measured 32Pcountdmin (i.e. the amount of the cARl
+7 and 8).Over 90% of the cARl present in the
+protein bound to the polyvinylidene difluoride membrane is propor- of 19 kDa (lanes
+tional to the -1-associated 32P measured). The relationship between membranes could be digested, and 2535% of the released radioactivity appeared in the19-kDa fragment. Thispolypeptide
+1251 and 32P (themeasure of cARl protein) was nearly linear.
+cm2, and cm13, labeledwith 32Pin parallel with was effectively immunoprecipitated with a C terminus-specific
+Samples of wtdP,
+the
+sample, weresubjected to this analysis. C A R 1 protein, antiserum (Fig. 3 A ) . When the tryptic fragments
+released from
+expressed in arbitrary units, was determined for these samples from
+CAR^--^
+and cAR1+dp were compared(Fig. 3B, lanes 1 and
+their measured lz6I using the standard curve. The lZ5Imeasurements
+used fell within the range of the standard curve. The C terminus- 3), the stimulus was observed to induce a slight increase in
+specific antiserum used would be expected to recognizethese receptors apparent molecular weight and a 3-5-fold increase in phosequally well since the epitope does not includeserine clusters 1,2, or 3. phate incorporation similar to whatis observed for the intact
+wt+-
+
+Phosphorylation
+Sites
+
+Dictyostelium
+in a
+
+C
+
+CAMP Receptor
+
+7039
+
+localize the
+phosphorylated
+residues,
+wr
+digested
+cARl
+samples with endoproteinase Lvs-C which clraves specifically
+-CAMP
++CAMP
+at lysine residues. A complete digcstion with this enzyme
+is
+expected to yield only threr serine-containing peptides from the
+C-terminal cytoplasmic domain a 17-residue prptidr (Asn"'"W
+S
+Lys'"))containingserinecluster1,a62-residuepeptide
+T
+/
+3 . and a
+(Thr?"-Lys:"' ) which includes both clusters 2 and
+1 2 3 4
+cluster4-containing,20-residueprptidr
+(Gln~"7:'-Asn:""I d r rived from the C terminus(sre Fig. 1 ). T h r :"P,-lahelrd tryptic
+fragmentsfromCAR~.~A>,I>andcARl+c,,slr.wcrrcompletcly
+digested with Lys-C (Fig. 3 3 ) . The CAR1 r,,sfl. samplr yielded
+a n 11-kDa fragment (Ianc. 2,. and the cARl*,.,,Mr.samplr gave
+FIG.2. I n vitro dephosphorylation of receptorsand phon- rise to a 1O-kI)a fragmrnt and a dyr-front frapnrnt clanr 4 1.
+phoamino acid analysis. A 'T,-laheled cAR1.,,MI. (odd lanes1 and
+Identical results were obtained when the tryptic fragments
+of
+cARl,,AMI.( F L W I n n v s ~from developed AX3 cells were treated with
+alkaline phosphatase as descrihed under "Materials and Methods." Wt-,I\.MI' and wt+cAs,lp werv suhjectedto complete Lys-C digesSamples were incuhated without ( l a n e s I and 2 I or with phosphatase tion (lanes 6 and R j.
+(lanes 3 and 4 ) and suhjected to SDS-PAGE followrd by autoradiomaIn order to identifv thrLys-C f r a p n e n t s . we carrfully examphy. R , unlabeled samples were treated identically and analyzed by
+ined the time course of Lys-C digestion of the C-terminal dmimmunohlotting with cARl antiserum I l l 1. C . ~"2PP-laheled
+samples of
+41. 30 min of digcstion r/ane
+cAR1.,AM,, a n d cARl,,,,,.
+from A X 3 cells were analyzed for phos- main from cARl+cAxfIB (Fig. After
+phoamino acid composition a s descrihed under 'Materials and Meth- 4 ) . the domain was cleaved to thrre lahelcd fragments.
+a 16
+ods." S. 7'. and Y mark t h e positions of phosphoserine, phosphothreo- kDa band containing ahout half
+of t h r radioactivity. a minor 10
+nine, and phosphotyrosine standards.
+kDa band, and a fragment mipating at the dyr front containing the remainder of the radiolahrl. A small amount of apparreceptor. The solubility and large apparent molecular weight
+of ently undigested C-terminal domain
+also rrmainrd. With Inthese fragments suggest that proteolysis occurred in the cyto- creasing time of incubation. radiolahrl was padually lost frnm
+plasmic domain at a site near the membrane, possibly
+at any of t h e 16 kDa hand and quantitativrly nppearrd
+in thr 10-kDa
+293 (Fig. 1). Cleav- fragment (lanes .5-7). There was no furthrr increasr
+in t h r
+4 lysine residues between positions 287 and
+age at a n y of these sites would be expected to yielda 15-kDa amount of radiolabel a t t h rdye front. Since multiple additions
+of Lys-C over 6 h gave the same rrsult as a single addition
+fragment.
+to (lanes 7 and R ), the digestion was prrsumahly complete. (ImlsFor the studyof plasmid-encoded cARl mutants, we chose
+express these and the wild-type receptor under the control
+of a n sion of Lys-C demonstrated that proteolysis was not dur to
+little endog- instability of the receptor preparation ( l a n e - 7 1 . T h e 16-kDa
+actin promotor in growth stage cells which express
+is re- intermediate was immunoprc~cipihtedhy t h r C terminus-sprenous cAR1. The plasmid-encodedwild-typereceptor
+ferred to as wt. We previously reported that wt exhibits basal cific antiserum, whereas the dyr-front frapnrnt and thr 10and CAMP-stimulated phosphorylation and a n electrophoretic kDa peptide failed to he immunoprecipitated 1 not shown I.
+mobility shift which are indistinguishable from those
+of endogOur interpretation of these data is a s follows. First, cleavage
+enous cARl (14). As shown in
+Fig. 3 8 ( f a n e s 5 and 7). t h e at Lys""' occurs producing the small cluster I-containing prpradioactive
+tryptic
+fragments
+derived
+from
+wt_,AMI> and tide which migrates at the dye front and the 16-kDa intermrW t + , A M p also could notbedistinguishedfromthosederived
+diate which contains clusters 2, 3. and 4 and the C terminus.
+from cAR1.
+Subsequent cleavageof the 16-kDa prptidr atI , ~ s . ' " ~yirlds the
+10-kDa fragment conhining clusters 2 and
+Based on the trypsin proteolysis results, we predicted that
+3 and the small
+all of theincorporatedradioactivitywouldbepresenton
+a cluster 4-containing peptide. The lattrris probably not lahrlrd
+single NCS cleavage productof 127 residues since thereis only since the radioactivity is quantitativrly convertcd from thr 161 tryptophan in the C-terminal domain (Trp2'"', see Fig. 1). A s to t h r 10-kDa fragment, and there are no immunoprecipitablc
+,..3LP-labeled products in the complrtr digest. Thus, thc. small
+shown in Fig. 3C. the major phosphopeptide generated upon
+NCS cleavage of W t + , A M I > has an apparent sizeof 27 kDa. The cARl+,A~r~-derivrd fragmrnt migrating at thr dye front. kntnsame treatment of Wt-,A.MI' yielded a less radioactive phospho- tively identified as containing clustcr 1. r r p r r s r n t s a major sit(.
+of stimulus-induced phosphorylation. Prrsumahly. thr 11 and
+3 C ) . These data
+peptide with a slightly faster mobility (Fig.
+suggest that the major NCS phosphopeptide is basally phosc,,xfIp and cAR1..As,I., rcsprctivrly.
+10 kDa bands from cARl
+a shift in
+phorylated and, like the intact receptor, undergoes
+2 and 3
+represent the same polypeptidr which contrrins clustrrs
+electrophoreticmobilityuponfurtherphosphorylationin
+re- and much of the basal phosphorylation. In addition. this polysponse to CAMP.
+peptide exhibits some cA.MP-drpendmt phosphorylation which
+Although these NCS fragments migrate more slowly than
+likelyaccounts for theohsrrvedclcctrophorct~cmohilityinexpected, several lines of evidence verify their C-terminal ori- crease.
+gin. First, they could
+he immunoprecipitated using C terminusLocalization of I'hnsphor$afion
+Sites t o Specific Scrlncspecific antiserum (not shown). Second, C-terminal truncation Clusters-To independentlyconfirmandrxtendourundcrof the receptor (mutant JK.5'65; refer to Fig. 1) resultedin
+standing of the distribution of phosphorylation. we c*xpressrd
+3C). mutant receptors in which various combinationsof s r r i n r clussmallerNCSphosphopeptides
+of 22 and 23 kDa (Fig.
+Third, when a tryptophan residue was inserted
+by site-directed
+ters wereeliminated by site-dirrctrd mutagrnrsis and anamutagenesis after His%'35 within the C-terminal domain
+in mu- lyzed these for their capacitirs
+tn undrrgo ligand-induced mndia fications.Asdemonstrated
+t a n t 335W336 (see Fig. 1). theNCStreatmentproduced
+by immunoblotting(Fig.
+5.4 I.
+smaller 17-kDa phosphopeptide, indicating that the
+novel NCS elimination of clusters 2, 3, or 4 in cm234 and cm3 rand cm2
+site had been introduced into the phosphorylated region (Fig.
+andcm4,notshown)doesnotimpairthecA.MP-dcprndrnt
+3 C ) . These observations support the view that both basal and transition in elrctrophorrtic mobility. Thus, nonrof the serinrs
+stimulated phosphorylation sites are primarily located in the
+of clusters 2. 3 , or 4 is necrssary for this property. In contrast.
+C-terminal domain.
+elimination of the cluster 1 serinrs in c m l . cm13. cm12.3. and
+Phosphopeptide Mapping-As an initial approach to further cm1234 results in rrcrptors which do not rxhihit thr typical
+
+A
+
+1
+
+2
+
+3
+
+4
+
+-
+
+Phosphorylation Sites in a Dictyostelium CAMP Receptor
+
+7040
+A 1 2 3 4
+
+C
+
+6 1 2 3 4 5 6 7 8
+
+5 6 7 8
+
+Wt
+
+JK365
+
+- + - +
+
+"
+
+-45
+
+- L
+
+rl) -21
+- 14.3
+
+I
+
+-12
+
+c
+
+11
+
+- 3.5
+
+I
+
+29 -
+
+a 0
+
+4
+
+20 -
+
+e
+
+IU
+
+14FIG.3. Localization of phosphorylation sites to the C-terminal domain.A, membranes prepared from 32P-labeled, developed AX3 cells
+containing cARl+-p were treatedfor 45 min with0.1 (lanes I and 5 ) , 1(lanes 2 and 6).10 (lanes 3 and 7), and 100
+(lanes 4 and8! pqml trypsin
+and subjected to centrifugation. The resulting pellets (lunes 1 4 ) and supernatants (lanes 5 6 ) were subjected immunopreapltatlon w t h C
+terminus-specific antiserumfollowed by SDS-PAGE and autoradiography.An arrow marks theposition ofintact cAR1. The higher molecular weight
+band is most likely aggregated cAR1. Labeled material near the dye front in lunes I 4 is presumed to be phospholipid. B, affinity-purified,
+(lunes 3 and 4 ) were prepared from developed AX3 cells.
+32P-labeled C-terminal domains derivedfrom cARldP (lanes I and 2) and cAR1,Similarly, those derivedfrom w
+t
+(lanes 5 and 6 ) and wt+-p (lanes 7 and 8 )were preparedfrom vegetative cAR1-expressing transformants.
+Samples inodd lanes received no further treatment; those in
+euen lanes were digested for 6 h withLys-C. C , NCS digestsof 32P-labeledwt",
+w t , ~ JK365-p,
+,
+JK365+cAMp,
+and 335W336,are shown analyzedby SDS-PAGE followed byautoradiography. Under theconditions used,
+NCS is known to yield incomplete digests (24)which probably accounts for many of the high molecular weight phosphopeptides present in the
+digests shown. This is strongly suggested by the JK365 digests inwhich their mobilities are systematically increased compared with those in
+wild-type digests. Similarly, the prominent 27 kDa band derived
+from 335W336 probably results from failed cleavage at thesite of the inserted
+tryptophan. In this and subsequent figures, molecular massesof standards areshown in m a .
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+4
+
+8
+
+wt
+cm13
+cm123
+cm3
+cml
+cm234
+cm1234
+"
+"
+"
+-
+
+- 45
+- 29
+
+- + - + - + - + - + - + - +
+
+A
+
+- 21
+- 14
+- 6.5
+
+- 3.5
+
+B
+
+D
+
+b I
+
+a
+4
+
+FIG.5. Electrophoretic behavior and phosphate labeling of
+serine cluster mutants.Samples were prepared from unstimulated
+(-) and CAMP-stimulated (+) 32Pi-labeledcells expressing wild-type or
+FIG.4. Time course of Lys-C digestion of the C-terminal d e mutated cARl as indicated, subjected to SDS-PAGE, and electrophoretically transferred to a nitrocellulose membrane. A , cARl immunomain. Affinity-purified, 32P-labeledC-terminal domainfrom cARlwas subjectedto Lys-C digestion followed by SDS-PAGE and autoradi- blot. The membrane wasprobed with cAR1-specific antiserum followed
+Corp.). Inthe example
+ography. Lune I , untreated; lane 2 . 6 h with sample buffer and Lys-C by chemiluminescentdetection(Amersham
+added; lune 3 , 6 h with no added enzyme; lanes 4-7,30 min, 60 min, 2 shown, cm3 shifted incompletely presumably due to inadequate expocomplete in other experiments not shown.
+B,
+h, and 6 h with
+Lys-C; lane 8.6 h with Lys-C added a t 0 h, 2 h, and 4 h.sure to CAMP its shift is
+cAR1-associated 32Pi.The nitrocellulose membrane shown in panel A
+d f , dye front.
+was subsequently rinsed in buffer containing azide to eliminate residual chemiluminescence and subjected to autoradiography to detect
+ligand-induced electrophoretic shift indicating that phospho- 32P.cm123, cm234, and cm1234 were analyzedin a separate experiment
+therefore, cannot be directly compared with the other samples
+rylation within cluster1underlies themajor transition in mo- and,
+shown. Arrowheads mark the positionsof wt-(filled)and wt+bility. A slight CAMP-induced decrease in mobility is evident in (unfilled). Note that mutants in which cluster 3 is deleted have incml andcm13, but notcm123 and cm1234. This may be dueto creased mobilities.
+
+CAMP-stimulated phosphorylation of cluster 2; however, we did
+not investigate this further.
+The mutant receptors deficient in 1 or more serine clusters
+were also analyzed for their abilities to undergo basal and
+cAMF"stimu1ated phosphorylation. Our observations,illustrated in Fig. 5B,are summarized as follows: (i) cm123 (and
+cm1234) does not incorporate detectable amounts of 32Pproviding further confirmation that the C-terminaldomain is the
+principal site of both basal andcAMP-stimulated phosphoryla-
+
+tion and indicating that neither
+of the 2 serines of cluster 4 is
+phosphorylated to a significant extent. (ii)cm234 exhibits only
+ligand-dependentphosphorylation, indicating that cluster 1
+contains a site (or sites) for stimulated, but not basal, phosphorylation. (iii)cm13, which has only clusters 2 and 4, exhibits
+both basal and ligand-stimulatedphosphorylation. Since cluster 4 does not appear to undergo phosphorylation, this indicates that cluster
+2 contains sitesfor both basal and stimulated
+
+Phosphorylation
+Sites
+
+in a Dictyosteliurn CAMP Receptor
+
+7041
+
+nation that roughly four phosphates are added in response to
+ligand (12).
+are
+The extentsof phosphorylation of UTt-mp and cm2.-p
+nearly equal, suggesting that cluster
+2 accounts for only a
+minorfraction of basal phosphorylation. The low extent of
+phosphorylation of ~ m l 3 - - ~ suggests thatmuch of the basal
+phosphorylation resides within cluster 3. The brief labeling
+conditions employed may underestimate the amount of basal
+phosphorylation since it requires the turnover of cAR1-bound
+phosphate.
+Analysis of the Serine Cluster Mutants by PeptideMapping-In order to confirm the proposed identities of the Lys-C
+phosphopeptides, the 32P-labeled serine cluster mutants were
+digested with Lys-C and analyzed bySDS-PAGE. For these
++CAMP
+-CAMP
+Difference
+experiments, intact receptors, rather than C-terminal tryptic
+FIG.6. Quantitationofmutantreceptorphosphorylation.
+fragments, were digested with Lys-C, and the products were
+cAFl1-associated 32Pand -1
+protein were quantitated as described
+analyzed using a n electrophoretic system designed to resolve
+under “Materials and Methods” for wild-type and selected mutant recomparison of the standard
+ceptors. For each sample, relative specific radioactivity was calculated low molecular weight peptides. For
+and
+as the ratio of CAR1 32Pand cARl protein and normalized to that of and low molecular weight gel systems, digests of wt--P
+wt+-p.
+Two determinations made for each sample (indicated by brackwt+cAMpwere resolved by each. The 11- and 10-kDa peptides
+ets) were averaged. The differences between unstimulated and CAMP- seen previously, believed to contain clusters 2 and 3, appear as
+stimulated values obtained for each receptor type are also shown and
+large phosphopeptides ranging in apparentsize from roughly 6
+reflect the ligand-dependent component of phosphorylation.
+to 15 kDa on the standard gel (Fig. 7A, left). The material
+running with the tracking dye, believed to contain cluster 1,
+digest. When the low
+phosphorylation. (iv) Substitution of cluster 2 (mutant cm2) again was only present in the wt+-p
+fails to eliminate basal phosphorylation indicating that it oc- molecular weight system was used (Fig. 7A, right), all of the
+phosphorylated
+species
+had
+higher
+apparent
+molecular
+curs on sites outside of cluster 2 (not shown). Sites within
+with the trackingdye
+cluster 3 likely account for this basalphosphorylation since, as weights, and the material that migrated
+on standard gels was resolved into severaldiscrete species with
+discussed above, cm234 and cm123 argue that sites within
+apparent sizes of -4 kDa and below.
+clusters 1 and 4, respectively, are not basally phosphorylated.
+When digests of mutants were analyzed, several observa(v) cm124 exhibits basal phosphorylation butlittle, if any,
+encompass bothclusters
+CAMP-stimulated phosphorylation (not shown). This result and tions verified that the large fragments
+between
+analysis of a Lys-C digest of cm2 (see below) suggest thatphos- 2 and 3. First, when a tryptophan residue was inserted
+phorylation of cluster 3 is largely basal. Thisis consistent with clusters 2 and 3, these Lys-C phosphopeptides were rendered
+the largeCAMP-stimulated increase inphosphorylation of cm3 susceptible to cleavage by NCS (Fig. 7B 1. Second, these species
+are absentfrom Lys-C digests of cm234 which lacks both clus(Fig. 5B).
+Quantitation of the Extent of Phosphorylation of Serine ters 2 and 3 (Fig. 7C). Third, as noted previously and demonClusters-Since clusters 1, 2, and 3 appeared to account for strated in Fig. 7, the large Lys-C phosphopeptides from wt
+most of the CAR1 phosphorylation, we decided to compare the exhibit an increase in32Piincorporation and a slight increase
+extents of phosphorylation of wt, cm2, and cm13. 32P-Labeled in electrophoretic mobility upon stimulation with CAMP.Those
+wild-type and mutant receptors,derived from CAMP-stimu- peptides derived from cm2, however, exhibit neither of these
+lated or unstimulatedcells, were immunoblotted, permitting a properties (Fig. 7 0 . This observation alsoconfirms that cluster
+quantitative measurementof phosphorylation as described un- 3 is not a major site of cAMP-stimulatedphosphorylation.
+der “Materials and Methods.” The ratioof cARl-associated 32P Lastly, the largeLys-C phosphopeptides derived from cm13 are
+to CAR1 protein was determined for each sample, and these
+smaller as would be expected due to the deletion of cluster 3
+as depicted in Fig. 6. (Fig. 7 0 .
+ratios werenormalized to thatof wt+-p
+cm2,,and ~ m l 3 + - ~yielded values of 0.64 and 0.32, reThe small Lys-C phosphopeptides were confirmed to contain
+spectively, consistent with their having reduced amounts of cluster 1 since these were absent from digests of cml+-p
+Significantly, the sum which lacks cluster 1(Fig. 7C). (The origin of the minor -4.4phosphorylation comparedwith wt+-p.
+of these values is approximately 1. This is consistent with the kDa species in this digest is unknown.) Conversely, the collecsupposition that clusters 1,2, and 3 account for the large ma- tion of small phosphopeptides was unalteredby the elimination
+jority of phosphorylation. It also suggests that the clusters are of clusters 2,3, and4 in cm234 (Fig. 7 0 . The heterogeneity of
+phosphorylated independently of one another.
+this cluster1-containing peptide may reflect different patterns
+The values determined
+for CAMP-stimulated samples reflect of phosphorylation or alternative cleavage products resulting
+the sum of both basal and CAMP-dependent incorporation of from the utilization of different sites by Lys-C among the 4
+32P. The ligand-dependent component of phosphorylation (i.e. closely spaced lysineresidues at its N-terminal end (see
+Fig. 1).
+the difference between stimulated and basal values) for each
+DISCUSSION
+mutant is shown in Fig. 6. These values indicate thatroughly
+one-third of ligand-dependent phosphorylation is found within
+Stimulation of cells with CAMPtriggers anincrease in phoscluster 2 and that the remainingtwo-thirds of ligand-depend- phorylation and a decrease in the electrophoretic mobility of
+ent phosphorylation occur in clusters 1 and/or 3. Since cluster cAR1. The kinetics and dose dependence of these two processes
+3 appears not to be a target of ligand-dependent phosphoryla- are similar. Treatment of CARl+-p
+with alkaline phosphatase
+tion, two-thirds of ligand-dependent phosphorylationmost
+resulted in the removal of phosphate and a consequent delikely occur within cluster 1. These values could be accommo- crease in apparentsize so that it comigrated with CAR^-,-^,
+dated if, upon binding CAMP, cARl is phosphorylated on 2 demonstrating the electrophoretic mobility shift produced in
+serines in cluster 1and 1serine in cluster2. This supposition vivo upon stimulation is a direct result of phosphate addition.
+agrees reasonably well with our previously reported determi- We have previously shown that once the transition from 40 to
+
+A
+
+CAMP Receptor
+
+Phosphorylation
+Dictyostelium
+a in
+Sites
+
+7042
+standard
+
++
+
+B
+
+LMW
+
+- +
+
+CAMP:
+NCS:
+
+- - + +
+- + - +
+
+43 -
+
+29
+
+-
+
+18 14
+
+-
+
+,m
+
+6.2 -
+
+Electrophoretic
+
+Mobility Shift
+
+3.0 -
+
+C
+
+wt
+
+- 4-
+
+cml
+
+cm234
+
+- +
+
+7
+
+Induced
+
+cm2
+
+- + - +
+
+\
+
+wt
+
+cm13
+
+Cluster
+
+394
+331
+
+I
+
+/
+FIG.7. Lys-C phosphopeptides derived from wild-type and mutant forms of cAR1. "P-Labeled receptors purified from unstimulated
+(-) and CAMP-stimulated (+) cells were digested with Lys-C. Unless
+specified otherwise, the resulting phosphopeptides were subjected to
+low molecular weight SDS-PAGE followed by autoradiography. A, digests of wtdP
+and wt,-p
+were analyzed by standard SDS-PAGE
+( l e f t )and low molecular weight SDS-PAGE (right).B, Lys-C digests of
+335W336 are shownwith or without subsequent NCS treatment as
+indicated. C , Lys-C digests of wild-type cAR1, cm234, cml, cm2, and
+cm13 are shown. At the right,only cAMP-stimulated samplesof wt and
+cm13 are shown.
+43 kDa has occurred, this form can acquire additional phosphates without a further increase in apparentmolecular mass
+(11).Thus, not all of these phosphates are required
+to produce
+the apparent size change.
+The hydrophilic C-terminal domain of cAR1 was revealed as
+the major site of both basal and ligand-induced phosphorylation. Upon trypsinization of membranes isolated from unstimulated and stimulatedcells labeled in vivo with 32Pi,soluble 18and 19-kDa phosphopeptides were released which could be immunoprecipitated with a cARl C terminus-specific antiserum.
+Their large size, solubility, and immunoreactivity suggest that
+these polypeptides represent much of the C-terminalcytoplasmic domain as defined in the topological model of cARl (4).
+Consistent with this was the finding that the radiolabel appeared in a large NCS fragment which was made smaller by
+C-terminal truncation of cARl or insertion of a novel NCS
+cleavage site within the C-terminal domain.
+The 18 serines in the C-terminal domain are organized in
+four clusters as illustrated in Fig. 1. To determine how the
+multiple sites of phosphorylation are distributed among these
+four clusters, we took two independent approaches. The first
+was a proteolytic analysis in which the trypsin-released do-
+
+360
+361
+362
+363
+364
+
+A 3:;
+
+368
+
+Cluster 4
+
+383
+
+385
+
+FIG.8. Model of C A R 1 phosphorylation. Serines of the C-terminal
+domain, numbered relative to the N-terminal methionine, and their
+assignments to one of four clusters are indicated. The model of CAR1
+phosphorylation described in the text is depicted to the left of the Cterminal domain. The relative distributionof ligand-induced and basal
+phosphorylation is roughly indicated by arrow width. The electrophoretic mobility shift results from ligand-induced phosphorylation within
+cluster 1.
+
+main was furtherdigested with Lys-C. Characterization of the
+phosphopeptide products strongly suggested
+that serine cluster
+1was only phosphorylated in response to ligand and thatcluster 2 andor cluster 3 contained the sitesof basal phosphorylation and some ligand-induced phosphorylation. The second approach, which verified and extended these conclusions, utilized
+site-directed mutants in which serine clusters invarious combinations were eliminated. These were examinedfor their ability to be phosphorylated and undergo the ligand-induced electrophoretic mobility shift.
+In
+addition, the
+extents
+of
+phosphorylation of selected mutants were quantitated. Taken
+together, our findings are consistentwith the model depicted in
+Fig. 8. Serine cluster1 contains only stimulus-dependent sites,
+including that required for the ligand-induced electrophoretic
+mobility shift. Cluster 2 contains basal and stimulus-dependent sites. The stimulusinduces the addition of approximately
+two phosphates to cluster 1 and one to cluster 2. Basal phos-
+
+Phosphorylation
+in
+Sites
+
+a Dictyostelium CAMPReceptor
+
+7043
+
+phorylation occurs predominately in cluster 3 and to a lesser enylyl cyclase gene.3 We previously demonstrated a cARl phosphorylating activity in the CHAPS-insoluble fraction of cells
+extent in cluster2.
+Serine cluster 1 has the attributes of a regulatory region. which was enhanced by pretreatment of cells with cAMP (37).
+This cluster, among the four, undergoes the most dramatic More recently, Meier and Klein (38)reported a CAMP receptor
+which could
+change in response to stimulation, having no basal sites and kinase activity in plasma membrane preparations
+clus- be stimulated by cAMP in uitro. The cARl kinase is evidently
+acquiring perhapstwo modifications. Two of the serines in
+ter 1, SerZg9 and Sego4, are
+conserved in all four C A R S (7, €9.' expressed in both growing and aggregation stage cells since the
+We have previously reported that cAR2 and cAR3 also exhibit phosphorylation of overexpressed cARl in growing cells is inCAMP-induced phosphorylation (7). It is possible that the con- distinguishable from that in developed cells. The same kinase
+may also phosphorylatecAR2, c A R 3 , and cAR4; the highly conserved serines of cluster 1 are phosphorylated and mediate
+similar functions in all of the C A R S . The importanceof cluster served intracellular loops of the four C A R S (7, SI2 might facilitate theirrecognition by a single kinase. Our new understand2 cannot be dismissed. Two of the serines in this cluster are
+ing of the distribution of CAMP-induced phosphorylation sites
+conserved in cAR2 and could mediate properties specific to
+of CAR1should allow us todevelop a n accurate in uitro assay for
+these two receptor subtypes.
+the CARkinase utilizing appropriate synthetic peptides.
+The ligand-induced electrophoretic mobility shift caused by
+In the models put forth to explain uncoupling in the mamphosphorylation within cluster 1 possibly reflects an ionic in- malian systems, auxiliary proteinsof the arrestin family bind
+teraction, which persistsduring electrophoresis,between a to the phosphorylated receptors and interfere with functional
+phosphoserine in cluster 1 and an adjacentbasic residue. The interaction between the ligand-activated receptor and targetG
+residues involved might be Se3O4 and A r $ O 5 . In cAR2 which proteins (reviewed in Ref. 1). These events essentially neutralalso exhibits a ligand-induced mobility shift (261, Sego3(which ize the excited receptor, allowing the G protein to return to its
+corresponds to Se1304in CAR1)is flanked on either side by basic basal state. In contrast, evidence suggests the mechanism of
+residues. In contrast, CAR3 does not undergo an apparent mo- adaptation differs in Dictyostelium. It appears that cARl sigbility shift and lacks a corresponding basic residue (7). It re- nals to downstream components which are the actual sites of
+mains to be determined whether the electrophoretic mobility adaptation. We and others have shown that GTP-yS, presumshift has a functional correlate in uiuo.
+ably acting independentlyof receptors, stimulates adenylyl cyIn a wide variety of G protein-linked receptor systems such clase activity in cell lysates. However, in lysates from adapted
+as those mediating vision and hormone action in vertebrates cells, GTP-yS can no longer stimulate theadenylyl cyclase (39,
+and pheromone sensing in yeast, desensitization phenomena
+40). This adaptationdoes not occur in carl- cells, demonstratprevent cells from continuously respondingto persistent stimu- ing that thereceptor is required for this process to occur (41).
+to express thephosphorylationWe are currently attempting
+lation. Processes which contribute to desensitization include
+deficient cARl mutantsdescribed here incarl- cells which will
+uncoupling of the signaling pathways, loss of ligand binding
+sites without receptor loss, and receptor degradation (reviewed enable us to determine the importance of cARl phosphorylain Ref. 1).All of these processes occur in Dictyostelium (27). The tion to adaptation and the developmental program. Our preprocess we havetermedadaptation,
+which reversibly un- liminary evidence indicates thatcarl- cells expressing cm1234
+couples cARl from several effectors including adenylyl cyclase, develop abnormally which presumably reflects the physiologiregulates the periodic waves of cAMP which direct thecells to cal importance of cARl phosphorylation. The collection of mumove to aggregation centers. Adaptationmay also enhance the tants described here will enable us to determine which of the
+capacity of these cells to senseshallow gradients of cAMP (28). serine clusters areresppnsible for the phenotype observed for
+be more
+In eachof these systems,evidence suggests thatligand-induced cm1234. Important sites within these clusters can
+precisely
+localized
+by
+substitution
+of
+the
+individual
+serines
+and
+phosphorylation of theC-terminal cytoplasmic domains or
+third intracellular loops of the receptor is involved in the de- their phosphorylation confirmed by Edman degradationof isosensitization (reviewed in Ref. l).These observations suggest a lated peptides.
+remarkable evolutionary
+conservation
+of this
+regulatory
+Acknowledgments-We thank Lijun Wu for critically reading the
+mechanism.
+manuscript and Charles Saxe and Michael Caterina for valuable disLigand-induced phosphorylation of G protein-linked recep- cussions. We also thank Candy DeBerry and Jaimie Flores-Riveros for
+tors is mediated by CAMP-dependent protein kinase in some helpful discussions concerning immunoaffinity chromatographyand
+phosphopeptide mapping. Peggy Ford providedexpert secretarial assisinstances and, more generally, by members of a recently de- tance.
+fined familyof receptor kinases. Thefamily includesrhodopsin
+REFERENCES
+kinase (29), two closely related P-adrenergic receptor kinases
+1. Dohlman, H. G., Thorner, J., Caron, M. G., and Lefkowitz, R. J. (1991)Annu.
+(Refs. 30, 31), and two homologues in Drosophila (32). The
+Reu. Biochern. 60,653-688
+receptor kinases appear to be activated when they bind to li2. Deweotes, P. (1989)Science 245, 1054-1058
+3. Firtel, R.A. (1991)ZFends Genet. 7,381-388
+gand-occupied receptors (33, 34). Synthetic peptides have imP. S., Sun, T. J., Saxe, C. L., Kimmel, A. R., Johnson, R. L., and
+plicated interactions between p-adrenergic receptorkinase and 4. Klein,
+Devreotes, P. N. (1988)Science 241, 1467-1472
+the first and third cytoplasmic loops of the p-adrenergic recep5. Saxe, C. L.,Johnson, R., Deweotes, P. N., andKimmel, A. R. (1991)Deu.
+tor (35).In addition to activating the kinase, these interactions Genet. 12,613
+6. Sun,T. J., and Devreotes, P. N.(1991)Genes & Deu. 5,572-582
+may serve to position it and, thereby, play a role in phospho7. Johnson, R. L., Saxe, C. L.,Gollop, R., Kimmel, A. R., and Devreotes, P. N.
+(1993)Genes & Deu. 7,273-282
+rylation site determination. Other studies with
+peptide sub8. Saxe, C. L., Ginsburg, G . T., Louis, J. M., Johnson, R., Devreotes, P. N., and
+strates suggest that
+both P-adrenergic receptorkinase andrhoKimmel, A. R.(1993)Genes & Deu. 7,262-272
+9. Dinauer, M. C., Steck, T. L., and Devreotes, P. N. (1980)J . Cell Biol. 86,
+dopsin kinase prefer to phosphorylate sites with nearby acidic
+554-561
+residues (36).
+10. Dinauer, M. C., Steck, T. L., and Devreotes, P. N. (1980)J. Cell Biol. 86,
+Presumably there is a p-adrenergic receptor kinase-like re545-553
+11. Vaughan, R. A., and Devreotes, P. N. (1988)J. Biol. Chem. 283,1453%14543
+ceptor kinase inDictyostelium. Protein kinaseA probably does 12.
+Klein, P., Vaughan, R., Borleis, J., and Devreotes, P. (1987)J. Biol. Chem.282,
+not phosphorylate cARl since it does not contain evident pro35-64
+tein kinase A target sequences, and the reaction is insensitive
+to inhibitors of CAMPsynthesis (12) and disruptionof the adD. Hereld and G . Pitt, unpublished observation
+
+7044
+
+PhosphorylationDictyostelium
+Sites
+a in CAMP
+
+13. Kunkel, T.A,, Roberts, J. D., and Zakour, R. A. (1987)Methods Enzymol. 164,
+367-383
+14. Johnson, R. L., Vaughan, R. A,, Caterina, M. J., Van Haastert, P. J. M., and
+Devreotes, P. N. (1991)Biochemistry SO, 69826986
+15. Pitt. G . S.. Milona, N.. Borleis, J., Lin,K. C.. Reed, R. R., and Devreotes, P. N.
+(1992)Cell 60,305315
+16. Dynes, J. L., and Firtel, R. A. (1989)Proc. Natl. Acad. Sci. U. S. A. 86,7966
+7970
+17. Demotes, P., Fontana, D., Klein, P., Schemng, J., and Theibert, A. (1987)
+Methods Cell Biol. 28, 299-331
+18. Klein, P., Knox, B., Borleis, J., and Devreotes, P. (1987)J. Biol. Chem. 262,
+352-357
+19. Klein, P., Fontana, D., Knox, B., Theibert, A,, and Devreotes, P. (1985)Cold
+Spring Harbor Symp. Quant. Biol. 60, 787-799
+20. Boyle, W. J., Van der Geer, P., and Hunter, T.(1991)Methods Enzymol. 201,
+110-149
+21. Schneider, C., Newman, R. A,, Sutherland, D. R., Asser, U., and Greaves,M. F.
+(1982)J. Biol. Chem. 267, 1076€-10769
+22. Laemmli, U.K. (1970)Nature 227,680-685
+23. Hoefer Scientific Instruments 1992-1993 product catalog, pp. 131-132, San
+Francisco
+24. Lischwe, M. A,, and Ochs, D. (1982)
+And. Biochem. 127,453A57
+25. Tao, Y., and Klein, C. (1990)J. Biol. Chem. 266,15584-15589
+26. Johnson, R. L., Gundersen, R., Hereld, D., Pitt, G. S . , Tugendreich, S., Saxe, C.,
+Kimmel, A. R., and Devreotes, P. N. (1992)Cold Spring Harbor Symp.
+Quant. Biol. 67, 169-176
+27. Van Haastert, P. J . M., Wang, M., Bominaar, A. A,, Devreotes, P. N., and
+~~
+
+Receptor
+
+Schaap, P.(1992)Mol. Biol. Cell 3, 603-612
+28. Van Haastert, P. J. M. (1983)J. Cell Biol. 96, 1559-1565
+29. Lorenz, W., Inglese, J., Palczewski, K, Onorato, J. J., Caron, M. G., and
+Lefkowitz, R. J. (1991)Proc. Natl. Acad. Sci. U. S. A. 88,8715-3719
+30. Benovic, J. L., DeBlasi, A,, Stone, W. C., Caron, M. G., and Lefkowitz, R. J.
+(1989)Science 246,235-240
+31. Benovic, J. L., Onorato, J. J., Arriza,J. L., Stone, W. C., Lohse, M., Jenkins, N.
+A,, Gilbert, D. J., Copeland,N. G., Caron, M. G., and Lefkowitz, R. J. (1991)
+J. Biol. Chem. 266, 14939-14946
+32. Cassill, J. A., Whitney, M., Joazeiro, A. P., Becker, A., and Zuker, C. S . (1991)
+Proc. Natl. Acad. Sci. U. S . A. 88, 11067-11070
+33. Palczewski, K., Buczylko, J., Kaplan, M.W., Polans, A. S . , and Crabb, J. W.
+(1991)J. Biol. Chem. 266,1294%12955
+34. Chen, C.-Y., Dion, S . B., Kim, C. M., and Benovic, J. L. (1993)J. Biol. Chem.
+268,7825-7831
+35. Benovic, J. L.,Onorato, J., Lohse, M. J., Dohlman, H. G . , Staniszewski, C.,
+Caron, M. G., and Lekowitz,R. J. (1990)Br. J. Clin. Pharmacal. SO, 3s-12s
+36. Onorato, J.J.,Palczewski, K, Regan, J. W., Caron, M. G., Lefkowitz, R. J., and
+Benovic J. L. (1991)Biochemistry 30,5118-5125
+37. Klein, P., Theibert, A,, Fontana, D., and Devreotes, P. (1985)J . Biol. Chem.
+260, 1757-1764
+38. Meier, K., and Klein, C. (1988)Proc. Natl. Acad. Sci. U. S. A. 86,2181-2185
+39. Theibert, A., and Demotes, P. N.(1986)J. Biol. Chem. 261, 15121-15125
+40. Van Haastert, P. J. M., SnaarJagalska, B. E., and Janssens, P.M.W. (1987)
+Eul: J. Biochem. 162,251-258
+41. Pupillo, M., Insall, R., Pitt, G . S . , and Devreotes,P. N. (1992)Mol. Biol. Cell 9,
+1229-1234
+
+

@@ -1,0 +1,966 @@
+THE JOURNAL OF BIOLOGICAL CHEMISTRY
+
+Vol. 270, No.9, Issue of March 3, pp. 4418-4423, 1995
+Printed in U.S.A.
+
+© 1995 by The American Society for Biochemistry and Molecular Biology, Inc.
+
+Occupancy of the Dictyostelium cAMP Receptor, cARl,
+Induces a Reduction in Affinity Which Depends upon
+COOH-terminal Serine Residues*
+(Received for publication, May 5, 1994, and in revised form, November 28, 1994)
+
+Michael J. Caterina*, Dale Hereld§, and Peter N. Devreotesll
+From the Department of Biological Chemistry, The Johns Hopkins University School of Medicine,
+Baltimore, Maryland 21205
+
+Many G-protein-coupled receptors display a rapid decrease in ligand binding following pretreatment with
+agonist. cARl, a cAMP receptor expressed early in the
+developmental program of Dictyostelium, mediates chemotaxis, activation of adenylyl cyclase, and gene expression changes that bring about the aggregation of 105
+amoebae to form a multicellular structure. Occupancy
+of cARl by cAMP initiates multiple desensitization processes, one of which is an apparent reduction in binding
+sites. In transformed cells expressing cARl constitutively, Scatchard analyses revealed that this apparent
+loss of ligand binding is largely due to a significant
+reduction in the affinity of cARl for cAMP. A parallel
+increase in the dose dependence of cARl-mediated
+cAMP uptake was observed. Consistent with these findings, proteolysis of intact cells and immunofluorescence
+suggested that cARl remains on the cell-surface following cAMP treatment. Finally, agonist-induced loss of ligand binding is impaired in cARl mutants lacking a
+cluster of cytoplasmic serine residues, which are targets
+of cAMP-induced phosphorylation.
+Seven-transmembrane domain, G-protein1-coupled receptors
+constitute a diverse molecular superfamily with representatives in many eukaryotic species. In mammals, these receptors
+regulate processes ranging from chemotaxis to synaptic signaling and vasoconstriction. Their ligands likewise range from
+glycoproteins to biogenic amines and lipid molecules (reviewed
+in Ref. 1).
+Despite this heterogeneity of function and ligand structure,
+occupancy of these receptors elicits an apparently conserved
+series of activation and desensitization processes. Initially, occupancy causes the activation of receptor-associated G-proteins, which, in turn, stimulate such effectors as adenylyl cyclase, phospholipase C, and ion channels (reviewed in Ref. 2).
+Simultaneously, at least two different desensitization events,
+adaptation and "loss" of ligand binding, are observed. While
+
+* This work was supported by National Institutes of Health Grant
+GM 34933 (to P. N. D,). The costs of publication of this article were
+defrayed in part by the payment of page charges. This article must
+therefore be hereby marked "advertisement" in accordance with 18
+U.S.C. Section 1734 solely to indicate this fact.
+Supported by a Medical Scientist Training Grant from the National
+Institutes of Health.
+§ Supported by a fellowship from the Damon Runyon-Walter
+Winchell Cancer Research Fund.
+~ To whom all correspondence should be addressed: Department of
+Biological Chemistry, The Johns Hopkins University School of Medicine, 725 N. Wolfe St., Baltimore, MD 21205.
+1 The abbreviations used are: G-protein, guanine nucleotide-binding
+regulatory protein; cARl, cAMP receptor; CHAPS, 3-[(3-cholamidopropyl)dimethylammonioJ-1-propanesulfonic acid; PAGE, polyacrylamide
+gel electrophoresis; PBS, phosphate-buffered saline.
+
+*
+
+most studies of these processes focused on the f3-adrenergic
+receptor (reviewed in Ref. 3), similar observations have been
+made for other G-protein-coupled receptors. Adaptation, a
+rapid reduction in agonist-induced effector activation, has been
+attributed to the uncoupling of receptor from G-protein. This
+uncoupling is proposed to result from agonist-induced receptor
+phosphorylation and the subsequent association of arrestin,
+which appears to obstruct further receptor-G-protein interaction. The second agonist-induced desensitization process is a
+rapid reduction in the apparent number of surface binding
+sites. In some instances, this loss of ligand binding, often referred to as sequestration, has been attributed to receptor
+endocytosis.
+Dictyostelium utilizes a family offour cell-surface G-proteincoupled cAMP receptors (cARs) to mediate a transition from a
+unicellular amoeboid phase to a multicellular sporogenous
+phase upon nutrient depletion. One of these, cARl, is expressed
+shortly after the initiation of starvation and is required for
+aggregation (5-7,47). cARl occupancy has three consequences:
+(i) chemotaxis of cells toward the source of cAMP, (ii) altered
+gene expression, and (iii) synthesis and secretion of more
+cAMP, which serves to propagate the signal outwardly from
+aggregation centers (reviewed in Ref. 4). Like other G-proteincoupled receptors, cARl exhibits multiple responses to cAMP
+binding including adenylyl cyclase activation (8), cARl phosphorylation (which is correlated with adenylyl cyclase adaptation) (9-11), and loss of cAMP binding (12, 13).
+.
+Constitutively expressed cARl undergoes phosphorylation
+(14, 15) and a ligand-induced reduction of ligand binding (14,
+16) in the growth stage when the endogenous receptor gene is
+not expressed. This property has been exploited for the study of
+cARl mutants resulting in the identification of the major sites
+of cAMP-stimulated cARl phosphorylation (15). In the present
+study, we used this system to examine the mechanism of
+cAMP-induced loss of ligand binding. Our findings lead us to
+conclude that, following cAMP pretreatment, growth-stage
+cells overexpressing cARl exhibit reduced binding, not because
+of receptor internalization, but because of a reduction in the
+affinity of cARl for cAMP. We also demonstrate that this transition is defective in cARl mutants that lack targets of ligandstimulated phosphorylation, suggesting a possible link between these processes.
+MATERIALS AND METHODS
+
+Cells and Cell Culture-AX-3 cells were grown in shaking culture in
+
+HL-5 (17). Transformed cell cultures were supplemented with G418 (20
+",g/ml, Sigma). Cells maintained on Petri dishes were grown in suspension for at least 2 days prior to each experiment. Harvested cells were
+washed once in PB (5 mM NazHPO., 5 mM KHzPO., pH 6.1), and
+resuspended in ice-cold PB. Development in shaking culture with 50 nM
+cAMP pulses was initiated as described (18).
+Plasmids-Met' and Glyz of cARl were replaced with a human c-Myc
+epitope (19), MAEEQKLISEEDL, by polymerase chain reaction. The
+
+4418
+
+This is an Open Access article under the CC BY license.
+
+cARl Affinity Transition
+final nucleotideotide sequence was as follows: 5'GATCCAAAATAAA
+ATG GCT GAA GAA CAA AAA TTA ATT TCA GAA GAT CTT ... 3',
+where the last codon originates from codon 3 in the cARl cDNA (5). The
+resulting 1.3-kilobase pair fragment was subcloned into the BglII site of
+pBS18 (5) to yield pMC8. pMC36 (16) was used to express wild-type
+cARl. Both plasmids were electroporated into growth-stage Dictyostelium cells and transformants selected using G418 as described (20).
+Loss of Ligand Binding and [lHlcAMP Binding Assays-Washed
+cells were resuspended to 108 /ml in PB and [3HlcAMP binding measured using either a sedimentation assay (21) or a silicone oil assay (22),
+as indicated in the figure legends. Unless otherwise indicated, loss of
+ligand binding was induced with 10- 5 McAMP in the presence of 10 mM
+dithiothreitol (to inhibit endogenous phosphodiesterase; Ref. 23) and
+measured as described previously (16). Also unless otherwise indicated,
+a subsaturating cAMP concentration of 10 nM was used in the loss of
+binding experiments in order to allow a sensitive detection of binding
+affinity changes. For the concentration dependence experiment and for
+the experiment involving developed cells, 5 mM caffeine was included in
+the incubation to prevent the production of endogenous cAMP (24). For
+the analysis of cAMP binding parameters, [3HlcAMP binding at concentrations ranging from 10- 9 Mto 2 X 10- 6 Mwas measured using the
+silicone oil assay and analyzed using the program LIGAND (48).
+[lHlcAMP Uptake-Uptake of radiolabeled cAMP was measured as
+described previously (16). Washed cells (2 X 107) were shaken 15 min at
+22°C in 300 ILl of PB containing 1 nM or 10 nM [3HlcAMP, 10 mM
+dithiothreitol, and unlabeled cAMP (0-2000 nM). Nonspecific uptake
+was measured in the presence of 10- 4 M unlabeled cAMP. Uptake was
+halted by the addition of2 ml of ice-cold PB containing 10- 4 Munlabeled
+cAMP, centrifugation (4 min, 2000 rpm, 80rvall H8-4 rotor), and three
+3-ml washes with PB. Such extensive washing has been shown to
+remove all receptor-associated cAMP (25). Pellets were solubilized in
+200 ILl of 0.1 M formic acid, 4 ml of scintillation fluid was added, and
+radioactivity assessed. In control experiments, cells lacking cARl (16)
+showed virtually no cAMP uptake, even at the highest concentrations.
+Cell Surface Trypsinization-Washed cells at 3 x 107/m l were
+shaken for 5 min at 0 °C. L-1-Tosylamido-2-phenylethyl chloromethyl
+ketone-treated trypsin (50 ILg/ml, Worthington) was added for 0-15
+min, followed by the addition of soybean trypsin inhibitor (100 ILg/ml,
+Worthington) and two washes with 10 volumes of ice-cold PB containing
+1 mglml bovine serum albumin (4 min, 2000 rpm, Sorvall 8834 rotor).
+Pellets were washed once in 5 ml ofERB containing 1.5% CHAPS (15),
+once in ERB, and resuspended to 108 /ml in sample buffer (26). Control
+experiments indicated that all detectable tryptic activity was removed
+during the washes.
+Generation of a Myc-speci/ic Polyclonal Antiserum-The human cMyc peptide (AEEQKLISEEDLLRKRREQLKHKLEQLRNSCA, Oncogene Science) was coupled to keyhole limpet hemocyanin as described
+(27), and injected subcutaneously into a rabbit. High-titer serum was
+obtained within six weeks of the initial injection.
+Immunoblotting-Whole cells or the CHAPS-insoluble fraction, solubilized in sample buffer (26), were subjected to electrophoresis on 10%
+low-bis polyacrylamide gels (28), electrotransferred to polyvinylidene
+difluoride membranes (Millipore), blocked with 3% bovine serum albumin, and incubated as described (28) with cARl COOH terminusspecific antiserum (15) or anti-c-Myc (1:1000). Proteins were detected
+using alkaline phosphatase conjugated to donkey anti-rabbit-IgG antibodies (Sigma) and chemiluminescence. Quantitation of scans was performed using a digitizing scanner (Logitech) and Sigmascan Image
+software (Jande!).
+Immunofluorescence-Washed cells (5 X 107/m!) were rapidly fixed
+in suspension with methanol, 1% formaldehyde (-10°C, 15 min). Fixed
+cells were then pelleted (2000 rpm, 4 min, IEC rotor), washed four times
+with phosphate-buffered saline (PBS, 8 mM NaH2 P0 4 , 2 mM K,HP0 4 ,
+0.8% NaCI, pH 7.4), incubated in PBS containing cARl antiserum
+(1:1000,60 min; Ref. 29), washed four times in PBS, incubated 60 min
+in goat anti-rabbit fluorescein-isothiocyanate-conjugated antibodies
+(Cappel, Durham, NC), washed four times with PBS, and mounted on
+glass slides with mounting medium (PBS containing 90% glycerol and
+1 mg/ml phenylenediamine, pH 8.5). Specimens were photographed
+using a Leitz Ortholux II fluorescence microscope. Antisera were preadsorbed with methanol-fixed vegetative AX-3 cells prior to use.
+
+RESULTS
+
+cAMP-induced Loss ofLigand Binding Is Time- and Concentration-dependent-We first characterized this process in
+growth-stage AX-3 cells expressing high levels 0-5 x 10 5 sites/
+cell) of exogenous cARl from a constitutive promotor. Cells
+
+4419
+
+A
+
+1m
+
+50
+
+0
+0>
+C
+
+'6
+c
+
+a
+
+as
+
+a
+
+5
+
+10
+
+15
+
+20
+
+25
+
+30
+
+Time (min)
+
+E
+c
+0
+
+U
++-
+
+c
+
+Ql
+
+lOa
+
+B
+
+~
+
+Ql
+
+a.
+
+50
+
+O+-r---+-----+---+--+--+---+------+
+a
+-9
+-8
+-7
+-6
+-5
+-4
+
+[cAMPI (log M)
+FIG. 1. Kinetics and concentration dependence of cAMP-induced loss of cAMP binding in cells overexpressing cARl. A,
+washed, growth-stage cells were incubated without (0 min) or with 10- 5
+M cAMP for 1-30 min in the presence of 10 mM dithiothreitol, washed
+extensively, and cAMP binding measured at 10 nM by centrifugation
+through silicone oil as described under "Materials and Methods." B,
+washed, growth-stage cells were incubated with various concentrations
+of cAMP (0-10- 5 M) for 15 min in the presence of 10 mM dithiothreitol
+and 5 mM caffeine, washed thoroughly, and [3HlcAMP binding measured as in panel A. The means of triplicate determinations from each of
+two independent experiments are shown.
+
+were treated with cAMP, washed extensively, and residual
+cAMP binding examined. Ai!, shown in Fig. lA, pretreatment
+with 10 fLM cAMP induced a rapid (t 1/2 = 1.5-2 min) 80%
+reduction in 10 nM [3H]cAMP binding. While 1 nM cAMP elicited a detectable loss, 10 fLM was required to elicit the full effect
+(Fig. lB). The EC 50 of this response was 25 nM. These results
+for overexpressed cARl in growth-stage cells are similar to
+those reported for endogenous cARl in developed AX-3 cells
+(t1/2 = 2-3 min, EC 50 = 50 nM; Ref. 13), suggesting that the
+same process is occurring at these two developmental stages.
+Moreover, these properties are attributable to cARl, since vector-transformed cells lacking cARl (pMC34/JB4; Ref. 16) exhibit less than 1% of the cAMP binding capacity described
+above (data not shown).
+cAMP Pretreatment Results in a Reduction in cARl Affinity--Scatchard analyses were undertaken in order to elucidate
+the basis of the reduced binding observed in Fig. 1. Ai!, seen in
+Fig. 2A, untreated growth-stage cells exhibit a curvilinear
+cAMP binding profile. Computer-generated fits of these data
+(Table I, experiments 1 and 2) reveal both low and high affinity
+classes of binding sites with affinities consistent with those
+reported previously (46). Upon pretreatment with cAMP, the
+Scatchard plot remains curvilinear but appears more shallow
+than that of control cells (Fig. 2A). This change reflects the fact
+that cAMP induces a 70-80% reduction of binding when meas-
+
+4420
+
+cARl Affinity Transition
+2.0 ,--------------~
+
+A
+
+1.0
+N
+
+b
+x
+~
+
+::::-
+
+a>0
+
+--'"
+
+160
+
+~
+
+.e
+(])
+
+320
+
+3.2
+
+B
+
+~
+
+-LL
+
+"0
+c:
+
+:J
+
+0
+
+<0
+
+1.6
+
+130
+
+260
+
+BOUND (sites/cell x 10-3 )
+FIG. 2. Scatchard analysis of [3HlcAMP binding to cARl with
+and without cAMP pretreatment. Growth-stage (A) or developed (B)
+cells overexpressing cARl were treated without (filled squares) or with
+(open squares) cAMP (10- 5 M, 15 min, with 10 mM dithiothreitol),
+washed, and [3HlcAMP binding measured at cAMP concentrations from
+10- 9 Mto 2 X 10- 6 Mby centrifugation through silicone oil as described
+under "Materials and Methods." Data shown are the means from one of
+four (A) or two (B) independent experiments performed in triplicate.
+The lines represent the computer-generated fit for each set of data
+(Table I, experiments 1 and 3).
+
+ured at 10 nM cAMP (as in Fig. 1) but only a 40% reduction of
+binding when measured at 2 J.LM cAMP (rightmost points in Fig.
+2A). Fitting of these data also reveals two classes of binding
+sites (Table I, experiments 1 and 2), both of which appear to be
+affected by cAMP pretreatment. First and more dramatically,
+there is a 3-5-fold reduction in the cAMP affinity of the major,
+lower affinity class (from 293 ± 33 to 1117 ± 276 nM and from
+454 ± 106 to 2442 ± 950 nM in experiments 1 and 2, respectively) without an appreciable loss of binding sites. Second,
+there is a small but reproducible reduction in the number of
+sites of the high affinity class (31,000 ± 10,000 to 13,000 ±
+5000 sites/cell and 10,000 ± 6000 to 1000 ± 1000 sites/cell in
+experiments 1 and 2, respectively) with no consistent change in
+their affinity. There is relatively little reduction in the total
+number of cAMP binding sites (12 ± 7% and 5 ± 19% in
+experiments 1 and 2, respectively), suggesting that most cARl
+molecules remain on the cell surface following exposure to
+cAMP. Thus, while some of the loss of binding observed at very
+low cAMP concentrations «35 nM) results from changes in
+both affinity components, the loss seen at higher subsaturating
+concentrations is largely attributable to the affinity reduction
+exhibited by the low affinity sites.
+To assess whether this pattern of binding changes is a property unique to growth-stage cells, an identical analysis was
+performed using developed cells (Fig. 2B). As with growthstage cells, the Scatchard plot of the untreated developed cells
+is curvilinear and cAMP pretreatment causes a shallowing of
+the plot. Again, much of the observed change results from a
+reduction in the affinity of the low affinity receptor form (Table
+I, experiments 3 and 4). The total loss of cAMP binding sites
+may be slightly greater than in growth stage cells (32 ± 6% and
+
+15 ± 11% in experiments 3 and 4, respectively) but does not
+fully explain the loss of binding. It is unclear whether, in
+developed cells, there is a reduction in the number of high
+affinity sites analogous to that observed in growth-stage cells.
+An overall difference between growth-stage and developed cells
+is an apparent trend toward increased affinities of all receptor
+classes in the latter. This increase may reflect the expression of
+the G-protein subunit, Ga2, which mediates cARl signaling
+during aggregation (49).
+Dose Dependence of cAMP Uptake Is Altered by cAMP Pretreatment-Based on the Scatchard results, we predicted that
+cAMP pretreatment should increase the dose dependence of
+cARl-mediated responses without altering maximum responsiveness. To test this prediction, we examined the effect of
+cAMP pretreatment on the subsequent "uptake" of [3HJcAMP.
+This cARl-dependent process occurs more slowly than cAMP
+binding, is very slowly reversible, and does not represent persistent binding to the receptor (16, 25, 30). As shown in Fig. 3,
+we examined this process in growth-stage cARl-expressing
+cells and found that, following cAMP pretreatment, little
+change in the uptake of high cAMP concentrations occurred
+while uptake at lower cAMP concentrations is significantly
+decreased (57% decrease at 10- 9 McAMP). This response profile is consistent with a reduction in the affinity of cARl.
+Localization of cARl Is Unchanged by cAMP TreatmentThe Scatchard analysis indicates that cAMP pretreatment
+causes a marked alteration in the affinity of most of the receptor molecules on the cell-surface with little or no reduction in
+the total number of surface binding sites. To extend this observation, we assessed the subcellular localization of cARl in
+cAMP-treated cells by proteolytic treatment of intact cells and
+by immunofluorescence. For these experiments, we expressed
+cARl containing a c-Myc epitope at its amino terminus in cells.
+Immunoblots of extracts prepared from these cells revealed a
+47-kDa protein with immunoreactivity toward both anti-cARl
+serum and a polyclonal anti-Myc serum (Fig. 4A). Its migration
+is slightly slower than that of wild-type cARl, reflecting the
+addition of 12 amino acids. The Myc-tagged cARl was comparable to wild-type cARl in binding affinities (data not shown)
+and extent of loss of ligand binding (80 ± 6% versus 77 ± 1%,
+measured at 16 nM [3HJcAMP).
+Unlike the wild-type cARl, the Myc-tagged cARl is sensitive
+to surface trypsinization. Within 15 min, more than 87% of the
+molecules are cleaved to yield slightly smaller products which
+have lost the Myc epitope (Fig. 4B, left). The time dependence
+of the cleavage strongly suggests that trypsinization is occurring on intact cells, and not during subsequent sample preparation. Co-incubation of samples from trypsin-treated and untreated cells results in no further loss of Myc-tagged cARl (data
+not shown), further supporting this conclusion. When the cells
+were pretreated with cAMP, the mobility of the Myc-tagged
+cARlon SDS-PAGE was observed to further decrease (Fig. 4,
+right). This mobility alteration, previously reported for wildtype cARl, is due to serine phosphorylation on the cytoplasmic
+COOH-terminal domain (15). When the pretreated cells were
+subjected to proteolysis, removal of the Myc epitope occurred as
+extensively as it did in untreated cells (Fig. 4B, right). The
+slight decrease in the amount of Myc-cAR1 detectable with
+anti-cARl serum (approximately 30% at 15 min, Fig. 4A) might
+reflect cleavage at basic residues within the cARl sequence or
+an inherent instability in the NHz-terminally cleaved MyccARl. The failure of cAMP pretreatment to protect Myc-cAR1
+from proteolysis is consistent with the notion that the reduction in cAMP binding observed upon pretreatment can occur
+without significant receptor internalization.
+This interpretation was corroborated by immunofluores-
+
+4421
+
+cARl Affinity Transition
+
+TABLE I
+Scatchard analysis of cAMP binding data
+The binding data illustrated in Fig. 2 were subjected to computer fitting using the program LIGAND. The K d (nM) and B max (sites/cell x 10- 3)
+values for each site (= standard error) are given. Results from four independent experiments are shown. Also shown is the total B max for untreated
+(control) and cAMP-treated (cAMP) cells in units of sites/cell x 10- 3 and as a percentage of control cells.
+
+Developed
+
+Growth stage
+Experiment 1
+
+Experiment 4
+
+Experiment 3
+
+Experiment 2
+
+cAMP
+
+Control
+
+cAMP
+
+Control
+
+cAMP
+
+Control
+
+cAMP
+
+Control
+
+Kd 1
+Bmax 1
+
+35 = 10
+31 = 10
+
+47 = 20
+13 = 5
+
+30 = 30
+10 = 6
+
+25 = 90
+1= 1
+
+7=3
+17 = 5
+
+9=3
+9=2
+
+8
+16
+
+Kd 2
+B max 2
+
+293 = 33
+265 = 8
+
+1177 = 276
+247 = 17
+
+454 = 106
+135 = 5
+
+2442 = 950
+136 = 26
+
+313 = 60
+237 = 12
+
+866 = 177
+164 = 13
+
+183 = 71
+152 = 11
+
+8=3
+10 2
+874 = 276
+134 = 15
+
+B mox total
+
+296 = 13
+
+260 = 18
+
+145 = 8
+
+137 = 26
+
+255 = 13
+
+173 = 13
+
+168 = 14
+
+144 = 15
+
+% control
+
+Control
+uptake:
+
+Q)
+
+100
+
+,:,£
+
+a
+
+88 = 7
+
+410
+
+1500
+
+8140
+
+24400
+
+95 = 19
+
+41600
+
+67300
+
+=11
+=9
+
+=
+
+68 = 6
+
+85
+
+=11
+
+A
+anti-cARl
+
+!--------~If---
+
+*
+<J
+
+a.::::>
+
+B
+
+"2
+
+ca
+
+anti-myc
+
+o 50
+
+<J
+
+C
+Q)
+
+Trypsin
+time (min)
+
+~
+
+~
+
+0
+
+0.2
+
+5
+
+15
+
+cAMP
+
+o
+5 X 10-7
+
+2 X 10-6
+
+[CAMP] (M)
+
+FIG. 3. Effect of cAMP pretreatment on the dose dependence of
+["HlcAMP uptake. Cells were incubated without or with cAMP (10- 5
+M, 15 min, with 10 roM dithiothreitol), washed, and [3H]cAMP uptake
+determined at the various concentrations shown on the abscissa (10- 9
+to 10-6 M) as described under "Materials and Methods." Plotted for each
+concentration is the percentage of control uptake exhibited by control
+cells (filled squares, 100 by definition) and cAMP-pretreated cells (open
+squares). Values shown are the means = standard deviations of nine
+(10- 9 M and 2 x 10- 6 M points) or two (remaining points) determinations pooled from three independent experiments. The mean absolute
+uptake exhibited by control cells (in units of molecules per cell) is
+indicated above each data point. Because the absolute uptake varied by
+as much as 2-fold from day to day, all uptake values were normalized to
+the average level of uptake exhibited by control cells for each experiment prior to the calculation of standard deviation.
+
+cence studies. When untreated cells expressing Myc-cARl were
+rapidly fixed in suspension, they exhibited a predominantly
+peripheral pattern of immunofluorescent staining with anticARl antibodies (Fig. 5A). This pattern is similar to that described previously for endogenous cARl in developed cells and
+suggests that most receptor molecules are within the plasma
+membrane. Despite a 74% reduction of binding at 16 nM
+[3H]cAMP, cAMP-pretreated cells revealed the same pattern of
+cARl distribution as untreated cells (Fig. 5B), suggesting that
+little if any relocalization had occurred. Vector control cells
+expressing no cARl displayed no peripheral staining under
+these conditions (data not shown).
+Defective Loss of Ligand Binding in Serine Substitution Mutants--cAMP stimulates the addition of 3-4 phosphates (29) to
+serines within the cytoplasmic carboxyl terminus of cARl (15).
+This domain contains 18 serine residues organized into four
+clusters (15). To determine whether these serines and perhaps
+their phosphorylation playa role in the agonist-induced loss of
+ligand binding, we examined this process in cARl mutants in
+
+0
+
+0.2
+
+5
+
+15
+
++
+
++
+
++
+
++
+
+FIG. 4. Effect of cAMP on protease accessibility of epitopetagged cARl. Washed, growth-stage cells expressing Myc-cAR1 were
+shaken without (-) or with (+) cAMP (10- 5 M, 15 min, 22°C, with 10
+mM dithiothreitol) and washed four times in ice-cold PB. They were
+then incubated in the absence (0 min) or presence of trypsin (50 iLWml,
+o °C) for the indicated times. After addition of trypsin inhibitor (100
+j.Lg/ml) and extensive washing, a CHAPS-insoluble fraction was prepared, subjected to SDS-PAGE and immunoblotted with cARl COOH
+terminus-specific antiserum (A) or Myc-specific antiserum as described
+under "Materials and Methods" (B). The electrophoretic positions of
+wild-type cARl (open arrowhead, not shown), Myc-cAR1 (asterisk), and
+phosphorylated Myc-cAR1 (filled arrowhead) are indicated.
+
+which combinations of these four serine clusters had been
+deleted or substituted with alanine and glycine residues (15).
+As shown in Fig. 6, substitution of all of the serine clusters
+(mutant cm1234) completely abolishes cAMP-induced affinity
+reduction. Furthermore, while the elimination of serines in
+clusters 2, 3, and 4 (mutant cm234) has little effect, substitution of the serines of cluster 1 alone (mutant cml) results in a
+drastically reduced response. Thus, serines in cluster 1 appear
+to play a major and specific role in the modulation of cARl
+affinity classes.
+DISCUSSIO
+
+The nature of loss of ligand binding by G-protein-coupled
+receptors has been difficult to ascertain. Often, this process has
+been equated with receptor internalization. Studies using immunofluorescence (31, 32) and cell fractionation (33, 34) have
+revealed a strong correlation between the loss ofligand binding
+and the "sequestration" or movement of receptors to a new,
+apparently intracellular compartment. Consistent with this
+interpretation, cells expressing J3-adrenergic and muscarinic
+receptors, upon pretreatment, lose their ability to bind hydrophilic but not hydrophobic ligands (35). While the reduction in
+binding and internalization may be tightly correlated, however,
+they might be separate processes. Several studies, in fact, have
+suggested that loss of binding can occur without receptor internalization (36, 37). Previous studies of cARl (38, 39) and our
+present results support this hypothesis.
+
+cARl Affinity Transition
+
+4422
+
+A
+
+B
+
+Control
+
+cAMP
+
+FIG. 5. Effect of cAMP pretreatment on cARl immunofluorescence. Wa hed, growth-stage cells expressing Myc-cARl were shaken
+without (A) or with (B) cAMP (10- 5 M, 12 min, 22°C) and washed four
+times with ice-cold PB. They were then fixed in suspension with methanol, 1% formaldehyde, stained with cARl antiserum (29) and fluorescein isothiocyanate-conjugated goat anti-rabbit antibodies as described
+under "Materials and Methods." Pretreated cells in this representative
+experiment displayed 74% less binding to 16 nM [3H]cAMP than control
+cells, when assessed at the time of fiXation. The cells shown are approximately 12 ,.,.m in diameter.
+
+OJ
+
+~ 100
+c
+
+in
+
+'2
+
+c0
+
+()
+
+50
+
+C
+Q)
+u
+Qi
+c..
+
+0
+0
+
+10
+
+20
+
+30
+
+Time (min)
+
+FIG. 6. Loss of ligand binding in cARl mutants lacking cytoplasmic serine residues. Washed growth-stage cells expressing wildtype cARl (open squares), cm234 (filled circles), cm1 (filled squares), or
+cm1234 (open circles) were shaken without (0 min) or with cAMP (10- 5
+M, 22°C) for 5, 15, or 30 min and washed extensively with PB.
+[3H]cAMP binding was then measured at 16 nM by the sedimentation
+assay, as described under "Materials and Methods." Data shown represent the means ± S.E. of three experiments performed in triplicate.
+
+We demonstrate here that in response to cAMP pretreatment, growth-phase Dictyostelium cells overexpressing cARl
+exhibit a reduction of cAMP binding similar in rate, extent, and
+concentration dependence to that displayed in developed cells
+expressing endogenous cARl. Scatchard analysis and computer
+fitting of cAMP binding data suggest that this binding alteration is due predominantly to a reduction in the affinity of the
+lower affinity receptor form, which represents the bulk of cell
+surface cARl, with a concomitant small change in the number
+(but not the affinity) of high affinity binding sites. It is unclear
+whether this latter change represents an interconversion of
+high to low affinity sites or a selective removal of high affinity
+sites from the cell surface. Nevertheless, there is a minimal
+reduction in the total number of binding sites under these
+conditions, supporting the hypothesis that even at saturating
+
+cAMP concentrations, at least 80% of cARl molecules are neither internalized (38, 39), "irreversibly" occupied with ligand
+(25) or incapable of binding for other reasons. Developed cells
+overexpressing cARl exhibit a similar pattern of affinity
+changes, demonstrating that this phenomenon is not a function
+of the developmental stage. There is some suggestion from the
+present data, however, that in these cells, cAMP might induce
+a slightly higher fractional receptor internalization than in
+growth-stage cells.
+The binding affinity changes described above are mirrored
+functionally by changes in cell sensitivity to cAMP. The concentration dependence of cARl-mediated cAMP uptake, a process distinct from binding, is altered by pretreatment. As with
+binding, pretreatment causes an apparent transition from high
+to low sensitivity of uptake, with little or no change in maximal
+uptake.
+A different conclusion was drawn in previous studies involving endogenous cARl in developed cells. There, Scatchard analysis suggested that Joss of ligand binding was due to a reduction in total cAMP binding sites, with little change in affinity
+(12, 13, 25). We attribute these differences to our use of cells
+overexpressing cARl, which enhances the detection of low affinity binding sites. In cAMP binding experiments involving
+endogenous cARl, the expression levels are lower than those
+presented here, resulting in a lower signal-to-noise ratio at
+higher cAMP concentrations, and thereby precluding the detection of low affinity binding sites. In addition, our initial
+analysis of growth-stage cells, which exhibit less curvilinear
+Scatchard plots and less reduction in total binding, also facilitated the detection of changes among the low affinity sites.
+The protease accessibility and immunofluorescence experiments described here provide physical evidence that nearly all
+cARl molecules remain on the cell surface following cAMP
+pretreatment. The immunolocalization of cARl in cAMPtreated and untreated cells is virtually indistinguishable when
+these cells are rapidly fixed in suspension, suggesting there is
+not significant internalization. Furthermore, even after maximal induction of the response, nearly all epitope-tagged cARl
+molecules remain susceptible to surface trypsinization. Consistent with these results, sustained chymotrypsin sensitivity
+of endogenous cARl following cAMP pretreatment has been
+previously reported (39). Our results with epitope-tagged cARl
+strengthen the proposal put forth by these authors that loss of
+ligand binding can occur without cARl internalization.
+Our immunofluorescence results appear to contradict the
+previously reported observation that cARl localization changes
+upon cAMP pretreatment from a peripheral pattern to a more
+punctate, possibly vesicular, one (32, 38). We believe that this
+difference arises from the distinct treatment of the cells used in
+each case. In the previous studies, cells were allowed to adhere
+to glass slides, flattened with a sheet of agar, and then methanol-fixed. In the present study, in contrast, shaking cells were
+rapidly fixed in suspension. We too have found that adherent
+cells exhibit an apparent cAMP-induced redistribution of cARl
+immunofluorescence (data not shown), unlike cells fixed in
+suspension. Perhaps cAMP treatment normally induces cARl
+relocalization in the physiological context of a cell attached to a
+solid surface, while in suspension, the internalization process
+is uncoupled. Thus, the transition in cARl affinity appears not
+to depend upon internalization, though it might reflect an early
+step in this process, such as the binding of a component of the
+endocytic machinery to the receptor.
+Several domains within G-protein-coupled receptors have
+been described as important for agonist-induced reductions in
+ligand binding. Mutant adrenergic, muscarinic, or cAMP receptors bearing substitutions or deletions within the putative sec-
+
+cARl Affinity Transition
+ond and third intracellular loops have shown drastic impairment in this process (16, 40-42). Replacement of a human
+,l32-adrenergic receptor tyrosine (Tyr326) with an alanine has no
+influence on G-protein activation or desensitization with respect to adenylyl cyclase activation but blocks loss of ligand
+binding, receptor relocalization, and resensitization of the cyclase response (43). This tyrosine occurs within a sequence
+motif near the COOH-terminal end of the putative seventh
+transmembrane domain of many G-protein-coupled receptors
+(NPX2_3Y, where X represents aliphatic residues). A similar
+phenotype is seen with ,l3-adrenergic receptor mutants in which
+putative targets of protein kinase A phosphorylation have been
+changed to alanines (44, 45). Nevertheless, removal of all
+serines from the COOH terminus of this receptor does not
+prevent the agonist-induced reduction of ligand binding (44),
+suggesting that l3-adrenergic receptor phosphorylation is unnecessary for loss of binding.
+Our present studies with cARl suggest that a subset of
+COOH-terminal serines is required for loss of cAMP binding. A
+cARl mutant lacking all serines in the cytoplasmic COOH
+terminus cannot undergo this process. Substitution of the 5
+serines that comprise cluster 1 (serines 299, 302, 303, 304, and
+308) with alanine and glycine residues (mutant cm1) results in
+a severe reduction in both the rate and extent of the agonistinduced binding changes, while substitution of all other serines
+in the COOH-terminal tail has virtually no effect. We previously demonstrated (15) that approximately two-thirds of the
+cAMP-induced phosphorylation of cARl occurs within serine
+cluster 1 and the remainder occurs within cluster 2 (serines
+324, 325, and 331). Which of these residues are modified has
+not yet been determined. The remaining 10 serines of the
+COOH-terminal domain, which comprise clusters 3 and 4 (as
+defined in Ref. 15) are not phosphorylated in response to cAMP
+binding. Phosphorylation occurring within cluster 1 is strongly
+correlated with the adaptation of cAMP-stimulated adenylyl
+cyclase (11, 29). Thus, the affinity transition and phosphorylation undergone by cARl in response to cAMP appear to share
+either common or overlapping structural requirements within
+this domain.
+cARl contains two NPXn Y motifs similar to that implicated
+in ,l32-adrenergic receptor loss ofligand binding (5,43). The first
+of these (NPLMWRy277 ) like those of other receptors is located
+at the COOH-terminal portion of the seventh transmembrane
+domain. The second (NPSpy301 ) includes Ser299 of serine cluster 1 in the COOH-terminal cytoplasmic domain. It is tempting
+to speculate that the latter is important for the loss of ligand
+binding in light of its proximity to cluster 1. Note, however,
+that in mutant cm1, which is impaired in loss ofligand binding,
+this sequence (NPAPy301) resembles the proposed consensus
+sequence even more closely than does the wild-type sequence.
+The mechanisms by which serine replacement affects cARl loss
+of ligand binding therefore remain to be clarified.
+In summary, agonist-induced loss of cAMP binding sites
+appears to involve a 3-5-fold reduction in the affinity of the
+predominant low affinity receptor form and is not dependent
+upon receptor internalization. The reduction in affinity could,
+however, reflect an intermediate step in the internalization
+process. Furthermore, this affinity transition depends upon a
+domain in the cARl cytoplasmic carboxyl terminus, which is
+also a target of cAMP-induced phosphorylation. Continued
+analysis of these processes should allow a detailed molecular
+description of the various adaptive changes undergone by cARl
+upon agonist binding.
+
+4423
+
+Acknowledgments-We thank Dr. Stephen Gill and Dr. Geoffrey Pitt
+for helpful discussions regarding epitope tagging and immunofluorescence, Ji Yun Kim for help with the preparation of the anti-Myc antiserum, and Dr. Peter Munson for providing the LIGAND software.
+REFERENCES
+1. Dohlman, H. G., Thorner, J., Caron, M. G., and Lefkowitz, R. J. (1991) Annu.
+Rev. Biochem. 60, 653-688
+2. Gilman, A. G. (1987) Annu. Rev. Biochem. 56, 615-649
+3. Hausdorff, W. P., Caron, M. G., and Lefkowitz, R J. (1990) FASEB J. 4,
+2881-2889
+4. Caterina, M. J., and Devreotes, P. N. (1991) FASEB J. 5, 3078-3085
+5. Klein, P. S., Sun, T. J., Saxe, C. L., III, Kimmel, A. R, Johnson, R. L., and
+Devreotes, P. N. (1988) Science 241, 1467-1472
+6. Saxe, C. L., III, Ginsburg, G. T., Louis, J. M., Johnson, R L., Devreotes, P. N.,
+and Kimmel, A. R (1993) Genes & Dev. 7, 262-272
+7. Johnson, R L., Saxe, C. L., III, Gollop, R, Kimmel, A. R, and Devreotes, P. N.
+(1993) Genes & Dev. 7, 273-282
+8. Roos, W., Scheidegger, C., and Gerish, G. (1977) Nature 266, 259-261
+9. Juliani, M. H., and Klein, C. (1981) J. Bioi. Chem. 256, 613-619
+10. Devreotes, P. N., and Sherting, J. A. (1985) J. Bioi. Chem. 260, 6378-6384
+11. Vaughan, R A., and Devreotes, P. N. (1988) J. Bioi. Chem. 263, 14538-14543
+12. Klein, C., and Juliani, M. H. (1977) Cell 10, 329-335
+13. Van Haastert, P. J. M. (1987) J. Bioi. Chem. 262,7700-7704
+14. Johnson, R L., Vaughan, R A., Caterina, M. J., Van Haastert, P. J. M., and
+Devreotes, P. N. (1991) Biochemistry 30, 6982-6986
+15. Hereld, D., Vaughan, R, Kim, J. Y., Borleis, J., and Devreotes, P. N. (1994)
+J. Bioi. Chem. 269, 7036-7044
+16. Caterina, M. J., Milne, J. L., and Devreotes, P. N. (1994) J. Bioi. Chem. 269,
+1523-1532
+17. Watts, D., and Ashworth, J. (1970) Biochem. J. 119, 171-174
+18. Devreotes, P. N., Fontana, D., Klein, P., Sherting, J., and Theibert, A. (1987)
+Methods Cell Bioi. 28,299-331
+19. Evan, G. J., Lewis, G. K, Ramsey, G., and Bishop, M. J. (1985) Mol. Cell. Bioi.
+5, 3610-3616
+20. Dynes, J. L., and Firtel, R A. (1989) Proc. Nat!. Acad. Sci. U. S. A. 86,
+7966-7970
+21. Van Haastert, P. J. M. (1985) Biochim. Biophys. Acta 845, 254-260
+22. Van Haastert, P. J. M. (1984) Biochem. Biophys. Res. Comm. 124, 597-604
+23. Brenner, M., and Thomas, S. (1984) Dev. Bioi. 101, 136-146
+24. Henderson, E. (1975) J. Bioi. Chem. 250,4730-4736
+25. Snaar-Jagalska, B. E., Devreotes, P. N., and Van Haastert, P. J. M. (1988)
+J. BioI. Chem. 263, 897-901
+26. Laemmli, U. K (1970) Nature 277, 680-685
+27. Green, N., Alexander, H., Olson, A., Alexander S., Shinnick, T. M., Sutcliffe, J.
+G., and Lerner, R A. (1982) Cell 28, 477-487
+28. Klein, P., Theibert, A., Fontana, D., and Devreotes, P. N. (1985) J. Bioi. Chem.
+260,1757-1764
+29. Klein, P., Vaughan, R, Borleis, J., and Devreotes, P. N. (1987) J. Bioi. Chem.
+262,358-364
+30. Klein, C. (1979) J. Bioi. Chem. 254, 12573-12578
+31. Von Zastrow, M., and Kobilka, B. K (1992) J. Bioi. Chem. 267,3530-3538
+32. Wang, M., Van Haastert, P. J. M., Devreotes, P. N., and Schaap, P. (1988) Dev.
+Bioi. 128,72-77
+33. Chuang, D. M., and Costa, E. (1979) Proc. Nat!. Acad. Sci. U. S. A. 76,
+3024-3028
+34. Toews, M. L., Waldo, G. L., Harden, T. K, and Perkins, J. P. (1984) J. BioI.
+Chem. 259, 11844-11850
+35. Hertel, C., Muller, P., Portenier, M., and Staehelin, M. (1983) Biochem. J. 216,
+669-674
+36. Wang, H., Berrios, M., and Malbon, C. C. (1989) Biochem. J. 263,533-538
+37. Mahan, L. C., Motulsky, H. J., and Insel, P. A. (1985) Proc. Nat!. Acad. Sci. 82,
+6566-6570
+38. Van Haastert, P. J. M., Wang, M., Bominaar, A. A., Devreotes, P. N., and
+Schaap, P. (1992) Mol. Bioi. Cell 3, 603-612
+39. Tao, Y., and Klein, C. (1990) J. Bioi. Chem. 265, 15584-15589
+40. Cheung, A. H., Sigal, I. S., Dixon, R. A. F., and Strader, C. D. (1988) Mol.
+Pharmacol. 34, 132-138
+41. Lameh, J., Philip, M., Sharma, Y. K, Moro, 0., Ramachandran, J., and Sadee,
+W. (1992) J. Bioi. Chem. 267, 13406-13412
+42. Moro, 0., Lameh, J., Hogger, P., and Sadee, W. (1993) J. Bioi. Chem. 268,
+22273-22276
+43. Barak, L. S., Tiberi, M., Freedman, N. J., Kwatra, M. M., Lefkowitz, R J., and
+Caron, M. G. (1994) J. Bioi. Chem. 269, 2790-2795
+44. Hausdorff, W. P., Campbell, P. T., Ostrowski, J., Yu, S. S., Caron, M. G., and
+Lefkowitz, R J. (1991) Proc. Nat!. Acad. Sci. U. S. A. 88, 2979-2983
+45. Yu, S. S, Lefkowitz, R J., and Hausdorff, W. P. (1993) J. Bioi. Chem. 268,
+337-341
+46. Johnson, R. L., Van Haastert, P. J. M., Kimmel, A. R, Jastorff, B., and
+Devreotes, P. N. (1992) J. Bioi. Chem. 267, 4600-4607
+47. Louis, J. M., Ginsberg, G. T., and Kimmel, A. R (1994) Genes & Dev. 8,
+2086-2096
+48. Munson, P. J., and Rodbard, D. (1980) Anal. Biochem. 107, 220-239
+49. Kesbecke, F., Snaar-Jagalska, B. E., and Van Haastert, P. J. M. (1988) J. Cell
+Bioi. 107,521-528
+
+

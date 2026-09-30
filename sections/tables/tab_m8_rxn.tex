@@ -1,0 +1,33 @@
+\begin{table*}[!t]
+\centering
+\caption{Module~8 reactions: the RasC$\to$TORC2$\to$PKB$\to$CRAC relay arm and its output edge 8.14 into the excitable element of Module~0. PKBR1 (module 8b) and CRAC are the kinase and effector; $g(\mathrm{PIP3})=[1+(K_P/N_\mathrm{PIP3})^{8}]^{-1}$ and $b(\mathrm{Rf})$ are the gates of Sec.~\ref{sec:hill}.}
+\label{tab:m8rxn}
+\footnotesize
+\renewcommand{\arraystretch}{1.15}
+\begin{tabularx}{\textwidth}{@{}l>{\raggedright\arraybackslash}p{0.37\textwidth}>{\raggedright\arraybackslash}X@{}}
+\toprule
+ID & Reaction & Propensity (rate law)\\
+\midrule
+8.1 & $\mathrm{G}_{\beta\gamma}+\mathrm{GEF_A} \to \mathrm{GEF_A^*}+\mathrm{G}_{\beta\gamma}$ & $k_{A,\mathrm{on}}[\mathrm{G}_{\beta\gamma}][\mathrm{GEF_A}]$ \\
+8.2 & $\mathrm{GEF_A^*} \to \mathrm{GEF_A}$ & $k_{A,\mathrm{off}}[\mathrm{GEF_A^*}]$ \\
+8.2s & $\mathrm{B}^*+\mathrm{GEF_A^*} \to \mathrm{GEF_A}+\mathrm{B}^*$ & $k_S[\mathrm{B}^*][\mathrm{GEF_A^*}]$ \\
+8.3 & $\mathrm{GEF_A^*}+\mathrm{RasC}^{\mathrm{GDP}} \to \mathrm{RasC}^{\mathrm{GTP}}+\mathrm{GEF_A^*}$ & $k_{C,\mathrm{on}}[\mathrm{GEF_A^*}][\mathrm{RasC}^{\mathrm{GDP}}]$ \\
+8.4 & $\mathrm{RasC}^{\mathrm{GTP}} \to \mathrm{RasC}^{\mathrm{GDP}}$ & $k_{C,\mathrm{off}}[\mathrm{RasC}^{\mathrm{GTP}}]$ \\
+8.4b & $\mathrm{RC}+\mathrm{CGAP} \to \mathrm{RC}+\mathrm{CGAP^*}$ & $k_{CG,\mathrm{on}}[\mathrm{RC}][\mathrm{CGAP}]$ \\
+8.4c & $\mathrm{CGAP^*} \to \mathrm{CGAP}$ & $k_{CG,\mathrm{off}}[\mathrm{CGAP^*}]$ \\
+8.4d & $\mathrm{CGAP^*}+\mathrm{RasC}^{\mathrm{GTP}} \to \mathrm{RasC}^{\mathrm{GDP}}+\mathrm{CGAP^*}$ & $k_{CG,\mathrm{hyd}}[\mathrm{CGAP^*}][\mathrm{RasC}^{\mathrm{GTP}}]$ \\
+8.5 & $\mathrm{RasC}^{\mathrm{GTP}}+\mathrm{TORC2} \to \mathrm{TORC2^*}+\mathrm{RasC}^{\mathrm{GTP}}$ & $k_{T,\mathrm{on}}[\mathrm{RasC}^{\mathrm{GTP}}][\mathrm{TORC2}]$ \\
+8.6 & $\mathrm{TORC2^*} \to \mathrm{TORC2}$ & $k_{T,\mathrm{off}}[\mathrm{TORC2^*}]$ \\
+8b.1 & $\mathrm{TORC2^*}+\mathrm{PKBR1} \to \mathrm{PKBR1^*}+\mathrm{TORC2^*}$ & $k_{P,\mathrm{on}}[\mathrm{TORC2^*}][\mathrm{PKBR1}]$ \\
+8b.2 & $\mathrm{PKBR1^*} \to \mathrm{PKBR1}$ & $k_{P,\mathrm{off}}[\mathrm{PKBR1^*}]$ \\
+8b.3 & $\mathrm{PKBR1^*}+\mathrm{CRAC}_m \to \mathrm{CRAC}_m^*+\mathrm{PKBR1^*}$ & $k_\mathrm{Cr}[\mathrm{PKBR1^*}][\mathrm{CRAC}_m]$ \\
+8b.4 & $\mathrm{PKA^*}+\mathrm{PKBR1^*} \to \mathrm{PKA^*}+\mathrm{PKBR1}$ & $k_{PKA}[\mathrm{PKA^*}][\mathrm{PKBR1^*}]$ \\
+8.9 & $\mathrm{PKBA}_m^*+\mathrm{CRAC}_m \to \mathrm{CRAC}_m^*+\mathrm{PKBA}_m^*$ & $k_\mathrm{Cr}[\mathrm{PKBA}_m^*][\mathrm{CRAC}_m]$ \\
+8.9b & $\mathrm{PIP3}+\mathrm{CRAC}_c \to \mathrm{CRAC}_m+\mathrm{PIP3}$ & $k_{\mathrm{Cr},P}[\mathrm{PIP3}][\mathrm{CRAC}_c]$ \\
+8.9c & $\mathrm{CRAC}_c \to \mathrm{CRAC}_m$ & $k_{\mathrm{Cr},b}[\mathrm{CRAC}_c]$ \\
+8.10 & $\mathrm{CRAC}_m^* \to \mathrm{CRAC}_m$ & $k_{\mathrm{Cr},\mathrm{dp}}[\mathrm{CRAC}_m^*]$ \\
+8.10b & $\mathrm{CRAC}_m \to \mathrm{CRAC}_c$ & $k_{\mathrm{Cr},\mathrm{off}}[\mathrm{CRAC}_m]$ \\
+8.14 & $\mathrm{CRAC}_m^* \to \mathrm{CRAC}_m^*+\mathrm{X}$ & $\dfrac{k_{X}}{N_\mathrm{CRAC}}\,N_{\mathrm{CRAC}^*}\,g(\mathrm{PIP3})\,b(\mathrm{Rf})\quad[\text{molec\,s}^{-1}\text{cell}^{-1}]$ \\
+\bottomrule
+\end{tabularx}
+\end{table*}

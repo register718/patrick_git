@@ -1,0 +1,667 @@
+Developmental Biology 397 (2015) 203–211
+
+Contents lists available at ScienceDirect
+
+Developmental Biology
+journal homepage: www.elsevier.com/locate/developmentalbiology
+
+The ABC transporter, AbcB3, mediates cAMP export in
+D. discoideum development
+Edward Roshan Miranda a,b,1, Edward A. Nam b,1, Adam Kuspa b,c, Gad Shaulsky b,n
+a
+
+Graduate Program in Developmental Biology, Baylor College of Medicine, Houston, TX 77030, USA
+Department of Molecular and Human Genetics, Baylor College of Medicine, Houston, TX 77030, USA
+c
+Department of Biochemistry and Molecular Biology, Baylor College of Medicine, Houston, TX 77030, USA
+b
+
+art ic l e i nf o
+
+a b s t r a c t
+
+Article history:
+Received 22 July 2014
+Received in revised form
+15 October 2014
+Accepted 11 November 2014
+Available online 20 November 2014
+
+Extracellular cAMP functions as a primary ligand for cell surface cAMP receptors throughout Dictyostelium discoideum development, controlling chemotaxis and morphogenesis. The developmental consequences of cAMP signaling and the metabolism of cAMP have been studied in great detail, but it has
+been unclear how cells export cAMP across the plasma membrane. Here we show pharmacologically and
+genetically that ABC transporters mediate cAMP export. Using an evolutionary-developmental biology
+approach, we identiﬁed several candidate abc genes and characterized one of them, abcB3, in more
+detail. Genetic and biochemical evidence suggest that AbcB3 is a component of the cAMP export
+mechanism in D. discoideum development.
+& 2014 Elsevier Inc. All rights reserved.
+
+Keywords:
+ATP-binding cassette transporters
+Dictyostelium
+cAMP
+
+Introduction
+When starved, the single-celled social ameba Dictyostelium
+discoideum undergoes a remarkable developmental process that
+includes chemotaxis, aggregation, kin recognition, and morphogenesis, resulting in a multicellular fruiting body (Kessin, 2001).
+Over 40 years ago, cAMP was identiﬁed as the chemotactic signal
+for aggregation (Barkley, 1969). Extracellular cAMP also functions
+as a ﬁrst messenger to specify cell fate during development
+(Alvarez-Curto et al., 2005; Schaap, 2011; Saran and Schaap,
+2004; Virdy et al., 1999). Despite the developmental importance
+of extracellular cAMP, how cAMP export occurs has remained
+unknown.
+Several groups have proposed mechanisms for cAMP export,
+including a vesicular transport mechanism. However, cAMP export
+occurs simultaneously with intracellular synthesis with virtually no
+lag time during the initial stages of development (Dinauer et al.,
+1980), suggesting that vesicular transport is not at play. Adenylyl
+cyclase A (ACA) synthesizes intracellular cAMP and contains a
+structure similar to ATP Binding Cassette (ABC) transporters
+(Kessin, 2001; Pitt et al., 1992), which are known to export anionic
+cargoes like cAMP in other organisms (Cheepala et al., 2013). While
+ACA is an attractive candidate for cAMP export, acaA-null mutants
+can export cAMP when another adenylyl cyclase, ACG, is engineered
+to produce intracellular cAMP, indicating that ACA is not the only
+
+possible cAMP exporter (Pitt et al., 1993). Interestingly, several
+human ABC transporters can export cAMP (Chen et al., 2001; van
+Aubel et al., 2002; Wielinga et al., 2003), prompting us to hypothesize that ABC transporters export cAMP in Dictyostelium.
+ABC transporters contain two ATP-binding domains and two
+membrane-spanning domains that transport a variety of cargo
+molecules (Cheepala et al., 2013; Anjard and Loomis, 2002; Annilo
+et al., 2006; Graf et al., 2003; Sarkadi et al., 2006). In D. discoideum
+there are 68 abc genes, which have been classiﬁed into 8 groups
+(abcA through abcH) based on sequence and predicted structural
+features (Anjard and Loomis, 2002), but their functions are largely
+unknown. We recently characterized the transcriptional and
+morphological phenotypes of 35 abc mutants during development
+and found that most mutants exhibited subtle phenotypes, suggesting that many of the ABC transporters could have overlapping
+functions (Miranda et al., 2013). We hypothesized that cAMP
+exporters may be among the uncharacterized abc genes.
+Here we show that ABC transporter inhibitors disrupt development
+in a manner consistent with a lack of cAMP export. We also identify
+several abc genes with cAMP-responsive transcription in D. discoideum
+and in Dictyostelium purpureum. Using genetic and biochemical
+approaches, we show that one of these genes, abcB3, exports cAMP.
+
+Results
+ABC-transporter inhibitors disrupt D. discoideum development
+
+n
+
+Corresponding author.
+E-mail address: gadi@bcm.edu (G. Shaulsky).
+1
+Equal contribution.
+
+http://dx.doi.org/10.1016/j.ydbio.2014.11.006
+0012-1606/& 2014 Elsevier Inc. All rights reserved.
+
+Bacterial and human ABC transporters that export similar cargo
+molecules exhibit overlap in inhibitor sensitivity (van Veen et al.,
+
+204
+
+E.R. Miranda et al. / Developmental Biology 397 (2015) 203–211
+
+Fig. 1. ABC transporter inhibitors disrupt D. discoideum development. Cells were developed on black ﬁlters in the presence of (A) no drug, (B) dipyridamole, (C) indomethacin,
+(D) probenecid, and (E) sulfynpyrazone. Images shown were taken 22 h into development and are representative images of 3 independent experiments.
+
+1998), suggesting that pharmacological properties of ABC transporters may be similar when they share cargo molecules. The
+drugs Indomethicin, Probenecid, Dipyridamole, and Sulfynpyrazone inhibit the human cAMP exporters, ABCC4 and ABCC5
+(Wielinga et al., 2003; Reid et al., 2003). To test whether ABC
+transporters export cAMP in D. discoideum, we examined the effect
+of these inhibitors on development. Development of wild-type
+D. discoideum (AX4) cells without inhibitors for 22 h resulted in
+synchronous development and the formation of culminants
+(Fig. 1A). Addition of inhibitors disrupted development and caused
+asynchronous morphogenesis (Fig. 1B–E). Sulfynpyrazone caused
+the earliest arrest at the loose aggregate stage (Fig. 1E) and
+dipyridamole treatment had the least effect, resulting in semiclear, frail fruiting bodies (Fig. 1B). Transferring cells that were
+initially developed on inhibitor-containing ﬁlters to inhibitor-free
+conditions reversed the developmental arrests, and the cells
+developed into fruiting bodies after another 24 h. The reversibility
+of the drug effects indicates that the treatment was not lethal.
+Before individual cells form multicellular structures, they stream
+towards aggregation centers in an extracellular cAMP-dependent
+manner (Kessin, 2001). We tested the effect of ABC-transporter
+inhibitors on the streaming of developing cells in submerged
+cultures. In the absence of inhibitor, we observed aggregation
+centers with radial tracks of cells aggregating towards the center
+(Fig. 2A). Addition of any one of the inhibitors abolished developmental streaming and aggregation (Fig. 2B–E). In the previous
+experiment we used a high concentration of inhibitors (Fig. 1)
+
+because the drugs were added to buffer-soaked paper pads beneath
+the developmental ﬁlters. However, inhibition of developmental
+streaming in submerged cultures occurred at drug concentrations
+of 50 μM, similar to the concentrations used in human cell culture
+experiments (Wielinga et al., 2003; Reid et al., 2003). These results
+demonstrate that inhibitors of ABC transporters disrupt cAMPmediated development and support the hypothesis that ABC transporters export cAMP in D. discoideum.
+Several abc genes are cAMP responsive
+To identify candidate cAMP exporters among the 68 ABC transporter genes in D. discoideum we relied on the observation that excess
+cargo molecules induce the transcription of their respective ABC
+transporters in other organisms (Venkateswaran et al., 2000a, 2000b;
+Zhou et al., 2008). We developed D. discoideum cells for 0, 3, and 6 h
+and treated them with the membrane permeable cAMP analog, 8-BrcAMP, for 2 h to mimic intracellular cAMP cargo overload (Riley and
+Barclay, 1990). We then measured the transcript abundance of each of
+the 68 ABC transporters by quantitative RT-PCR (qRT-PCR) and
+compared them between treated and untreated cells. We found that
+abc-transcript abundance was not altered at 0 and 3 h, but abcA5,
+abcB3, abcC5, abcC12, abcC13, and abcG21 transcripts accumulated in
+cells developed for 6 h in the presence of 8-Br-cAMP (Fig. 3A).
+To further reﬁne our candidate gene list, we took a comparative
+evolutionary-developmental biology approach. Similar to D. discoideum, D. purpureum utilizes cAMP signaling for chemotactic
+
+E.R. Miranda et al. / Developmental Biology 397 (2015) 203–211
+
+205
+
+Fig. 2. ABC transporter inhibitors prevent D. discoideum developmental streaming. Cells were developed for 16 h in submerged cultures in the presence of (A) no drug,
+(B) dipyridamole, (C) indomethacin, (D) probenecid, and (E) sulfynpyrazone. White arrow indicates the wild type pattern of cells streaming towards an aggregation center.
+Images are representative of 3 independent experiments.
+
+aggregation. However, these two species diverged about 300–450
+million years ago and possess divergent genomes (Schaap et al.,
+2006; Sucgang et al., 2013). We hypothesized that abc genes
+responsible for cAMP export would be shared between the two
+species. To test this hypothesis, we repeated the cargo overload
+experiments with D. purpureum and measured transcript abundance of the orthologs of the abc genes up-regulated in
+D. discoideum. The qRT-PCR results showed that abcA5, abcB3,
+and abcG21 transcript abundance increased with the addition of
+8-Br-cAMP, whereas abcC5 and abcC12 did not (Fig. 3B). There is no
+obvious ortholog for abcC13 in the D. purpureum genome. These
+ﬁndings suggest that abcA5, abcB3, and abcG21 encode cAMP
+exporters, since cargo overload up-regulated the respective transcripts in two evolutionary divergent organisms that use cAMP for
+chemotaxis.
+The cAMP analog 8-Br-cAMP is a potent activator of Protein
+Kinase A (PKA) (Richardson et al., 1994), and at least one abc gene,
+abcA1, is up-regulated through the PKA pathway in another
+system even though cAMP is not a cargo molecule for this
+transporter (Oram et al., 2000). To distinguish between PKAregulated and cAMP cargo-regulated abc transcripts, we analyzed
+transcript levels in two mutants with constitutively active forms of
+PKA in D. discoideum. In cells overexpressing the PKA catalytic
+subunit (pkaCOE), abcC13 and abcG21 transcript abundance was
+increased more than twofold compared to the wild type (Fig. 3C).
+Knockout of the gene that encodes the inhibitory regulatory
+
+subunit of PKA, pkaR, caused an increased in abcA5 and abcG21
+transcripts (Fig. 3D). These results implicate abcB3 as the most
+likely candidate because its expression was up-regulated in
+response to cargo overload in an evolutionarily conserved manner
+(Fig. 3A and B), and because it was not regulated by PKA (Fig. 3C
+and D).
+abcB3 knockdown delays D. discoideum development
+We hypothesized that abcB3 exports cAMP during D. discoideum
+development and predicted that knockout of the gene would result
+in developmental defects, similar to those seen with the inhibitor
+experiments (Fig. 1). However, we were unable to generate a knockout strain, suggesting that abcB3 might be required for vegetative
+growth. As an alternative approach, we created abcB3-RNAi strains.
+During development, abcB3 expression increases at 4 h and peaks by
+8 h (Miranda et al., 2013; Parikh et al., 2010), so we drove expression
+of the abcB3 shRNA using the tgrB1 element of the bidirectional
+tgrB1/C1 promoter (Benabentos et al., 2009; Hirose et al., 2011). Since
+tgrB1 expression begins at the onset of development, peaks at 4 h,
+and remains high until 8 h, we reasoned that the construct would
+allow for high levels of shRNA to be present when abcB3 expression
+increases and peaks, but not during growth. The bidirectional
+promoter also allowed us to co-express GFP from the tgrC1 element,
+conﬁrming expression of the abcB3 shRNA by visualizing GFP positive
+cells during development. After 10 h of development, wild-type cells
+
+206
+
+E.R. Miranda et al. / Developmental Biology 397 (2015) 203–211
+
+Fig. 3. Cargo overload increases abc transporter mRNA abundance. (A) D. discoideum and (B) D. purpureum cells were developed on black ﬁlters and treated with 8-Br-cAMP. Six
+hours after treatment, we measured transcript levels for the 68 abc transporter genes by qRT-PCR. Fold change (y-axis) was calculated as the ratio of the mRNA abundance
+between the treated and the untreated samples. Genes showing more than a two fold increase in abundance are shown. (C) pkaCOE and (D) pkaR– mutant D. discoideum cells
+were developed for 6 h and transcript levels of selected abc genes from A were measured by qRT-PCR. Fold increase was calculated as the ratio of the mRNA abundance
+between the mutant and the wild type. Bars represent the means and error bars represent standard error of the mean of three independent replications. Note that the scales
+of the y-axes are different between the different panels.
+
+showed low background levels of green ﬂuorescence (Fig. 4A),
+whereas two independent strains transformed with the abcB3 shRNA
+construct showed strong GFP expression (Fig. 4A). To test abcB3
+mRNA abundance in these cells, we measured mRNA levels at
+10 h of development by qRT-PCR and found that abcB3 expression
+was signiﬁcantly reduced in both strains compared to the wild
+type (Fig. 4B). The level of knockdown was different between the
+two abcB3-RNAi strains, so we used both strains in subsequent
+experiments.
+To test the effects of reduced abcB3 expression, we followed
+the wild type and both abcB3-RNAi strains during development.
+At 6 h, the wild type formed loose aggregates while strain abcB3RNAi #1 began to form loose aggregates. Strain abcB3-RNAi #2,
+however, failed to form loose aggregates by 6 h (Fig. 5). These
+results are consistent with the greater reduction of abcB3 mRNA in
+strain #2. At 10 h, the developmental differences between the wild
+type and the abcB3 RNAi strains were clearest. The wild-type cells
+formed tipped aggregates while abcB3-RNAi #1 and #2 cells
+remained at the tight aggregate and loose aggregate stages,
+respectively (Fig. 5). The developmental delays persisted at 17,
+22, and 27 h. By 27 h the majority of the wild-type cells formed
+fruiting bodies while the abcB3-RNAi strains did not (Fig. 5). The
+developmental delay displayed by the abcB3-RNAi cells is consistent with reduced cAMP export.
+abcB3 knockdown reduces extracellular cAMP levels
+To test whether abcB3-RNAi expression resulted in altered cAMP
+levels, we developed cells for 6 h, collected them and stimulated
+cAMP production with the cAMP analog 20 -deoxy-cAMP. This analog
+binds to cell surface cAMP receptors and induces cAMP production
+and export, but it is not detected by the cAMP detection method we
+
+used (Van Haastert, 2006; Chen et al., 2002). We found that
+stimulation caused a twofold increase in the levels of extracellular
+cAMP in the wild type but no signiﬁcant increase in the two abcB3RNAi cells (Fig. 6A). This ﬁnding supports the hypothesis that AbcB3
+exports cAMP during development. In wild-type cells, intracellular
+cAMP levels did not signiﬁcantly differ between unstimulated and
+stimulated conditions (Fig. 6B), probably because most of the newly
+synthesized cAMP was exported (Fig. 6A). We observed that
+intracellular cAMP levels did not increase signiﬁcantly in abcB3RNAi cells either (Fig. 6B). We suspect that reduced cAMP export
+could cause reduced cAMP production because cAMP levels are
+tightly regulated through feedback mechanisms (Saran et al., 2002).
+AbcB3 is an exporter of cAMP
+To examine the cAMP-exporter activity of AbcB3 more directly,
+we tested whether abcB3 expression in an ectopic system could
+facilitate cAMP export. We transiently transfected human
+HEK293T cells with abcB3 cDNA or with an empty vector (pcDNA3)
+control, stimulated the endogenous human adenyl cyclase with
+the addition of Forskolin, and measured cAMP levels. In vector
+control cells, Forskolin addition caused an increase in extracellular
+cAMP levels (Fig. 7A). Ectopic expression of AbcB3 caused an
+additional 30% increase in extracellular cAMP accumulation with
+Forskolin addition (Fig. 7A; black bars). Moreover, addition of the
+ABC-transporter inhibitor Probenicid reduced extracellular cAMP
+levels in AbcB3 transfected cells to that of the control cells (Fig. 7A;
+gray bars). This increase in cAMP export is accompanied by a
+decrease in intracellular cAMP levels after Forskolin treatment in
+AbcB3 expressing cells compared to control cells (Fig. 7B; black
+bars). Consistent with other studies in mammalian cells, inhibitor
+treatment did not raise intracellular cAMP levels likely due to
+
+E.R. Miranda et al. / Developmental Biology 397 (2015) 203–211
+
+207
+
+Fig. 4. Expression of abcB3 shRNA reduces abcB3 transcripts. Wild-type and abcB3 shRNA expressing cells were developed on black ﬁlters for 10 h as indicated. (A) GFP
+expression, an indicator of transformation efﬁciency, was determined by ﬂuorescence microscopy. (B) abcB3 transcript levels were measured by qRT-PCR and calculated as
+the ratio of the mRNA abundance between the mutant cells and the wild type (y-axis). Bars represent the means and error bars represent standard error of the mean of three
+independent replications.
+
+negative feedback regulation of cAMP production (Wielinga et al.,
+2003; Ardaillou et al., 1993; Hamet et al., 1989; Patel et al., 1995;
+Tjornhammar et al., 1983; Heasley and Brunton, 1985). These data
+further support the hypothesis that AbcB3 can export cAMP.
+
+Discussion
+Our data suggest that AbcB3 functions as a cAMP exporter
+in Dictyostelium. abcB3 mRNA accumulates in response to cAMP
+overload in D. discoideum and in the evolutionary distant relative,
+D. purpureum, which also uses cAMP as an aggregation chemoattractant. RNAi-mediated knockdown of abcB3 results in decreased
+extracellular cAMP levels and leads to perturbed D. discoideum
+development and ectopic expression of abcB3 is sufﬁcient to
+increase cAMP export in mammalian cells.
+Pharmacological inhibition of ABC transporters disrupted
+developmental aggregation and caused developmental delay,
+suggesting that ABC transporters are involved in cAMP export.
+The ABC transporter inhibitors used are chemically distinct and
+their potential off-target effects are probably different. However,
+all inhibitors disrupted development similarly and in a manner
+consistent with a defect in cAMP export (Wang and Kuspa, 1997),
+suggesting that their common effects are due to reduced cAMP
+export.
+
+In our genetics studies we used three criteria to select abc
+genes for further analysis: (1) cAMP-induced transcriptional
+regulation, (2) PKA-independent transcriptional regulation, and
+(3) evolutionary conservation of cAMP-dependent transcriptional
+regulation. Remarkably, of the 68 abc genes, abcB3 was the only
+gene that satisﬁed all three criteria. While our data suggests that
+abcB3 is indeed a cAMP exporter, we have not excluded the
+possibility that other cAMP-responsive abc genes encode potential
+cAMP exporters.
+In gene silencing experiments, we observed a developmental
+delay that began at the aggregation stage. The initiation of the
+delay at the aggregation stage is in line with a defect in cAMP
+signaling (Kessin, 2001; Saran et al., 2002; Meima and Schaap,
+1999). The delay persisted throughout development; however,
+some cells were able to form fruiting bodies eventually. The lack
+of complete developmental arrest suggests that there are other
+cAMP exporters in D. discoideum. This would not be surprising
+considering that ABC proteins are promiscuous transporters
+(Cheepala et al., 2013; Anjard and Loomis, 2002; Annilo et al.,
+2006; Sarkadi et al., 2006; Dean et al., 2001; Frelet and Klein,
+2006; Linton, 2007; van de Water et al., 2005). A more interesting
+rationale for multiple cAMP exporters is that D. discoideum
+development is controlled by several cAMP receptors (CAR1-4)
+expressed at different times and in speciﬁc cell types with varying
+degrees of afﬁnity to cAMP (Prabhu and Eichinger, 2006; Saxe
+et al., 1991). It is conceivable that multiple cAMP exporters exist
+
+208
+
+E.R. Miranda et al. / Developmental Biology 397 (2015) 203–211
+
+Fig. 5. abcB3 knockdown delays D. discoideum development. Wild-type and abcB3 shRNA expressing cells were developed on black ﬁlters and images taken at the indicated
+times. Images are representative of results from 3 independent experiments. Two independent strains expressing abcB3 shRNA constructs are shown. Scale bars for each row
+are shown in the left panels.
+
+Fig. 6. abcB3 knockdown reduces extracellular levels of cAMP in D. discoideum. Wild-type and abcB3 shRNA expressing cells were developed on black ﬁlters for 6 h,
+disaggregated, and treated with 20 -deoxy-cAMP. We measured extracellular (A) and intracellular (B) cAMP levels (pmol/2  105 cells). Bars represent the means and error
+bars represent standard error of the mean of four independent replications. npr 0.02.
+
+E.R. Miranda et al. / Developmental Biology 397 (2015) 203–211
+
+209
+
+Fig. 7. Ectopically expressed abcB3 exports cAMP in mammalian cells. HEK293T cells were transiently transfected with pcDNA3.1 (empty vector control) or an expression vector
+for abcB3 cDNA, as indicated. Transfected cells were unstimulated, stimulated with Forskolin alone, or with Forskolin and the ABC transporter inhibitor Probenecid, as
+indicated. We measured extracellular (A) and intracellular (B) cAMP levels (pmol/104 cells). Bars represent the means and error bars represent standard error of the mean of
+three independent replications. np r 0.02.
+
+and are also differentially expressed temporally and spatially
+during multicellular development. The other cAMP-responsive
+abc genes we identiﬁed might compensate when abcB3 is downregulated. Additionally, it is still formally possible that Adenylyl
+Cyclase A exports cAMP because the experiments done to test its
+potential export activity only showed that it was not the only
+exporter (Pitt et al., 1993).
+Another explanation for a lack of developmental arrest with
+abcB3-RNAi is that abcB3 knockdown was transient and incomplete. We were unable to knockout the abcB3 gene, which suggests
+that it might have an additional role in D. discoideum growth.
+Instead, we used the tgrB1-C1 promoter to drive abcB3-RNAi
+expression. The tgrB1-C1 promoter becomes active at around 4 h
+of development in all cells and remains active for about 6 h, after
+which it is mostly active in prestalk cells (Parikh et al., 2010;
+Benabentos et al., 2009; Hirose et al., 2011; Loomis and Shaulsky,
+2011). It is possible that once the tgrB1-C1 promoter became
+inactive, the levels of abcB3-RNAi expression were insufﬁcient to
+reduce the accumulation of abcB3 mRNA, and the cells were able
+to recover and develop. The reversibility of the phenotype is also
+supported by the observation that the ABC-transporter inhibitors
+effects were reversible. Both insufﬁcient knockdown and the
+presence of multiple cAMP exporters likely contribute to the
+developmental phenotype observed in our experiments.
+We measured cAMP levels inside and outside of D. discoideum
+cells and found a positive relationship between AbcB3 expression
+and levels of extracellular cAMP. We do not have direct binding
+evidence or structural data to further support that AbcB3 exports
+cAMP. It is therefore formally possible that AbcB3 may function in
+some ancillary capacity to the real cAMP exporter. However, the
+most compelling evidence that AbcB3 exports cAMP is that
+expressing abcB3 in mammalian cells was sufﬁcient to increase
+extracellular cAMP levels without any additional D. discoideum
+genes. Moreover, ABC transporter inhibitors blocked that increase
+in extracellular export.
+ABC transporters are present in every domain of life, transport
+an incredible array of molecules, and show a considerable level of
+functional and structural homology from bacteria to vertebrates.
+Human ABC transporters can export cAMP, and our data suggest
+that this function is also conserved in Dictyostelium. The physiological signiﬁcance of cAMP export is clear in D. discoideum
+(Alvarez-Curto et al., 2005; Prabhu and Eichinger, 2006). Very
+
+little is known about the function of cAMP efﬂux in mammals
+(Hamet et al., 1989; Tjornhammar et al., 1983), but the fact that it
+exists suggests that the ability to export cAMP evolved before the
+split between animals and amoebae.
+Much remains to be examined with regards to cAMP export and
+AbcB3 function and regulation. From a broader perspective, there are
+many abc genes in the D. discoideum genome, but their cargoes and
+functions are largely unknown. Multidrug resistance caused by ABC
+transporters has been an area of focused research and ABC transporter dysfunction causes 17 known genetic disorders (Annilo et al.,
+2006). Our previous work (Miranda et al., 2013) and this study
+provide a framework for studying ABC transporter function in D.
+discoideum not only in the context of ameba biology but also in the
+context of human biology and disease.
+
+Methods
+Dictyostelid strains, growth, and development
+D. discoideum AX4 (wild type), pkaR–, and pkaCOE strains are
+described in Shaulsky et al. (1998), Knecht et al. (1986), Anjard
+et al. (1992) and Mann et al. (1992). D. purpureum DpAX1 is
+described in Sucgang et al. (2011). Cells were grown in shaking
+suspension at 220 rpm at 221C in HL5 medium supplemented with
+penicillin (50 U/mL) and streptomycin (300 mg/mL) (Sussman,
+1987). abcB3 shRNA expressing cells were maintained as above
+and supplemented with G418 (10 μg/mL). For development on
+black nitrocellulose ﬁlters, cells were harvested at the logarithmic
+growth phase and washed twice with KK2 buffer (16.3 mM
+KH2PO4, 3.7 mM K2HPO4, pH 6.2). Cells (5  107) were deposited
+onto a 5 cm ﬁlter atop a paper pad saturated with 2 mL PDF buffer
+(9.2 mM K2HPO4, 13.2 mM KH2PO4, 20 mM KCl, 1.2 mM MgSO4,
+pH 6.5) and incubated in a dark humid chamber at 221C. Where
+indicated, vehicle control or 1 mM of the ABC inhibitors Indomethacin, Probenecid, Dipyridamole, or Sulfynpyrazone (Sigmaaldrich, MO, USA) was added to the PDF buffer. For developmental
+streaming assays, 1.56  106 cells/cm2 were deposited in a 12 well
+plate (BD Biosciences, CA, USA) under 666 μL of PDF containing
+vehicle control or 50 μM of one of the ABC transporter inhibitors.
+Cells were incubated at 221C in a dark chamber and imaged at
+16 h.
+
+210
+
+E.R. Miranda et al. / Developmental Biology 397 (2015) 203–211
+
+Plasmids, transformations, and transfections
+The abcB3 RNAi plasmid was constructed as described in
+(Martens et al., 2002). Brieﬂy, bases 80–480 of the abcB3 coding
+sequence followed by sequences complementary to bases 302–480
+were subcloned into an expression vector under control of the
+bidirectional tgrB1/tgrC1 promoter to facilitate RNAi during development. The ﬁnal vector contained abcB3 sequences controlled by
+the tgrB1 promoter and a green ﬂuorescence protein (GFP) gene
+controlled by the tgrC1 promoter, resulting in co-expression of
+abcB3 RNAi sequences and GFP. This plasmid was transformed into
+the AX4 strain, and G418 resistant clones were selected as
+described in (Benabentos et al., 2009). Independent strains were
+isolated from independent transformations. abcB3 knockdown was
+conﬁrmed by quantitative RT-PCR (qRT-PCR).
+abcB3 cDNA was cloned in the pcDNA3.1( þ) plasmid (Invitrogen, CA, USA). HEK293T cells (Nam et al., 2011a, 2011b) were
+maintained in DMEM (Invitrogen) containing 10% fetal bovine
+serum. Cells were transfected with abcB3 expression vectors or
+empty pcDNA3.1 plasmid using Lipofectamine 2000 (Invitrogen)
+according to the manufacturer's recommended protocol. Twentyfour hours after transfection, cells were counted, and re-seeded in
+a 6 well plate at 4.16  104 cm  2. The cells were used for cAMP
+export experiments 72 h post-transfection.
+mRNA abundance analysis
+D. discoideum and D. purpureum were developed on black
+nitrocellulose ﬁlters at 221C for 0, 3, or 6 h. Cells were harvested
+with KK2 buffer containing 0.02 M EDTA, and 3  107 cells were
+re-suspended in 30 mL of KK2 buffer containing no cargo or
+20 mM of 8-Br-cAMP. Cells were incubated in shaking suspension
+at 220 rpm for 2 h, harvested by centrifugation, and re-suspended
+in 1 mL of Trizols (Life technologies, CA, USA). Total RNA was
+extracted according to the manufacturer's recommended protocol.
+RNA was treated with DNAse as described (Benabentos et al.,
+2009), cDNA prepared using Superscript II reverse transcriptase as
+described (Parikh et al., 2010), and quantitative reverse transcriptase PCR (qRT-PCR) performed with oligonucleotides speciﬁc to
+each abc gene as described (Miranda et al., 2013). Two independent incubation experiments with three technical replicates of the
+qRT-PCR were performed. To determine abc transcript abundance
+in pkaR  and pkaCOE strains, experiments and analysis were
+performed similarly but without 8-Br-cAMP treatment. To conﬁrm
+abcB3 knockdown, qRT-PCR was performed as above after 10 h of
+development.
+Intracellular and extracellular cAMP measurement
+These experiments were conducted as described (Van Haastert,
+2006). Brieﬂy, D. discoideum cells were developed on black
+nitrocellulose ﬁlters for 4–6 h, harvested using KK2 buffer containing 0.02 M EDTA, and re-suspended at 5  107 cells/mL in KK2
+buffer. Using 4  106 cells of the suspension (80 mL), cAMP export
+was stimulated with 20 mL of a stimulus solution containing 50 mM
+2'-deoxy-cAMP and 50 mM DTT for 5 min. Samples were centrifuged for 5 s at 14,000g and intracellular and supernatant fractions
+were separated. Stimulation was stopped by adding 100 mL of 3.5%
+(v/v) perchloric acid to fractions and stored at  201C for radiolabeled competitive cAMP binding assays.
+Human cells were washed with 2 mL of 1  phosphate buffer
+saline (PBS, Invitrogen) without dislodging and incubated for 30 min
+with 1 mL of PBS containing 0.2 mM 3-isobutyl-1-methylxanthine
+(IBMX) (Sigma-Aldrich), or 0.2 mM IBMX and 100 mM Forskolin
+(Sigma-Aldrich), or 0.2 mM IBMX, 100 mM of Forskolin, and 100 mM
+Probenecid. Cells were harvested, centrifuged at 600g for 5 min, and
+
+the cells suspension was separated into supernatant (extracellular
+fraction) and pellet (intracellular fraction). Stimulation was terminated by adding 100 mL of 3.5% (v/v) perchloric acid to the fractions.
+Samples were stored at  201C for radiolabeled competitive cAMP
+binding assays.
+cAMP measurement was assayed as described in Van Haastert
+(2006). Brieﬂy, samples were neutralized using a 50% saturated
+solution of KHCO3, centrifuged, and the supernatant collected for
+the assay. 20 mL of tracer (0.4 mCi/mL of 3H-cAMP), 20 mL of sample
+or standard, and 40 mL of cAMP binding protein prepared from
+beef muscle (Chen et al., 2002) were combined and incubated on
+ice for 1.5 h. Binding reactions were stopped by addition of 40 mL
+activated charcoal. 50 mL of the supernatant was used to measure
+radioactivity via scintillation counting, and the amount of cAMP in
+samples was determined by comparing samples to standard
+amounts of cAMP as described (Van Haastert, 2006). For each
+experiment, samples were prepared in at least duplicates.
+
+Acknowledgments
+We thank Olga Zuchenko for help at early stages of the research
+and for fruitful discussions. This work was supported by the
+Dictyostelium Functional Genomics Program Project Grant from
+the National Institutes of Health (P01 HD39691). E.N. was supported by the IRACDA K12 GM084897 grant from the National
+Institutes of Health. The sponsors had no involvement in the study
+design, the data collection, analysis and interpretation, the decision to submit the work for publication or the writing of the
+report.
+
+References
+Alvarez-Curto, E., et al., 2005. Evolutionary origin of cAMP-based chemoattraction
+in the social amoebae. Proc. Natl. Acad. Sci. USA 102 (18), 6385–6390.
+Anjard, C., Loomis, W.F., 2002. Evolutionary analyses of ABC transporters of
+Dictyostelium discoideum. Eukaryot. Cell 1 (4), 643–652.
+Anjard, C., Pinaud, S., Kay, R.R., Reymond, C.D., 1992. Overexpression of Dd PK2
+protein kinase causes rapid development and affects the intracellular cAMP
+pathway of Dictyostelium discoideum. Development 115 (3), 785–790.
+Annilo, T., et al., 2006. Evolution of the vertebrate ABC gene family: analysis of gene
+birth and death. Genomics 88 (1), 1–11.
+Ardaillou, N., Placier, S., Wahbe, F., Ronco, P., Ardaillou, R., 1993. Release of cyclic
+nucleotides from the apical and basolateral poles of cultured human glomerular
+epithelial cells. Exp. Nephrol. 1 (4), 253–260.
+van Aubel, R.A., Smeets, P.H., Peters, J.G., Bindels, R.J., Russel, F.G., 2002. The MRP4/
+ABCC4 gene encodes a novel apical organic anion transporter in human kidney
+proximal tubules: putative efﬂux pump for urinary cAMP and cGMP. J. Am. Soc.
+Nephrol. 13 (3), 595–603.
+Barkley, D.S., 1969. Adenosine-30 ,50 -phosphate: identiﬁcation as acrasin in a species
+of cellular slime mold. Science 165 (3898), 1133–1134.
+Benabentos, R., et al., 2009. Polymorphic members of the lag gene family mediate
+kin discrimination in Dictyostelium. Curr. Biol. 19 (7), 567–572.
+Cheepala, S., et al., 2013. Cyclic nucleotide compartmentalization: contributions of
+phosphodiesterases and ATP-binding cassette transporters. Annu. Rev. Pharmacol. Toxicol. 53, 231–253.
+Chen, H.L., McCauley, L.K., D'Silva, N.J., 2002. cAMP binding protein assay for
+widespread use in cell signaling studies. Biotechniques 33 (1) (66–68, 70, 72).
+Chen, Z.S., Lee, K., Kruh, G.D., 2001. Transport of cyclic nucleotides and estradiol
+17-beta-D-glucuronide by multidrug resistance protein 4. Resistance to
+6-mercaptopurine and 6-thioguanine. J. Biol. Chem. 276 (36), 33747–33754.
+Dean, M., Hamon, Y., Chimini, G., 2001. The human ATP-binding cassette (ABC)
+transporter superfamily. J. Lipid Res. 42 (7), 1007–1017.
+Dinauer, M.C., MacKay, S.A., Devreotes, P.N., 1980. Cyclic 30 ,50 -AMP relay in
+Dictyostelium discoideum III. The relationship of cAMP synthesis and secretion
+during the cAMP signaling response. J. Cell Biol. 86 (2), 537–544.
+Frelet, A., Klein, M., 2006. Insight in eukaryotic ABC transporter function by
+mutation analysis. FEBS Lett. 580 (4), 1064–1084.
+Graf, G.A., et al., 2003. ABCG5 and ABCG8 are obligate heterodimers for protein
+trafﬁcking and biliary cholesterol excretion. J. Biol. Chem. 278 (48),
+48275–48282.
+Hamet, P., Pang, S.C., Tremblay, J., 1989. Atrial natriuretic factor-induced egression
+of cyclic guanosine 30 :50 -monophosphate in cultured vascular smooth muscle
+and endothelial cells. J. Biol. Chem. 264 (21), 12364–12369.
+
+E.R. Miranda et al. / Developmental Biology 397 (2015) 203–211
+
+Heasley, L.E., Brunton, L.L., 1985. Prostaglandin A1 metabolism and inhibition of
+cyclic AMP extrusion by avian erythrocytes. J. Biol. Chem. 260 (21),
+11514–11519.
+Hirose, S., Benabentos, R., Ho, H.I., Kuspa, A., Shaulsky, G., 2011. Self-recognition in
+social amoebae is mediated by allelic pairs of tiger genes. Science 333 (6041),
+467–470.
+Kessin, RH, 2001. Dictyostelium – Evolution, Cell Biology, and the development of
+multicellularity. Cambridge University Press, Cambridge, UK.
+Knecht, D.A., Cohen, S.M., Loomis, W.F., Lodish, H.F., 1986. Developmental regulation of Dictyostelium discoideum actin gene fusions carried on low-copy and
+high-copy transformation vectors. Mol. Cell. Biol. 6 (11), 3973–3983.
+Linton, K.J., 2007. Structure and function of ABC transporters. Physiology (Bethesda)
+22, 122–130.
+Loomis, W.F., Shaulsky, G., 2011. Developmental changes in transcriptional proﬁles.
+Dev. Growth Differ. 53 (4), 567–575.
+Mann, S.K., Yonemoto, W.M., Taylor, S.S., Firtel, R.A., 1992. DdPK3, which plays
+essential roles during Dictyostelium development, encodes the catalytic subunit of cAMP-dependent protein kinase. Proc. Natl. Acad. Sci. USA 89 (22),
+10701–10705.
+Martens, H., et al., 2002. RNAi in Dictyostelium: the role of RNA-directed RNA
+polymerases and double-stranded RNase. Mol. Biol. Cell 13 (2), 445–453.
+Meima, M., Schaap, P., 1999. Dictyostelium development-socializing through cAMP.
+Semin. Cell Dev. Biol. 10 (6), 567–576.
+Miranda, E.R., et al., 2013. ABC transporters in Dictyostelium discoideum development. PloS One 8 (8), e70040.
+Nam, E.A., Zhao, R., Cortez, D., 2011a. Analysis of mutations that dissociate G(2) and
+essential S phase functions of human ataxia telangiectasia-mutated and Rad3related (ATR) protein kinase. J. Biol. Chem. 286 (43), 37320–37327.
+Nam, E.A., et al., 2011b. Thr-1989 phosphorylation is a marker of active ataxia
+telangiectasia-mutated and Rad3-related (ATR) kinase. J. Biol. Chem. 286 (33),
+28707–28714.
+Oram, J.F., Lawn, R.M., Garvin, M.R., Wade, D.P., 2000. ABCA1 is the cAMP-inducible
+apolipoprotein receptor that mediates cholesterol secretion from macrophages.
+J. Biol. Chem. 275 (44), 34508–34511.
+Parikh, A., et al., 2010. Conserved developmental transcriptomes in evolutionarily
+divergent species. Genome Biol. 11 (3), R35.
+Patel, M.J., Wypij, D.M., Rose, D.A., Rimele, T.J., Wiseman, J.S., 1995. Secretion of
+cyclic GMP by cultured epithelial and ﬁbroblast cell lines in response to nitric
+oxide. J. Pharmacol. Exp. Ther. 273 (1), 16–25.
+Pitt, G.S., et al., 1992. Structurally distinct and stage-speciﬁc adenylyl cyclase genes
+play different roles in Dictyostelium development. Cell 69 (2), 305–315.
+Pitt, G.S., Brandt, R., Lin, K.C., Devreotes, P.N., Schaap, P., 1993. Extracellular cAMP is
+sufﬁcient to restore developmental gene expression and morphogenesis in
+Dictyostelium cells lacking the aggregation adenylyl cyclase (ACA). Genes Dev.
+7 (11), 2172–2180.
+Prabhu, Y., Eichinger, L., 2006. The Dictyostelium repertoire of seven transmembrane domain receptors. Eur. J. Cell Biol. 85 (9–10), 937–946.
+Reid, G., et al., 2003. The human multidrug resistance protein MRP4 functions as a
+prostaglandin efﬂux transporter and is inhibited by nonsteroidal antiinﬂammatory drugs. Proc. Natl. Acad. Sci. USA 100 (16), 9244–9249.
+Richardson, D.L., Loomis, W.F., Kimmel, A.R., 1994. Progression of an inductive
+signal activates sporulation in Dictyostelium discoideum. Development 120
+(10), 2891–2900.
+
+211
+
+Riley, B.B., Barclay, S.L., 1990. Conditions that alter intracellular cAMP levels affect
+expression of the cAMP phosphodiesterase gene in Dictyostelium. Proc. Natl.
+Acad. Sci. USA 87 (12), 4746–4750.
+Saran, S., Schaap, P., 2004. Adenylyl cyclase G is activated by an intramolecular
+osmosensor. Mol. Biol. Cell 15 (3), 1479–1486.
+Saran, S., et al., 2002. cAMP signaling in Dictyostelium. Complexity of cAMP
+synthesis, degradation and detection. J. Muscle Res. Cell Motil. 23 (7-8),
+793–802.
+Sarkadi, B., Homolya, L., Szakacs, G., Varadi, A., 2006. Human multidrug resistance
+ABCB and ABCG transporters: participation in a chemoimmunity defense
+system. Physiol. Rev. 86 (4), 1179–1236.
+Saxe 3rd, C.L., Johnson, R., Devreotes, P.N., Kimmel, A.R., 1991. Multiple genes for
+cell surface cAMP receptors in Dictyostelium discoideum. Dev. Genet. 12 (1-2),
+6–13.
+Schaap, P., 2011. Evolutionary crossroads in developmental biology: Dictyostelium
+discoideum. Development 138 (3), 387–396.
+Schaap, P., et al., 2006. Molecular phylogeny and evolution of morphology in the
+social amoebas. Science 314 (5799), 661–663.
+Shaulsky, G., Fuller, D., Loomis, W.F., 1998. A cAMP-phosphodiesterase controls
+PKA-dependent differentiation. Development 125 (4), 691–699.
+Sucgang, R., et al., 2011. Comparative genomics of the social amoebae Dictyostelium
+discoideum and Dictyostelium purpureum. Genome Biol. 12 (2), R20.
+Sucgang, R., et al., 2013. Comparative genomics of the social amoebae Dictyostelium
+discoideum and Dictyostelium purpureum. Genome Biol. 12 (2), R20.
+Sussman, M., 1987. Cultivation and synchronous morphogenesis of Dictyostelium
+under controlled experimental conditions. Methods Cell Biol. 28, 9–29.
+Tjornhammar, M.L., Lazaridis, G., Bartfai, T., 1983. Cyclic GMP efﬂux from liver
+slices. J. Biol. Chem. 258 (11), 6882–6886.
+Van Haastert, P.J., 2006. Analysis of signal transduction: formation of cAMP, cGMP,
+and Ins(1,4,5)P3 in vivo and in vitro. Methods Mol. Biol. 346, 369–392.
+van Veen, H.W., et al., 1998. A bacterial antibiotic-resistance gene that complements the human multidrug-resistance P-glycoprotein gene. Nature 391
+(6664), 291–295.
+Venkateswaran, A., et al., 2000a. Control of cellular cholesterol efﬂux by the nuclear
+oxysterol receptor LXR alpha. Proc. Natl. Acad. Sci. USA 97 (22), 12097–12102.
+Venkateswaran, A., et al., 2000b. Human white/murine ABC8 mRNA levels are
+highly induced in lipid-loaded macrophages. A transcriptional role for speciﬁc
+oxysterols. J. Biol. Chem. 275 (19), 14700–14707.
+Virdy, K.J., et al., 1999. High cAMP in spores of Dictyostelium discoideum: association
+with spore dormancy and inhibition of germination. Microbiology 145 (Pt 8),
+1883–1890.
+Wang, B., Kuspa, A., 1997. Dictyostelium development in the absence of cAMP.
+Science 277 (5323), 251–254.
+Wielinga, P.R., et al., 2003. Characterization of the MRP4- and MRP5-mediated
+transport of cyclic nucleotides from intact cells. J. Biol. Chem. 278 (20),
+17664–17671.
+Zhou, X, et al., 2008. Genetic deletion of low density lipoprotein receptor impairs
+sterol-induced mouse macrophage ABCA1 expression. A new SREBP1dependent mechanism. J. Biol. Chem. 283 (4), 2129–2138.
+van de Water, F.M., Masereeuw, R., Russel, F.G., 2005. Function and regulation of
+multidrug resistance proteins (MRPs) in the renal elimination of organic anions.
+Drug Metab. Rev. 37 (3), 443–471.
+
+

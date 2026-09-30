@@ -1,0 +1,794 @@
+Cyclic 3',5'-AMP Relay in Dictyostelium discoideum
+
+III . The Relationship of CAMP Synthesis and Secretion
+during the CAMP Signaling Response
+MARY C. DINAUER, STEVEN A. MACKAY, and PETER N . DEVREOTES
+Departments of Biochemistry and of Biophysics and Theoretical Biology, The University of Chicago,
+Chicago, Illinois 60637
+
+ABSTRACT Refinement of a perfusion technique permitted the simultaneous measurement of
+cAMP-elicited [3 H]cAMP secretion and intracellular [3 H]cAMP levels in sensitive D. discoideum
+amoebae. These data were compared with measurements of the rate of [32p] CAMP synthesis by
+extracts of amoebae sonicated at different times during the CAMP signaling response . CAMP
+stimulation of intact cells led to a transient activation of adenylate cyclase, which was blocked
+if 10 -' M NaN3 was added with the stimulus . During responses elicited by 10 -6 M CAMP, 10 -8
+M CAMP, and an increment in CAMP from 10 -e M to 10 -7 M, the rate of CAMP secretion was
+proportional to the intracellular CAMP concentration. Removal of a 10 -6 M CAMP stimulus 2
+min after the initiation of the response led to a precipitous decline in intracellular CAMP . This
+decline was more rapid than could be accounted for by secretion alone, suggesting intracellular
+phosphodiesterase destruction of newly synthesized CAMP . Employing these data and a simple
+rate equation, estimates of the time-course of the transient activation of adenylate cyclase and
+the rate constants for CAMP secretion and intracellular phosphodiesterase activity were obtained . The calculated rate of CAMP synthesis rose for ^-1 to 2 min, peaked, and declined to
+approach prestimulus levels after 3 to 4 min. This time-course agreed qualitatively with direct
+measurements of the time-course of activation, indicating that the activation of adenylate
+cyclase is a major element in determining the time-course of the CAMP secretion response .
+Dictyostelium discoideum grows as free-living amoebae, feeding
+upon bacteria until the food supply is exhausted or removed.
+The amoebae then aggregate to assemble multicellular structures, each containing -105 cells. Through a process of morphogenesis and differentiation, fruiting bodies are formed,
+consisting of a ball of spores held aloft on a slender cellular
+stalk. Aggregation is guided by chemotaxis toward cyclic adenosine 3',5'-monophosphate (cAMP) signals. Because amoebae
+also respond to cAMP signals by secreting additional cAMP,
+the signal is relayed from cell to cell over long distances (up to
+10 mm). Waves of cAMP, which emanate from centers with a
+regular periodicity of 5-10 min, can be visualized in monolayers of aggregating amoebae.' After the passage of each wave,
+extracellular cAMP is destroyed by membrane-bound and
+secreted phosphodiesterases . The result of these processes is the
+orderly assembly of a multicellular form (1, 6, 15, 17).
+Our goal is to understand the mechanism of cAMP signaling.
+' Tomchik, K. J., and P. N . Devreotes. Manuscript in preparation.
+THE JOURNAL OF CELL BIOLOGY " VOLUME 86 AUGUST 1980 537-544
+© The Rockefeller University Press - 0021-9525/80/08/0537/08 $1 .00
+
+This process apparently involves the sequential binding of the
+signal molecule to the cell surface receptors for cAMP, transduction of the event to the cytoplasmic side of the membrane,
+activation of adenylate cyclase, accumulation of intracellular
+cAMP, and, finally, its secretion into the medium. No systematic and quantitative kinetic analysis of this sequence of events
+has been published. Furthermore, previous studies have employed cell suspensions in which the level of the stimulus and
+the recovery of the secreted response were not controlled (7, 8) .
+We have therefore measured the time-course of activation of
+adenylate cyclase in response to extracellular cAMP . We also
+followed the kinetics of accumulation of intracellular cAMP in
+response to exogenous cAMP signals and the concomitant
+release of this nucleotide into the medium, using a filterperfusion apparatus. These data were correlated to assess the
+role of adenylate cyclase activity, intracellular phosphodiesterase activity, and the secretion of cAMP in the regulation of the
+signaling response .
+537
+
+MATERIALS AND METHODS
+
+Growth and Development of Ax-3
+Ax-3, the axenic strain of D . discoideum (l4, 22), was obtained from W. C.
+Summers of Yale University. Ax-3 amoebae were grown in suspension at 22'C
+in HL-5 medium (per liter : 10 g of dextrose. 10 g of protease peptone no . 3 [Difco
+Laboratories, Detroit, Mich .], 5 g of yeast extract [Difco], 0.965 g of Na2H2 PO4,7 H2O, 0.486 g of KH:PO,, 100,000 U of penicillin, and 0.1 g of streptomycin
+1141) . Cultures were started from frozen spore stocks and maintained for no more
+than 3 mo. Doubling times ranged from 8 to 12 h. Cells were passed before the
+culture had reached a density of 5 x 10' cells/ml. Cell density in the stationary
+phase was 2 x 10' cells/ml . To initiate differentiation by starvation, cells at a
+density of 2-5 x 10' cells/ml were washed by two centrifugations (600 g for 3
+min) at 4'C in M-KK2 buffer (2 .31 g of KH 2PO4, 1.00 g of K2 HPO<, 0.5 g of
+Mg SO, per liter solution, pH 6.2), resuspended in M-KK2 at a density of 2 x 10'
+cells/ml, and shaken for 5-6 h (gyratory shaker, model G-2, 1-cm radius. 225
+rpm; New Brunswick Scientific Co ., Edison, N. J.) at 22°C .
+
+CAMP and Adenylate Cyclase Activity in Ax3 Suspension
+After 5-6 h of starvation in suspension, cells were washed twice in M-KK-,
+and resuspended at a density of 2 x 10' cells/ml . After -20 min at 22 °C, the
+CAMP signaling responses ofthe cells were synchronized in suspension by adding
+5 ul of 10 -`' M CAMP per milliliter of cell suspension every 7 min. The final
+stimulus was usually 10 pl 10' M CAMP, I M dithiothreitol (DTT) per milliliter
+of suspension. The concentration of total CAMP (intracellular plus extracellular
+CAMP) in the cell suspensions was estimated with the erythrocyte ghost isotope
+dilution assay as previously described (3). Adenylate cyclase activity measurements followed the methods of Roos and Gerisch (19). 500 AI of cell suspension
+were mixed with 50 Al of 2 M sucrose, 10 HIM EDTA, 0.5 M Tris-HCI (pH 8)
+and 100 mM DTT and sonicated for 2-5 s (on a Branson Sonifier, model W-140,
+setting 3.5 ; Branson Sonic Power Co., Danbury, Conn.) . 1001ul of the sonicate
+were added to 10 I1 of 50 mM MgC12, 100 mM DTT, 50 mM CAMP, 1 M creatine
+phosphate, I mg/ml creatine phosphokinase (Sigma Chemical Co., St . Louis,
+.
+Mo .), 5 mM ATP, and 250 ACi/ml ATP-(y-''2P) After I min at 22°C, 100111 of
+I% SDS was added . [''ZP]cAMP was purified according to the methods of Salomon
+et al. (21) .
+
+Growth of NC-4
+Dictyosteflum discoideum Raper, strain NC-4, and Enterobacter aerogeness
+(stock nos. 11735 and 1304B, respectively) were obtained from the American
+Type Culture Collection .
+Liquid E. aerogenes cultures were prepared by growing a colony of E.
+aerogeness in 50 ml of nutrient broth (5 .0 g of dextrose, 5.0 g of bactopeptone
+[Difco], 0.5 g of yeast extract [Difco] per liter of M-KK Z] for 1-2 days without
+shaking . E. aerogenes was propagated as colonies by streaking a liquid culture
+onto nutrient agar plates (2% agar in nutrient broth). After 2 d of growth at room
+temperature, plates were stored at 4'C for up to a month before use.
+To grow and propagate NC-4 cells, spores were harvested from fruiting bodies
+and mixed with a I- to 2-day liquid E. aerogenes culture. After spore density was
+determined with a hemocytometer, aliquots were mixed with 0.2 ml of liquid E.
+aerogenes culture and spread evenly on nutrient agar plates. Plating densities
+were calculated from the estimated doubling time of 4 h to yield 5 x 10 7 NC-4
+cells/plate after a 24-h incubation at 22 °C. After growth to higher densities,
+patchy clearing of the confluent bacterial lawn occurs. Plates were harvested for
+starvation after 20-24 h of growth, with some reserved fordevelopment to fruiting
+bodies . Every 3-4 mo, NC-4 cultures were restarted from frozen spore stocks .
+Spores were plated as described and passed through the entire life-cycle two to
+three times before being used to grow amoebae for experiments.
+
+[3H]Adenosine Labeling and
+
+Development of NC-4
+
+3 x l0' cpm.
+
+Measurement of Intracellular and
+Extracellular CAMP
+PERFUSION APPARATUS : Our objective was to measure changes in intracellular and secreted CAMP elicited by exogenous CAMP stimuli of defined
+magnitude and duration . D. discoideum amoebae can modify the extracellular
+CAMP concentration in their environment both by secretion of additional CAMP
+and by phosphodiesterase destruction of CAMP. However, we have shown that
+rapid perfusion maintains a constant exogenous CAMP concentration and removes secreted CAMP effectively (3). Equilibrium binding of CAMP to surface
+receptors is rapidly achieved (11) . Therefore, during each successive drop (5 s) .
+the receptor occupancy should become adjusted to the applied CAMP concentration and little secreted CAMP should remain bound to cellular sites . Because the
+perfusion technique also rapidly separates secreted CAMP from cells, it permits
+the simultaneous estimation of intracellular and secreted CAMP.
+The eight-filter perfusion apparatus employed is illustrated in Fig. 1 . The
+details of its construction (i.e ., filter holders, tubing connections, etc.) follow those
+described for a single filter perfusion apparatus (3). Perfusion solutions were
+delivered via an eight-channel Gilson Minipuls (Gilson Medical Electronics, Inc.,
+Middleton, Wis.) pump . Flow rates were made nearly identical among the
+channels at I drop/5-6 s. Perfusion solutions were abruptly switched as follows.
+The lines leading to the pump were transferred to the new solution. This
+introduced an air bubble into each of the pump lines. Just before the air bubble
+emerged, the bar supporting the pump lines was lifted from above the filters . The
+"rabbit" control of the Gilson Minipuls pump was used to rapidly clear the air
+bubble from the lines, starting the flow of the new solution . The support bar was
+then repositioned above the filters . The entire procedure required - 15 s, during
+which time the filters were not perfused . Time 0 was taken as the moment the
+first drop of new solution fell onto the filters .
+SYNCHRONIZATION OF CELLS : At the time ofharvest, the[''H]adenosinelabeled amoebae showed visible signs of aggregation . Because some of the
+aggregating cells are likely to be signaling when harvested, they initially might
+vary in their ability to respond to external CAMP. To synchronize the amoebae,
+freshly harvested amoebae were loaded onto filters and perfused with M-KK, for
+3-5 min. A stimulus of 10-" M CAMP was applied for 2-3 min and the perfusion
+buffer was then switched back to M-KK2 alone. After 8-10 min of recovery . the
+test stimulus was given, as indicated in Results, and intracellular and extracellular
+[''H]CAMP were monitored .
+PURIITC .ATION OF CAmp : Toquantitatively compare amounts ofintracel-
+
+Conditions for
+
+NC-4 amoebae were washed off nutrient agar plates with M-KK 2 and freed
+of bacteria by two to three centrifugations (600 g for 3 min) at 4°C. Amoebae
+were then shaken at a density of 5 x 10' cells/ml with ['H]adenosine-labeled E.
+coii (3). After 3 h at 22 °C, amoebae were freed of labeled bacteria by two
+centrifugations (600 g for 3 min) . Labeled amoebae were resuspended in M-KK=
+and transferred to nutrient-free agar plates (2% agar in M-KK2) in a volume of
+20O Al (for petri dishes of 35-mm diameter, Falcon 1008; Falcon Labware. Div.
+Becton, Dickinson & Co ., Oxnard, Calif.) or 400 Al (60-mm diameter petri dishes,
+Falcon 1007). Plating density was 0.7-I x 10" cells/cm'. Cells were spread by
+
+538
+
+shaking and swirling the plates. Lids were not put on until excess surface moisture
+had disappeared after 10-20 min. Plates were then incubated in a humidified
+chamber in the dark at 7'C for l7-18 h or at 22'C for 5-7 h. Before using
+amoebae developed at 7'C in an experiment, the plate was transferred to a 22'C
+incubator for 30-45 min. When the first signs of aggregation became visible, cells
+were harvested by gently flushing the plates with I-2 ml of M-KK=. Identical
+aliquots were pipetted onto eight filters (Millipore SSWPO 1300, Millipore Corp . .
+Bedford, Mass .) in the perfusion apparatus, as described below. All experiments
+were carried out at 19'-22 °C. The number of cells per filter ranged from 0.5-1 .5
+x 10' cells. Total filter radioactivity, determined by counting an aliquot of
+amoebae in I ml 1% Triton and 7 ml Triton-toluene fluor (3), ranged from 0.5-
+
+THÉ JOURNAL of CELL BIOLOGY - VOULmc 86, 1980
+
+FIGURE
+
+1
+
+An eight-filter perfusion apparatus. Drawn to the scale
+
+of a filter holder, which is 13 mm in diameter .
+
+lular and secreted [''H]cAMP, [8-"C]CAMP (53.1 mCi/mmól, New England
+Nuclear, Boston, Mass .) was used as an internal standard . Secreted [''H]cAMP
+was collected into 100 lil of a phosphodiesterase stopping solution (8% formic
+acid, 10 -" M cAMP) containing 50-80 cpm of ['"C]cAMP. At each time-point,
+one filter was removed from the apparatus and inverted into 250 pl of stopping
+solution containing the same number of counts per minute as the 100 la[ of
+extracellular stopping solution . After purification, the [''H]cAMP/["C]cAMP
+ratio for the filter was used to quantitate the amount of [''H]cAMP associated
+with the cells at a time-point, while the [''H]cAMP/['"C]cAMP ratio for the
+perfusate gave the total amount of ['H]cAMP secreted up to that moment .
+The extracellular perfusates (usually 3-5 ml) and 200-1i1 aliquots of the
+material extracted from the filters were frozen at -20° C. After drying under
+vacuum, the residue was resuspended in l ml of M-KK_ and applied to a I -ml
+Bio-Rad AG 50W-X4 column (Bio-Rad Laboratories, Richmond, Calif.) . Columns were eluted as described previously (3) except that the eluate containing
+cAMP was eluted directly into a second column containing I g of neutralalumina
+(Bio-Rad) preequilibrated with 50 mM Tris-HCI, pH 7.5 . The alumina columns
+were eluted directly into scintillation vials with 6 ml of 100 mM Tris-HCl (pH
+7 .5) . The solution in the vials was then evaporated to dryness at 65 ° C, and
+samples were processed and counted as previously described (3). Recovery of
+[''H]cAMP was -60% for both filter extracts and extracellular perfusates.
+The effectiveness of the purification method for intracellularcAMP was tested
+by analysis of the radioactivity eluted from the alumina columns. In this experiment, alumina columns were eluted with 100 mM N-ethyl morpholine (pH 7 .5),
+which elutes an identical amount of radioactivity as 100 mM Tris-Cl (pH 7.5).
+Samples were evaporated to dryness, resuspended in 100 lil H_O, and examined
+by thin-layer chromatography as previously described (3). Little of the cellassociated radioactivity present before application of the stimulus was ['H]cAMP,
+whereas essentially all of the increase in cell-associated radioactivity after stimulation was [''H]cAMP . The fold increase in cell-associated [''H]cAMP is therefore
+greater than appears in the experiments reported here . This control experiment,
+however, suggests that a low, constant background can be subtracted from each
+time-point and that changes in the ''H/'"C ratio accurately reflect changes in the
+level of intracellular ['H]cAMP .
+
+Quantitative Analysis of Intracellular and
+Extracellular CAMP
+To compare intracellular levels of cAMP and cAMP secretion rate, it was
+necessary to compute the secretion rate from the graph of extracellular [''HlcAMP/['"C]cAMP ratios vs. time . This was accomplished by first hand-fitting a
+curve to the extracellular cAMP data points. This curve was then entered into a
+specially designed computer system (18) using a sonic digitizing pen (Graph/Pen,
+Scientific Accessories Corp., Southport, Conn .) . The derivative of this curve was
+computed using Lagrangian interpolation polynomials (10) . Small irregularities
+in the curve were introduced because the curve was traced by hand to enter the
+data into the computer system . Median smoothing of the derivative was used to
+eliminate single anomalous points; however, some small fluctuations in the
+computed derivative remained (e.g ., Fig. 2) to which no significance is attached.
+The same procedure was followed for intracellular [''H]cAMP/['"C]cAMP ratios
+to compute dI/di (I, intracellular cAMP level; t, time) for purposes of computing
+adenylate cyclase activity .
+
+RESULTS
+
+Responses Elicited by Continuous Stimuli of
+High Concentration
+Our initial objective was to correlate intracellular cAMP
+levels with the rate of secretion of cAMP during responses
+elicited by a nearly saturating stimulus, 10-6 M cAMP . As
+previously demonstrated (3, 4), when the stimulus concentration was held constant by rapid perfusion with 10-6 M cAMP,
+the cAMP secretion rate rose and fell with a characteristic timecourse (Fig. 2, dotted curve) . The cAMP secretion rate was
+calculated by taking the derivative of the curve showing the
+total cAMP secreted as a function of the stimulus duration
+(Fig . 2, open symbols) . The rate rose geometrically for 2-3 min
+and returned to baseline levels within 10-15 min. The decline
+in the cAMP secretion rate began abruptly and had rapid (t1/z
+= 2 min) and slow (t1/2 = 5-6 min) components . Thus, the
+major portion of the profile had a "sawtooth" appearance
+
+to
+MINUTES
+
+Response to a continuous 10 -6 M cAMP stimulus . Labeled, differentiated NC-4 amoebae were placed in the perfusion
+apparatus and synchronized with cAMP as described in Materials
+and Methods. The perfusion solution was then switched to one
+containing 10 -6 M cAMP (time 0, above) . This stimulus was maintained for 20 min (dashed lines) . Plotted is the ratio of [ 3 H]cAMP/
+[' °C]cAMP recovered in each of the intracellular (closed symbols)
+or extracellular (open symbols) samples. The data from two experiments carried out on the same day are shown (squares or circles) .
+Amoebae from one nutrient-free agar plate were used for each
+experiment. The data from the second experiment (circles) were
+normalized such that the final extracellular [ 3 H]cAMP/['"C]cAMP
+ratio equaled that of the first experiment (squares) . The unnormalized final extracellular ratio in the second experiment was 13 .2 . The
+thin dotted line is the cAMP secretion rate calculated as the derivative of the accumulated extracellular [ 3 H]cAMP/[' ° C]cAMP, scaled
+so that its peak height was equal to that of the intracellular 3 H/'"C
+ratio. The experiment was repeated four times with similar results .
+FIGURE 2
+
+followed by a slow decline to prestimulus levels . Perfusion with
+higher stimulus concentration (10-" M) elicited responses of
+similar magnitude and time-course .
+When cells were treated with a sustained stimulus of l0 -`' M
+cAMP, the level of intracellular cAMP rose rapidly from basal
+levels and then fell spontaneously (Fig. 2) . The falling phase of
+the intracellular cAMP level appeared to have two components .
+Intracellular cAMP dropped to -30°ío of its peak value after 5
+min of stimulation . It then declined slowly and by 20 min, the
+longest time monitored, it had not quite reached the prestimulus level . The change in intracellular cAMP levels was thus
+qualitatively similar to that in the cAMP secretion rate . They
+rose with the same time-course, peaked after about 2 min, and
+declined at nearly the same rate .
+
+Responses Elicited by Continuous Stimuli of
+Low Concentration
+Fig. 3 shows a representative response to a continuous
+-e
+stimulus of 10 M cAMP . (The total amount of cAMP secreted
+at this stimulus concentration is -10-30% of that secreted in
+response to 10 -6 M cAMP .) The time-course of the response
+was similar to that elicited by 10-6 M cAMP . The changes in
+both intracellular cAMP levels and cAMP secretion rates had
+a sawtooth profile; however, the half-width was slightly narrower in response to 10 -6 M cAMP than to 10 -6 M cAMP . As
+with responses to 10 -6 M cAMP, the time-course of the intracellular cAMP accumulation and cAMP secretion rate were
+quite similar . Thus, the secretion rate was directly proportional
+to the intracellular cAMP level during the response to both
+subsaturating and saturating stimuli.
+DINAUER LT
+
+AL .
+
+cAMP Synthesis and Secretion in D . discoideum
+
+539
+
+z 'U)
+LU
+Ez
+aU
+M
+0
+
+MINUTES
+
+Response to a continuous 10 -e M cAMP stimulus . Protocal was identical to that in Fig. 2 except that a stimulus of 10 -e M
+cAMP was given at time 0. This stimulus was maintained for 15 min
+(as indicated by the dashed lines) . The [3H]cAMP/['"C]CAMP ratio
+is plotted for each of the intracellular (closed symbols) and extraFIGURE 3
+
+cellular (open symbols) samples. The unnormalized final extracellular ratio in the second experiment (circles) was 3 .12 . Thin dotted
+line is the calculated secretion rate . The experiment was repeated
+three times with similar results .
+
+Responses Elicited by Increments in
+Stimulus Concentration
+The response to a given cAMP stimulus eventually subsides
+because of adaptation, but an increment in the stimulus concentration will elicit a second response (4). The time-course of
+the response to the increment is similar to that elicited by the
+initial stimulus except that the initial rate of increase in cAMP
+secretion rate is more rapid and the peak secretion rate occurs
+sooner (5).
+In Fig. 4, we demonstrate that the more rapid increase in the
+cAMP secretion rate after an increment in the stimulus reflects
+an increased rate of accumulation of intracellular cAMP . A 5min stimulus of 10-8 M cAMP was immediately followed by
+one of 10 - ' M cAMP . The changes in intracellular and extracellular cAMP were monitored during the second response.
+The intracellular cAMP level rose more rapidly in response to
+the increment than in response to the initial stimulus (cf. Fig.
+3) . Intracellular cAMP increased from near basal levels at the
+onset of the 10 - ' M cAMP stimulus, reached a peak value by
+30 s, and then rapidly declined . The accelerated rise in intracellular cAMP shown in Fig. 4 accounts for the rapid rise in
+the secretion rates typically observed in response to increments
+in the cAMP stimulus (5).
+
+Time-course of Adenylate Cyclase Activity
+during Continuous Stimulation
+It has not been possible to activate D. discoideum adenylate
+cyclase with cAMP in cell homogenates. When cell suspensions
+were stimulated with cAMP before lysis, the enzyme in the
+homogenate showed increased activity that persisted for --45
+s (7, 12, 19, 20). Homogenates prepared several minutes after
+the addition of the stimulus no longer showed increased adenylate cyclase activity . It is unclear whether the transient
+elevation of enzyme activity reflected a spontaneous deactivation of the enzyme or the destruction of the extracellular cAMP
+stimulus .
+To test the effects of prolonged cAMP stimulation on ade540
+
+THE JOURNAL OF CELL
+
+BIOLOGY " VOLUME 86, 1980
+
+nylate cyclase activity, we sought a method to maintain a
+relatively constant cAMP stimulus concentration . We stimulated suspensions of amoebae with 10 -6 M CAMP and added
+10 mM DTT, a phosphodiesterase inhibitor (2, 9), to maintain
+the stimulus at a high level. As seen in Fig. 5, adenylate cyclase
+activity progressively increased in response to the stimulus,
+reaching a maximum after - 1 min of stimulation. Despite the
+persistence of the stimulus, adenylate cyclase activity then
+rapidly declined, approaching prestimulus rates within 3 min
+of the onset of the stimulus . The slight elevation persisting at
+subsequent times may be the source of the slow decline in the
+intracellular cAMP level during a continuous 10' M stimulus
+in Fig. 2.
+
+Effect of Sudden Removal of a CAMP Stimulus
+We previously demonstrated that the removal of the stimulus
+at any time during a response resulted in a rapid decline in the
+CAMP secretion rate (3, 4) . This observation is consistent with
+the rapid dissociation of cAMP-receptor complexes (t,/z = 4 s)
+(16) . The abrupt decrease in the secretion rate suggests that
+continuous occupation of surface cAMP binding sites is necessary to maintain either cAMP transport or the continued
+production of intracellular cAMP. To evaluate this issue, cells
+were perfused for 2 min with 10-6 M cAMP and then with
+buffer alone. Intracellular cAMP levels began to fall as soon as
+the stimulus was removed (Fig. 6) . Secretion of cAMP continued until intracellular cAMP had declined to basal levels. This
+result indicates that cAMP production depends on the continued presence of the stimulus, whereas secretion of cAMP does
+not.
+
+4
+
+0
+
+2
+
+6
+
+MINUTES
+FIGURE 4
+Responses to a stimulus increment from 10 -8 M to 10 -'
+M cAMP . Protocol was similar to that in Fig. 2 . However, after a
+stimulus of 10 -8 M cAMP had been applied for 5 min, the concentration of the cAMP stimulus was then suddently increased to 10 - '
+M (time 0, above) . The [ 3H]cAMP/['"C]cAMP ratio is plotted for
+each of the intracellular (closed symbols) and extracellular (open
+symbols) samples. Again, the results of two experiments are shown .
+The unnormalized final extracellular ratio in the second experiment
+(circles) was 3 .8 . Results similar to those shown in Fig. 4 were also
+obtained when the external cAMP concentration was raised to 5 x
+-s M
+10 -e M cAMP immediately after a 5- or 7- min stimulus of 10
+cAMP .
+
+Inhibition of Adenylate Cyclase Activation by
+NaN 3
+
+10
+
+The signaling response is rapidly inhibited by NaN3 (Fig . 7) .
+When 10 - " M NaN3 was added with a 10-6 M cAMP stimulus,
+no cAMP secretion was elicited. When 10-" M NaN3 was
+introduced after 75 s of stimulation with 10 -6 M cAMP, the
+secretion of cAMP declined rapidly. The fall in the secretion
+rate was essentially identical to that observed when the stimulus
+itself was removed.
+NaN3 does not antagonize cAMP binding to surface sites, in
+that the equilibrium binding of 10 -e M or 5 x 10-7 M [3H]cAMP to cells was unaffected by 10 - " M NaN 3 (data not
+shown) . Furthermore, the inhibition of the signaling response
+is not attributable solely to the depletion of ATP as a substrate
+for the adenylate cyclase. NaN3, an inhibitor of oxidative
+phosphorylation, does cause a rapid reduction in ATP levels in
+
+N
+N
+
+ó
+s
+E
+a
+
+5
+
+20
+
+Time-course of adenylate cyclase activity during continuous CAMP stimulation . Unlabeled Ax-3 amoebae in suspension
+were synchronized as described in Materials and Methods. The
+experiment illustrates the fourth and fifth synchronization cycles
+(28 and 35 min) . At 34 min, the suspension was adjusted to 10 -6 M
+cAMP, 10 mM DTT as indicated. At 1-min intervals, 50/1 of suspension were removed for determination of total CAMP ; 500 ,ul were
+removed, sonicated, and 100pl used for determination of adenylate
+cyclase activity . 1,000 cpm of [32p]cAMP corresponds to -25 pmol
+of CAMP . The experiment was repeated four times with similar
+
+100
+
+FIGURE 5
+
+results.
+6
+
+2
+4
+
+2
+
+FIGURE 6 Response to a 2-min 10 -6 M cAMP stimulus . Protocol
+was similar to that in Figs . 2 and 3. A 10 -6 M cAMP stimulus was
+applied (time 0, above) for 2 min, as indicated by the dashed lines,
+and followed by buffer alone . Plotted is the ratio of [3H]cAMP/-
+
+4
+
+MINUTES
+
+6
+
+FIGURE 7 Inhibition of responses to cAMP by NaN3 . In this experiment, [ 3H]adenosine-labeled, aggregating NC-4 amoebae from a
+single nutrient-free agar plate were divided among three separate
+filters. The four-filter perfusion apparatus employed is similar to
+that described in detail in Fig. 3. After transfer to the filters, amoebae
+were perfused for 20 min with M-KK2, stimulated with 10 -e M CAMP
+for 2 min, and perfused with M-KK2 for 15 min. Stimuli were then
+introduced simultaneously, as indicated by the first arrow. One filter
+was perfused with a continuous 10 -6 M CAMP stimulus (--~-) .
+The second filter was perfused with a combination of 10 -6 M CAMP
+and 10 -° M NaN3 (-A-) . The third filter received 10-6 M cAMP
+alone for 75 s, followed by 10 -6 M CAMP plus 10 -° M NaN3, as
+indicated by the second arrow (--0--) . The experiment was repeated five times with similar results .
+
+[' °C] CAMP recovered in each of the intracellular (closed symbols)
+or extracellular (open symbols) samples. The data from three experiments carried out on the same day are shown. All of the data from
+the second and third experiments (circles and triangles) were normalized such that the final extracellular [3H]cAMP/['"C]CAMP ratio
+equaled that of the first experiment (squares) . The actual final
+extracellular ratio in the second experiment (circles) was 5.8 and
+that of the third (triangles) was 4.7 . The experiment was repeated
+twice with similar results.
+DINAUER ET At .
+
+cAMP Svnthesis and Secretion in D . discoideum
+
+541
+
+200
+
+Z
+N
+
+a
+
+100
+
+U
+
+25
+
+30
+
+MINUTES
+
+35
+
+FIGURE 8 Inhibition of activation of adenylate cyclase by NaN3. 10
+ml of a suspension of unlabeled Ax-3 amoebae were synchronized
+
+as described in Materials and Methods . The experiment illustrates
+the fourth synchronization cycle (28 min) . At 26 min (--0--) and
+28 min (-0-), 3 ml were removed to separate 10-ml beakers and
+adjusted to 10 -° M NaN3 . The remaining 4 ml served as control
+(-0-) . At 28 .5 min, all three cell suspensions were adjusted to
+10 -6 M cAMP, 10 mM DTT. Each minute, 500-p1 aliquots of each
+suspension were removed and sonicaed, and 100 81 of each were
+processed in parallel for adenylate cyclase activity . The experiment
+was repeated three times with similar results .
+these cells (t,/2 = 8 s) . 2 However, as illustrated in Fig. 8, NaN3
+had a direct effect on the activation of adenylate cyclase. In
+this experiment, 10-" M NaN 3 was added to a cell suspension
+just before the introduction of a cAMP stimulus . The activity
+of adenylate cyclase measured in sonicates did not increase,
+even though 0.5 mM ATP was present in the reaction mixture.
+NaN3 added to sonicates did not inhibit activated adenylate
+cyclase. These results, taken together, suggest that there is a
+step between the binding of cAMP to surface sites and the
+activation of adenylate cyclase that can be blocked by NaN3.
+
+DISCUSSION
+It is evident that the rate of cAMP secretion is closely linked to
+the level of intracellular cAMP under a variety of conditions .
+
+z To measure ATP levels after introduction of NaN3, we used the eightfilter perfusion apparatus. Amoebae that had not been labeled with
+l''H]adenosine were developed to the early aggregation stage, harvested,
+gently pipetted onto eight filters (106 cells/filter), and synchronized as
+described in Materials and Methods. Filters were then perfused with
+NaN,. Two filters were removed just before the initiation of perfusion
+with NaN3, the other six at subsequent time-points. Filters were
+inverted into 200 Id of 8% formic acid. Later, equal aliquots were
+applied to cellulose thin-layer plates (Eastman-Kodak, Rochester, N.
+Y.) and chromatographed (3). The ATP region was scraped and eluted
+in 1 ml of 100 mM Tris-HCl (pH 7) . The ATP content of each sample
+was determined by the luciferin-luciferase method, employing a scintillation counter to measure light production (l3) . Values were expressed as a percent of the two control filters removed just before
+introduction of NaN3 . Within 30 s, ATP levels had fallen to 5% .
+54 2
+
+THE JOURNAL Or CELL BIOLOGY - VOLUME 80, 1980
+
+The cAMP secretion rate rose and fell in parallel with intracellular cAMP in response to sustained stimuli (Figs. 2-4) .
+Upon removal of the stimulus, both intracellular cAMP and
+the cAMP secretion rate declined abruptly (Fig. 6) . There is
+thus no evidence for regulation of the response at the cAMP
+secretion step . cAMP is synthesized and transiently accumulated before release, with no long-term storage. Under a variety
+of experimental conditions, the cAMP secretion rate was directly proportional to intracellular CAMP . This result disagrees
+with that of Gerisch and Wick (8). They reported a 30-s lag
+between the changes in intracellular and extracellular cAMP
+in suspensions of amoebae under conditions in which the level
+of CAMP was spontaneously oscillating.
+The parallel changes in intracellular cAMP levels and the
+rate of CAMP secretion observed in this study indicate a
+pseudo-first-order relationship between intracellular cAMP
+and its transport. This implies that the putative transport
+mechanism is not saturated at the highest intracellular cAMP
+levels observed (e .g ., during stimulation with 10-6 M cAMP).
+These peak levels are estimated to be 5-10 pM (4, 8) . A pseudofirst-order rate constant for the secretion step, Kç, was estimated
+using the relationship between the measured changes in the
+intracellular [3H]cAMP/[ `4C]CAMP ratio and the derivatives of
+the extracellular [''H]cAMP/[ ' 4C]cAMP ratios from the experiments shown in Figs . 2 and 3. (It was assumed that all
+intracellular cAMP was available for secretion.) The value of
+KS was 0.34 min-' and 0.94 min-' for the experiments shown
+in Figs. 2 and 3, respectively, and did not vary significantly
+across the time-course of the signaling response . The different
+rate constants might represent technical or developmental differences (e .g ., different levels of transport activity) between
+experiments carried out on different days rather than a dependence of transport rate on stimulus size .
+There was a discrepancy between the between the recovery
+of intracellular and secreted cAMP . The total [''H]cAMP secreted in response to 10-6 M cAMP was equal to - 1 .5 x the
+peak intracellular value. However, when intracellular [''H]cAMP was at its peak value, the sum of the intracellular and
+extracellular [3H]cAMP levels (i .e., the total cAMP in the
+system) was 1 .5 x greater than the intracellular cAMP level,
+equaling the total amount of [3H]cAMP secreted by the end of
+the response . This simple bookkeeping suggests there is destruction of some 1 3H]cAMP during the course of the response . The
+same conclusion was obtained by an analysis of the data in
+Figs . 3 and 6.
+We performed two tests of whether extracellular phosphodiesterases reduced the recovery of secreted [3H]cAMP . In the
+first, DTT was used to inhibit both secreted and membranebound phosphodiesterase activity (2, 9) . We compared responses elicited by stimuli of 10 -' M cAMP in the presence
+and absence of 10 mM DTT . Although 10 mM DTT had a
+slight inhibitory effect on the magnitude of the response, it had
+little effect on the ratio of intracellular to extracellular cAMP
+levels . In the second test, we raised the stimulus concentration
+to 10 -4 M cAMP to provide greater protection from extracellular phosphodiesterase . However, the relative recovery of
+intracellular and extracellular cAMP was unaffected by the
+100-fold increase in exogenous cAMP . As a further control,
+4
+[' C]cAMP was routinely added to collection vessels and the
+[3H]label recovered was normalized for destruction and all
+other losses after its collection. We conclude that secreted
+[3H]cAMP was not degraded by extracellular phosphodiesterases nor preferentially lost during subsequent purification in
+these experiments .
+
+Independent of the precise mechanism of CAMP secretion,
+it was possible to analyze the kinetics of cAMP production
+from the simultaneous measurements of intracellular and extracellular cAMP levels . We used a simple rate equation :
+d1(t) = V(t) - dE(t) KI(t)
+dt
+dt
+
+(1)
+
+where I(t) = intracellular cAMP level at time t, V(t) = rate of
+synthesis of cAMP at time t, E(t) = amount of extracellular
+CAMP by time t, and K, = first-order rate constant for destruction of intracellular cAMP. It is assumed that phosphodiesterase destruction of intracellular cAMP is first order and all
+intracellular cAMP is available for secretion and destruction.
+To estimate KP, the pseudo-first-order rate constant of phosphodiesterase, we considered the experiment shown in Fig. 6.
+The decline in the cAMP secretion rate when extracellular
+cAMP is removed has a time-course identical to that seen when
+NaN 3 is introduced (see Results) . Other data suggest that NaN 3
+rapidly blocks the activation of adenylate cyclase (Fig. 7).
+Therefore, we assumed that at the point of stimulus removal in
+the experiment shown in Fig. 6, the rate of cAMP production,
+V(t), dropped abruptly to zero. Eq. 1 can then be solved for K,
+in terms of measured quantities .
+Kp
+
+[dI(t lI(t)
+- dt )
++ d dt t)/I(t)
+
+KP was calculated according to Eq. 2 employing the data from
+Fig. 6 for changes in I(t) and E(t) after the stimulus was
+removed . A plot of -[dI(t)/dt + dE(t)/dt] vs. I(t) was linear;
+the slope, equal to KP, was 1.73 min - '. This result supports the
+premise that phosphodiesterase destruction ofcAMP is pseudofirst-order under these experimental conditions.
+By assuming that K, has the same constant value during the
+response, we calculated V(t), the rate of cAMP synthesis during
+the course of the signaling response, from Eq. 1 . We used the
+
+20-
+
+0
+
+Calculated rate of cAMP synthesis during a stimulus of
+ratios measured for intracellular and secreted cAMP during a 10 -6 M cAMP stimulus were taken
+from Fig . 2 and analyzed as described in the text . Eq . 1 was used to
+calculate the rate of cAMP synthesis, V(t) . El, V(t) . x, K p l (the rate
+of cAMP degradation) . E, d E(t)/d t (the rate of cAMP secretion) . O,
+d I(t)/d t (the rate of change in intracellular cAMP) . Dashed vertical
+line passes through the peak of K p l and d E(t)/d t, which occurs 0 .50 .8 min later than the peak in V(t) .
+FIGURE 9
+
+10 -6 M cAMP . [ 3 H]cAMP/['"C]cAMP
+
+data in Fig. 2 to provide 1(t) and E(t) during a 10-b M CAMP
+stimulus. dE(t)/dt, dI(t)/dt, and KpI(t) were calculated from
+the measured E(t) and I(t) values. V(t), equal to the sum of
+dI(t)/dt, dE(t)/dt, and KpI(t), is illustrated in Fig. 9, along
+with KpI(t), dI(t)/di, and dE(t)/dt. The calculated rate of
+cAMP synthesis rose and fell during the continuous 10-6 M
+cAMP stimulus . It is noteworthy that V(t) peaked at - 1-2 min,
+before the peak in KpI(t) and dE(t)/dt. V(t) then decreased
+sharply, approaching prestimulus values 3-4 min after the
+onset of stimulus .
+To estimate the amount of intracellular phosphodiesterase
+destruction of cAMP, we computed the areas under the curves
+for V(t) and dE(t)/dt. The value of the former area indicates
+the total amount of cAMP synthesized, while the value of the
+latter equals the total amount secreted. The ratio of [EE(t)/dt
+At]/[IV(t) At] equaled "0.16 by the end ofthe response to the
+continuous 10 -6 M stimulus illustrated in Fig. 2. According to
+this analysis, 84% of the newly synthesized cAMP was degraded
+intracellularly and the remaining 16% was secreted. (The fraction of intracellular cAMP secreted can also be calculated by
+taking the ratio of the first-order rate constant for cAMP
+secretion to the sum of those for secretion and phosphodiesterase destruction [i.e., Ks /(Kp + Ks ) = 0.34 min - '/2 .07 min - ' =
+0.16] .) Analysis of the response to the continuous 10 -8 M
+stimulus shown in Fig. 3 led to a similar result. In this case,
+53% of the CAMP was degraded intracellularly, whereas 47%
+was secreted. 3
+The large amount of intracellular cAMP destruction calculated by this approach deserves comment. It is unlikely that
+newly synthesized [3H]cAMP is destroyed by extracellular
+phosphodiesterases or preferentially lost during subsequent
+purification steps, as discussed above . It is possible that the
+assumption that Kp was constant and independent of cAMP
+receptor occupancy is not valid. However, the time-course of
+the rate of cAMP synthesis, V(t) (Fig. 9), calculated using this
+value for KP, closely resembles the experimentally determined
+time-course of adenylate cyclase activation (Fig. 5).
+In summary, we have defined the temporal relationship
+among adenylate cyclase activity, intracellular cAMP levels,
+and cAMP secretion during cAMP stimulation of D. discoideum
+amoebae . The rate of cAMP secretion is directly proportional
+to the level of intracellular cAMP. Our data suggest that a
+significant fraction of newly synthesized cAMP is degraded
+intracellularly . Nevertheless, the control of the rate of cAMP
+secretion during a cAMP stimulus appears to be exerted at the
+level of cAMP synthesis. When a cAMP stimulus was introduced and held constant, adenylate cyclase activity increased
+for - 1 min, peaked sharply, and then declined to nearly
+prestimulus levels within 4 min (Fig. 5). These changes slightly
+preceded the observed changes in intracellular cAMP and
+closely matched the time-course of V(t) calculated on the basis
+of the activities of intact cells (Fig. 9). The agreement between
+these two measures strongly suggests that the activity of adenylate cyclase is the major determinant of cAMP secretion
+rates in the signaling response.
+The authors thank Dr . T. L . Steck for use of his laboratory and
+valuable advice, Mr. K . Tomchik for technical assistance, Mr . H .
+' The discrepancy between the calculated fractional amount of intracellular cAMP degraded during a 10- ' M stimulus and that degraded
+during a 10 -e M cAMP stimulus arises because of the differences in
+the quantitative relationship between intracellular cAMP and the rate
+of cAMP secretion (i.e ., KS) in Figs . 2 and 3 .
+DINAUER Er AE .
+
+cAMP Synthesis and Secretion in D. discoideum
+
+54 3
+
+Cornejo for helpful discussion, and Mr . A . J . Kittler for constructing
+the eight-filter perfusion apparatus .
+This research was supported by U . S . Public Health Service
+(USPHS) grant GM 22321 to T . L . Steck. M . C . Dinaue r is a Medical
+Scientist Trainee, supported by USPHS grant GM 07281 . S . A .
+MacKay is a Postdoctoral Fellow of the Committee on Developmental
+Biology (USPHS grant HD 07136), The University of Chicago . P . N .
+Devreotes is a Postdoctoral Fellow of the Damon Runyon-Walter
+Winchell Cancer Fund (DRG 17ßF).
+Received for publication 1 October /979, and in revised form 7 April
+1980.
+
+REFERENCES
+I . Bonner, J . T . 1967 . The Cellular Slime Molds . 2nd ed . Princeton University Press,
+Princeton, New Jersey .
+2 . Chang, Y . Y. 1968 . Cyclic 3',5'-adenosine monophosphale phosphodiesterase produced
+by the slime mold Dictyostelium discoideum . Science ( Wash. D. C. ). 160 :57 -59 .
+3 . Devreotes . P. N ., P. L . Derstine, and T . L. Steck . 1979 . Cyclic 3',5' AMP relay in
+Dictyostelium discoideum. I . A technique to monitor responses to controlled stimuli . J. Cell
+Biol. 80 :291-299 .
+4. Devreotes, P. N ., and T . L . Steck . 1979 . Cyclic 3',5' AMP relay in Dictyostelium discoideum .
+11 . Requirements for initiation and termination of the response . J. Cell Biol. 80 :300-309.
+5 . Dinauer, M . C. . T. L . Steck, and P . N . Devremes. 1980 . Cyclic 3',5' AMP relay in
+Dictyostelium discoideum. IV . Recovery of the signaling response after CAMP stimulation .
+J. Cell Biol. 86:545-553.
+
+544
+
+Ttil JOURNAL OF CELL BIOLOGY - VOLUME 86, 1980
+
+6 . Gerisch, G . 1968. Cell aggregation and differentiation in Dictyostelium. In Current Topics
+in Developmental Biology . A . Moscona and A . Montroy, editors. Academic Press. Inc . .
+New York . 3 :157-197 .
+7 . Gerisch, G ., Y. Maeda, D. Malchow, W. Roos, W . Wick, and B . Wurster. 1977 . Cyclic
+AMP signals and the control of cell aggregation in Dictyostelium discoideum . In Development and Differentiation in the Cellular Slime Moulds . P . Capuccinelli and 1 . M .
+Ashworth, editors. Elsevier/North-Holland Inc., New York . 105-124 .
+8 . Gerisch, G ., and U . Wick . 1975 . Intracellular oscillations and release of cyclic AMP from
+Dictyostelium cells. Biochem . Biopbvs . Res. Commun. 65:364-370 .
+9 . Green. A .. and P. C . Newell . 1975 . Evidence for the existence of two types of CAMP
+binding sites in aggregating cells of Dictyostelium discoideum. Cell. 6:129-136 .
+10 . Hilbrand, F . B . 1956 . Introduction to Numerical Analysis. McGraw-Hill. Inc . . New York .
+11 . Juliani, M . H., and C . Klein. 1977 . Calcium on effects on cyclic adenosine 3',5'-monophosphate binding to the plasma membrane of Dictyostelium discoideum. Biochim. Bioph y.s .
+Acta. 497 :369-376 .
+12 . Klein, C . 1977. Adenylate cyclase activity in Dictyostelium discoideum amoebae and its
+changes during differentiation . FEBS (Fed. Eur. Biochem. Soc) Leu. 68 :125-128 .
+13 . LeMasters, J . 1 ., and C . R. Hackenbrock . 1977 . Kinetics of product inhibition during
+firefly luciferase luminescence . Biochemistry. 16:445-447 .
+14 . Loomis, W . 1971 . Sensitivity of Dictyostelium discoideum nucleic acid analogues . Exp. Cell
+Res. 64 :484-486 .
+15 . Loomis, W . G . 1975 . Dictyostelium discoideum. A Developmental System . Academic Press,
+Inc ., New York.
+16 . Mullens, I . A ., and P . C . Newell. 1978 . CAM P binding to cell surface receptors of
+Dictyostelium. Differentiation . 10 :171-176 .
+18 . Potel, M . J ., R . E . Sayre, and S . A . MacKay. 1980 . Graphics tools for interactive motion
+analysis . Computer Graphics and Image Processing . In press.
+19 . Roos, W ., and G . Gerisch . 1976 . Receptor-mediated adenylate cyclase activation in
+Dictyostelium discoideum. FEBS (Fed £ur. Biochem. Soc) L-etr . 68 :170-- 172.
+20 . Roos. W ., C . Scheidegger, and G . Gerisch . 1977 . Adenylate cyclase oscillations as signals
+for cell aggregation in Dictyostelium discoideum. Nature (tond.) . 266:259-261 .
+21 . Salomon, Y ., C . Londos, and M . Rodbell . 1974. A sensitive assay for adenylate cyclase .
+Anal. Biochem. 58:541-548 .
+22 . Sussman, R ., and M . Sussman . 1967 . Cultivation of D . discoideum in axenic medium .
+Biochem . Biophys . Res. Commun . 29:53-55 .
+
+

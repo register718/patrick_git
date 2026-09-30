@@ -1,0 +1,23 @@
+\begin{table*}[!t]
+\centering
+\caption{Module~1 reactions (default two-state receptor). R is the unphosphorylated cAR1 receptor, R$_p$ its phosphorylated form, RC and R$_p$C the cAMP-bound states; A is the cytosolic adapter of reactions 1.8.}
+\label{tab:m1rxn}
+\footnotesize
+\renewcommand{\arraystretch}{1.15}
+\begin{tabularx}{\textwidth}{@{}l>{\raggedright\arraybackslash}p{0.37\textwidth}>{\raggedright\arraybackslash}X@{}}
+\toprule
+ID & Reaction & Propensity (rate law)\\
+\midrule
+1.1 & $\mathrm{R}+\mathrm{cAMP}_e \to \mathrm{RC}$ & $k_\mathrm{on}[\mathrm{R}][\mathrm{cAMP}_e]$ \\
+1.2 & $\mathrm{RC} \to \mathrm{R}+\mathrm{cAMP}_e$ & $k_\mathrm{off}[\mathrm{RC}]$ \\
+1.3 & $\mathrm{R}_p+\mathrm{cAMP}_e \to \mathrm{R}_p\mathrm{C}$ & $k_{\mathrm{on},p}[\mathrm{R}_p][\mathrm{cAMP}_e]$ \\
+1.4 & $\mathrm{R}_p\mathrm{C} \to \mathrm{R}_p+\mathrm{cAMP}_e$ & $k_{\mathrm{off},p}[\mathrm{R}_p\mathrm{C}]$ \\
+1.5 & $\mathrm{RC} \to \mathrm{R}_p\mathrm{C}$ & $k_\mathrm{ph}[\mathrm{RC}]$ \\
+1.5b & $\mathrm{R} \to \mathrm{R}_p$ & $k_{\mathrm{ph}0}[\mathrm{R}]$ \\
+1.6 & $\mathrm{R}_p\mathrm{C} \to \mathrm{RC}$ & $k_\mathrm{dp}[\mathrm{R}_p\mathrm{C}]$ \\
+1.7 & $\mathrm{R}_p \to \mathrm{R}$ & $k_\mathrm{b}[\mathrm{R}_p]$ \\
+1.8a & $\mathrm{RC}+\mathrm{A} \to \mathrm{RC}+\mathrm{A}^*$ & $k_{A}[\mathrm{RC}][\mathrm{A}]$ \\
+1.8b & $\mathrm{A}^* \to \mathrm{A}$ & $k_{A,\mathrm{off}}[\mathrm{A}^*]$ \\
+\bottomrule
+\end{tabularx}
+\end{table*}

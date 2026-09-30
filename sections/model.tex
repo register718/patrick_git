@@ -1,0 +1,97 @@
+% =============================================================================
+% Cell model: overview, conventions and Hill-gate summary.
+% The per-module subsections (m0 ... m11, mmem) are \input at the end.
+% Parameter values are those of dicty_reactions.jl at repository revision 2668d66
+% (default configuration, all environment overrides unset).
+% =============================================================================
+\section{Intracellular Signalling Model}\label{sec:model}
+
+This section specifies the reaction network of a single \emph{Dictyostelium discoideum} cell that is embedded in the reaction--diffusion simulation of the cell population.
+For every module we list the reactions and constants in tables, explain why each reaction is present and which experiments motivate it, justify the constants, and justify every Hill gate.
+The numbering of the modules is that of the simulation code; Modules~5--7 (Rac/PAK, PLA2/Ca$^{2+}$ and Ca$^{2+}$ influx) are specified in the model description but are not part of the network analysed here.
+
+\subsection{Overview and conventions}\label{sec:conv}
+
+\paragraph{Signal flow.}
+Extracellular cAMP is sensed by the receptor cAR1 (Module~1), which catalyses the G-protein cycle (Module~2).
+Free G$\beta\gamma$ drives two Ras branches: RasG, whose adaptation and amplification (Module~3) control PI3K and PIP3 (Module~4), and RasC, which acts through TORC2, the kinases PKB and the effector CRAC (Module~8).
+Module~8 injects an activator into an excitable element (Module~0) that opens the adenylyl cyclase ACA (Modules~0 and~9) and thereby produces the cAMP pulse.
+Intracellular cAMP is exported (Module~9), degraded intracellularly and feeds back through PKA, ERK2 and RegA (Module~10), and is degraded extracellularly by the secreted phosphodiesterase PdsA and its inhibitor PdiA (Module~11), which closes the loop.
+
+\paragraph{Spatial discretisation and stochastic engine.}
+The domain is a square lattice with voxel edge $2\,\mu$m, so that one voxel has a volume of $8\,\mu\mathrm{m}^3$ and $1\,\mu\mathrm{M}$ corresponds to $M=4817.6$ molecules per voxel.
+A cell occupies $N_\mathrm{vox}=13$ voxels (a $3\times3$ block plus one voxel on each side), i.e.\ $104\,\mu\mathrm{m}^3$.
+In every time step of $\Delta t=2$\,ms, each voxel runs an exact stochastic simulation of its reactions up to $\Delta t$~\cite{gillespie1977}, after which molecules move to neighbouring voxels; the diffusion step requires $D\Delta t/\Delta x^2\le0.25$, which holds for the fastest species, cAMP ($D=350\,\mu\mathrm{m^2/s}$, value $0.175$).
+Membrane-bound and cytosolic species of the cell are confined to its voxels, whereas extracellular species (cAMP$_e$, PdsA$_e$, PdiA and their complex) live on the world lattice, which they leave at the domain boundary.
+Because the cost of a step scales with the total propensity, uniform rate multipliers change the run time.
+
+\paragraph{Units and rate constants.}
+First-order constants are given in s$^{-1}$, bimolecular constants in $\mu\mathrm{M}^{-1}\mathrm{s}^{-1}$ (the engine divides the propensity by $M$ once), and zeroth-order sources in $\mu\mathrm{M\,s^{-1}}$ per voxel.
+Rate constants are effective values of the model, not always the microscopic constants of a single enzyme; where a value is a lumped or rescaled quantity this is stated.
+
+\paragraph{Two numerical conventions that affect propensities.}
+The engine evaluates the raw product of the educt counts, so that $2\mathrm X$ would react with itself at rate $\propto n^2$ instead of $n(n-1)$.
+At the copy numbers of the excitable element (a few molecules per cell at rest) this is a 23\,\% error, and it acts as a spurious first-order source when molecules are spread over 13 voxels.
+Same-species reactions are therefore written with one educt and a falling-factorial factor (Table~\ref{tab:m0rxn}), which makes the per-voxel decomposition exact and the 13-voxel cell equivalent to one well-mixed compartment.
+Second, Hill gates with $n\ge6$ are written in the reciprocal form $[1+(K/x)^n]^{-1}$, because the propensity arithmetic is single precision and $x^8$ overflows for $x>65\,536$, which would make the gate undefined.
+
+\paragraph{Provenance of the constants.}
+Every constant carries a basis tag in the constants tables:
+\textbf{L}~a literature value used directly;
+\textbf{D}~derived from a literature anchor by a stated relation;
+\textbf{C}~calibrated on the model against a stated target behaviour, which is not an independent measurement;
+\textbf{E}~an estimate or design choice for which no measurement is available.
+Tags~C and E are the ones a reader should treat with caution.
+The number of C/E constants is large by necessity: many molecular abundances and rates of this pathway have never been measured, and the calibrations aim at reproducing the measured \emph{behaviour} (kinetics, thresholds, periods) of the cell rather than individual molecular values.
+
+\paragraph{Constants that are deliberately not literature values.}
+Three departures are made explicit because they trade realism for signal-to-noise or tractability:
+(i)~the G-protein to receptor ratio is 60 instead of about 3 (Module~2) to raise molecule counts in the gradient-sensing stages;
+(ii)~the uniform acceleration of all Module-4 rates by a factor of 20, which compresses time scales that were not measured;
+(iii)~the PdsA--PdiA dissociation constant is $10^4$ times weaker than measured (Module~11).
+
+\subsection{Hill gates}\label{sec:hill}
+
+Hill functions $x^n/(K^n+x^n)$ appear in the network wherever a lumped, thresholded step replaces a multi-step process that is not resolved by the model.
+They are not used to claim molecular cooperativity of $n$ binding events.
+A gate is justified when (i)~a switch-like transition is required for the function of the module, (ii)~its half-point $K$ can be placed relative to the resting and stimulated values of its input, and (iii)~its steepness $n$ is the smallest value that achieves the required contrast.
+Table~\ref{tab:hill} lists all gates of the default network, with the value of the gate at rest and at the stimulated level of its input where these are known from the model.
+Two further rules were enforced when placing the half-points: the activated fraction of a switch must be neither near zero nor near one at its working point (a saturated gate cannot report a difference), and each $K$ is placed between the resting and the driven value of its input.
+
+\begin{table*}[!t]
+\centering
+\caption{Hill gates and saturable kinetics of the default network. $x$ is the input of the gate.}
+\label{tab:hill}
+\footnotesize
+\renewcommand{\arraystretch}{1.2}
+\begin{tabularx}{\textwidth}{@{}l l l c l >{\raggedright\arraybackslash}X@{}}
+\toprule
+Gate & Reaction & Form & $n$ & $K$ & Justification \\
+\midrule
+Competence $c(H)$ & 0.9a & $H^n/(K^n+H^n)$ & 4 & $60$ molec/voxel & Developmental switch between non-firing and firing cells; $c(100)=0.885$. Phenomenological (Hunger is an abstract clock), steep to give a sharp onset. \\
+Refractory block $b(\mathrm{Rf})$ & 0.9a, 8.14 & $K^n/(K^n+x^n)$ & 4 & $450$ molec/cell & Decreasing gate that must shut the seed and the relay hard after a pulse and reopen within minutes. $K$ and $\tau_R$ were set on the measured recovery curve (blocked at 300\,s, open by 420\,s); $n=4$ makes the boundary sharp. \\
+ACA gate & 0.9f & $x^n/(K^n+x^n)$ & 4 & $192$ molec/voxel ERK2$^*$ & Opens the cyclase only after ERK2$^*$ has disarmed RegA (ERK2 is needed for ACA activation~\cite{segall1995} and controls the phosphodiesterase RegA~\cite{maeda2004,laub1998}); enforces the order ERK2$\to$ACA. \\
+PTEN eviction & 4.6c & $x^n/(K^n+x^n)$ & 2 & $1.31\times10^5$ PIP3/voxel & Realises mutual inhibition PIP3 $\dashv$ PTEN~\cite{matsuoka2018}; $n=2$ is the minimum cooperativity for winner-take-all behaviour. $K$ (17\,\% of the lipid pool) sits on the steep flank; beyond $\approx\!19.5\,\%$ the domain becomes an orientation-independent latch. \\
+PIP3 relay gate $g$ & 8.14 & $[1+(K/x)^n]^{-1}$ & 8 & $5000$ PIP3/voxel & The relay must open at the PIP3 evoked by 2\,nM cAMP ($\approx\!5000$/voxel; gate $0.51$) and stay shut at the resting level ($\approx\!10^3$; gate $<\!10^{-5}$), a contrast of only about 5. The exponent $n=8$ was set when the peak-to-plateau ratio was 2.7, for which a 300-fold suppression of the standing drive needs $n\approx8$, and was kept when $K$ was re-anchored. It stands for the lumped chain PIP3$\to$PKB$\to$CRAC$\to$cyclase priming, not one binding event. Reciprocal form (Sec.~\ref{sec:conv}). \\
+NF1 saturable GAP & 3.7z & $x/(K+x)$ & 1 & $0.2\,\mu$M & Michaelis--Menten hydrolysis with $K\ll[\mathrm{Ras}]_\mathrm{tot}$ (zero-order regime), which produces rectification of Ras activation~\cite{nakajima2014}; $K$ from~\cite{wiesmuller1992,coyle2016}. \\
+PdsA induction $P(H)$ & 11.D1b, 11.E1 & $H^n/(K^n+H^n)$ & 2 & $25$ molec/voxel & Starvation gate of the aggregation-stage \emph{pdsA}/\emph{pdiA} expression; opens early relative to the Hunger ramp, $P(100)=0.94$. \\
+PdiA repression $r$ & 11.E1 & $[1+(x/K)^n]^{-1}$ & 2 & $0.05\,\mu$M cAMP$_s$ & Repression of PdiA synthesis by the slowly filtered cAMP signal~\cite{yeh1978}; $n=2$ gives a graded but steeper-than-hyperbolic switch. \\
+Memory writing (optional) & M.1 & $x^n/(K^n+x^n)$ & 3 & $5000$ PIP3/voxel & Writes the mark only on the PIP3 rise ($H(\text{rest})\approx0.03$, $H(7500)\approx0.77$). \\
+\bottomrule
+\end{tabularx}
+\end{table*}
+
+\subsection{Reproducibility}
+All tables below are generated from the values that the simulation loads by default; every constant can be overridden from the environment for sensitivity studies.
+Two configurations of the code (a two-state and a multi-affinity receptor, Module~1) exist; only the two-state receptor is used.
+
+\input{sections/m0}
+\input{sections/m1}
+\input{sections/m2}
+\input{sections/m3}
+\input{sections/m4}
+\input{sections/m8}
+\input{sections/m9}
+\input{sections/m10}
+\input{sections/m11}
+\input{sections/mmem}

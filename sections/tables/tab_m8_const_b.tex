@@ -1,0 +1,26 @@
+\begin{table*}[!t]
+\centering
+\caption{Module~8 constants (b): CRAC, the relay output edge, pools and diffusion constants.}
+\label{tab:m8constb}
+\footnotesize
+\renewcommand{\arraystretch}{1.15}
+\begin{tabularx}{\textwidth}{@{}l r l c >{\raggedright\arraybackslash}X@{}}
+\toprule
+Symbol & Value & Unit & Basis & Meaning, justification, source\\
+\midrule
+$k_\mathrm{Cr}$ & \num{10} & $\mu\mathrm{M}^{-1}\mathrm{s}^{-1}$ & C & Phosphorylation of membrane-bound CRAC by either PKB. Both PKBs are TORC2 targets~\cite{kamimura2008} and RasC--TORC2--PKBR1 signalling prolongs ACA activation~\cite{cai2010}; PKB$\to$CRAC is a model assumption. \\
+$k_{\mathrm{Cr},P}$ & \num{1} & $\mu\mathrm{M}^{-1}\mathrm{s}^{-1}$ & E & PIP3-facilitated recruitment of CRAC, which is a PH-domain protein~\cite{insall1994,parent1998,comer2005}. \\
+$k_{\mathrm{Cr},b}$ & \num{0.2} & $\mathrm{s^{-1}}$ & C & PIP3-independent membrane association; keeps the relay functional when PIP3 is absent (PI3K-independent PKB signalling~\cite{kamimura2008}). \\
+$k_{\mathrm{Cr},\mathrm{off}}$ & \num{0.1} & $\mathrm{s^{-1}}$ & E & Release of unphosphorylated CRAC from the membrane. \\
+$k_{\mathrm{Cr},\mathrm{dp}}$ & \num{1.5} & $\mathrm{s^{-1}}$ & D & $=k_\mathrm{Cr}\,a\,(1-f)/f$ with $a=567$ PKBA$^*$/voxel (the measured peak) and target CRAC$^*$ fraction $f=0.44$; fixes the activated fraction of the CRAC switch. \\
+$k_X$ & \num{200} & $\mathrm{molec\,s^{-1}\,cell^{-1}}$ & C & Injection rate of X at full CRAC$^*$ (per-CRAC$^*$ rate $k_X/N_\mathrm{CRAC}=200/2002=0.1\,\mathrm{s^{-1}}$, with $N_\mathrm{CRAC}=2002$ per cell); must exceed the $\approx\!24$-molecule threshold of Module~0. \\
+$K_P,\ n_P$ & \num{5000},\ 8 & $\mathrm{molec/voxel},\ -$ & C & Half-open level and steepness of the PIP3 gate (Sec.~\ref{sec:hill}). \\
+$k_\mathrm{PKA}$ & \num{0.938} & $\mu\mathrm{M}^{-1}\mathrm{s}^{-1}$ & D & PKA$^*$ feedback on PKBR1$^*$; PKA exerts negative feedback on Ras, Rap1 and TORC2 signalling~\cite{scavello2017}. Derived from the Laub--Loomis coefficient $0.6\,\mathrm{min^{-1}}$~\cite{laub1998} ($30\times$ boosted), normalised by the PKA pool. \\
+$[\mathrm{RasC}]_\mathrm{tot}$ & \num{385} & $\mathrm{molec/voxel}$ & E & Pool size; not constrained by measurements. \\
+$[\mathrm{CGAP}]_\mathrm{tot},\ [\mathrm{TORC2}]_\mathrm{tot},\ [\mathrm{CRAC}]_\mathrm{tot}$ & \num{154} & $\mathrm{molec/voxel}$ & E & Pool sizes (2\,002 per cell); not constrained by measurements. \\
+$[\mathrm{PKBR1}]_\mathrm{tot}$ & \num{77} & $\mathrm{molec/voxel}$ & E & PKBR1 pool; PkbA (Module~4) is a separate, larger pool. \\
+$D_{\mathrm{RasC}},D_{\mathrm{TORC2}},D_{\mathrm{PKBR1}},D_{\mathrm{CRAC}_m}$ & \num{0.1} & $\mu\mathrm{m^2/s}$ & E & Membrane-bound species. \\
+$D_{\mathrm{GEF_A}},D_{\mathrm{CGAP}},D_{\mathrm{CRAC}_c}$ & \num{10} & $\mu\mathrm{m^2/s}$ & E & Cytosolic value ($D_{\mathrm{GEF_A^*}}=2$). \\
+\bottomrule
+\end{tabularx}
+\end{table*}

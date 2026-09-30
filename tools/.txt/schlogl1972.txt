@@ -1,0 +1,907 @@
+Z. Physik 253, 147-161 (1972)
+9 by Springer-Verlag 1972
+
+Chemical Reaction Models
+for Non-Equilibrium Phase Transitions
+F. Schl6gl
+Institut ffir Theoretische Physik
+der Rheinisch-WestfNischen Technischen Hochschule Aachen
+Received March 20, 1972
+Chemical model reactions are discussed the steady states of which show the phenomenon of non equilibrium phase transitions. One example shows a phase transition of
+second order, another one shows a phase transition of first order. If diffusion occurs in
+the case of first order transition, coexistence of two phases in different domains is
+possible. For plane boundary layers between the domains the coexistence states are
+found by a construction analogous to the Maxwellian construction of vapor pressure
+of a Van der Waals gas. For spherical domains the coexistence dates change similarly
+as vapor pressure of droplets or bubbles with radius.
+
+1. Introduction
+A certain class of thermodynamic non-equilibrium states is formed
+by such transport states which can be described by relatively few macroscopic thermodynamic variables. These variables may be local variables
+already occurring in thermostatics, or typical transport variables as
+flow densities of thermostatic quantities (as heat flow or electrical current
+density). Of special importance are the steady states of this class for
+which the thermodynamic variables in an adequate frame of reference
+are constant in time. If a steady state is sufficiently near to a thermostatic equilibrium s t a t e - t h a t means if it lies in the region where linear
+thermodynamics of irreversible processes is v a l i d - t h e steady state is
+characterized by minimal entropy production. This is not valid if the
+steady state is far away from any thermal equilibrium. Thermodynamics
+of these states is a relatively unknown field. As thermal equilibrium
+states are special steady states, it seems reasonable to consider the thermal
+steady states as a generalization of the thermal equilibrium states.
+It was pointed out by several authors that in the field of steady states
+of a system phenomena can occur which best can be described as phase
+transitions in non-equilibrium states. They should be considered not
+only as an analogy to phase transitions in thermostatics but as a generalization of these. There should for instance be mentioned the behaviour of
+
+148
+
+F. Schl6gI:
+
+a L A S E R below and above the threshold ~-4 and the behaviour of
+tunnel diode circuits 5, 6.
+Phase transitions in non-equilibrium states are always connected
+with non linear transport equations the study of which in general is
+complicated. Therefore it seems reasonable to discuss model systems
+which show phenomena of this kind of phase transition and which are
+as simple as possible with respect to mathematical treatment. In the
+following two such model systems are discussed. These are models of
+chemical reactions*. The first one shows a non-equilibrium phase
+transition of second order, the second one a phase transition of first
+order. The latter is more complicated and shows the possibility of
+coexistence of two different phases if diffusion takes place. The two
+phases form separated domains in space. The concentrations and therefore the reaction rates are different in the two phases and depend on the
+curvature of the surface of the domains. There are strict analogies to the
+dependence of vapor-pressure on the radius of a droplet.
+
+2. A Phase Transition of Second Order
+The following chemical reactions between four chemical species
+A, B, C, X may be assumed:
+A + X--r 2 X
+(2.1)
+B + X ~C.
+
+(2.2)
+
+The reactions m a y be possible in both directions. They m a y occur isothermic and homogeneous in space. All chemical species be rarified
+gases. The homogeneity of all concentrations can be realized in a stirring
+vessel. The concentrations a, b, c of the species A, B, C shall be hold
+constant by appropriate feeding of the reactor. Only the concentration n
+of the species X can vary with time. Under these conditions, in general,
+no chemical equilibrium is possible, and the reaction rates of the two
+* Similar models of chemical reactions were suggested and discussed by Glansdorff,
+Prigogine, Nicolis and Lefever. See e.g.: Glansdorff, P., Prigogine, I.: Structure,
+stabilit~ et fluctuations. Masson, Paris: 1971.
+1 Haken, H.: Verhandlungen der Deutschen Physikalischen Gesellschaft 511970.
+Friihjahrstagung Freudenstadt 1970: Laserlicht -- ein Beispiel ftir eine Phasenumwandlung. Stuttgart: Teubner 1970.
+2 Haken, H.: Festk6rperprobleme X (ed. O. Madelung). Braunschweig: Vieweg 1970.
+3 Graham, R., Haken, H.: Z. Physik 243, 289 (1971).
+4 Grossmann, S., Richter, P. H.: Z. Physik 242, 458 (1971).
+5 Landaner, R., Woo, J. W. F. : Proceedings of the Sixth IUPAP Conference on
+Statistical Mechanics (eds. S. A. Rice, K.F. Freed, and J. C. Light).: University
+of Chicago Press: to be published.
+6 Landauer, R.: Plenarvortr~ge der 36. Physikertagg. 1971 Essen: Stability and
+instability in information processing and in steady state dissipative systems. Stuttgart: Teubner 1971.
+
+Chemical Reaction Models for Non-Equilibrium Phase Transitions
+
+149
+
+Fig. 1. Diagram of steady states of reactions (2.1), (2.2) for the values 1, 1/2, 1/4, 0 of y.
+The value 0 gives a second order phase transition
+reactions
+
+r l=k 1an-k~
+r 2 -= k 2 b n -
+
+n2
+
+(2.3)
+
+k; c
+
+(2.4)
+
+d o n ' t vanish. The derivative of n with respect to time is
+h = rl - r2.
+
+(2.5)
+
+A steady state is characterized by vanishing ti.
+By an appropriate choice of units of time and concentrations we can
+put
+k~ = 1,
+
+kl a = 1.
+
+(2.6)
+
+M o r e o v e r we introduce the abbreviations
+k2 b = B,
+
+k~ c = y
+
+(2.7)
+
+and can write
+n = - n2 +(1 - f i ) n + y ~ o ( n ) .
+
+(2.8)
+
+As h vanishes only for one positive value n, there exists always one steady
+state, ff is positive for smaller values n and negative for larger values n.
+Therefore the steady state is stable. That means it regenerates itself if
+disturbed.
+I n the steady state is valid
+
+7 = n z - ( 1 - p ) n-= r
+
+(2.9)
+
+The value n of the steady state is given in Fig. 1 in dependence on fi for
+different values 7. If ~ is hold fixed to zero we get
+n=
+
+-/~
+0
+
+{1
+
+for f l < 1
+for /~>1.
+
+(2,10)
+
+150
+
+F. Schl/Jgl:
+
+This is the behaviour of a phase transition of second order. We can compare it with the phase transition of a ferromagnetic substance if we put
+magnetization M, magnetic field H and temperature T in analogy to
+n, y, ft. The phase transition takes place for vanishing H, as in our case
+for vanishing y. As M vanishes for T higher than the critical temperature
+To, in our case n vanishes for fi higher than the critical value which is
+unit.
+The interpretation of n, correspondingly to Eq. (2.3) with the values
+(2.6), as the forward reaction rate of the first reaction (2.1), shows that
+symmetry with respect to time-inversion is broken for /~ below the
+critical point. We can call the reaction rate n (as any other part of the
+total reaction rate) an "order parameter". Breaking of a symmetry is
+typical for phase transitions of second order. In comparison to thermostatics the breaking of time-inversion symmetry is new.
+Another analogy to thermostatic phase transitions can be seenin the
+fact that the regression time of small fluctuations becomes extremely
+large at the critical point. For small fluctuations fin we get
+
+ah= - ~ a , ,
+
+(2.11)
+
+1
+
+(2.12)
+
+with
+T
+For vanishing g:
+
+a~ = 2 n - ( 1 -/3).
+~n
+
+1
+-z- = 1 1 - ] 3 1 .
+
+(2.13)
+
+The regression time z is infinite in the critical point.
+
+3. A Phase Transition of First Order
+Now we discuss the following chemical reactions (compare 7):
+A + 2 X -+ 3X,
+
+(3.1)
+
+B + X --+ C.
+
+(3.2)
+
+The second one is the same as (2.1) and therefore its reaction rate r2 is
+given by (2.4). The reaction rate of the first reaction, however, is now
+rl = kl a n 2 - k~ n 3.
+
+(3.3)
+
+Again we assume the species to be rarified gases in a stirring vessel hold
+isothermic. Now we put by adequate choice of units:
+k~ = 1,
+7 SchliSgl, F.: Z. Physik 248, 446 (1971).
+
+k 1 a = 3.
+
+(3.4)
+
+Chemical Reaction Models for Non-Equilibrium Phase Transitions
+
+151
+
+tl
+
+Fig. 2. Diagram of steady states of reactions (3.1), (3.2) for four values of fl
+
+With the abbreviations (2.7) we get
+h = r 1 - 1"2= ~0(n)
+
+(3.5)
+
+q~(n) = -n3+3n2-fln+2).
+
+(3.6)
+
+with
+
+For certain values fl, 2) there exist three real positive points nt, nz, na in
+which h vanishes. These are steady states. In the following we shall call
+the smallest steady value n~, the largest n2. They are attached to stable
+steady states. Between them lies an unstable steady state n2. (The use of
+the subscripts is different from 7.) The stability features are easily seen
+by the sign of h.
+In Fig. 2 the diagram of the steady states is given corresponding to
+the equation
+2)=n3- 3n2 + fl n=~b(n)
+(3.7)
+for four values of ft. There exists a critical value tic for which the three
+values n~, n2, n3 coincide:
+tic=3.
+(3.8)
+Only for values fi below tic exist three different real values n~,//2, ha. The
+unstable states n3 lie on decreasing parts of ~(n). In the critical point
+moreover is
+nc = 1,
+2)= 1.
+(3.9)
+The diagram is similar to that of the equilibrium states of a Van der
+Waals gas if n, 2), fl are replaced by concentration v-1, pressure p and
+R T where T is temperature, R gasous constant. If by choice of units the
+
+152
+
+F. Schl/Sgl:
+
+critical dates become
+vc=l ,
+
+p~=l,
+
+RTr
+
+(3.10)
+
+the thermal state equation of the Van der Waals gas gets the form
+
+The analogy becomes complete to a gas with the state equation
+P=
+
+RT
+
+al
+
+a2
+
+v --~-+-~-"
+
+(3.12)
+
+That means a gas with two virial coefficients which are independent of T.
+Adequate choice of units, leads to the form
+p=@(n).
+
+(3.13)
+
+This analogy justifies to call the transition between the two stable
+steady states a phase transition of first order. It is not connected with a
+symmetry breaking. For the same external conditions, given by 13, y,
+exist two competing states nl, n2. The system shows yet another analogies
+to the system liquid and gas as shall be shown in the following chapters.
+4. Coexistence of Two Phases
+
+If the reaction occurs in a stirring vessel, all concentrations a, b, c, n
+are homogeneous in space. In the following we drop this assumption and
+let n (r) be dependent on the space coordinates r. It can change not only
+by the chemical reactions (3.t), (3.2) but by diffusion of the species X
+as well. The concentrations of the other components A, B, C may be
+constant in time and in space. This is realized if the mobility of these
+components is essentially higher than that of X and the concentrations
+are hold fixed by appropriate feeding of the reactor.
+In this case we get with ~p(n) of Eq. (3.6):
+
+h=xAn+~p(n).
+
+(4.1)
+
+x is a diffusion constant, A the Laplacian. For the following it is suitable
+to write
+~0(n) = ~-f-~O(n)
+
+(4.2)
+
+and to apply a method which is developed by van Kampen s for the
+discussion of an analogous equation in statistical theory of a real gas.
+8 Kampen, N. G. van: Phys. Rev. 135, A 362 (1964).
+
+Chemical Reaction Models for Non-Equilibrium Phase Transitions
+
+153
+
+0
+
+I
+
+l
+I
+I
+
+I
+I
+
+I
+I
+112
+
+J
+nl
+
+Y
+
+Fig. 3. ~(n) in case of coexistence of two phases rtl, n2 with plane boundary layer
+
+In the special case that n is dependent on one coordinate z only, the
+steady states are solutions of the equation
+~2n
+
+~YUz
+
+t9
+-
+
+~n
+
+~(n).
+
+(4.3)
+
+This equation has the same structure as a one-dimensional mechanical
+equation of motion of a mass point in a potential field ~. This is seen by
+replacing z, n by time t and the coordinate x of the mass point.
+We ask for a steady state in which the two phases n~, n2 are in coexistence such that n becomes equal to n I if z goes to plus infinity and equal
+to n2 if z goes to minus infinity, nl, n2 are relative maxima of ~(n).
+Therefore this steady state corresponds to the motion of the mass point
+from one m a x i m u m of the potential 9 where it was at rest to the second
+m a x i m u m where it comes to rest. Compare Fig. 3. This is possible only
+if the value of r in both maxima is the same. That gives the condition of
+coexistence of both phases:
+~ ( n l ) = ~(n2).
+(4.4)
+With
+
+9 ( n ) - q)(nl) = S an qg(n)
+
+(4.5)
+
+the condition of coexistence fixes the value
+1
+~ =-n-~_ nl
+
+n2
+
+dnO(n).
+
+(4.6)
+
+This relation corresponds to the Maxwellian construction of vapor
+pressure of a Van der Waals gas as shown in Fig. 4. y is exactly the mean
+II
+
+Z. Physik, Bd. 253
+
+154
+
+F. Schl~Sgl:
+'7
+
+(n)
+
+nl
+
+n2
+
+n
+
+Fig. 4. Maxwe]lian construction of the coexistencevalue I
+
+N\
+
+/
+
+n
+
+Fig. 5. Perspective representation of the three dimensional steady state diagram of
+reactions (3.1), (3.2) with the coexistence region of the two phases
+
+value of ~ in the interval between n 1 and n 2. Thus for given fl the values
+7, n~, n2 are fixed. The three dimensional state diagram of the steady
+states of the system is given in Fig. 5 in perspective representation.
+As shown in the Appendix A.1, the coexistence values are
+= f l - 2,
+nl,2 = 1 T ( 3 -[3) 1/2.
+
+(4.7)
+(4.8)
+
+The original value n 3 is then
+n a = 1.
+
+(4.9)
+
+Chemical Reaction Models for Non-Equilibrium Phase Transitions
+
+155
+
+The width of the layer in which n changes from t/2 to nl is finite (compare
+Appendix A.2) :
+6 z = 2 (2 x/(1 - ~))~/z.
+(4.10)
+That means, the layer is thin in comparison to the extension of the domains of homogeneous phases.
+
+5. A Variational Principle
+For finding the coexistence states of two phases nl, n2 in the general
+case that n depends on the three dimensions of space, a variational principle is useful which is valid for an equation
+
+n+
+
+(5.1)
+
+This equation can be written in the form
+
+OL
+
+OL
+
++v o v a -
+
+6L
+
+(5.2)
+
+by introducing a Lagrangian
+L = 2 (Vn) 2 - ~(n).
+
+(5.3)
+
+For all variations 6 n vanishing on the boundary of the domain of integration we get
+[dr(n 6 n ) = - 6 e
+(5.4)
+where
+
+'=IdrL.
+
+(5.5)
+
+Thus in the steady states qJ has an extremum or a saddle point.
+Eq. (5.4) gives yet more: If 6 }P is positive, in the average over the domain
+fin and h (and with it 3 h) have opposite signs and the aboslute value of
+6n decreases. That means 6 ~ decreases. If, however, 6 k~ is negative, the
+absolute value of 6n increases in the average. In any case ku decreases if
+it has not reached an extremum or a saddle point. Stable steady states are
+reached in minima of ~/' and only an absolute minimum is stable with
+respect to any perturbation.
+
+6. Minimal Surface of Coexisting Phases
+In the following arbitrary surfaces of the domains of homogeneous
+phases shall be discussed. If the radii of the curvature of these phases are
+sufficiently large, we can assume that the layers between the two different
+11"
+
+156
+
+F. SchlSgl:
+
+phases are nearly as thin as a plane layer. In this case we can make an
+approximation for solving the variational problem which was applied
+by van Kampen s in the analogous problem for equilibrium states of a
+real gas. We divide 71 in two additive terms:
+
+~1= - I d r ~ ,
+
+(6.1)
+
+~t2-=Sdr 2 (Vn)2.
+
+(6.2)
+
+The integral ~g2 contains only positive contributions of the surface layers.
+Instead of minimalizing the sum 7', in the approximation the terms ~a
+and ~gz are minimalized independently.
+To vary ~1, the total volume V of the reactor is divided into parts va
+such that in any part v~ the concentration n has a value n~. The variations
+are made with the subsidiary conditions that
+V=2v;~,
+A
+
+(6.3)
+
+N = E n:, V~.
+A
+
+(6.4)
+
+'el = - ~ v ~ ~(n~)
+
+(6.5)
+
+are hold fixed.
+A
+
+is to minimalize. Introduction of two Lagrange parameters p, #' allows
+to vary all n~ and vx independently. We get
+
+(fl-52-~]
+
+(n~) = # n~ + #',
+
+(6.6)
+
+=#"
+
+(6.7)
+
+\tJt~ l n~nA
+
+r
+
+I
+
+nl
+
+n2
+
+fi
+
+Fig. 6. Condition of rninimalizing ~gl in case of coexistence of different values na
+
+Chemical Reaction Models for Non-EquiIibrium Phase Transitions
+
+157
+
+If there exist different coexisting phases n~, the values 9 (na) must lie on
+a tangent of the curve ~(n). The largest possible number of different
+values n~ therefore is two. Compare Fig. 6. Then, however, in (6.5) can
+be minimal for simultaneously non-vanishing vl and v2 only if
+9 (na)= ~(n2).
+
+(6.8)
+
+This condition of coexistence gives again the Maxwellian construction
+as for plane layers.
+The minimalization of ~g2 gives the result that the area of the surface
+between the two phases is minimal.
+
+7. Surface Tension of Phase Domains
+
+The coexistence value ~ is dependent on the radius of curvature of the
+boundary layer between the two phases. There can be seen a close analogy
+to the dependence of vapor pressure on the radius of a droplet.
+To show this, the case may be discussed that n is dependent on r only.
+We can summarize the case of spherical and of cylindrical symmetry and
+write r for the distance from a centre, or from an axis respectively. We
+can characterize these two different cases by the number v of dimensions
+being 3 for spherical and 2 for cylindrical symmetry. For steady states,
+that means for vanishing h, Eq. (5.1) gets the form
+
+OZn
+
+tc-~Z-r = - ~
+
+v-1
+
+On
+
+r
+
+Or
+
+O0
+
+an .
+
+(7.1)
+
+This equation has the same structure as the one dimensional mechanical
+equation of a mass point in a potential field q~ and moreover subject to a
+time dependent friction force. The analogy becomes obvious if r, n are
+replaced by t, x.
+A coexistence state with
+
+n=~nz.~
+tnl
+
+for r = 0
+for r ~ oo
+
+(7.2)
+
+corresponds in the spherical case (v = 3) to a "droplet" of the "condensed"
+phase n2. It is analogous to a mechanical motion for which the mass
+point is at rest in the maximum point n2 of ~(n) at the beginning of
+the motion and comes to rest again exactly in the relative maximum
+point n 1. Compare Fig. 7. As the mass point has lost energy during the
+motion by friction, ~(nl) must be smaller than 9 (n2). The difference of
+the two relative maximum values of 9 can be got by multiplication of
+
+158
+
+F. Schl6gl:
+
+E
+
+I
+nl
+
+r12
+
+Fig. 7. Coexistencecondition of two phases in the "droplet" case
+
+Eq. (7.1) with On/Or and integration over r:
+oo 1 [ On ]2.
+(7.3)
+) [ --\Or]
+o
+This quantity is positive definite.
+If nl, nz in (7.2) are exchanged, we get a steady state corresponding
+to a "bubble" of the "rarified" phase nl. In this case the relative maximum of 9 in nl is higher than that in nz and the direction of the arrows
+in Fig. 6 signifying the direction of increasing r has to be reversed.
+In the following equations the upper sign belongs to the "droplet",
+the lower to the "bubble". Coexistence condition now is
+
+A~='v-l'~"drr(
+
+9 (nz)- r
+
+~ - --nz-n~
+
+= _+AO,
+
+(7.4)
+
+dnO(n)+ A~ .
+
+(7.5)
+
+The coexistence value ~ is higher for "droplets" and lower for "bubbles"
+than the value y~ for plane boundary layers. The latter was given by the
+Maxwellian construction, Eq. (4.6).
+We can only speak of domains of different phases if the radius ro of
+the "droplet" or the "bubble" is sufficiently large compared to the width
+of the boundary layer. In this case we can write in good approximation
+
+A~=_v-1
+/~0
+
+S dn I ~n
+"2
+
+(7.6)
+
+nl
+
+and can replace the integral by its value for the plane layer. Moreover,
+we can approximately replace the difference n z - n 1 and the integral in
+
+Chemical Reaction Models for Non-Equilibrium Phase Transitions
+
+t59
+
+(n)
+
+/3I
+
+n2
+
+Fig. 8. Maxwellian construction of the coexistence value 7 in the "droplet" case
+
+(7.5) by their values for the plane layer. Compare Fig. 8. Than we get
+(see A p p e n d i x A.3)
+v-1
+7-7oo
+
+=
+
+-I-
+
+.
+
+r
+
+(7.7)
+
+a
+
+with an "surface tension"
+~r= - - - 1
+
+n2--nl
+
+tcSd n
+
+9n
+
+.2
+nl
+
+-~r
+
+,
+
+(7.8)
+
+This quantity is proportional to the maximum value Jm of the diffusion
+current density
+] = - K Vn
+(7.10)
+in the interior of the boundary layer:
+o ' = ~ j m.
+
+(7.11)
+
+Now we can see what happens in the stirring vessel. By the stirring
+process the domains of homogeneous phases will be divided in small
+"droplets" or small "bubbles". If these have smaller radii ro than this
+one which is connected by (7.7) with the given value y, they will decrease
+and vanish. Finally, in the steady state, the chemical mixture in the reactor
+will be a genuine homogeneous one and will not be a composition of two
+phases divided in very small domains.
+Appendix
+A.1. M a x w e l l i a n Construction
+
+By Eq. (4.2) we get
+~ ( n ) - ~ ( n l ) = - ~ - 1 n4 +n 3 - ~2~ nZ+Tn+const.
+
+(A.1.1)
+
+160
+
+F. Schlrgl:
+
+This expression has maxima for n equal to nl and n2. Following the
+Maxwellian construction (4.4) the expression vanishes in these maxima
+likewise. Therefore
+re(n) - @(nl)= - 8 8(n - ha) 2 (n - n2) 2.
+
+(A.1.2)
+
+Comparison of coefficients gives
+nl + n2 =2,
+n~ n22 = 4 9 (n).
+
+(A.1.3)
+(A. 1.4)
+
+On the other hand comparison of coefficients in (3.6) and
+tp (n) = - (n - n 1) (n - n2) (n - n3)
+
+(A. 1.5)
+
+gives the relations
+
+nl + n2 + n3 = 3,
+nl n2 n3 =Y = ~O(n0.
+
+(A.I.6)
+(A.1.7)
+
+Thus we get
+n3 = 1
+
+(A.1.8)
+
+(n3) = @(n l) = ~' (n2) = fl - 2.
+
+(A. 1.9)
+
+and with (3.7):
+This is the coexistence value of y. na is also the point of inflection of
+~(n) in which the second derivative vanishes. With (A.1.7) we get
+n~ n 2 = f l - 2
+
+(A.I.10)
+
+and as (A.1.3) shows now, nl, nz are the roots of the quadratic equation
+
+n 2 - 2 n + fl-2=O.
+
+(A.I.ll)
+
+nl, 2 = 1 T-(3 _ fl)1/2.
+
+(A.1.12)
+
+That means:
+The limits of the coexistence region in the (n, y)-diagram of the steady
+states are given by the parabola
+]~= X - ( n - 1)2
+
+(A.1.13)
+
+which is gained by elimination of fl in Eq. (A. 1.11) and (3.7).
+
+A.2. The Plane Boundary Layer
+By multiplication of (4.3) with On/Oz and by integration over z we
+get in analogy to the law of energy conservation the equation
+-~- ~
+
++q~(n)=q~(n,).
+
+(A.2.1)
+
+Chemical Reaction Models for Non-Equilibrium Phase Transitions
+
+161
+
+In the case discussed in Chapter 4 the concentration n decreases with
+increasing z in the boundary layer between both phases. Then we get by
+(A.2.1):
+O
+0zn
+
+[ 2 (~b(n')- ~(n))] ~/z
+
+(A.2.2)
+
+and with (A. 1.2):
+On
+
+0 z = - (2 re)- 1/2 (n - nl) (nz - n),
+z=-(2tr
+
+1/2
+
+1
+In n - n 1 ,
+n2-n 1
+n2-n
+
+(A.2.3)
+(A.2.4)
+
+This relation gives the width 6z of the boundary layer. The diffusion
+current density in the layer is
+0n
+j = - ~c0 z "
+(A.2.6)
+Its maximal value is
+.
+
+A.3. Surface Tension
+
+With (A.2.3) Eq. (7.8) gives
+o=
+
+--Sdn(n-nl)(n2-n),
+
+(A.3.1)
+
+n 2 ~ H1 nl
+
+~r= - - ( \ T ]
+
+(n2-n02
+
+(A.3.2)
+
+and with (A. 1.12) the relations (7.9) and (7.11).
+Prof. Dr. Friedrich Scht6gI
+Institut ftir Theoretische Physik
+der Rheinisch-Wesff~ilischen Technischen
+Hochschule Aachen
+D-5100 Aachen, Templergraben
+Germany
+
+

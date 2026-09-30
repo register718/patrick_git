@@ -1,0 +1,1506 @@
+1962
+
+PROCEEDINGS OF THE IRE
+
+2061
+
+An Active Pulse Transmission Line
+Simulating Nerve Axon*
+J. NAGUMOt, MEMBER, IRE, S. ARIMOTOt, AND S. YOSHIZAWAt
+Summary-To electronically simulate an animal nerve axon, the
+authors made an active pulse transmission line using tunnel diodes.
+The equation of propagation for this line is the same as that for a
+simplified model of nerve membrane treated elsewhere. This line
+shapes the signal waveform during transmission, that is, there being
+a specific pulse-like waveform peculiar to this line, smaller signals
+are amplified, larger ones are attenuated, narrower ones are widened
+and those which are wider are shrunk, all approaching the abovementioned specific waveform. In addition, this line has a certain
+threshold value in respect to the signal height, and signals smaller
+than the threshold or noise are eliminated in the course of transmission. Because of the above-mentioned shaping action and the existence of a threshold, this line makes possible highly reliable pulse
+transmission, and will be useful for various kinds of informationprocessing systems.
+
+dV
+I = CO - + gNam3h(V - VNa) + gKn4(V - VK)
+dt
+'gL(V - VL),
+dm
+..+ {Iam(V) + Mrn(V) }m = am(v)I
+di
+dh
+{ah(V) + Ah(V)} h = ah(V),
+dt
+dn
+{ a5n(V) + f3n(V) } n = (V)
+dt
+
+I. INTRODUCTION
+I N THE CASE of conventional pulse transmission
+lines, provided they are of great length, signals
+suffer attenuation and distortion as they travel
+down the line, whereas an electric pulse signal which
+is transmitted along an animal nerve axon suffers
+neither attenuation nor distortion, regardless of the
+distance covered. A pulse transmission line with such
+qualities will be useful for pulse transmission in communication systems, data processing systems, electronic
+computers, etc.
+It is our purpose to realize such a pulse transmission
+line by simulating the animal nerve axon.
+
+am(V) = 0.1(V + 25) [exp (V
+
+IL. EXCITATION OF NERVE AXON
+A great deal of research on the electro-physiology of
+the nerve axon has already been made,1 the most important being that of Hodgkin and Huxley.2 They have
+made a quantitative study of the excitation of a nerve
+axon and the propagation of the excitation, and have
+
+CEa(V) = 0.01(V + 10) [exp
+
+derived the Hodgkin-Huxley equations (H-H equations)
+which describe the phenomena.
+In the case of a "space clamp," that is, in a case
+where the excitation of a nerve axon is spacially uniform, the H-H equations describing the excitation of the
+nerve axon are as follows (see Appendix):
+* Received April 26, 1962; revised manuscript received July 9,
+
+1962.
+
+t Dept. of Applied Physics, Faculty of Engineering, University of
+Tokyo, Tokyo, Japan.
+1 Readers unfamiliar with the electro-physiology of the nerve
+axon may wish to refer to J. W. Moore, "Electronic control of some
+active bioelectric membranes," PROC. IRE, vol. 47, pp. 1869-1880;
+November, 1959.
+2 A. L. Hodgkin and A. F. Huxley, "A quantitative description of
+membrane current and its application to conduction and excitation
+in nerve," J. Physiol., vol. 117, pp. 500-544; August, 1952.
+
+(1)
+
+2)-
+
+A3m(V) =4 exp(),
+aeh(V) = 0.07 exp (-),
+\20/
+
+h(V) = [exp (V + 30)
+
+p
+
++ 10~
+10 ) I-
+
+( V\
+
+An(V) = 0.125 exp k80/
+where
+I= the membrane current density (Ma/cm2) [inward current positive],
+V=the membrane voltage (mV) [difference from
+
+resting potential, depolarization negative],
+
+m = the sodium activation (dimensionless) [varying
+between 0 and 1],
+h= the sodium inactivation (dimensionless) [varying between 0 and 1],
+n = the potassium activation (dimensionless) [varying between 0 and 1],
+t =time (msec),
+
+Co = the membrane capacitance (/Af/cm2),
+gNa= 120, gK = 36, gL = 0.3 (mZ3/cm2),
+VNa = - 15, VK= 12, VL = -10.5989 (m V).
+
+Authorized licensed use limited to: Universitatsbibliothek Erlangen Nurnberg. Downloaded on September 30,2026 at 08:40:13 UTC from IEEE Xplore. Restrictions apply.
+
+PROCIEEYDINGS O/F THE IRE
+
+2062
+
+Several investigatioiis of the H-H equations b) the
+use of analog coMpLters3'4 and digital com-iiputers5-l have
+appeared in recent literature. Nevertheless, it is still
+difficult to make an electronic sim-tulahtor of the H-H
+equations on accouLnt of their complexities.
+
+w
+
+-2
+
+0
+
+1
+
+2
+
+(a)
+H-H Model
+
+0.4;
+
+u =
+
+V-)'i
+
+w*t --- ().5(n -- h)
+
+(2)
+0.2
+--150
+
+-100
+
+U.
+
+-50
+
+(b)
+
+l2b.
+
+(3)
+
+The variables u, w and J in the BVP model (2) correspond to the pair of variables (V, m), the pair of variables (h, n) and I in (1), respectively.
+Fig. l(a) shows the trajectories on the (u, w)-plane
+of the BVP model (2) in the case where J=0, while Fig.
+l(b) shows the trajectories on the (u*, w*)-plane of (1)
+in the case where I=0. Here,
+
+w-2 (n - h).
+
+(4)
+
+Fig. 1-The qualitative similarity of (a) and (b) suggests that the
+BVP model can be considered as belonging to the same class of
+excitable systems as the [lodgkin-IlL.iley model. (Reproduced
+from FitzHugh,9 courtesy of the author.)
+
+dv
+
+j = C-- i-f(e),
+dT
+di
+L -- + Ri = - v = e - Eo,
+
+IV. AN ELECTRONIC SIMULATION OF THE BVP MODEL
+Let us consider the two-terminal circuit of Fig. 2,
+where TD is a tunnel diode.'0 From Kirchhoff's law
+3 G. A. Bekey and B. Paxon, "Analog Simulation of Nerve Ex-
+
+citation," presented at the 2nd National Simulation Conference,
+Houston, Texas; April, 1957.
+4 R. FitzHugh, "Thresholds and plateaus in the Hodgkin-Huxley
+nerve equations," J. Gen. Physiol., vol. 43, pp. 867-896; May, 1960.
+6 K. S. Cole, H. A. Antosiewicz, and P. Rabinowitz, "Automatic
+computation of nerve excitation," J. Soc. Indust. A ppl. Math., vol. 3,
+pp. 153-172; September, 1955.
+6
+"Automatic computation of nerve excitation, correction,"
+J. Soc. Indust. Appl. Math., vol. 6, pp. 196-197; June, 1958.
+7R. FitzHugh and H. A. Antosiewicz, "Automatic computation
+of nerve excitation, detailed corrections and additions," J. Soc.
+Indust. Appl. Math., vol. 7, pp. 447-458; December, 1959.
+8 R. FitzHugh, "Computation of impulse initiation and saltatory
+condition in a myelinated nerve fiber," Biophysical J., vol. 2, pp.
+11-21; January, 1962.
+
+9 R. FitzHugh, 'Impulses and physiological states in theoretical
+
+models of nerve membrane," Biophysical J., vol. 1, pp. 445-466;
+
+10 J. Nagumo, et al., "An Active Line Using Esaki Diodes," Inst.
+Elec. Commun. Engrs. Japan, Professional Group on Nonlinear Cir-
+
+(5)
+
+dT
+
+where f(e) is a function, as shown in Fig. 3, which represents the voltage vs current characteristic of the tunnel
+diode. For simplicity, we assume
+1
+(e - eo)3(
+e - 3Ko
+(p > 0, K> 0), (6)
+f(e) = io-
+
+Comparing Fig. 1(a) to Fig. 1(b), it is observed that
+there is fairly good correspondence between the H-H
+equations and the BVP model. We shall therefore try where
+to simulate (2) instead of (1).
+
+cuiit Theory, Rept.; February 7, 1961 (in Japanese).
+
+1I
+
+0
+
+where a, b and c are constants satisfying the relations
+
+July, 1961.
+
+Y
+
+0.2[
+
+u u3\
+1 du
+J =- -- w - u ,
+3
+c dt
+dw
+c
++ bw = a-u,
+dt
+
+u* = V - 36m,
+
+BVP Model
+
+_1
+
+II1. TIm- BVP AIMODEL
+Recently, FitzHugh ingeniously simplified the H-H
+equations in case of a "space clamlp,"nmaking use of an
+analog computer, an(l p)roposedl the following BVP
+model (Bonhoeffer-van der Pol moldel).9
+
+1 b
+> > O,c2 > b, I > a > 1
+
+O(ctobefr
+
+2
+
+io = f(eo).
+
+By the introduction of new variables
+r
+v + (eo-Eo)
+p
+w =-(i+io),
+I
+t1= _, u
+-VLC
+
+p
+
+J=--j,
+
+K
+
+Rio + (eO -Eo)
+
+a=R0(0IE)
+
+K
+
+R
+
+b=-R
+
+1 p/L
+c~~~~~
+
+it is seen that (5) is reduced to (2).
+Next, we shall examine the conditions in (3) for the
+constants a, b and c.
+The first condition: 1 > b > 0 is eqluivalent to
+p> R.
+
+(7)
+
+The second condition: c2>b is equivalent to
+
+L
+
+->pC.
+R
+
+(8)
+
+Authorized licensed use limited to: Universitatsbibliothek Erlangen Nurnberg. Downloaded on September 30,2026 at 08:40:13 UTC from IEEE Xplore. Restrictions apply.
+
+Nagumo, et al.: Transmission Line Simulating Nerve Axon
+
+1962
+
+2063
+
+Since c2 > b, 1 > b > 0, c > 0, this differential equation
+belongs to the Lienard type1' which represents selfoscillations.
+Therefore it is concluded that the BVP model can be
+simulated by the monostable circuit shown in Fig. 2.
+However, condition (10) which restricts the bias voltage
+Eo is too severe; since even if the bias voltage is set as
+e2 < Eo < e,,
+Fig. 2-An electronic simulator of the BVP model.
+
+(12)
+
+in Fig. 4, the circuit in Fig. 2 remains monostable. The
+condition in (12) is written as
+2 > a > 1 -23
+
+and hence we shall employ the conditions
+0
+
+1 > b >0O, c2> b, 2 > a > 1-23b,
+
+eo
+
+Fig. 3-The voltage-current characteristic of the tunnel diode.
+
+I~~ @
+
+io+2K
+e3el eo
+
+instead of (3), for the constants in the BVP model.
+V. PROPAGATION OF EXCITATION
+The equations which describe the propagation of the
+excitation along the nerve axon are easily obtained from
+the equations of the "space clamp.""2
+Denoting the distance along the nerve axon by S (cm),
+the radius of the nerve axon by Ro (cm) and the specific
+resistance of the axoplasm by ro (KQcm), we find that
+Ro a2V .
+(14)
+I=-
+
+cotO=R~~~
+
+e2
+
+(13)
+
+e4
+
+Fig. 4-When bias voltage Eo is set between ei and e2, the circuit
+shown in Fig. 2 is monostable. Whereas, if Eo=e4, the circuit
+oscillates spontaneously.
+
+2ro aS2
+Consequently, taking (1) into account, the H-H
+partial differential equations describing the propagation
+of the excitation become as follows:
+
+The last condition: 1 >a> 1- -b is equivalent to
+
+d2V
+
+eo-2K
+
+eo-K
+
+as2
+
++-) + (eo - K), (9)
+Rio + (eo - K) < Eo < R +io
+or
+
+(10)
+
+e3 <Eo < ei,
+
+in Fig. 4.
+The conditions in (7), (8) and (10) imply that in the
+case of the "current clamp," j=0, the circuit shown in
+Fig. 2 is nothing but the well-known monostable circuit
+of the tunnel diode. In particular, the condition in (8)
+means that the circuit oscillates spontaneously if the
+bias voltage is set at e4 in Fig. 4. In fact, if E0==e4, then
+a=0, and in the case of j=O0, (2) becomes as follows:
+d2u
+-dt2
+
+1-
+
+du
+b
+- u2dt
+c2
+(
+
+b
+
+b
+
++ j(1-b)u + -3
+
+=0 . ( 1)
+
+aV
+2ro
+=2=- CO - + gNam3h(V - VNa)
+
+Ro
+
+a-t
+
++ gKn4(V - VK) + gL(V -VL
+
+am
+at
+
+ah
+at
+
+an
+At
+
++ Itam(V) +/m(V)}m = am(V),
+
+(15)
+
+{ah(V) + Ah(V) } h = ah(V),
+
++ t an(V) + f,(V) }n = a,n(V).
+
+Similarly, let us consider the circuit shown in Fig. 5(a)
+or Fig. 5 (b), which is constructed by cascading the
+many two-terminal circuits of Fig. 2 through interstage
+coupling resistances.
+11 S. Lefschetz, "Differential Equations: Geometric Theory," Interscience Publishers, New York, N. Y., pp. 249-254; 1957.
+12 Hodgkin and Huxley, op. cit., p. 522.
+
+Authorized licensed use limited to: Universitatsbibliothek Erlangen Nurnberg. Downloaded on September 30,2026 at 08:40:13 UTC from IEEE Xplore. Restrictions apply.
+
+Octobesr
+
+PROCEEDINGS OF THE IRE
+
+2064
+
+Regar(ling the a)ove circuit as a distributed line, we
+have
+1 G2v
+
+L
+
+TD
+
+Eo
+
+R
+
+(16)
+
+r=-r as2
+
+(a)
++Eo
+
+corresponding to (14), provided the interstage coupling
+resistance per unit lengtlh of the line is r. From (2) and
+(16), it follows that
+
+C
+
+TD
+L
+R
+
+c
+
+1))
+
+1 au
+( U3)
+--w-{ u3
+c at
+
+a32u
+
+h-=
+aS2
+
+(7
+
+cw
+
+lat
+
++bw= a-u,(
+L
+
+where h = p/r.
+T he system of partial differential equations (17) is the
+distributed BVP model which may be considered as a
+simplified system of the H-H partial differential
+equations (15).
+
+a3z
+
+d2z
+
+aotax2 - at2
+
+±+i(l
+
+d3U
+
+atas2
+
+d2u a2u
++ bh-= - c
+
+as2
+
+at2
+
+b
+
+u3
+
+- a.
+
+(18)
+
+For simplicity, let us consider a case where
+R=O (b=O). In such a case, (18) takes the form
+ch
+
+a3u a2u
+au
+=
+-c(l-U2) +u-a,
+atas2 at2
+at
+
+(19)
+
+(19) is transformed as follows:
+
+3
+
+> O, -> c > O.
+
+(22)
+
+16
+
+It seems likely that the partial differential equation
+(22) is one of the simplest mathematical models of the
+nerve axon. The structure of the electronic model which
+corresponds to (22) is shown in Fig. 6.
+VI. A BOUNDARY-VALUE PROBLEM
+We now procee(i to investigate the following
+boundary-value problem for the partial differential
+equation (22) (Fig. 7).
+z = z(x, t), x
+
+'a z
+
+0, t
+
+0O,
+
+a2z
+
+c
+
++
+atax2 2= adr2 ,u(1-z +ez) at + z,
+3
+Atu> 0, - > E-> 0,
+
+(23)
+
+16
+
+where
+
+oz
+
+c > 0,
+
+2 > a > 1,
+
+h > 0.
+
+(20)
+
+s
+
+.\Ich
+
+,
+
+on the line I = O, z = 0, - =O,
+on the line x = 0, z = F(t): given.
+
+By setting
+x=
+
+C
+
+Fig. 6-Electronic model corresponding to (22).
+
+az
+at
+
+b a\ u
+1-- -U22
+k
+c2 /
+dt
+
++ j(1- b)u+
+
+TD
+
+Z +Ez2) - + z,
+
+By eliminating w from (17), a single partial differential equation for u is obtained as follows:
+chl
+
+Fig. 5-A distributed active liie is obtime(l b)V cascading the twoterminal cirCuits in Fig. 2 throtugh interstitge coLupling resistances.
+T he circuit shown in (b) is equivalent to that in (a).
+
+Some results of the numerical calculation using a
+digital computer are given below. We chose '=10,
+E=0.I and
+
+2a
+z=
+(a-u), ,u= c(a2 - 1),
+a2-1
+a2 - 1
+4a2
+
+F(t) =-(1-cos-)
+(21)
+
+= 0,
+
+to _ t_ (,
+t _ to.
+
+(24)
+
+Authorized licensed use limited to: Universitatsbibliothek Erlangen Nurnberg. Downloaded on September 30,2026 at 08:40:13 UTC from IEEE Xplore. Restrictions apply.
+
+Nagumo, et al.: Transmission Line Simulating Nerve Axon
+
+1962
+
+2065
+
+z
+14
+
+Pt=10
+t=O.l
+
+12
+
+x=2.8
+
+_7
+
+x=0.8
+
+io
+
+Fig. 7-A schematic display of the boundary-value problem (23).
+
+6
+4-
+
+A. Signal A mplification
+The case of to = 3.0, zo = 5.0 is shown in Fig. 8. In this
+case the signal is amplified in the course of transmission.
+
+3.5t~~~~~~~~~
+
+2-
+
+Fig. 8-A signal above the threshold value and below the
+asymptotic value is amplified during transmission.
+
+B. Signal Attenuation
+The case of to = 1.0, zo = 20.0 is shown in Fig. 9. In
+this case the signal is attenuated in the course of
+transmission.
+
+C. Signal Elimination
+The case of to= 3.0, zo=3.0 is shown in Fig. 10. In
+this case the signal is eliminated in the course of
+transmission.
+From these results, it is expected that with respect to
+the signal height (there being an asymptotic value and
+a threshold value),
+1) a signal with a height between the asymptotic
+value and the threshold value is amplified during
+transmission,
+2) a signal higher than the asymptotic value is attenuated to the asymptotic value during transmission,
+3) a signal lower than the threshold value is eliminated during transmission (see Fig. 11).
+These actions may be called "shaping" with respect
+to signal height. In order to clarify the situation, we
+shall try to seek for the asymptotic waveform in
+Section VII.
+VII. ASYMPTOTIC WAVEFORM
+If the partial differential equation (22) has a waveform, as its solution, which is transmitted along a line
+without suffering distortion and with a constant velocity
+(say 0), then the solution must be a function of
+T =t-x/I. In such a case the substitution
+
+. (T) =- Z (X, 1)
+
+Fig. 9-A signal above the asymptotic value is
+attenuated during transmission.
+
+t.1'=10
+
+Fig. 10-A signal below the threshold value is
+eliminated during transmission.
+pulse height.
+
+Attenuation
+
+x
+,
+
+L --
+
+0
+
+reduces the partial differential equation (22) to an
+ordinary differential equation for t:
+
+0t tt
+
+-
+
+C
+
+-
+
+,u(1 - t +
+
+42)' - t = 0,
+
+(25)
+
+Amplif ication
+
+I
+
+-
+
+.
+
+.
+
+Sasymptotic value
+
+1T7 -ifi
+.
+
+.
+
+..i-I-1-L..
+
+-[LII
+__
+
+',threshold value
+
+Elimination
+distance
+
+Fig. 11-Signals are amplified or attenuated or
+eliminated according to their heights.
+
+where i'= dl/dr and
+( =
+
+-2 > 0.
+
+(26)
+
+Authorized licensed use limited to: Universitatsbibliothek Erlangen Nurnberg. Downloaded on September 30,2026 at 08:40:13 UTC from IEEE Xplore. Restrictions apply.
+
+PROCEEDINGS OF THE IRE
+
+2066
+
+For the time being, A remains an unknown constant.
+In fact, its determination constitutes a part of the object
+of the following procedure. Now, it is obvious that (25)
+has a resting solution t_ O. If (25) has a solution, except
+for =0, such as (T) -> when r- + oc for some 0, then
+the solution corresponds to the asymptotic waveform
+which we are seeking, and the transmission velocity of
+the asymptotic waveform is determined from d.
+The behavior of t(r) in the neighborhood of the resting solution is determined approximately by a linear
+differential equation
+
+0(tt_// tt_O
+
+I - t = 0.
+
+(27)
+
+The characteristic equation of (27)
+
+H(X) = $X3-X2-,AX-1 = 0
+
+(28)
+
+has one real positive root, since H(0) =-1 < 0,
+H'(0) = -,u<0 and H(+xlc )>0. By denoting this root
+as Xo(Xo>0), H(X) is factorized as
+
+H(X) = (X
+-o)(3X2 + yX + X 0-1),
+where
+y 'Y
+= fi01 =X+
+0
++ -
+
+.
+
+Since y >0, it is apparent that both of the other two
+roots are either real negative or complex conjugate with
+negative real parts.
+From a more precise examination it is easily seen that
+when ,>2 and O3<o(g), they are real negative; otherwise they are complex conjugate with negative real
+parts, where
+
+October
+
+When ,u= 3.0, e-=0.1, two such values of d were expected to exist from the results of digital computations.
+One of them is ,_. 0.44488, which corresponds to a
+stable asymptotic waveform (Fig. 13), and this is what
+we are aiming at. The other is A 0.938 and correspon(ds
+to an unstable asymptotic waveform (Fig. 14), which is
+a critical signal traveling down the line along the
+threshold and being physically unrealizable.
+Because the stable asymptotic waveform is peculiar
+to this line, it may be expected that the line will show a
+waveform shaping action, in respect not only to the
+signal height but also to the signal width.
+Fig. 15(a) shows the relation between ,u and signal
+propagation velocity 0 in the case of e-= 0.1. The velocity
+of the stable asymiptotic waveform seems to be a monotonically increasing function of A.
+Since
+at
+
+I=-a/ch 0
+1 j/L+(e0-Eo)2-K2
+/L
+pK2
+'/C)
+-\/r1/C
+
+(30)
+
+the propagation velocity is inversely proportional to
+r1/2. Furthermore, it may be concluded that the velocity
+increases with increasing L and/or decreasing C, provided 0(u) is monotonically increasing.
+Fig. 15(b) shows the relation between A and pulse
+height in case of e-=0.1. The shape of the stable asymptotic waveform approaches to a rectangular pulse as ,
+increases, although its height hardly depends on ,u.
+It may be expected that the stable asymptotic waveform coincides with the unstable one at I,= 2.
+
+VIII. EXPERIMENTS
+We fabricated a lumped constant cascaded circuit
+fo(A) =-27 (2u2- 9/ + 2V t4 - 9tI3 + 27,L2 - 27).
+with nine stages as shown in Fig. 16 and the expected
+results were obtained. In particular, it was observed
+Now, if t(r)-*O when r-o-oc, as shown in Fig. 12, that the shaping action in respect to the signal height
+then t(r)-AeXor (A is an arbitrary constant), when r was completed at the first stage, while the shaping
+has a negative large value. Therefore we have
+action in respect to the signal width was very weak in
+comparison with the former (Fig. 17).
+.'(T) AXoexo") V(r) AX02ello'r.
+In order to make the shaping action in respect to
+pulse
+height more moderate, it is effective to add some
+We shall perform numerical calculations for the thirdinductance
+to each interstage coupling resistance in
+order ordinary differential equation (25) with the folseries. The circuit (Fig. 18, page 2068), in the case of
+lowing initial conditions:
+C= 0.05 ,uf, shapes traveling signals witlh respect to the
+height
+(Fig. 19). On the other hand, Fig. 20 illustrates
+(0) = A,
+the shaping action with respect to the width of the cir{'(0) = o'A1
+cuit shown in Fig. 18, in the case of C-. 20 pf (junction
+capacitance of TD).
+tt"(0) = 2A,o5
+Since this line has a symmetrical structure, the signal
+where A (A >0) is the smallest step of t. It is noted that transmission is bidirectional, that is, a signal applied to
+Xo depends on /3.
+the right (left) end is transmitted to the left (right) and
+In general, the solution of (25) corresponding to the a signal applied to the middle of the line is transmitted
+initial conditions in (29) depends on the value of /3; and in both directions. An interesting phenomenon is that
+we are seeking for exactly the
+for t(r)-*0 when two signals traveling in opposite direction from both
+T- 4+
+as shown in Fig. 12.
+ends vanish at the collision point.
+-
+
+-
+
+cc
+
+Authorized licensed use limited to: Universitatsbibliothek Erlangen Nurnberg. Downloaded on September 30,2026 at 08:40:13 UTC from IEEE Xplore. Restrictions apply.
+
+Nagumo, et al.: Transmission Line Simulating Nerve Axon
+
+1962
+-,
+
+2067
+
+%I
+
+,-
+
+S,s, 1
+
+---------o
+
+Fig. 12-If (25) has a solution, except for t(r)=O, such as t(r) 0
+when r-*+ oo for some ,3, then the solution corresponds to the
+sought-for asymptotic waveform, and the transmission velocity of
+the asymptotic wav-eform is determined from the 1.
+
+(D
+
+'=0.1
+0.0157
+T3O=
+(,i=044457
+
+\
+
+L
+R
+
+bput 7D
+
+P=3
+
+I
+
+qt
+
++E.
+
++
+
++
+
+()
+
+(a)
+
+C-i),i=o.4u B7
+
+"\\
+
+P=0.4"83
+
+Fig. 13-For 3.3 0.44488, it is expected that a
+stable asymptotic waveform exists.
+
+(b)
+
+ci).-.1.
+10
+a
+6
+
+3ji=0944
+3 ji= 0.93?
+®,i= 0./3 3
+
+.-3
+_=0.1
+
+'0
+
+4
+2
+
+1
+
+-2
+-4
+
+6
+
+3
+
+2
+
+r
+(c)
+
+Fig. 16-The circuit used in our experiments. L =4 mh,
+R=70 S2, r=500 El, En=100 mv, C=0.01 pzf.
+
+11)
+
+Fig. 14-For , *. 0.938, it is expected that an unstable asymptotic
+waveform exists, which travels down the line along the threshold
+and is physically unrealizable.
+0
+
+4
+
+t£ o.0.
+
+3
+
+2
+
+STABL,
+
+UA'
+
+0
+
+2
+
+4
+
+(a)
+pulse height
+
+0
+
+2
+
+4
+
+6
+
+(a)
+
+t'o
+
+6
+
+_
+8
+
+10
+
+-SA B LE
+12
+
+4-
+
+(b)
+Fig. 15-The relation between ju and the signal propagation velocity
+and the relation between p and pulse height in case of e=0.1. It
+seems that the stable asymptotic waveform coincides with the
+unstable one at IA=2. (a) The velocity of the stable asymptotic
+waveform seems to be a monotonically increasing function of pu.
+(b) The pulse height of the stable asymiptotic waveform hardly
+depends
+
+on
+
+(b)
+Fig. 17-The circuit in Fig. 16 shapes a signal waveform during
+transmission. In each figure, the first waveform is that of the
+input signal; the second, third, fourth and the fifth waveforms
+are those observed at the first, fourth, seventh and the ninth
+stages in the circuit in Fig. 16(a), respectively. In both cases, the
+signals achieve the same waveform. (a) A narrow signal (6 usec)
+is widened in the course of transmission. (b) A wide signal
+(32 psec) is narrowed in the course of transmission.
+
+IA.
+
+Authorized licensed use limited to: Universitatsbibliothek Erlangen Nurnberg. Downloaded on September 30,2026 at 08:40:13 UTC from IEEE Xplore. Restrictions apply.
+
+October
+
+PROCEEDINGS OF THE IRE
+
+2068
+
+IX. RELATED PROBLEMS
+
+Fig. 18-By adding some inductance to each coupling resistance
+in series, the shaping action can be made more moderate.
+
+(a)
+
+A. The Neuristor
+Crane proposed a novel device termed neuristor.'3 A
+neuristor may be visualized as a one-dimensional
+channel along which signals may flow. The mode of signal propagation is somewhat analogous to that which
+occurs along a nerve axon. The neuristor may be used
+to synthesize all digital logic functions, so that any
+digital logic system can be realized using arrays of
+neuristors only. Neuristors are interconnected in two
+basically different modes-T junctions and S junctions.
+Our active pulse transmission line can lead to an
+electronic realization of the neuristor. The T junction is
+readily realized by connecting three active pulse transmission lines at a point. The S junction is realized by
+the circuit in Fig. 21. Corresponding to (22), the differential equations which represent signal propagation
+along the S junction are as follows:
++ .(I - z, + eZl2)
+
+±
+
+dd =
+
+ataX2
+
+at2
+
+at
+
+k
+
+1
+
+1+ -k2,
+d3z2
+da2z2
+az2
+atax2 =
++ IA(1 -Z2 + e22)1 -k2
+
+(b)
+Fig. 19-Waveform shaping action with respect to the signal height
+of the circuit in Fig. 18 displayed on a CRO screen. L=l=4 mh,
+R=115 12, r=200 n, Eo=150 mv, C=0.05 uf. In each figure,
+the waveform in the first, second, third, fourth and fifth lines
+are those observed at the first, third, fifth, seventh and ninth
+stages in the circuit shown in Fig. 18, respectively. Pulse heights
+in the bottom lines in (a) and (b) are equal and 150 mv. [Note
+that vertical scales are different in (a) and (b)]. (a) A small
+signal with 30-mv height is amplified in course of transmission.
+(b) A large signal with 380-mv height is attenuated in course of
+transmission.
+
+(a)
+
+1
+
+Fig. 20-Waveform shaping action with respect to the signal width
+of the circuit in Fig. 18 displayed on a CRO screen. In this case,
+C. 20 pf, other constants are the same as those in Fig. 19.
+The correspondence of lines and stages is the same as that in
+Fig. 19. Pulse width in the bottom lines of (a) and (b) is equal10 !ssec. (a) A narrow signal with 5-Msec width is widened in the
+course of transmission. (b) A wide signal with 30-psec width is
+narrowed in the course of transmission.
+
+k
+
++ - Z2 + - 2 Zl,
+I1- k2
+1 -k
+where k=M/L, O<k<1.
+
+The storage ring of the neuristor was realized by
+making a loop with forty stages of the monostable circuit and five stages of the S junction (Fig. 22).
+Cote has published an active pulse transmission line
+using p-n-p-n diodes toward an electronic realization of
+the neuristor.'4 The use of current-controlled negative
+resistance elements, however, seems to make the circuit
+more complicated.
+
+B. Active Surface
+Our active pulse transmission line may easily be extended to an active surface with the structure shown in
+Fig. 23. The differential equation of this active surface,
+corresponding to (22), becomes
+d3z
+d3z
+a2z
+dz
++
+=-+ U(+-Z + ez2)-+ Z,
+
+atax2
+
+(b)
+
+(31)
+
+atay2
+
+at2
+
+/1,
+J>
+
+at
+
+3
+
+(32)
+
+- > e> 0.
+~16
+
+13 H. D. Crane, "The neuristor," IRE TRANS. ON ELECTRONIC
+
+COMPUTERS, vol. EC-9, pp. 370-371, September, 1960; also, "Neuristor Studies," Solid-State Electronics Lab., Stanford University,
+Stanford, Calif., Tech. Rept. No. 1506-2, July, 1960; also H. D.
+Crane, 'Neuristor-a novel device and system concept," this issue,
+p. 2048.
+14 A. J. Cote, Jr., "A neuristor prototype," PROC. IRE (Correspondence), vol. 49, pp. 1430-1431; September, 1961.
+
+Authorized licensed use limited to: Universitatsbibliothek Erlangen Nurnberg. Downloaded on September 30,2026 at 08:40:13 UTC from IEEE Xplore. Restrictions apply.
+
+1962
+
+Nagumo, et al.: Transmission Line Simulating Nerve Axon
+
+(a)
+
+2069
+
+Fig. 23-The structure of the active surface
+represented by (32).
+
+(b)
+
+(c)
+
+Fig. 21-An S junction of the neuristor can be realized by coupling
+two monostable circuits by a mutual inductance. L=358 mh,
+M=355 mh, R=70 t2, Z=r+pl, 1=4 mh, r=70
+Eo=70 mv,
+C=0.01 ttf.
+fl,
+
+Fig. 22-Signals eniter fromi the "enitrv" and continue to circulate
+aloiig the "storage riing." The contents of the storage ring can
+be obtained from the "read outit line.
+
+X. CONCLUSIONS
+To electronically simulate the distributed BVP
+model, which may be considered as a simplified HodgkinHuxley model describing the propagation of the excitation of the nerve axon, we have made an approximately
+distributed active pulse transmission line using tunnel
+diodes. The line behaves similarly to the living axon,
+but the representation is gross.
+The line is constructed by cascading many monostable circuits and consists essentially of the following
+four parts:
+1) transverse power voltage supply,
+2) transverse inductance,
+3) transverse tunnel diode,
+4) longitudinal coupling resistance.
+The active line shows the following characteristics in
+the transmission of signals:
+1) There is a certain threshold value in respect to the
+signal height, and signals below the threshold
+(or noise) are eliminated during transmission.
+2) The line shapes signal waveforms. Namely, there
+being a specific pulse-like waveform peculiar to
+this line, signals above the threshold approach it
+during transmission.
+3) Since this line has a symmetrical structure, the
+signal transmission is bidirectional. Two signals
+traveling in opposite directions from both ends
+vanish at the collision point.
+
+On account of the existence of the threshold and the
+shaping action, this line makes possible highly reliable
+pulse transmission, and will be useful for various kinds
+of information-processing systems.
+
+Authorized licensed use limited to: Universitatsbibliothek Erlangen Nurnberg. Downloaded on September 30,2026 at 08:40:13 UTC from IEEE Xplore. Restrictions apply.
+
+October
+
+PROCEEDINGS OF THE IRE
+
+2070
+
+APPENDIX
+We shall briefly sketch the electrical behavior of the
+surface membrane of a nerve axon following Hodgkin
+and Huxley.2
+The electrical behavior of the membrane in the case
+of a "space clamp" may be represented by the network
+shown in Fig. 24. Current can be carried through the
+membrane either by charging the membrane capacity
+(CO) or by movement of ions through the resistances in
+parallel with the capacity.
+The capacity current Ic is given by
+dE
+(33)
+c= Co
+dt
+
+and ER is the absolute value of the resting potential.
+V, Na, VK, and VL can then be measured directly as
+displacements from the resting potential.
+We then assuiie that the sodium condluctance gNa iS
+represented by
+
+Outside
+
+dimensions of [time]-'; m and h are dimensionless variables which can vary between 0 and 1.
+These equations may be given a physical basis if
+sodium conductance is assumed to be proportional to
+the number of sites on the inside of the membrane
+which are occupied simultaneously by three activating
+molecules but are not blocked by an inactivating molecule. m then represents the proportion of activating
+molecules on the inside and 1 -m the proportion on the
+outside; h is the proportion of inactivating imolecules
+on the outside and 1-h the proportion on the inside.
+am or Oh and (m or ah represent the transfer rate constants in the two directions.
+The forms of a's and ,B's as functions of V are determined experimentally as shown in (1).
+Similar equations for gK are
+
+I|I
+T.
+
+t
+
+III,
+
+III'
+
+Et
+
+E.T
+
+EK
+
+1
+
+.
+
++T EL,
+
+Inside
+
+Fig. 24-Equivalent circuit representing the
+electric behavior of the membrane.
+
+The ionic current is divided into components carried
+by sodium and potassium ions (INa and IK) and a small
+"leakage current" (IL) made up by chloride and other
+ions. Each component of the ionic current is determined
+by a driving force which may conveniently be measured
+as an electrical potential difference and a permeability
+coefficient which has the dimensions of a conductance.
+Thus the sodium current INa is equal to the sodium conductance (gNa) multiplied by the difference between the
+membrane potential E and the equilibrium potential for
+the sodium ion ENa:
+(34)
+INa = gNa(E - ENa).
+Similarly we have
+(35)
+IK = gK(E - EK),
+(36)
+IL = gL(E - EL) .
+Eqs. (34)-(36) may be rewritten
+INa = gNa(V - VNa) ,
+
+(3 7)
+
+IK = gK(V - VK),
+
+(3'8)
+(319)
+
+IL = gL(V
+
+-
+
+VL),
+
+ER, VN, = ENa
+
+-
+
+ER, VK = EK
+
+where
+V= E
+
+-
+
+VL
+
+EL
+
+ER,
+
+-
+
+ER,
+
+gNa = gNam3hI
+
+(40)
+
+dm
+dt
+
+(41)
+
+dh
+dt
+
+(42)
+
+d = ah(1 - ) - ,h,
+
+where gNa is a constant with the dimensions of conductance/cm2; a's and O's are rate constants which vary
+with voltage (V) but not with time (t) and have
+
+-
+
+dn
+dt
+
+-=
+
+(43)
+
+4
+
+an(l -n)
+
+-
+
+Onn.
+
+(44)
+
+Summing up these equations, we have
+I = IC + INa + IK + IL
+-
+
+dV
+
+Co di
+d- + gNammh(V - VNa) + gKn4(V - VK)
++ gL(V
+
+-
+
+VL),
+
+(45)
+
+as shown in (1).
+
+ACKNOWLEDGMENT
+The authors appreciate the aid of Dr. S. Nakajima,
+the aid of Prof. M. Takata and T. Shimizu in the digital
+computation and the aid of R. Suzuki and Messrs.
+Saruyama, Takeya and Nozawa in the experiments.
+The authors also thank Profs. H. Takahashi and S.
+Furuya for their valuable discussions. This research was
+supported by a research grant from the Asahi Press, for
+which we express our deep appreciation.
+
+Authorized licensed use limited to: Universitatsbibliothek Erlangen Nurnberg. Downloaded on September 30,2026 at 08:40:13 UTC from IEEE Xplore. Restrictions apply.
+
+

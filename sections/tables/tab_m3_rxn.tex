@@ -1,0 +1,25 @@
+\begin{table*}[!t]
+\centering
+\caption{Module~3 reactions in the default configuration. GEF$_R$ and GAP are the cytosolic RasG exchange factor and GTPase-activating protein (asterisk: active form); $\mathrm{RasG}^{\mathrm{GTP/GDP}}$ are the membrane-bound Ras states; B is the substrate of the delayed brake (3.3c--e), activated by PKBR1$^*$ from Module~8.}
+\label{tab:m3rxn}
+\footnotesize
+\renewcommand{\arraystretch}{1.15}
+\begin{tabularx}{\textwidth}{@{}l>{\raggedright\arraybackslash}p{0.37\textwidth}>{\raggedright\arraybackslash}X@{}}
+\toprule
+ID & Reaction & Propensity (rate law)\\
+\midrule
+3.1 & $\mathrm{G}_{\beta\gamma}+\mathrm{GEF_R} \to \mathrm{GEF_R^*}+\mathrm{G}_{\beta\gamma}$ & $k_{E,\mathrm{on}}[\mathrm{G}_{\beta\gamma}][\mathrm{GEF_R}]$ \\
+3.2 & $\mathrm{GEF_R^*} \to \mathrm{GEF_R}$ & $k_{E,\mathrm{off}}[\mathrm{GEF_R^*}]$ \\
+3.3 & $\mathrm{GEF_R^*}+\mathrm{RasG}^{\mathrm{GDP}} \to \mathrm{RasG}^{\mathrm{GTP}}+\mathrm{GEF_R^*}$ & $k_{R,\mathrm{on}}[\mathrm{GEF_R^*}][\mathrm{RasG}^{\mathrm{GDP}}]$ \\
+3.4e & $\mathrm{G}_{\beta\gamma}+\mathrm{GAP} \to \mathrm{GAP^*}+\mathrm{G}_{\beta\gamma}$ & $k_{I,\mathrm{on}}[\mathrm{G}_{\beta\gamma}][\mathrm{GAP}]$ \\
+3.4b & $\mathrm{GAP} \to \mathrm{GAP^*}$ & $k_{I,\mathrm{b}}[\mathrm{GAP}]$ \\
+3.4f & $\mathrm{R}_p\mathrm{C}+\mathrm{GAP} \to \mathrm{GAP^*}+\mathrm{R}_p\mathrm{C}$ & $k_{I,p}[\mathrm{R}_p\mathrm{C}][\mathrm{GAP}]\ \ (k_{I,p}=0)$ \\
+3.5 & $\mathrm{GAP^*} \to \mathrm{GAP}$ & $k_{I,\mathrm{off}}[\mathrm{GAP^*}]$ \\
+3.7z & $\mathrm{GAP^*}+\mathrm{RasG}^{\mathrm{GTP}} \to \mathrm{RasG}^{\mathrm{GDP}}+\mathrm{GAP^*}$ & $k_\mathrm{cat}[\mathrm{GAP^*}]\,\dfrac{[\mathrm{RasG}^{\mathrm{GTP}}]}{K_\mathrm{NF1}+[\mathrm{RasG}^{\mathrm{GTP}}]}$ \\
+3.3b & $\mathrm{RasG}^{\mathrm{GDP}}+\mathrm{PIP3} \to \mathrm{RasG}^{\mathrm{GTP}}+\mathrm{PIP3}$ & $k_\mathrm{PIP3}[\mathrm{PIP3}][\mathrm{RasG}^{\mathrm{GDP}}]$ \\
+3.3c & $\mathrm{PKBR1}^*+\mathrm{B} \to \mathrm{B}^*+\mathrm{PKBR1}^*$ & $k_{B,\mathrm{on}}[\mathrm{PKBR1}^*][\mathrm{B}]$ \\
+3.3d & $\mathrm{B}^* \to \mathrm{B}$ & $k_{B,\mathrm{off}}[\mathrm{B}^*]$ \\
+3.3e & $\mathrm{B}^*+\mathrm{RasG}^{\mathrm{GTP}} \to \mathrm{RasG}^{\mathrm{GDP}}+\mathrm{B}^*$ & $k_{B,\mathrm{hyd}}[\mathrm{B}^*][\mathrm{RasG}^{\mathrm{GTP}}]$ \\
+\bottomrule
+\end{tabularx}
+\end{table*}

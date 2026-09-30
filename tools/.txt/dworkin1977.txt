@@ -1,0 +1,425 @@
+THE JOURNAL OF BIOKSG~CAL CHEMWMV
+Vol. 252, No. 3, Issue of February
+10, pp. 864-865,
+Printed tn U.S.A.
+
+1977
+
+Solubility
+and Diffusion
+Monophosphate*
+
+Coefficient
+
+of Adenosine
+
+3’:5’-
+
+(Received for publication,
+MARTIN
+
+DWORKIN
+
+AND
+
+KENNETH
+
+From the Departments
+of Microbiology
+Minnesota,
+Minneapolis,
+Minnesota
+
+H. KELLER
+and Chemical
+55455
+
+Several previously unavailable
+parameters
+of adenosine
+3’:5’-monophosphate
+have been determined.
+The molar extinction coefficient
+at pH 7.0 is 1.38 x lOma, the aqueous
+solubility at pH 7.0 is 0.0236 M and the diffusion coefficient
+is 4.44 x lo-” cm%.
+
+In attempting to develop an experimental
+chemotactic system in which the spatial and temporal dependence of the
+concentration of adenosine 3’:5’-monophosphate
+(CAMP) were
+well characterized,
+we found that certain
+necessary
+data,
+namely, the solubility and diffusion coefficient of the CAMP,
+were not available. For example, other investigators
+concerned with the role of CAMP as a diffusible morphogen (1) and
+as a chemotactic agent for polymorphonucleocytes
+(2), had
+been forced to rely on estimates of these parameters. Since
+interest in this compound is likely to continue to grow because
+of its ubiquity and importance, we have determined both the
+aqueous solubility and diffusion coefficient of CAMP experimentally.
+MATERIALS
+
+CAMP was the crystalline,
+tained from Sigma. Radioactive
+
+AND
+
+METHODS
+
+free anhydrous acid, 99% pure, ob-
+
+CAMP was tritiated
+in carbon 8 and
+the specific activity
+was 16 Ciimmol
+(SchwarziMann).
+Absorption
+spectra and extinction
+coefficients
+were determined
+with a Cary 14 Spectrophotometer.
+Radioactivity
+was determined
+by
+counting
+in Bray’s solution
+in a liquid scintillation
+counter.
+Under
+these conditions,
+the counting
+efficiency
+for [3H]cAMP
+was 55%.
+Measurements
+of the diffusion
+coefficient
+were made with the
+diffusion
+cell shown in Fig. 1. The cell consists of a Lucite chamber or
+reservoir
+with two ports: one to hold the capillary
+tube containing
+the test solution
+and the other to allow the reservoir
+fluid to be
+sampled. For each experimental
+run, a 20-~1 capacity capillary
+tube
+(60.5 mm long) was filled completely
+with a gel composed of 2% Difco
+agar in distilled
+water containing
+the isotopic CAMP. The top of the
+tube was plugged and the tube was inserted through
+the port into the
+20 ml of distilled
+water which had been placed in the chamber.
+The
+tube opening was located a few millimeters
+above a magnetic
+stirrer
+which kept the reservoir
+well mixed, and, as a result of dilution
+in
+the relatively
+large reservoir
+volume, ensured that the concentration
+of CAMP just outside the tube opening remained
+negligibly
+small
+compared
+to the concentrations
+within
+the tube. Temperature
+was
+not controlled,
+but was constant
+at 20 ? 1” throughout
+the run.
+Triplicate
+loo-p1 samples were removed
+at intervals
+and their radioactivity
+determined.
+Concentrations
+thus obtained
+were corrected
+* This work was supported
+Research Grant 19957 from
+cal Sciences.
+
+Engineering
+
+and Materials
+
+Science,
+
+University
+
+of
+
+for CAMP adsorption
+on the Lucite surfaces of the chamber.
+To determine
+the adsorption
+correction,
+the adsorption
+isotherm
+of
+CAMP on Lucite was measured
+in separate
+experiments.
+Various
+known amounts
+of [3H]cAMP
+were added to 20 ml of distilled
+water
+in the chamber
+and the solution was sampled at timed intervals.
+The
+amount
+of [3H]cAMP
+remaining
+in solution
+was determined
+by
+counting
+the samples and each run was continued
+until there was no
+further
+change.
+To determine
+the solubility
+of CAMP,
+approximately
+10 mg of
+CAMP was added to 1 ml of phosphate
+buffer,
+10m2 M, pH 7.0, and
+incubated
+for 2 h at 20”. The solution
+was then removed
+and centrifuged at 20” for 2 min at 27,000 x g to remove undissolved
+solute and
+any micellar
+aggregates.
+The absorbance
+of the supernatant
+solution
+was determined
+at the absorption
+maximum
+(A,,,
+= 259 nm) and
+minimum
+(A,,,
+= 227 nm). Absorbance
+at these two wavelengths
+was also determined
+for a dilute control solution.
+RESULTS
+
+AND
+
+DISCUSSION
+
+The molar extinction coefficient (E,,,) for CAMP in lo-’ M
+phosphate buffer, pH 7.0, was determined to be 1.38 x lo+ at
+the absorption maximum, 259 nm. Using this value, the solubility of the CAMP at 20” in this buffer was found to be 0.0236
+M.
+
+The adsorption isotherm for CAMP on Lucite is presented in
+Fig. 2. Approximately
+one-third of the total activity added to
+the chamber adsorbed on the surfaces in the concentration
+range examined so that a substantial correction had to be
+applied to the volumetric concentration data in calculating the
+diffusion coefficient. The linear nature of the isotherm is consistent with expectation in this relatively low surface concentration range.
+In Fig. 3, increase in [RHlcAMP in the reservoir due to
+
+Distilled
+Magnetic
+stirring
+
+by United States Public Health Service
+the National
+Institute
+of General
+Medi-
+
+bar
+
+FIG. 1. Diagram
+measurements.
+
+864
+
+This is an Open Access article under the CC BY license.
+
+October 1, 1976)
+
+water
+
+F
+
+of Lucite
+
+chamber
+
+for diffusion
+
+and adsorption
+
+Solubility
+
+and Diffusion
+
+Coefficient
+
+of Cyclic
+
+AMP
+
+665
+
+3200-
+
+.
+
+.
+
+2880L
+5
+g 2240E
+y 1920B
+!J
+5K 1600”
+
+2
+
+4
+
+6
+
+FIG. 2 (left). Adsorption
+1,965, 3,746, 8,222, 11,137,
+FIG. 3 (right).
+Diffusion
+20 ~1 of 2% Difco agar.
+
+8
+10
+12
+CPHREYlNlNG
+.I6’
+
+14
+
+16
+
+18
+
+20
+
+2
+
+4
+
+6
+
+14 16
+r’+-M,H
+the results of experiments in which
+
+isotherm
+for [3H]cAMP
+in diffusion
+chamber.
+The data points represent
+were added to the chamber.
+was 16 Ci/mmol.
+15,596, and 27,326 cpm of [3H]cAMP
+Specific activity
+rate of [3HlcAMP
+(corrected
+for adsorption).
+t3HlcAMP
+(16 Ci/mmol,
+0.05 PCi) was added to the capillary
+
+diffusion from the agar-filled capillary tube is plotted as a
+function of time. The data have been corrected for surface
+adsorption.
+For these experimental
+conditions, in which the capillary
+tube is long compared to the “diffusion-penetration
+depth” (3)
+and the open end of the capillary tube is maintained
+at a
+concentration negligible compared to the initial concentration
+in the tube, the total amount of CAMP in the reservoir, N, at
+any time, t, is given by (3):
+
+The Stokes-Einstein
+equation (4) gives the following
+retical estimate of the diffusion coefficient of spherical
+cules.
+D=6%
+
+7r
+
+tube in
+
+theomole-
+
+(3)
+
+where
+
+where k is the Boltzmann constant, T the temperature,
+r) the
+solvent viscosity, and a the radius of the molecule. Based on
+the molecular weight of CAMP, one may estimate its equivalent spherical radius as 5.16 A, so that Equation 3 predicts a
+diffusion coefficient of 4.14 x 10m6 cm‘% at 20”, in close
+agreement with the measured value.
+
+Based on the data of Fig. 3, the diffusion
+x lo-” cm%.
+
+1. Crick, F. (1970) Nature
+225, 420-422
+2. Grimes, G. J., and Barnes, F. S. (1973)Exn.
+Cell Res. 79,375-385
+3. Bird, R. B., Stewart,
+W. E., and Lightfoot,
+E. N. (1960) Trunsport Phenomena,
+pp. 353-354, John Wiley and Sons, New York
+4. Daniels, F., and Alberty,
+R. A. (1955) Physical Chemistry,
+p. 650,
+John Wiley and Sons, New York
+
+A is the area of the capillary
+tube opening, C, is the
+initial activity of [:jH]cAMP in the capillary tube (counts per
+min per ml), and D is the diffusion coefficient of CAMP in the
+agar. Thus, the slope of the line in Fig. 3 is 2AC,m
+and
+7r
+
+D = 4(AC,,j2
+
+x slope
+
+coefficient
+
+is 4.44
+
+REFERENCES
+
+

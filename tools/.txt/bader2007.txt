@@ -1,0 +1,1025 @@
+Biochem. J. (2007) 402, 153–161 (Printed in Great Britain)
+
+153
+
+doi:10.1042/BJ20061153
+
+Seven Dictyostelium discoideum phosphodiesterases degrade three pools
+of cAMP and cGMP
+Sonya BADER1 , Arjan KORTHOLT1 and Peter J. M. VAN HAASTERT2
+Department of Molecular Cell Biology, University of Groningen, Kerklaan 30, 9751NN, Haren, The Netherlands
+
+The Dictyostelium discoideum genome uncovers seven cyclic
+nucleotide PDEs (phosphodiesterases), of which six have been
+characterized previously and the seventh is characterized in the
+present paper. Three enzymes belong to the ubiquitous class I
+PDEs, common in all eukaryotes, whereas four enzymes belong
+to the rare class II PDEs that are present in bacteria and lower
+eukaryotes. Since all D. discoideum PDEs are now characterized
+we have calculated the contribution of each enzyme in the degradation of the three important pools of cyclic nucleotides: (i) extracellular cAMP that induces chemotaxis during aggregation and
+differentiation in slugs; (ii) intracellular cAMP that mediates
+development; and (iii) intracellular cGMP that mediates chemotaxis. It appears that each cyclic nucleotide pool is degraded by
+a combination of enzymes that have different affinities, allowing a
+broad range of substrate concentrations to be degraded with firstorder kinetics. Extracellular cAMP is degraded predominantly by
+
+the class II high-affinity enzyme DdPDE1 and its close homologue
+DdPDE7, and in the multicellular stage also by the low-affinity
+transmembrane class I enzyme DdPDE4. Intracellular cAMP is
+degraded by the DdPDE2, a class I enzyme regulated by histidine
+kinase/phospho-relay, and by the cAMP-/cGMP-stimulated class
+II DdPDE6. Finally, basal intracellular cGMP is degraded
+predominantly by the high-affinity class I DdPDE3, while the
+elevated cGMP levels that arise after receptor stimulation are
+degraded predominantly by a cGMP-stimulated cGMP-specific
+class II DdPDE5. The analysis shows that the combination of
+enzymes is tuned to keep the concentration and lifetime of the
+substrate within a functional range.
+
+INTRODUCTION
+
+mammals, and class II that predominantly occurs in bacteria and
+lower eukaryotes (see Figure 1).
+We will follow the nomenclature of D. discoideum PDEs that
+has been proposed by Bosgraaf et al. [6] and will give original or
+alternative names on first mentioning. DdPDE1 (PdsA) is a class
+II dual-specificity PDE that degrades extracellular cAMP and
+cGMP. The enzyme can be secreted in the medium, or exposed on
+the cell surface. Cells without DdPDE1 (pdsA-null strain UK7)
+reveal that DdPDE1 is the main PDE that degrades extracellular
+cAMP during cell aggregation and is thereby essential for shaping cAMP waves. UK7 cells fail to aggregate, but can be rescued
+by adding exogenous PDE activity [7–17]. DdPDE2 (RegA)
+encodes a cAMP-specific PDE localized in the cytosol of the
+cell where it degrades intracellular cAMP. The protein harbours
+a class I PDE catalytic domain and a response regulator domain,
+which is phosphorylated and activated by histidine kinases via
+the phospho-relay protein RdeA [18]. The DdPDE2 knockout
+cell strain, regA− , develops into very small aggregates and shows
+defects in spore formation. Additionally DdPDE2 has been
+implicated in suppression of pseudopodium formation during
+chemotaxis [4,19–26]. DdPDE3 is a cGMP-specific class I PDE
+that consists of a catalytic domain without regulatory domains,
+and is constitutively active. The ddpde3− null cell strain shows a
+moderate phenotype with increased basal cGMP levels, but only
+a small effect on cAMP-stimulated cGMP levels compared with
+wild-type cells [27]. DdPDE4 is a class I cAMP-specific enzyme
+with two transmembrane segments and an extracellular catalytic
+domain. The protein is expressed mainly in the multicellular stage
+where it is involved in the degradation of extracellular cAMP.
+The ddpde4− null cell strain shows normal cell aggregation, but is
+
+The cyclic nucleotides cAMP and cGMP play a central role in diverse signal transduction processes in Dictyostelium discoideum.
+cAMP mediates chemotaxis during cell aggregation, and controls
+gene expression during development. cGMP regulates cytoskeletal organization affecting shape, stability and motility of
+single cells. The intracellular concentration of cAMP and cGMP
+is determined by the combined action of production and removal.
+Production depends on the enzymatic activity of the adenylyl
+and guanylyl cyclases to form cAMP and cGMP respectively.
+Removal of intracellular cAMP or cGMP depends on the activity
+of PDEs (phosphodiesterases) that hydrolyse cAMP and cGMP,
+and on the ability of D. discoideum cells to secrete cAMP. This
+extrusion mechanism is pivotal in the formation of extracellular
+cAMP waves, which is the chemotactic signal for cell-directed
+movement during aggregation, mound formation and slug
+migration.
+In D. discoideum cAMP is produced by three adenylyl cyclases
+(see [1]): ACA is a transmembrane enzyme that is regulated by Gprotein-coupled receptors [2], ACB, encoded by the acrA gene [3],
+is a soluble adenylyl cyclase with high basal activity [4], whereas
+ACG is an osmosensitive adenylyl cyclase [1]. cGMP synthesis
+is mediated by two guanylyl cyclases, the transmembrane GCA
+and the soluble sGC that are both regulated by G-proteincoupled receptor pathways (see [5]). For the degradation of cAMP
+and cGMP, six different PDEs have been reported and characterized in D. discoideum. These PDEs represent two classes that
+exhibit distinct differences in the amino acid sequence of the
+putative catalytic domains, namely class I, which is ubiquitous in
+
+Key words: cAMP, cGMP, chemotaxis, development, Dictyostelium discoideum, phosphodiesterase.
+
+Abbreviations used: cNB, cyclic nucleotide-binding; DTT, dithiothreitol; GFP, green fluorescent protein; GPI, glycosylphosphatidylinositol; IBMX, 3isobutyl-1-methylxanthine; PDE, phosphodiesterase.
+1
+These authors contributed equally to this work.
+2
+To whom correspondence should be addressed (email P.J.M.van.Haastert@rug.nl).
+
+c 2007 Biochemical Society
+
+154
+
+Figure 1
+
+S. Bader, A. Kortholt and P. J. M. Van Haastert
+
+The PDE family of D. discoideum
+
+(A) Seven PDEs have been recognized and identified in the completed genome of D. discoideum . The enzymes belong to the class I enzymes prevalent in higher eukaryotes, or to the class II enzymes
+that are present in lower eukaryotes and some bacteria. Based on bootstrap data of phylogenetic cluster analysis of type II enzymes, the class II enzymes are recognized as catalytic PDEs or catalytic
+metallo-β-lactamases. The localization and activity of the seven enzymes are regulated by signal sequences, transmembrane segments, a response regulator domain or cNB domains. (B) Cluster
+analysis of the catalytic domains of class II enzymes from prokaryotes and lower eukaryotes. All nodes have bootstrap values above 70 %, except for the nodes indicated by the small white ovals.
+Bootstrap values of the inner nodes are indicated. These bootstrap values and the length of the catalytic domain suggest two main groups, metallo-β-lactamases and PDEs; the latter may consist
+of two subgroups. The species abbreviations, gene identifiers and taxonomy are: Dh, Debaryomyces hansenii , gi|50424793, Eukaryota, Fungi; Cal, Candida albicans , gi|7548341, Eukaryota, Fungi;
+Kl, Kluyveromyces lactis , gi|50307193, Eukaryota, Fungi; Eg, Eremothecium gossypii , gi|44984787, Eukaryota, Fungi; Cg, Candida glabrata , gi|49526440, Eukaryota, Fungi; Sc, Saccharomyces
+cerevisiae , gi|6321189, Eukaryota, Fungi; Yl, Yarrowia lipolytica , gi|50554561, Eukaryota, Fungi; Nc, Neurospora crassa , gi|85086599, Eukaryota, Fungi; Sp, Schizosaccharomyces pombe ,
+gi|3581909, Eukaryota, Fungi; Dd, D. discoideum ; DdPDE1, gi|84080, DdPDE5, gi|21069535, DdPDE6, gi|66819225, DdPDE7, gi|66805301, Eukaryota, Mycetozoa; Lp, Legionella pneumophila ,
+gi|53754670, Bacteria, Proteobacteria; Pa, Pseudoalteromonas atlantica , gi|76793857, Bacteria, Proteobacteria; Yp, Yersinia pseudotuberculosis , gi|77629947, Bacteria, Proteobacteria; Vf, Vibrio
+fischeri , gi|59711863, Bacteria, Proteobacteria; Ddβ-lactamase, D. discoideum , gi|66802803, Eukaryota, Mycetozoa; Mm, Magnetospirillum magnetotacticum , gi|23012958, Bacteria, Proteobacteria;
+Cau, Chloroflexus aurantiacus , gi |76165595, Bacteria, Chloroflexi; Tt, Tetrahymena thermophila ; Tt1, gi|89287508, Tt2, gi|89296516, Eukaryota, Alveolata; Li, Leptospira interrogans , gi|45657830,
+Bacteria, Spirochaetes.
+
+defective in multicellular development [28]. DdPDE5 (GbpA or
+PDED) is characterized as a cGMP-stimulated cGMP-specific
+class II PDE. The ddpde5− null cell strain exhibits a phenotype with strongly elevated levels of cGMP, both basal levels
+and especially after stimulation with cAMP. The biochemical
+phenotype of this ddpde5− null cell strain is similar to that
+observed in the mutant NP368, a Streamer F cell strain [6,29,30].
+Finally, DdPDE6 (GbpB or PDEE) is a dual-specificity class II
+PDE that predominantly degrades intracellular cAMP and to a
+minor extent cGMP [6,30–32].
+As mentioned above, D. discoideum cells possess two cyclic
+nucleotide PDEs on their cell surface, the cAMP/cGMP nonspecific DdPDE1 and the cAMP-specific DdPDE4. In an attempt
+to characterize DdPDE4 we used the UK7 cell line which has a
+deletion of the gene encoding DdPDE1. As reported, UK7 cells
+have very low cell surface PDE activity [13], but surprisingly we
+observed that the majority of this residual activity is not DdPDE4,
+but resembles DdPDE1 in respect to catalytic properties and
+sensitivity to inhibitors. Upon completion of the D. discoideum
+genome-sequencing project, we recognized the presence of a new
+PDE, that we named DdPDE7 for its order of identification. In the
+present study we demonstrate that DdPDE7 is a close homologue
+of DdPDE1 in respect to amino acid sequence and enzymatic
+properties, and is responsible for the residual activity in UK7
+cells.
+To understand the function of PDEs in the regulation of
+intracellular and extracellular cAMP and cGMP levels it is
+essential to be confident that all PDEs in D. discoideum have
+been identified and characterized. Extensive searches of the now
+completed D. discoideum genome for class I or class II PDEs
+do not provide evidence for additional cyclic nucleotide PDEs.
+Searches for homologues of bacterial type III PDEs [33] have
+not yielded any potential candidate for this type of PDE in D.
+discoideum, suggesting that most probablly all cyclic nucleotide
+PDEs have now been characterized in D. discoideum. In the
+
+c 2007 Biochemical Society
+
+present study, we have used the kinetic properties of all enzymes
+to determine the contribution of each enzyme to the degradation
+of the three pools of cyclic nucleotides.
+EXPERIMENTAL PROCEDURES
+Construction of the overexpressor
+
+To express the full length protein, a DNA fragment was PCRamplified using the primers PDE7F: 5 -GAAGATCTAAAATGAAATATTTAATTTTAATTTTAATATTTTTTATTG-3 and
+PDE7R: 5 -GAACTAGTTAAACAAATTGGTACACCTTGGTTTG-3 . The BglII/SpeI fragment was cloned into the BglII-SpeI
+site of a modified MB74–GFP (green fluorescent protein)
+vector that contained a hygromycin- instead of a neomycinresistance cassette [34], resulting in the plasmid pDM115-PDE7–
+GFP. Finally UK7 D. discoideum cells [13] were transfected with
+5 µg of plasmid. Hygromycin-resistant cells were analysed; we
+will refer to this overexpressor as DdPDE7OE .
+Cluster analysis
+
+Multiple sequence alignments were constructed using the
+CLUSTAL W program [35], followed by manual optimization.
+Distance matrices were constructed from the alignments with the
+PROTDIST program of the PHYLIP package, which uses
+the Dayhoff PAM 001 matrix for the calculation of evolutionary
+distances (Phylip 3.5) [36]. Phylogenetic trees were generated
+using the FITCH program of the PHYLIP package, with 1000
+bootstrap replications to assess the reliability of the nodes.
+Culture and incubation conditions
+
+AX3, UK7, UK7/regA− and DdPDE7OE strains were grown on
+HG5 medium (14.3 g/l Oxoid Pepton, 7.15 g/l yeast extract,
+1.36 g/l Na2 HPO4 · 12H2 O, 0.49 g/l KH2 PO4 and 10.0 g/l glucose)
+
+Dictyostelium discoideum phosphodiesterases
+Table 1
+
+155
+
+Three cyclic nucleotide pools regulated by seven PDEs
+
+The intrinsic kinetic properties K m , K a and Hill coefficient were obtained from the present study and published data, DdPDE1 [41]; DdPDE2 [37] and our own measurements; DdPDE3 [27]; DdPDE4
+[28]; DdPDE5 [6,50]; DdPDE6 [6,31]; DdPDE7, the present study. The V max was determined using enzyme-specific assays as indicated in Table 2.
+Kinetic properties
+
+V max (pmol/min per
+107 cells)
+Cyclic nucleotide pool
+
+PDE
+
+Class
+
+K m (µM)
+
+Hill coeff.
+
+K a (µM)
+
+Aggr.
+
+Slugs
+
+Extracellular cAMP
+
+PDE1
+PDE7
+PDE4
+PDE2
+PDE6*
+PDE3
+PDE5*
+PDE6*
+
+II
+II
+I
+I
+II
+I
+II
+II
+
+0.75
+12.5
+9.6
+5
+200/400
+0.2
+5/20
+800/1600
+
+0.8
+0.79
+1.0
+1.0
+–
+1.0
+–
+–
+
+–
+–
+–
+–
+0.7
+
+95
+22
+13.45
+50
+5200
+2
+400
+2400
+
+115
+11
+296
+n.d.
+n.d.
+n.d.
+n.d.
+n.d.
+
+Intracellular cAMP
+Intracellular cGMP
+
+0.16
+2.3
+
+*These enzymes are activated by their substrate. In PDE5 this is shown to be mediated by reduction of the K m , whereas the V max remains the same; for DdPDE6 we assume the same kinetic
+mechanism. For each enzyme, two K m values are presented, of the high-affinity and low-affinity form respectively. n.d., not determined.
+
+either on a 9 cm dish or in shaking culture at 22 ◦C. The overexpressor DdPDE7OE strain was grown in HG5 medium in the
+presence of 10 µg/ml hygromicin B. UK7/regA− cells were kindly
+provided by David Trayner and Rob Kay (MRC Laboratory of
+Molecular Biology, Cambridge, U.K.); the strain (HM1020) was
+made by disruption of the regA gene in UK7 cells using the vector
+as described for generating regA− cells [37].
+
+The Michaelis–Menten enzymes PDE2, PDE3 and PDE4 (eqn 2):
+
+PDE assays
+
+In these equations V max is the maximal velocity of the enzyme,
+S is the substrate concentration, K m is the Michaelis–Menten
+constant, K 0.5 is the apparent Michaelis–Menten constant, h is
+the Hill coefficient, K a is the activation constant and K mL and K mH
+are the Michaelis–Menten constants of the basal and activated
+enzyme respectively.
+The half-life of the substrate was calculated with eqn 4:
+
+D. discoideum cells were starved in 10 mM KH2 PO4 /Na2 HPO4
+(pH 6.5) for 5 h at a density of 107 cells/ml. Cells were centrifuged
+for 3 min at 300 g, and the supernatant was saved as medium. The
+cells were washed with PDE lysis buffer [20 mM Hepes/NaOH
+(pH 7.0) and 1 mM EGTA] and resuspended in PDE lysis buffer
+at a density of 108 cells/ml. The PDE assay mixture (final concentrations) contained 20 mM Hepes/NaOH (pH 7.0), 1 mM EGTA,
+5 mM MgCl2 , 10 nM [3 H]cAMP or 10 nM [3 H]cGMP as substrate, and 30 µl of cells or extracellular medium in a total volume
+of 100 µl. The assay mixture was incubated at room temperature
+(22 ◦C) for 30 min and the reaction was terminated by boiling
+for 1 min. The product was dephosphorylated by calf intestine
+phosphatase {1 unit of enzyme in 50 µl of calf intestine phosphatase buffer [50 mM Tris/HCl (pH 9.0), 0.1 mM MgCl2 ,
+0.1 mM ZnCl2 and 1 mM spermidine] incubated for 1 h at 37 ◦C}.
+Finally, 150 µl of Dowex AG1 × 2 was added to remove the
+remaining substrate. After 10 min of incubation under regular
+mixing, samples were centrifuged for 2 min at 14 000 g, and the
+radioactivity in 200 µl of the supernatant was measured.
+Calculation of degradation of three cyclic nucleotide pools
+
+Sh
+K + Sh
+h
+0.5
+
+S
+Km + S
+
+(2)
+
+The substrate-activated enzymes PDE5 and PDE6 (eqn 3):
+
+
+S
+S
+S
+Ka
++
+v = Vmax
+K a + S K mH + S
+K a + S K mL + S
+
+(3)
+
+S
+(4)
+t0.5 = 0.6 α
+v
+where t0.5 is the half-life of substrate in min, S is the substrate
+concentration in µM, v is the calculated rate of degradation in
+pmol/min per 107 cells, and α is the volume of 107 cells in µl.
+The proportionality constant 0.6 is the average between ln2 0.69
+(for first-order degradation at S  K m ) and 0.5 (for zero-order
+degradation at S  K m ). The cell density during aggregation is
+108 cells/ml yielding α = 100 µl for cell surface enzymes during
+aggregation. The volume of a cell is about 630 µm3 [38] yielding
+α = 6.3 µl for cytosolic enzymes. We assume that in slugs the volume between cells is in the same order as the volume of the
+smaller cells (α = 5 µl).
+RESULTS
+
+Using the measured kinetic constants of cAMP and cGMP degradation by the seven D. discoideum enzymes it is possible
+to calculate the contribution of each enzyme to the degradation
+of extracellular cAMP (by DdPDE1, DdPDE4 and DdPDE7),
+intracellular cAMP (by DdPDE2 and DdPDE6) and intracellular
+cGMP (by DdPDE3, DdPDE5 and DdPDE6). The equations of
+the enzymes with enzymatic constants of Table 1 are:
+The allosteric enzymes PDE1and PDE7 (eqn 1):
+v = Vmax
+
+v = Vmax
+
+(1)
+
+Deduced amino acid sequence of DdPDE7
+
+The deduced DdPDE7 protein consists of 425 amino acids, of
+which the first 17 amino acids are predicted to form a signal
+peptide with probable cleavage between amino acids 17 and 18
+(Figures 1A and 2). The predicted catalytic domain starts at amino
+acid 22 and continues until the C-terminus and belongs to the
+group of class II PDEs that are present in lower eukaryotes and
+bacteria, but not in higher eukaryotes. The homologous DdPDE1
+is somewhat larger (452 amino acids), mainly at the N-terminus.
+The deduced amino acid sequence of DdPDE1 is also predicted to
+
+c 2007 Biochemical Society
+
+156
+
+Figure 2
+
+S. Bader, A. Kortholt and P. J. M. Van Haastert
+
+Alignment of DdPDE1 and DdPDE7
+
+The deduced amino acid sequence of DdPDE1 and DdPDE7. Underlined are the predicted signal sequences with cleavage between amino acid 17 and 18 for DdPDE1 and 23 and 24 for DdPDE7. A
+potential hydrophobic transmembrane segment is indicated in small italic letters. The asterisk indicates a potential GPI anchor.
+
+contain a signal sequence with a probable cleavage site between
+amino acids 23 and 24, and a catalytic domain that starts at amino
+acid 52. The catalytic domains of DdPDE1 and DdPDE7 share
+62 % amino acid identity and 78 % identical or conserved amino
+acids (Figure 2).
+To further characterize the homology between DdPDE1 and
+DdPDE7, we investigated the genomic organization of the respective genes [39] at http://dictybase.org/. DdPDE7 is encoded
+by BC5V2_0_00956 on chromosome 5, whereas DdPDE1 is
+encoded by the pdsA gene on chromosome 4. DdPDE7 lies
+two genes downstream of DdPDE4 in the opposite orientation.
+DdPDE7 has no introns in the coding region, whereas DdPDE1
+has one intron in the coding region and two introns in the noncoding region. The upstream region of DdPDE7 containing the
+putative promoter region does not show a clear resemblance to
+the complex promoter region of DdPDE1 (results not shown).
+Homology and cluster analysis of the catalytic domain
+
+DdPDE7 belongs to the group of class II cyclic nucleotide PDEs,
+which are present in some bacteria and lower eukaryotes. DdPDE1
+also belongs to this class, as well as DdPDE5 and DdPDE6,
+although the catalytic domains of DdPDE5 and DdPDE6 are
+shorter and resemble metallo-β-lactamases. We made a multiple
+sequence alignment of the catalytic domains of these four D.
+discoideum PDEs together with class II PDEs from other lower
+eukaryotes and bacteria, and performed a phylogenetic/protein
+cluster analysis (Figure 1B). The result demonstrates at least two
+groups of class II cyclic nucleotide PDEs (bootstrap 95 %): the
+originally defined type II PDEs [40], and a group resembling
+metallo-β-lactamases. Based on a bootstrap value of 94 %, the
+type II PDEs may consist of two subgroups, one subgroup with
+DdPDE1, DdPDE7 and presently four enzymes from a few
+prokaryotes (all belonging to the class of γ -proteobacteria), and
+a subgroup of about ten enzymes from eukaryotes (all belonging
+to the division Ascomycota of the Fungi kingdom). Interestingly,
+the proteins of the metallo-β-lactamase type II PDEs all harbour
+a metallo-β-lactamase domain and one or usually two cNB
+
+c 2007 Biochemical Society
+
+(cyclic nucleotide-binding) domains. Sequences are found in a
+few prokaryotes, and in the eukaryotes Tetrahymena thermophila
+and D. discoideum. For D. discoideum DdPDE5 and DdPDE6,
+it has been demonstrated that the metallo-β-lactamase domain
+possesses PDE activity, which is activated by cAMP or cGMP
+binding to the cNB domains [31].
+Catalytic activity of DdPDE7
+
+Previously, only two PDEs in D. discoideum were known that
+have their catalytic activity exposed on the cell surface, DdPDE1
+and DdPDE4 [28]. With the recognition of DdPDE7 as a close
+homologue of DdPDE1, we have carefully analysed our older data
+on the residual PDE activity of the ddpde1-null cell line UK7.
+DdPDE1 is a dual cAMP/cGMP PDE that is strongly inhibited
+by DTT (dithiothreitol) and insensitive to IBMX (3-isobutyl1-methylxanthine), whereas DdPDE4 is insensitive to DTT but
+inhibited by IBMX.
+Wild-type cells that have been starved for 5 h have a very
+active PDE activity on their surface (3000 fmol/min per 107 cells
+at 10 nM cAMP), which is essentially completely inhibited by
+10 mM DTT and insensitive to IBMX (Figure 3A). UK7 cells
+have a 50-fold reduction of surface PDE activity (60 fmol/min per
+107 cells), implying that DdPDE1 contributes by far the majority
+of PDE activity on the surface of D. discoideum cells that have
+been starved for 5 h, as has been discussed previously in [13].
+The residual activity on UK7 cells is inhibited only slightly by
+IBMX; the 15 % inhibition (9 fmol/min per 107 cells) most likely
+represents the IBMX-sensitive DdPDE4 that is known to be expressed at these low levels in cells that have been starved for 5 h
+[28]. The residual activity of UK7 cells is inhibited 90 % by DTT,
+suggesting that UK7 cells may express a homologue of DdPDE1.
+To demonstrate that the DTT-sensitive activity of UK7 cells is
+attributed to DdPDE7, we overexpressed the ddpde7 gene in UK7
+cells (Figure 3B). The DTT-sensitive PDE activity of UK7 cells is
+present approx. 15 % at the cell surface and approx. 85 % secreted
+into the medium. Overexpression of DdPDE7 leads to a 2.4-fold
+increase of PDE activity, both in the medium and expressed on the
+
+Dictyostelium discoideum phosphodiesterases
+
+Figure 4
+
+Figure 3
+
+Initial characterization of DdPDE7
+
+(A) Inhibition by IBMX and DTT of PDE activity at the surface of wild-type AX3 cells and UK7
+cells with a deletion of DdPDE1 that had been starved for 5 h. The activity in the absence of
+inhibitors is set at 100 % (2950 fmol/min per 107 cells in AX3 and 61 fmol/min per 107 cells in
+UK7). The results show that the residual PDE activity exposed on UK7 cells is inhibited strongly
+by DTT and only partly by IBMX. (B) Over-expression of DdPDE7 in UK7 cells reveal enhanced
+activity both on the cell surface and secreted in the medium.
+
+surface at the same ratio as in control cells. The enhanced activity
+of UK7/DdPDE7OE cells hydrolyses both cAMP and cGMP and
+is sensitive to inhibition by DTT and not by IBMX (results not
+shown). These properties of UK7/DdPDE7OE cells are essentially
+identical to those of UK7 cells. We conclude that DdPDE7 is the
+major PDE activity of UK7 cells that have been starved for 5 h.
+Kinetics of DdPDE7
+
+PDE activity was measured with different concentrations of
+cAMP or cGMP using intact UK7 cells. The Eady–Hofstee plot
+(Figure 4) reveals a slight negative co-operativity as has been
+observed for DdPDE1 (see [41] for the kinetic data of DdPDE1).
+The inset shows a Hill plot, yielding a Hill coefficient of 0.79 for
+DdPDE7, compared with 0.8 for DdPDE1 [41]. At subsaturating
+concentrations of 10 nM, UK7 cells hydrolyse cAMP about
+1.6-fold faster than cGMP, indicating that DdPDE7 is a dualspecificity enzyme, as has also been observed for DdPDE1.
+However, the affinity of DdPDE7 for cAMP is much lower than
+that of DdPDE1 (the apparent K m is 0.8 µM cAMP for DdPDE1
+and 12.5 µM for DdPDE7). Both DdPDE1 and DdPDE7 have
+a 2- to 3-fold lower affinity for cGMP compared with cAMP.
+In contrast, DdPDE7 appears to have a 2.6-fold higher V max
+for cGMP compared with cAMP, while DdPDE1 has a 1.5-fold
+lower V max for cGMP than for cAMP. Thus both DdPDE1 and
+DdPDE7 are dual cAMP/cGMP specificity PDEs with negative
+co-operativity. However, the kinetic constants are very different
+for DdPDE1 and DdPDE7, especially the 15-fold lower cAMP
+affinity of DdPDE7 compared with DdPDE1.
+
+157
+
+Kinetics of DdPDE7
+
+UK7 cells that had been starved for 5 h were incubated with different concentrations of cAMP
+or cGMP. The hydrolysis was measured after 30 min and expressed as an Eady–Hofstee plot in
+the main figure and as a Hill plot in the inset. The dotted lines were fitted for Michaelis–Menten
+kinetics using linear regression, while the straight lines were fitted for negative co-operativity
+using the Hill equation. The deduced kinetic constants for the Hill equation are, for cAMP
+apparent K m = 12.5 µm, V max = 28 pmol/min per 107 cells, Hill coefficient = 0.79, and for
+cGMP, apparent K m = 36 µm, V max = 72 pmol/min per 107 cells and Hill coefficient = 0.9.
+
+DdPDE1, DdPDE4 and DdPDE7 activity during development
+
+Extracellular cAMP is degraded by the IBMX-sensitive DdPDE4
+and DTT-sensitive DdPDE1 and DdPDE7. We have previously
+determined total cell surface cAMP–PDE activity during
+development, and the proportion of this activity that is inhibited
+by IBMX and DTT [28]. The IBMX-sensitive activity is attributed
+to DdPDE4, whereas the DTT-sensitive activity is caused by
+DdPDE1 and DdPDE7. Since the latter two enzymes have nearly
+identical properties it is difficult to determine the activities of
+DdPDE1 and DdPDE7 during development of wild-type cells.
+We used UK7/regA− cells that have deletions in both DdPDE1
+and DdPDE2/RegA; due to the deletion of DdPDE1, all DTTsensitive activity is due to DdPDE7, whereas deletion of DdPDE2
+allows the aggregation-defective UK7 cell to develop up to the
+stage of tight aggregates with a tip. We measured the hydrolysis
+of [3 H]cAMP by UK7/regA− cells in the absence and presence of
+10 mM DTT to discriminate between the DTT-sensitive DdPDE1
+and the DTT-insensitive DdPDE4. The results show a steady
+increase of cell surface PDE activity during development. During the first 5 h of development nearly all PDE activity is
+DTT sensitive (i.e. attributed to DdPDE7). At later stages of
+development, this DTT-sensitive activity declines (Figure 5A) and
+most of the PDE activity becomes sensitive to IBMX ([28] and results not shown). These results suggest that vegetative cells have a
+low activity of DdPDE7, which increases about 3-fold during cell
+aggregation, and declines in the multicellular stage. In Figure 5(B)
+we calculated the activity of the three enzymes by combining
+the present data on the activity of DdPDE7 in UK7/regA− cells
+with previously determined DdPDE1 + DdPDE7 and DdPDE4
+activity in wild-type cells, on the assumption that wild-type and
+UK7/regA− cells express the same amount of DdPDE7 activity.
+DdPDE1 represents by far the most prominent activity during
+development at a substrate concentration of 10 nM. Maximal
+DdPDE7 activity is about 75 fmol/min per 107 cells during cell
+
+c 2007 Biochemical Society
+
+158
+
+Figure 5
+
+S. Bader, A. Kortholt and P. J. M. Van Haastert
+
+DdPDE7 activity during development
+
+(A), UK7/regA − cells were starved on plates for the times indicated, harvested, washed and assayed for cell surface cAMP hydrolysis using 10 nM [3 H]cAMP. Cell aggregation was observed at 6 h
+of development, and tight aggregates and slugs were observed at 9 h; development was arrested at this stage. (B) Activity of DdPDE1, DdPDE4 and DdPDE7 during development, deduced from (A)
+for DdPDE7, and from Figure 6 in Bader et al. [28] for DdPDE1 and DdPDE4.
+
+Table 2
+
+Enzyme-specific assays for seven PDEs in D. discoideum cells
+Specific assay
+Enzyme
+
+Location
+
+Inhibitor
+
+Substrate
+
+enzyme preparation
+
+substrate condition
+
+DdPDE1
+
+Cell surface
+
+DTT
+
+Intact cells with IBMX
+
+Activity with cAMP minus DdPDE7
+
+DdPDE2
+DdPDE3
+DdPDE4
+DdPDE5
+DdPDE6
+
+Cytosol
+Cytosol
+Cell surface
+Cytosol
+Cytosol
+
+IBMX
+IBMX
+IBMX
+−
+−
+
+Cytosol with DTT
+Cytosol with DTT
+Intact cells with DTT
+Cytosol with DTT and IBMX
+Cytosol with DTT and IBMX
+
+Reduction activity with cAMP by IBMX*
+Reduction activity with cGMP by IBMX*
+Reduction activity with cAMP by IBMX*
+Activity with cGMP
+Activity with cAMP
+
+DdPDE7
+
+Cytosol
+
+DTT
+
+Intact Ddpde1− /Ddpde2− cells (UK7/regA− ) with IBMX
+
+Activity with cAMP
+
+DdPDE1 + DdPDE7
+
+Cell surface
+
+DTT
+
+cAMP
+cGMP
+cAMP
+cGMP
+cAMP
+cGMP
+cAMP
+cGMP
+cAMP
+cGMP
+cAMP
+cGMP
+
+Intact cells with IBMX
+
+Activity with cAMP
+
+* The activity is measured in the absence and presence of IBMX; the difference of these activities is attributed to the enzyme indicated. The concentrations of inhibitors used were 0.8 mM IBMX or
+5 mM DTT.
+
+aggregation, compared with about 3000 fmol/min per 107 cells
+for DdPDE1, both measured at 10 nM cAMP.
+Contribution of seven PDEs in the degradation of cAMP
+and cGMP pools
+
+In D. discoideum three cyclic nucleotide pools are pivotal for the
+organism. Extracellular cAMP induces chemotaxis and differentiation, which are mediated by intracellular cGMP and cAMP
+respectively. Since all D. discoideum PDEs are now characterized
+we can calculate the contribution of each enzyme to the degradation of these three important pools of cyclic nucleotides. We
+assume that at different developmental stages each enzyme is expressed at different levels, but that the intrinsic kinetic properties
+do not change. This assumption implies that the sensitivity to
+inhibitors, substrate specificity, K m , K a and Hill coefficient are
+constant, whereas the V max is different depending on the developmental stages. First, we obtained the intrinsic kinetic constants K m ,
+K a and Hill coefficient of all enzymes from present and published
+
+c 2007 Biochemical Society
+
+data (see Table 1 for data and references). Secondly, we used the
+location of the enzyme, the substrate specificity and the sensitivity
+to inhibitors to derive specific assay conditions to determine the
+V max for each enzyme (Table 2). These experiments were performed in wild-type cells, except for DdPDE7, for which we have
+to rely on the measurements in UK7/regA− null cells, because in
+wild-type cells we cannot discriminate between DdPDE1 and
+DdPDE7. Subsequently, we used the observed values of K m ,
+V max and co-operativity (Table 1) to calculate the activity of
+each enzyme at different substrate concentrations (Figure 6). In
+this analysis we also calculated the half-life of cAMP or cGMP
+degradation at different substrate concentrations. To evaluate the
+outcome of these calculations, we used published data to estimate
+the cyclic nucleotide concentration of these three pools in vivo
+(indicated by the arrows in Figure 6).
+Extracellular cAMP is degraded by DdPDE1, DdPDE4 and
+DdPDE7. During cell aggregation, extracellular cAMP waves are
+propagated every 5 min with concentrations that oscillate between
+approx. 1 nM and approx. 1 µM [42]. The half-life of 10 nM
+
+Dictyostelium discoideum phosphodiesterases
+
+Figure 6
+
+159
+
+Contribution of the seven PDEs to the hydrolysis of three cyclic nucleotide pools
+
+(A) Extracellular cAMP during aggregation; (B) extracellular cAMP in slugs; (C) intracellular cAMP during aggregation; (D) intracellular cGMP during aggregation. The activity of each enzyme was
+calculated at different substrate concentrations using the equations presented in the Experimental procedures section and the kinetic constants as presented in Table 1. From these activities we
+calculated the half-life of degradation of the indicated substrate concentration, and the relative contribution of the participating enzymes in the degradation of substrate. The arrows indicate the range
+of substrate concentrations that have been measured in vivo during cell stimulation.
+
+cAMP in a suspension of 108 cells/ml is calculated to be about
+10 s, as was observed experimentally [43]. The degradation of
+10 nM cAMP is mediated largely by DdPDE1 (approx. 97 %), and
+only slightly by DdPDE4 (approx. 0.3 %) and DdPDE7 (approx.
+2.6 %). At substrate concentrations above 1 µM the half-life of
+cAMP increases sharply because the activity of DdPDE1 with its
+K m of 0.8 µM becomes saturated. The degradation of 1 µM cAMP
+is still mediated predominantly by DdPDE1 (approx. 93 %), and
+to some extent by DdPDE4 (approx. 2 %) and DdPDE7 (approx.
+5 %).
+In the multicellular stage, the half-life of cAMP is calculated
+to be much shorter than during cell aggregation because the cell
+density is much higher and the PDE activity per cell is only
+slightly lower than during aggregation. Degradation of low cAMP
+concentrations is again mainly mediated by DdPDE1 (approx.
+94 %), while DdPDE4 (approx. 5 %) and DdPDE7 (approx. 1 %)
+
+make less of a contribution. Due to the small intercellular space,
+the cAMP concentration in slugs may easily reach a concentration
+of 10 or 100 µM [29,44,45]. At these high cAMP concentrations
+DdPDE1 is completely saturated and degradation also depends
+on the enzymes with a lower affinity for cAMP, such as DdPDE4
+and DdPDE7. Since DdPDE4, but not DdPDE7, is expressed at
+relatively high levels in slugs compared with single cells, DdPDE4
+has a significant contribution of approx. 58 % in the degradation
+of 10 µM cAMP in slugs. DdPDE7 contributes approx. 2 % only
+and DdPDE1 the remaining 40 %.
+Intracellular cAMP is a second messenger that transduces the
+extracellular cAMP signal to induce development. After stimulation, intracellular cAMP may reach a concentration of 5 µM
+(25 pmol/107 cells [46,47]). Intracellular cAMP is degraded by
+the high-affinity DdPDE2 and the low-affinity DdPDE6. At low
+cAMP concentrations the half-life of cAMP is approx. 15 s, and
+
+c 2007 Biochemical Society
+
+160
+
+S. Bader, A. Kortholt and P. J. M. Van Haastert
+
+cAMP is degraded by both DdPDE2 (approx. 40 %) and DdPDE6
+(approx. 60 %). At a cAMP concentration of 10 µM, which is just
+above the maximal intracellular cAMP concentration, the lowaffinity DdPDE6 becomes more important and degrades about
+85 % of cAMP. At this high cAMP concentration, the half-life of
+cAMP is still only 15 s, and even at 100 µM cAMP degradation
+is still very fast.
+Intracellular cGMP mediates chemotaxis and is degraded by
+DdPDE3, the cGMP-stimulated DdPDE5 and possibly DdPDE6.
+After stimulation, intracellular cGMP may reach a concentration of 3 µM (15 pmol/107 cells; [43]). At a basal cGMP concentration of 0.03 µM, both the high-affinity DdPDE3 (approx. 40 %)
+and the low-affinity DdPDE5 (approx. 60 %) contribute in the degradation of cGMP. At elevated cGMP levels of 3 µM, DdPDE5
+(approx. 90 %) becomes the predominant enzyme in the degradation of cGMP. At very high cGMP levels, which may occur after
+osmotic stimulation [48,49], DdPDE6 may become increasingly
+important in the degradation of intracellular cGMP.
+DISCUSSION
+
+The identification of all PDEs in D. discoideum is very important
+for understanding signal transduction and development in D.
+discoideum. The completed genome sequence [39] uncovers seven
+PDEs. In the present paper we have characterized the last member,
+DdPDE7. The deduced amino acid sequence and the kinetic
+properties reveal that DdPDE7 is highly homologous to DdPDE1.
+Enzyme activity measurements reveal that both DdPDE1 and
+DdPDE7 are secreted into the medium and are attached to the
+cell surface. The deduced amino acid sequence reveals that both
+contain a signal sequence that is probablly responsible for secretion. The mechanism for membrane association is not known for
+DdPDE1 (R. H. Kessin, personal communication) and DdPDE7.
+The hydrophobic signal sequence could function as a transmembrane segment, or the proteins may be attached to the membrane
+by potential GPI (glycosylphosphatidylinositol) anchors (Asn436
+in DdPDE1 and Asn409 in PDE7). Both DdPDE1 and DdPDE7
+are PDEs with dual cAMP/cGMP specificity, and are strongly
+inhibited by DTT and insensitive to IBMX. Although similar,
+the kinetic and inhibitory constants of DdPDE1 and DdPDE7 are
+significantly different. The most striking difference is the approx.
+15-fold higher K m and the approx. 5-fold lower V max of DdPDE7
+for cAMP compared with DdPDE1.
+The family of D. discoideum PDEs can now be placed in
+perspective. Cyclic nucleotides are hydrolysed by two unrelated
+classes of PDEs, the class I enzymes that are present in most
+eukaryotes and prokaryotes, and the class II enzymes that are
+found only in some lower eukaryotes and prokaryotes. In D. discoideum three class I enzymes and four class II enzymes have been
+identified. The phylogeny of the D. discoideum class I enzymes
+has been described in detail showing that DdPDE4 resembles
+most closely mammalian PDE8, while DdPDE2 and DdPDE3 are
+not closely related to a specific mammalian PDE [28]. The four
+D. discoideum class II enzymes belong to two subgroups, type II
+metallo-β-lactamases and type II PDEs. DdPDE5 and DdPDE6
+have catalytic domains resembling metallo-β-lactamase. In
+addition, these enzymes possess two cNB domains that upon
+binding of cGMP or cAMP activate the catalytic domain [6,31,50].
+We identified about ten putative PDEs that have a similar topology
+with a metallo-β-lactamase and usually two cNB domains; five
+sequences were identified in the eukaryote Tetrahymena thermophila, and one enzyme each in a few prokaryotes. The sequences
+are generally annotated as proteins with cNB domains, the
+metallo-β-lactamase is often not recognized, and none is recognized as a potential PDE. It will be interesting to investigate
+
+c 2007 Biochemical Society
+
+whether these proteins are cyclic nucleotide-regulated PDEs. It is
+interesting to note that the D. discoideum DdPDE5 is a cGMP-stimulated cGMP-specific PDE with kinetic constants and cGMPspecificity very similar to the mammalian PDE5, despite the
+completely different evolutionary origin of these enzymes.
+DdPDE5 has a type II metallo-β-lactamase catalytic domain that
+is activated by cNB domains, whereas mammalian PDE5 has a
+class I catalytic domain that is activated by GAF domains. The
+other two D. discoideum class II PDEs, DdPDE1 and DdPDE7,
+belong to the group of type II PDEs, which have a significantly
+larger catalytic domain than β-lactamases. DdPDE1 and DdPDE7
+belong to a small subgroup together with four sequences from
+proteobacteria, while the other subgroup harbours sequences
+from only eukaryotes.
+D. discoideum cells contain three pools of cyclic nucleotides
+with different functions: extracellular cAMP, intracellular cAMP
+and intracellular cGMP (Table 1). It is striking that each cyclic
+nucleotide pool is regulated by a combination of class I and
+class II PDEs, and that the enzymes in each pool have different
+kinetic properties: usually, one enzyme has a high affinity for the
+substrate and a relatively low capacity, while the other enzyme has
+a lower affinity and higher capacity. These properties allow the
+degradation of the substrate over a wide range of concentrations
+to occur with approximately first-order kinetics. Since all
+D. discoideum PDEs are now characterized, we have estimated
+the contribution of each enzyme in the degradation of the three
+important pools of cyclic nucleotides during development. These
+three cyclic nucleotide pools fluctuate in their concentrations
+(Figure 6). Interestingly, the calculated half-life of cyclic nucleotides is still within a functional range at the highest concentrations
+that are expected to occur in vivo, but will increase dramatically
+at higher concentrations. Two examples may illustrate this point.
+First, intracellular cGMP may reach concentrations between 0.01
+and 2 µM. The combination of the high-affinity low-capacity
+DdPDE3 and low-affinity high-capacity DdPDE5 results in a
+half-life that remains nearly constant between 0.01 and 2 µM
+cGMP, but increases strongly above 10 µM cGMP. Secondly,
+extracellular cAMP oscillates with a periodicity of approximately
+5 min, which dictates that extracellular cAMP must be degraded
+with a half-life of approx. 1 min or less. During cell aggregation
+cAMP levels do not increase beyond a concentration of 1 µM,
+which can be effectively degraded by the high-affinity DdPDE1.
+In slugs, however, extracellular cAMP levels may easily reach a
+concentration of 10 or 100 µM, due to the small space between the
+cells of a slug. With the increased expression of the low-affinity
+DdPDE4, this high concentration is effectively degraded by which
+the half-life of 100 µM cAMP remains below 1 min. Thus it appears that the combination of enzymes that degrades each pool
+is tuned in such a way that the concentration and lifetime of the
+substrate remain under control.
+We are indebted to all of the teams involved in the D. discoideum sequencing projects.
+UK7/regA− null cells were kindly provided by David Trayner and Rob Kay (MRC Laboratory
+of Molecular Biology, Cambridge, U.K.).
+
+REFERENCES
+1 Saran, S. and Schaap, P. (2004) Adenylyl cyclase G is activated by an intramolecular
+osmosensor. Mol. Biol. Cell 12, 1479–1486
+2 Pitt, G. S., Milona, N., Borleis, J., Lin, K. C., Reed, R. R. and Devreotes, P. N. (1992)
+Structurally distinct and stage-specific adenylyl cyclase genes play different roles in
+Dictyostelium development. Cell 69, 305–315
+3 Soderbom, F., Anjard, C., Iranfar, N., Fuller, D. and Loomis, W. F. (1999) An adenylyl
+cyclase that functions during late development of Dictyostelium . Development 126,
+5463–5471
+
+Dictyostelium discoideum phosphodiesterases
+4 Meima, M. E. and Schaap, P. (1999) Fingerprinting of adenylyl cyclase activities during
+Dictyostelium development indicates a dominant role for adenylyl cyclase B in terminal
+differentiation. Dev. Biol. 212, 182–190
+5 Roelofs, J. and Van Haastert, P. J. M. (2002) Characterization of two unusual guanylyl
+cyclases from Dictyostelium . J. Biol. Chem. 277, 9167–9174
+6 Bosgraaf, L., Russcher, H., Snippe, H., Bader, S., Wind, J. and Van Haastert, P. J. M.
+(2002) Identification and characterization of two unusual cGMP-stimulated
+phoshodiesterases in Dictyostelium . Mol. Biol. Cell 13, 3878–3889
+7 Barra, J., Barrand, P., Blondelet, M. H. and Brachet, P. (1980) pdsA , a gene involved in the
+production of active phosphodiesterase during starvation of Dictyostelium discoideum
+amoebae. Mol. Gen. Genet. 177, 607–613
+8 Faure, M., Podgorski, G. J., Franke, J. and Kessin, R. H. (1989) Rescue of a Dictyostelium
+discoideum mutant defective in cyclic nucleotide phosphodiesterase. Dev. Biol. 131,
+366–372
+9 Faure, M., Franke, J., Hall, A. L., Podgorski, G. J. and Kessin, R. H. (1990) The cyclic
+nucleotide phosphodiesterase gene of Dictyostelium discoideum contains three
+promoters specific for growth, aggregation, and late development. Mol. Cell. Biol. 10,
+1921–1930
+10 Franke, J., Podgorski, G. J. and Kessin, R. H. (1987) The expression of two transcripts of
+the phosphodiesterase gene during the development of Dictyostelium discoideum .
+Dev. Biol. 124, 504–511
+11 Lacombe, M. L., Podgorski, G. J., Franke, J. and Kessin, R. H. (1986) Molecular cloning
+and developmental expression of the cyclic nucleotide phosphodiesterase gene of
+Dictyostelium discoideum . J. Biol. Chem. 261, 16811–16817
+12 Podgorski, G. J., Franke, J., Faure, M. and Kessin, R. H. (1989) The cyclic nucleotide
+phosphodiesterase gene of Dictyostelium discoideum utilizes alternate promoters and
+splicing for the synthesis of multiple mRNAs. Mol. Cell. Biol. 9, 3938–3950
+13 Sucgang, R., Weijer, C. J., Siegert, F., Franke, J. and Kessin, R. H. (1997) Null mutations
+of the Dictyostelium cyclic nucleotide phosphodiesterase gene block chemotactic cell
+movement in developing aggregates. Dev. Biol. 192, 181–192
+14 Weening, K. E., Wijk, I. V., Thompson, C. R., Kessin, R. H., Podgorski, G. J. and Schaap,
+P. (2003) Contrasting activities of the aggregative and late PDSA promoters in
+Dictyostelium development. Dev. Biol. 255, 373–382
+15 Wu, L., Franke, J., Blanton, R. L., Podgorski, G. J. and Kessin, R. H. (1995) The
+phosphodiesterase secreted by prestalk cells is necessary for Dictyostelium
+morphogenesis. Dev. Biol. 167, 1–8
+16 Hall, A. L., Franke, J., Faure, M. and Kessin, R. H. (1993) The role of the cyclic nucleotide
+phosphodiesterase of Dictyostelium discoideum during growth, aggregation, and
+morphogenesis: overexpression and localization studies with the separate promoters of
+the pde. Dev. Biol. 157, 73–84
+17 Yeh, R. P., Chan, F. K. and Coukell, M. B. (1978) Independent regulation of the extracellular
+cyclic AMP phosphodiesterase-inhibitor system and membrane differentiation by
+exogenous cyclic AMP in Dictyostelium discoideum . Dev. Biol. 66, 361–374
+18 Thomason, P. A., Traynor, D., Stock, J. B. and Kay, R. R. (1999) The RdeA–RegA system, a
+eukaryotic phospho-relay controlling cAMP breakdown. J. Biol. Chem. 274,
+27379–27384
+19 Kim, H. J., Chang, W. T., Meima, M., Gross, J. D. and Schaap, P. (1998) A novel adenylyl
+cyclase detected in rapidly developing mutants of Dictyostelium . J. Biol. Chem. 273,
+30859–30862
+20 Laub, M. T. and Loomis, W. F. (1998) A molecular network that produces spontaneous
+oscillations in excitable cells of Dictyostelium . Mol. Biol. Cell 9, 3521–3532
+21 Loomis, W. F., Shaulsky, G. and Wang, N. (1997) Histidine kinases in signal transduction
+pathways of eukaryotes. J. Cell Sci. 110, 1141–1145
+22 Mohanty, S., Lee, S., Yadava, N., Dealy, M. J., Johnson, R. S. and Firtel, R. A. (2001)
+Regulated protein degradation controls PKA function and cell-type differentiation in
+Dictyostelium. Genes Dev. 15, 1435–1448
+23 Shaulsky, G., Escalante, R. and Loomis, W. F. (1996) Developmental signal transduction
+pathways uncovered by genetic suppressors. Proc. Natl. Acad. Sci. U.S.A. 93,
+15260–15265
+24 Wang, N., Shaulsky, G., Escalante, R. and Loomis, W. F. (1996) A two-component histidine
+kinase gene that functions in Dictyostelium development. EMBO J. 15, 3890–3898
+25 Wang, N., Soderbom, F., Anjard, C., Shaulsky, G. and Loomis, W. F. (1999) SDF-2
+induction of terminal differentiation in Dictyostelium discoideum is mediated by the
+membrane-spanning sensor kinase DhkA. Mol. Cell. Biol. 19, 4750–4756
+26 Wessels, D. J., Zhang, H., Reynolds, J., Daniels, K., Heid, P., Lu, S., Kuspa, A., Shaulsky,
+G., Loomis, W. F. and Soll, D. R. (2000) The internal phosphodiesterase RegA is essential
+for the suppression of lateral pseudopods during Dictyostelium chemotaxis.
+Mol. Biol. Cell 11, 2803–2820
+
+161
+
+27 Kuwayama, H., Snippe, H., Derks, M., Roelofs, J. and Van Haastert, P. J. M. (2001)
+Identification and characterization of DdPDE3, a cGMP-selective phosphodiesterase from
+Dictyostelium . Biochem. J. 353, 635–644
+28 Bader, S., Kortholt, A., Snippe, H. and Van Haastert, P. J. M. (2006) DdPDE4, a novel
+cAMP-specific phosphodiesterase at the surface of Dictyostelium cells. J. Biol. Chem.
+281, 20018–20026
+29 Saran, S., Meima, M. E., Alvarez-Curto, E., Weening, K. E., Rozen, D. E. and Schaap, P.
+(2002) cAMP signaling in Dictyostelium : complexity of cAMP synthesis, degradation and
+detection. J. Muscle Res. Cell Motil. 23, 793–802
+30 Goldberg, J. M., Bosgraaf, L., Van Haastert, P. J. and Smith, J. L. (2002) Identification of
+four candidate cGMP targets in Dictyostelium . Proc. Natl. Acad. Sci. U.S.A. 99,
+6749–6754
+31 Meima, M. E., Weening, K. E. and Schaap, P. (2003) Characterization of a
+cAMP-stimulated cAMP phosphodiesterase in Dictyostelium discoideum . J. Biol. Chem.
+278, 14356–14362
+32 Bosgraaf, L., Russcher, H., Smith, J. L., Wessels, D., Soll, D. R. and Van Haastert, P. J.
+(2002) A novel cGMP signalling pathway mediating myosin phosphorylation and
+chemotaxis in Dictyostelium . EMBO J. 21, 4560–4570
+33 Richter, W. (2002) 3 ,5 Cyclic nucleotide phosphodiesterases class III: members,
+structure, and catalytic mechanism. Proteins 46, 278–286
+34 Bosgraaf, L., Waijer, A., Engel, R., Visser, A. J., Wesseis, D., Soll, D. and van Haastert,
+P. J. M. (2005) RasGEF-containing proteins GbpC and GbpD have differential effects on
+cell polarity and chemotaxis in Dictyostelium . J. Cell Sci. 118, 1899–1910
+35 Thompson, J. D., Higgins, D. G. and Gibson, T. J. (1994) CLUSTAL W: improving the
+sensitivity of progressive multiple sequence alignment through sequence weighting,
+position-specific gap penalties and weight matrix choice. Nucleic Acids Res. 22,
+4673–4680
+36 Felsenstein, J. (1996) Inferring phylogenies from protein sequences by parsimony,
+distance, and likelihood methods. Methods Enzymol. 266, 418–427
+37 Thomason, P. A., Traynor, D., Cavet, G., Chang, W. T., Harwood, A. J. and Kay, R. R.
+(1998) An intersection of the cAMP/PKA and two-component signal transduction systems
+in Dictyostelium . EMBO J. 17, 2838–2845
+38 Klein, G. and Satre, M. (1986) Kinetics of fluid-phase pinocytosis in Dictyostelium
+discoideum amoebae. Biochem. Biophys. Res. Commun. 138, 1146–1152
+39 Eichinger, L., Pachebat, J. A., Glockner, G., Rajandream, M. A., Sucgang, R., Berriman,
+M., Song, J., Olsen, R., Szafranski, K., Xu, Q. et al. (2005) The genome of the social
+amoeba Dictyostelium discoideum . Nature 435, 43–57
+40 Nikawa, J., Sass, P. and Wigler, M. (1987) Cloning and characterization of the low-affinity
+cyclic AMP phosphodiesterase gene of Saccharomyces cerevisiae . Mol. Cell. Biol. 7,
+3629–3636
+41 Van Haastert, P. J. M., Dijkgraaf, P. A. M., Konijn, T. M., Abbad, E. G., Petridis, G. and
+Jastorff, B. (1983) Substrate specificity of cyclic nucleotide phosphodiesterase from beef
+heart and from Dictyostelium discoideum . Eur. J. Biochem. 131, 659–666
+42 Tomchik, K. J. and Devreotes, P. N. (1981) Adenosine 3 ,5 -monophosphate waves in
+Dictyostelium discoideum : a demonstration by isotope dilution–fluorography. Science
+212, 443–446
+43 Van Haastert, P. J. M. and van der Heijden, P. R. (1983) Excitation adaptation and
+deadaptation of the cAMP-mediated cGMP response in Dictyostelium discoideum .
+J. Cell Biol. 96, 347–353
+44 Abe, K. and Yanagisawa, K. (1983) A new class of rapidly developing mutants in
+Dictyostelium discoideum : implications for cyclic AMP metabolism and cell
+differentiation. Dev. Biol. 95, 200–210
+45 Merkle, R. K., Cooper, K. K. and Rutherford, C. L. (1984) Localization and levels of
+cyclic AMP during development of Dictyostelium discoideum . Cell. Differ. 14,
+257–266
+46 Roos, W., Scheidegger, C. and Gerisch, G. (1977) Adenylate cyclase activity oscillations
+as signals for cell aggregation in Dictyostelium discoideum . Nature 266, 259–261
+47 van Haastert, P. J. M. (1984) A method for studying cAMP-relay in Dictyostelium
+discoideum : the effect of temperature on cAMP-relay. J. Gen. Microbiol. 130,
+2559–2564
+48 Oyama, M. (1996) cGMP accumulation induced by hypertonic stress in Dictyostelium
+discoideum . J. Biol. Chem. 271, 5574–5579
+49 Kuwayama, H., Ecke, M., Gerisch, G. and van Haastert, P. J. M. (1996) Protection
+against osmotic stress by cGMP-mediated myosin phosphorylation. Science 271,
+207–209
+50 Meima, M. E., Biondi, R. M. and Schaap, P. (2002) Identification of a novel type of cGMP
+phosphodiesterase that is defective in the chemotactic stmF mutants. Mol. Biol. Cell 13,
+3870–3877
+
+Received 28 July 2006/5 October 2006; accepted 16 October 2006
+Published as BJ Immediate Publication 16 October 2006, doi:10.1042/BJ20061153
+
+c 2007 Biochemical Society
+
+

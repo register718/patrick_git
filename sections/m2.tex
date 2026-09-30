@@ -1,0 +1,39 @@
+\subsection{Module 2: G-Protein Cycle}\label{sec:m2}
+
+\paragraph{Role.}
+cAR1 couples to the heterotrimer G$\alpha_2\beta\gamma$.
+FRET between the $\alpha$ and $\beta$ subunits shows that the heterotrimer dissociates and reassociates rapidly on addition and removal of cAMP, that during continuous stimulation the activation reaches a dose-dependent steady state and does \emph{not} decline while the physiological responses subside, and that occupied receptors catalyse the G-protein cycle whether or not they are phosphorylated~\cite{janetopoulos2001}.
+Adaptation therefore occurs downstream of the G protein, and free G$\beta\gamma$ is the persistent excitatory signal that Module~3 differentiates.
+The initial Ras response to uniform cAMP requires G$\beta$ but not G$\alpha_2$~\cite{kortholt2013}, and symmetry breaking and amplification occur between the G protein and Ras~\cite{kataria2013}.
+The module follows the G-protein module of Biswas et al.~\cite{biswas2021}.
+
+\input{sections/tables/tab_m2_rxn}
+\input{sections/tables/tab_m2_const}
+
+\paragraph{Reactions.}
+\begin{description}\itemsep0pt
+\item[2.0] Basal, receptor-independent nucleotide exchange. Its flux is negligible (about 0.03 molecules\,s$^{-1}$ per cell) but it defines the resting G$\beta\gamma$ floor, so that the receiver has a defined baseline rather than a hard zero.
+\item[2.1] Receptor-catalysed exchange: an occupied receptor dissociates the heterotrimer into G$\alpha_2$-GTP and G$\beta\gamma$ and is not consumed.
+\item[2.2] The same reaction for the phosphorylated occupied receptor. Both forms catalyse the cycle with equal efficiency ($\varepsilon_E=1$), as observed~\cite{janetopoulos2001}, so the phosphorylated receptor carries the drive at high cAMP.
+\item[2.3] Intrinsic GTP hydrolysis converts G$\alpha_2$-GTP into G$\alpha_2$-GDP. An RGS-accelerated hydrolysis (2.4) is defined in the code but switched off.
+\item[2.5] Recapture of G$\beta\gamma$ by G$\alpha_2$-GDP re-forms the heterotrimer and terminates the signal.
+\end{description}
+
+\paragraph{Constants.}
+$k_E$ is derived from the dissociation half-time at saturating cAMP: when all receptors are occupied the heterotrimer is consumed with the pseudo-first-order rate $k_E[\mathrm R]_\mathrm{tot}$, so $k_E=\ln2/(t_{1/2,\mathrm{diss}}[\mathrm R]_\mathrm{tot})$ with $t_{1/2,\mathrm{diss}}=3.2$\,s, the half-time of FRET loss measured in living cells, $3.4\pm1.4$\,s~\cite{tang2014}, which the model of Biswas et al.\ reproduces~\cite{biswas2021}.
+The basal constant $k_{E0}$ is the value of Table~2 of~\cite{biswas2021} for a ratio of 3.
+
+\emph{Why the gain of the stage was changed.}
+The conservation law $[\mathrm G\beta\gamma]=[\mathrm G\alpha_2^\mathrm{GTP}]+[\mathrm G\alpha_2^\mathrm{GDP}]$ holds exactly, because every dissociation creates one G$\alpha_2$ and one G$\beta\gamma$ and every recapture removes one of each.
+In the steady state, with $P$ the total exchange flux, $[\mathrm G\alpha_2^\mathrm{GTP}]=P/k_\mathrm{hyd}$ and $k_\mathrm{re}[\mathrm G\alpha_2^\mathrm{GDP}][\mathrm G\beta\gamma]=P$.
+If recapture is slow compared with hydrolysis, $[\mathrm G\beta\gamma]\approx\sqrt{P/k_\mathrm{re}}$ and the stage compresses the input contrast (exponent $\tfrac12$); if recapture is fast, $[\mathrm G\beta\gamma]\approx[\mathrm G\alpha_2^\mathrm{GTP}]=P/k_\mathrm{hyd}$ is linear in the drive until the heterotrimer is depleted.
+The exponent is therefore a property of the regime and not of the conservation law.
+Raising $k_\mathrm{re}$ by a factor of 3500 puts the stage in the linear regime, and raising $k_\mathrm{hyd}$ by a factor of 7 moves the saturation point to higher cAMP.
+On the stochastic engine, with replicate cells, the contrast transfer $\mathrm d\ln\mathrm G\beta\gamma/\mathrm d\ln c$ at 60\,nM cAMP increased from 0.22 to 0.77 and the signal-to-noise ratio doubled; at 5\,nM the transfer increased from 0.85 to 1.65 with no loss of signal-to-noise ratio.
+
+\emph{Departures from the literature anchors.}
+The chosen values move the two half-time anchors: the dissociation half-time becomes about 2\,s (from 3.2\,s) and the reassociation half-time about 7.5\,s, four times shorter than the measured 29--32\,s~\cite{tang2014}.
+The cost of the stochastic simulation at the working point rises about threefold, because the activated fraction is increased on purpose.
+The G-protein pool is 60 times the receptor number, 20 times the ratio 3 of~\cite{biswas2021}.
+This pool size raises the G$\beta\gamma$ copy number at a fixed activated fraction and was accompanied by paired changes in Module~3 (see there) that leave its dynamics unchanged; it is a deliberate trade of realism for signal-to-noise and is not a claim about G-protein abundance.
+The three G-protein forms have the same diffusion constant, which is a design choice.

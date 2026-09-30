@@ -1,0 +1,913 @@
+The EMBO Journal Vol.17 No.10 pp.2838–2845, 1998
+
+An intersection of the cAMP/PKA and twocomponent signal transduction systems in
+Dictyostelium
+
+Peter A.Thomason, David Traynor,
+Guy Cavet1, Wen-Tsan Chang2,
+Adrian J.Harwood3 and Robert R.Kay4
+MRC Laboratory of Molecular Biology, Hills Road, Cambridge
+CB2 2QH and 2Department of Biochemistry, University of Oxford,
+South Parks Road, Oxford OX1 3QU, UK
+1Present address: Biochemistry Department, B407, Beckman Center,
+Stanford University Medical Center, Stanford, CA 94305, USA
+3Present address: MRC Laboratory for Molecular Cell Biology,
+University College London, Gower St, London WC1E 6BT, UK
+4Corresponding author
+e-mail: rrk@mrc-lmb.cam.ac.uk
+
+P.A.Thomason and D.Traynor contributed equally to this work
+
+Terminal differentiation of both stalk and spore cells
+in Dictyostelium can be triggered by activation of
+cAMP-dependent protein kinase (PKA). A screen for
+mutants where stalk and spore cells mature in isolation
+produced three genes which may act as negative regulators of PKA: rdeC (encoding the PKA regulatory
+subunit), regA and rdeA. The biochemical properties
+of RegA were studied in detail. One domain is a cAMP
+phosphodiesterase (Km ~5 μM); the other is homologous
+to response regulators (RRs) of two-component signal
+transduction systems. It can accept phosphate from
+acetyl phosphate in a reaction typical of RRs, with
+transfer dependent on Asp212, the predicted phosphoacceptor. RegA phosphodiesterase activity is
+stimulated up to 8-fold by the phosphodonor phosphoramidate, with stimulation again dependent on
+Asp212. This indicates that phosphorylation of the
+RR domain activates the phosphodiesterase domain.
+Overexpression of the RR domain in wild-type cells
+phenocopies a regA null. We interpret this dominantnegative effect as due to a diversion of the normal
+flow of phosphates from RegA, thus preventing its
+activation. Mutation of rdeA is known to produce
+elevated cAMP levels. We propose that cAMP breakdown is controlled by a phosphorelay system which
+activates RegA, and may include RdeA. Cell maturation should be triggered when this system is inhibited.
+Keywords: Dictyostelium/phosphorelay/protein kinase A/
+RegA/response regulator
+
+Introduction
+The work described here brings together two well-analysed
+signal transduction systems in a novel configuration: the
+cAMP/protein kinase A system and the histidine kinase/
+two-component system. cAMP is a ubiquitous second
+messenger which controls the activity of the cAMPdependent protein kinase (PKA); the system is widespread
+in eukaryotes, especially in metabolic and neuronal control,
+2838
+
+and in development (Harwood et al., 1992a,b; Jiang and
+Struhl, 1995; Li et al., 1995). The level of intracellular
+cAMP depends on the relative activities of adenylyl
+cyclase and cAMP phosphodiesterase, both of which can
+be regulated through extracellular signals. Two-component
+systems are the basis of most bacterial sensory pathways,
+and consist, at their simplest, of a sensory histidine kinase
+that transfers phosphate from a histidine to an aspartate
+on a second protein, the response regulator (RR), which
+controls the effector function (Bourret et al., 1991;
+Parkinson and Kofoid, 1992; Swanson et al., 1994).
+Recently, two-component systems have been discovered
+in eukaryotes, including a more elaborate phosphorelay
+system in yeast which controls osmotic responses (Appleby
+et al., 1996; Posas et al., 1996). Dictyostelium similarly
+has an osmosensing histidine kinase (Schuster et al.,
+1996), and a further histidine kinase (Wang et al., 1996)
+and an RR (Shaulsky et al., 1996) which have important
+roles in development.
+The fruiting body of Dictyostelium consists of a cellular
+stalk, stabilized by a basal disc of stalk cells, supporting
+a mass of spores. It is formed during culmination by the
+movement of pre-stalk cells up and into the stalk tube,
+which extends as more pre-stalk cells are added to the
+top, so lifting the developing spore mass upwards. These
+morphogenetic events are coupled to the terminal differentiation of each cell type in its appropriate position: stalk
+cells at the growing tip of the stalk and round its base,
+spore cells at the top of the stalk, where they mature in a
+gradient from the top to the bottom of the spore head
+(Bonner, 1952; Richardson et al., 1994).
+Several types of experiment indicate that maturation of
+both spore and stalk cells is triggered by the activation of
+PKA. For instance, expression of a dominant inhibitory
+form of the regulatory subunit of PKA in pre-stalk or
+pre-spore cells prevents their maturation during normal
+development (Harwood et al., 1992b; Hopper et al.,
+1993b). Conversely, overactivity of the catalytic subunit
+of PKA causes spore and stalk cells to mature prematurely
+during development and, in the case of the rdeC mutants,
+which lack a functional PKA regulatory subunit, the final
+fruiting structure is a mound of differentiated cells (Anjard
+et al., 1992; Simon et al., 1992; Hopper et al., 1993b;
+Mann et al., 1994). These same genetic activating
+manipulations also stimulate the maturation of spore cells
+when amoebae are allowed to develop as submerged
+monolayers. Finally, wild-type cells can be induced to
+form both spore and stalk cells by pharmacological treatment with the cAMP analogue, 8-Br-cAMP, which
+penetrates the cell and activates PKA directly (Kay, 1989;
+Riley et al., 1989; Maeda, 1992; Inouye and Gross, 1993;
+Kubohara et al., 1993; see also Results).
+PKA is activated by intracellular cAMP, which is
+produced largely during development by the adenylyl
+© Oxford University Press
+
+cAMP phosphodiesterase/response regulator
+
+Table I. Stalk and spore cell formation in culture
+Section
+
+Strain (No. of assays)
+
+Genotype/comments
+
+% Stalk cells (⫹DIF-1)
+
+% Spore cells (no DIF-1)
+
+A
+
+NC4 (2)
+DH1 (3)
+myc1002 (3)
+HM332 (3)
+HM1015 (4)
+WTC10-H2 (3)
+HM338 (2)
+M2–1 (2)
+NS202 (4)
+HTY217 (1)
+KIP (1)
+A7P (1)
+NC4 (2)
+
+wild-type
+wild-type
+rdeC (REMI)
+regA (REMI)
+regA (KO)
+rdeA (KO)
+gskA (REMI)
+dokA his. kinase null
+dhkA his. kinase null
+rdeC
+control for A7P
+PKA-cat overexpressor
+wild type ⫹ Br-cAMP
+
+0
+0.4
+22
+27
+42
+78
+87
+0
+0.5
+42
+0a
+10a
+27
+
+0
+0
+3
+4
+31
+8
+0
+0
+0
+65
+0
+5
+68
+
+B
+C
+
+Cells were plated at 4⫻105/ml in either stalk medium ⫹ 100 nM DIF-1 or spore medium, both of which contained 10 μM cAMP-S (a nonhydrolysable analogue of cAMP). The dhkA and dokA histidine kinase null strains behave similarly to wild-type cells, making ~50% stalks and 50%
+spores with 15 mM Br-cAMP.
+aThese two stalk cell assays were performed in spore medium because more fragile cell lines respond better under these conditions.
+
+cyclase, ACA. In early development, the production of
+intracellular cAMP is stimulated by extracellular cAMP,
+through the cell surface family of G-protein-linked,
+cAMP receptors (cARs). Stimulation of these receptors,
+in turn, initiates a complex signal transduction pathway
+resulting in the activation of ACA (Firtel, 1996; Parent
+and Devreotes, 1996).
+Thus, it might seem plausible that extracellular cAMP,
+acting alone through this known pathway, would be
+sufficient to trigger terminal differentiation during normal
+development. However, there are two major problems
+with such a scheme, both deriving from work on cells
+differentiating in monolayer culture. First, extracellular
+cAMP barely induces terminal differentiation of spore
+and stalk cells in culture, even though it adequately
+promotes pre-spore and pre-stalk cell differentiation
+(Kay, 1982; Berks and Kay, 1988). Second, extracellular
+cAMP actually inhibits the final stages of stalk cell
+formation and must be removed from the monolayer in
+order for wild-type NC4 stalk cells to mature (Berks
+and Kay, 1988). The inhibitory pathway seems to
+involve the protein kinase GSK3, because null mutants
+in gskA make stalk cells freely, even in the presence
+of extracellular cAMP (Harwood et al., 1995). These
+problems of PKA activation would be resolved if there
+was another pathway for regulating intracellular cAMP
+levels in Dictyostelium, apart from that acting through
+adenylyl cyclase. We present evidence for such a
+pathway, which appears to function by controlling cAMP
+breakdown through the cAMP phosphodiesterase RegA.
+
+Results
+Screen for stalk and spore cell maturation
+mutants
+We screened for mutants which are able to form mature
+spore and stalk cells when developed in tissue culture
+dishes under a simple salts medium. A non-hydrolysable
+cAMP analogue served to promote differentiation, and
+the stalk-specific inducer DIF-1 was provided, as
+appropriate, to enable stalk cell differentiation to occur
+(Table I). Wild-type cells do not aggregate in these
+
+conditions (due to the presence of the cAMP analogue)
+but remain amoeboid, and neither spore nor stalk cells
+form efficiently (NC4 cells form ⬍1 in 10 000 viable
+spores; ⬍2% stalk cells).
+From a collection of ⬎300 mutants created by
+restriction enzyme-mediated integration (REMI) insertional mutagenesis (Kuspa and Loomis, 1992), we
+identified strains myc1002 and HM332 which form both
+stalk and spore cells in the monolayer test conditions
+(Table I, section A). Subsequently, chemical (Abe
+and Yanagisawa, 1983) and disruption (Chang et al.,
+accompanying paper) mutants of rdeA were tested, due
+to their phenotypic similarity to HM332, and were also
+found to form stalk and spore cells in monolayer culture.
+The myc1002 insertion disrupted rdeC, the gene
+encoding the regulatory subunit of PKA (Simon et al.,
+1992), whereas rdeA mutants are known to have elevated
+levels of intracellular cAMP (Abe and Yanagisawa,
+1983). Since mutations of both of these genes should
+result in an activated PKA, it seemed likely that the
+gene disrupted in strain HM332 might also encode a
+negative regulator of PKA activity. The HM332 insertion
+was identified as disrupting regA, a gene previously
+obtained as a suppressor of a sporulation-defective
+mutant (Shaulsky et al., 1996). To confirm the results
+with HM332, regA was disrupted by homologous
+recombination in Ax2 cells. The resulting strain,
+HM1015, formed stalk and spore cells even more
+efficiently than did HM332, perhaps due the greater
+health of its parental strain (Table I, section A). The
+regA null phenotype of HM1015 was corrected to wildtype when regA was expressed from its own promoter
+in this strain (not shown).
+The three mutant classes, rdeC, rdeA and regA (see
+below), are thus all implicated in the regulation of PKA
+activity. In contrast to these three disruptants, mutations
+in other relevant genes did not promote stalk and spore
+maturation: gskA null cells yielded only stalk cells, as
+expected (Harwood et al., 1995), whereas mutants of
+the histidine kinases dokA (Schuster et al., 1996) and
+dhkA (Wang et al., 1996) behaved as wild-type cells
+(Table I, section B). These results suggest that neither
+2839
+
+P.A.Thomason et al.
+
+Fig. 1. Developmental expression of RegA protein. Cells of the wildtype Ax2 and the regA null, HM1015, were developed on agar, lysates
+prepared and RegA protein detected by Western blotting, as described
+in Materials and methods. The position of molecular weight standards
+(kDa) is shown.
+
+of these kinases are negative regulators of the maturation pathway.
+Additional evidence that PKA activation is
+sufﬁcient to induce stalk cell maturation
+Not all previous work has shown that activation of PKA
+is sufficient to induce stalk cell maturation. Thus, rdeC
+mutants did not form stalk cells in monolayers (Kay,
+1989); however, in these experiments, exogenous DIF-1
+was not supplied and, when it is, stalk cells do form
+(Table I, section C, strain HTY217). Also, strains overexpressing the PKA catalytic subunit in pre-stalk cells form
+only a very low number of mature stalk cells in normal
+development (Hopper et al., 1993a; Mann and Firtel,
+1993). In contrast, we found that strain A7P, where the
+catalytic subunit is driven by an actin15 promoter (Anjard
+et al, 1992), did form stalk cells in monolayer culture
+with DIF-1, though not with great efficiency (we have
+observed that strains expressing the neomycin resistance
+gene, such as A7P, are often more fragile in monolayer
+culture than other strains). Furthermore, wild-type NC4
+cells were induced to form stalk cells if Br-cAMP was
+added to activate PKA, consistent with earlier work
+(Inouye and Gross, 1993; Kubohara et al., 1993). Thus,
+sufficient activation of PKA can trigger stalk, as well as
+spore, cell differentiation. We next focused our attention
+on the regA gene product.
+RegA protein is present throughout development
+The regA transcript, which is present in pre-stalk and prespore cells, is expressed at a low level in vegetative cells,
+and is induced rapidly during aggregation, remaining
+present throughout development (Shaulsky et al., 1996).
+Western blots (Figure 1) show that expression of RegA
+protein is developmentally regulated. It is not observable
+before the end of aggregation, peaks at the mound stage
+(9–11 h) and remains at a lower level thereafter. Although
+RegA is not evident on Western blots before ~9 h, the
+activity can be detected by biochemical assay. Using
+phosphodiesterase assays of immunoprecipitated material
+(see below), RegA activity is detectable at early stages of
+
+2840
+
+Fig. 2. RegA is a cAMP phosphodiesterase. RegA was
+immunoprecipitated from wild-type (Ax2) cells at 8 h of development.
+Phosphodiesterase assays were performed using 0.4 μM [3H]cAMP as
+substrate, plus the indicated concentrations of unlabelled cAMP or
+cGMP. The data shown are representative of three experiments, and
+are the mean of duplicate assays ⫾ range (where no error bars are
+shown, these are contained within the symbols). Similar results were
+obtained with bacterially expressed GST–PDE and GST–RegA (data
+not shown).
+
+development and even in immunoprecipitates from growing Ax2 cells (data not shown). Western blots (Figure 1)
+and phosphodiesterase assays (see below) show that RegA
+protein is absent from strain HM1015; the band appearing
+at a late time in development is not RegA, but could be
+a related phosphodiesterase or a GST which reacts with
+the antiserum.
+One domain of RegA is a cAMP phosphodiesterase
+RegA is homologous to mammalian cyclic nucleotide
+phosphodiesterases (Shaulsky et al., 1996), but not to the
+Dictyostelium PdsA phosphodiesterase (Lacombe et al.,
+1986). We used a biochemical assay to confirm that RegA
+is a cAMP phosphodiesterase (PDE). Phosphodiesterase
+activity was evident in immunoprecipitates from developing cells (Figure 2), made using a polyclonal antiserum
+(R1/2F) against RegA. The R1/2F antiserum selectively
+precipitated RegA: negligible activity was precipitated
+from the regA null strain HM1015 (⬍1% that of Ax2
+cells, the same level of activity isolated from Ax2 cells
+using pre-immune serum), whereas the level of activity
+precipitated from UK7, a strain disrupted in the pdsA
+gene, was very similar to that obtained from Ax2 cells
+(data not shown). Similar phosphodiesterase activity was
+seen by expressing intact RegA or its PDE domain in
+bacteria. The Km of RegA for cAMP is ~5 μM (5.0 μM
+for the endogenous enzyme, 6.7 μM for the GST–PDE
+fusion). The enzyme is specific for cAMP, because cGMP
+does not compete with cAMP (Figure 2). Like the mammalian PDEs, RegA is sensitive to the general PDE inhibitor
+3-isobutyl-1-methylxanthine (50% inhibitory concentration ~250 μM at 1 μM cAMP). The PDE4 inhibitors
+rolipram or RO20-1724 did not inhibit. RegA is not
+regulated by Ca2⫹/calmodulin in vitro, and cGMP, at
+
+cAMP phosphodiesterase/response regulator
+
+Table II. Cell maturation in regA nulls is dependent on PKA
+Strain
+
+Genotype/comments % Stalk cells % Spore cells
+(⫹DIF-1)
+(no DIF-1)
+
+HM2014 (3)
+
+regA, ecmA-Rc
+(control)
+regA, ecmA-Rm
+regA, D19-Rc
+(control)
+regA, D19-Rm
+
+HM2013 (3)
+HM2012 (3)
+HM2011 (3)
+
+3.4
+0.4
+9.4
+0.03
+
+The dominant-negative (Rm) and control (Rc) form of the PKA
+R-subunit was expressed in regA null cells under the control of prestalk (ecmA)- and pre-spore (D19)-specific promoters. The overall
+efficiency of differentiation in these cells (expressing the G418
+resistance marker) was lower than in untransformed strains and they
+were more fragile in the monolayer conditions, suggesting that their
+physiology is perturbed by the selectable marker, as noted before
+(Schulkes et al., 1995). However, this does not interfere with
+interpretation of the results.
+
+concentrations up to 20 mM, shows no allosteric effects
+on RegA activity.
+Terminal differentiation in regA mutants is still
+dependent on PKA
+RegA phosphodiesterase activity could control terminal
+differentiation by regulating PKA, or through some other
+route involving cAMP. To test whether terminal differentiation in regA mutants still requires PKA, differentiation
+was followed in regA null cells expressing the Rm
+dominant inhibitor of PKA, a form of the PKA R-subunit
+which cannot bind cAMP or dissociate from the catalytic
+subunit (Harwood et al., 1992b). Expression of Rm in
+pre-stalk (strain HM2013) or pre-spore (HM2011) cells
+reduced stalk and spore differentiation compared with
+control cells expressing the inactive inhibitor, Rc (Table II).
+Therefore, in regA mutants, stalk and spore maturation
+requires PKA activity.
+The second domain of RegA is a response
+regulator
+The second domain of RegA has homology to RRs
+of two-component systems. RRs receive the phosphate
+controlling their activity from a histidine of an upstream
+histidine kinase. This phosphorylation occurs on a conserved aspartate residue (Volz, 1993) corresponding to
+Asp212 of RegA. Low molecular weight phospho-compounds are also effective phosphate donors, since the RR
+domain itself catalyses the phosphotransfer (Lukat et al.,
+1992). Accordingly, the RegA RR domain has phosphotransferase activity: a purified GST fusion protein containing the RegA RR domain became phosphorylated
+when incubated in vitro with acetyl-[32P]phosphate (Figure
+3). Mutant proteins lacking Asp212 were not labelled by
+acetyl phosphate, nor was bovine serum albumin (BSA)
+(Figure 3). Like other RRs, phosphotransferase activity of
+the wild-type RegA RR domain is Mg2⫹ dependent (Lukat
+et al., 1992; McCleary and Stock, 1994), and the label
+can be completely removed from the protein by brief heat
+treatment (100°C, 2 min).
+A second property of RRs, phosphdonor phosphatase
+activity (Lukat et al., 1992), can be detected in the RegA
+RR domain using phosphoramidate as substrate, but the
+rate of this RR-dependent phosphoramidate hydrolysis
+
+Fig. 3. Phosphorylation of the RegA RR domain by acetyl phosphate.
+WT, wild-type RR domain; D212N, Asp212Asn mutant RR domain;
+D212E, Asp212Glu mutant RR domain; ⫹EDTA, 20 mM EDTA
+present in the reaction (with the wild-type RR domain). Numbers at
+the side indicate the size of molecular weight standards (kDa).
+
+was very low. Using 31P NMR analysis, spontaneous
+hydrolysis of 18 mM phosphoramidate occurred at a rate
+of ~0.5 μmol/ml/h over 16 h at 25°C (see also Lukat
+et al., 1992). The RegA RR domain (at a concentration
+of ~10 μM) increased this rate by only 10% (not shown).
+No enzymatic breakdown of acetyl phosphate could be
+detected over its high rate of spontaneous hydrolysis.
+These results suggest that the RegA RR domain has low
+intrinsic phosphatase activity, resembling Spo0F, whose
+phosphorylated form is quite stable (Zapf et al., 1996),
+rather than CheY, whose phosphorylated form is very
+unstable due to its high intrinsic phosphatase activity
+(Lukat et al., 1992).
+Phosphorylation of the RR domain activates the
+phosphodiesterase domain
+Phosphorylation of RRs modulates their activity, e.g. the
+activities of CheB, NtrC and BvgA are enhanced by
+phosphorylation (Feng et al., 1992; Lukat et al., 1992;
+Sanders et al., 1992; Boucher et al., 1994). Addition of
+phosphoramidate, as phosphodonor, to RegA stimulated
+its PDE activity by up to 8-fold in vitro. Activation was
+dose dependent and saturable (not shown). Half-maximal
+activation occurred at ~2 mM phosphoramidate and, by
+extrapolation to saturating phosporamidate concentrations,
+a maximal stimulation of ~10-fold is expected. Kinetic
+analysis (Figure 4) showed that the activation of RegA
+by phosphoramidate is due to an increase in the Vmax of
+the phosphodiesterase, with no appreciable change in
+the Km for cAMP. Activation was also observed with
+immunoprecipitated RegA from Dictyostelium lystates,
+though to a lesser extent than with bacterially expressed
+protein.
+Other potential phosphodonors (acetyl phosphate, ATP
+and phosphoenol pyruvate) had no effect at a concentration
+of 10 mM, whilst carbamyl phosphate gave a small
+stimulation (~2-fold; not shown). Acetyl phosphate is
+probably ineffective due to the low stoichiometry of
+phosphorylation, as labelling of the RegA RR domain
+with 10 mM acetyl-[32P]phosphate yielded no more than
+4% phosphorylated protein.
+Phosphoramidate did not activate the PDE domain
+expressed alone, nor mutant forms of RegA in which
+Asp212 of the RR domain was mutated to either asparagine
+
+2841
+
+P.A.Thomason et al.
+
+Fig. 4. Phosphoramidate activates RegA by increasing the Vmax. cAMP
+phosphodiesterase assays were performed in the absence (Control) or
+presence (10 mM PA) of 10 mM phosphoramidate, using cAMP
+concentrations in the range 2–50 μM. The kinetics of the reaction
+were determined using a Lineweaver–Burk double-reciprocal plot. In
+the example shown (representative of three experiments), the kinetic
+parameters are as follows: Vmax ⫽ 2.2 (control) and 17.5 arbitrary
+units (with phosphoramidate; 8-fold increase); Km ⫽ 5.4 μM (control)
+and 4.2 μM (with phosphoramidate).
+
+or glutamic acid (Figure 5). This shows that activation is
+not due to a non-specific effect of phosphoramidate on
+the PDE domain, but depends on the RR domain and,
+within it, on the putative phosphoacceptor Asp212.
+The ﬂow of phosphate onto RegA determines the
+activity of the maturation pathway
+Preventing the flow of phosphate onto Asp212 of RegA
+should prevent its activation and, therefore, decrease RegA
+activity in the cell. To attempt to divert the phosphate flow
+away from RegA, the RegA RR domain was expressed in
+wild-type Dictyostelium cells using the strong, non-specific
+actin15 promoter (giving strain HM2045). This caused a
+similar phenotype to the regA null mutant. Aggregation
+was completed by 6 h in HM2045, compared with 10 h
+for wild-type Ax2 cells. The terminal structures made by
+HM2045 were club-shaped (Figure 6), rather similar to
+regA nulls, and caused distinct yellowing of the agar, a
+common feature of strains which have precocious spore
+maturation. Indeed, spore production during development
+of HM2045 was accelerated compared with wild-type
+cells: HM2045 yielded 50% of its total spores by 14 h of
+development, whereas Ax2 cells required 19 h to make
+50% of its final spore yield, both strains giving very
+similar spore numbers. Finally, HM2045 formed spores
+efficiently in monolayers (⬎10%), unlike the wild-type
+but similarly to regA, rdeC and rdeA mutant strains. In
+contrast, expression of the full-length regA gene, driven
+by the actin15 promoter, resulted in slower development
+than for the wild-type (although fruiting bodies eventually formed).
+Rapid development and de-regulated cell maturation in
+HM2045 indicate that the phosphorelay pathway governing RegA activity is operative during early as well as
+late development, and thus that RegA is likely to have
+roles throughout Dictyostelium development.
+
+2842
+
+Fig. 5. Activation of RegA cAMP phosphodiesterase activity by
+phosphoramidate is dependent on the RR domain. (A) Outline of
+proteins used in in vitro activation experiments. Hatched squares, GST;
+white rectangles, RR domain (the wild-type has aspartate, D, at
+residue 212, mutants have either asparagine, N, or glutamate, E, at this
+position); black ovals, PDE domain. GST fusions were produced in
+bacteria; the native RegA protein was immunoprecipitated from
+Dictyostelium cell lysates. (B) In vitro phosphodiesterase assays were
+performed without (Control; white bars) or with (10 mM PA; black
+bars) 10 mM phosphoramidate. Results are expressed as activity
+measured in the presence of PA relative to that in its absence (basal
+activity ⫽ 100%). Results show the mean values, error bars are the
+standard error (n ⫽ 6).
+
+Discussion
+The RegA protein functions at an intersection between
+the cAMP and two-component signal transduction systems,
+combining in itself domains characteristic of both. The
+PDE domain has good homology to mammalian phosphodiesterases (Shaulsky et al., 1996), and we have shown
+biochemically that it is a cAMP-specific phosphodiesterase
+(see also Shaulsky et al., 1998). The RR domain has clear
+homology to other response regulators, and it can accept
+phosphates from acetyl phosphate, in a reaction typical of
+RRs, with transfer dependent on the predicted phosphoaccepting residue, Asp212. Our results using phosphoramidate indicate that phosphorylation of the RR
+domain activates the PDE domain.
+In the simplest configuration of a two-component system, phosphates are transferred directly from a histidine
+kinase to the Asp of the RR (Parkinson and Kofoid, 1992;
+Swanson et al., 1994). However, in more complex systems
+such as those controlling initiation of sporulation in
+Bacillus subtilis, and in the yeast osmo-regulatory pathway,
+phosphates flow through a four-step phosphorelay
+
+cAMP phosphodiesterase/response regulator
+
+Fig. 6. Developmental morphology of wild-type and mutant strains.
+Wild-type (Ax2), regA null (HM1015), regA–/actin15::RegA (regA null
+cells transformed with regA cDNA driven by the actin15 promoter;
+HM2042) and Ax2 cells overexpressing the RR domain (actin15::RR;
+HM2045) were developed on KK2 agar for 26 h. The final
+morphology of all strains is shown, except for regA–/actin15::RegA
+(see text). The regA null strain has a greatly thickened lower portion
+of the stalk, often more severe than in the image shown, such that the
+structures have a pyramid of mature stalk/spore cells at their base,
+from which a tapering stalk extends. Likewise, the HM2045 strain can
+also form these structures.
+
+(Burbulys et al., 1991; Posas et al., 1996). In the yeast
+system, phosphates are relayed from His to Asp on the
+kinase (Sln1p) and then to a His on an intermediate
+phosphotransfer protein, Ypd1p, before reaching the RR
+(Ssk1p).
+In the case of Dictyostelium, mutants of a second gene,
+rdeA, strongly resemble regA mutants phenotypically:
+fruiting body formation is accelerated and final morphogenesis abherrant (Abe and Yanagisawa, 1983), and both
+strains are able to form mature stalk and spore cells in
+our monolayer test. Recent work demonstrates that the
+Dictyostelium rdeA gene in fact encodes a functional
+homologue of the yeast Ypd1 gene, as shown most strikingly by the complementation of an rdeA mutant by Ypd1
+(Chang et al., accompanying paper). rdeA mutants are
+also known to have high cAMP levels (Abe and
+Yanagisawa, 1983), consistent with reduced RegA activity.
+It therefore seems likely that RegA is controlled by a
+phosphorelay system configured in a similar way to the
+osmo-regulatory pathway of yeast, and that RdeA is the
+immediate upstream phosphodonor (Figure 7). Thus we
+propose that stalk and spore cell maturation are both
+controlled by a common pathway, involving RdeA and
+RegA, that controls cAMP levels and hence PKA activity.
+The cognate upstream histidine kinase(s) and ligand(s)
+that control RegA activity remain unknown. Since
+phosphorylation on Asp212 appears to activate the RegA
+phosphodiesterase, we predict that the flow of phosphates
+from the upstream kinase should also be activating and,
+therefore, that kinase-null mutants should resemble regA
+mutants phenotypically. Consistent with this prediction,
+genetic manipulations expected to interrupt the flow of
+phosphates to RegA (rdeA knock out or RR domain
+overexpression) cause similar phenotypes to a regA null.
+
+Fig. 7. Proposed phosphorelay pathway controlling RegA activity. The
+upper scheme is the current model of the yeast osmo-regulatory
+phosphorelay system (Posas et al., 1996), the lower scheme is our
+proposed phosphorelay pathway for RegA regulation. The flow of
+phosphate is shown by curved arrows (the first of which is
+autophosphorylation of the histidine kinase), and occurs by a four-step
+process. The first component of the pathway in Dictyostelium is not
+known, but is shown as being a hybrid histidine kinase (labelled His
+Kin); phosphates flow from this to RdeA and then to RegA, where
+phosphorylation at Asp212 of the RR domain activates the
+phosphodiesterase domain (this is shown by the crooked arrow). In
+both schemes, when the phosphorelay pathway is active, the
+downstream signalling pathways are less active.
+
+On these grounds, the suggestion by Loomis and coworkers (Loomis et al., 1997; Shaulsky et al., 1998)
+that phosphorylation is inhibitory to RegA and that the
+upstream kinase is DhkA seem unlikely, especially since
+dhkA null mutants behave as wild-type in monolayers and
+differ significantly from regA in their developmental
+phenotype: they develop long, fragile stalks and are
+defective in spore production (Wang et al., 1996).
+The discovery of the regA pathway for controlling
+cAMP levels also suggests a solution to the problem of
+why extracellular cAMP alone is insufficient to induce
+stalk and spore cell maturation in cultured cells, even
+though it can activate adenylyl cyclase. We propose that
+only the highest levels of intracellular cAMP (and hence
+PKA activity) are sufficient to drive spore and stalk
+maturation and that they are attained only when adenylyl
+cyclase is active and the RegA phosphodiesterase is
+inactive (Houslay and Milligan, 1997). Since the activity
+of these proteins is probably controlled by two different
+extracellular signals, this condition will only be met where
+both ligands are present at the appropriate concentrations.
+In this way, the very precise spatial and temporal control
+over terminal differentiation can be obtained, which is
+presumably necessary for morphogenesis of the fruiting
+body.
+
+Materials and methods
+Cell methods
+Cells were grown and developed at 22°C (Watts and Ashworth, 1970;
+Kay, 1987) and REMI mutants isolated in the DH1 background as before
+(Harwood et al., 1995). Monolayer differentiation was as before (Kay,
+1987) but used 10 μM cAMP-S (Sigma), and (for stalk assays) 100 nM
+DIF-1 or 15 mM 8-Br-cAMP, as indicated.
+Rc and Rm cell lines were made by introducing the pre-stalk- or prespore-specific constructs (Harwood et al., 1992a; Hopper et al., 1993a)
+into HM1015 by the standard CaPO4 method (Harwood et al., 1992a).
+Initial transformants were selected at 40–80 μg/ml and maintained at
+50 μg/ml G418; stable transformants were maintained at 20 μg/ml G418
+(10 μg/ml for ‘rescued’ strains). HM1015 was made by electroporation
+of 50 μg of HindIII–SacII-linearized pRegAKO into Ax2 (1.6⫻107
+
+2843
+
+P.A.Thomason et al.
+cells). Transformants were selected with 20 μg/ml blasticidin S. Null
+mutants were confirmed by Western and Southern blotting.
+
+Molecular biology
+The REMI insert and flanking regions in myc1002 were isolated by
+plasmid rescue; this failed for HM332 and so inverse PCR was used
+instead. The PCR product (3⬘ end of regA) was used to probe a λgt11
+cDNA library, prepared from cAMP pulse-induced cells (a gift of
+P.Devreotes). This yielded an 80% full-length cDNA which was used to
+construct a full-length cDNA in conjunction with a genomic DNA clone
+covering the missing 5⬘ end of the gene, by PCR (introducing a BssSI
+site at nucleotides 487–492; this is a silent mutation).
+The regA KO vector was made from a 3.5 kb genomic fragment of
+the regA promoter and the 5⬘ end of the gene (isolated from a genomic
+minilibrary of EcoRI–BclI-digested Ax2 DNA in pBluescript KS II).
+5⬘ distal sequences were removed using HindIII, and the blasticidin S
+deaminase cassette (from pRHI119, obtained from R.H.Insall) inserted,
+giving pRegAKOD3⬘. A 1.2 kb genomic NotI–SacII PCR product from
+regA, covering the 3⬘ end of the gene to the stop codon, was inserted
+3⬘ to the bsr cassette in pRegAKOD3⬘, giving rise to pRegAKO, with a
+263 amino acid deletion (229–491).
+Full-length regA cDNA, the RR domain and the PDE domain were
+expressed as GST fusion proteins in Escherichia coli, using pGEX-2T
+(Pharmacia). The RR and PDE domain constructs encompassed amino
+acids 127–335 and 385–793, respectively. Soluble GST fusion proteins
+were purified using glutathione–agarose resin (Fluka). The RR domain
+construct expressed from the actin15 promoter in Dictyostelium cells
+encompassed RegA amino acids 1–430. All constructs were confirmed
+by DNA sequencing (ABI377).
+Mutagenesis and rescue plasmids
+Asp212 of RegA was mutagenized to Asn or Glu using the QuikChange
+site-directed mutagenesis kit (Stratagene). Actin15::RegA was made by
+replacing the gfp cDNA from actin15::gfp with the regA cDNA from
+pKSIIΔSalI:regA (BamHI–XhoI fragment). The regA promoter rescue
+construct was made by digesting the regA 3.5 kb genomic fragment with
+BglII–SalI and inserting the 1.8 kb promoter fragment into pKSIIΔSalI:
+regA digested with BamHI–SalI, to give an expression cassette of the
+regA cDNA driven in-frame by its own promoter. This cassette was
+removed as a 5.0 kb XbaI–XhoI fragment and used to replace the
+actin15::gfp cassette. Both rescue vectors conferred resistance to G418.
+Immunochemistry
+Polyclonal antiserum (R1/2F) was raised in rabbits to the GST–PDE
+fusion. RegA was detected by Western blotting of cell lysates in 50 mM
+Tris pH 7.4, 1 mM EDTA, 0.05% Triton X-100, containing protease
+inhibitors [1 mM benzamidine, 10 μM L64, 10 μg/ml leupeptin, 1 μM
+pepstatin, 1 mM phenylmethylsulfonyl fluoride (PMSF) and 0.1 mM
+TLCK]. Proteins (40 μg/lane) were resolved by 10% SDS–PAGE,
+electroblotted onto Immobilon P (Millipore), incubated with R1/2F and
+then with horseradish peroxidase (HRP)-conjugated goat anti-rabbit IgG
+(Sigma), and bands were visualized by ECL (Amersham). R1/2F detects
+a band of ~110 kDa on a Western blot.
+RegA was immunoprecipitated from cell lysates of 1.1⫻108 cells/ml
+in IP buffer (50 mM K1K2PO4 pH 7.3, 1 mM MgCl2 and 10% glycerol
+plus protease inhibitors as above), pre-cleared by centrifugation. The
+equivalent of 16 mg (dry weight) of protein A–Sepharose CL-4B
+(Pharmacia) per 108 cells and 30 μl of R1/2F serum were added. After
+1 h at 4°C, beads were pelleted and washed six times in eight bed volumes
+of IP buffer, then assayed for PDE activity. Protein concentrations were
+determined using the Bio-Rad dye-binding assay.
+Phosphodiesterase assays
+Assays were in 50 mM Tris–HCl, 50 mM KCl, 5 mM MgCl2, 10%
+glycerol, 1 mM dithiothreitol (DTT), pH 8.0 at 25°C, usually containing
+0.33 μM (4⫻105 d.p.m.) [3H]cAMP (Amersham), 1–100 μM total cAMP,
+final volume 20 μl, at 25°C. Reactions were stopped with trichloroacetic
+acid (TCA) (to 5%), and nucleotides were resolved by TLC on PEIcellulose plates with a fluorescent indicator (Sigma), using 1 M ammonium acetate pH 7.5/ethanol (30:75 v/v). Nucleotide spots were excised
+and radioactivity measured by scintillation counting. Using potassium
+phosphate buffers, the pH optimum of RegA was 8.0, and 5 mM MgCl2
+was optimal. Tris buffer was used instead of phosphate buffer for
+assays to avoid any potential problems when analysing the effects of
+phosphodonor compounds. Phosphoramidate was pre-incubated with
+enzyme for 5 min. Phosphoramidate was the kind gift of Dr Ann Stock.
+
+2844
+
+In vitro 32P labelling
+Acetyl-[32P]phosphate was synthesized as described in Kornberg et al.
+(1956), but using only 50 μmol of K2HPO4 as substrate. Five μg of
+fusion protein was used per labelling reaction (10 μl), containing 10 mM
+MgCl2 (Lukat et al., 1992) for 10 min at 25°C. SDS–PAGE and
+electroblotting were done at 4°C to minimize loss of label from proteins.
+Accession number
+The DDBJ/EMBL/GenBank accession number for the regA locus,
+including 1.8 kb of promoter sequence, is AJ005398.
+
+Acknowledgements
+We are grateful to Drs Bill Loomis and Gad Shaulsky for sharing data
+prior to publication, and for the dhkA strain, to Drs Richard Sucgang
+and Rich Kessin for providing strain UK7, to Drs M.-Y.Chen and
+P.Devreotes for strain myc1002, and to Dr Stephan Schuster for the
+dokA strain. We thank Dr Ann Stock for help with phosphoramidate
+experiments, Dr Stephan Schuster for advice on acetyl phosphate
+labelling, and Dr JiChun Yang for performing NMR experiments. We
+thank Drs Julian Gross and Peter Newell for helpful discussions, and
+Drs Chris Thompson, Hugh Pelham and particularly Jacqueline Milne
+for useful comments on the manuscript. This work was supported in
+part by an International Research Scholars award from the Howard
+Hughes Medical Institute to R.R.K.
+
+References
+Abe,K. and Yanagisawa,K. (1983) A new class of rapid developing
+mutants in Dictyostelium discoideum: implications for cyclic AMP
+metabolism and cell differentiation. Dev. Biol., 95, 200–210.
+Anjard,C., Pinaud,S., Kay,R.R. and Reymond,C.D. (1992) Overexpression of DdPK2 protein kinase causes rapid development and
+affects the intracellular cAMP pathway of Dictyostelium discoideum.
+Development, 115, 785–790.
+Appleby,J.L., Parkinson,J.S. and Bourret,R.B. (1996) Signal transduction
+via the multistep phosphorelay: not necessarily a road less traveled.
+Cell, 86, 845–848.
+Berks,M. and Kay,R.R. (1988) Cyclic AMP is an inhibitor of stalk cell
+differentiation in Dictyostelium discoideum. Dev. Biol., 126, 108–114.
+Bonner,J.T. (1952) The pattern of differentiation in amoeboid slime
+molds. Am. Nat., 86, 79–89.
+Boucher,P.E., Menozzi,F.D. and Locht,C. (1994) The modular
+architecture of bacterial response regulators. J. Mol. Biol., 241,
+363–377.
+Bourret,R.B., Borkovich,K.A. and Simon,M.I. (1991) Signal transduction
+pathways involving protein phosphorylation in prokaryotes. Annu.
+Rev. Biochem., 60, 401–441.
+Burbulys,D., Trach,K.A. and Hoch,J.A. (1991) Initiation of sporulation
+in B.subtilis is controlled by a multicomponent phosphorelay. Cell,
+64, 545–552.
+Feng,J., Atkinson,M.R., McCleary,W., Stock,J.B., Wanner,B.L. and
+Ninfa,A.J. (1992) Role of phosphorylated metabolic intermediates in
+the regulation of glutamine synthase synthesis in Escherichia coli.
+J. Bacteriol, 174, 6061–6070.
+Firtel,R.A. (1996) Interacting signaling pathways controlling
+multicellular development in Dictyostelium. Curr. Opin. Genet. Dev.,
+6, 545–554.
+Harwood,A.J., Hopper,N.A., Simon,M.N., Bouzid,S., Veron,M. and
+Williams,J.G. (1992a) Multiple roles for cAMP-dependent protein
+kinase during Dictyostelium development. Dev. Biol., 149, 90–99.
+Harwood,A.J., Hopper,N.A., Simon,M.N., Driscoll,D.M., Veron,M. and
+Williams,J.G. (1992b) Culmination in Dictyostelium is regulated by
+the cAMP-dependent protein kinase. Cell, 69, 615–624.
+Harwood,A.J., Plyte,S.E., Woodgett,J., Strutt,H. and Kay,R.R. (1995)
+Glycogen synthase kinase 3 regulates cell fate in Dictyostelium. Cell,
+80, 139–148.
+Hopper,N.A., Anjard,C., Reymond,C.D. and Williams,J.G. (1993a)
+Induction of terminal differentiation of Dictyostelium by cAMPdependent protein kinase and opposing effects of intracellular and
+extracellular cAMP on stalk cell differentiation. Development, 119,
+147–154.
+Hopper,N.A., Harwood,A.J., Bouzid,S., Veron,M. and Williams,J.G.
+(1993b) Activation of the prespore and spore cell pathway of
+Dictyostelium differentiation by cAMP-dependent protein kinase and
+
+cAMP phosphodiesterase/response regulator
+evidence for its upstream regulation by ammonia. EMBO J., 12,
+2459–2466.
+Houslay,M.D. and Milligan,G. (1997) Tailoring cAMP signalling
+responses through isoform multiplicity. Trends Biochem. Sci., 22,
+217–224.
+Inouye,K. and Gross,J. (1993) In vitro stalk cell differentiation in wildtype and slugger mutants of Dictyostelium discoideum. Development,
+118, 523–526.
+Jiang,J. and Struhl,G. (1995) Protein kinase A and hedgehog signaling
+in Drosophila limb development. Cell, 80, 563–572.
+Kay,R.R. (1982) cAMP and spore differentiation in Dictyostelium
+discoideum. Proc. Natl Acad. Sci. USA, 79, 3228–3231.
+Kay,R.R. (1987) Cell differentiation in monolayers and the investigation
+of slime mold morphogens. Methods Cell Biol., 28, 433–448.
+Kay,R.R. (1989) Evidence that elevated intracellular cyclic AMP triggers
+spore maturation in Dictyostelium. Development, 105, 753–759.
+Kornberg,A., Kornberg,S.R. and Simms,E.S. (1956) Metaphosphate
+synthesis by an enzyme from Escherichia coli. Biochim. Biophys.
+Acta, 20, 215–227.
+Kubohara,Y., Maeda,M. and Okamoto,K. (1993) Analysis of the
+maturation process of prestalk cells in Dictyostelium discoideum. Exp.
+Cell Res., 207, 107–114.
+Kuspa,A. and Loomis,W.F. (1992) Tagging developmental genes in
+Dictyostelium by restriction enzyme-mediated integration of plasmid
+DNA. Proc. Natl Acad. Sci. USA, 89, 8803–8807.
+Lacombe,M.L., Podgorski,G.J., Franke,J. and Kessin,R.H. (1986)
+Molecular cloning and developmental expression of the cyclic
+nucleotide phosphodiesterase gene of Dictyostelium discoideum. J.
+Biol. Chem., 261, 16811–16817.
+Li,W., Ohlmeyer,J.T., Lane,M.E. and Kalderon,D. (1995) Function of
+protein kinase A in hedgehog signal transduction and Drosophila
+imaginal disc development. Cell, 80, 553–562.
+Loomis,W.F., Shaulsky,G. and Wang,N. (1997) Histidine kinases in signal
+transduction pathways of eukaryotes. J. Cell Sci., 110, 1141–1145.
+Lukat,G.S., McCleary,W.R., Stock,A.M. and Stock,J.B. (1992)
+Phosphorylation of bacterial response regulator proteins by low
+molecular weight phospho-donors. Proc. Natl Acad. Sci. USA, 89,
+718–722.
+Maeda,M. (1992) Efficient induction of sporulation of Dictyostelium
+prespore cells by 8-bromocyclic AMP under both submerged- and
+shaken-culture conditions and involvement of protein kinase(s) in its
+action. Dev. Growth Differ., 34, 263–275
+Mann,S.K.O. and Firtel,R.A. (1993) cAMP-dependent protein kinase
+differentially regulates prestalk and prespore differentiation during
+Dictyostelium development. Development, 119, 135–146.
+Mann,S.K.O., Richardson,D.L., Lee,S., Kimmel,A.R. and Firtel,R.A.
+(1994) Expression of cAMP-dependent protein kinase in prespore
+cells is sufficient to induce spore cell differentiation in Dictyostelium.
+Proc. Natl Acad. Sci. USA, 91, 10561–10565.
+McCleary,W.R. and Stock,J.B. (1994) Acetyl phosphate and the activation
+of two-component response regulators. J. Biol. Chem., 269, 31567–
+31572.
+Parent,C.A. and Devreotes,P.N. (1996) Molecular genetics of signal
+transduction in Dictyostelium. Annu. Rev. Biochem., 65, 411–440.
+Parkinson,J.S. and Kofoid,E.C. (1992) Communication modules in
+bacterial signalling proteins. Annu. Rev. Genet., 26, 71–112.
+Posas,F., Wurgler-Murphy,S.M., Maeda,T., Witten,E.A., Thai,T.C. and
+Saito,H. (1996) Yeast HOG1 MAP kinase cascade is regulated by a
+multistep phosphorelay mechanism in the SLN1–YPD1–SSK1 ‘twocomponent’ osmosensor. Cell, 86, 865–875.
+Richardson,D.L., Loomis,W.F. and Kimmel,A.R. (1994) Progression of
+an inductive signal activates sporulation in Dictyostelium discoideum.
+Development, 120, 2891–2900.
+Riley,B.B., Jensen,B.R. and Barclay,S.L. (1989) Conditions that elevate
+intracellular cAMP levels promote spore formation in Dictyostelium.
+Differentiation, 41, 5–13.
+Sanders,D.A., Gillece-Castro,B.L., Burlingame,A.L. and Koshland,D.E.J.
+(1992) Phosphorylation site of NtrC, a protein phosphatase whose
+covalent intermediate activates transcription. J. Bacteriol., 174,
+5117–5122.
+Schuster,S.C., Noegel,A.A., Oehme,F., Gerisch,G. and Simon,M.I. (1996)
+The hybrid histidine kinase DokA is part of the osmotic response
+system of Dictyostelium. EMBO J., 15, 3880–3889.
+Shaulsky,G., Escalante,R. and Loomis,W.F. (1996) Developmental signal
+transduction pathways uncovered by genetic suppressors. Proc. Natl
+Acad. Sci. USA, 93, 15260–15265.
+Shaulsky,G., Fuller,D. and Loomis,W.F. (1998) A cAMP-
+
+phosphodiesterase
+controls
+PKA-dependent
+differentiation.
+Development, 125, 691–699.
+Simon,M.N., Pelegrini,O., Veron,M. and Kay,R.R. (1992) Mutation of
+protein kinase-A causes heterochronic development of Dictyostelium.
+Nature, 356, 171–172.
+Swanson,R.V., Alex,L.A. and Simon,M.I. (1994) Histidine and aspartate
+phosphorylation: two-component systems and the limits of homology.
+Trends Biochem. Sci., 19, 485–490.
+Volz,K. (1993) Structural conservation in the CheY superfamily.
+Biochemistry, 32, 11741–11753.
+Wang,N., Shaulsky,G., Escalante,R. and Loomis,W.F. (1996) A twocomponent histidine kinase gene that functions in Dictyostelium
+development. EMBO J., 15, 3890–3898.
+Watts,D.J. and Ashworth,J.M. (1970) Growth of myxamoebae of the
+cellular slime mould Dictyostelium discoideum in axenic culture.
+Biochem. J., 119, 171–174.
+Zapf,J.W., Hoch,J.A. and Whiteley,J.M. (1996) A phosphotransferase
+activity of the Bacillus subtilis sporulation protein Spo0F that employs
+phosphoramidate substrates. Biochemistry, 35, 2926–2933.
+Received January 26, 1998; revised March 6, 1998;
+accepted March 11, 1998
+
+2845
+
+

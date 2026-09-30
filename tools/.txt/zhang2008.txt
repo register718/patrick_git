@@ -1,0 +1,410 @@
+Current Biology 18, 1587–1593, October 28, 2008 ª2008 Elsevier Ltd All rights reserved
+
+DOI 10.1016/j.cub.2008.08.069
+
+Report
+Spatiotemporal Regulation
+of Ras Activity Provides
+Directional Sensing
+Sheng Zhang,1,2 Pascale G. Charest,1,2
+and Richard A. Firtel1,*
+1Section of Cell and Developmental Biology
+Division of Biological Sciences
+Center for Molecular Genetics
+University of California, San Diego
+9500 Gilman Drive
+La Jolla, California 92093-0380
+
+Summary
+Cells’ ability to detect and orient themselves in chemoattractant gradients has been the subject of numerous studies, but
+the underlying molecular mechanisms remain largely unknown [1]. Ras activation is the earliest polarized response
+to chemoattractant gradients downstream from heterotrimeric G proteins in Dictyostelium, and inhibition of Ras signaling results in directional migration defects [2]. Activated
+Ras is enriched at the leading edge, promoting the localized
+activation of key chemotactic effectors, such as PI3K and
+TORC2 [2–5]. To investigate the role of Ras in directional
+sensing, we studied the effect of its misregulation by using
+cells with disrupted RasGAP activity. We identified an ortholog of mammalian NF1, DdNF1, as a major regulator of Ras
+activity in Dictyostelium. We show that disruption of nfaA
+leads to spatially and temporally unregulated Ras activity,
+causing cytokinesis and chemotaxis defects. By using unpolarized, latrunculin-treated cells, we show that tight regulation of Ras is important for gradient sensing. Together, our
+findings suggest that Ras is part of the cell’s compass and
+that the RasGAP-mediated regulation of Ras activity affects
+directional sensing.
+Results
+The RasGAP DdNF1 Regulates Chemotaxis
+in Dictyostelium Cells
+To investigate the potential role of Ras in directional sensing
+during Dictyostelium chemotaxis, we sought to disrupt the
+regulation of Ras by targeting RasGAP (GTPase-activating
+protein for Ras) function. RasGAPs are negative regulators of
+Ras proteins, promoting their deactivation by stimulating their
+intrinsic GTPase activity. We found that, of the seven putative
+Dictyostelium RasGAP-encoding genes, disruption of one in
+particular, nfaA (dictybase DDB0233763; Figures S1A–S1C
+available online), results in severe chemotaxis defects (Figure 1). nfaA encodes DdNF1, a putative ortholog of the human
+RasGAP NF1 (neurofibromin), which regulates p21-Ras signaling and acts as a tumor suppressor [6]. nfaA2 cells display delayed aggregation upon starvation on nonnutrient agar, most
+likely resulting from their inability to efficiently perform chemotaxis, but their development is otherwise comparable to that of
+wild-type cells, as shown by the expression profile of the
+
+*Correspondence: rafirtel@ucsd.edu
+2These authors contributed equally to this work
+
+developmentally regulated cAMP receptor cAR1 and their ability to fully respond to uniform chemoattractant stimulation
+(Figures S1D and S1E and data described below).
+Upon exposure to an exponential chemoattractant gradient
+created by a micropipette containing chemoattractant, wildtype cells rapidly polarize and migrate up the gradient, with
+>90% of their produced pseudopodia extended forward, toward the chemoattractant source, most of which persist for
+more than 2 min (Figure 1A; Figure S2; Movie S1). In contrast,
+nfaA2 cells exposed to the exponential chemoattractant gradient display major polarity and chemotaxis defects, as indicated by reduced migration speed and directionality (Figures
+1A and 1C; Movie S2). Although nfaA2 cells rapidly respond
+by extending multiple membrane protrusions, most of these
+are not extended forward, toward the chemoattractant source
+(Figure S2; Movie S2). Some cells close to the micropipette
+break their symmetry after a prolonged exposure to the steep
+chemoattractant gradient and then slowly migrate, but with
+only w50% of the pseudopodia extended forward (nfaA2
+type 1 cells). Most cells farther from the micropipette (in the
+shallow and weaker part of the gradient) do not polarize,
+move very little, and extend pseudopodia randomly relative
+to the direction of the chemoattractant source that have an average persistence of only w40 s (nfaA2 type 2; Figures 1A and
+1C; Figure S2). These chemotaxis defects are even clearer
+when analyzing the behavior of nfaA2 cells placed in a linear
+chemoattractant gradient via a Dunn chamber (Figure 1B).
+Whereas wild-type cells become polarized and efficiently migrate up the gradient (Movie S3), the majority of nfaA2 cells
+move randomly relative to the axis of the gradient (Movie
+S4). Expression of myc-tagged DdNF1 in nfaA2 cells rescues
+these chemotaxis defects (Figures 1A and 1C). These results
+suggest that DdNF1 regulates one or more Ras signaling pathways that control chemotaxis and, therefore, nfaA2 cells provide an ideal cellular context in which to assess the potential
+role of Ras in directional sensing.
+Temporal as well as Spatial Regulation of Ras Activity
+Is Crucial to Chemotaxis
+By using a pull-down assay, we show that nfaA2 cells display
+elevated basal levels as well as extended kinetics of cAMPinduced Ras activation compared to those of wild-type cells,
+which we confirmed by live cell imaging (Figure 2A). In addition, we found that the kinetics of activation of the RasG protein in particular, which has been linked to the regulation of
+PI3K (phosphatidylinositol-3 kinase) during chemotaxis [2, 7],
+are delayed and extended considerably in nfaA2 cells compared to the RasG activation profile in wild-type cells
+(Figure 2B). In contrast, chemoattractant-induced activation
+of RasD, Rap1, and RasC, which also regulates Dictyostelium
+chemotaxis [7–9], is unaffected. Interestingly, we observed
+that the kinetics of RasB activation, which was recently suggested to regulate myosin function [10], are extended. However, we observed that cells in which both rasG and nfaA
+were disrupted display a rasG2 chemotaxis phenotype, which
+suggests that although DdNF1 can regulate RasB, the nfaA2
+chemotaxis phenotypes mostly result from the misregulation
+of RasG (Figures S3A and S3B).
+
+Current Biology Vol 18 No 20
+1588
+
+Figure 1. DdNF1 Regulates Chemotaxis
+Chemotaxis assays were performed and analyzed with DIAS as described previously [4, 20, 25–27].
+(A) Traces of representative chemotaxing cells in an exponential cAMP gradient delivered by a micropipette. Two types of chemotactic nfaA2 cells are
+shown, type 1 and type 2, representative of cells in the steep and shallow parts of the gradient.
+(B) Traces of cells chemotaxing in a linear gradient (Dunn chamber). The starting point of each migrating cell was apposed to the axis’ origin. A 63 close-up
+of the nfaA2 cells’ traces near the origin is shown.
+(C) DIAS analysis of at least 10 traces from at least 3 independent experiments on cells migrating in an exponential gradient [27]. Speed refers to the speed of
+the cell’s centroid movement along the total path; directionality indicates migration straightness; direction change refers to the number and frequency of
+turns; and roundness indicates the cell polarity.
+
+Interestingly, we found that Ras activity is also spatially misregulated in chemotaxing nfaA2 cells (Figure 3A). Although
+wild-type and nfaA2 cells exhibit a similar uniform Ras activation along the cell cortex upon the initial introduction of the
+chemoattractant-emitting micropipette, Ras activity in nfaA2
+cells takes longer to adapt compared to wild-type cells.
+Then, whereas activated Ras is enriched at the leading edge
+of chemotaxing wild-type cells (Movie S5), as previously described [2], Ras activity is not spatially restricted relative to
+the chemoattractant gradient in nfaA2 cells, as indicated by
+the constantly changing localization of the Ras-GTP reporter
+GFP-RBD (Movie S6). Accumulation of Ras-GTP seems to occur at random sites along the plasma membrane of chemotaxing nfaA2 cells, resulting in multiple and sometimes simultaneous lamellipod-like extensions and no defined leading edge.
+PI3K is activated at the leading edge of chemotaxing
+Dictyostelium cells in a Ras-dependent fashion, resulting in the
+restricted accumulation of PI(3,4,5)P3 (phosphatidylinositol3,4,5-triphosphate) and the local recruitment of PI(3,4,5)P3binding proteins, many of which are modulators of the actin
+cytoskeleton and coordinate pseudopod protrusion [2, 4, 11–
+14]. In Figure 3C, we show that PI(3,4,5)P3 production, as detected with a reporter consisting of the PH domain of CRAC
+(cytosolic regulator of adenylyl cyclase) fused to GFP (GFPPH), is delayed and considerably prolonged in nfaA2 compared to wild-type cells, as is PKB activation (Figure 3D).
+
+Although RFP-PH accumulates at the forming and established
+leading edge in chemotaxing wild-type cells, the PI(3,4,5)P3
+reporter localizes to multiple and seemingly random sites
+along the plasma membrane of nfaA2 cells, reminiscent of
+the localization of active Ras, which also corresponds to sites
+of F-actin polymerization as shown by the colocalization with
+the F-actin reporter GFP-LimEDcoil [15] (Figure 3B; Movies
+S7 and S8). Basal and cAMP-induced F-actin polymerization
+was found to be elevated in nfaA2 cells compared to wildtype cells (Figure S7A), which is consistent with the observed
+presence of numerous F-actin-rich membrane protrusions in
+migrating nfaA2 cells. These results suggest that tight RasGAP-mediated regulation of the chemoattractant-induced
+Ras activity is essential to temporally and spatially restrict
+the accumulation of Ras-GTP, which directly determines the
+site of pseudopod protrusion and, therefore, the direction of
+migration. A similar extended PI(3,4,5)P3 response is observed
+in rasG2 cells expressing constitutively active RasGQ61L (Figures S3C and S3D), which is consistent with RasG and
+DdNF1 regulating PI3K activity.
+Directional Sensing Requires Tightly Regulated Ras
+Activity
+Although evidence suggests that directional sensing involves
+mechanisms that do not require global cell polarity or an intact
+cytoskeleton [16], F-actin-dependent positive-feedback loops
+
+Ras Control of Directional Sensing
+1589
+
+Figure 2. The DdNF1-Mediated Regulation of RasG Activity Controls Chemotaxis
+(A) cAMP-induced Ras activation detected in a pull-down assay (top) and live cell imaging of GFP-RBD (bottom) upon uniform cAMP stimulation. Ras-GTP
+or total Ras proteins were detected in a western blot. Quantification of the pull-down data and the relative fluorescence intensity of membrane-localized
+GFP-RBD are shown on the right. Scale bar represents 5 mm.
+(B) cAMP-induced activation of Rap1 and exogenously expressed FLAG-RasB, -RasC, -RasG, and myc-RasD was assessed in pull-down assays. The Ras
+proteins were detected by western blot with Ras (Ab-3), FLAG (M2), myc (9E10), or Rap1 antibodies. Quantification of data is shown on the right. Quantified
+data represent mean 6 SD of at least three independent experiments.
+
+play an important role in the amplification of the PI(3,4,5)P3 signal, in part, through the upregulation of Ras and PI3K signaling
+[2, 17]. Therefore, to determine whether the regulation of Ras
+activity directly affects gradient sensing independently of its
+role in controlling pseudopod formation, we assessed the spatiotemporal activation of Ras in cells treated with the F-actin
+polymerization inhibitor Latrunculin B (LatB), which generates
+motility-paralyzed, symmetrical, and spherical cells without
+pseudopodia [12]. As previously reported [2], the kinetics
+and the spatial activation of Ras in wild-type cells exposed
+to a chemoattractant gradient are unaffected by LatB treatment, as revealed by the localization profile of GFP-RBD
+(Figure 4A). After the initial uniform activation and adaptation
+that follow placing the chemoattractant-emitting micropipette
+
+in proximity to the cell, GFP-RBD rapidly accumulates in
+a crescent shape along the plasma membrane closest to the
+chemoattractant source. Upon repositioning of the micropipette, GFP-RBD is rapidly delocalized from its previous site
+and rapidly accumulates at the site on the cortex closest to
+the new position of the micropipette, reflecting the prompt deactivation and activation of Ras at each site, respectively
+(Movie S9). Interestingly, in LatB-treated nfaA2 cells, after repositioning the micropipette, we observed a considerable delay (w40 s) before GFP-RBD fully dissociated from its original
+site on the plasma membrane, as might be expected from
+a loss of GAP activity. Unexpectedly, however, the chemoattractant-induced Ras activity at the new site closest to the
+chemoattractant source was also noticeably delayed, as
+
+Current Biology Vol 18 No 20
+1590
+
+Figure 3. RasGAP Activity Spatiotemporally Regulates Ras Signaling
+(A) Imaging of GFP-RBD in cells migrating in an exponential cAMP gradient. Asterisk, position of the micropipette. Scale bars represent 10 mm. See Supplemental Experimental Procedures for details.
+(B) Imaging of the RFP-PH and GFP-LimEDcoil in cells migrating in an exponential cAMP gradient. Asterisk, position of the micropipette. Scale bars represent 10 mm.
+(C) Imaging of GFP-PH upon uniform cAMP stimulation. Scale bars represent 5 mm. The relative fluorescence intensity of membrane-localized GFP-PH is
+shown on the right.
+(D) Activity of immunopurified PKB determined in a kinase assay with H2B as substrate. Quantification of the data is shown on the right. Quantified data
+represent mean 6 SD of at least three independent experiments.
+
+illustrated by the slower rise in Ras-GTP levels, which took
+w30 s to reach their maximum in nfaA2 cells compared to
+<10 s in wild-type cells (Figure 4B). As a result, two crescents
+of plasma membrane-localized GFP-RBD were observed simultaneously, which never occurred in wild-type cells, demonstrating that the misregulation of Ras activity affects the ability
+of cells to sense changes in gradient orientation (Figure 4;
+Movie S10). These findings provide experimental evidence
+for Onsum and Rao’s prediction in their mathematical model
+of gradient sensing that cells with impaired RasGAPs would
+respond sluggishly to changes in the direction of the gradients
+[18].
+Discussion
+A growing body of evidence suggests that chemoattractantmediated PI3K signaling is mostly involved in controlling the
+
+motility of chemotaxing cells through modulation of the cytoskeleton, with the cell’s compass located upstream of PI3K
+[1]. Ras is therefore in an ideal position within the chemotactic
+signaling cascade to be implicated in directional sensing, but
+substantial evidence has been lacking. The identification of
+DdNF1 as a major negative regulator of Ras activity, and
+RasG in particular, in Dictyostelium provided us with a new
+tool to further study the role of Ras in chemotaxis and especially in gradient sensing. By using cells with depleted RasGAP
+activity, we determined that Ras plays a previously unappreciated role in directional sensing, and we uncovered how the
+RasGAP-mediated spatiotemporal regulation of Ras activity
+regulates this process.
+Our finding that DdNF1 regulates RasB and RasG is consistent with our observation that nfaA2 cells display random cell
+motility and cytokinesis defects (Figures S4–S6), in addition to
+chemotaxis defects. Previous studies demonstrated that both
+
+Ras Control of Directional Sensing
+1591
+
+Current Biology Vol 18 No 20
+1592
+
+Ras proteins regulate cytokinesis, with RasB regulating myosin II function and RasG regulating PI3K activation and F-actin
+polymerization [2, 7, 10, 19, 20]. We find that growing nfaA2
+cells display increased levels of activated Ras and PKB, as
+well as polymerized F-actin compared to wild-type cells (Figures S4A–S4C). In addition, these cells exhibit considerably
+enhanced random cell motility (Figures S4D and S5), most
+likely resulting from the elevated levels of polymerized F-actin.
+Although DdNF1 also regulates RasB, the fact that the disruption of rasG suppresses the nfaA2 chemotaxis phenotypes,
+and that expression of a ‘‘constitutively’’ active RasGQ61L mutant in rasG2 cells results in an increased and prolonged
+cAMP-induced accumulation of PI(3,4,5)P3 similar to that observed in nfaA2 cells (Figure S3D), strongly suggests that the
+chemotaxis defects result from the misregulation of RasG
+and not RasB. The fact that the kinetics of PI(3,4,5)P3 production in RasGQ61L/rasG2 cells are not as extended as in nfaA2
+cells may account for differences in phenotypes between
+nfaA2 and RasGQ61L/rasG2 cells (Figure 2; Figure S3C [2]). Although the RasGQ61L mutant has a higher basal activity and extended activation kinetics compared to wild-type RasG, it is
+not constitutively in a fully active state.
+Consistent with the increase in PI(3,4,5)P3 accumulation
+underlying most of the nfaA2 chemotaxis phenotype is the
+observation that this phenotype is highly similar to that of
+cells overexpressing a membrane-targeted PI3K (myr-PI3K)
+as well as cells that lack the PI(3,4,5)P3 phosphatase PTEN,
+which display elevated PI(3,4,5)P3 accumulation that causes
+an increase in F-actin polymerization and pseudopod protrusions [4, 21]. However, unlike nfaA2 cells, pten2 cells or cells
+expressing myr-PI3K do chemotax directionally, although
+with a reduced efficiency compared to wild-type cells. The
+abnormal accumulation of PI(3,4,5)P3 in RasGAP-deficient
+cells probably results from direct Ras-dependent misregulation of PI3K because the kinetics and profile of chemoattractant-induced translocation of PTEN-GFP upon uniform stimulation, as well as its localization in chemotaxing cells, are
+unaffected, suggesting that PTEN function is unaltered
+(Figures S7B and S7C). In addition, we observed that treatment of nfaA2 cells with the PI3K inhibitor LY (LY294002)
+partially restores chemotaxis, producing cells that migrate
+as efficiently as LY-treated wild-type cells, which further suggests that Ras-dependent misregulation of PI3K is mostly
+responsible for the nfaA2 chemotaxis phenotype (Figures
+S7D and S7E).
+Our data suggest that RasG is an important regulator of
+PI3K. The functions of RasB, RasC, and RasD have been
+shown to overlap with those of RasG and their expression
+levels are elevated in rasG2 cells, so we expect that one or
+more of these Ras proteins most likely regulate PI3K in the absence of RasG [2, 7, 22]. This could explain why rasG2 cells do
+not display severe chemotaxis defects (Figure S3A).
+
+The RasGAP Regulation of Ras Is a Component
+of the Directional Sensing Machinery
+Upon directional sensing, a cell must identify the side of the
+cell that produces the strongest response to the gradient.
+This is most likely achieved through differential and sequential
+activation and inactivation of key responses along the cortex
+until the cell determines the side with the strongest response,
+which is closest to the chemoattractant source. Our data indicate that cells depleted in RasGAP activity are unable to do
+this (Figure 4D). The inability to rapidly downregulate Ras responses during the initial stages of gradient sensing impairs
+the ability of cells to efficiently identify the side of the cell closest to the chemoattractant source. We found that the loss of
+RasGAP activity impairs the ability of cells to rapidly activate
+Ras in response to a changing gradient. We propose that
+this process of gradient sensing continues to play a role as
+the cells migrate up the gradient, allowing the cells to acquire
+constant positional cues. Thus, although RasGAP-deficient
+cells are able to respond to chemoattractant stimulation, the
+failure to spatially control the chemotactic responses prevents
+the cells from polarizing and efficiently performing directional
+migration. The severity of the chemotactic phenotype observed when comparing RasGAP-depleted cells migrating
+within shallow and steep gradients is most likely due to the relative difference in chemoattractant concentration between the
+cell’s anterior and posterior, resulting in a greater difference in
+relative activation of the signaling responses between the side
+closest to and that farthest away from the source in a steep opposed to a shallow gradient. Consequently, this increase in the
+ratio of activation between the presumptive front and back
+may help the cell decipher the axis of the gradient in the absence of RasGAP function and may explain why some cells
+perform chemotaxis, albeit inefficiently, in exponential gradients but not in linear gradients.
+Together, our data suggest that the regulation of Ras by
+RasGAPs, including RasG and DdNF1, is a potential regulatory
+mechanism implicated in directional sensing in Dictyostelium.
+We suggest that RasGAPs inhibit Ras activity throughout the
+cell, which is consistent with our finding that DdNF1 is uniformly distributed in chemotaxing cells (Figure S8A), thereby
+lowering the overall level of active Ras (Ras-GTP) both in the
+resting state and after stimulation (Figure 4D). We speculate
+that after adaptation, only the remaining activated Ras at the
+front is sufficient to trigger feedback signaling through the
+Ras-PI3K-F-actin positive-feedback loop [2]. This could lead
+to the localized persistence and amplification of the Ras
+signal, thereby creating a steep gradient of Ras and PI3K activity and promoting leading edge formation [17] (Figure 4D;
+Figure S8B). We suggest that, in the absence of RasGAP activity, the persisting high levels of Ras-GTP throughout the cell
+could cause the nonlocalized (more uniform) activation of
+the Ras-PI3K-F-actin feedback loop, resulting in signal
+
+Figure 4. Depletion of RasGAP Activity Causes Gradient-Sensing Defects
+(A) Imaging of GFP-RBD in LatB-treated cells responding to changes in cAMP gradient orientation. Asterisk, position of the micropipette. Data are representative of at least three independent experiments. Scale bars represent 10 mm.
+(B) Quantification of relative fluorescence intensity of membrane-localized GFP-RBD in (A).
+(C) Illustration of GFP-RBD translocation kinetics upon changes in gradient orientation.
+(D) RasGAP regulation of Ras helps the cells determine the direction of a chemoattractant gradient. In the resting state, nfaA2 cells display elevated levels of
+Ras-GTP compared to wild-type cells because of the slow intrinsic GTPase activity of Ras. In wild-type cells, upon directional chemoattractant stimulation,
+there is a global activation of Ras along the cell’s plasma membrane, which rapidly adapts. Low levels of polarized Ras activity at the plasma membrane that
+persist in the direction of the gradient lead to the local polymerization of F-actin and leading edge formation through signal amplification (see text). We speculate that in nfaA2 cells, the high levels of Ras-GTP that persist, even after the global adaptation that follows the initial stimulation, trigger feedback signaling
+and amplification of the signal all around the cell, and cause the extension of pseudopodia in every angle relative to the chemoattractant gradient.
+
+Ras Control of Directional Sensing
+1593
+
+amplification and extension of multiple pseudopodia all
+around the cell (Figure 4D). Given that Ras modulates PI3K
+function in migrating neutrophils [23] and that the signaling
+pathways regulating chemotaxis in Dictyostelium and leukocytes are surprisingly well conserved [24], we believe that
+Ras and its regulation by RasGAPs, possibly NF1, are likely
+to play a similar role in regulating directional sensing in mammalian cells.
+Supplemental Data
+Supplemental Data include Supplemental Experimental Procedures, eight
+figures, and ten movies and can be found with this article online at http://
+www.current-biology.com/supplemental/S0960-9822(08)01244-X.
+Acknowledgments
+We would like to thank members of the Firtel laboratory for their helpful suggestions and constructive discussions. We thank Karen Ong for assistance
+with FACS analysis. P.G.C. is supported, in part, by a fellowship from the
+Fonds de la Recherche en Santé du Québec. This work was supported by
+USPHS grants to R.A.F.
+Received: February 7, 2008
+Revised: August 13, 2008
+Accepted: August 27, 2008
+Published online: October 23, 2008
+References
+1. Van Haastert, P.J.M., and Veltman, D.M. (2007). Chemotaxis: Navigating
+by multiple signaling pathways. Sci. STKE 2007, pe40.
+2. Sasaki, A.T., Chun, C., Takeda, K., and Firtel, R.A. (2004). Localized Ras
+signaling at the leading edge regulates PI3K, cell polarity, and directional cell movement. J. Cell Biol. 167, 505–518.
+3. Lee, S., Comer, F.I., Sasaki, A., McLeod, I.X., Duong, Y., Okumura, K.,
+Yates, J.R., 3rd, Parent, C.A., and Firtel, R.A. (2005). TOR complex 2 integrates cell movement during chemotaxis and signal relay in Dictyostelium. Mol. Biol. Cell 16, 4572–4583.
+4. Funamoto, S., Meili, R., Lee, S., Parry, L., and Firtel, R.A. (2002). Spatial
+and temporal regulation of 3-phosphoinositides by PI 3-kinase and
+PTEN mediates chemotaxis. Cell 109, 611–623.
+5. Kamimura, Y., Xiong, Y., Iglesias, P.A., Hoeller, O., Bolourani, P., and
+Devreotes, P.N. (2008). PIP(3)-independent activation of TorC2 and
+PKB at the cell’s leading edge mediates chemotaxis. Curr. Biol. 18,
+1034–1043.
+6. Trovo-Marqui, A.B., and Tajara, E.H. (2006). Neurofibromin: A general
+outlook. Clin. Genet. 70, 1–13.
+7. Bolourani, P., Spiegelman, G.B., and Weeks, G. (2006). Delineation of
+the roles played by RasG and RasC in cAMP-dependent signal transduction during the early development of Dictyostelium discoideum.
+Mol. Biol. Cell 17, 4543–4550.
+8. Wessels, D., Brincks, R., Kuhl, S., Stepanovic, V., Daniels, K.J., Weeks,
+G., Lim, C.J., Spiegelman, G., Fuller, D., Iranfar, N., et al. (2004). RasC
+plays a role in transduction of temporal gradient information in the cyclic-AMP wave of Dictyostelium discoideum. Eukaryot. Cell 3, 646–662.
+9. Lim, C.J., Spiegelman, G.B., and Weeks, G. (2001). RasC is required for
+optimal activation of adenylyl cyclase and Akt/PKB during aggregation.
+EMBO J. 20, 4490–4499.
+10. Mondal, S., Bakthavatsalam, D., Steimle, P., Gassen, B., Rivero, F., and
+Noegel, A.A. (2008). Linking Ras to myosin function: RasGEF Q, a
+Dictyostelium exchange factor for RasB, affects myosin II functions.
+J. Cell Biol. 181, 747–760.
+11. Funamoto, S., Milan, K., Meili, R., and Firtel, R.A. (2001). Role of phosphatidylinositol 30 kinase and a downstream pleckstrin homology domain-containing protein in controlling chemotaxis in Dictyostelium.
+J. Cell Biol. 153, 795–810.
+12. Parent, C.A., Blacklock, B.J., Froehlich, W.M., Murphy, D.B., and Devreotes, P.N. (1998). G protein signaling events are activated at the leading edge of chemotactic cells. Cell 95, 81–91.
+13. Meili, R., Ellsworth, C., Lee, S., Reddy, T.B., Ma, H., and Firtel, R.A.
+(1999). Chemoattractant-mediated transient activation and membrane
+
+localization of Akt/PKB is required for efficient chemotaxis to cAMP in
+Dictyostelium. EMBO J. 18, 2092–2105.
+14. Affolter, M., and Weijer, C.J. (2005). Signaling to cytoskeletal dynamics
+during chemotaxis. Dev. Cell 9, 19–34.
+15. Schneider, N., Weber, I., Faix, J., Prassler, J., Muller-Taubenberger, A.,
+Kohler, J., Burghardt, E., Gerisch, G., and Marriott, G. (2003). A Lim protein involved in the progression of cytokinesis and regulation of the
+mitotic spindle. Cell Motil. Cytoskeleton 56, 130–139.
+16. Devreotes, P., and Janetopoulos, C. (2003). Eukaryotic chemotaxis: Distinctions between directional sensing and polarization. J. Biol. Chem.
+278, 20445–20448.
+17. Charest, P.G., and Firtel, R.A. (2006). Feedback signaling controls leading-edge formation during chemotaxis. Curr. Opin. Genet. Dev. 16, 339–
+347.
+18. Onsum, M., and Rao, C.V. (2007). A mathematical model for neutrophil
+gradient sensing and polarization. PLoS Comput Biol 3, e36.
+19. Tuxworth, R.I., Cheetham, J.L., Machesky, L.M., Spiegelmann, G.B.,
+Weeks, G., and Insall, R.H. (1997). Dictyostelium RasG is required for
+normal motility and cytokinesis, but not growth. J. Cell Biol. 138, 605–
+614.
+20. Sasaki, A.T., Janetopoulos, C., Lee, S., Charest, P.G., Takeda, K., Sundheimer, L.W., Meili, R., Devreotes, P.N., and Firtel, R.A. (2007). G proteinindependent Ras/PI3K/F-actin circuit regulates basic cell motility.
+J. Cell Biol. 178, 185–191.
+21. Iijima, M., and Devreotes, P. (2002). Tumor suppressor PTEN mediates
+sensing of chemoattractant gradients. Cell 109, 599–610.
+22. Khosla, M., Spiegelman, G.B., Insall, R., and Weeks, G. (2000). Functional overlap of the Dictyostelium RasG, RasD and RasB proteins.
+J. Cell Sci. 113, 1427–1434.
+23. Suire, S., Condliffe, A.M., Ferguson, G.J., Ellson, C.D., Guillou, H., Davidson, K., Welch, H., Coadwell, J., Turner, M., Chilvers, E.R., et al.
+(2006). Gbetagammas and the Ras binding domain of p110gamma are
+both important regulators of PI(3)Kgamma signalling in neutrophils.
+Nat. Cell Biol. 8, 1303–1309.
+24. Parent, C.A. (2004). Making all the right moves: chemotaxis in neutrophils and Dictyostelium. Curr. Opin. Cell Biol. 16, 4–13.
+25. Chung, C.Y., and Firtel, R.A. (1999). PAKa, a putative PAK family member, is required for cytokinesis and the regulation of the cytoskeleton in
+Dictyostelium discoideum cells during chemotaxis. J. Cell Biol. 147,
+559–576.
+26. Takeda, K., Sasaki, A.T., Ha, H., Seung, H.A., and Firtel, R.A. (2007). Role
+of PI3 kinases in chemotaxis in Dictyostelium. J. Biol. Chem. 282,
+11874–11884.
+27. Wessels, D., Voss, E., Von Bergen, N., Burns, R., Stites, J., and Soll, D.R.
+(1998). A computer-assisted system for reconstructing and interpreting
+the dynamic three-dimensional relationships of the outer surface, nucleus and pseudopods of crawling cells. Cell Motil. Cytoskeleton 41,
+225–246.
+
+

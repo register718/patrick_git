@@ -1,0 +1,1227 @@
+Cell, Vol. 109, 611–623, May 31, 2002, Copyright 2002 by Cell Press
+
+Spatial and Temporal Regulation
+of 3-Phosphoinositides by PI 3-Kinase
+and PTEN Mediates Chemotaxis
+Satoru Funamoto,2 Ruedi Meili,2 Susan Lee,
+Lisa Parry, and Richard A. Firtel1
+Section of Cell and Developmental Biology
+Division of Biology
+Center for Molecular Genetics
+University of California, San Diego
+9500 Gilman Drive
+La Jolla, California 92093
+
+Summary
+We have investigated the mechanisms of leading edge
+formation in chemotaxing Dictyostelium cells. We
+demonstrate that while phosphatidylinositol 3-kinase
+(PI3K) transiently translocates to the plasma membrane in response to chemoattractant stimulation and
+to the leading edge in chemotaxing cells, PTEN, a
+negative regulator of PI3K pathways, exhibits a reciprocal pattern of localization. By uniformly localizing
+PI3K along the plasma membrane, we show that chemotaxis pathways are activated along the lateral sides
+of cells and PI3K can initiate pseudopod formation,
+providing evidence for a direct instructional role of
+PI3K in leading edge formation. These findings provide
+evidence that differential subcellular localization and
+activation of PI3K and PTEN is required for proper
+chemotaxis.
+Introduction
+Chemotaxis, or directed cell movement toward a soluble
+ligand, is a general property of many motile eukaryotic
+cells and results from a localized polymerization of F
+actin at the site of the cell cortex closest to the chemoattractant source, leading to the formation of a new lamellipod or pseudopod, cell polarization, and the forward
+protrusion of the leading edge followed by the assembly
+of conventional nonmuscle myosin (myosin II) and retraction of the uropod or posterior of the cell (Chung et
+al., 2001a; Katanaev, 2001; Parent and Devreotes, 1999;
+Sanchez-Madrid and del Pozo, 1999).
+Insight into what may initiate the response of a cell
+at the site closest to the chemoattractant source comes
+from the demonstration that PH domain-containing proteins, including Dictyostelium CRAC, Dictyostelium and
+mammalian Akt/PKB, and Dictyostelium PhdA, rapidly
+translocate in response to chemoattractant stimulation
+either to the leading edge in chemotaxing cells or to
+the whole plasma membrane after nondirectional, global
+stimulation (Funamoto et al., 2001; Haugh et al., 2000;
+Meili et al., 1999; Parent et al., 1998; Servant et al., 2000).
+The PH domains of these proteins bind to PI3K products
+PI(3,4,5)P3 and PI(3,4)P2 in vitro. In vivo, the membrane
+localization of these proteins is PI3K dependent, as
+1
+2
+
+Correspondence: rafirtel@ucsd.edu
+These authors contributed equally to this work.
+
+found by using either mutated PH domains that do not
+bind PI(3,4)P2/PI(3,4,5)P3, PI3K null strains, or the PI3K
+inhibitors LY294002 and Wortmannin (Chung et al.,
+2001a; Dowler et al., 2000; Fukuda et al., 1996; Funamoto
+et al., 2001; Meili et al., 1999, 2000; Rickert et al., 2000;
+Salim et al., 1996; Servant et al., 2000). Abrogation of the
+specific isoforms of Class I PI3Ks results in neutrophils,
+macrophages, and Dictyostelium cells that are defective
+in cell migration and/or chemotaxis (Chung et al., 2001a;
+Funamoto et al., 2001; Hirsch et al., 2000; Li et al., 2000;
+Rickert et al., 2000; Sasaki et al., 2000; Vanhaesebroeck
+et al., 1999). These observations have led to the hypothesis that spatial sensing of chemoattractant gradients is
+mediated in some cell types by the activation of PI3K
+at the leading edge and localized accumulation of PI3K
+products, resulting in the recruitment of a subset of PH
+domain-containing proteins and activation of effector
+pathways (Parent and Devreotes, 1999; Firtel and
+Chung, 2000; Haugh et al., 2000; Rickert et al., 2000;
+Chung et al., 2001a).
+Dictyostelium has three Class I PI3Ks: PI3K1, PI3K2,
+and PI3K3 (Zhou et al., 1995). Cells carrying a double
+knockout of PI3K1/2 (pi3k1/2 null cells) exhibit a loss of
+cell polarity, move slowly, and produce multiple pseudopodia simultaneously along the periphery of the cell.
+pi3k1/2 null cells are defective in chemoattractant-mediated myosin II assembly and retraction of the cell’s posterior and are partially defective in spatially regulated F
+actin polymerization (Chung et al., 2001b; Funamoto et
+al., 2001). Akt/PKB is activated in response to chemoattractants in both Dictyostelium and mammalian cells,
+and this activation is lost in pi3k1/2 and PI3K␥ null
+strains, respectively (Funamoto et al., 2001; Hirsch et
+al., 2000; Meili et al., 1999; Sasaki et al., 2000). Knockout
+mutations of two PI3K effectors in Dictyostelium, Akt/
+PKB and PhdA, have provided further insights into the
+downstream chemotaxis pathways controlled by PI3K
+in this system. Akt/PKB (pkbA) null cells exhibit cell
+polarity and cell movement defects similar to the phenotypes exhibited by pi3k1/2 null cells (Meili et al., 1999).
+Akt/PKB activates Dictyostelium PAKa, which is required for myosin II assembly during cytokinesis and
+chemotaxis (Chung et al., 2001b). phdA null cells exhibit
+defects in spatially localized F actin assembly at the
+leading edge, have a reduced polarity, and move significantly more slowly than wild-type cells (Funamoto et
+al., 2001).
+One of the challenges of understanding chemotaxis
+is to explain how a shallow extracellular gradient of
+chemoattractant is enhanced to give rise to highly polarized intracellular signaling events promoting the recruitment of PH domain-containing proteins to the leading
+edge by a very steep gradient of 3-phosphoinositide
+concentration. The function of 3-phosphoinositides as
+second messengers prompts the question of how the
+regulation of the enzymes directly responsible for the
+production and destruction of 3-phosphoinositides, PI3K,
+and PTEN might contribute to the control of chemotaxis.
+
+Cell
+612
+
+To answer this question, we examined the functions
+and subcellular localization of PI3K1 and PI3K2 and the
+phosphatidylinositol-3-phosphatase PTEN. Our findings
+suggest a model in which the localized increase of phosphatidylinositol-3 phosphates is the result of the integration of localization and activation signals for PI3K in
+concert with inverse regulation of PTEN, enabling directed movement of cells up a chemoattractant gradient.
+Results
+PI3K1 and PI3K2 Differentially Regulate
+Chemoattractant-Mediated PI3K
+Signaling Pathways
+Previous studies suggested that PI3K1 and PI3K2 were
+at least partially redundant in some growth and developmental functions (Zhou et al., 1995). To understand possible redundancies of PI3K1 and PI3K2 and their individual importance in regulating chemoattractant-mediated
+pathways, we examined the ability of two single-knockout strains (pi3k1 and pi3k2 null cells) to chemotax toward a micropipette emitting the chemoattractant
+cAMP. A computer-assisted (DIAS) analysis (Table 1)
+reveals that both single-knockout strains exhibit chemotaxis defects, although pi3k2 null cells are more affected
+than pi3k1 null cells but less affected than the doubleknockout strain (pi3k1/2 null cells). Subcellular localization of the PH domain-containing protein PhdA (Funamoto et al., 2001) in the pi3K1 single-knockout strain
+shows that there is a strong translocation of the PH
+domain-containing protein PhdA, similar to that of wildtype cells, while pi3k2 null cells exhibit a significant
+reduction in PH domain translocation (Figure 1A; Funamoto et al., 2001). No translocation is observed in pi3k1/2
+null cells (Funamoto et al., 2001). Chemoattractantmediated Akt/PKB activation is an additional and more
+easily quantified assay for PI3K function. As shown previously (Meili et al., 1999), chemoattractant-meditated
+Akt kinase activity is almost completely blocked in
+pi3k1/2 null cells (⬍10% that of wild-type cells; Figure
+1B; Table 1). Consistent with the level of translocation of
+PhdA in these two strains, chemoattractant-stimulated
+Akt/PKB kinase activity is ⵑ60% of the wild-type level
+in pi3k1 null cells but only ⵑ14% in pi3k2 null cells. The
+results show that PI3K2 has a significantly greater input
+into chemoattractant-activated PI3K pathways than
+PI3K1. The observation that the combined Akt/PKB activity in pi3k1 and pi3k2 null cells is less than that of
+wild-type cells suggests that PI3K1 and PI3K2 may act
+synergistically in mediating PI3K-dependent responses.
+PI3K Localizes to the Plasma Membrane in Response
+to Chemoattractant Stimulation
+The localization of PH domains that can bind the PI3K
+products PI(3,4,5)P3 and PI(3,4)P2 to the leading edge
+of chemotaxing cells suggested that PI3K may have a
+similar subcellular localization and would thus provide
+a mechanism for the production of PI(3,4,5)P3 and
+PI(3,4)P2 at the leading edge. To test this, we examined
+the dynamic localization of GFP (or CFP, a blue-shifted
+GFP) fusions of PI3K1 and PI3K2. Both PI3K1-GFP and
+PI3K2-CFP rapidly and transiently localize to the plasma
+
+membrane in response to global stimulation with the
+chemoattractant (Figures 2A and 2C; data for PI3K1
+not shown). In chemotaxing cells, both PI3K1-GFP and
+PI3K2-CFP localize to the leading edge (Figure 2B, top
+left; data for PI3K2-CFP not shown). A qualitative assessment of the dynamics and specificity of the localization was accomplished using a micropipette as a source
+of a chemoattractant gradient and moving the pipette
+around the periphery of the cell, examining changes in
+PI3K’s subcellular localization. PI3K1-GFP (Figure 2B;
+data for PI3K2-CFP is indistinguishable from that of
+PI3K1-GFP and is not shown) transiently localizes to the
+site of the cell closest to the micropipette containing
+the chemoattractant. When the pipette is moved to the
+opposite side of the cell, there is a rapid loss of PI3K1
+from the initial site and a concomitant localization of
+PI3K1 at the new site of the membrane closest to the
+micropipette. This response is similar to observations
+for PH domain-containing proteins (Funamoto et al.,
+2001; Parent et al., 1998; Servant et al., 2000). In addition,
+we observe that PI3K1 and PI3K2 localize to the ends
+of pseudopodia in randomly migrating cells (cells exhibiting random, amoeboid movement, i.e., in the absence
+of chemoattractant; data not shown).
+Like mammalian Class I PI3Ks, PI3K1 and PI3K2 have
+a C-terminal lipid kinase and lipid-kinase-accessory domain, a Ras binding domain, and a C2 domain (Vanhaesebroeck et al., 2001). In addition, PI3K1 and PI3K2
+have long N-terminal domains with little sequence homology to each other or to other proteins in the databases. To identify the domains of PI3K1 necessary for
+plasma membrane localization, we constructed a series
+of deletion mutations of PI3K1. As shown in Figure 2D,
+the N-terminal domain is necessary and sufficient for
+PI3K1 plasma membrane translocation and leading
+edge localization. Similar experiments with PI3K2 revealed that the analogous domain of PI3K2 is also necessary and sufficient for its localization (data not shown).
+Expression of PI3K1 or PI3K2 in which the N-terminal
+localization domain has been deleted (PI3K1⌬2–492;
+PI3K2⌬2–560) results in only a small increase in cAMPmediated PKB activation and chemotaxis efficiency
+compared to pi3k1/2 null cells (Table 1).
+We examined the kinetics of PI3K localization to the
+plasma membrane and compared them to those of
+PhdA. This was done using cell lines individually expressing PI3K1-GFP or GFP-PhdA and in a strain that
+coexpressed PI3K1-CFP and PhdA-YFP. Figures 2C and
+2E show that both proteins exhibit similar kinetics of
+localization to the plasma membrane with PI3K appearing to localize slightly faster than PhdA, the expected result if PI3K localization and activation is required for PhdA localization. However, in making this
+distinction, we approach the limits of resolution of our
+assays, which are partially determined by the speed with
+which we can capture images. One possible mechanism
+for downregulating the PI3K pathway would be the loss
+of PI3K from the plasma membrane. Interestingly, the
+loss of either PI3K from the plasma membrane occurs
+more slowly than that of PhdA (data for PI3K2 not
+shown), suggesting that delocalization of PI3K does not
+determine the duration of downstream signaling.
+It was previously suggested that a feedback amplifica-
+
+⫹⫹⫹⫹
+⫹⫹⫹⫹
+
+⫹
+(very weak)
+⫹
+
+–
+
+PH domain translocation by
+cAMP drop
+⫹⫹⫹⫹
+
+⫹⫹⫹⫹
+
+4.9 ⫾ 1.0
+41.0 ⫾ 2.6
+53.3 ⫾ 5.3
+0.62 ⫾ 0.05
+
+318.2%
+
+SFF9
+
+pi3k1/2
+null
+
+PI3K2
+
+⫹⫹⫹⫹
+
+⫹⫹⫹⫹
+
+11.6 ⫾ 0.6
+16.8 ⫾ 4.8
+44.7 ⫾ 4.9
+0.85 ⫾ 0.04
+
+112.65%
+(⫾ 28.2)
+
+JH10
+
+⫹⫹⫹⫹
+
+ND
+
+⫹⫹⫹⫹
+
+⫹⫹⫹⫹
+
+7.9 ⫾ 1.9
+31.2 ⫾ 7.9
+48.9 ⫾ 9.2
+0.68 ⫾ 0.12
+
+312.7%
+
+SFF11
+
+pi3k1/2
+null
+
+Myr-PI3K2
+
+⫹⫹⫹⫹
+
+⫹⫹⫹⫹
+
+7.69 ⫾ 0.9
+33.9 ⫾ 3.8
+41.9 ⫾ 2.8
+0.63 ⫾ 0.06
+
+60.1%
+(⫾ 15.2)
+
+SFF1
+
+pi3k1 null
+
+3.4 ⫾ 0.7
+50.0 ⫾ 9.5
+53 ⫾ 1.5
+0.50 ⫾ 0.10
+
+93.6%
+
+SFF10
+
+KAx-3
+
+PI3K2
+
+JH10
+(parental strain of
+pi3k1/2 null)
+
+⫹⫹⫹⫹
+
+ND
+
+ND
+
+109.9%
+
+SFF12
+
+KAx-3
+
+Myr-PI3K2
+
+⫹⫹⫹⫹
+
+⫹
+(very weak)
+
+6.29 ⫾ 1.0
+40.5 ⫾ 4.2
+51.1 ⫾ 1.7
+0.56 ⫾ 0.1
+
+14.4%
+(⫾ 4.01)
+
+SFF2
+
+pi3k2 null
+
+ND
+
+–
+
+ND
+
+⫹
+(very weak)
+
+5.9 ⫾ 0.56
+40.3 ⫾ 10
+47.5 ⫾ 6.6
+0.58 ⫾ 0.05
+
+18.5 ⫾ 1.9
+
+11.4 ⫾ 0.5
+
+5.2 ⫾ 1.2
+47.1 ⫾ 6.6
+53.9 ⫾ 1.2
+0.49 ⫾ 0.07
+
+SFF14
+
+pi3k1/2
+null
+
+PI3K2
+(⌬2-560)
+
+⫹⫹⫹⫹
+
+⫹⫹⫹
+
+5.69 ⫾ 1.88
+22.97 ⫾ 26.53
+72.05 ⫾ 7.39
+0.76 ⫾ 0.13
+
+207 ⫾ 6
+
+RMF1
+
+KAx-3
+
+PTENKI
+
+⫹⫹⫹⫹
+
+⫹⫹⫹⫹
+
+7.3 ⫾ 0.8
+34.4 ⫾ 3.3
+44.1 ⫾ 2.7
+0.68 ⫾ 0.07
+
+210.4%
+(⫾ 19.1)
+
+SFF5
+
+KAx-3
+
+Myr-PI3K1
+
+6.83 ⫾ 1.70
+14.67 ⫾ 16.89
+63.53 ⫾ 6.04
+0.78 ⫾ 0.07
+
+39 ⫾ 5
+
+RMF1
+
+KAx-3
+
+PTENKI
+⫹ tet
+
+7.4 ⫾ 0.2
+30.5 ⫾ 2.7
+58.0 ⫾ 5.8
+0.68 ⫾ 0.1
+
+72.9%
+(⫾ 8.3)
+
+SFF4
+
+pi3k1/2 null
+
+Myr-PI3K1
+
+SFF13
+
+pi3k1/2
+null
+
+PI3K1
+(⌬2-492)
+
+⫹⫹⫹⫹
+
+⫹
+(very weak)
+
+5.3 ⫾ 0.6
+39.9 ⫾ 6.4
+49.5 ⫾ 5.7
+0.6 ⫾ 0.06
+
+17.5%
+(⫾ 4.21)
+
+SFF3
+
+pi3k1/2 null
+
+PI3K1
+
+Legend: The phenotypes of wild-type and mutant PI3K1 and PI3K2 expressed in wild-type and pi3k1/2 null cells were examined as described in Experimental Procedures and referenced publications.
+Speed refers to the speed of cell’s centroid movement along the total path. Direction change is a relative measure of the number and frequency of turns the cell makes. Higher numbers indicate more
+turns and less efficient chemotaxis. Roundness is an indication of the polarity of the cells. Larger numbers indicate the cells are more round and less polarized. Directionality (net path length divided by
+total path length) is a measure of how straight the cells move. Cells moving in a straight line have a directionality of 1.0.
+
+PH domain localization on membrane –
+(cells moving randomly)
+
+ND
+
+ND
+
+ND
+
+83.5%
+
+SFF8
+
+KAx-3
+
+Chemotaxis
+Speed (␮m/min)
+Dir Ch (deg)
+Roundness
+Directionality
+
+SFF7
+
+pi3k1/2
+null
+
+18.2%
+(⫾ 8.6)
+
+SFF6
+
+Strain name
+
+–
+
+⫹⫹⫹⫹
+
+Myr-PI3K1
+(K736E)
+
+–
+
+⫹⫹⫹⫹
+
+Myr-PI3K1
+(K736E)
+
+5.0 ⫾ 0.88
+36.6 ⫾ 4.0
+74.5 ⫾ 1.8
+0.60 ⫾ 0.01
+
+7.59%
+(⫾ 5.9)
+
+KAx-3
+
+KAx3 ⫹ LY
+
+10.3 ⫾ 1.9
+20.4 ⫾ 7.2
+39.3 ⫾ 2.5
+0.86 ⫾ 0.07
+
+100%
+
+KAx-3
+
+KAx-3
+
+PKB activity after 10 sec [WT⫽100%] 6.5%
+(⫾ 4.82)
+
+pi3k1/2
+null
+
+–
+
+PH domain localization on
+membrane (cell moving
+randomly)
+
+Strain background
+
+–
+
+PH domain translocation
+by cAMP drop
+
+PI3K1
+(K736E)
+
+4.1 ⫾ 0.9
+59.3 ⫾ 9.3
+70.2 ⫾ 4.5
+0.29 ⫾ 0.17
+
+Chemotaxis
+Speed (␮m/min)
+Dir Ch (deg)
+Roundness
+Directionality
+
+Vector
+
+MGP1
+
+2.8%
+(⫾ 0.86)
+
+PKB activity after 10
+sec [WT ⫽ 100%]
+
+pi3k1/2 null
+
+Strain background
+
+Strain name
+
+none
+
+Vector
+
+Table 1. Analysis of the Properties of PI3K Strains
+
+3-Phosphoinositides and Chemotaxis
+613
+
+Cell
+614
+
+Figure 1. PH Domain-Containing Proteins in
+PI3K Mutant Cells
+(A) Translocation of the PH domain-containing protein PhdA fused with GFP was imaged after stimulation with cAMP as described previously (Funamoto et al., 2001).
+The data are representative of eight separate
+experiments.
+(B) In vitro immuno-complex kinase assays
+were performed to follow Akt/PKB activation
+after stimulation with cAMP using histone 2B
+as the substrate as described (Meili et al.,
+1999). The data are representative of three
+experiments and were normalized to the
+amount of Akt/PKB protein present (determined by Western blot analysis).
+
+tion loop involving PI3K is required for leading edge
+formation (Rickert et al., 2000). The question then arises
+whether feedback amplification is also required for PI3K
+recruitment alone. We addressed this question by following the membrane translocation of PI3K fused to
+CFP or YFP in wild-type cells in the presence or absence
+of PI3K activity (cells treated with 30 ␮M LY294002;
+sufficient to inhibit chemoattractant-mediated Akt activity by ⬎95% or in pi3k1/2 null cells). We find that the
+PI3K-CFP fusions always localize to the plasma membrane in response to chemoattractant stimulation with
+similar kinetics independent of PI3K activity (Figure 2C;
+data for N-PI3K1-CFP coexpressed with YFP-PhdA expressed in wild-type or pi3k1/2 null cells are not shown).
+
+PhdA, an internal control, does not localize to the plasma
+membrane in the absence of PI3K activity, as demonstrated previously (Funamoto et al., 2001).
+
+PI3K Integrates Localization Cues with Upstream
+Signals Mediated by Ras
+The studies described above suggest that membrane
+localization of PI3K plays a central role in spatially restricting the activation of downstream effector pathways. However, they did not examine whether PI3K
+membrane localization is sufficient to activate PI3K and
+enable downstream signaling. To better understand the
+regulatory circuit controlling this process, we separated
+
+3-Phosphoinositides and Chemotaxis
+615
+
+Figure 2. Translocation of PI3Ks upon Stimulation
+(A) A cell stimulated by cAMP and expressing PI3K2 fused with cyan fluorescent protein (CFP). cAMP stimulation was performed as described
+in Figure 1A.
+(B) A cell expressing GFP-PI3K1 was exposed to a chemoattractant gradient of cAMP from a micropipette and the localization of GFP-PI3K1
+recorded. The position of the micropipette is changed and the relocalization of GFP-PI3K1 followed. An asterisk indicates position of the
+micropipette.
+(C) Wild-type cells coexpressing CFP-PI3K2 and PhdA-YFP were stimulated by cAMP in the presence or absence of LY294002 (see Experimental
+Procedures).
+(D) Truncated mutants of PI3K1 were created to define a region required for its translocation. Full-length construct, residues 1–1570; RBDC2-PIK a and c construct, residues 493–1570; PI3K a and c construct, residues 959–1570; RBD-C2 construct, residues 493–958; RBD construct,
+residues 688–845; C2 construct, residues 846–958; and N-term construct, residues 1–492.
+(E) Translocation kinetics of PhdA, PI3K1, and PI3K2 were obtained from time-lapse recordings. The fluorescence intensity of membranelocalized GFP fusion protein was quantitated as E(t) using the linescan module of Metamorph software. E/Eo(t) is plotted as a measure of the
+amount of membrane-associated protein relative to the starting conditions.
+
+the signals mediating membrane localization of PI3K
+from those potentially mediating its activation by targeting PI3K to the plasma membrane using a lipid membrane anchor. When PI3K1 and PI3K2 are tagged with
+the myristoylation sequence from c-Src, which we previously demonstrated can localize Dictyostelium proteins along the plasma membrane (Meili et al., 1999),
+PI3K1 and PI3K2 are constitutively found uniformly
+around the plasma membrane, as determined by indirect
+immunofluorescence using an antibody against the
+N-terminal Src myristoyl targeting sequence (data not
+shown). To examine the effect of constitutive membrane
+targeting on PI3K function, we used PI3K1, which our
+analysis of the single null strains indicates has significantly weaker activity than PI3K2. We then compared
+the phenotypes resulting from overexpressing untagged
+PI3K1 with those of myr-tagged PI3K1 in wild-type and
+pi3k1/2 null cells. As shown in Figure 1B and Table 1,
+expression of PI3K1 in pi3k1/2 null cells restores PKB
+activation to a level that is slightly higher than that of
+pi3k2 null cells, which has the endogenous copy of
+
+PI3K1. In contrast, pi3k1/2 null cells expressing myrtagged PI3K1 exhibit an approximately 4-fold higher
+level of activation, indicating that membrane localization
+of PI3K1 enhances its ability to activate downstream
+pathways. Expression of myr-PI3K1 in wild-type cells
+leads to a 2-fold increase in Akt/PKB activity. Interestingly, the basal (unstimulated) level of PKB activity in
+cells expressing myr-PI3K1 is similar to that of wildtype cells. We also observe no increase in the plasma
+membrane localization of PhdA in unstimulated cells
+(data not shown), suggesting that membrane localization of PI3K1 does not result in a high constitutive PI3K
+activity in contrast to observations for membranetagged mammalian p110␣ (Klippel et al., 1996). We cannot, however, exclude the possibility of a rise in basal
+activity that is coupled with a rapid hydrolysis of the
+lipid products by PTEN or other lipid phosphatases. A
+PI3K1 construct, lacking residues 2-492 containing the
+membrane localization domain, does not complement
+the loss of PI3K1 function when expressed in pi3k1/2
+null cells (Table 1). Our studies are consistent with a
+
+Cell
+616
+
+model in which the N-terminal domain is necessary and
+sufficient for PI3K localization to the membrane and
+where independent upstream pathways regulate PI3K
+localization and its activation.
+Similar results were obtained when PI3K2 and myrPI3K2 were expressed in pi3k1/2 null cells, except that
+expression of either protein led to a significant (3-fold)
+increase in PKB activation. As with PI3K1, there was no
+change in the basal activity of PKB or increase in plasma
+membrane localization of PhdA in resting (unstimulated)
+cells. The significantly higher activation of Akt/PKB by
+PI3K2 observed in pi3k1/2 null cells is consistent with
+a higher intrinsic activity of PI3K2 than PI3K1. When
+the PI3K2 and myr-PI3K2 constructs were expressed
+in wild-type cells, it was very difficult to obtain stable
+transformed cell lines. The transformants that were obtained grew poorly, suggesting that overexpression of
+PI3K2 in a wild-type background is detrimental to the
+cell’s viability. In these strains, Akt/PKB activation was
+approximately the same as that of wild-type cells, suggesting that the cells could be compensating for the
+elevated PI3K activity by a negative feedback mechanism.
+Sequence alignment suggests that, like mammalian
+PI3Ks, PI3K1 and PI3K2 contain putative Ras binding
+domains (RBDs; Figure 3A). Figure 3B shows that the
+RBDs of PI3K1 and PI3K2 exhibit strong binding to constitutively active (GTP bound) RasG and human H-Ras
+and weaker binding to constitutively active RasD in a
+yeast two-hybrid assay, but no binding is observed to
+dominant-negative Dictyostelium RasG or RasD or human H-Ras or to constitutively active Dictyostelium
+RasS. The lysine at residue 736 in PI3K1 is completely
+conserved in the human and Dictyostelium PI3K RBDs.
+This lysine in hsPI3K␥ forms salt bridges with D33 and
+D38 in H-Ras (Pacold et al., 2000) and thus may be
+required for Ras-PI3K interactions. We tested whether
+this lysine (K736 in PI3K1) was required for the interaction in the two-hybrid system by mutating it to glutamate.
+(As PI3K2 has two adjacent lysines, both [K857 and
+K858] were mutated.) Figure 3B demonstrates that the K
+to E mutations abrogated the interaction with activated
+Ras. Both PI3K1K736E and PI3K2K857E,K858E translocate to
+the plasma membrane in agreement with the structure/
+function analysis described in Figure 2D (data not
+shown).
+Our studies suggest that we should be able to use
+myr-tagged PI3K1 with and without the RasGTP binding
+mutation to examine whether Ras is required for PI3K
+activation. Figure 3C shows that cells expressing myrPI3K1K736E exhibit only a minimal Akt/PKB activation after
+cAMP stimulation, a finding that is consistent with a
+model in which Ras is an essential upstream regulator of
+PI3K activation in response to chemoattractants. These
+cells also exhibit no localization of PhdA to the plasma
+membrane before or after cAMP stimulation. Expression
+of myr-PI3K1K736E in wild-type (KAx-3) cells results in a
+slight decrease in the level of cAMP-stimulated PKB
+activity, possibly due to a competition of the mutant
+PI3K with the endogenous wild-type PI3Ks for other
+components in the pathway. These findings indicate that
+both membrane localization and Ras are required for
+PI3K activation.
+
+Membrane Localization of PI3K Can Mediate
+Pseudopodia Formation
+Although previous studies implicated PI3K as a regulator
+of chemotaxis (see Introduction), direct demonstration
+that PI3K is instructive in mediating pseudopod extension has been lacking. Furthermore, even though both
+chemoattractant receptors and the G␤␥ subunits are,
+for the most part, uniformly localized along the plasma
+membrane (Jin et al., 2000; Servant et al., 1999; Xiao et
+al., 1997), PI3K and PH domains preferentially localize
+to the leading edge. These findings raise the questions
+whether activation of chemoattractant pathways is restricted to the leading edge and whether signaling pathways can be activated on the lateral sides of cells placed
+within a chemoattractant gradient. To address these
+issues, we utilized wild-type and pi3k1/2 null cells expressing the myr-tagged PI3Ks that distribute uniformly
+on the plasma membrane. Figure 4A demonstrates that
+pi3k1/2 null cells expressing myr-PI3K1 produce multiple, functional pseudopodia at the front and the lateral
+sides of chemotaxing cells. Similar results are obtained
+with myr-PI3K2 expressed in pi3k1/2 null cells or either
+myr-PI3K1 or myr-PI3K2 expressed in wild-type cells
+(data not shown). No lateral pseudopodia are observed
+if untagged, wild-type PI3K1 or PI3K2 is overexpressed
+in pi3k1/2 null cells (data for PI3K1 not shown). Cells
+expressing myr-PI3K1 or myr-PI3K2 exhibit a defect in
+the directionality of movement, presumably because the
+multiple, competing leading edges cause changes in the
+cell’s direction. Coexpression of GFP-PhdA and myrPI3K2 in pi3k1/2 null cells shows that the PH domaincontaining protein localizes along the entire, very broad
+leading edges of the cells or to each of the multiple
+pseudopodia in contrast to wild-type cells, in which
+GFP-PhdA is restricted to a narrow domain at the front
+of the cell (Figure 4B). In some cells, PhdA localization
+is also transiently observed at the posterior of the cell.
+These results demonstrate that membrane localization
+of PI3K can direct pseudopodia formation, and PI3K
+seems to be rate limiting for this process at the sides
+of polarized cells.
+PTEN Is a Negative Regulator of PI3K
+Chemotaxis Pathways
+Cells are able to move up a very shallow chemoattractant gradient with only a small difference in the concentration of chemoattractant from the front to the back of
+the cell. Studies in Dictyostelium cells and neutrophils
+indicate that the PI(3,4,5)P3/PI(3,4)P2 concentration gradient, as determined by the concentration gradient of
+membrane-localized, PH domain-containing proteins
+between the front and back of the cell, is significantly
+steeper than the extracellular chemoattractant gradient.
+Our studies indicate a similarly steep anterior/posterior
+gradient of membrane-localized PI3K, suggesting that
+the preferential localization of PI3K at the leading edge
+provides at least part of the mechanism of establishing
+the internal second messenger gradient that has been
+proposed to be required for pseudopod formation. To
+investigate this further, we have characterized the potential role of Dictyostelium PTEN (GenBank accession
+number AF467431), a phosphatidylinositide-3 phosphatase that removes the 3-phosphate from the PI3K prod-
+
+3-Phosphoinositides and Chemotaxis
+617
+
+Figure 3. Ras Binding Domain (RBD) of PI3Ks
+(A) Sequence comparison of the RBDs of PI3Ks. DdPI3K1, Dictyostelium PI3K1 (accession # P54673); DdPI3K2, Dictyostelium PI3K2 (P54674);
+DdPI3K3, Dictyostelium PI3K3 (P54675); HsPI3K␣, human PI3K␣ (P42336); HsPI3K␤, human PI3K␤ (P42338); and HsPI3K␥, human PI3K␥
+(P48736). The asterisk indicates a conserved lysine that forms salt bridges with H-Ras.
+(B) Interaction of Ras proteins with PI3K RBDs. Levels of interaction were determined by ␤-galactosidase levels in a yeast two-hybrid assay.
+(C) Effect of Ras binding mutation of myr-PI3K1 on Akt/PKB activation. Akt/PKB assays were performed as described in Figure 1B. The data
+are representative of at least three experiments and were normalized to the amount of Akt/PKB in the assay.
+
+ucts PI(3,4,5)P3 and PI(3,4)P2 and is thus a potential
+negative regulator of the PI3K pathways during chemotaxis (Maehama and Dixon, 1998).
+To examine the function of PTEN, we made a knockin
+construct in which the level of PTEN expression is regulated transcriptionally by a tetracycline-regulated promoter/transcription activator combination (Tet-Off TA;
+Gossen and Bujard, 1992) adapted for Dictyostelium
+(Blaauw et al., 2000). PTEN knockin cells (PTENKI), which
+carry Tet-Off TA, grown in the absence of tetracycline
+overexpress PTEN mRNA due to the binding of the TetOff TA transcription activator in the promoter (Figure
+5A). When these cells are grown in the presence of
+tetracycline (PTENKI⫹Tet), the transcriptional activator is
+no longer bound to the promoter, and there is a significant reduction of PTEN mRNA to a level below that
+of wild-type cells. Figure 5B shows that Akt/PKB activation is elevated in response to a chemoattractant in
+PTENKI⫹Tet cells and is significantly repressed in PTENKI
+cells. Interestingly, the kinetics of activation and adaptation of this response are similar to those observed in
+wild-type cells, although there is a reproducible slight
+
+delay in the activation response in the PTENKI⫹Tet cells.
+To examine the effect of overexpression of PTEN on
+chemoattractant-mediated translocation of PH domains
+to the plasma membrane, we coexpressed PTEN-CFP
+and a YFP fusion of the PH domain of Akt/PKB (YFPPKB-PH). YFP-PKB-PH translocation was then examined in a population of transformants in which different
+cells exhibited different levels of PTEN expression as
+determined by CFP fluorescence. As shown in Figure 5B,
+cells expressing higher levels of exogenous PTEN-CFP
+exhibit a significantly reduced level of YFP-PKB-PH
+translocation, consistent with PTEN having a direct effect on PI(3,4,5)P3/PI(3,4)P2 levels.
+When movement toward a chemoattractant was examined, PTENKI cells exhibited a decrease in the rate of
+chemotaxis, with many of the cells having a decrease in
+cell polarity and an increase in the number of directional
+changes (Table 1). The reduced speed and polarity phenotype is consistent with that observed in pi3k1/2 null
+cells, as is the reduction in Akt/PKB activity. Interestingly, PTENKI⫹Tet cells, which have a reduced level of
+PTEN expression, also exhibit a decreased rate of cell
+
+Cell
+618
+
+Figure 4. Chemotaxis of PI3K Mutants
+(A) Representative frames from chemotaxis analysis of shown strains: wild-type, KAx-3; myr-PI3K1/pi3k1/2 null cells, strain SFF4; and PI3K2/
+pi3k1/2 null cells, strain SFF8. Arrows indicate pseudopodia of cells. Asterisks indicate position of micropipette containing cAMP.
+(B) PhdA localization in cells expressing myr-PI3K2 and KAx-3 wild-type cells. Expression of myr-PI3K2 resulted in very broad leading edges
+and localization of PhdA-GFP when cells migrated toward a chemoattractant. Asterisks indicate positions of the micropipette.
+
+movement compared to wild-type cells. This is consistent with a decrease in chemotaxis observed in PI3K2overexpressing cells.
+
+is the opposite of that observed for PH domain-containing proteins.
+Discussion
+
+PTEN Has Patterns of Membrane Localization
+Reciprocal to Those of PI3K and PH Domains
+Changes in the subcellular localization of proteins in
+response to chemoattractant stimulation appear to play
+a major part in the cell’s ability to respond to a chemoattractant gradient. Figure 5C demonstrates that PTEN is
+found uniformly on the plasma membrane in unstimulated cells. In response to chemoattractant stimulation,
+there is a rapid and transient release of PTEN from the
+plasma membrane. The kinetics of delocalization from
+the plasma membrane are similar to the kinetics of localization of PH domain-containing proteins to the plasma
+membrane (Figure 5Da; Funamoto et al., 2001; Meili et
+al., 1999). The kinetics of relocalization are similar to (or
+slower than) those of PH domain-containing proteins.
+PTEN also delocalizes from the plasma membrane in
+pi3k1/2 null cells (data not shown), suggesting that PI3K
+activity is not required for PTEN delocalization. However, cells expressing myr-PI3K2 exhibit a significantly
+slower recovery, suggesting that PI3K plays a role in
+aspects of PTEN’s subcellular localization.
+In chemotaxing cells, PTEN is on the plasma membrane along the lateral sides and posterior of the cell
+but it is absent or the level is significantly reduced at
+the leading edge (Figure 5E). This pattern of localization
+
+Leading Edge Localization of PI3K and Delocalization
+of PTEN Helps Establish a Steep Intracellular
+Second Messenger Gradient
+Cells reorganize their cytoskeleton and redistribute the
+subcellular localization of signaling components in response to a directional chemoattractant signal that enables them to move up a chemoattractant gradient. Evidence supporting involvement of PI3K in controlling
+these chemoattractant responses in Dictyostelium and
+some mammalian cell types came from studies demonstrating that (1) cells defective in PI3K exhibit defects
+in cell polarity and motility/chemotaxis; (2) a subfamily
+of PH domain-containing proteins localize to the leading
+edge via a PI3K-dependent pathway; (3) some of these
+PH domain-containing PI3K effectors mediate some
+chemotaxis responses. In Dictyostelium, PI3K1 and
+PI3K2 function in concert as the predominant PI3Ks
+in regulating chemoattractant responses. Our analysis
+suggests that PI3K1 and PI3K2 act synergistically to
+activate downstream effector pathways.
+Our studies provide further insight into the mechanisms regulating pseudopod formation and the mechanisms by which a very steep internal gradient of
+PI(3,4,5)P3 is established in chemotaxing cells. We dem-
+
+3-Phosphoinositides and Chemotaxis
+619
+
+Figure 5. PTEN Localization and Function
+(A) Wild-type cells and a knockin strain (PTENKI, strain RMF1) grown in either the presence or absence of tetracycline for 2 days were used
+to assay cAMP-mediated PKB activation (see Figure 1). Northern blot showing PTEN expression levels in these cells.
+(B) PTEN-CFP overexpression inhibits YFP-PKB-PH domain translocation. Wild-type cells were cotransformed with PTEN-CFP and YFP-PKBPH domain. A cell population coexpressing the two fusion proteins at variable levels was pretreated and stimulated as described for Figure
+1A. Two sets of images from different experiments are shown. The upper and middle images show the YFP-PKB-PH signal from two cells
+before and 12 s after stimulation, respectively. The lower image shows PTEN-CFP levels of these cells. Cell “a” shows a high level of PTEN-CFP
+expression, while the expression level of cell “b” is low. For the left images, PTEN-CFP staining of cell “a” is too low to be seen.
+(C) Time course of release of PTEN-GFP from the plasma membrane and subsequent reassociation depicted as a series of time-lapse
+fluorescent micrographs and analyzed as described for Figure 2E. The Metamorph linescan profiles of the transient release of PTEN-GFP
+from the membrane are shown.
+(D) The kinetics of PTEN delocalization from and relocalization in wild-type cells (a) and cells expressing myr-PI3K2 (b).
+(E) Time-lapse frames depicting cells expressing PTEN-GFP chemotaxing toward an aggregation center beyond the right edge of the frames.
+During chemotaxis, PTEN-GFP delocalizes transiently from the leading edge as indicated by white arrows. For imaging, cells were sandwiched
+between a cover slip and a thin layer of agar to keep the whole cell in focus.
+
+onstrate that in chemotaxing cells, PI3K1 and PI3K2
+localize to the leading edge where they presumably
+phosphorylate PI(4,5)P2. Our finding that PI3K1 and
+PI3K2 localize uniformly to the plasma membrane after
+global stimulation with a chemoattractant indicates that
+PI3K localization occurs in response to the activation by
+chemoattractant-dependent signaling pathways rather
+than by accumulation at the leading edge of the polarized, chemotaxing cell via a more passive mechanism.
+What restricts PI3K localization, and thus its activation,
+to the anterior of wild-type cells is unknown. We know
+from previously published studies that this is not due
+to a preferential localization of the chemoattractant receptors (Servant et al., 1999; Xiao et al., 1997) or their
+coupling heterotrimeric G proteins to the leading edge
+as these are, for the most part, uniformly distributed
+along the plasma membrane (Jin et al., 2000). A small
+anterior/posterior gradient in the G␤␥ subunit has been
+observed, but this gradient is weak compared to the
+gradient of PH domains or PI3Ks. Although Ras is required for PI3K activation, it is not required for its localization.
+We also demonstrated that the tumor suppressor
+
+PTEN, a known regulator of the PI3K pathway in cell
+survival and apoptosis, regulates the PI3K pathway in
+response to chemoattractant stimulation in Dictyostelium. We find that overexpression of PTEN leads to a
+suppression of a PI3K-dependent activation of Akt/PKB,
+and these cells exhibit chemotaxis defects consistent
+with a reduction in PI3K activity, whereas a reduction
+of PTEN expression leads to a significant increase in
+chemoattractant-mediated activation of Akt/PKB and a
+decrease in chemotaxis speed. The most striking observation is that PTEN delocalizes from the plasma membrane in response to chemoattractant stimulation. The
+kinetics of the delocalization are concomitant, within
+the limits of our analyses, with the localization of PH
+domain-containing proteins to the plasma membrane.
+Moreover, we demonstrate that PTEN and PH domaincontaining proteins have the same reciprocal pattern of
+localization in chemotaxing cells: PTEN is lost from the
+leading edge and is associated with the plasma membrane
+on the lateral sides and back of cells, whereas the Akt/
+PKB PH domain localizes to the leading edge and not
+the back. These results suggest that PTEN is part of a
+regulatory loop that amplifies the activity of the PI3K
+
+Cell
+620
+
+Figure 6. Model for the Spatial Regulation of
+PI3K and PTEN
+(A and B) The localization of PI3K prior to and
+after directional chemoattractant stimulation.
+PI3K preferentially localizes to the leading
+edge of chemotaxing cells. This leads to an
+activation of downstream effector pathways
+at the leading edge and protrusion of the
+pseudopod in the direction of the chemoattractant gradient (white arrows).
+(C and D) A pi3k1/2 null cell expressing myrtagged PI3K. In this case, PI3K uniformly localizes around the plasma membrane. In response to directional signaling, cells activate
+PI3K downstream effector pathways along
+the lateral sides of the cell as well as the
+leading edge, resulting in PH domain localization and pseudopod protrusion from the sides
+as well as the front of the cell.
+(E and F) The distributions of PI3K and PTEN
+in a wild-type cell. In unstimulated cells (E),
+PI3K is uniformly distributed in the cytosol,
+whereas PTEN is uniformly localized around
+the perimeter of the cell. In response to a
+chemoattractant gradient, PI3K localizes to
+the leading edge, resulting in PI(3,4,5)P3 production at the front of the cell. Concomitant
+with this, PTEN delocalizes from the leading
+edge but remains associated with the plasma
+membrane along the lateral sides. It is expected that the presence of PTEN around the
+lateral sides helps steepen the PI(3,4,5)P3
+gradient and sharpen the subsequent localization of PH domain-containing proteins to
+the leading edge of the cell.
+
+pathway at the leading edge by removing from the leading edge domain a phosphatase that hydrolyzes the
+PI3K products PI(3,4)P2 and PI(3,4,5)P3 to which the PH
+domains bind. As the lipid products of PI3K probably
+diffuse very rapidly in the membrane, the localization of
+PTEN along the lateral sides of chemotaxing cells may
+limit the extent of diffusion by degrading the PI3K products, thus sharpening the lipid domain mediating PH
+domain localization to the anterior cap of cells. The
+subcellular localization of PTEN strongly implicates it
+
+as an important component in suppressing the basal
+activity of the PI3K pathway and helping localize the
+response to the leading edge. Compared to wild-type
+cells, a PTEN hypomorph strain showed an increase in
+the number of cells with plasma membrane localization
+of the GFP-PH-PKB fusion protein in unstimulated cells,
+suggesting that PTEN is important for maintaining a
+low basal activity of the pathway. While PI3K does not
+appear to play an essential role in the delocalization
+of PTEN from the membrane, studies with myr-PI3K
+
+3-Phosphoinositides and Chemotaxis
+621
+
+suggest that PI3K may play a role in the relocalization
+of PTEN. How PI3K may function in this regard is not
+known. Figure 6 presents a summary of the spatial localization of the different components in a resting cell and
+a cell in a chemoattractant gradient.
+PI3K Plays an Instructive Role
+in Regulating Chemotaxis
+Observations that some cell types that are defective in
+the ability to activate PI3K exhibit cell motility and/or
+chemotaxis and cell polarity defects have implicated
+PI3K in playing an instructive role in controlling chemotaxis. However, direct evidence for such a role for PI3K
+has been lacking. By mislocalizing PI3K with a myristoyl
+tag, which places PI3K along the entire plasma membrane rather than solely at the leading edge, we demonstrated pi3k1/2 null or wild-type cells expressing myristoyl-tagged PI3K1 or PI3K2 are able to produce
+functional pseudopodia from the lateral sides as well as
+the front of the cell. Furthermore, a PH domain-containing protein is found along a very broad leading edge
+and/or at the front of each of the multiple pseudopodia of
+chemotaxing cells rather than just a spatially restricted
+domain at the front of the cell, indicating that PI3K is
+activating downstream pathways at these sites. We interpret this response as meaning PI3K is able to direct
+pseudopod formation at its site of activation and thus
+plays an instructive role in mediating leading edge formation. These findings demonstrate that the lateral sides
+of chemotaxing cells, along with the leading edge, are
+able to concomitantly activate signaling pathways that
+lead to chemotaxis when cells are placed in a chemoattractant gradient. We observed that whereas pseudopodia form from the lateral sides of cells, the pseudopodia
+often rapidly orient themselves up the chemoattractant
+gradient. We observe this effect when the myr-tagged
+PI3Ks are expressed in pi3k1/2 null and wild-type cells.
+This finding suggests that there is a mechanism in addition to the leading edge localization of PI3K that mediates the direction of pseudopod extension in these cells.
+We also note that pi3k1/2 null cells, although they exhibit
+strong chemotaxis defects in pseudopod extension and
+highly reduced cell polarity, move directionally toward
+the chemoattractant source, albeit at a speed that is
+slower than that of wild-type cells. These results suggest
+that localized activation of the PI3K pathway is one of
+at least two mechanisms that contribute to directional
+cell movement. For example, B cells show little defect
+of chemotaxis in the presence of PI3K inhibitors and
+appear to use DOCK2-related proteins as an important
+component in controlling directionality (Fukui et al.,
+2001). It is therefore possible that Dictyostelium, which
+has proteins related to DOCK2 in the genome (S. Merlot
+and R.A.F., unpublished data), uses multiple inputs from
+the chemoattractant receptors to control directional
+pseudopod extension. We cannot genetically exclude
+the possibility that the third Dictyostelium PI3K, PI3K3,
+may be involved in regulating directionality. A knockout
+of PI3K3 had no chemotaxis defect and we were unable
+to knock it out in either a pi3k1 or pi3k2 null background
+(Zhou et al., 1995), precluding us from being able to
+examine its function. However, pi3k1/2 null cells or wildtype cells treated with the PI3K inhibitor LY294002 at a
+
+concentration that inhibits ⬎95% of Akt activity are still
+able to move directionally, although less efficiently than
+wild-type cells.
+Although we observe pseudopod extension and PH
+domain localization along much of the plasma membrane in cells expressing myr-PI3K, the activation is not
+uniform along the entire perimeter of the cell. We rarely
+observe any new pseudopodia formed from the posterior third of the cell. The observed differential localization
+of PTEN may also prevent accumulation of PI(3,4,5)P3/
+PI(3,4)P2 on the lateral sides and posterior of cells. It is
+possible that additional signaling components localize
+to this area, and these components may inhibit the activation of anterior responses.
+Regulation of PI3K Activity
+We find that the N-terminal domain of PI3K1 or PI3K2,
+which lacks the Ras binding, C2, and kinase domains,
+is necessary and sufficient for plasma membrane localization, whereas membrane targeting alone is insufficient for activation of downstream responses, as the
+myr-PI3Ks do not ubiquitously activate PI3K effector
+pathways. We identified a Ras binding domain (RBD) in
+PI3K1 and PI3K2 homologous to the ones found in human PI3Ks that bind the activated (GTP bound) forms
+of some, but not all, isoforms of Dictyostelium Ras as
+well as mammalian H-Ras. Of the Dictyostelium Ras
+proteins examined, binding was highest to RasG, which
+is involved in regulating random movement in Dictyostelium (Tuxworth et al., 1997). We find that PI3K carrying
+a mutant in the Ras binding domain that abrogated its
+binding to RasGTP is unable to activate downstream responses. We interpret these experiments as indicating
+that Ras is an essential regulator of Dictyostelium PI3Ks
+downstream from the G protein-coupled chemoattractant receptors, consistent with recent results examining
+the function of Dictyostelium RasC (Lim et al., 2000).
+Furthermore, our studies using myr-tagged and wildtype (soluble) forms of PI3K strongly suggest that localization of PI3K to the membrane and the activation of
+PI3K occur through parallel pathways. Presumably, activation of the heterotrimeric G protein leads to activation
+of a Ras exchange factor and an increase in RasGTP
+levels. Although we have no way presently to determine
+where along the plasma membrane activated Ras is
+located and whether the level is highest at the leading
+edge, our findings with myr-PI3K suggests that Ras may
+be activated along most of the plasma membrane rather
+than just at the leading edge.
+Experimental Procedures
+Cell Culture and Molecular Biology
+Dictyostelium cells, strain KAx-3, were grown in axenic HL5 medium.
+For overexpression, cells were selected in the presence of G418
+(20 ␮g/ml), as described previously (Funamoto et al., 2001). To make
+either green fluorescent protein (GFP) or cyan fluorescent protein
+(CFP), PI3K fusion protein PI3K1 or PI3K2 was amplified by PCR,
+ligated to the gene encoding GFP or CFP (kindly provided by Roger
+Tsien), and cloned into expression vector EXP-4(⫹). A Ras binding
+mutant of PI3K1 (PI3K1K736E) was generated using the QuickChange
+Site-Directed Mutagenesis Kit (Stratagene, La Jolla, CA). The myristoyl tag was inserted in front of the PI3K cDNA as described previously (Meili et al., 1999). All constructs were sequenced. Interac-
+
+Cell
+622
+
+tions between PI3Ks and the Ras family were tested by using the
+yeast two-hybrid assay as described previously (Lee et al., 1999).
+A full-length PTEN cDNA clone was obtained by screening a ␭ZAP
+cDNA library with a probe amplified from genomic DNA using PCR
+based on a sequence in The Dictyostelium Genome Project database (http://dicty.sdsc.edu). A PTEN-GFP or PTEN-CFP fusion protein was obtained by cloning GFP or CFP in-frame at the 3⬘ end of
+the PTEN ORF using standard molecular biology methods. All clones
+were confirmed by DNA sequencing.
+Chemotaxis Responses
+Chemotaxis and changes in the subcellular localization of proteins
+in response to chemoattractant stimulation were examined as described previously (Chung and Firtel, 1999; Funamoto et al., 2001).
+Akt/PKB activation was examined as previously described (Funamoto et al., 2001; Meili et al., 1999). Computer-assisted analysis
+of chemotaxis was done as previously described using the DIAS
+computer program (Funamoto et al., 2001; Wessels and Soll, 1998).
+Acknowledgments
+We would like to thank members of the Firtel laboratory for helpful
+suggestions over the course of this work. These studies were supported by United States Public Health Service grants to R.A.F.
+Received: January 28, 2002
+Revised: April 17, 2002
+References
+
+Silengo, L., Sozzani, S., Mantovani, A., Altruda, F., and Wymann,
+M.P. (2000). Central role for G protein-coupled phosphoinositide
+3-kinase ␥ in inflammation. Science 287, 1049–1053.
+Jin, T., Zhang, N., Long, Y., Parent, C.A., and Devreotes, P.N. (2000).
+Localization of the G protein ␤␥ complex in living cells during chemotaxis. Science 287, 1034–1036.
+Katanaev, V.L. (2001). Signal transduction in neutrophil chemotaxis.
+Biochemistry 66, 351–368.
+Klippel, A., Reinhard, C., Kavanaugh, W.M., Apell, G., Escobedo,
+M.A., and Williams, L.T. (1996). Membrane localization of phosphatidylinositol 3-kinase is sufficient to activate multiple signal-transducing kinase pathways. Mol. Cell. Biol. 16, 4117–4127.
+Lee, S., Parent, C.A., Insall, R., and Firtel, R.A. (1999). A novel Ras
+interacting protein required for chemotaxis and cyclic adenosine
+monophosphate signal relay in Dictyostelium. Mol. Biol. Cell 10,
+2829–2845.
+Li, Z., Jiang, H., Xie, W., Zhang, Z., Smrcka, A.V., and Wu, D. (2000).
+Roles of PLC-␤2 and -␤3 and PI3K␥ in chemoattractant-mediated
+signal transduction. Science 287, 1046–1049.
+Lim, C.J., Spiegelman, G.B., and Weeks, G. (2000). RasC is required
+for optimal activation of adenylyl cyclase and Akt/PKB during aggregation. EMBO J. 20, 4490–4499.
+Maehama, T., and Dixon, J. (1998). The tumor suppressor, PTEN/
+MMAC1, dephosphorylates the lipd second messenger, phosphatidylinositol 3,4,5-trisphosphate. J. Biol. Chem. 273, 13375–13378.
+Meili, R., Ellsworth, C., Lee, S., Reddy, T.B., Ma, H., and Firtel, R.A.
+(1999). Chemoattractant-mediated transient activation and membrane localization of Akt/PKB is required for efficient chemotaxis
+to cAMP in Dictyostelium. EMBO J. 18, 2092–2105.
+
+Blaauw, M., Linskens, M.H.K., and Van Haastert, P.J.M. (2000). Efficient control of gene expression by a tetracycline-dependent transactivator in single Dictyostelium discoideum cells. Gene 252, 71–82.
+
+Meili, R., Ellsworth, C., and Firtel, R.A. (2000). A novel Akt/PKBrelated kinase is essential for morphogenesis in Dictyostelium. Curr.
+Biol. 10, 708–717.
+
+Chung, C.Y., and Firtel, R.A. (1999). PAKa, a putative PAK family
+member, is required for cytokinesis and the regulation of the cytoskeleton in Dictyostelium discoideum cells during chemotaxis. J.
+Cell Biol. 147, 559–575.
+
+Pacold, M.E., Suire, S., Perisic, O., Lara-Gonzalez, S., Davis, C.T.,
+Walker, E.H., Hawkins, P.T., Stephens, L., Eccleston, J.F., and Williams, R.L. (2000). Crystal structure and functional analysis of Ras
+binding to its effector phosphoinositide 3-kinase ␥. Cell 103,
+931–943.
+
+Chung, C., Funamoto, S., and Firtel, R. (2001a). Signaling pathways
+controlling cell polarity and chemotaxis. Trends Biochem. Sci. 26,
+557–566.
+
+Parent, C.A., and Devreotes, P.N. (1999). A cell’s sense of direction.
+Science 284, 765–770.
+
+Chung, C.Y., Potikyan, G., and Firtel, R.A. (2001b). Control of cell
+polarity and chemotaxis by Akt/PKB and PI3 kinase through the
+regulation of PAKa. Mol. Cell 7, 937–947.
+
+Parent, C.A., Blacklock, B.J., Froehlich, W.M., Murphy, D.B., and
+Devreotes, P.N. (1998). G protein signaling events are activated at
+the leading edge of chemotactic cells. Cell 95, 81–91.
+
+Dowler, S., Currie, R.A., Campbell, D.G., Deak, M., Kular, G., Downes,
+C.P., and Alessi, D.R. (2000). Identification of pleckstrin-homologydomain-containing proteins with novel phosphoinositide-binding
+specificities. Biochem. J. 351, 19–31.
+
+Rickert, P., Weiner, O., Wang, F., Bourne, H., and Servant, G. (2000).
+Leukocytes navigate by compass: roles of PI3K-␥ and its lipid products. Trends Cell Biol. 10, 466–473.
+
+Firtel, R.A., and Chung, C.Y. (2000). The molecular genetics of chemotaxis: sensing and responding to chemoattractant gradients. Bioessays 22, 603–615.
+Fukuda, M., Kojima, T., Kabayama, H., and Mikoshiba, K. (1996).
+Mutation of the pleckstrin homology domain of Bruton’s tyrosine
+kinase in immunodeficiency impaired inositol 1,3,4,5-tetrakisphosphate binding capacity. J. Biol. Chem. 271, 30303–30306.
+Fukui, Y., Hashimoto, O., Sanui, T., Oono, T., Koga, H., Abe, M.,
+Inayoshi, A., Noda, M., Oike, M., Shirai, T., and Sasazuki, T. (2001).
+Haematopoietic cell-specific CDM family protein DOCK2 is essential
+for lymphocyte migration. Nature 412, 826–831.
+Funamoto, S., Milan, K., Meili, R., and Firtel, R. (2001). Role of phosphatidylinositol 3⬘ kinase and a downstream pleckstrin homology
+domain-containing protein in controlling chemotaxis in Dictyostelium. J. Cell Biol. 153, 795–810.
+Gossen, M., and Bujard, H. (1992). Tight control of gene expression
+in mammalian cells by teracycline-responsive elements. Proc. Natl.
+Acad. Sci. USA 89, 5547–5551.
+Haugh, J.M., Codazzi, F., Teruel, M., and Meyer, T. (2000). Spatial
+sensing in fibroblasts mediated by 3⬘ phosphoinositides. J. Cell Biol.
+151, 1269–1280.
+Hirsch, E., Katanaev, V.L., Garlanda, C., Azzolino, O., Pirola, L.,
+
+Salim, K., Bottomley, M.J., Querfurth, E., Zvelebil, M.J., Gout, I.,
+Scaife, R., Margolis, R.L., Gigg, R., Smith, C.I., Driscoll, P.C., et al.
+(1996). Distinct specificity in the recognition of phosphoinositides by
+the pleckstrin homology domains of dynamin and Bruton’s tyrosine
+kinase. EMBO J. 15, 6241–6250.
+Sanchez-Madrid, F., and del Pozo, M.A. (1999). Leukocyte polarization in cell migration and immune interactions. EMBO J. 18, 501–511.
+Sasaki, T., Irie-Sasaki, J., Jones, R.G., Oliveira-dos-Santos, A.J.,
+Stanford, W.L., Bolon, B., Wakeham, A., Itie, A., Bouchard, D., Kozieradzki, I., et al. (2000). Function of PI3K␥ in thymocyte development,
+T cell activation, and neutrophil migration. Science 287, 1040–1046.
+Servant, G., Weiner, O.D., Neptune, E.R., Sedat, J.W., and Bourne,
+H.R. (1999). Dynamics of a chemoattractant receptor in living neutrophils during chemotaxis. Mol. Biol. Cell 10, 1163–1178.
+Servant, G., Weiner, O.D., Herzmark, P., Balla, T., Sedat, J.W., and
+Bourne, H.R. (2000). Polarization of chemoattractant receptor signaling during neutrophil chemotaxis. Science 287, 1037–1040.
+Tuxworth, R.I., Cheetham, J.L., Machesky, L.M., Spiegelmann, G.B.,
+Weeks, G., and Insall, R.H. (1997). Dictyostelium RasG is required
+for normal motility and cytokinesis, but not growth. J. Cell Biol. 138,
+605–614.
+Vanhaesebroeck, B., Jones, G.E., Allen, W.E., Zicha, D., Hooshmand-Rad, R., Sawyer, C., Wells, C., Waterfield, M.D., and Ridley,
+
+3-Phosphoinositides and Chemotaxis
+623
+
+A.J. (1999). Distinct PI(3)Ks mediate mitogenic signalling and cell
+migration in macrophages. Nat. Cell Biol. 1, 69–71.
+Vanhaesebroeck, B., Leevers, S.J., Ahmadi, K., Timms, J., Katso,
+R., Driscoll, P.C., Woscholski, R., Parker, P.J., and Waterfield, M.D.
+(2001). Synthesis and function of 3-phosphorylated inositol lipids.
+Annu. Rev. Biochem. 70, 535–602.
+Wessels, D., and Soll, D.R. (1998). Computer-assisted characterization of the behavioral defects of cytoskeletal mutants of Dictyostelium discoideum. In Motion Analysis of Living Cells. D.R. Soll, and
+D. Wessels, eds. (New York: Wiley-Liss), pp. 101–140.
+Xiao, Z., Zhang, N., Murphy, D.B., and Devreotes, P.N. (1997). Dynamic distribution of chemoattractant receptors in living cells during
+chemotaxis and persistent stimulation. J. Cell Biol. 139, 365–374.
+Zhou, K.M., Takegawa, K., Emr, S.D., and Firtel, R.A. (1995). A phosphatidylinositol (PI) kinase gene family in Dictyostelium discoideum:
+biological roles of putative mammalian p110 and yeast Vps34p PI
+3-kinase homologs during growth and development. Mol. Cell. Biol.
+15, 5645–5656.
+
+

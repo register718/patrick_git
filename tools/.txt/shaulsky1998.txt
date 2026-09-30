@@ -1,0 +1,1146 @@
+691
+
+Development 125, 691-699 (1998)
+Printed in Great Britain © The Company of Biologists Limited 1998
+DEV5174
+
+A cAMP-phosphodiesterase controls PKA-dependent differentiation
+Gad Shaulsky†, Danny Fuller and William F. Loomis*
+Center for Molecular Genetics, Department of Biology, University of California San Diego, La Jolla, CA 92093, USA
+*Corresponding author (e-mail: wloomis@ucsd.edu)
+†Present address: Department of Molecular and Human Genetics, Baylor College of Medicine, One Baylor Plaza, Houston, TX 77030, USA
+
+Accepted 24 November 1997: published on WWW 22 January 1998
+
+SUMMARY
+A cAMP-specific phosphodiesterase was found that is
+stimulated by binding to the regulatory subunit of cAMPdependent protein kinase, PKA-R, from either
+Dictyostelium or mammals. The phosphodiesterase is
+encoded by the regA gene of Dictyostelium, which was
+recovered in a mutant screen for strains that sporulate in
+the absence of signals from prestalk cells. The sequence of
+RegA predicts that it will function as a member of a twocomponent system. Genetic analyses indicate that
+
+inhibition of the phosphodiesterase results in an increase in
+the activity of PKA, which acts at a check point for terminal
+differentiation. Conserved components known to affect
+memory, learning and differentiation in flies and
+vertebrates suggest that a similar circuitry functions in
+higher eukaryotes.
+
+INTRODUCTION
+
+which binds and inactivates the catalytic subunit, but fails to
+dissociate in the presence of cAMP. Strains expressing PKARm under cell type-specific promoters exhibit a variety of
+developmental defects. Prespore-specific expression of PKARm results in reduced sporulation and increased sensitivity to
+ammonia (Hopper et al., 1993), while prestalk-specific
+expression of PKA-Rm results in developmental arrest at the
+first finger stage and a cooperative defect in sporulation
+(Harwood et al., 1992b; Shaulsky et al., 1995). Conversely,
+overexpression of PKA-C results in precocious sporulation as
+well as sporulation under conditions that preclude signalling
+from prestalk cells (Anjard et al., 1992; Mann et al., 1992).
+Growth and development can proceed without accumulation of
+cAMP as long as PKA is constitutively active, either as the
+result of mutations in pkaR, the gene encoding the regulatory
+subunit, or overexpressing pkaC, the gene encoding the
+catalytic subunit (Abe and Yanagisawa, 1983; Simon et al.,
+1992; Wang and Kuspa, 1997). Cells of these strains aggregate
+precociously and differentiate into stalk cells and spores at
+least 6 hours sooner than wild-type cells. It appears that
+progression through the developmental stages is normally
+controlled by the level of PKA activity at various check points
+that are by-passed in strains with constitutive PKA activity.
+We recently isolated a mutant with properties reminiscent of
+pkaR− mutants (Shaulsky et al., 1996). The sequence of the
+newly affected gene, regA, suggested that it encodes a cyclic
+nucleotide phosphodiesterase (PDE) that might reduce the
+cAMP available to PKA-R. Mutations inactivating such a PDE
+would be expected to have constitutive PKA activity similar to
+that in pkaR− mutants. We have now measured the cAMP-PDE
+activity of purified RegA and found that it is stimulated when
+measured in the presence of purified PKA-R.
+
+cAMP dependent protein kinase (PKA) is a central component
+of several signal transduction pathways in Dictyostelium,
+Drosophila and vertebrates (Hammerschmidt et al., 1996;
+Harwood et al., 1992a,b; Lane and Kalderon, 1993; Parent and
+Devreotes, 1996). PKA is found as a heterodimer in
+Dictyostelium, with a single catalytic subunit bound to a
+regulatory subunit, while it is found as a heterotetramer in
+metazoans where there are two copies of both the catalytic
+subunit and the regulatory subunit (Leichtling et al., 1984;
+Mutzel et al., 1987; Taylor et al., 1990). The protein kinase
+activity of PKA is inhibited as long as the regulatory subunit(s)
+is bound to the catalytic subunit(s). The regulatory subunit,
+PKA-R, dissociates from the complex when it binds cAMP at
+two slightly different sites. The catalytic subunit, PKA-C, is
+then able to catalyze the phosphorylation of serine or threonine
+groups in diverse proteins and affect downstream events (Lee,
+1991). In Drosophila these include inhibition of expression of
+decapentaplegic (dpp), patched (ptc) and wingless (wg) in
+pathways responsive to the secreted product of hedgehog
+(Jiang and Struhl, 1995; Li et al., 1995; Pan and Rubin, 1995).
+PKA also acts in a hedgehog-responsive pathway in zebrafish
+embryos (Hammerschmidt et al., 1996). In addition, PKA is
+involved in learning and memory processes in both flies and
+mammals (Abel et al., 1997; Skoulakis et al., 1993).
+In Dictyostelium, PKA is the major effector of cAMP as a
+second messenger. The essential role of PKA is clearly
+demonstrated by the failure of cells lacking this activity to even
+aggregate (Mann and Firtel, 1991; Mann et al., 1992; Harwood
+et al., 1992a). Mutations that eliminate cAMP binding of PKAR result in a dominant negative form of the protein (PKA-Rm),
+
+Key words: Dictyostelium, Protein kinase, Two-component system,
+Sporulation
+
+692
+
+G. Shaulsky, D. Fuller and W. F. Loomis
+
+The primary sequence of regA also indicated that the Nterminal domain of its product might function as a response
+regulator in a two-component system. Two-component systems
+consisting of a protein histidine kinase and a response regulator
+have been found to function in the response of a variety of cells
+to environmental signals (Alex and Simon, 1994; Appleby et
+al., 1996; Maeda et al., 1994; Posas et al., 1996; Loomis et al.,
+1997). Such a system has recently been implicated in the
+development of Dictyostelium discoideum (Wang et al., 1996).
+Inactivation of the histidine kinase gene dhkA by insertional
+mutagenesis results in the formation of fruiting bodies with
+aberrantly long stalks and very few spores. Conversely, regA−
+mutants make fruiting bodies with short stalks but essentially
+the normal number of spores.
+The regA gene was isolated as a second site suppressor of a
+mutation in the prestalk gene, tagB, which is essential for
+generating the signal for sporulation (Shaulsky et al., 1996).
+Cells in which either of two adjacent genes, tagB or tagC, is
+disrupted have a cell autonomous defect in prestalk
+differentiation and fail to make spores (Shaulsky et al., 1995).
+However, when these cells are allowed to develop together with
+wild-type cells, the tag mutants sporulate normally. The tagB
+and tagC genes encode proteins that are 90% identical and are
+expressed uniquely in prestalk cells (Shaulsky et al., 1995;
+Shaulsky and Loomis, 1996). They each encode proteins with
+two domains, one homologous to serine proteases and the other
+homologous to the ABC family of ATP-driven membrane
+transporters (Shaulsky et al., 1995).
+Mutations in tagB or in tagC compromise the ability of
+prestalk cells to produce the signal that initiates encapsulation
+of prespore cells. RegA appears to be a component of the signal
+transduction mechanism that activates PKA and triggers
+terminal differentiation in prespore cells.
+MATERIALS AND METHODS
+Cells, growth, transformation and development
+Cell growth and maintenance in liquid suspension or on SM nutrient
+agar in association with bacteria were as described (Shaulsky and
+Loomis, 1993). Dictyostelium discoideum strains used in this work
+were: wild type AX4 cells (Knecht et al., 1986), tagB null mutants
+(Shaulsky et al., 1995), regA null mutants (Shaulsky et al., 1996), TL1
+(AX4, cotB::lacZ) and TL6 (AX4, ecmA::lacZ) (Fosnaugh and
+Loomis, 1993).
+Gene disruption by homologous recombination and selection for
+blasticidin resistance were used for pkaR and regA, while selection
+for uracil autotrophy was used to disrupt tagB (Kuspa and Loomis,
+1992; Shaulsky et al., 1996). Knockout vectors for disruption of regA
+were as described (Shaulsky et al., 1996), while the knockout vector
+for disruption of pkaR was a gift from A. Kuspa. Transformation with
+the expression vector for pspA::pkaRm (Hopper et al., 1993), a gift
+from J. Williams, and selection for G418 resistance and maintenance
+of transformed cell lines were as described (Shaulsky and Loomis,
+1993). The molecular genotypes of all of the transformed cell lines
+were confirmed by Southern blot analysis as described (Shaulsky and
+Loomis, 1993).
+Synchronous development of cells on nitrocellulose filters, slug
+migration on Nobel agar plates and sporulation assays were performed
+as described (Shaulsky et al., 1996; Shaulsky and Loomis, 1993). Xgal staining of lacZ-expressing cells and counterstaining with eosine
+Y were as described (Shaulsky et al., 1995).
+
+Sporogenous assay
+Sporulation of Dictyostelium cells at low density in submerged
+cultures was modified from the method of Kay and Trevan (1981).
+Exponentially growing cells were washed twice in spore assay buffer
+(10 mM MES, pH 6.5, 10 mM NaCl, 10 mM KCl, 1 mM CaCl2, 1
+mM MgSO4 and 5 mM cAMP) and plated at a density of 2×104 cells
+per cm2 in 2 ml spore assay buffer in 6-well tissue culture plates
+(Costar, Cambridge, MA). Plates were incubated at 22°C in a humid
+chamber for 24-36 hours. Detergent (0.3% cemulsol) was added to
+the wells, the cells were collected and the number of visible spores
+was determined by phase microscopy. Samples were diluted and
+plated on SM nutrient agar in association with bacteria to determine
+the number of viable spores.
+Bacterial expression of RegA
+A SalI-HindIII DNA fragment consisting of base pairs 48-2343 of the
+open reading frame of regA cDNA (Shaulsky et al., 1996) was cloned
+into pQE10 (Qiagen Inc., Chatsworth, CA). The resulting plasmid was
+transformed into E. coli M15[pREP] (Qiagen Inc., Chatsworth, CA).
+Bacterial cells were exponentially grown in Super medium (25 g/l
+bacto-tryptone, 15 g/l bacto-yeast extract and 5 g/l NaCl) to
+OD600=0.8. Expression of the hexahistidine fusion RegA protein was
+induced with 2 mM IPTG for 5 hours. Purification of the native
+protein on TALON metal affinity resin (Clontech, Palo Alto, CA) was
+performed according to the manufacturer’s recommended procedure
+and the protein was eluted in a buffer containing 100 mM imidazole.
+Fractions were assayed for phosphodiesterase activity and those with
+activity were stored at 4°C with 0.1 mM PMSF. The activity was
+stable under these conditions for 2 weeks. The 100 kDa recombinant
+RegA protein accounted for about 50% of the total protein in the 100
+mM imidazole eluent, as estimated from silver-stained gels following
+electrophoresis on an 8% polyacrylamide SDS gel. No
+phosphodiesterase activity or band at 100 kDa was seen in lysates
+from untransformed E. coli M15[pREP] treated in a similar manner.
+Further purification of RegA for labeling with acetyl phosphate was
+achieved by gel filtration through a spin-column of G50 Sephadex
+(Pharmacia, Uppsala, Sweden) equilibrated with 20 mM Tris HCl, pH
+7.5, and 10 mM MgCl2. For cAMP phosphodiesterase activity, the 100
+mM imidazole eluent was purified by FPLC gel filtration through
+Superose 12 (Pharmacia, Uppsala, Sweden) in 50 mM Tris HCl, 0.1
+mM PMSF. Fractions with the highest PDE activity were analyzed.
+Protein concentration was determined using the BIO-RAD protein
+assay reagent with BSA as standard.
+Purified PKA-R protein
+PKA-R proteins were expressed as hexahistidine fusions in E. coli and
+purified by affinity chromatography. The Dictyostelium PKA-R
+protein was stripped of cAMP according to Buechler et al. (1993) and
+was gift from R. Biondi and M. Veron (Pasteur Institute, Paris). Wildtype bovine PKA-RIa and PKA-RIa∆1-91 (Buechler and Taylor, 1991;
+Herberg et al., 1994; Saraswat et al., 1988) were a gift from L. Huang
+and S. Taylor (UCSD, La Jolla, CA).
+Cyclic nucleotide phosphodiesterase assay
+Phosphodiesterase (PDE) assays were modified from Tsang and
+Coukell (1977). Known amounts of protein were mixed in a final
+volume of 50 µl with 20 mM Tris HCl, pH 7.5, 10 mM MgCl2 and a
+mixture of 1 µCi [3H]-labeled and the respective unlabeled cyclic
+nucleotide. Reactions were mixed on wet ice and initiated by
+incubation at 30°C for 30-180 minutes. The reactions were terminated
+by addition of 5% TCA (w/v), precipitated proteins were removed by
+centrifugation for 5 minutes at top speed in an Eppendorf centrifuge
+and the supernatants were concentrated by evaporation under reduced
+pressure to about 5 µl. Samples were spotted on Whatman No. 1
+paper, air-dried and resolved by ascending paper chromatography in
+95% ethanol, 1 M ammonium acetate, pH 7.5 (75:30 by volume). The
+
+PKA-associated phosphodiesterase
+
+Stimulation of RegA PDE activity by PKA-R
+RegA (1.2 µg) was incubated at 4°C for 15-17 hours alone or with 6
+µg of the respective PKA-R protein in a final volume of 150 µl
+containing 40 mM Tris HCl, pH 7.5 and 10 mM MgCl2. The reactions
+were divided into six equal portions, mixed in duplicates with the
+indicated concentrations of [3H]cAMP, and PDE activity determined.
+The experiments were repeated three times with essentially identical
+results.
+Binding of RegA to PKA-R
+Dictyostelium PKA-R (1 µg) was incubated at 4°C for 15-17 hours
+alone or with 8 µg of RegA protein or BSA in a final volume of 100
+µl containing 20 mM Tris HCl, pH 7.5 and 10 mM MgCl2. The
+proteins were resolved by gel filtration on an FPLC Superose 12
+column in 50 mM Tris HCl, 0.1 mM PMSF. Fractions (1 ml) were
+collected and samples of 0.5 ml were loaded on a nitrocellulose
+membrane using a vacuum dot blot apparatus (Schleicher and
+Schuell). Twofold serial dilutions of purified Dictyostelium PKA-R
+were loaded on the same nitrocellulose membrane as a quantitation
+standard. The membrane was subjected to western blot analysis with
+a rabbit polyclonal antiserum against PKA-R (a gift from M. Veron)
+as described (Shaulsky et al., 1995). The staining intensity of each
+sample was compared to the standard to determine the amount of
+PKA-R protein. The experiment was repeated twice with essentially
+identical results.
+Phosphorylation by acetyl phosphate
+Purified RegA protein was incubated in a final volume of 30 µl
+containing 50 mM Tris HCl, pH 7.0, 5 mM MgCl2, 1 mM DTT, 0.2
+mg/ml protein and 10 mM [32P]acetyl phosphate (50 mCi/mmol),
+custom synthesized by DuPont NEN, Boston, MA. EDTA (100 mM)
+was included in the reaction mix as indicated. Reactions were
+incubated for 20 minutes at 25°C, transferred to ice and mixed
+immediately with SDS-PAGE sample buffer (3% β-mercaptoethanol,
+3% SDS, 0.3% bromophenol blue, 10% glycerol). Samples were
+loaded without boiling and separated by electrophoresis on an 8%
+polyacrylamide SDS gel at 4°C with pre-stained molecular markers
+(BRL); the gel was dried under reduced pressure and exposed to Xray film for autoradiography. The gel was then soaked in 3 M KOH
+for 1 hour at room temperature, rinsed in double-distilled water for
+30 minutes, dried again and exposed to X-ray film for
+autoradiography. The pre-stained molecular markers were retained on
+the gel throughout the procedure.
+
+that consisted of most of the open reading frame of regA into
+a bacterial expression system. RegA was expressed as a
+hexahistidine fusion protein in E. coli, purified and used for
+biochemical studies.
+Cyclic nucleotide phosphodiesterases catalyze the
+hydrolysis of 3′, 5′ cyclic nucleotide monophosphates into the
+respective 5′ nucleotide monophosphates. They can use cAMP,
+cGMP or both as substrates, and various enzyme activities on
+one cyclic nucleotide can be affected by the presence of
+another cyclic nucleotide (Beavo, 1990). To test the substrate
+specificity of RegA, purified protein was incubated with
+[3H]cAMP with or without unlabeled cGMP or with
+[3H]cGMP alone. PDE activity was measured by paper
+chromatography followed by liquid scintillation, and the
+results showed that RegA is a PDE – active with cAMP but
+inactive towards cGMP (Fig. 1A). The activity with [3H]cAMP
+was slightly stimulated by the presence of cGMP at
+concentrations up to 10 mM (Fig. 1B). Maximal cAMP-PDE
+activity was measured at pH 7.5 and the Km for cAMP was 4
+µM (data not shown).
+Similarities between regA− and pkaR− mutants
+The phenotypes resulting from null mutations in regA were
+reminiscent of those seen in rdeC mutants that are rapid
+developers due to lesions in the pkaR gene (Abe and
+Yanagisawa, 1983; Simon et al., 1992). In order to study the
+similarities between regA− and pkaR− mutants, we transformed
+wild-type AX4 cells with a construct in which the blasticidin
+resistance gene was inserted into the coding region of pkaR,
+and selected for strains that had integrated the disrupted gene
+by homologous recombination. The phenotypes of our pkaR
+null strains were indistinguishable from those described for
+rdeC mutants (Abe and Yanagisawa, 1983) and similar to those
+of regA null mutant strains.
+0.12
+
+A.
+
+B.
+
+no
+cAMP cGMP
+enzyme
+
+0
+
+0.10
+
+µmol/mg protein/min
+
+regions corresponding to the cyclic nucleotide substrate (Rf=0.5-0.7)
+and to the 5′-nucleotide monophosphate (Rf=0-0.1) were cut out and
+the radioactivity determined by liquid scintillation. All of the
+measurements were performed in duplicate or in triplicate and the data
+are representative of 2-5 independent experiments. Km was
+determined by the double-reciprocal method of Leinweaver and Burk.
+To determine the pH optimum, Tris HCl, pH 7.5 in the reaction mix
+was replaced with 20 mM sodium phosphate buffers ranging from pH
+5.7 to pH 8.5 in 0.5 increments and the pH optimum was found to be
+7.5. Accumulation of the product was linear with time and the amount
+of RegA protein added (data not shown). Radioactive [3H]cAMP (27
+Ci/mmol), and [3H]cGMP (9.3 Ci/mmol) were purchased from
+DuPont NEN, Boston, MA.
+
+693
+
+0.08
+
+0.06
+
+0.04
+
+0.02
+
+0
+
+RESULTS
+RegA is a cAMP-specific phosphodiesterase
+The primary sequence of regA suggested that the encoded
+protein might function as a cyclic nucleotide PDE as well as a
+response regulator in a two-component system (Shaulsky et al.,
+1996). To test these predictions we cloned a cDNA fragment
+
+0.1
+
+1.0
+
+5.0 10.0
+
+mM cGMP
+
+Fig. 1. RegA is a cAMP-specific phosphodiesterase. (A) PDE
+activity of RegA was determined with 100 µM [3H]cAMP or with
+100 µM [3H]cGMP. A control with no enzyme was done with 100
+µM [3H]cAMP and subtracted from subsequent measurements.
+(B) PDE activity of RegA was measured with 100 µM [3H]cAMP in
+the presence of the indicated concentrations of unlabeled cGMP.
+
+694
+
+G. Shaulsky, D. Fuller and W. F. Loomis
+
+In comparison to wild-type strains, both the pkaR null
+mutants and regA null mutants were precocious when
+developed synchronously on filters (Fig. 2A). The time of
+appearance of viable spores was determined by collecting
+samples at various times in detergent that lyses unencapsulated
+cells, spreading samples on SM nutrient agar in association
+with bacteria, and counting the number of plaques that arose
+after a week in the resulting bacterial lawns. In developing
+wild-type populations spores were first found after 20 hours
+and reached a maximum by 28 hours, but in developing
+populations of both the regA null mutants and pkaR null
+mutants spores appeared at 16 hours and reached maximal
+levels by 20 hours. Note that regA null spores were stable
+whereas pkaR null spores rapidly lost viability after 20 hours
+of development (Fig. 2A). Spore instability is a characteristic
+found in other rapid-developing strains (Osherov et al., 1997;
+Sadiq and Town, 1991), suggesting that premature
+encapsulation sometimes fails to generate fully differentiated
+spores.
+When spores were collected from wild type, regA− or pkaR−
+strains after 48 hours of development, treated with detergent
+and plated on SM agar, 80% of the visible spores of the wild
+type formed plaques after 3 days and the remainder formed
+visible plaques the next day. However, less than half of the
+visible spores from either pkaR null mutants or from regA null
+mutants formed plaques by 4 days, while the remainder formed
+plaques gradually over the following week. Once a plaque
+appeared, it grew at the wild-type rate (data not shown). It
+appears that spore germination is impaired in both the pkaR−
+mutants and the regA− mutants. Our results are consistent with
+the findings of van Es et al. (1996), who showed the
+involvement of cAMP and PKA-C in regulation of germination
+by the osmo-sensitive adenylyl cyclase AcgA. It is likely that
+RegA plays a role in that pathway as well.
+Mutations in pkaR are known to result in aberrant fruiting
+body morphology, due to compromised stalk formation,
+without affecting cell type proportioning (Abe and
+Yanagisawa, 1983). To examine the effect of regA on cell type
+proportioning and overall morphology we generated regA null
+strains that carry the prespore marker cotB::lacZ or the prestalk
+marker ecmA::lacZ. Cells of these strains were developed on
+filters, fixed and stained with X-gal to detect β-galactosidase
+activity in the respective cell types. At 16 hours of development
+the prespore cells of the regA− cotB::lacZ strain were in the
+posterior, as expected, and the ratio of prespore to prestalk cells
+appeared normal (Fig. 2B). The overall morphology of the
+structures seen at this time was not significantly different from
+those seen in wild-type strains but spores had already appeared
+(Fig. 2B). Thus, precocious sporulation of regA null cells does
+not result from an overall acceleration of the developmental
+process, but rather from uncoupling of sporulation from normal
+morphogenesis. Subsequent morphogenesis was abnormal,
+probably as the result of the altered properties of the
+encapsulated spores. Fruiting bodies were formed in which the
+mass of spores was at the bottom of a short stalk rather than at
+the apex as seen in wild-type strains. When regA− mutant cells
+carrying the prestalk specific reporter construct, ecmA::lacZ,
+were stained after 24 hours of development, the vacuolized
+cells in the short stalk were clearly blue (Fig. 2C).
+Development of these strains as chimeras following mixing
+with vegetative cells of wild-type strains at the start of
+
+Fig. 2. Precocious sporulation and developmental morphology of
+regA null mutants. (A) Cells were developed synchronously on
+nitrocellulose filters. At the indicated time points, cells were treated
+with detergent, washed and plated on nutrient agar in association
+with bacteria. The number of viable spores is presented as a fraction
+of the original number of cells developed. Closed circles, wild-type
+AX4 cells; open circles, regA null mutants; open squares, pkaR null
+mutants. (B) regA null mutants carrying the prespore reporter gene
+cotB::lacZ were developed on filters for 16 hours. Cells were fixed,
+stained with X-gal (blue) and counterstained with eosine Y (pink).
+Multicellular structures were dispersed to show spores in the main
+panel or photographed intact in the insert. Bar, 0.1 mm (0.2 mm for
+insert). (C) regA null mutants carrying the prestalk reporter gene
+ecmA::lacZ were developed on filters for 24 hours. Cells were fixed,
+stained with X-gal (blue) and counterstained with eosine Y (pink).
+Vacuolized stalk cells are shown in the main panel and a whole
+structure is shown in the insert. Magnifications as in B.
+
+PKA-associated phosphodiesterase
+
+Table 1. regA null mutants and pkaR null mutants are
+sporogenous
+
+2.5
+
+5' AMP [µmol/mg protein/min]
+
+695
+
+2.0
+
+1.5
+
+Genotype
+
+Visible spores
+
+Viable spores
+
+Wild type
+regA null
+pkaR null
+
+2.6%
+40.0%
+66.7%
+
+0.4%
+10.1%
+1.5%
+
+The number of spores is presented as a fraction of the original number of
+cells developed.
+
+1.0
+
+0.5
+
+0.0
+
+0
+
+20
+
+40
+
+60
+µM cAMP
+
+80
+
+100
+
+Fig. 3. Stimulation of RegA phosphodiesterase activity by various
+PKA-R proteins. RegA protein was incubated overnight at 4°C with
+0.5 µM PKA-R protein in the absence of cAMP. PDE activity was
+measured with [3H]cAMP as indicated. Open circles, no PKA-R;
+closed circles, wild-type Dictyostelium PKA-R; closed squares, wild
+type bovine PKA-RIa; open squares, bovine PKA-RIa ∆1-91 lacking
+the dimerization domain.
+
+development showed that the regA null phenotype of rapid
+sporulation was cell autonomous (data not shown).
+Constitutive PKA activity results in cells that are able to form
+spores in the absence of morphogenesis or cell-cell contact when
+incubated under a layer of buffer in Petri dishes (Anjard et al.,
+1992). Wild-type cells make very few spores under these
+conditions. To determine whether regA null cells were
+sporogenous, they were incubated at low cell density under buffer
+for 36 hours. The cells were then treated with detergent and the
+number of visible spores was determined. Spores were plated on
+SM nutrient agar in association with bacteria to determine their
+viability. As shown in Table 1, both regA null mutants and pkaR
+null mutants formed a considerable number of spores whereas
+wild-type cells failed to sporulate efficiently under the same
+conditions. The viability of regA null spores formed under these
+conditions was higher than that of the pkaR null spores (Table 1),
+consistent with the relative viability of spores of these strains
+developed on filters (Fig. 2A). In conclusion, regA− mutants are
+similar to pkaR− mutants in that they are rapid developers, they
+have compromised stalk development, they are sporogenous and
+their spore germination is compromised.
+Association between RegA and PKA-R proteins
+The phenotypic similarities between regA null mutants and
+pkaR null mutants led us to consider the possibility that the PDE
+activity of RegA might affect PKA by reducing the levels of
+cAMP within cells. Moreover, a direct association of RegA and
+PKA-R would concentrate the phosphodiesterase activity at the
+site of action. Therefore, we tested the PDE activity of RegA
+after incubation in the presence or absence of PKA-R.
+Following purification over a Superose column, RegA was
+incubated overnight with or without purified Dictyostelium
+PKA-R at 4°C in the absence of cAMP and the PDE activity
+
+was then assayed at 30°C with [3H]cAMP at various
+concentrations. Purified RegA is stable at 4°C in the absence of
+added proteins and is routinely stored this way. We found that
+PKA-R stimulated the PDE activity of RegA at least 18-fold
+without significantly affecting the Km for cAMP (Fig. 3). Strong
+stimulation can be seen at 10 µM cAMP, the concentration
+found within developing cells (Gersich et al., 1977). The
+enzyme activity was linear with respect to time over the period
+of the assay in both the presence and absence of purified PKA
+R subunit. The phosphodiesterase activity of RegA was
+unaffected by pre-incubation with 0.5 µM bovine serum
+albumin (data not shown). Since our preparation of purified
+PKA-R had no measurable PDE activity when assayed alone,
+it appears that the cAMP-PDE activity of RegA is dramatically
+stimulated by an interaction with PKA-R. Consistent with the
+need to form complexes in dilute solution, we found that the
+rate of activation of RegA activity was dependent on the
+concentration of added PKA-R; half-maximal stimulation was
+found within an hour at 5 µM PKA-R while it was about 2 hours
+at 0.5 µM PKA-R (data not shown).
+Primary sequence analysis indicates that Dictyostelium
+PKA-R is a member of the type I family of mammalian
+regulatory subunits (Mutzel et al., 1987; Taylor et al., 1990). It
+was therefore interesting to test the effect of bovine PKA-RIα
+on RegA PDE activity. As shown in Fig. 3, bovine PKA-RIa
+protein increased the PDE activity by about eightfold (closed
+squares), indicating that mammalian PKA-R can also
+effectively associate with this cAMP-PDE, although it
+stimulates the activity somewhat less than Dictyostelium PKAR. One of the main differences between the Dictyostelium
+PKA-R and mammalian PKA-RIα proteins is the presence of
+a dimerization domain in the amino terminus of the latter
+(Mutzel et al., 1987). We therefore tested a modified bovine
+PKA-RIα that lacks the dimerization domain (Herberg et al.,
+1994) and found that it was able to stimulate RegA to the same
+extent as the Dictyostelium PKA-R (Fig. 3).
+The results presented in Fig. 3 indicate an effective
+interaction between the RegA and PKA-R proteins. To directly
+test if RegA can bind Dictyostelium PKA-R we incubated the
+purified proteins separately or together overnight at 4°C,
+resolved them by gel filtration and measured the amount of
+PKA-R in the various fractions by western dot-blots with an
+antibody against Dictyostelium PKA-R. Most of the PKA-R
+protein was eluted in fractions 13-15, consistent with its
+expected size (Fig. 4, open symbols). After pre-incubation with
+RegA protein, the elution profile of PKA-R changed
+dramatically (Fig. 4, closed symbols). Most of the PKA-R
+protein eluted in fraction 11, ahead of the monomeric PKA-R.
+Under the same conditions, PDE activity eluted in fraction 12
+when purified RegA was run on its own, but eluted in fractions
+
+696
+
+G. Shaulsky, D. Fuller and W. F. Loomis
+Table 2. Epistatic relationships in the sporulation
+regulation pathway
+
+60
+
+Genotype
+
+PKA-R (percent of total)
+
+50
+
+Wild type
+tagB−
+tagB− regA−
+tagB− pkaΡ−
+regA− pspA::Rm
+regA−
+pkaR−
+pspA::Rm
+
+40
+
+30
+
+20
+
+100%
+<10−10a
+30%a
+14%b
+1%c
+50%a
+52%
+2%c
+
+The number of spores is presented as a fraction of the original number of
+cells developed.
+aShaulsky et al. (1996)
+bSporulation only on filters
+cAfter slug migration
+
+10
+
+0
+
+Viable spores
+
+0
+
+2
+
+4
+
+6
+
+8
+
+10
+
+12
+
+14
+
+16
+
+18
+
+20
+
+fraction
+
+Fig. 4. Binding of PKA-R and RegA. Dictyostelium PKA-R was
+incubated overnight at 4°C with RegA protein. The proteins were
+resolved by gel filtration, 1 ml fractions were collected and the
+amount of PKA-R protein was determined by western dot-blot
+analysis. The data are presented as the proportion in each fraction of
+the total protein eluted after background subtraction. Open circles,
+PKA-R alone; closed circles, PKA-R after pre-incubation with
+excess RegA protein.
+
+10-11 when pre-incubated with excess PKA-R. Preincubation
+with bovine serum albumin did not affect the elution profile of
+either PKA-R or RegA (data not shown). The precise
+mechanism of interaction between PKA-R and RegA is
+currently under investigation, but the results in Figs 3 and 4
+clearly demonstrate a physical association between the two
+proteins that stimulates the cAMP-PDE activity of RegA.
+A genetic pathway that connects PKA to an
+extracellular signaling system
+regA was originally discovered as a genetic suppressor of tagB
+null mutants (Shaulsky et al., 1996). tagB null mutants suffer
+from a cell-autonomous defect that blocks prestalk cell
+differentiation and affects prespore differentiation in a
+cooperative manner (Shaulsky et al., 1995). Since regA null
+mutations can suppress the inability of tagB null cells to
+sporulate we suggested that regA might be involved in the
+prespore specific signal transduction mechanism that integrates
+the tagB-dependent signal produced by prestalk cells (Shaulsky
+et al., 1996). The data shown above that link regA to pkaR led
+us to examine if a pkaR null mutation would suppress the tagB
+null mutation as regA did. The results in Table 2 show that the
+double mutant tagB− pkaR− formed 14% spores after
+development on filters, a vast increase compared to the parental
+tagB− strain. Interestingly, these mutants did not sporulate
+when the cells were grown in association with bacteria on SMnutrient agar, explaining our failure to isolate them in the
+screen for suppressors of tagB (Shaulsky et al., 1996). These
+results support the notion that tagB, regA and pkaR are
+components of the same signal transduction pathway and that
+regA and pkaR function downstream of tagB. Inactivation of
+regA would result in constitutively dissociated PKA-R since it
+would be bound to cAMP and unable to inhibit PKA-C.
+
+In order to determine the epistatic relationship between regA
+and pkaR in this pathway we transformed regA null mutants
+with a dominant negative allele of pkaR under regulation of the
+pspA promoter, a prespore specific promoter that is not
+dependent on the activity of PKA (Hopper et al., 1993, 1995).
+As shown in Table 2, regA null cells carrying the pspA::pkaRm
+expression vector showed dramatically reduced sporulation
+efficiency. This result indicates that pkaR functions downstream
+of regA in a tagB-dependent signal transduction pathway.
+Phosphorylation of RegA
+In two-component systems a phosphate is transferred from the
+histidine kinase, either directly or indirectly, to a conserved
+aspartic acid residue in the D motif of the response regulator.
+Another characteristic of response regulators is their ability to
+autophosphorylate the conserved aspartate residue using small
+acyl-phosphate compounds as phosphate donors, in a reaction
+dependent on magnesium ions and therefore sensitive to EDTA
+(Lukat et al., 1992). One of the characteristics of aspartyl
+phosphates is their rapid hydrolysis under alkali conditions. To
+test the response-regulator nature of RegA we incubated the
+protein with [32P]acetyl phosphate in the presence or absence
+of EDTA, and resolved the products by polyacrylamide SDS
+gel electrophoresis. Autoradiography of the resulting gels
+showed that the RegA protein was labeled and that this
+phosphorylation was inhibited by EDTA (Fig. 5). Moreover,
+labeling intensity was directly proportional to the reaction time
+(data not shown). The same gel was treated with alkali and
+
+Fig. 5. Phosphorylation of RegA by acetyl phosphate. RegA protein
+was incubated at 25°C with [32P]acetyl phosphate for 20 minutes
+before being electrophoretically resolved on a 8% polyacrylamide
+SDS gel that was dried and exposed to X-ray film (lanes 1, 2). The
+gel was then treated with alkali, dried and re-exposed (lanes 3, 4).
+EDTA (100 mM) was added to the reactions in lanes 2 and 4. The
+positions of molecular mass (kDa) markers are indicated.
+
+PKA-associated phosphodiesterase
+
+697
+
+Fig. 6. Conserved components in the PKA
+regulation circuitry. Regulation of PKA
+RegA
+catalytic activity is essential for efficient spore
+differentiation in Dictyostelium. cAMP, which
+D. discoideum
+AcaA
+cAMP
+PKA-R
+PKA-C
+development
+is synthesized by adenylyl cyclase (ACA), can
+activate PKA-C by binding to the regulatory
+?
+subunit PKA-R. The response-regulator-PDE
+dunce
+encoded by regA activates PKA-R such that it
+D. melanogaster
+rutabaga
+cAMP
+PKA-R
+DC0
+development, memory
+can inhibit PKA-C by removal of cAMP. The
+interaction between PKA-R and RegA
+suggests that some of the components in the
+?
+circuitry may be closely associated.
+dunce-like
+Drosophila homologues of ACA (rutabaga),
+vertebrates
+ACA
+cAMP
+PKA-R
+PKA-C
+development, memory
+RegA (dunce) and PKA-C (DCO) are involved
+in embryogenesis, learning and memory. A
+close homologue of the dunce-PDE gene is found in the rat brain; moreover, modification of PKA-R activity in the brains of mice results in
+memory defects, raising the possibility that the proteins encoded by dunce and dunce-like genes may directly interact with PKA-R.
+
+exposed for a longer time to compensate for the decay of 32P.
+The results in Fig. 5 show that all the radioactive material was
+removed by this procedure, consistent with the alkali-labile
+nature of aspartyl phosphate. The genetic analyses predict that
+phosphorylation of RegA should result in inhibition of its
+cAMP-PDE activity or prevent its association with PKA-R. We
+could not test these predictions because incubation of RegA
+with acetyl-phosphate resulted in phosphorylation of only a
+small fraction of the total protein. Therefore, the present results
+only support the homology-based suggestion that RegA is a
+response regulator protein in a two-component system.
+DISCUSSION
+cAMP is a ubiquitous second messenger that is used to adapt
+cellular physiology in response to environmental and
+developmental signals (Robinson et al., 1971). When the level
+of cAMP increases, it binds to the regulatory subunit of PKA,
+resulting in the release and activation of the catalytic subunit
+such that it can phosphorylate downstream proteins (Lee, 1991;
+Meinkoth et al., 1993). Activation of PKA is thought to be a
+rapidly reversible process as the result of re-association of the
+subunits when the level of cAMP drops once again. However,
+the free regulatory subunit binds cAMP so avidly and the rate
+of cAMP release from PKA-R is so slow that it has not been
+apparent how the cAMP binding sites are cleared within the
+cell (Corbin et al., 1978; de Gunzburg and Veron, 1982).
+Moreover, it has been reported that PKA can be activated
+without subunit dissociation and that the enzyme responds to
+a flux of cAMP better than to a fixed level of cAMP (Yang et
+al., 1995; Leiser et al., 1986). These observations make it
+difficult to explain the reversible stimulation of PKA activity.
+The intimate association of a cAMP-PDE with the R subunit
+and the subsequent stimulation of its activity helps to account
+for the major role that PKA plays in mediating the effects of
+rapidly changing levels of cAMP. We have found that the RegA
+protein of Dictyostelium is able to form a complex with the R
+subunit and is stimulated by PKA-R subunits from either
+Dictyostelium or from bovine origin. Thus, the association
+appears to be a general property of these proteins that has been
+conserved since the time before the radiation of metazoans.
+RegA may be unique in its ability to be stimulated by PKA-R,
+since at least one other PDE activity was reduced when
+
+measured on cAMP bound to PKA-R (Corbin et al., 1978), but
+other genetic pathways that regulate PKA activity in flies and in
+vertebrates suggest that similar PDEs may well exist (Fig. 6). A
+search for the mammalian counterpart of regA is now underway.
+Mutations in any of the Drosophila genes rutabaga, dunce or
+DCO result in flies that are learning impaired and have additional
+developmental defects (Dudai et al., 1976; Livingstone et al.,
+1984; Skoulakis et al., 1993; Bellen et al., 1987; Bellen and
+Kiger, 1987, 1988). rutabaga encodes adenylyl cyclase and
+dunce encodes a cAMP-PDE, so mutations in these genes would
+be expected to affect cAMP levels within the cells (Davis and
+Kiger, 1981; Levin et al., 1992). Since DCO encodes PKA-C, it
+seems that the memory defects in these mutant flies result from
+loss of cAMP control of PKA activity (Drain et al., 1991;
+Kalderon and Rubin, 1988; Skoulakis et al., 1993). A role for
+PKA in higher cognitive processes such as long-term
+potentiation and memory in transgenic mice has been directly
+demonstrated by expressing a modified gene, R(AB), which
+encodes a PKA-R protein that is unable to bind cAMP at either
+of its two sites as the result of site-directed mutations (Abel et
+al., 1997). Expression of this dominant-negative gene under the
+control of the Ca2+/calmodulin protein kinase IIa regulatory
+region in the hippocampus results in mice with defects in spatial
+and long-term memory. Likewise, expression of a dominant
+negative allele of the Dictyostelium PKA-R that does not bind
+cAMP blocks prestalk and prespore differentiations when
+expressed in the respective cells (Harwood et al., 1992b; Hopper
+et al., 1993; Zhukovskaya et al., 1996). Furthermore, the block
+to sporulation resulting from expression of pspA::pkaRm is
+epistatic to the constitutive sporulation resulting from mutations
+in regA. Thus, the cAMP-PDE encoded by regA appears to be
+mainly directed at the control of PKA activity. Apparently,
+sporulation in Dictyostelium is regulated by the same
+components that control differentiation and memory in flies and
+in mice (Fig. 6).
+The primary sequence of RegA led us to consider that it
+might be a member of a two-component system that is
+regulated by the activity of a histidine kinase. The three
+aspartate residues that bind magnesium and position the
+acceptor aspartate for phosphorylation in the bacterial response
+regulator CheY (Stock et al., 1993) are all present in conserved
+sequences of RegA. We have recently found that the block to
+sporulation and aberrant stalk formation resulting from
+
+698
+
+G. Shaulsky, D. Fuller and W. F. Loomis
+
+inactivation of the dhkA gene that encodes a histidine kinase
+can be suppressed by disruption of the regA gene (N. Wang,
+G. Shaulsky and W. F. Loomis, unpublished). Likewise, we
+found that overexpression of pkaC or disruption of pkaR can
+suppress the phenotypic defects resulting from dhkA−
+mutations. These genetic analyses strongly indicate that the
+signal transduction pathway extends from the DhkA histidine
+kinase to the response regulator, RegA, to affect the activity of
+PKA. In a linear pathway, activation of DhkA would lead to
+inhibition of RegA activity, resulting in accumulation of
+cAMP-bound PKA-R and free catalytic subunits of PKA. The
+fact that RegA synthesized in bacteria is an active cAMP-PDE,
+and that it is able to accept a phosphate on an aspartate from
+acetyl phosphate, further supports that interpretation.
+The model that emerges from our findings is presented in
+Fig. 6. In wild-type prespore cells, pre-mature sporulation is
+prevented by inhibition of PKA-C activity by PKA-R. The
+cAMP-PDE activity of RegA degrades cAMP and keeps the
+activity of PKA low. When optimal conditions for sporulation
+are reached, prestalk cells emit a signal that is received by
+prespore cells and the inhibition of PKA-C is lifted. The model
+predicts that activation of the two-component pathway results
+in the inhibition of RegA and a subsequent rise in cAMP that
+triggers encapsulation via PKA. Stimulation of RegA PDE
+activity by interaction with PKA-R and inhibition of adenylyl
+cyclase by PKA (Abe and Yanagisawa, 1983) indicate that the
+system involves several feedback loops. Both constitutive and
+reduced PKA activity result in poor encapulation.
+Proper tuning of PKA-C activity appears to be essential in
+other organisms as well. Female reproduction as well as learning
+and memory in both sexes of the fruit fly D. melanogaster are
+affected by mutations in the adenylyl cyclase gene rutabaga, the
+phosphodiesterase gene, dunce, and the PKA-C gene, DCO,
+suggesting that either an increase or a decrease in PKA activity
+is deleterious to these processes (Bellen et al., 1987; Bellen and
+Kiger, 1987, 1988; Davis, 1993). All of these genes are
+preferentially expressed in the mushroom body of the fly brain,
+where they may interact (Davis, 1993; Skoulakis et al., 1993).
+In vertebrates, activation of PKA appears to play a major role in
+long-term potentiation when neurotransmitters stimulate
+adenylyl cyclase activity (Abel et al., 1997). Return to basal
+levels of PKA activity would be expected to require clearing of
+cAMP from the regulatory subunit by a phosphodiesterase. It is
+not known which of the many different PKA-R isoforms and
+cyclic nucleotide phosphodiesterases function in vertebrate
+nervous systems (Beavo, 1990; Taylor et al., 1990). However, it
+was a dominant negative form of PKA-RIa that affected longterm memory when expressed in mouse brain and that is the
+isoform that stimulates RegA-PDE activity (Fig. 3). A
+mammalian phosphodiesterase similar to dunce has been found
+to be highly expressed in rat brain (Davis et al., 1989) and so is
+a good candidate for direct interaction with PKA-R. The
+conservation of the circuitry components in these diverse
+organisms suggests that interactions between PKA-R and cAMP
+phosphodiesterases may be widespread.
+We are indebted to Ricardo Biondi and Michel Veron for purified
+preparations of Dictyostelium PKA regulatory subunit as well as
+specific antibodies, and to Lily Huang and Susan Taylor for purified
+preparations of full length and truncated bovine PKA regulatory
+subunit. We thank Joe Beavo, Robert Kay, Richard Kessin, Adam
+
+Kuspa, Sijie Lu, Susan Taylor, Jeff Williams and Michel Veron for
+many discussions and comments, and Mark Floyd for excellent
+technical assistance. This work was supported by a grant from the
+N.I.H. (HD30892).
+
+REFERENCES
+Abe, K. and Yanagisawa, K. (1983). A new class of rapid developing mutants
+in Dictyostelium discoideum: Implications for cyclic AMP metabolism and
+cell differentiation. Dev. Biol. 95, 200-210.
+Abel, T., Nguyen, P. V., Barad, M., Deuel, T. A., Kandel, E. R. and
+Bourtchouladze, R. (1997). Genetic demonstration of a role for PKA in the
+late phase of LTP and in hippocampus-based long-term memory. Cell 88,
+61-626.
+Alex, L. and Simon, M. (1994). Protein histidine kinases and signal
+transduction in prokaryotes and eukaryotes. Trends Genet. 10, 133-138.
+Anjard, C., Pinaud, S., Kay, R. R. and Reymond, C. D. (1992).
+Overexpression of DdPK2 protein kinase causes rapid development and
+affects the intracellular cAMP pathway of Dictyostelium discoideum.
+Development 115, 785-790.
+Appleby, J. L., Parkinson, J. S. and Bourret, R. B. (1996). Signal
+transduction via the multi-step phosphorelay: not necessarily a road less
+traveled. Cell 86, 845-848.
+Beavo, J. (1990). Multiple phosphodiesterase isoenzymes: background,
+nomenclature and implications. In Cyclic Nucleotide Phosphodiesterases:
+Structure, Regulation and Drug Action (ed. J. Beavo and M. D. Houslay),
+pp. 3-15. Wiley & Sons, New York, NY.
+Bellen, H. J., Gregory, B. K., Olsson, C. L. and Kiger, J. A. (1987). Two
+Drosophila learning mutants, Dunce and Rutabaga, provide evidence of a
+maternal role for cAMP onembryogenesis. Dev. Biol. 121, 432-444.
+Bellen, H. J. and Kiger, J. A. (1987). Sexual hyperactivity and reduced longevity
+of dunce females of Drosophila melanogaster. Genetics 115, 153-160.
+Bellen, H. J. and Kiger, J. A. (1988). Maternal effects of general and regional
+specificity on embryos of Drosophila melanogaster caused by dunce and
+rutabaga mutant combinations. Roux’s Arch. Dev. Biol. 197, 258-268.
+Buechler, Y. J., Herberg, F. W. and Taylor, S. S. (1993). Regulation-defective
+mutants of type I cAMP-dependent protein kinase. Consequences of
+replacing arginine 94 and arginine 95. J. Biol. Chem. 268, 16495-16503.
+Buechler, Y. J. and Taylor, S. S. (1991). Mutations in the autoinhibitor site
+of the regulatory subunit of cAMP-dependent protein kinase I. Replacement
+of Ala-97 and Ser-99 interferes with reassociation with the catalytic subunit.
+J. Biol. Chem. 266, 3491-3497.
+Corbin, J. D., Sugden, P. H., West, L., Flockhart, D. A., Lincoln, T. M. and
+McCarthy, D. (1978). Studies on the properties and mode of action of the
+purified regulatory subunit of bovine heart adenosine 3′:5′-monophosphatedependent protein kinase. J. Biol. Chem. 253, 3997-4003.
+Davis, R. L. (1993). Mushroom bodies and Drosophila learning. Neuron 11,
+1-14.
+Davis, R. L. and Kiger, J. (1981). dunce mutants of Drosophila melanogaster:
+mutants defective in the cyclic AMP phosphodiesterase enzyme system. J.
+Cell Biol. 90, 101-107.
+Davis, R. L., Takayasu, H., Eberwine, M. and Myres, J. (1989). Cloning
+and characterization of mammalian homologs of the Drosophila dunce+
+gene. Proc. Nat. Acad. Sci. USA 86, 3604-3608.
+de Gunzburg, J. and Veron, M. (1982). A cAMP-dependent protein kinase
+is present in differentiating Dictyostelium discoideum cells. EMBO J. 1,
+1063-1068.
+Drain, P., Folkers, E. and Quinn, W. G. (1991). cAMP-dependent protein
+kinase and the disruption of learning in transgenic flies. Neuron 6, 71-82.
+Dudai, Y., Jan, Y.-N., Byers, D., Quinn, W. and Benzer, S. (1976). dunce,
+a mutant of Drosophila deficient in learning. Proc. Nat. Acad. Sci. USA 73,
+1684-1688.
+Fosnaugh, K. L. and Loomis, W. F. (1993). Enhancer regions responsible for
+temporal and cell-type-specific expression of a spore coat gene in
+Dictyostelium. Dev. Biol. 157, 38-48.
+Gerisch, G., Maeda, Y., Malchow, D., Roos, W., Wick, U. and Wurster, B.
+(1977). Cyclic AMP signals and the control of cell aggregation in
+Dictyostelium discoideum. In Development and Differentiation in the
+Cellular Slime Moulds (ed. P. Cappuccinelli and J. M. Ashworth), pp. 105124. Elsevier/North-Holland: Amsterdam.
+Hammerschmidt, M., Bitgood, M. J. and McMahon, A. P. (1996). Protein
+kinase A is a common negative regulator of Hedgehog signaling in the
+vertebrate embryo. Genes Dev. 10, 647-68.
+
+PKA-associated phosphodiesterase
+Harwood, A. J., Hopper, N. A., Simon, M. N., Bouzid, S., Veron, M. and
+Williams, J. G. (1992a). Multiple roles for cAMP-dependent protein kinase
+during Dictyostelium development. Dev. Biol. 149, 90-99.
+Harwood, A. J., Hopper, N. A., Simon, M. N., Driscoll, D. M., Veron, M.
+and Williams, J. G. (1992b). Culmination in Dictyostelium is regulated by
+the cAMP-dependent protein kinase. Cell 69, 615-624.
+Herberg, F. W., Dostmann, W. R., Zorn, M., Davis, S. J. and Taylor, S. S.
+(1994). Crosstalk between domains in the regulatory subunit of cAMPdependent protein kinase: influence of amino terminus on cAMP binding
+and holoenzyme formation. Biochemistry 33, 7485-7494.
+Hopper, N. A., Harwood, A. J., Bouzid, S., Veron, M. and Williams, J. G.
+(1993). Activation of the prespore and spore cell pathway of Dictyostelium
+differentiation by cAMP-dependent protein kinase and evidence for its
+upstream regulation by ammonia. EMBO J. 12, 2459-2466.
+Hopper, N. A., Sanders, G. M., Fosnaugh, K. L., Williams, J. G. and
+Loomis, W. F. (1995). Protein kinase A is a positive regulator of spore coat
+gene transcription in Dictyostelium. Differentiation 58, 183-188.
+Jiang, J. and Struhl, G. (1995). Protein kinase A and hedgehog signaling in
+Drosophila limb development. Cell 80, 563-572.
+Kalderon, D. and Rubin, G. M. (1988). Isolation and characterization of
+Drosophila cAMP-dependent protein kinase genes. Genes Dev. 2, 15391556.
+Kay, R. R. and Trevan, D. J. (1981). Dictyostelium amoebae can differentiate
+into spores without cell-to-cell contact. J. Embryol. exp. Morph. 62, 369-378.
+Knecht, D. A., Cohen, S. M., Loomis, W. F. and Lodish, H. F. (1986).
+Developmental regulation of Dictyostelium discoideum actin gene fusions
+carried on low-copy and high-copy transformation vectors. Mol. Cell. Biol.
+6, 3973-3983.
+Kuspa, A. and Loomis, W. F. (1992). Tagging developmental genes in
+Dictyostelium by restriction enzyme-mediated integration of plasmid DNA.
+Proc. Nat. Acad. Sci. USA 89, 8803-8807.
+Lane, M. E. and Kalderon, D. (1993). Genetic investigation of cAMPdependent protein kinase function in Drosophila development. Genes Dev.
+7, 1229-1243.
+Lee, K. A. W. (1991). Transcriptional regulation by cAMP. Curr. Opin. Cell
+Biol. 3, 953-959.
+Leichtling, B. H., Majerfeld, I. H., Spitz, E., Schaller, K. L., Woffendin,
+C., Kakinuma, S. and Rickenberg, H. V. (1984). A cytosolic cAMPdependent protein kinase in Dictyostelium discoideum. II. Developmental
+regulation. J. Biol. Chem. 259, 662-668.
+Leiser, M., Fleischer, N. and Erlichman, J. (1986). Enhanced activation of
+cAMP-dependent protein kinase by rapid synthesis and degradation of
+cAMP. J. Biol. Chem. 261, 15486-15490.
+Levin, L. R., Han, P. L., Hwang, P. M., Feinstein, P. G., Davis, R. L. and
+Reed, R. R. (1992). The Drosophila learning and memory gene rutabaga
+encodes a Ca2+/calmodulin-responsive adenylyl cyclase. Cell 68, 479-489.
+Li, W., Ohlmeyer, J. T., Lane, M. E. and Kalderon, D. (1995). Function of
+protein kinase A in hedgehog signal transduction and Drosophila imaginal
+disc development. Cell 80, 553-562.
+Livingstone, M. S., Sziber, P. P. and Quinn, W. G. (1984). Loss of the
+calcium/calmodulin responsiveness in adenylate cyclase of rutabaga, a
+Drosophila learning mutant. Cell 37, 205-215.
+Loomis, W. F., Shaulsky, G. and Wang, N. (1977). Histidine kinases in signal
+transduction pathways of eukaryotes. J. Cell Sci. 110, 1141-1145.
+Lukat, G. S., McCleary, W. R., Stock, A. M. and Stock, J. B. (1992).
+Phosphorylation of bacterial response regulator proteins by low molecular
+weight phospho-donors. J. Cell Biochem. 51, 41-46.
+Maeda, T., Wurgler-Murphy, S. and Saito, H. (1994). A two-component
+system that regulates an osmosensing MAP kinase cascade in yeast. Nature
+369, 242-245.
+Mann, S. K. O. and Firtel, R. A. (1991). A developmentally regulated,
+putative serine/threonine protein kinase is essential for development in
+Dictyostelium. Mech. Dev. 35, 89-101.
+Mann, S. K. O., Yonemoto, W. M., Taylor, S. S. and Firtel, R. A. (1992).
+DdPK3, which plays essential roles during Dictyostelium development,
+encodes the catalytic subunit of cAMP-dependent protein kinase. Proc. Nat.
+Acad. Sci. USA 89, 10701-10705.
+Meinkoth, J. L., Alberts, A. S., Went, W., Fantozzi, D., Taylor, S. S.,
+Hagiwara, M., Montminy, M. and Feramisco, J. R. (1993). Signal
+transduction through the cAMP-dependent protein kinase. Mol. Cell.
+Biochem. 127, 179-186.
+
+699
+
+Mutzel, R., Lacombe, M. L., Simon, M. N., de Gunzburg, J. and Veron,
+M. (1987). Cloning and cDNA sequence of the regulatory subunit of cAMPdependent protein kinase from Dictyostelium discoideum. Proc. Nat. Acad.
+Sci. USA 84, 6-10.
+Osherov, N., Wang, N. and Loomis, W. F. (1997). Precocious sporulation and
+developmental lethality in yelA null mutants of Dictyostelium. Dev. Genet.
+20, 307-319.
+Pan, D. and Rubin, G. M. (1995). Protein kinase and hedgehog act
+antagonistically in regulating decapentaplegic transcription in Drosophila
+imaginal discs. Cell 80, 543-552.
+Parent, C. A. and Devreotes, P. N. (1996). Molecular genetics of signal
+transduction in Dictyostelium. Annu. Rev. Biochem. 65, 411-440.
+Posas, F., Wurgler-Murphy, S. M., Maeda, T., Witten, E., A., Thai, T. C.
+and Saito, H. (1996). Yeast HOG1 MAP kinase cascade is regulated by a
+multistep phosphorelay mechanism in the SLN1-YPD1-SSK1 ‘twocomponent’ osmosensor. Cell 86, 865-875.
+Robinson, G. A., Butcher, R. W. and Sutherland, E. W. (1971). Cyclic AMP.
+Academic Press, New York, NY.
+Sadiq, M. F. and Town, C. D. (1991). Characterization and complementation
+analysis of sporogenous mutants of Dictyostelium discoideum. Dev. Genet.
+12, 272-280.
+Saraswat, L. D., Ringheim, G. E., Bubis, J. and Taylor, S. S. (1988).
+Deletion mutants as probes for localizing regions of subunit interaction in
+cAMP-dependent protein kinase. J. Biol. Chem. 263, 18241-18246.
+Shaulsky, G., Escalante, R. and Loomis, W. F. (1996). Developmental signal
+transduction pathways uncovered by genetic suppressors. Proc. Nat. Acad.
+Sci. USA 93, 15260-15265.
+Shaulsky, G., Kuspa, A. and Loomis, W. F. (1995). A multidrug resistance
+transporter serine protease gene is required for prestalk specialization in
+Dictyostelium. Genes Dev. 9, 1111-1122.
+Shaulsky, G. and Loomis, W. F. (1993). Cell type regulation in response to
+expression of ricin A in Dictyostelium. Dev. Biol. 160, 85-98.
+Shaulsky, G. and Loomis, W. F. (1996). Initial Cell Type Divergence in
+Dictyostelium is Independent of DIF-1. Dev. Biol. 174, 214-220.
+Simon, M. N., Driscoll, D., Mutzel, R., Part, D., Wiliams, J. G. and Veron,
+M. (1989). Overexpression of the regulatorry subunit of the cAMPdependent protein kinase blocks the differentiation of Dictyostelium
+discoideum. EMBO J. 8, 2039-2043.
+Simon, M. N., Pelegrini, O., Veron, M. and Kay, R. R. (1992). Mutation of
+protein kinase-A causes heterochronic development of Dictyostelium.
+Nature 356, 171-172.
+Skoulakis, E. M., Kalderon, D. and Davis, R. L. (1993). Preferential
+expression in mushroom bodies of the catalytic subunit of protein kinase A
+and its role in learning. Neuron 11, 197-208.
+Stock, A. M., Martinez-Hackert, E., Rasmussen, B. F., West, A. H., Stock,
+J. B., Ringe, D. and Petsko, G. A. (1993). Structure of the Mg(2+)-bound
+form of CheY and mechanism of phosphoryl transfer in bacterial
+chemotaxis. Biochemistry 32, 13375-13380.
+Taylor, S. S., Buechler, J. A. and Yonemoto, W. (1990). cAMP-dependent
+protein kinase: framework for a diverse family of regulatory enzymes. Annu.
+Rev. Biochem. 9, 971-1005.
+Tsang, A. S. and Coukell, M. B. (1977). The regulation of cyclic AMPphosphodiesterase and its specific inhibitor of cyclic AMP in Dictyostelium.
+Cell Differentiation 6, 75-84.
+van Es, S., Virdy, K. J., Pitt, G. S., Meima, M., Sands, T. W., Devreotes,
+P. N., Cotter, D. A. and Schaap, P. (1996). Adenylyl cyclase G, an
+osmosensor controlling germination of Dictyostelium spores. J. Biol. Chem.
+271, 23623-23625.
+Wang, B. and Kuspa, A. (1997). Over-expression of the cAMP-dependent
+protein kinase PKA-C bypasses the requirement for cAMP signaling during
+Dictyostelium development. Science 277, 251-254..
+Wang, N., Shaulsky, G., Escalante, R. and Loomis, W. F. (1996). A twocomponent histidine kinase gene that functions in Dictyostelium
+development. EMBO J. 15, 3890-3898.
+Yang, S., Fletcher, W. H. and Johnson, D. A. (1995). Regulation of cAMPdependent protein kinase: enzyme activation without dissociation.
+Biochemistry 34, 6267-6271.
+Zhukovskaya, N., Early, A., Kawata, T., Abe, T. and Williams, J. (1996).
+cAMP-dependent protein kinase is required for the expression of a gene
+specifically expressed in Dictyostelium prestalk cells. Dev. Biol. 179,
+27-40.
+
+

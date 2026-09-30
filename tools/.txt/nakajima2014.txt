@@ -1,0 +1,3016 @@
+ARTICLE
+Received 17 Mar 2014 | Accepted 25 Sep 2014 | Published 6 Nov 2014
+
+DOI: 10.1038/ncomms6367
+
+OPEN
+
+Rectiﬁed directional sensing in long-range
+cell migration
+Akihiko Nakajima1,2, Shuji Ishihara1,2,3, Daisuke Imoto1 & Satoshi Sawai1,2,4
+
+How spatial and temporal information are integrated to determine the direction of cell
+migration remains poorly understood. Here, by precise microﬂuidics emulation of dynamic
+chemoattractant waves, we demonstrate that, in Dictyostelium, directional movement as well
+as activation of small guanosine triphosphatase Ras at the leading edge is suppressed when
+the chemoattractant concentration is decreasing over time. This ‘rectiﬁcation’ of directional
+sensing occurs only at an intermediate range of wave speed and does not require phosphoinositide-3-kinase or F-actin. From modelling analysis, we show that rectiﬁcation arises
+naturally in a single-layered incoherent feedforward circuit with zero-order ultrasensitivity.
+The required stimulus time-window predicts B5 s transient for directional sensing response
+close to Ras activation and inhibitor diffusion typical for protein in the cytosol. We suggest
+that the ability of Dictyostelium cells to move only in the wavefront is closely associated with
+rectiﬁcation of adaptive response combined with local activation and global inhibition.
+
+1 Department of Basic Science, Graduate School of Arts and Sciences, University of Tokyo, Tokyo 153-8902, Japan. 2 Research Center for Complex Systems Biology,
+University of Tokyo, Tokyo 153-8902, Japan. 3 Department of Physics, School of Science and Technology, Meiji University, Kawasaki 214-8571, Japan. 4 PRESTO,
+Japan Science and Technology Agency, Kawaguchi-shi, Saitama 332-0012, Japan. Correspondence and requests for materials should be addressed to S.S. (email:
+cssawai@mail.ecc.u-tokyo.ac.jp).
+
+NATURE COMMUNICATIONS | 5:5367 | DOI: 10.1038/ncomms6367 | www.nature.com/naturecommunications
+
+& 2014 Macmillan Publishers Limited. All rights reserved.
+
+1
+
+ARTICLE
+
+L
+
+NATURE COMMUNICATIONS | DOI: 10.1038/ncomms6367
+
+ong-range directional cell migration during embryonic
+development1,2 and wound-healing3 is directed by
+gradients of attractant cues that are often dynamic and
+self-enhancing4,5. In Dictyostelium and neutrophils, localized
+activation of small guanosine triphosphatases (GTPases) and
+their downstream effectors such as phosphoinositide-3-kinase
+(PI3K) recruit signalling molecules at the cell cortex to form the
+leading edge6,7. It is widely accepted that cells sense direction by
+comparing the attractant concentrations across the cell body8.
+Such spatial sensing, however, constitutes a challenge in longrange migration, because the attractant gradient must be
+sustained over long distances, and the cells must be able to
+sense a wide range of gradient steepness in the background of
+various mean concentrations. Aggregation of Dictyostelium
+discoideum appears to have partly solved this problem by selfenhancing cell-to-cell relay of chemoattractant cyclic AMP
+(cAMP) in the form of non-dissipating waves. However,
+because gradient reverses during the wave passage, it remains
+unclear how cells avoid futile back-and-forth movement9–11. This
+is the so-called ‘back-of-the-wave’ problem in Dictyostelium cell
+aggregation.
+Chemotaxis of D. discoideum amoebae is mediated by
+G-protein coupled receptor signalling with multiple redundant
+pathways; target of rapamycin complex 2 (TORC2), PI3K,
+phospholipase A2 and guanylyl cyclases7,12. Localized activation
+of the small GTPase Ras at the leading edge of migrating cells
+constitute one of the earliest events of the symmetry breaking13.
+The null-mutants of Gbeta display no chemotaxis14, and Ras
+activation is completely abolished15. Multiple guaninenucleotide-exchange factors (GEFs) and GTPase-activating
+proteins (GAPs) that regulate conversion between the GTPand guanosine diphosphate-bound form of Ras have been
+identiﬁed15–18. While heterotrimeric G protein is activated nonadaptively as evidenced by the persistent dissociation between
+Gbeta and Galpha subunit19, activation of Ras13 as well as their
+downstream targets such as PI3K13 are adaptive, meaning their
+activities return to the pre-stimulus level under spatially uniform
+persistent stimulation. The two protein kinase B isoforms in
+Dictyostelium are regulated by TORC2 and PI3K17,20,21, and their
+null-mutants are heavily impaired in their chemotactic ability22.
+Protein kinases B suggest possible links to cell motility as their
+targets include Talin, RhoGAPs and PI5kinase20. While cells
+genetically and pharmacologically suppressed entirely of TORC2,
+PI3K, PLA and guanylyl cyclases are heavily impaired in
+chemotaxis, Ras activation was intact12. Taken together with
+the fact that rasC  cells expressing the dominant-negative form
+of RasG is strongly impaired in chemotaxis15, heterotrimeric
+G-protein and its downstream Ras activation are thought to form
+the basis of symmetry breaking in Dictyostelium
+chemotaxis12,13,15. However, since most studies are conducted
+in a stationary gradient or abrupt application of gradient using a
+micropipette, how their dynamics are dictated by temporally
+varying gradients remains poorly understood.
+Since the stimulus experienced by the aggregating cells in vivo
+is in the simplest form of near sinusoidal wave, the Dictyostelium
+system serves as an ideal model to dissect how migrating cells in
+general process dynamically changing gradient information of
+more complexities. Two main hypotheses have been proposed to
+resolve the ‘back-of-the-wave’ problem. The most prevalent idea
+is that the cells become insensitive for a certain time period after
+exposure to the stimulus9–11,23. The molecular circuitry of
+chemotaxis and motility in Dictyostelium includes excitatory
+feedback modules24–27, thus in theory, refractoriness associated
+with the excitability can explain the directional movement in the
+travelling wave stimulus27. However, single-cell level assays of
+localized phosphatidylinositol (3,4,5)-trisphosphate (PIP3)
+2
+
+synthesis28, chemotactic cell movement29 as well as tracking of
+isolated cells in the vicinity of aggregating streams30 showed no
+evidence for refractoriness in directional sensing.
+Alternatively, cells may be employing a mechanism that
+discriminates temporally increasing and decreasing chemoattractant concentrations. Perfusion studies have shown that cell
+motility increases in spatially uniform and temporally increasing
+cAMP concentrations, however, not in decreasing cAMP
+concentrations31. While such a property suggests cell movement
+should slow down in the waveback, it was not clear why the cells
+did not reorient31. Earlier works that further addressed this
+problem by studying chemotaxis in temporally changing cAMP
+gradients yielded conﬂicting results32–35. While some works32,36
+indicated that cells ascend the concentration gradient irrespective
+of the temporal change, others33–35,37 suggested that chemotaxis
+was suppressed when the cAMP concentration was decreasing in
+time. Controlling the gradients in time using a pressurized point
+source requires skilled manoeuvering of the micropipette18,28,32.
+Approaches using gradient chambers are also subjected to trialto-trial variations, as they are based on passive diffusion in
+conjunction with either concentration changes at the source34,35,
+enzymatic degradation33 or manual positioning of attractant
+reservoirs36. The apparent discrepancies between these earlier
+works may have arisen from the fact that the basal levels and the
+gradient proﬁles were not fully deﬁned, much less their time
+constants.
+Recent advances in microﬂuidics have seen techniques that
+allow more accurate and rapid control of concentration gradients
+in time and space38,39. Continuously applied ﬂow of attractant in
+combination with Percoll density gradients40 supports
+mechanically stable concentration gradients that can be
+monotonically increased or decreased in time, however,
+gradient reversal is difﬁcult by design. The dual-layer pyramidal
+mixer41 does allow orientation reversal, however, not without
+introducing unwanted transients. These approaches are not easily
+compatible with the travelling wave stimulus, where precise
+displacement of a set of continuous up and down gradients is
+required. More recently, laminar ﬂows from three independent
+inlets were combined and focused to generate gradients that could
+be varied continuously in time39. Unlike other techniques
+described above, gradient generation based on ﬂow-focusing
+supports continuously changing gradients with ﬁnely controlled
+time constants and concentration range. In this study, we extend
+the ﬂow-focusing approach to create bell-shaped gradients that
+can be displaced continuously in space to emulate travelling wave
+stimulus. By combining quantitative live-cell imaging analysis
+and dynamically controlled gradients, we elucidate how spatiotemporal information of the extracellular chemoattractant
+concentrations is encoded at the level of Ras activation.
+Furthermore, from mathematical analysis, we explore how an
+adaptive feedforward network can implement a rectifying circuit
+that ﬁlters out input signals based on temporal information.
+Results
+Cell movement in cAMP waves in vivo and in vitro. The relation
+between the cAMP waves and cell movement has been conventionally estimated from the periodic changes in the light
+scattering caused by the cell-shape change9,30. Because such
+analyses failed to separate changes in cell motility and the
+chemoattractant concentrations, we ﬁrst revisited this aspect by
+employing a more direct measurement of cAMP. The oscillations
+of intra- and extracellular cAMP concentrations occur
+synchronously42, and the changes in the level of intracellular
+cAMP serve as a good indicator of the cAMP-induced cAMP
+relay in the chemoattractant ﬁeld43. Figure 1a shows a snapshot
+
+NATURE COMMUNICATIONS | 5:5367 | DOI: 10.1038/ncomms6367 | www.nature.com/naturecommunications
+
+& 2014 Macmillan Publishers Limited. All rights reserved.
+
+ARTICLE
+
+NATURE COMMUNICATIONS | DOI: 10.1038/ncomms6367
+
+25
+
+0.04
+
+20
+
+0.03
+
+Normalized I485/I540 (a.u.)
+
+Displacement (μm)
+
+Wave propagation
+
+15
+0.02
+10
+0.01
+
+5
+
+0
+
+0
+0
+
+2
+4
+6
+Time (min)
+
+8
+
+Displacement (μm)
+
+25
+
+0.8
+
+20
+
+0.6
+
+15
+0.4
+
+10
+
+0.2
+
+5
+0
+
+cAMP level (μM)
+
+7 min/Lp
+
+Wave propagation
+
+0
+
+–5
+–1 0 1 2 3 4 5 6 7
+Time (min)
+
+1 min/Lp
+
+0.8
+0.6
+
+15
+0.4
+
+10
+
+0.2
+
+5
+0
+
+6
+
+0
+
+–5
+–0.5 0.0 0.5 1.0 1.5
+Time (min)
+26 min/Lp
+
+0.8
+
+50
+
+0.6
+
+40
+30
+
+0.4
+
+20
+0.2
+
+10
+0
+
+cAMP level (μM)
+
+Displacement (μm)
+
+60
+
+4
+Mean displacement
+per minute (μm min–1)
+
+20
+
+cAMP level (μM)
+
+Displacement (μm)
+
+25
+
+0
+
+2
+
+0
+
+–2
+
+–4
+
+–6
+1
+
+10
+Wave transit time (min/Lp)
+
+No gradient
+
+–10
+0
+
+5 10 15 20 25
+Time (min)
+
+Figure 1 | Chemotaxis in natural and artiﬁcial travelling waves of the chemoattractant cAMP. (a,b) cAMP waves and cell movement in the aggregation
+ﬁeld. A frame-subtracted image of cytosolic cAMP (a, green; Epac1-camps43,66) and a fraction of cells co-expressing RFP for cell tracking (a; magenta)
+(see Methods). Cell contours (b; left panel) and cell displacements (right panel; n ¼ 7). Colours (left panel) represent the phase of cAMP waves (right
+panel). (c) A snapshot of an imposed wave (c, green; ﬂuorescein) and cells (c; magenta). A schematic of the infusing ﬂows (c; inset). (d–f) Cell
+displacements towards the cAMP pulse of 7 min per Lp (d, n ¼ 21), 1 min per Lp (e, n ¼ 16) and 26 min per Lp (f, n ¼ 6) duration. Time t ¼ 0 indicates
+the point at which the stimulus concentration exceeded a threshold (0.01% of the maximum) (see Methods). (g) Average velocity of cell migration
+parallel to the direction of wave propagation (g, n ¼ 199; blue). The velocity is positive in the direction against the incoming wave. The average cell velocity
+orthogonal to the propagating direction (g; red; control). The average from 4-min mock ﬂuorescein waves (in the absence of cAMP (n ¼ 10) and
+1 nM spatially uniform background cAMP (n ¼ 39)) (g, no gradient). Error bars indicate s.e.m. Scale bars; 50 mm (a,c) and 20 mm (b,d).
+
+of the cAMP waves and cell migration in the aggregation ﬁeld
+(Supplementary Movie 1). Cells moved directionally in the
+wavefront, however, no reverse movement was observed in the
+waveback (Fig. 1b). Thus the ‘wave paradox’9–11 remains in
+deﬁance to the gradient-sensing paradigm, which nonetheless
+
+bases its claim on many other experimental observations in
+Dictyostelium44.
+To test whether the rectiﬁed motion originates from hidden
+cues such as asymmetry in the proﬁle of extracellular cAMP
+concentrations, cell–cell contacts or other cofactors known to
+
+NATURE COMMUNICATIONS | 5:5367 | DOI: 10.1038/ncomms6367 | www.nature.com/naturecommunications
+
+& 2014 Macmillan Publishers Limited. All rights reserved.
+
+3
+
+ARTICLE
+
+NATURE COMMUNICATIONS | DOI: 10.1038/ncomms6367
+
+affect chemotaxis45,46, we studied isolated cells under artiﬁcially
+generated cAMP waves. Waves of a size similar to natural waves
+(Lp ¼ 850 mm in width) that are spatially symmetric were
+generated by ﬂow-focusing in a microﬂuidic channel39 (Fig. 1c;
+Supplementary Fig. 1). When cAMP waves were applied at a
+period of 7 min per Lp, cells migrated directionally towards the
+incoming waves (Fig. 1d, see also Supplementary Movie 2) just as
+they would in the aggregation ﬁeld. The speed of cell migration
+increased in the wavefront and reached 7 mm min  1 comparable
+to that during the early stage of cell aggregation (Supplementary
+Fig. 2). For fast waves (o2 min per Lp), no migration was
+observed (Fig. 1e). For slow waves (410 min per Lp), cells ﬁrst
+moved towards the incoming wave but then reversed their
+migratory direction in the waveback (Fig. 1f). As summarized in
+Fig. 1g, cells migrated directionally towards the incoming waves
+only when the transit time was between 3 and 10 min per Lp,
+which overlaps well with the time period of the native cAMP
+waves47,48. These observations indicate that the rectiﬁed
+movement is not absolute and that the temporal-scale rather
+than the spatial asymmetry of the wave is critical. Interestingly,
+for slow waves, the mean displacement became negative most
+likely due to the ‘Doppler’ effect (see Supplementary Note; see
+also Supplementary Fig. 6).
+Ras activation in dynamically changing gradients. To gain
+insights on the selective movement towards the cAMP wave,
+directional sensing under a single pulsatile wave was quantiﬁed by
+monitoring translocation of ﬂuorescent protein fused to a Rasbinding domain (RBD), which binds to the activated form of
+Ras12,13,49,50 (Fig. 2a–c). For transit time of o2 min per Lp,
+translocation of RBD to the plasma membrane occurred
+uniformly (Fig. 2d,e). For passage time of 7 min per Lp, RBD
+translocated only towards the side facing higher cAMP
+concentrations during the ﬁrst 2 min (Fig. 2f,g; Supplementary
+Movie 3). During the following 5 min while the level of
+membrane-bound RBD returned to the pre-stimulus level, there
+was no reversal in the RBD distribution. For slow waves, RBD
+localized in the direction facing higher cAMP concentrations
+both in the wavefront and the waveback (Fig. 2h), consistent with
+the reversed cell movement in the waveback (Fig. 1f).
+To delineate possible mechanisms of rectiﬁed movement, we
+carried out a systematic survey on Ras activation (RBD
+translocation) and cell movement under all possible combinations
+of sign in the space and the time derivatives (Fig. 3). First,
+temporally increasing (Fig. 3a,b) or decreasing (Fig. 3e,f) spatial
+gradients were imposed by moving a gradient at a constant speed.
+As expected, in temporally increasing spatial gradients, Ras was
+activated at the cell edge facing the higher concentrations of
+cAMP (Fig. 3c), and cells migrated accordingly (Fig. 3d). In
+contrast, no Ras activation (Fig. 3g) nor directional cell migration
+(Fig. 3h) was detected in temporally decreasing gradients. Unlike
+the back of the travelling wave that cannot be experienced
+without ﬁrst being exposed to the wavefront, here the cells were
+ﬁrst allowed to fully adapt to spatially uniform cAMP
+concentrations (45 min) before experiencing the gradient. Thus
+suppression of directional sensing appears not to require history
+of the past gradient and cell polarity.
+The importance of temporal information was further vindicated by the ‘inverse wave’ (Fig. 3i,j), where the signs in space and
+time derivatives were inverted with respect to the normal wave.
+Again, there was no Ras activation (Fig. 3k) and no net cell
+movement (Fig. 3l) in the temporally decreasing gradient. Not
+until the cAMP concentrations started to increase in the second
+slope (Fig. 3k,l; t42.6 min), did Ras activation (Fig. 3k) and cell
+migration (Fig. 3l) become detectable. Moreover, when the
+4
+
+temporal gradient was reversed by retreating the inverse wave
+while retaining the orientation of the spatial gradient (Fig. 3m,n),
+directional sensing at the level of Ras and cell movement were
+again suppressed (Fig. 3o,p; non-shaded time-windows).
+Although there was slight retention of directional movement
+(Fig. 3p; see also Fig. 1d) and Ras activity (Fig. 3c) after the rising
+phase, Ras activity was never sustained under temporally
+decreasing gradients (Fig. 3o; see also Fig. 2g). Furthermore,
+although treatment with the PI3K inhibitor LY294002 (LY)
+diminished the peak amplitude of the response, it had minimal
+effect on the selectivity of the response to temporally increasing
+gradients (Fig. 4a,b; Supplementary Fig. 3a–f). Similarly, in cells
+immobilized by Latrunculin A treatment, although suppression of
+Ras activation at the rear of the cells became less prominent, the
+response itself was still selectively observed for temporally
+increasing stimuli (Fig. 4c,d; Supplementary Fig. 3g–j), suggesting
+that the downstream excitable feedback circuit25,26,51 is not
+necessary for the rectiﬁcation. These observations further indicate
+that the transient response is suppressed for temporally
+decreasing mean concentrations of the chemoattractant31,33 and
+that this occurs at the level of or upstream of Ras.
+We should note that there appears to be an additional effect
+from cell memory as evidenced by extended cell migration in the
+wake of wave stimulation (Fig. 1d right panel t43 min).
+Interestingly, there was almost no detectable RBD translocation
+during the later phase of this movement (Fig. 1d t45 min),
+indicating that, once established, polarity can be maintained in
+the absence of marked Ras activation. To test whether such
+memory effect plays a role in the suppression of directional
+sensing, we studied travelling wave stimuli with elevated background levels of cAMP (Fig. 5a–h). Under such conditions, there
+was marked cell polarization and movement in random direction
+prior to gradient exposure. As soon as the cells were exposed to
+the rising wavefront, RBD localized to the side facing the higher
+concentrations of cAMP, and cells reoriented and moved in the
+correct ascending direction. Because travelling wave stimulus on
+top of 10-nM background cAMP still elicited the rectiﬁed
+response (Fig. 5e–h), lack of gradient sensing in the decreasing
+gradient of the inverse wave down from 10 nM cAMP (Fig. 5i–l;
+to2.4 min) is difﬁcult to explain by the memory effect of absolute
+cAMP concentrations. These results further demonstrate that
+temporal increase in the chemoattractant concentrations is
+essential for Ras activation and reorientation.
+Rectiﬁed response in a directional sensing model. Many of the
+essential properties of directional sensing and the adaptive Ras
+activation have been understood from the framework of the socalled local excitation global inhibition (LEGI) model52 and its
+variants44,50,53 (Fig. 6a). A detailed modelling has been proposed
+that maps this scheme primary to the regulation of Ras between
+its GTP- and guanosine diphosphate-bound forms50. The basic
+LEGI framework assumes two mediators; activator ‘A’ and
+inhibitor ‘I’ of the output R. ‘A’ and ‘I’ are both positively
+regulated by the input signal ‘S’. For spatially uniform input, the
+model is described by the following equations:
+dAðtÞ
+¼ ka S  ga AðtÞ þ ya
+dt
+dIðtÞ
+¼ ki S  gi IðtÞ þ yi
+dt
+dRðtÞ
+¼ AðtÞFðRÞ  IðtÞGðRÞ
+dt
+
+ð1Þ
+
+where F(R) and G(R) are functions shown in Fig. 6a (yellow box;
+basic LEGI). In the ﬁrst and second equations, ka, ki and ga, gi
+determine the rate of increase and decrease of the activator ‘A’
+
+NATURE COMMUNICATIONS | 5:5367 | DOI: 10.1038/ncomms6367 | www.nature.com/naturecommunications
+
+& 2014 Macmillan Publishers Limited. All rights reserved.
+
+ARTICLE
+
+1
+0
+
+J −mem(t )
+
+0.0
+
+–1
+1
+0
+–1
+Time
+
+J +mem(t )
+
+−
+J +mem(t )
+
+2.0
+Imem(θ, t)
+
+4.0
+
+−
+
+6.0
+
+Wavefront
+
+θ
++
+
+7 min/Lp
+
+Wavefront
+
+lcyt (t )
+
+{i 0<i <}
+
+sin i
+
+lmem (i, t )
+
+1
+N
+
+0.4
+
+J+mem (positive side)
+J −mem (negative side)
+0.8
+
+lcyt (t )
+
+{i <i <2}
+
+0.3
+
+0.6
+
+0.2
+
+0.4
+
+0.1
+
+0.2
+
+0
+
+sin i
+
+2
+
+2
+
+
+0
+–0.1
+–0.5 0.0 0.5 1.0 1.5
+Time (min)
+0.4
+
+0.8
+
+0.3
+
+0.6
+
+0.2
+0.1
+
+0.4
+0.2
+
+0
+0
+–0.1
+–1 0 1 2 3 4 5 6 7
+Time (min)
+
+Waveback
+
+26 min/Lp
+
+Before stimulus
+
+lmem (i, t )
+
+Waveback
+Ras activation, J +mem, J −mem
+
+Wavefront
+
+1
+N
+
+J –mem(t )
+
+Waveback
+
+1 min/Lp
+
+Before stimulus
+
++
+
+Icyt(t)
+
+Ras activation, J +mem, J −mem
+
+Before stimulus
+
+t
+
+cAMP level (μM)
+
+Position (μm)
+−500
+0
+500
+
+−/−
+
+cAMP level (μM)
+
++
+
++/+
+
+Time (min)
+
+−
+
+Temporal
+Spatial
+gradient (a.u.) gradient (a.u.)
+
+Travelling wave
+
+NATURE COMMUNICATIONS | DOI: 10.1038/ncomms6367
+
+Figure 2 | Ras response in the travelling wave stimulus is time dependent. (a,b) Propagating wave stimulus. (c) A schematic of quantiﬁcation of RBD
+membrane localization (see Methods for details). (d–h) RBD translocation during the travelling wave stimulus; transit time 1 min per LP (d,e), 7 min per LP
+(f,g) and 26 min per LP (h). Representative confocal images of spatially localized Ras activity (RFP-RBD; magenta) induced by the artiﬁcial cAMP
+wave stimuli (ﬂuorescein; green) (d,f,h). Time series of RBD translocation to the positive side (blue) and the negative side (orange) (e,g). Time t ¼ 0
+indicates the point at which the stimulus concentration exceeded a threshold (0.01% of the maximum). A half side of the cell boundary facing the
+right-hand side of the chamber was deﬁned as the positive side (see Methods). For the wave stimulus of 26 min per LP transit time, active cell movement in
+the z axis direction prevented us from obtaining reliable time series. Data are averages over n ¼ 16 (e) and 21 (g)±s.e.m. (error bars). Scale bar, 10 mm.
+
+and the inhibitor ‘I’ molecules, respectively. ya and yi are basal
+activation rates that determine imperfectness of adaptation.
+Because we observed that adaptation of RBD translocation was
+slightly imperfect (Supplementary Fig. 4), here ya and yi are
+assumed to be small but non-zero. The ﬁrst and second terms in
+the third equation describe activation and deactivation of R by A
+and I, respectively. Upon spatially uniform increase in ‘S’, due to a
+higher rate of activation, there would be a transient rise in the
+output ‘R’ followed by its return to the pre-stimulus level by the
+action of the inhibitor ‘I’ (Supplementary Fig. 5a). Thus the model
+describes well the adaptive ‘temporal sensing’ property of the
+chemotactic response to spatially uniform stimuli. The other
+essential feature of the LEGI scheme is that the inhibitor ‘I’
+
+diffuses fast and acts globally. Thus, for a stationary gradient
+stimulus, while the activator level mirrors the local receptor
+occupancy, the inhibitor level traces its average. Consequently,
+the ratio Q ¼ A/I, which dictates the output R, would always
+transmit the relative difference in the input signal S from the
+background (Supplementary Note; see also Supplementary
+Fig. 5b). From this ‘spatial sensing’ property, intracellular
+gradient of the ratio Q within the cell faithfully mirrors
+the applied attractant gradient irrespective of the temporal
+change. Although a possible resolution to the ‘wave paradox’
+may be provided for rapidly changing signals where the response
+transients could signiﬁcantly deviate from the stationary state, the
+basic LEGI scheme nevertheless predicts symmetric responses in
+
+NATURE COMMUNICATIONS | 5:5367 | DOI: 10.1038/ncomms6367 | www.nature.com/naturecommunications
+
+& 2014 Macmillan Publishers Limited. All rights reserved.
+
+5
+
+ARTICLE
+
+–1
+
+Temporally decreasing gradient
++/−
+1
+
+Position (μm)
+−500
+0
+500
+–1.0
+
++
+
+Time (min)
+
+0
+−
+
+–1
+1
+0
+
+0.0
+1.0
+2.0
+
+–0.1
+–1
+
+Time
+
+5
+0
+–5
+–1
+
+0
+1
+2
+Time (min)
+
+1.2
+1
+0.8
+0.6
+0.4
+0.2
+0
+–0.2
+
+3
+
+Decreasing gradient
+0.4
+
+1.2
+1
+0.8
+0.6
+0.4
+0.2
+0
+–0.2
+
+0.3
+0.2
+0.1
+0
+
+–0.1
+–1
+
+3.0
+
+–1
+
+0
+
+Ras activation, J +mem, J −mem
+
+Time
+
+0.1
+
+10
+
+cAMP level (μM)
+
+3.0
+
+0.2
+
+1.2
+1
+0.8
+0.6
+0.4
+0.2
+0
+–0.2
+
+cAMP level (μM)
+
+2.0
+
+0
+
+15
+Displacement (μm)
+
+1.0
+
+0.3
+
+0
+1
+2
+Time (min)
+
+15
+Displacement (μm)
+
+0.0
+
+Increasing gradient
+
+cAMP level (μM)
+
+0
+–1
+1
+
+0.4
+
+J +mem (positive side)
+J −mem (negative side)
+1.2
+1
+0.8
+0.6
+0.4
+0.2
+0
+–0.2
+0
+1
+2
+3
+Time (min)
+
+cAMP level (μM)
+
++
+
+Position (μm)
+−500
+0
+500
+–1.0
+Time (min)
+
+−
+
+Spatial
+Temporal
+gradient(a.u.) gradient (a.u.)
+
+Temporally increasing gradient
++/+
+1
+
+Ras activation, J +mem, J −mem
+
+NATURE COMMUNICATIONS | DOI: 10.1038/ncomms6367
+
+10
+5
+0
+–5
+–1
+
+3
+
+0
+1
+2
+Time (min)
+
+3
+
+–1
+
+4.0
+6.0
+
+Time
+
+0.6
+
+0.1
+
+0.4
+0.2
+
+0
+
+0
+
+–0.1
+–1 0 1 2 3 4 5 6
+Time (min)
+
+0
+–1
+1
+0
+–1
+Time
+
+2.0
+4.0
+6.0
+
+0.25
+0.2
+0.15
+0.1
+0.05
+0
+–0.05
+–0.1
+
+0.35
+0.3
+0.25
+0.2
+0.15
+0.1
+0.05
+0
+–0.05
+
+cAMP level (μM)
+
++
+
+Time (min)
+
+−
+
+Position (μm)
+−750
+0
+750
+0.0
+
+Ras activation, J +mem, J −mem
+
++/+ +/− −/+ −/−
+1
+
++/+ +/– −/+ −/–
+0 1 2 3 4 5 6
+Time (min)
+
+1
+
+20
+
+0.8
+
+15
+
+0.6
+
+10
+
+0.4
+
+5
+
+0.2
+
+0
+–5
+–1 0 1 2 3 4 5 6
+Time (min)
+
+Increasing
+gradient
+Alternating gradint
+
+25
+
++/–
+
+10
+5
+0
+–5
+
+−/+
+
+0
+
+Decreasing
+gradient
+15
+
++/+
+
+cAMP level (μM)
+
+0
+
+2.0
+
+0.8
+
+0.2
+
+Increasing
+gradient
+
+−/–
+
++/+ +/– −/+ −/–
+
+0.35
+0.3
+0.25
+0.2
+0.15
+0.1
+0.05
+0
+–0.05
+
+cAMP level (μM)
+
+–1
+1
+
+0.0
+
+Decreasing
+gradient
+
+1
+
+Displacement (μm)
+
+0
+
++
+
+Time (min)
+
+−
+
+0.3
+
+Displacement (μm)
+
+Position (μm)
+−500
+0
+500
+
++/+
+
+cAMP level (μM)
+
+−/−
+1
+
+Ras activation, J +mem, J −mem
+
+‘Inverse’ traveling wave
+
+0 1 2 3 4 5 6
+Time (min)
+
+Figure 3 | Chemotaxis and directional sensing in dynamically changing gradients are rectiﬁed by temporal information. (a–d) Temporally increasing
+gradient. (e–h) Temporally decreasing gradient. (i–l) Inverse wave. (m–p) Alternating gradient. The sign of the space (blue)/time (grey) derivatives
+of the stimulus are indicated by ‘ þ ’ and ‘  ’ (o,p). Schematics (a,e,i,m), and the space–time plot (b,f,j,n) of the stimulus. RBD localization in the positive
+and negative direction (c,g,k,o; left panel; blue and orange) and representative confocal images (c,g,k,o; right panels). Cell displacement (d,h,l,p; magenta).
+Time series of the extracellular cAMP level (c,d,g,h,k,l,o,p; green). Time t ¼ 0 indicates the point at which the stimulus concentration was above
+(c,d) or below (g,h,k,l) a threshold (0.01% of the maximum for c and d; 99.5% for g, h, k and l). Data were averages over n ¼ 13 (c,d), 22 (g,h), 21 (k,l) and
+6 (o,p) cells. Error bars indicate s.e.m. Scale bar, 10 mm.
+
+both wavefront and waveback (Fig. 6b; see Methods for
+equations). How would the discrepancy between the model
+prediction and the observed rectiﬁcation be resolved?
+As a natural extension of the basic LEGI model, let us examine
+a case where the kinetics F(R) and G(R) follow the Michaelis–
+Menten form54 (Fig. 6a; cyan box) thereby equipping the LEGI
+circuit with an ultrasensitive transfer function55 (Fig. 6c; see also
+Supplementary Fig. 5k; Supplementary Note for analysis). The
+output response predicted from the model are now largely
+consistent with the observed Ras response for the travelling wave
+stimulus (Fig. 6d,e) as well as monotonically changing gradients
+(Fig. 6f–i), inverse waves (Fig. 6j,k) and alternating gradients
+(Fig. 6l,m). Owing to simplicity of the ultrasensitive model, the
+basis of rectiﬁcation can be well described by the response to
+6
+
+uniform stimulation. The basic LEGI model predicts a strong
+undershooting response for a spatially uniform and temporally
+decreasing stimulus (Supplementary Fig. 5a–c; refs 50,52). In
+contrast, the ultrasensitive LEGI circuit does not respond to the
+temporally decreasing stimulus (Fig. 7a cyan; Supplementary
+Fig. 5d–f) due to strong suppression at work in the zero-order
+regime. This is in accordance with the observed changes in the
+level of membrane-bound RBD to increase and decrease in
+spatially uniform cAMP concentrations (Supplementary Fig. 4a;
+see also Fig. 7b cyan). Immediately after the release from the
+prolonged exposure to spatially uniform cAMP concentrations,
+Ras activity quickly recovered the pre-stimulus level without an
+undershoot (Supplementary Fig. 4a). Together with the apparent
+absence of membrane-bound RBD prior to stimulation
+
+NATURE COMMUNICATIONS | 5:5367 | DOI: 10.1038/ncomms6367 | www.nature.com/naturecommunications
+
+& 2014 Macmillan Publishers Limited. All rights reserved.
+
+ARTICLE
+
+NATURE COMMUNICATIONS | DOI: 10.1038/ncomms6367
+
+Waveback
+
+Ras activation, J +mem, J −mem
+
+LY294002
+
+Wavefront
+
+Latrunculin A
+
+Before stimulus
+
+0.4
+
+J +mem (positive side)
+J −mem (negative side)
+0.8
+
+0.3
+
+0.6
+
+0.2
+
+0.4
+
+0.1
+
+0.2
+
+0
+
+0
+
+cAMP level (μM)
+
+Waveback
+
+–0.1
+–1 0 1 2 3 4 5 6 7
+Time (min)
+
+0.4
+
+0.8
+
+0.3
+
+0.6
+
+0.2
+
+0.4
+
+0.1
+
+0.2
+
+0
+
+0
+
+cAMP level (μM)
+
+Wavefront
+
+Ras activation, J +mem, J −mem
+
+Before stimulus
+
+–0.1
+–1 0 1 2 3 4 5 6 7
+Time (min)
+
+Figure 4 | The rectiﬁed Ras response does not require feedback from downstream PI3K/F-actin signaling. (a–d) RBD translocation to 7 min per LP wave
+stimulus in pharmacologically treated cells; 50 mM LY294002 (a,b) and 5 mM Latrunculin A (c,d). Representative confocal images of Ras activity
+(RFP-RBD; magenta) and the wave stimuli (ﬂuorescein; green) (a,c). Time series of RBD localization at the positive side half (blue) and the negative side half
+(orange) of the cell membrane (b,d). Extracellular cAMP levels (b,d; green). Time t ¼ 0 was deﬁned as the time point at which the stimulus concentration
+exceeded a threshold (0.01% of maximum concentration). Data are averages±s.e.m. (error bars) over n ¼ 10 (b) and 10 (d). Scale bar, 10 mm.
+
+(Fig. 2d,f,h), the results are in line with the perfect shutdown of
+the resting-state response in the ultrasensitive regime.
+The ultrasensitive model reduces to the basic LEGI model in
+the limit of high Michaelis–Menten constants (KI in Fig. 6a),
+therefore predicts an undershooting response to a temporally
+decreasing uniform stimulus (Fig. 7a brown; high KI (KI ¼ 0.1);
+and Supplementary Fig. 5g–j). Consequently, directional sensing
+occurs both in the wavefront and the waveback (Fig. 7c,d), in
+marked contrast to the rectiﬁed response at low KI (Fig. 7e,f). To
+test the model predictions, we took advantage of a high
+occurrence of spontaneous Ras activation in weakly starved cells
+(E40% total cells; Fig. 7b brown; to0 min). In these cells,
+there was a transient undershoot of Ras activity upon release from
+a uniform cAMP stimulus (Fig. 7b, 100–200 s). Moreover, these
+cells sensed the gradient not only in the wavefront but also in the
+waveback (Fig. 7g), hence exhibited back-and-forth movement
+(Fig. 7h). These behaviours are in striking contrast to the more
+asymmetric response observed for weakly starved cells without
+spontaneous RBD localization (Fig. 7b cyan; Fig. 7i,j).
+Model prediction of the essential parameters. The origin of the
+timescale dependence (Figs 1g and 2) can be identiﬁed by
+analysing the behaviour of the ultrasensitive LEGI circuit in
+moving gradients (Fig. 8; see also Supplementary Fig. 6 for
+travelling wave stimulus). For low KI (KI ¼ 0.01), we see that the
+response can be classiﬁed qualitatively into three regimes
+depending on the propagation velocity VS (Fig. 8). When VS is
+large (VS ¼ 1,000 mm min  1), there is a spatially uniform increase
+in the output R in temporally increasing gradients (Fig. 8a). In
+contrast, R remains at the basal level in temporally decreasing
+gradients (Fig. 8d). For small VS (VS ¼ 10 mm min  1), the output
+R is always greater on the side facing higher concentrations
+of S irrespective to its time derivative (Fig. 8c,f). At an intermediate signal velocity (VS ¼ 120 mm min  1), the output R
+rises only in the temporally increasing gradients, and this is
+spatially restricted towards the side facing higher concentration
+of S (Fig. 8b,e).
+
+The upper bound of signal velocity provides us with an
+estimate of diffusion constant of the inhibitor ‘I’ independent of
+the model details. In order for a cell to sense the moving gradient
+of the chemoattractant, time required for the inhibitor to spread
+out within a cell (2l)2/2D must be shorter than the time lag of
+signal detection between the two ends of a cell, 2l/VS; l is the cell
+radius (Fig. 6a) and D is the diffusion coefﬁcient of the inhibitor.
+In other words, the inhibitor that initially increased at the cell
+front must immediately diffuse intracellularly and reach the other
+end of a cell before the stimulus does, otherwise the response
+transients would be equal in magnitude between the two ends of
+the cell (see Fig. 8a). Hence, we obtain the upper bound for the
+propagation speed
+
+ D=l
+Vs oVfast
+
+In principle, chemoattractant gradients travelling faster than this
+limit could only be perceived as spatially uniform stimulation.
+From the limit of directional sensing, we obtained
+V*fastE240 mm min  1 (Figs 1g and 2) thus for cell radius l ¼ 7.5
+mm, we estimate the diffusion constant of the inhibitor to be
+approximately DE30 mm2 s  1, which matches well with those
+reported for green ﬂuorescent protein (GFP) and GFP-tagged
+protein in the cytosol56,57. The result is suggestive of an inhibitor
+protein that shuttles between the plasma membrane and the
+cytosol as the higher mobility in the cytosol would dominate its
+diffusion. Although other mechanisms such as tension-based
+global inhibition58 cannot be ruled out, our analysis indicates that
+the diffusion process is sufﬁciently fast to meet the required
+global effect. While the analysis assumed activator diffusion to be
+negligibly small for the sake of mathematical analysis, the
+estimate and the overall model behaviours hold as long as the
+diffusion constant of the activator is more than one order of
+magnitude smaller (r3 mm2 s  1; Supplementary Fig. 7a–c).
+Because membrane-bound protein diffusion falls well within
+this range, it may be that the activator molecule is more strongly
+sequestered to the plasma membrane.
+On the other hand, the lower bound of signal velocity for the
+rectiﬁed migration readily reveals that the pulsatile response is
+
+NATURE COMMUNICATIONS | 5:5367 | DOI: 10.1038/ncomms6367 | www.nature.com/naturecommunications
+
+& 2014 Macmillan Publishers Limited. All rights reserved.
+
+7
+
+ARTICLE
+
+NATURE COMMUNICATIONS | DOI: 10.1038/ncomms6367
+
+25
+
+1.0
+
+0.8
+
+20
+
+0.8
+
+15
+
+0.6
+
+0.6
+0.4
+0.2
+
+0
+
+0
+
+25
+
+1.0
+
+0.8
+
+20
+
+0.8
+
+15
+
+0.6
+
+0.2
+0.6
+0.1
+
+0.4
+0.2
+
+0
+
+cAMP level (μM)
+
+1.0
+Displacement (μm)
+
+Ras activation, J +mem, J −mem
+
+0.3
+
+0.4
+
+5
+
+0.2
+
+0
+0
+–1 0 1 2 3 4 5 6 7
+Time (min)
+
+12
+
+25
+
+12
+
+10
+
+20
+
+10
+
+15
+
+8
+
+10
+
+6
+
+5
+
+4
+
+0
+
+2
+
+0.2
+8
+6
+
+0.1
+
+4
+0
+2
+–0.1
+–1 0 1 2 3 4 5
+Time (min)
+
+0
+
+Displacement (μm)
+
+0.3
+
+Wave propagation
+
+–5
+
+cAMP level (nM)
+
+Inverse wave (maximum cAMP 10 nM)
+Ras activation, J +mem, J −mem
+
+10
+
+0
+–0.1
+–1 0 1 2 3 4 5 6 7
+Time (min)
+
+Increasing gradient
+
+0.2
+
+0
+–5
+–1 0 1 2 3 4 5 6 7
+Time (min)
+
+–1 0 1 2 3 4 5 6 7
+Time (min)
+
+Decreasing gradient
+
+0.4
+
+5
+
+0
+–0.1
+
+Travelling wave (basal cAMP 10 nM)
+Wavefront
+Waveback
+
+10
+
+cAMP level (μM)
+
+0.1
+
+–5
+
+Wave propagation
+cAMP level (nM)
+
+0.2
+
+Wave propagation
+cAMP level (μM)
+
+J +mem (positive side)
+1.0
+0.3 J −
+mem (negative side)
+cAMP level (μM)
+
+Waveback
+
+Ras activation, J +mem, J −mem
+
+Wavefront
+
+Displacement (μm)
+
+Travelling wave (basal cAMP 1 nM)
+
+0
+–1 0 1 2 3 4 5
+Time (min)
+
+Figure 5 | Ras activation and cell migration are rectiﬁed in the normal and inverted travelling wave stimuli with elevated background levels of cAMP.
+(a–h) Time series of the wave stimulus with elevated background levels of cAMP. The basal cAMP levels were 1 nM (a–d) and 10 nM (e–h). (i–l) The
+concentration of inverted wave stimulus was 10 nM at the maximum. Representative confocal images of localized Ras activation (RFP-RBD; magenta) and
+the spatial proﬁle of the cAMP gradients (ﬂuorescein; green) (a,e,i). Time series of RBD localization to the positive side (J þ mem, blue) and the
+negative side (J  mem, orange) (b,f,j), cell displacement (c,g,k; magenta) and contours of representative cells (d,h,l). Extracellular cAMP levels
+(b,c,f,g,j,k; green). Time t ¼ 0 was the time point at which the stimulus concentration was above (b,c,f,g) or below (j,k) a threshold (0.01% of maximum
+concentration for b, c, f and g, and 99.5% for j and k). Colours of cell contours (d,h,l) correspond to the phase of the applied cAMP waves (c,g,k).
+Data plots are averages±s.e.m. (error bars) over n ¼ 19 (b,c), 20 (f,g), 8 (j) and 15 (k) cells. Scale bar, 10 mm (a,e,i) and 20 mm (d,h,l).
+
+essential for directional sensing in dynamically changing
+gradients. In a gradient S(x, t), a cell at the position x ¼ 0 at
+time t experiences S( þ l, t) at the positive end (x ¼ þ l) and
+S(  l, t) at the negative end (x ¼  l). For slowly moving
+gradients (VSoV*fast), the concentrations of the activator and the
+inhibitor at both ends of a cell are approximately
+A±(t)Ega 1kaS(±l, t  ga 1) and I±(t)Egi 1kiSav(t  gi 1).
+Here, Sav(t  gi 1) ¼ [S( þ l, t  gi 1) þ S(  l, t  gi 1)]/2 is the
+spatial average of the input signal. Hence,
+A  ðtÞ
+I  ðtÞ
+
+
+
+qSð  l; t Þ=qt   1
+1 qSð  l; t Þ=qx
+gi  ga 1 
+ð2lÞ
+ Q0 1 þ
+Sð  l; t Þ
+2 Sð  l; t Þ
+
+Q  ðtÞ 
+
+where Q0 ¼ ga 1ka/gi 1ki. The second and the third term
+represents the response in Q± to temporal and spatial changes
+in S, respectively. In the slow limit of propagation speed, that is,
+stationary gradient, the second term vanishes, therefore
+Q  oQ0oQ þ always holds for a positive stationary gradient
+qS(±l, t)/qx40 (Supplementary Fig. 5l). In temporally
+decreasing gradients with non-zero propagation velocity,
+8
+
+qS(±l, t)/qto0 thus again Q  always satisﬁes Q  oQ0. Since
+rectiﬁcation requires that changes in Q  not be conveyed to
+downstream R, Q þ 4Q0 must be satisﬁed in order for a cell to
+sense the gradient direction. By combining these conditions and
+the relationship qS/qt ¼  VS(qS/qx), we arrive at the lower
+bound for the rectiﬁed directional sensing
+l
+
+VS 4Vslow
+ 1
+gi  ga 1
+From our migration assays, V*slowE90 mm min  1 (Fig. 1g) thus
+for a cell radius l ¼ 7.5 mm, we obtain gi 1  ga 1  5ðsÞ, which
+is close to the observed transient of the RBD translocations.
+Although chemotactic response in migratory cells is often
+characterized by the pulsatile response that peaks in the timescale
+of seconds, such as that observed here for Ras activation, its role
+in chemotaxis has not been well deﬁned. The above inequality
+states that the gradient must travel a distance longer than the cell
+size within the time-window of the transient response in R (but
+no faster than the upper bound V*fast). Otherwise, the timewindow would be long enough to support slow relaxation
+dynamics of R to its stationary state (that is, stationary spatial
+
+NATURE COMMUNICATIONS | 5:5367 | DOI: 10.1038/ncomms6367 | www.nature.com/naturecommunications
+
+& 2014 Macmillan Publishers Limited. All rights reserved.
+
+ARTICLE
+
+NATURE COMMUNICATIONS | DOI: 10.1038/ncomms6367
+
+sensing scheme), which does not discriminate temporally
+negative and positive changes in the chemoattractant concentrations. The current analysis corrects the misconception in the ﬁeld
+
+S
+
+Basic LEGI
+
+I
+G(R)
+R
+
+0.4
+
+0.5
+
+0.3
+0.2
+
+A−, I−, R− A+, I+, R+
+
+0.0
+
+–5
+–4
+–3
+–2
+–1
+
+0.1
+
+2.0
+
+R
+
+0.0
+
+1.2
+
+Ultrasensitive LEGI
+1.0
+
+0.5
+0.5
+0.0
+
+–5
+–4
+–3
+–2
+–1
+
+0 1 2 3 4 5
+
+Time (min)
+2.0
+1.5
+
+0.0
+
+1.0
+
+0.5
+
+S
+
+1.0
+0.5
+0.0
+–2
+
+2.0
+
+0.0
+–1
+0
+1
+Time (min)
+
+2
+
+2.0
+1.0
+
+1.5
+1.0
+
+0.5
+
+S
+
+R+, R−
+
+Temporally
+decreasing gradient
+Position (μm)
+−500
+0
+500
+–2.0
+
+S
+
+R+, R−
+
+1.0
+
+0.0
+
+R+, R−
+
+Time (min)
+
+0.4 0.8
+Q=A/I
+
+2.0
+
+1.0
+
+S
+Temporally
+increasing gradient
+Position (μm)
+−500
+0
+500
+–2.0
+
+0.5
+
+0.0
+0.0
+
+0.0
+–2
+
+2.0
+‘Inverse’
+travelling wave
+Position (μm)
+−500
+0
+500
+
+Alternating gradint
+Position (μm)
+−750
+0
+750
+–3.0
+–2.0
+–1.0
+0.0
+1.0
+2.0
+3.0
+
+2
+
+2.0
+1.0
+
+1.0
+0.5
+
+S
+
+R+, R−
+
+1.5
+
+0.5
+0.0
+
+0.0
+–5
+–4
+–3
+–2
+–1
+
+0 1 2 3 4 5
+Time (min)
+1.0
+
+2.0
+1.5
+R+, R−
+
+–3.0
+–2.0
+–1.0
+0.0
+1.0
+2.0
+3.0
+
+–1
+0
+1
+Time (min)
+
+0.5
+
+1.0
+0.5
+0.0
+
++/+ +/− −/+ −/−
+–3 –2 –1 0 1 2 3
+Time (min)
+
+0.0
+
+S
+
+Time (min)
+
+Basic
+LEGI
+
+0.0
+
+1.5
+
+–3.0
+–2.0
+–1.0
+0.0
+1.0
+2.0
+3.0
+0.0
+
+Time (min)
+
+1.0
+0.5
+
+Travelling wave
+Position (μm)
+−500
+0
+500
+
+Time (min)
+
+Ultrasensitive
+LEGI
+
+1.5
+
+R ),
+
+Ultrasensitive LEGI
+Rtot R
+F (R ) kA
+KA
+Rtot R
+R
+G (R ) kl
+Kl R
+
+Time (min)
+
+0 1 2 3 4 5
+
+Time (min)
+
++
+
+−
+x−l x x+l
+Basic LEGI
+F (R ) kA (Rtot
+G (R ) kl R
+
+1.0
+
+0.5
+S
+
+R+, R−
+
+A
+F(R)
+
+R+ (positive side)
+R− (negative side)
+
+0.6
+
+R inactive
+
+that cells must be in a refractory period of chemotactic response
+for a few minutes while they experience the waveback gradient.
+Although refractoriness associated with excitable dynamics could
+explain rectiﬁed movement towards the propagating waves, the
+reported refractory periods are 16.5 s for Ras26 and 30 s for
+PI3K59, which are both too short to explain the lack of
+response in the waveback. The rectiﬁed adaptive sensing
+predicts a spatially localized response transient of a seconds
+timescale, not minutes.
+To summarize, the above analysis clariﬁes the upper and lower
+bounds of the stimulus velocity that supports rectiﬁed directional
+sensing (Fig. 8g,h). In the ultrasensitive regime (low KI),
+for stimulus within the time-window of rectiﬁcation
+(V*slowoVsoV*fast), a large intracellular gradient of R is expected
+for the temporally increasing gradients (Fig. 8g; red curve) while
+it nearly vanishes for temporally decreasing gradients (Fig. 8g;
+cyan curve). In other words, a rectiﬁed sensing circuit implements
+low-pass ﬁlters with different cutoff times for rising and falling
+gradients (see also Supplementary Fig. 6; Supplementary Notes).
+At high KI where rectiﬁed directional sensing becomes compromised (Fig. 7c,d; KI ¼ 0.1, Supplementary Fig. 5g–i), the
+intracellular gradient of R (the ratio R þ /R  ) always takes
+similar values in the rising and falling gradients (Fig. 8h). The
+time dependence is consistent with an earlier observation of cell
+movement in slowly diminishing gradients34 and may explain
+discrepancies between earlier works32,33.
+Discussion
+The present study utilized precise and continuous displacement
+of a pulsatile gradient, thereby faithfully emulating the travelling
+wave stimulus of cAMP experienced in the aggregating ﬁeld of
+cells. We demonstrated that cells are able to exhibit directional
+migration towards the incoming waves as observed in vivo. Cell
+migration in travelling waves of cAMP was indeed rectiﬁed,
+meaning that the cells migrated towards the incoming waves and
+did not reorient in the waveback. To the best of our knowledge,
+this is the ﬁrst clear demonstration of Dictyostelium chemotaxis
+in artiﬁcially generated travelling waves of chemoattractant
+cAMP. Our observations indicate that no asymmetry in the
+gradient steepness between the wavefront and the waveback nor
+cell–cell contact is required for directional migration.
+By generating various forms of dynamic gradients—inverted
+waves, transiently increasing or decreasing gradients, the current
+analysis demonstrated that Ras does not transduce gradient
+information when the mean concentration of cAMP is decreasing
+in the appropriate timescale. One of the key aspects of directional
+Figure 6 | An ultrasensitive LEGI circuit implements rectiﬁcation. (a) A
+schematic of the incoherent feedforward circuit in the LEGI model. Onedimensional space was considered where a cell of length 2l was positioned
+at x ¼ 0 (see Methods for details). Space was discretized and coarsegrained so that variables A, I and R were considered only at the ends of a
+cell; denoted by A þ , A  , I þ , I  , R þ and R  . The ‘ þ ’ and ‘  ’ signs
+indicate the direction in the chamber. (b) Numerical simulations of the
+basic LEGI equation for the travelling wave stimulus. The output in the
+positive side (R þ , blue) and the negative side (R  , orange) of a cell. In
+travelling wave stimulus, the positive side faces the rising side of the
+incoming wave. (c) The resting state of R plotted against the change in the
+activator/inhibitor ratio Q. (d–m) Numerical simulations of the
+ultrasensitive model; travelling wave stimuli (d,e), temporally increasing
+(f,g) and decreasing (h,i) gradients, inverse travelling wave (j,k) and
+alternating gradient (l,m). The sign of the space (blue)/time (grey)
+derivatives of S are indicated by ‘ þ ’ and ‘  ’ (m). See Supplementary
+Table 1 for model parameters.
+
+NATURE COMMUNICATIONS | 5:5367 | DOI: 10.1038/ncomms6367 | www.nature.com/naturecommunications
+
+& 2014 Macmillan Publishers Limited. All rights reserved.
+
+9
+
+ARTICLE
+
+NATURE COMMUNICATIONS | DOI: 10.1038/ncomms6367
+
+2.0
+
+High KI (KI = 0.1)
+
+No or imperfect
+rectification
+
+High KI (KI = 0.1)
+
+1.0
+
+Directional
+sensing
+
+0.0
+
+2.0
+
+Low KI (KI = 0.01)
+
+cAMP
+
+1.0
+
+S
+0.5
+
+Directional
+sensing
+
+0.5
+0.0
+
+0.0
+
+Migration
+
+1.3
+
+0.3
+
+0.8
+
+0.2
+
+0.6
+
+0.2
+0
+0
+–0.1
+
+15
+
+0.8
+
+10
+
+0.6
+0.4
+
+5
+
+0.2
+0
+0
+
+–5
+
+–1 0 1 2 3 4 5 6 7 8
+
+–1 0 1 2 3 4 5 6 7 8
+Time (min)
+
+50 100 150 200
+Time (s)
+
+0.6
+
+0.2
+
+0.4
+
+0.1
+
+0.2
+0
+0
+–0.1
+–1 0 1 2 3 4 5 6 7 8
+Time (min)
+
+25
+Displacement (µm)
+
+0
+
+0.8
+
+Wavefront
+
+1.0
+
+0.3
+
+Waveback
+
+1.1
+
+Time (min)
+
+cAMP level (μM)
+
+1.2
+
+0.9
+
+0.4
+
+0.1
+
+cAMP level (μM)
+
+1.4
+
+Ras activation, J +mem, J −mem
+
+Ras activation
+to step-wise stimulus, J uniform
+
+Cells with spontaneous
+Ras localization
+Cells without spontaneous
+Ras localization
+
+Ras activation, J +mem, J −mem
+
++
+J mem (positive side)
+−
+J mem (negative side)
+
+cAMP level (µM)
+
+4
+
+0.8
+
+20
+
+0.6
+
+15
+0.4
+
+10
+5
+
+0.2
+
+0
+
+cAMP level (µM)
+
+–4 –2 0 2
+Time (min)
+
+Wavefront
+
+50 100 150 200 250
+Time (s)
+
+Waveback
+
+–50 0
+
+Displacement (µm)
+
+R+, R−
+
+0.0
+
+Rectification
+1.0
+
+1.5
+
+0.5
+
+0.0
+
+Migration
+
+4
+
+S
+
+R (t )
+
+1.0
+0.5
+
+0.0
+–4 –2 0 2
+Time (min)
+
+1.0
+
+1.5
+
+cAMP
+
+0.5
+0.5
+
+Low KI (KI = 0.01)
+
+2.0
+
+1.0
+
+S
+
+R+, R−
+
+1.5
+
+0
+
+–5
+–1 0 1 2 3 4 5 6 7 8
+Time (min)
+
+Figure 7 | Asymmetry in the response to temporally increasing and decreasing stimulus. (a) Adaptive response to spatially uniform increase and
+decrease of the signal input (a, green line and shaded area) in the ultrasensitive LEGI model for high KI (KI ¼ 0.1) (a, brown) and low KI (KI ¼ 0.01) (a, cyan).
+(b) Ras response to spatially uniform increase and decrease of cAMP (between 0 and 1 mM cAMP; green shaded area) in weakly starved cells
+with (b, brown; n ¼ 24) or without (b, cyan; n ¼ 20) spontaneous RBD localization. (c–f) Directional sensing response in the ultrasensitive LEGI model for
+high KI (KI ¼ 0.1) (c) and low KI (KI ¼ 0.01) (e). Schematics of chemotactic response to traveling wave stimulus without (d) or with (f) rectiﬁcation.
+(g–j) Ras response (g,i) and cell movement (h,j) in travelling wave stimulus in cells with (g,h; n ¼ 22) or without (i,j; n ¼ 19) spontaneous Ras localization.
+Time t ¼ 0 indicates the point at which the stimulus concentration exceeded a threshold (0.01% of the maximum). Error bars indicate s.e.m.
+Scale bar, 10 mm.
+
+sensing in migrating cells is that it operates independent of cell
+motility60,61. Under a stationary gradient stimulation, Ras
+activation and PIP3 synthesis at the leading edge are observed
+even when cell motility is suppressed by Latrunculin13,60. Our
+present results clariﬁed that this also applies to the ability of cells
+to ﬁlter out temporally decreasing gradients. Rectiﬁcation is
+observed at the level of Ras activity, and this requires neither cell
+motility nor feedback from downstream PIP3 signalling.
+The present results indicate that spatial sensing and temporal
+sensing can be understood under a uniﬁed framework. We have
+introduced the ultrasensitive LEGI model as a plausible and
+minimal extension of the basic LEGI framework and made use of
+10
+
+its simplicity to analyse the basis of rectiﬁcation. Our analysis
+suggests that rectiﬁcation is separable from downstream ampliﬁcation and/or an excitable circuit thus arises at or very close to
+the level of a LEGI-like circuitry. Biochemically, the rectifying
+property is expected to originate from regulation of Ras or its
+upstream signalling. Other variants of the LEGI model can also
+support rectiﬁcation, however, these models require additional
+downstream signalling modules to realize the characteristic
+nonlinear transfer function (Supplementary Fig. 8; see
+Supplementary Note). For example, addition of the downstream
+PI3K-mediated ampliﬁcation step (extended LEGI model Fig. 3b
+in ref. 52, ampliﬁed-LEGI53) to the basic LEGI model can provide
+
+NATURE COMMUNICATIONS | 5:5367 | DOI: 10.1038/ncomms6367 | www.nature.com/naturecommunications
+
+& 2014 Macmillan Publishers Limited. All rights reserved.
+
+ARTICLE
+
+NATURE COMMUNICATIONS | DOI: 10.1038/ncomms6367
+
+2.0
+
+0
+Time (min)
+
+2.0
+
+VS = 1,000 μm min–1
+
+1.0
+
+0.5
+0.5
+
+R+, R−
+
+1.0
+
+5
+
+2.0
+
+1.0
+0.5
+
+KI = 0.01
+
+20
+
+–5
+
+Wave transit time (min/Lp)
+1
+
+5 10
+
+Uniform
+response
+
+Rectification
+
+KI = 0.1
+
+50 100
+Stationary
+response
+
+10
+
+1
+Fast
+
+Temporally
+increasing S
+
+V *fast
+
+103
+
+Temporally
+V *slow decreasing S
+
+102
+
+10
+
+0
+Time (min)
+
+Slow
+
+Signal propagation velocity, VS (μm min–1)
+
+VS = 10 μm min-1
+
+1.0
+
+1.0
+0.5
+
+4
+
+0.0
+
+5
+
+0.0
+–50
+
+0
+Time (min)
+
+50
+
+Wave transit time (min/Lp)
+5 10
+
+1
+
+15
+
+5
+
+0.0
+
+1
+
+Directional sensing, max(R+/R−)
+
+0
+Time (min)
+
+50
+
+0.5
+
+0.0
+
+0.0
+–1
+
+0
+Time (min)
+
+1.5
+
+1.0
+
+0.5
+
+0.0
+
+0.0
+–50
+
+VS = 120 μm min–1
+
+1.5
+S
+
+1.5
+
+0.5
+
+0.0
+
+0.0
+–5
+
+1
+
+R+, R−
+
+0
+Time (min)
+
+1.0
+0.5
+
+S
+
+–1
+
+1.0
+S
+
+0.5
+
+0.0
+
+0.0
+
+0.0
+
+R+, R−
+
+1.0
+
+VS = 10 μm min–1
+
+1.5
+
+0.5
+
+0.5
+
+Directional sensing, max(R+/R−)
+
+1.0
+
+S
+
+0.5
+
+R+, R−
+
+1.0
+
+2.0
+
+VS = 120 μm min–1
+
+1.5
+
+1.0
+S
+
+R+, R−
+
+2.0
+
+VS = 1,000 μm min–1
+
+1.5
+
+S
+
+2.0
+
+R+, R−
+
+R+ (positive side)
+R− (negative side)
+
+Uniform
+response
+
+50 100
+Stationary
+response
+
+3
+
+2
+
+Temporally
+increasing S
+Temporally
+decreasing S
+
+V *fast
+1
+Fast
+
+103
+
+102
+
+10
+
+Slow
+
+Signal propagation velocity, VS (μm min–1)
+
+Figure 8 | Rectiﬁed directional sensing can be attributed to the low-pass ﬁlter characteristics in the ultrasensitive circuit. (a–f) Time series from the
+numerical simulations in the ultrasensitive LEGI model (KI ¼ 0.01). Response in the positive ( þ ) side (R þ , blue) and the negative (  ) side (R  , orange) of
+a cell to monotonic gradients that are increasing (a–c) or decreasing (d–f) in time. The spatial-temporal proﬁles of S were the same as in Fig. 6f–i.
+Monotonic gradients move from right to left (in the (  ) direction) for temporally increasing gradients, and left to right (in the ( þ ) direction) for
+temporally decreasing gradients. Hence, the positive ( þ ) direction always faces higher concentrations of the monotonic gradients. The propagation
+velocity VS for fast- (VS ¼ 1,000 mm min  1; a,d), intermediate- (120 mm min  1; b,e) and slow- (10 mm min  1; c,f) moving gradients. Dashed lines (c,f)
+indicate the analytically obtained stationary states of R þ and R  for a given signal gradient evaluated at each time point. (g,h) Maximum values of the ratio
+R þ /R  in response to temporally increasing (red) and decreasing (cyan) spatial gradients in the ultrasensitive LEGI model at KI ¼ 0.01 (g) and KI ¼ 0.1 (h).
+Corresponding wave transit time for LP ¼ 800 mm is indicated (g,h; top x axis label). Asymmetry in directional sensing to temporally increasing and
+decreasing stimulus is highlighted by the shaded regions. The characteristic velocity, V*fast and V*slow are indicated in black dashed lines. See
+Supplementary Table 1 for model parameters.
+
+necessary nonlinearity to support rectiﬁcation (Supplementary
+Fig. 8e–l). However, the present analysis of LY-treated cells
+indicate that PI3K is required for overall ampliﬁcation of Ras
+signal, but not for rectiﬁcation (Fig. 4a,b; Supplementary Fig. 3a–f).
+While it is possible that Ras itself constitutes the amplifying/
+rectifying module downstream of an unidentiﬁed LEGI module
+close to the G-protein coupled receptor, the responses at the
+level of the heterotrimeric G-protein observed so far have been
+non-adaptive19 thus not LEGI-like in their property.
+The other plausible source of nonlinearity is the feedback from
+F-actin that supports excitability25,26,51. In latrunculin-treated
+cells, RBD translocation was again rectiﬁed meaning that it
+occurred in temporally increasing gradients, not in decreasing
+gradients. Note, however, that RBD localization appeared more
+graded in space (Fig. 4c,d; Supplementary Fig. 3g–j) suggesting
+that nonlinearity that enhances the difference between the leading
+and trailing end of the cells has a separate origin than the
+
+rectiﬁcation. In the light of the LEGI scheme, these observations
+suggest that either sequestering of the activator or diffusion of the
+inhibitor is F-actin dependent (Supplementary Fig. 7d–f). This is
+plausible considering that a membrane scaffold that associates
+with RasGEFs is known to translocate to the plasma membrane in
+a F-actin-dependent manner17. Finally, we should note that the
+system must operate near the point of inﬂection in the Q–R curve.
+This requires ﬁne-tuning of the stationary state Q0
+(Supplementary Fig. 5e), which also determines the pulse form
+of R and the degree of imperfectness of adaptation. Future works
+should address how such robustness is achieved in relation to
+complexities of the signalling network that were omitted in the
+current model.
+In Dictyostelum, the rectiﬁed directional sensing together with
+the self-generated gradients enable long-distance cell migration
+by circumventing dissipation of the guidance cue and recycled use
+of spatial gradients. In sperm, the gradient perceived by the cell
+
+NATURE COMMUNICATIONS | 5:5367 | DOI: 10.1038/ncomms6367 | www.nature.com/naturecommunications
+
+& 2014 Macmillan Publishers Limited. All rights reserved.
+
+11
+
+ARTICLE
+
+NATURE COMMUNICATIONS | DOI: 10.1038/ncomms6367
+
+becomes a periodic stream of chemoattractant due to looping cell
+motion, thus in essence utilizes dynamic sensing62. Directional
+migration in neutrophils also appears to involve spatio-temporal
+mechanisms40,63,64. A similar rectiﬁed sensing may allow the
+immune cells to ignore subsiding signals from the site of wound
+inﬂiction and inﬂammation. Although whether periodic travelling
+waves exist in migrating systems besides Dictyostelium remains
+an open question, neutrophil aggregation to the wound site is
+mediated by self-ampliﬁed signals4. The signals perceived by the
+cells in such developing ﬁelds of attraction are likely to be
+complex in their temporal patterns. The present insights on
+spatio-temporal sensing and rectiﬁcation should be useful for the
+analysis of these and other cellular sensing.
+Methods
+DNA construct and cell strains. An expression vector for RFP tagged with the
+RBD of human Raf1 protein was based on GFP-RBD13,24. RFPmars65 was PCR
+ampliﬁed using primers 50 -AGATCTATGGCATCATCAGAAGATGTTATT-30
+(BglII-RFP) and 50 -GAATTCGATCCTGCACCTGTTGAATGTCTA-30
+(RFPDTAA-EcoRI) using pHygRFPmars25 as a template. The GFP-RBD
+expression vector was replaced with RFPmars, puriﬁed and sequenced. The vector
+confers resistance to G418 and expression of RFP-RBD under a strong promoter.
+AX4 cells were transformed by electroporation and cloned following a standard
+protocol. To obtain cells co-expressing RFP and a Foster resonance energy transfer
+(FRET) sensor for cAMP Epac1-camps66, AX4 cells expressing Epac1-camps43
+were transformed with pHygRFPmars25 and selected for G418 and hygromycin
+resistance. All transformants were cloned for further analysis.
+Cell preparation. For time-lapse imaging analysis of cell aggregation, the
+laboratory wild-type strain Ax4 of D. discoideum cells expressing the cAMP sensor
+Epac1-camps43 were employed. For cell tracking, cells co-expressing RFP and
+Epac1-camps were employed. Cells were grown axenically in modiﬁed HL-5
+medium shaken at 22 °C with appropriate selection (10 mg ml  1 G418 and
+60 mg ml  1 hygromycin). Growing cells were washed twice and resuspended in
+phosphate buffer (PB) (20 mM KH2PO4, 20 mM Na2HPO4, pH 6.5) at 6.5  106
+cells ml  1. For simultaneous observations of the cAMP relay and cell migration,
+Epac1-camps-expressing cells were mixed with RFP co-expressing cells in a 98:2
+ratio. To obtain aggregating cell populations, 3 ml of cell suspension was deposited
+on the 1% agar plate (3 ml 1% agarose (BactoAgar, Difco) in PB; 60 mm dish
+(Iwaki)), and the supernatant was removed after 15 min. The plates were dried for
+additional 10 min in a sterile hood, and incubated at 22 °C for 4–5 h prior to
+observations. For live-cell time-lapse imaging, the cell monolayer together with the
+supporting agar (B1 cm2 area) was cut out from the plate and carefully placed
+upside down on a glass-bottom dish (MatTek) for cell tracking in two dimensions.
+For experiments in the microﬂuidic chamber, cells expressing RFP-RBD were
+grown axenically in the growth medium containing 10 mg ml  1 G418. Washed
+cells were resuspended in PB at a density of 5  106 cells ml  1 and shaken at 22 °C.
+After 1 h, cells were pulsed at a ﬁnal concentration of 50 nM cAMP (Sigma) every
+6 min for 2–2.5 h (for the experiments in Fig. 7) or for 4–4.5 h (for other
+experiments). For observations, starved cells were collected and resuspended in PB
+at a cell density of 1 to 2  105 cells ml  1. The suspended cells were transferred to
+a microﬂuidic chamber by manual pipetting. Cells were settled for 30 min before
+the ﬂow was applied to the chamber.
+Dynamically changing gradient stimulus. For precise control of concentration
+proﬁles of extracellular cAMP in space and time, we employed a microﬂuidics
+chamber (m-slide 3-in-1; Ibidi) consisting of three inlets and a single outlet. Inlet
+and outlet channels were connected to a pneumatic pressure regulator (MFCSFLEX; Fluigent) to monitor and precisely control the pressure and ﬂow rates. The
+pressure control was automated by the MAESFLO software (Fluigent) using custom-made scripts that set the ﬂow rates from the individual inlet dynamically over
+time. The rate of total ﬂow from the three inlets was maintained at 33 ml min  1.
+Tubes from the buffer source with or without cAMP (Sigma; molecular
+weight ¼ 329) were connected to the inlets in the conﬁguration shown in the
+schematics (Figs 2a and 3a,e,i,m). As a marker for the stimulus proﬁle, ﬂuorescein
+(Wako; molecular weight ¼ 332) at a ﬁnal concentration of 3 mM was included in
+the stimulus solution. A concentration of 1 mM cAMP was chosen as the stimulus
+source for all experiments, except for the inverse travelling wave experiments
+(Fig. 5i–l; Supplementary Fig. 3a–c,g,h) where 10 nM cAMP was also used. For
+elevated basal cAMP, the buffer-only pools were replaced with either 1 or
+10 nM cAMP.
+For spatially uniform stimuli, the left and right inlets were connected to a pair
+of syringe pumps (NE-1002X; New Era Pump Systems Inc., NY), and the centre
+inlet was sealed with a plug. The total ﬂow rate of the solutions was either
+30 ml min  1 (Fig. 7) or 120 ml min  1 (Supplementary Fig. 4). Under the present
+conditions, the estimated shear stress67,68 experienced by the cell was o0.03 Pa.
+12
+
+This is more than one order of magnitude smaller than the shear force required to
+induce migration (40.5 Pa)67 or to detach the cells (41 Pa)69.
+Live-cell imaging. Image data were obtained using an inverted microscope (IX-81;
+Olympus) equipped with a confocal multibeam scanning unit (CSU-X1; Yokogawa)
+and an EM-CCD camera (Evolve 512; Photometrics). To detect ﬂuorescein and RFP
+ﬂuorescence, a bandpass ﬁlter (510–550 nm; BA510-550, Olympus) and a broadspectrum ﬁlter (4575 nm; BA575IF, Olympus) were used, respectively. For FRETbased cAMP measurements, an excitation ﬁlter (BP425-445HQ, Olympus) and a
+dichroic mirror (DM450, Olympus) were used. Bandpass ﬁlters (BA460-510HQ,
+Olympus; BA515-560HQ, Olympus) were used for cyan ﬂuorescent protein and
+yellow ﬂuorescent protein ﬂuorescence, respectively. Objective lens used were  4
+(UplanSApo, numerical aperture (NA) 0.16) for the quantiﬁcation of the stimulus
+proﬁles,  20 oil immersion (UplanSApo, NA 0.85) and  60 oil immersion
+(PlanApo N, NA 1.42) for cell migration and FRET measurements,  20 oil
+immersion for cell migration in the microﬂuidics chamber and  60 oil immersion
+for simultaneous measurements of RBD translocation and cell migration in the
+microﬂuidics chamber. Some of the cell migration data were acquired with a singlebeam scanning confocal microscope (Nikon A1R) with a  100 oil immersion
+objective lens (PlanApo l, NA 1.45). Fluorescence images were acquired at 1–30-s
+intervals and stored as Tagged Image File Format (TIFF) ﬁles. Obtained data were
+later analysed using ImageJ and MATLAB (MathWorks). All live-cell imaging was
+performed at 22 °C.
+Image processing. Cell tracking and ﬂuorescence signal quantiﬁcation were
+performed with custom programs written in ImageJ and MATLAB (MathWorks).
+To acquire changes in the FRET efﬁciency from Epac1-camps-expressing cells, the
+ratio of the ﬂuorescence intensities in the cyan ﬂuorescent protein (I485) and yellow
+ﬂuorescent protein (I540) channels were averaged over a 40-mm square region
+around the centre of a cell at each time point. The mean ratio (I485/I540) was further
+averaged at each phase of an oscillation period then normalized by subtracting
+linear trends of the signal (normalized I485/I540).
+For quantiﬁcation of RBD translocation to the cell membrane, a 1-mm-wide
+region inside the cell outline and the cytosolic region were deﬁned by binarization.
+For dynamically changing gradients, translocation of RFP-RBD to the cell
+membrane was quantiﬁed by taking the maximum ﬂuorescence intensity in the
+membrane region in the direction y (0oyo2p) from the center; Imem(y, t). The
+angle y ¼ p/2 faces the positive direction (right-hand side of the chamber). As an
+indicator of RBD localization, the averaged intensity of the membrane-cytosolic
+ratio was weighted by the alignment with the wave direction by computing,
+P
+ðyi ;t Þ
+2
+þ
+Jmem
+ðtÞ ¼ ðN1 fi j 0oyi opg Imem
+Icyt ðt Þ jsin yi jÞ  p, for the positive half of a cell
+P
+ðyi ;t Þ
+
+2
+periphery, and Jmem
+ðt Þ ¼ ðN1 fi j poyi o2pg Imem
+Icyt ðt Þ jsin yi jÞ  p, for the remaining
+half. Here, the discretized angle yi ¼ Np i for 1rir2N where N ¼ 90. For
+normalization, the mean intensity of the cytosolic ﬂuorescence, Icyt (t) was used.
+We occasionally encountered extremely polarized cells with marked movement in
+the z axis direction. These cells were excluded from the present analysis due to
+difﬁculty in accurate tracking of the RBD translocation.
+For quantiﬁcation of the spatial and temporal changes in the cAMP levels, bias
+due to non-uniform illumination was removed following the ﬂat-ﬁeld correction
+method70. In brief, the spatial and temporal proﬁles of cAMP concentrations
+IcAMP (x, y, t) were obtained by calculating IcAMP ðx; y; t Þ ¼ ðCmax  Cmin Þ
+I ðx; y; t Þ  Iback ðx; yÞ
+Imax ðx; yÞ  Iback ðx; yÞ þ Cmin . Here, I(x, y, t) was ﬂuorescence proﬁle of the ﬂuorescein
+indicator obtained during the stimulus experiments. The intensity proﬁles of the
+maximum Imax(x, y) and the background Iback(x, y) were obtained by capturing
+ﬂuorescence of uniform concentration ﬁelds of the cAMP solution with or without
+ﬂuorescein, respectively. Cmax and Cmin were the maximum and minimum
+concentrations of cAMP at the source, respectively. The calibration data were
+obtained prior to stimulus experiments per chamber on a daily basis.
+To estimate the duration of the stimulus (that is, wave passage time), proﬁles of
+the wave stimulus were ﬁtted by a Gaussian curve moving at a constant speed VS,
+S(x,t) ¼ B1exp[  (x þ VS t  x0)2/2s2] þ B2, using the nonlinear least-squares
+method. The wave passage time was deﬁned by the time-window during which the
+stimulus intensities were above 0.01% of the peak intensity at a position x, that is
+S(x,t)410  4 B1 þ B2. Estimation of the pulse width followed the same criterion
+(40.01% of the peak intensity).
+Quantiﬁcation of Ras activation to uniform stimulus was performed as follows.
+The mean ﬂuorescence intensities from the cytosolic region of cells under mock
+stimulation (no cAMP) Icyt, 0(t) was obtained separately to remove the effect of
+photobleaching. To obtain the standardized cytosolic RFP-RBD ﬂuorescence, we
+I ðtÞ=I ð0Þ
+calculated I cytðtÞ=I cyt ð0Þ : Here, /*Scell is an ensemble average of cells. The linear
+h cyt;0 cyt;0 icell
+trend was further subtracted and normalized to obtain Jcyt(t) that takes the value of
+1 at t ¼ 0 and t ¼ tend (the end point of the time-lapse recording). Fluorescent
+intensities of the membrane-bound RFP-RBD prior to spatially uniform
+stimulation, Imem, uniform(0), were quantiﬁed as follows. The entire membrane
+region of a cell was divided into 16 segments. The pixel intensity was ranked, and
+the top 20–40th percentiles were averaged per segment to remove noise. This was
+further averaged over all segments to yield Imem, uniform(0). As an indicator of Ras
+
+NATURE COMMUNICATIONS | 5:5367 | DOI: 10.1038/ncomms6367 | www.nature.com/naturecommunications
+
+& 2014 Macmillan Publishers Limited. All rights reserved.
+
+ARTICLE
+
+NATURE COMMUNICATIONS | DOI: 10.1038/ncomms6367
+
+ð0Þ
+activity, we computed Juniform ðt Þ ¼ Imem;uniform
+Jcyt ðt Þ  1 .
+Icyt ð0Þ
+
+Mathematical modelling. In the basic LEGI formulation8, F(R) ¼ kA(Rtot  R) and
+G(R) ¼ kIR are employed, where Rtot  R and R are concentrations of ‘R’ in the
+inactive and the active form, respectively. As a biochemically natural extension of
+the LEGI scheme, we adopted the Michaelis–Menten form in the regulation of R,
+such that
+F ðRÞ ¼ kA
+
+Rtot  R
+R
+; GðRÞ ¼ kI
+KA þ ðRtot  RÞ
+KI þ R
+
+ð2Þ
+
+This constitutes the so-called push-pull type reaction where two antagonistic
+enzymes reversibly modify the substrate R. In this paper, we refer to this modiﬁed
+form (equations (1) and (2)) as the ‘ultrasensitive LEGI model’. Note that when the
+substrate is limited, that is, KA/Rtot and KI/Rtot are large, F(R)BkA(Rtot  R) and
+G(R)BkIR so that equation (1) recovers the basic LEGI equation (ﬁrst-order
+kinetics). For the simulations of directional sensing in various concentration ﬁelds,
+the response A, I and R at the cell ends were considered in one-dimensional space
+along the gradient (Fig. 6a). Under these assumptions, we obtain the following
+equations:
+dA þ ðtÞ
+DA
+¼ ka Sðxðt Þ þ l; t Þ  ga A þ ðt Þ þ ya þ 2 ðA  ðt Þ  A þ ðt ÞÞ
+4l
+dt
+dA  ðt Þ
+DA
+¼ ka Sðxðt Þ  l; t Þ  ga A  ðt Þ þ ya þ 2 ðA þ ðt Þ  A  ðt ÞÞ
+4l
+dt
+dI þ ðt Þ
+D
+¼ ki Sðxðt Þ þ l; t Þ  gi I þ ðt Þ þ yi þ 2 ðI  ðt Þ  I þ ðt ÞÞ
+dt
+4l
+dI  ðt Þ
+D
+¼ ki Sðxðt Þ  l; t Þ  gi I  ðt Þ þ yi þ 2 ðI þ ðt Þ  I  ðt ÞÞ
+dt
+4l
+dR þ ðt Þ
+¼ A þ ðt ÞF ðR þ ðtÞÞ  I þ ðt ÞGðR þ ðtÞÞ
+dt
+dR  ðt Þ
+¼ A  ðt ÞF ðR  ðtÞÞ  I  ðt ÞGðR  ðtÞÞ
+dt
+
+ð3Þ
+
+A þ , A  , I þ , I  , R þ and R  indicate the variables A, I and R at the respective
+ends of a cell of length 2l positioned at x ¼ x(t). The subscript ‘ þ ’ means variables
+at the positive end of a cell (x(t) þ l) and ‘  ’ at the negative end (x(t)  l).
+Parameter DA and D (DAo
+oD) determine diffusibility of the activator ‘A’ and the
+inhibitor ‘I’ inside the cell, respectively. According to the LEGI scheme, we assumed
+the inhibitor ‘I’ to diffuse rapidly and act globally while the activator ‘A’ to act
+locally. We chose DA ¼ 0 unless otherwise noted. In numerical calculations, time t
+and space x take the absolute physical units (s and mm). A, I and R are normalized
+to their respective a.u. The cell length is ﬁxed at 2l ¼ 15 mm. Unless otherwise
+noted, we study conditions where cell migration speed is sufﬁciently small
+compared with the speed of the travelling wave, so that the cell position is ﬁxed at
+x(t) ¼ 0. For gradient stimulation, the following signal proﬁles were adopted:
+(i) Travelling waves (Figs 6b,d,e and 7c,e; Supplementary Figs 6 and 8d,h,l,p).
+Travelling wave experiments (Figs 2, 4, 5a–h and 7g–j) were simulated
+by employing a Gaussian proﬁle moving at a constant speed VS; S(x,t) ¼
+exp[  k(x þ VSt)2]. For the sake of comparison with the experiments, the pulse
+width of the stimulus LP was divided by the wave transit time to obtain the
+wave velocity VS. We chose k ¼ 6.25  10  5 mm  1 and LP ¼ 800 mm to closely
+match the current experimental values (Supplementary Fig. 1; also see the
+main text).
+(ii) Temporally changing gradients (Fig. 6f–i; Fig. 8).
+To simulate temporally increasing gradients (Fig. 3a–d), we set S(x,t) ¼
+(1 þ tanh[b(x þ VSt)])/2. Here, b ¼ 0.015 mm  1 is chosen to obtain the same
+maximal steepness of the gradient as in (i). Similarly, for temporally decreasing
+gradients (Fig. 3e–h), we set S(x,t) ¼ (1 þ tanh[b(x  VSt)])/2. For the simulation
+at Fig. 6f–i, to imitate the proﬁles in the experiments, the wave velocity
+VS ¼ 180 mm min  1 was chosen.
+(iii) Inverse travelling waves (Fig. 6j,k).
+To simulate inverse travelling waves (Figs 3i–l and 5i–l; Supplementary Fig. 3),
+a ‘reverse Gaussian’ signal S(x,t) ¼ 1  exp[  k(x þ VSt)2] was employed. The
+parameter values were the same as those in the Gaussian signal (i).
+(iv) Alternating gradients (Fig. 6l,m).
+To simulate the alternating gradients (Fig. 3m–p), we imposed S(x,t) ¼
+1 þ (tanh[b(x l0 þ l0M(t/t))]  tanh[b(x þ l0 þ l0M(t/t))])/2 where M(t) is the
+triangle-wave function. Parameter values are b ¼ 0.015 mm  1, l0 ¼ 350 mm and
+t ¼ 6.0 min. The important difference from the inverse wave stimulus is that
+the signal intensity oscillates at a period half of that of the spatial gradient
+(Figs 3i,m and 6j,l).
+
+References
+1. Yang, X., Dormann, D., Münsterberg, A. E. & Weijer, C. J. Cell movement
+patterns during gastrulation in the chick are controlled by positive and negative
+chemotaxis mediated by FGF4 and FGF8. Dev. Cell 3, 425–437 (2002).
+2. Reichman-Fried, M., Minina, S. & Raz, E. Autonomous modes of behavior in
+primordial germ cell migration. Dev. Cell 6, 589–596 (2004).
+
+3. Niethammer, P., Grabher, C., Look, A. T. & Mitchison, T. J. A tissue-scale
+gradient of hydrogen peroxide mediates rapid wound detection in zebraﬁsh.
+Nature 459, 996–999 (2009).
+4. Lämmermann, T. et al. Neutrophil swarms require LTB4 and integrins at sites
+of cell death in vivo. Nature 498, 371–375 (2013).
+5. Donà, E. et al. Directional tissue migration through a self-generated chemokine
+gradient. Nature 503, 285–289 (2013).
+6. Stephens, L., Milne, L. & Hawkins, P. Moving towards a better understanding
+of chemotaxis. Curr. Biol. 18, R485–R494 (2008).
+7. Swaney, K. F., Huang, C.-H. & Devreotes, P. N. Eukaryotic chemotaxis:
+a network of signaling pathways controls motility, directional sensing, and
+polarity. Annu. Rev. Biophys. 39, 265–289 (2010).
+8. Lauffenburger, D., Farrell, B., Tranquillo, R., Kistler, A. & Zigmond, S. Gradient
+perception by neutrophil leucocytes, continued. J. Cell Sci. 88(Pt 4): 415–416
+(1987).
+9. Tomchik, K. J. & Devreotes, P. N. Adenosine 30 ,50 -monophosphate waves in
+Dictyostelium discoideum: a demonstration by isotope dilution--ﬂuorography.
+Science 212, 443–446 (1981).
+10. Höfer, T. et al. A resolution of the chemotactic wave paradox. Appl. Math. Lett.
+7, 1–5 (1994).
+11. Goldstein, R. E. Traveling-wave chemotaxis. Phys. Rev. Lett. 77, 775–778 (1996).
+12. Kortholt, A. et al. Dictyostelium chemotaxis: essential Ras activation and
+accessory signalling pathways for ampliﬁcation. EMBO Rep. 12, 1273–1279
+(2011).
+13. Sasaki, A. T., Chun, C., Takeda, K. & Firtel, R. A. Localized Ras signaling at the
+leading edge regulates PI3K, cell polarity, and directional cell movement. J. Cell
+Biol. 167, 505–518 (2004).
+14. Wu, L., Valkema, R., Van Haastert, P. J. & Devreotes, P. N. The G protein beta
+subunit is essential for multiple responses to chemoattractants in
+Dictyostelium. J. Cell Biol. 129, 1667–1675 (1995).
+15. Kortholt, A., Keizer-Gunnink, I., Kataria, R. & Van Haastert, P. J. M. Ras
+activation and symmetry breaking during Dictyostelium chemotaxis. J. Cell Sci.
+126, 4502–4513 (2013).
+16. Kae, H. et al. Cyclic AMP signalling in Dictyostelium: G-proteins
+activate separate Ras pathways using speciﬁc RasGEFs. EMBO Rep. 8,
+477–482 (2007).
+17. Charest, P. G. et al. A Ras signaling complex controls the RasC-TORC2
+pathway and directed cell migration. Dev. Cell 18, 737–749 (2010).
+18. Zhang, S., Charest, P. G. & Firtel, R. A. Spatiotemporal regulation of Ras
+activity provides directional sensing. Curr. Biol. 18, 1587–1593 (2008).
+19. Janetopoulos, C., Jin, T. & Devreotes, P. Receptor-mediated activation of
+heterotrimeric G-proteins in living cells. Science 291, 2408–2411 (2001).
+20. Kamimura, Y. et al. PIP3-independent activation of TorC2 and PKB at the cell’s
+leading edge mediates chemotaxis. Curr. Biol. 18, 1034–1043 (2008).
+21. Cai, H. et al. Ras-mediated activation of the TORC2-PKB pathway is critical for
+chemotaxis. J. Cell Biol. 190, 233–245 (2010).
+22. Meili, R., Ellsworth, C. & Firtel, R. A. A novel Akt/PKB-related kinase
+is essential for morphogenesis in Dictyostelium. Curr. Biol. 10, 708–717 (2000).
+23. Weijer, C. J. Collective cell migration in development. J. Cell Sci. 122,
+3215–3223 (2009).
+24. Arai, Y. et al. Self-organization of the phosphatidylinositol lipids signaling
+system for random cell migration. Proc. Natl Acad. Sci. USA 107, 12399–12404
+(2010).
+25. Taniguchi, D. et al. Phase geometries of two-dimensional excitable waves
+govern self-organized morphodynamics of amoeboid cells. Proc. Natl Acad. Sci.
+USA 110, 5016–5021 (2013).
+26. Huang, C.-H., Tang, M., Shi, C., Iglesias, P. A. & Devreotes, P. N. An excitable
+signal integrator couples to an idling cytoskeletal oscillator to drive cell
+migration. Nat. Cell Biol. 15, 1307–1316 (2013).
+27. Shibata, T., Nishikawa, M., Matsuoka, S. & Ueda, M. Intracellular encoding of
+spatiotemporal guidance cues in a self-organizing signaling system for
+chemotaxis in Dictyostelium cells. Biophys. J. 105, 2199–2209 (2013).
+28. Xu, X., Meier-Schellersheim, M., Yan, J. & Jin, T. Locally controlled inhibitory
+mechanisms are involved in eukaryotic GPCR-mediated chemosensing. J. Cell
+Biol. 178, 141–153 (2007).
+29. Futrelle, R. P., Traut, J. & McKee, W. G. Cell behavior in Dictyostelium
+discoideum: preaggregation response to localized cyclic AMP pulses. J. Cell Biol.
+92, 807–821 (1982).
+30. Alcantara, F. & Monk, M. Signal propagation during aggregation in the slime
+mould Dictyostelium discoideum. J. Gen. Microbiol. 85, 321–334 (1974).
+31. Varnum, B., Edwards, K. B. & Soll, D. R. Dictyostelium amebae alter motility
+differently in response to increasing versus decreasing temporal gradients of
+cAMP. J. Cell Biol. 101, 1–5 (1985).
+32. Futrelle, R. P. Dictyostelium chemotactic response to spatial and temporal
+gradients. Theories of the limits of chemotactic sensitivity and of
+pseudochemotaxis. J. Cell. Biochem. 18, 197–212 (1982).
+33. Van Haastert, P. J. Sensory adaptation of Dictyostelium discoideum cells to
+chemotactic signals. J. Cell Biol. 96, 1559–1565 (1983).
+
+NATURE COMMUNICATIONS | 5:5367 | DOI: 10.1038/ncomms6367 | www.nature.com/naturecommunications
+
+& 2014 Macmillan Publishers Limited. All rights reserved.
+
+13
+
+ARTICLE
+
+NATURE COMMUNICATIONS | DOI: 10.1038/ncomms6367
+
+34. Vicker, M. G. The regulation of chemotaxis and chemokinesis in Dictyostelium
+amoebae by temporal signals and spatial gradients of cyclic AMP. J. Cell Sci.
+107(Pt 2): 659–667 (1994).
+35. Fisher, P. R., Merkl, R. & Gerisch, G. Quantitative analysis of cell motility and
+chemotaxis in Dictyostelium discoideum by using an image processing system
+and a novel chemotaxis chamber providing stationary chemical gradients.
+J. Cell Biol. 108, 973–984 (1989).
+36. Tani, T. & Naitoh, Y. Chemotactic responses of Dictyostelium discoideum
+amoebae to a cyclic AMP concentration gradient: evidence to support a spatial
+mechanism for sensing cyclic AMP. J. Exp. Biol. 202, 1–12 (1999).
+37. Korohoda, W., Madeja, Z. & Sroka, J. Diverse chemotactic responses of
+Dictyostelium discoideum amoebae in the developing (temporal) and
+stationary (spatial) concentration gradients of folic acid, cAMP, Ca(2 þ ) and
+Mg(2 þ ). Cell Motil. Cytoskeleton 53, 1–25 (2002).
+38. Irimia, D. Microﬂuidic technologies for temporal perturbations of chemotaxis.
+Annu. Rev. Biomed. Eng. 12, 259–284 (2010).
+39. Meier, B. et al. Chemotactic cell trapping in controlled alternating gradient
+ﬁelds. Proc. Natl Acad. Sci. USA 108, 11417–11422 (2011).
+40. Ebrahimzadeh, P. R., Högfors, C. & Braide, M. Neutrophil chemotaxis in
+moving gradients of fMLP. J. Leukoc. Biol. 67, 651–661 (2000).
+41. Irimia, D. et al. Microﬂuidic system for measuring neutrophil migratory
+responses to fast switches of chemical gradients. Lab Chip 6, 191–198 (2006).
+42. Gerisch, G. & Wick, U. Intracellular oscillations and release of cyclic AMP from
+Dictyostelium cells. Biochem. Biophys. Res. Commun. 65, 364–370 (1975).
+43. Gregor, T., Fujimoto, K., Masaki, N. & Sawai, S. The onset of collective behavior
+in social amoebae. Science 328, 1021–1025 (2010).
+44. Iglesias, P. A. Chemoattractant signaling in Dictyostelium: adaptation and
+ampliﬁcation. Sci. Signal. 5, pe8 (2012).
+45. Phillips, J. E. & Gomer, R. H. A secreted protein is an endogenous
+chemorepellant in Dictyostelium discoideum. Proc. Natl Acad. Sci. USA 109,
+10990–10995 (2012).
+46. Lusche, D. F., Wessels, D. & Soll, D. R. The effects of extracellular calcium on
+motility, pseudopod and uropod formation, chemotaxis, and the cortical
+localization of myosin II in Dictyostelium discoideum. Cell Motil. Cytoskeleton
+66, 567–587 (2009).
+47. Sawai, S., Thomason, P. A. & Cox, E. C. An autoregulatory circuit for longrange self-organization in Dictyostelium cell populations. Nature 433, 323–326
+(2005).
+48. McQuade, K. J., Nakajima, A., Ilacqua, A. N., Shimada, N. & Sawai, S. The
+green tea catechin epigallocatechin gallate (EGCG) blocks cell motility,
+chemotaxis and development in Dictyostelium discoideum. PLoS ONE 8,
+e59275 (2013).
+49. Kae, H., Lim, C. J., Spiegelman, G. B. & Weeks, G. Chemoattractant-induced
+Ras activation during Dictyostelium aggregation. EMBO Rep. 5, 602–606
+(2004).
+50. Takeda, K. et al. Incoherent feedforward control governs adaptation of
+activated ras in a eukaryotic chemotaxis pathway. Sci. Signal. 5, ra2 (2012).
+51. Sasaki, A. T. et al. G protein-independent Ras/PI3K/F-actin circuit regulates
+basic cell motility. J. Cell Biol. 178, 185–191 (2007).
+52. Levchenko, A. & Iglesias, P. A. Models of eukaryotic gradient sensing:
+application to chemotaxis of amoebae and neutrophils. Biophys. J. 82, 50–63
+(2002).
+53. Wang, C. J., Bergmann, A., Lin, B., Kim, K. & Levchenko, A. Diverse sensitivity
+thresholds in dynamic signaling responses by social amoebae. Sci. Signal. 5,
+ra17–ra17 (2012).
+54. Levine, H. & Rappel, W.-J. The physics of eukaryotic chemotaxis. Phys. Today
+66, 24 (2013).
+55. Goldbeter, A. & Koshland, D. E. An ampliﬁed sensitivity arising from covalent
+modiﬁcation in biological systems. Proc. Natl Acad. Sci. USA 78, 6840–6844
+(1981).
+56. Potma, E. O. et al. Reduced protein diffusion rate by cytoskeleton in vegetative
+and polarized dictyostelium cells. Biophys. J. 81, 2010–2019 (2001).
+57. Ruchira, Hink, M. A., Bosgraaf, L., van Haastert, P. J. & Visser, A. J. Pleckstrin
+homology domain diffusion in Dictyostelium cytoplasm studied using
+ﬂuorescence correlation spectroscopy. J. Biol. Chem. 279, 10013–10019 (2004).
+58. Houk, A. R. et al. Membrane tension maintains cell polarity by conﬁning
+signals to the leading edge during neutrophil migration. Cell 148, 175–188
+(2012).
+59. Nishikawa, M., Hörning, M., Ueda, M. & Shibata, T. Excitable signal
+transduction induces both spontaneous and directional cell asymmetries in
+the phosphatidylinositol lipid signaling system for eukaryotic chemotaxis.
+Biophys. J. 106, 723–734 (2014).
+
+14
+
+60. Parent, C. A., Blacklock, B. J., Froehlich, W. M., Murphy, D. B. & Devreotes, P.
+N. G protein signaling events are activated at the leading edge of chemotactic
+cells. Cell 95, 81–91 (1998).
+61. Servant, G. et al. Polarization of chemoattractant receptor signaling during
+neutrophil chemotaxis. Science 287, 1037–1040 (2000).
+62. Kashikar, N. D. et al. Temporal sampling, resetting, and adaptation orchestrate
+gradient sensing in sperm. J. Cell Biol. 198, 1075–1091 (2012).
+63. Albrecht, E. & Petty, H. R. Cellular memory: neutrophil orientation reverses
+during temporally decreasing chemoattractant concentrations. Proc. Natl Acad.
+Sci. USA 95, 5039–5044 (1998).
+64. Geiger, J., Wessels, D. & Soll, D. R. Human polymorphonuclear leukocytes
+respond to waves of chemoattractant, like Dictyostelium. Cell Motil.
+Cytoskeleton 56, 27–44 (2003).
+65. Fischer, M., Haase, I., Simmeth, E., Gerisch, G. & Müller-Taubenberger, A. A
+brilliant monomeric red ﬂuorescent protein to visualize cytoskeleton dynamics
+in Dictyostelium. FEBS Lett. 577, 227–232 (2004).
+66. Nikolaev, V. O., Bünemann, M., Hein, L., Hannawacker, A. & Lohse, M. J.
+Novel single chain cAMP sensors for receptor-induced signal propagation.
+J. Biol. Chem. 279, 37215–37218 (2004).
+67. Décave, E. et al. Shear ﬂow-induced motility of Dictyostelium discoideum cells
+on solid substrate. J. Cell Sci. 116, 4331–4343 (2003).
+68. Ibidi GmbH. Shear stress and shear rates for all channel m-Slides - based on
+numerical calculations. Application Note 11 (2012) http://ibidi.com/ﬁleadmin/
+support/application_notes/AN11_Shear_stress.pdf.
+69. Décave, E., Garrivier, D., Brechet, Y., Fourcade, B. & Bruckert, F. Shear ﬂowinduced detachment kinetics of Dictyostelium discoideum cells from solid
+substrate. Biophys. J. 82, 2383–2395 (2002).
+70. Zwier, J. M., Van Rooij, G. J., Hofstraat, J. W. & Brakenhoff, G. J. Image
+calibration in ﬂuorescence microscopy. J. Microsc. 216, 15–24 (2004).
+
+Acknowledgements
+We thank Prof Shoji Takeuchi (University of Tokyo) for technical advice on microﬂuidics, Prof Richard A. Firtel (University of California, San Diego) and Dr Xuehua Xu
+(NIH) for the GFP-RBD construct, Mai Honda-Kitahara and Nao Shimada for their
+assistance in plasmid construction and cell transformation and other members of the
+Sawai lab for discussion and suggestions. This work was supported by grants from the
+Japan Society for the Promotion of Science (JSPS) Grant-in-Aid for Scientiﬁc Research
+on Innovative Areas (23111506, 25111704) (to S.S.), JSPS Grant-in-Aid for Young Scientists (A) (22680024, 25710022) (to S.S.), JSPS Grant-in-Aid for Young Scientists (Startup) and (B) (23870006, 25840069) (to A.N.), Japan Science and Technology Agency
+(JST) Precursory Research for Embryonic Science and Technology (PRESTO) (to S.S.),
+Platform for Dynamic Approaches to Living System from the Ministry of Education,
+Culture, Sports, Science and Technology, Japan and in part by the Human Frontier
+Science Programme (RGY 70/2008) and JSPS Grant-in-Aid for Scientiﬁc Research on
+Innovative Areas (25103008) (to S.S. and S.I.). S.I. is also supported by MEXT/JSPS
+(24115503) and partly by JST CREST ‘Creation of Fundamental Technologies for
+Understanding and Control of Biosystem Dynamics’.
+
+Author contributions
+A.N. and S.S. designed the research. A.N. and D.I. performed experiments and analysed
+the data. A.N., S.I. and S.S. designed and analysed the model. S.I. carried out theoretical
+analysis and simulations. S.S. oversaw and coordinated data collection and analysis and
+contributed to all aspects of data interpretation. A.N., S.I. and S.S. wrote the paper.
+
+Additional information
+Supplementary Information accompanies this paper at http://www.nature.com/
+naturecommunications
+Competing ﬁnancial interests: The authors declare no competing ﬁnancial interests.
+Reprints and permission information is available online at http://npg.nature.com/
+reprintsandpermissions/
+How to cite this article: Nakajima, A. et al. Rectiﬁed directional sensing in long-range
+cell migration. Nat. Commun. 5:5367 doi: 10.1038/ncomms6367 (2014).
+This work is licensed under a Creative Commons Attribution 4.0
+International License. The images or other third party material in this
+article are included in the article’s Creative Commons license, unless indicated otherwise
+in the credit line; if the material is not included under the Creative Commons license,
+users will need to obtain permission from the license holder to reproduce the material.
+To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/
+
+NATURE COMMUNICATIONS | 5:5367 | DOI: 10.1038/ncomms6367 | www.nature.com/naturecommunications
+
+& 2014 Macmillan Publishers Limited. All rights reserved.
+
+

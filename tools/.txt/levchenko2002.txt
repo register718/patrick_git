@@ -1,0 +1,1488 @@
+50
+
+Biophysical Journal
+
+Volume 82
+
+January 2002
+
+50 – 63
+
+Models of Eukaryotic Gradient Sensing: Application to Chemotaxis of
+Amoebae and Neutrophils
+Andre Levchenko* and Pablo A. Iglesias†
+*Divisions of Biology, California Institute of Technology, Pasadena, California 91125 and †Department of Electrical and Computer
+Engineering, Johns Hopkins University, 105 Barton Hall, Baltimore, Maryland 21218 USA
+
+ABSTRACT Eukaryotic cells can detect shallow gradients of chemoattractants with exquisite precision and respond quickly
+to changes in the gradient steepness and direction. Here, we describe a set of models explaining both adaptation to uniform
+increases in chemoattractant and persistent signaling in response to gradients. We demonstrate that one of these models can
+be mapped directly onto the biochemical signal-transduction pathways underlying gradient sensing in amoebae and
+neutrophils. According to this scheme, a locally acting activator (PI3-kinase) and a globally acting inactivator (PTEN or a
+similar phosphatase) are coordinately controlled by the G-protein activation. This signaling system adapts perfectly to
+spatially homogeneous changes in the chemoattractant. In chemoattractant gradients, an imbalance between the action of
+the activator and the inactivator results in a spatially oriented persistent signaling, amplified by a substrate supply-based
+positive feedback acting through small G-proteins. The amplification is activated only in a continuous presence of the external
+signal gradient, thus providing the mechanism for sensitivity to gradient alterations. Finally, based on this mapping, we make
+predictions concerning the dynamics of signaling. We propose that the underlying principles of perfect adaptation and
+substrate supply-based positive feedback will be found in the sensory systems of other chemotactic cell types.
+
+INTRODUCTION
+Many biological systems have the ability to sense the direction of external chemical sources and respond by polarizing and migrating toward chemoattractants or away from
+chemorepellants. This phenomenon, referred to as chemotaxis, is crucial for proper functioning of single-cell organisms, such as bacteria and amoebae, and multi-cellular
+systems as complex as the immune and nervous systems.
+Chemotaxis also appears to be important in wound healing
+and tumor metastasis. A common feature of most chemotactic signaling systems is the ability to adapt to different
+levels of external stimuli, so that it is the gradient of
+signaling molecule rather than the average signal value that
+determines the response. Chemotactic cells exhibiting perfect adaptation respond to spatially homogeneous increases
+in external stimulus by transient activation of specific intracellular signaling pathways. The same signaling pathways, however, can be activated persistently if the signal is
+presented in a spatially inhomogeneous, graded manner.
+The goal of this analysis is to extend our understanding of
+these processes by creating a single model explaining both
+adaptation and gradient sensing.
+The need for chemotaxis presents cells with a daunting
+problem of detecting often exceedingly shallow and changing gradients of extracellular substances and regulating a
+
+Received for publication 23 April 2001 and in final form 11 October 2001.
+Dr. Levchenko’s present address is Dept. of Biomedical Engineering,
+Johns Hopkins University, Baltimore, MD 21218.
+Address reprint requests to Pablo Iglesias, Dept. of Electrical and Computer Engineering, Johns Hopkins University, 105 Barton Hall, 3400 N.
+Charles St., Baltimore, MD 21218. Tel.: 410-516-6026; Fax: 410-5165566; E-mail pi@jhu.edu.
+© 2002 by the Biophysical Society
+0006-3495/02/01/50/14 $2.00
+
+complex locomotion apparatus to move in accordance with
+the direction and the value of these gradients. The mechanism for attaining a highly complex and integrated response
+such as this calls for an explanation and modeling in quantitative rather than qualitative terms. Mathematical and
+computational modeling can provide a translation of seemingly logical biochemically-based arguments into a set of
+predictions of dynamical and steady-state properties of the
+system. Using mathematical formalism, alternative hypotheses can be contrasted more easily and criteria found for
+discarding a hypothesis-contradicting experimental observations, sometimes in a subtle and counterintuitive way. In
+addition, mathematical models can provide insight into
+some general design principles that biochemically-based
+cell control systems can use to perform a particular function.
+All these considerations are especially true for the intricate
+regulation of eukaryotic gradient sensing and chemotaxis,
+leading to a long history of a quantitative and modeling
+research.
+Our model attempts first to derive principles that must be
+true for any chemotactic cell capable of displaying both
+perfect adaptation and persistent signaling with nonlinear
+signal amplification, and then, to investigate whether and
+how these principles are effected in a particular cell system.
+As a result, we will obtain a model related to a simple
+mechanism for gradient sensing, qualitatively outlined recently (Parent and Devreotes, 1999), thus providing support
+for some of its premises and conclusions, but also making
+the model more realistic and quantitative. We then complement it with a new mechanism for signal amplification and
+show how this model can be experimentally verified. We
+also argue that an alternative hypothesis for a mechanism of
+gradient sensing outlined in the next paragraph is probably
+invalid, at least in amoebae and neutrophils. The dynamical
+
+Models of Eukaryotic Gradient Sensing
+
+model presented in our study can thus provide a mathematical formalism that can be used more effectively as a paradigm of eukaryotic gradient sensing.
+Unlike most explanations of eukaryotic gradient sensing
+presented to date, the phenomenological model put forward
+in Meinhardt (1999) is formulated mathematically and results in semiquantitative predictions. This model is based on
+the principle, formulated by Turing and adapted in Gierer
+and Meinhardt (1972) to explain biological pattern formation. The Turing principle postulates that stable patterns
+may arise if there is an autocatalytic local production of an
+activator that also causes production of an inhibitor. Unlike
+the activator, the inhibitor is assumed to be capable of
+long-range diffusion. This model is based on local positive
+and global negative feedback that can lead to a substantial
+amplification of a locally applied signal, thus making it
+attractive in trying to account for substantial signal amplification observed in eukaryotic gradient sensing. However,
+in addition to predicting signal amplification, the Turing
+principle also predicts that the activation pattern becomes
+stable. This presents a problem, because it is known that the
+gradient-sensing signaling systems need to readjust themselves continuously to be able to sense changes in the
+environment. In Meinhardt (1999), this difficulty is overcome by proposing a second inactivating enzyme with a
+longer activation time, acting locally to “poison” the activity peak and “unlock” the local activation in the system.
+This assumption however makes the model far less parsimonious and, thus, more difficult to accept.
+Meinhardt also points out that the cytoskeleton rearrangements are integral to biochemical interpretation of his
+model. Recently, it has been realized, however, that eukaryotic gradient sensing can be decoupled from cytoskeletondependent processes. In particular, Dictyostelium discoideum cells, in which actin polymerization is inhibited by
+latrunculin A, can still activate a variety of signaling pathways in a gradient-dependent, spatially polarized manner
+(Parent and Devreotes, 1999). These rounded cells, lacking
+mobility and polarization imposed by actin polymerization,
+clearly exhibit both adaptability and persistence of signaling
+without substantial dynamic fluctuations observed in cells
+with intact actin polymers. It can be demonstrated that
+Meinhardt’s model fails to account for this behavior. In
+particular, the model predicts no perfect adaptation, whereas
+action of the two inhibitors make persistent activation at a
+particular membrane location impossible. Finally, it should
+be pointed out that the phenomenon of the Ca2⫹-induced
+Ca2⫹ release from the intracellular stores postulated as the
+mechanism of the positive feedback is doubtful, because
+inhibition of Ca2⫹ concentration changes by cell permealization and other means does not affect gradient sensing in
+D. discoideum, a common model system used in studies of
+eukaryotic chemotaxis (Van Duijn and Van Haastert, 1992;
+Traynor et al., 2000). Several studies suggested that the only
+aspect of chemotaxis for which upregulation of Ca2⫹ is re-
+
+51
+
+quired is efficient detachment of the uropode in migrating
+amoebae and neutrophils (Eddy et al., 2000). These considerations call into question the general applicability of the approach in Meinhardt (1999) to modeling of gradient sensing.
+Decoupling chemoattractant gradient sensing from cell
+movement and cytoskeletal rearrangements can greatly facilitate consideration of the underlying biochemical regulation. Indeed, the actin cytoskeleton remodeling and its connection to various intracellular and extracellular cues
+mediated by a multitude of regulatory proteins may present
+an intimidating if not impossible task for a modeler. The
+matter is further complicated by the need to account for cell
+adhesion properties, loss and synthesis of the cell membrane, variable cell shape, etc. It is therefore of importance
+that gradient sensing and cytoskeleton regulation represent
+separable components of chemotaxis. In this work, we concentrate on the analysis of the cytoskeleton-independent
+gradient sensing, creating a model that may be integrated
+with the model of cytoskeletal regulation at a later point.
+We present, here, necessary conditions for the organization or topology of a gradient-sensing biochemical network
+and a plausible biochemical scheme that may embody these
+principles in D. discoideum and neutrophils. Whereas the
+models by Meinhardt and others (D. Lauffenburger and A.
+Arkin, personal communications) were driven primarily by
+the need to explain high gain in gradient sensing, we use a
+different strategy. It consists in accounting first for perfect
+adaptation (because it does not involve spatial consideration, and the model is simpler), then in seeing how this
+model needs to be modified to account for persistent signaling, as opposed to adaptation, in the presence of gradients. Finally, we explore possible mechanisms of signal
+amplification consistent with adaptation and persistent signaling.
+
+MODEL AND RESULTS
+Perfect adaptation to spatially uniform changes
+in ligand concentrations
+Perfect adaptation is commonly observed in gradient-sensing systems (Alon et al., 1999; Van Haastert, 1983). A
+simple analysis shows that perfect adaptation allows a sensory system to respond to the gradient itself rather than to
+the absolute value of the signal. Any deviation from the
+precise character of adaptation can result in persistent activation in the absence of signal gradients, a situation that can
+severely limit the range of inputs, over which a system can
+operate efficiently. We thus need to account for perfect
+adaptation in our model of gradient-sensing signal transduction.
+A mechanism for generating robust perfect adaptation
+based on receptor modification has been proposed previously for bacterial chemotaxis (Alon et al., 1999; Yi et al.,
+2000). However, receptor modification has been shown to
+Biophysical Journal 82(1) 50 – 63
+
+52
+
+Levchenko and Iglesias
+
+compared to the activation of the two enzymes, the concentration of R* is a function of the ratio of the concentrations
+of A and I. The steady-state concentration of R* is independent of both the external signal concentration and the ratio
+of inactivation rates. The peak value of the transient response is inversely proportional to the adaptation time.
+Possible mechanisms of signal amplification
+(gain in signaling)
+
+FIGURE 1 Scheme for achieving perfect adaptation. (A) The response
+element can be found in one of two states: active (R*) or inactive (R).
+Transitions between the two states are catalyzed by the activation (A) and
+inactivation (I) enzymes. The activity levels of the two enzymes are both
+regulated by the signal (S). (B) Sample predictions of the adaptation
+scheme depicted in (A). Normalized concentration of the response element
+is plotted as a function of normalized time for a 10% increase at time 0 in
+the concentration of the signaling molecule S. The ratio ␣ of inactivation
+rates of I and A determines the transients. For 0 ⬍ ␣ ⬍ 1, activation of A
+is faster than that of I, resulting in a transient increase in the concentration
+of R*. Smaller values of ␣ lead to larger transients and longer adaptation
+times. Plots corresponding to values of ␣ of 0.1 (largest transient) 0.3, 0.5,
+0.7 and 0.9 (smallest transient) are shown.
+
+be unessential for G-protein-mediated adaptation in eukaryotes (Kim et al., 1997), the main focus of this study.
+Therefore, we consider here two different mechanisms allowing the achievement of precise adaptation downstream
+of the receptor in a signaling pathway.
+The scheme leading to precise adaptation proposed here
+is based on the assumption that a signal S increases the
+concentration of an activator A, whose action is to convert
+some response element R into the activated form R* (Fig.
+1). For adaptation to take place, an inactivator I, mediating
+the reverse conversion of R* to R, needs to be introduced. S
+activates both A and I in fixed proportion. As shown in the
+Appendix, this scheme can lead to perfect adaptation because the corresponding equations have solutions for the
+concentration of R* that are not a function of S. Formulation
+of these equations requires further assumptions, namely that
+the reactions of activation (production) of A and of I have
+the same form of dependence on S. A similar scheme
+achieving perfect adaptation (not shown) can be formulated
+relying on the inactivation of I being a saturated process.
+Below, we show that these two mechanisms represent plausible descriptions of the biochemical processes underlying
+gradient sensing in amoebae and neutrophils. In Fig. 1 B we
+demonstrate numerically that the scheme in Fig. 1 A leads to
+perfect adaptation to changes in the external signal S. The
+model equations for this and the other simulations are found
+in the Appendix. The amplitude and duration of the response is a function of the ratio of inactivation rates of the
+activator A and inactivator I. If the activation of R is fast
+Biophysical Journal 82(1) 50 – 63
+
+Significant nonlinear signal amplification has been postulated to occur in the biochemical pathways mediating eukaryotic gradient sensing. As discussed above, this phenomenon appears to be so dramatic that previous modeling
+efforts have been focused primarily on description of the
+high gain rather than adaptation aspects of the sensory
+signal transduction. Moreover, the presence of a Turing-like
+positive feedback mechanism is often assumed. However,
+as mentioned above, the Turing mechanism is not particularly appealing as a means for amplification in gradient
+sensing. Here, we propose a different amplification scheme,
+also based on a positive feedback loop.
+The overall rate of an enzymatic reaction far from saturation with a given reaction efficiency (measured as the
+ratio of the maximum rate to the Michaelis constant, vmax/
+KM) can be increased if the concentration of the active
+enzyme or that of the substrate is augmented. In the feedback scheme we propose (Fig. 2 B), the reaction product R*
+affects the supply of the substrate R, but not the activation
+of the enzyme. The supply here can mean regulation of a
+reaction resulting in production of R or a transport process
+leading to increased local concentrations of R. The concentration of the active enzyme is taken to be proportional to
+the external signal S. If the signal is absent, the reaction
+cannot proceed and the positive feedback, if present, is
+discontinued. If the signal is present, the reaction proceeds,
+and the substrate-supply feedback gets activated. This sort
+of positive feedback is inherently dependent on the presence
+of the external signal. It is important to emphasize that the
+positive feedback-containing scheme presented in Fig. 2 B,
+unlike other mechanisms involving positive feedback (such
+as that in Meinhardt, 1999), allows the sensory system to be
+sensitive to variations of extracellular signal strength. Indeed, this scheme includes a reaction that can only proceed
+in the presence of external signal activation. Therefore, the
+feedback loop in Fig. 2 B contains a sort of a circuit breaker
+that allows the system to avoid going into signal-independent auto-activation cycling mode. As soon as the external
+signal is removed (or the system has adapted to it) the
+positive feedback is inactivated.
+In principle, signal amplification does not need to involve
+a positive feedback as a mechanism. For instance, amplification may occur due to high cooperativity of the activation
+process or because not only the concentration of the product
+(R*) but also that of the substrate (R) are positively regu-
+
+Models of Eukaryotic Gradient Sensing
+
+53
+
+3 B, adaptation occurs on the level of R*, whereas amplification takes place one step downstream, on the level of R*1.
+Placing adaptation upstream of the gain-producing processes may be advantageous if the same upstream signal
+activates several downstream pathways. Each of those pathways may have different amplification mechanisms and
+characteristics, but all cease activation as soon as adaptation
+in a single upstream reaction takes place. We will discuss
+below a possible relevance of this argument to various
+G-protein-mediated signaling processes in eukaryotic gradient sensing.
+
+Persistent signaling in the presence of ligand
+gradients: gradient sensing
+
+FIGURE 2 Possible mechanisms for signal amplification. (A) Nonlinear
+signal amplification can be achieved by having the activation process act at
+multiple levels as in A, where the enzyme catalyzes the activation of both
+the response element R* and its substrate R. (B) Stronger amplification is
+achieved through the “substrate supply” mechanism of positive feedback in
+which the response element acts to increase the concentration of its
+precursor. (C) Input– output response of the systems depicted in (A)
+(dashed line) and (B) (solid line). For comparison, the case when the signal
+A acts only on the conversion from R to R* with no positive feedback is
+shown (dotted line). As discussed in the text, for small and large concentrations of A, the two systems in (A) and (B) exhibit the same slope and thus
+have the same gain. However, for intermediate concentrations of A, the
+positive feedback scheme exhibits much higher slopes. Constants used are
+␣ ⫽ 100, ␤ ⫽ 100, ␥ ⫽ 1, ␦ ⫽ 10, ⑀ ⫽ 0 (dashed) and ␣ ⫽ 100, ␤ ⫽ 100,
+␥ ⫽ 1, ␦ ⫽ 0, ⑀ ⫽ 10 (solid).
+
+lated by the signal S (Fig. 2 A). Although simulations
+corresponding to both these schemes show a nonlinear
+response to changes in the input levels, the positive feedback-mediated scheme shown in Fig. 2 B can provide far
+higher gains. We can expect, therefore, that, in systems
+exhibiting high-gain behavior, as many gradient sensing
+systems seem to do, the positive feedback outlined in Fig. 2
+B will be present in one way or another.
+Provided that the inactivator acts to reverse the processes
+mediated by A, the possible amplification schemes in Fig. 2
+can be combined with the adaptation scheme proposed in
+Fig. 1 to obtain high-gain signaling with perfect adaptation
+(Fig. 3). It is thus possible to achieve both adaptation and
+amplification properties on the same level in a sensory
+signaling pathway (conversion of R into R* and the reverse
+process).
+Adaptation and amplification may also occur on different
+levels. For example, in the two-step pathway shown in Fig.
+
+In the previous sections, we analyzed how G-protein-activated signaling systems can adapt perfectly to spatially
+homogeneous changes in ligand concentration. The same
+systems become activated persistently in the presence of
+ligand gradients. It is of interest, then, to see whether the
+simple schemes presented above are sufficient to explain
+both adaptability and persistent signaling depending on the
+spatial organization of the input signal. If we assume all
+intracellular signaling to occur locally (e.g., within a close
+neighborhood of the receptor–G-protein complex), perfect
+adaptation would mean that signaling activity would tend to
+the same steady-state value independent of the local extracellular ligand concentration. Therefore, the assumption of
+local signal transduction in combination with perfect adaptation does not allow formation of a gradient of intracellular
+signaling activity even in the presence of an external ligand
+gradient. It follows that some aspect of signaling has to be
+global (diffusible) within the cytosol. Additional analysis
+reveals (data not shown) that the highest activity gradient
+results if the inactivator is allowed to diffuse while the
+activator A is assumed to be immobile or slowly diffusing
+(see also Postma and van Haastert, 2001). This assumption
+is sufficient to predict both adaptability and persistent signaling, as illustrated in Fig. 3. In Fig. 3, C and D, we
+illustrate the gain amplification of the positive feedbackcontaining scheme depicted in Fig. 3 B and its gradientsensing capabilities. The only signaling molecule that is
+allowed to diffuse is the inactivator. At first, the system is
+excited by a homogeneous change in external source—all
+parts of the cell experience the same activation levels. At a
+later point, the levels of R* (Fig. 3 C) and R*1 (Fig. 3 D)
+adapt to the signal. Note, however, that the increase in
+concentration for R*1 is considerably larger. The system is
+then excited by a spatially inhomogeneous signal. The concentration of S at the “front” is increased by 5% and that of
+the “rear” is decreased by 5% with corresponding changes
+linearly along the length of the cell. The system now exhibits a corresponding graded response. Note that, once
+again, the increase in activity of R*1 is considerably larger
+Biophysical Journal 82(1) 50 – 63
+
+54
+
+Levchenko and Iglesias
+
+and displays nonlinearity of response. The equilibrium responses in both R* and R*1 along the length of the cell are
+contrasted in Fig. 3 E.
+G-protein-mediated gradient sensing: relationship
+between the model and biochemistry
+In this section, we consider the known biochemistry of
+eukaryotic gradient sensing based on activation of G-protein-associated chemokine receptors (Gi family of G-proteins), as studied in D. discoideum and neutrophils. The
+principal signaling pathways, shown to be essential in a
+variety of experiments, are illustrated in Fig. 4 A. Receptor
+occupation by a chemoattractant leads to G-protein activation followed by activation of various downstream effectors, most notably phosphatidylinositol 3-kinase-␥ (PI3K)
+(Rickert et al., 2000). Activation of PI3K leads to phosphorylation of various phosphoinositides at the D-3 position of
+the inositol ring. Phosphoinositide phosphates PI(4,5)P2 and
+PI(3,4,5)P3 (henceforth denoted P2 and P3, respectively) can
+further transduce the signal by providing binding sites for
+various downstream PH-domain-containing signaling components, such as PLC␦, AKT, and CRAC (Parent and Devreotes, 1999; Servant et al., 2000). A variety of PH-domaincontaining markers has been developed allowing for
+straightforward monitoring of phosphoinositide formation
+by observing changes in membrane-associated fluorescence. Thus, phosphoinositide concentrations are commonly used as readouts of chemoattractant-stimulated signal transduction. Concentrations of these molecules will
+also be used as signaling outputs in our analysis.
+Another signal-transduction molecule activated by Gi,
+and capable of affecting phosphoinositide levels in response
+to chemoattractants, is PLC (specifically ␤2 and ␤3 isoforms) (see Wu et al., 2000 for a summary of recent results).
+
+FIGURE 3 Integrated adaptation and signal amplification schemes. (A)
+The adaptation scheme of Fig. 1 can be combined with the amplification
+schemes of Fig. 2 at the same level. This scheme is similar to that of
+Biophysical Journal 82(1) 50 – 63
+
+Fig. 1 A, but, in this case, the activation enzyme also increases the
+concentration of the substrate R. Provided that the activation of the two
+enzymes A and I by the external signal S is proportional, the system will
+adapt, but the transients will be amplified compared to Fig. 1 A. (B) The
+schemes can also be combined in series. Here the adaptation scheme of Fig.
+1 A is followed by the signal amplification scheme of Fig. 2 B. The
+effectiveness of the latter scheme is illustrated by plotting the corresponding concentrations of R* (C) and R*1 (D). In these figures, a one-dimensional model of the cell’s response is simulated. At 0 s, the concentration
+of S is increased uniformly by 10%. As can be seen, the peak increase in
+the concentration of R*1 is significantly higher than that of R*. When the
+external signal becomes nonhomogeneous, this has significant implications
+to the cell’s polarization. At 120 s, the external concentration is increased
+5% at the front and decreased 5% at the rear. In Fig. 3 C and D, we show
+the concentrations at the front (dotted), center (solid), and rear (dashed).
+(E) The concentrations at steady state (240 s) across the normalized length
+of the cell. The normalized concentrations of R* (dotted) and R*1 (solid) are
+plotted. As expected from Eq. A8 in the text, the ⫾5% external gradient in
+S manifests itself in a smaller gradient for R*. However, because this
+concentration is near the point of highest gain in the second subsystem, a
+large concentration gradient in R*1 ensues.
+
+Models of Eukaryotic Gradient Sensing
+
+55
+
+FIGURE 4 Spatial sensing mechanism of Dictyostelium and neutrophils. (A) The essential biochemical pathways implicated in gradient sensing
+(described in detail in the text). The output of the pathway is the concentrations of P3. The nonlinear character of response is assumed to be mediated by
+one or more small G-proteins (SGP). This feedback is of the substrate supply kind, illustrated in Fig. 2 B. (B) Simulation of the model corresponding to
+(A). Concentration of P3 is shown both as a function of time and position along the cell. The signal is increased homogeneously by 20% at 0 s and removed
+at 100 s. It is seen that the system adapts perfectly both these changes. A graded input is applied (⫹5% at the front, ⫺5% at the rear and varying linearly
+along the length of the cell) at 200 s. The graded response in P3 concentration, which disappears after removal of the graded input at 300 s, is shown.
+
+PLC acts by hydrolyzing P2 to insosytol-3-phosphaste and
+diacylglycerol, both of which may affect downstream signaling events, including Ca2⫹ upregulation and activation
+of protein kinase C (PKC). It may appear that chemotactic
+events can be influenced negatively by PLC activation,
+because the P2, the substrate for PI3K, is depleted. Experimental evidence shows that depletion of PLC can indeed
+affect chemotaxis positively for some chemoattractants, but
+has no significant effect on chemotaxis toward other chemoattractants. The effect of PLC is thus not uniform
+throughout chemoattractant-receptor families and is probably receptor specific. In particular, it has been suggested
+that PLC activation leads to downregulation of signaling by
+certain receptor classes by receptor desensitization through
+activation of PKC (Ali et al., 1999). In this report, we
+assume that, although PLC may affect P2 concentration to
+some degree, this effect is insignificant for the signaling
+pathways involved in gradient sensing.
+
+TABLE 1
+
+Numerous studies indicate that plasma-membrane concentrations of P3 is relatively low in the absence of stimulation and return precisely to the baseline values following
+spatially uniform changes in ligand concentration (perfect
+adaptation). The total cellular and possibly cell membrane
+concentration of P2, in contrast, is relatively high in the
+absence of the signal and does not seem to change significantly following exposure to chemoattractant (Stephens et
+al., 2000). However, a wealth of data indicates that P2
+induces uncapping and subsequent elongation of actin filaments by modulating interaction of profilin, ␣-actinin, vinculin, talin, and various actin-capping proteins with actin
+(Czech, 2000). These findings suggest a possibility of significant local changes in concentration of this phosphoinositide that might be masked when compared to its total
+cellular concentration. A recent study provides support for
+this view (Tall et al., 2000). Finally, the baseline concentration of PI(4)P (denoted here as PIP) is relatively high,
+
+Kinetic rate constants assumed in simulation in Fig. 4 B
+k⫺K ⫽ 5.0 s⫺1
+k⫺P ⫽ 0.57 s⫺1
+k⫺S ⫽ 2.1 s⫺1
+k⫺1 ⫽ 2.1 s⫺1
+k⫺2 ⫽ 1.4 s⫺1
+k⫺3 ⫽ 5.0 ␮M⫺1 s⫺1
+
+kK ⫽ 5.0 s⫺1
+kP ⫽ 0.49 s⫺1
+kS ⫽ 8.0 s⫺1
+k1 ⫽ 1.0 ⫻ 103 ␮M s⫺1
+k2 ⫽ 6.2 ⫻ 10⫺4 s⫺1
+k3 ⫽ 8.0 ⫻ 10⫺2 ␮M⫺1 s⫺1
+
+D ⫽ 5 ␮m2 s⫺1
+k11 ⫽ 1.4 s⫺1
+k21 ⫽ 4.3 ␮M⫺1 s⫺1
+k31 ⫽ 2.9 ⫻ 10⫺3 ␮M⫺1
+Biophysical Journal 82(1) 50 – 63
+
+56
+
+whereas its regulation during signal transduction is not well
+understood (Stephens et al., 2000).
+As indicated in Fig. 4 A, phosphoinositide regulation may
+involve a number of positive feedback mechanisms. It is
+well documented, for example, that activity of PIP5Ks, the
+enzymes acting to form P2 from PIP, is positively regulated
+by small G-proteins Rac, Rho, and Arf (Czech, 2000).
+These proteins, in turn, can be upregulated through formation of P3 (Missy et al., 1998). Significantly, formation of
+PIP in the Golgi complex can be positively regulated by Arf
+through recruitment of phosphatidylinositol-4-OH kinase
+(PI4K) (Czech, 2000). It is conceivable that similar upregulation of PIP in the plasma membrane may occur through
+the action of Rho and Rac. The resultant high concentrations
+of PIP will provide more substrate for formation of P3
+(through increased P2 formation). Finally, a significant role
+of Cdc42 activation by phosphoinositides in response to a
+chemoattractant has been suggested by recent experiments
+(Glogauer et al., 2000). Again, this small G-protein may, by
+analogy with Rac, Rho, and Arf be involved in the biochemical positive feedback proposed here.
+The perfect adaptation of P3 is of central importance to
+our model. Initially, it was suggested that adaptation took
+place primarily at the level of receptor by feedback phosphorylation of its C-terminal cytoplasmic domain following
+signal propagation (Knox et al., 1986). However, as mentioned above, receptor modification is not necessary for
+adaptation, and additional mechanisms underlying this
+property must exist (Kim et al., 1997). In the following
+discussion, we assume that the chemoattractant receptor is
+modified to prevent phosphorylation. From Fig. 4 A, it can
+be seen that the only remaining possibilities are to assume
+that either adaptation of the receptor-associated G-protein,
+or that the formation of P3 adapts to changes in signaling
+input. Although perfect adaptation at the level of G-protein
+seems attractive for explanation of a variety of G-proteinactivated processes (both phosphoinositide-dependent and
+not) exhibiting precise adaptation, there are experimental
+indications that no such adaptation takes place. First, preincubation of D. discoideum cells with the chemoattractant
+cAMP decreases the ability of the G-protein to be activated
+by a GTP analog in a receptor-independent manner (Pupillo
+et al., 1992). Second, FRET studies of dissociation of ␣ and
+␤␥ subunits of G-protein occurring in G-protein activation
+reveal that these subunits remain dissociated as long as the
+receptor is occupied (Janetopoulos et al., 2001). These findings indicate that G-protein remains activated continuously
+in the presence of the signal, making it likely that adaptation
+occurs downstream of G-protein activation.
+Assuming that adaptation takes place downstream of
+G-protein activation, this implies that activation of the Gprotein and its effectors including PI3K remains elevated as
+long as the ligand is present. Because the level of P3 adapts
+perfectly, a phosphatase opposing PI3K, most likely PTEN,
+has to be upregulated in response to G-protein activation.
+Biophysical Journal 82(1) 50 – 63
+
+Levchenko and Iglesias
+
+Currently, we do not know precisely the mechanism of
+PTEN activation and thus cannot assert the identity of the P3
+inhibitor. However, we can predict, on the basis of the
+above considerations, that this inactivator is either regulated
+directly by the receptor or G-protein in a manner similar to
+activation of PI3K, or is activated by its substrates, e.g., P3.
+In the latter case, we also predict that inactivation of this
+phosphatase is a saturated process. Regulation of the inactivator enzyme by the substrates appears to be less likely,
+because no adaptation occurs when P3 is produced by means
+other than G-protein-mediated signaling, e.g., by insulin or
+PDGF receptor activation (Oatey et al., 1999). Adaptation is
+thus likely to be dependent on the events upstream of
+phosphoinositide metabolism.
+As discussed above, to account for persistent signaling in
+the presence of chemoattractant gradients, candidates for
+inactivator molecules (PTEN or similar molecular species)
+have to possess an additional property. Namely, the inactivator molecule has to be diffusible in its active state. Members of PTEN families have this property, and can be
+considered as relevant contenders for the role of inhibitor.
+The issue of signal amplification in the biochemical pathways defined above can now be addressed. We mentioned
+that there are feedback mechanisms mediated by the small
+GTPases of the Rho family that can increase the production
+of P2 and PIP following upregulation of P3. Because P2 and
+PIP are substrates required to produce P3, the amplification
+can proceed according to the gain mechanisms described
+above (Fig. 2). Indeed, production of P3 is amplified by the
+positive feedback from P3 directly onto formation of its
+substrate P2. Here the activator A is PI3K, whereas the
+substrate R is P2 and the product R* is P3. In both cases, the
+activation ceases as soon as the activator (the active PI3K)
+is removed. These gain schemes are therefore sensitive to
+signal variations (including changes in the ligand gradients)
+and can operate successfully if adaptation occurs at the level
+upstream of phosphoinositides. As illustrated above, these
+schemes are also compatible with the adaptation mechanisms operating at the level of phosphoinositides.
+From the above consideration, the following likely
+scheme of G-protein-mediated signal transduction events in
+D. discoideum and neutrophils in response to chemoattractants emerges. Following G-protein activation of PI3K, this
+enzyme increases the concentration of P3. Following this
+initial increase, one or more members of the Rho family of
+small G-proteins is activated, leading to upregulation of
+membrane-localized PIP5K and PI4K. These kinases, in
+turn, increase production of PI3K substrates: P2 and PIP,
+leading to signal amplification. The G-protein activation
+also leads to activation of PTEN or a similar PI3K-counteracting phosphatase. As a result, in spatially uniform
+concentrations of the ligand, the action of PI3K is balanced
+to achieve the baseline levels of D-3-position inositol phosphorylation. The feedback loops are interrupted and the
+signaling mechanism adapts perfectly. If the system is faced
+
+Models of Eukaryotic Gradient Sensing
+
+57
+TABLE 2
+
+150
+
+Sensitivity analysis
+Gradient
+
+100
+
+k⫺K
+kK
+k⫺P
+kP
+D
+k⫺S
+kS
+k⫺1
+
+50
+
+0
+
+-50
+
+-100
+-5
+
+-4
+
+-3
+
+-2
+
+-1
+
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+FIGURE 5 Spatial sensing mechanism: response to various external
+gradients. The system of Fig. 4 was subjected to varying gradients, ⫾2%,
+⫾5%, ⫾10%, and ⫾25%, relative to that of the center, in the concentration
+of the external source. The spatial response along the length of the cell is
+plotted.
+
+with a chemoattractant gradient, diffusion of PTEN or a
+similar inactivator leads to an incomplete balance of PI3K
+action and results in persistent signaling oriented in the
+direction of the gradient.
+The mathematical description of our model of the adaptation mechanism of D. discoideum and neutrophils is found
+in the Appendix, and the results of corresponding simulations are shown in Fig. 4 B. The kinetic constants used are
+given in Table 1. The homogeneous concentration of Gprotein signal was first increased by 20% from its baseline
+level at t ⫽ 0 s. This results in a perfectly adapting spatially
+homogeneous response. This response is duplicated when
+the G-protein signal returns to basal level (100 s). Finally, a
+graded input is applied (200 s) by a graded level of Gprotein signal varying from the basal level ⫹5% at the front
+and ⫺5% at the rear and linearly throughout the cell. Our
+model exhibits a graded response, with the ratio activity
+between front and rear nearing ⫾25% that disappears when
+the G-protein signal once again returns to the basal level
+(300 s).
+Although the responses seen in Fig. 4 B are highly
+nonlinear, their amplitudes are not as great as may be
+expected on the basis of experimental data, often showing
+what apparently are more substantial increases. However,
+the experiments are often performed with gradients not as
+shallow as the ⫾5% gradient assumed in Fig. 4 B. To
+explore the response characteristics of the system depicted
+in Fig. 4 further, we subjected the cell model to different
+gradients of the G-protein, varying from ⫾2% to 25% (Fig.
+5). It can be easily seen that the intracellular activity gradient is a sensitive nonlinear function of the gradient value.
+In particular, there is a more than two-fold increase in
+activity at the cell front in the ⫾25% gradient. This result is
+important, because it shows that the system in Fig. 4 can
+
+Decrease
+(%)
+
+Increase
+(%)
+
+5.1
+5.4
+9.9
+5.1
+24.5
+5.1
+5.4
+5.1
+
+5.4
+5.1
+2.2
+5.4
+154.9
+5.4
+5.1
+5.4
+
+Gradient
+
+k1
+k11
+k⫺2
+k2
+k21
+k⫺3
+k3
+k31
+
+Decrease
+(%)
+
+Increase
+(%)
+
+5.4
+65.1
+5.1
+66.2
+5.4
+5.1
+5.0
+67.0
+
+5.2
+65.0
+5.4
+60.4
+5.1
+5.4
+5.0
+60.8
+
+Nominal parameter values were either increased or decreased five-fold.
+The observed gradient, defined as the ratio P3(front)/P3(rear) ⫺ 1, was
+computed. The nominal value is 65.1%. From the numbers obtained, it can
+be seen that deviations away from the nominal parameter values cause a
+loss in the ultrasensitivity of the system (see text).
+
+respond to the value of the gradient, not just the presence
+versus absence of gradient. The relatively low response seen
+for small gradient values is consistent with low precision of
+gradient detection seen in cells migrating in shallow chemoattractant gradients. The precision goes up as the gradient values increase.
+To measure the system’s sensitivity to parameter variations, each kinetic constant was increased/decreased fivefold. The response was checked for two qualitative properties. First, does the system adapt? To determine this, we
+calculated the concentration just before 100 s to just before
+0 s. We found that, in all cases, the difference between these
+two concentrations amounted to ⬍0.2%. Thus, perfect adaptation is a structural property of the model, not unlike that
+in Barkai and Leibler (1997). Second, we determined
+whether the system can detect spatial gradients. For this, we
+compute the activity ratio between front and rear of the cells
+at 300 s. The respective changes are seen in Table 2. From
+these data, it is clear that large deviations from most of the
+nominal kinetic parameters can cause a loss of the ultrasensitivity obtained. This can be explained by analogy to the
+gain mechanism depicted in Fig. 2 B and analyzed in the
+Appendix. In particular, a relative-large increase in internal
+gradient is achieved if the input concentration is centered at
+the “transition” regime of the system in Fig. 2 B. In Fig. 2
+C, this amounts to log A ⫽ 0. This means that a small
+relative difference between front and rear in the concentrations of this stimulus will cause a large relative difference in
+the response.
+However, if the kinetic parameters deviate from their
+nominal values, the regime of operation will shift either to
+the right or left on Fig. 2 C, where the slope (log R* versus
+log A) is ⬃1. Thus, the internal gradient will mirror the
+external gradient. We thus conclude that the property of
+spatial sensing, like that of adaptation, is robust, but that the
+ultrasensitivity seen is not.
+Biophysical Journal 82(1) 50 – 63
+
+58
+
+DISCUSSION
+In this study, we argue that substantial insights into the
+problem of eukaryotic gradient sensing can be gained from
+mathematical analysis of the necessary conditions for some
+of the biochemical properties of this process. Namely, any
+proposed biochemically-based model has to be able to account for both perfect adaptation of signaling to spatially
+homogeneous variations of chemoattractant concentration
+and also for high-gain persistent polarized signaling in
+response to chemoattractant gradients. The model also
+needs to be able to predict a high degree of sensitivity of
+polarized signaling to changes in the ligand gradient, e.g.,
+due to gradual changes in the value or direction of the
+gradients. As demonstrated here, these necessary conditions
+substantially limit the number of possible ways a gradientsensing biochemical network can be organized. The mathematically motivated limitations, coupled with information
+on various aspects of known biochemistry, allowed us to
+suggest a plausible scheme of gradient sensing in D. discoideum and neutrophils.
+First, we considered the property of perfect adaptation.
+Perfect adaptation is commonly observed in various Gprotein or growth-factor receptor-mediated signaling pathways implicated in gradient sensing. Several models of
+perfect adaptation in these pathways have been suggested
+before. For example, in Tang and Othmer (1994), it is
+proposed that adaptation occurs due to activation of both
+activating and inhibitory G-proteins. Other investigators
+ascribed adaptation mechanism to receptor regulation properties (Knox et al., 1986). We also should note that a
+receptor modification-based model has been successfully
+advocated for bacterial chemotaxis (Alon et al., 1999).
+Here, we investigate two models distinct from those proposed previously primarily because recent experimental observations add new restrictions on how a biochemical
+scheme underlying adaptation can operate. In particular, it
+has been determined that receptor phosphorylation is not
+essential in adaptation and that no redistribution of receptor
+molecules occurs in migrating Dictyostelium cells (Kim et
+al., 1997). In addition, only one G-protein species has been
+shown to mediate adaptation and chemotaxis (Neptune and
+Bourne, 1997), which argues against a previously proposed
+model of G-protein-based adaptation (Tang and Othmer,
+1994).
+The adaptation schemes proposed here postulate, in general, the existence of a process, the regulation of which
+results in adaptation of the activity of this process with
+respect to an external stimulus. The possible adaptation in
+activity of the G-protein to activation of the associated
+receptor or adaptation of phosphoinositide phosphorylation
+can be considered as examples of this process. As downregulation of activation is presumed to be mediated by an
+inhibitory molecule, assumptions on how the inactivator
+itself is activated need to be made. Two possibilities can
+Biophysical Journal 82(1) 50 – 63
+
+Levchenko and Iglesias
+
+then be considered: inactivator regulation by the activity of
+the process itself or by events upstream of the process. The
+fact that adaptation is perfect leads to further limitations on
+the mechanisms of inactivator regulation. In particular, if
+the inactivator is regulated downstream of the adaptation
+process, the inactivator downregulation has to be saturated.
+If, however, an upstream process regulates the inactivator,
+this regulation needs to be proportional to the activation of
+the corresponding activator. These conditions for perfect
+adaptation can be tested experimentally. In particular, on the
+basis of the plausible biochemical scheme proposed in the
+text, one can predict that the steady-state activation of
+PTEN or a similar phosphatase is proportional to activation
+of PI3K. Further analysis of PTEN regulation is needed to
+verify this prediction.
+Another prediction concerning the inactivator is that it
+has to be freely diffusible in the cytosol. This prediction
+reflects an added necessary condition needed to explain
+persistent signaling polarization in chemoattractant gradients in addition to perfect adaptation to spatially homogeneous changes in chemoattractant. Again, for PTEN or other
+inactivator candidate, this prediction can be verified experimentally. For instance, any PTEN modification preventing
+its diffusion is likely to limit the accuracy of gradient
+detection in chemotaxis. It is important to emphasize that
+the predictions as to the nature of the inactivator regulation
+and its diffusivity are made on the basis of consideration of
+the basic properties of perfect adaptation and persistent
+signaling and, thus, are expected to hold for any candidate
+for the role of the inhibitor.
+A major challenge in modeling gradient sensing is to
+reconcile the strongly nonlinear signal response with high
+sensitivity to the presence and the amplitude of the signal.
+So far, it has been common to assume that some sort of
+Turing-like positive feedback acting from the activator of
+signaling onto its own production is needed to explain the
+high gain characteristics of signal amplification. This hypothesis, however, invariably leads to formation of stable
+signaling patterns independent of the external ligand gradient. We argue here that several alternative schemes, with
+only one relying on a positive feedback, can be proposed to
+explain nonlinear signal amplification. Furthermore, there is
+a significant difference between the nature of the positive
+feedback mechanism proposed here and the modification of
+the Turing mechanism proposed by Meinhardt and others.
+The mechanism suggested here postulates that gradient
+sensing can be mediated by a positive feedback from the
+activator onto the supply of its precursor (or its inactivated
+form) rather than on the activator production itself. This
+kind of “substrate supply”-driven feedback scheme provides
+an opportunity to amplify the response significantly, while
+retaining the sensitivity to the presence of the promoteractivating enzyme. No requirement for a second inhibitor,
+as needed in the Meinhardt model, is any longer present.
+This approach can be used to modify not only the gradient-
+
+Models of Eukaryotic Gradient Sensing
+
+sensing signaling schemes suggested before, but also perhaps other models, in which a Turing-like pattern-generating schemes are utilized but not justified.
+Consideration of the biochemical mechanisms implicated
+in gradient sensing in D. discoideum can serve to verify the
+plausibility of a signal gain scheme. Indeed, although Ca2⫹induced Ca2⫹ release proposed by Meinhardt has been
+shown to be dispensable for gradient sensing in D. discoideum, phosphorylation of various phosphoinositides is
+thought to be at the core of the corresponding signal transduction. Here, we propose the existence of a small Gprotein-mediated positive feedback scheme leading to production the phosphoinositides P3. Its concentration, very
+low in quiescent cells, undergoes sharp transient (in adaptive response) or persistent (in gradient-sensing response)
+increases following exposure to a chemoattractant. A quick
+analysis of the available biochemical information on the
+underlying signal transduction reveals that the mathematical
+mechanisms suggested for the substrate supply-mediated
+positive feedback are likely to be embodied in the biochemical mechanisms. The positive feedback can be mediated by
+upregulation of PIP and P2 concentrations through the action of one or more small G-proteins (Cdc42, Rac, or Rho),
+which are, in turn, activated by P3. Evidence for the importance of small G-protein-mediated feedback in cell orientation has been obtained recently (Rickert et al., 2000).
+Although, in this study, we concentrated on modeling of
+gradient sensing that can occur independently of cell locomotion, in unperturbed chemotactic systems, the influence
+of various factors omitted from this analysis, such as cytoskeleton-mediated polarization of signaling components,
+can be of major importance. Indeed, even in the absence of
+an external gradient, a variety of cells, including D. discoideum, can migrate in random directions. These cells are
+polarized with various signaling molecules, including Gproteins, localized to what can be regarded as the front and
+the back of the cell (Jin et al., 2000). Polarization of signaling apparatus can create intracellular signaling gradient
+even in the absence of external chemoattractant gradients.
+Cytoskeleton-mediated extension of filopodia can further
+influence the gradient detection by providing the opportunity for temporal gradient sensing, in which gradients are
+measured by subtracting ligand concentrations detected at
+different times in the same subcellular location. Numerous
+questions are still open in this aspect of chemotaxis, such as
+what causes symmetry breaking in the cytoskeleton architecture leading to cell polarization and how commonly
+observed oscillations in actin cytoskeleton structure
+(Vicker, 2000) can influence chemotaxis. This paper provides a “stepping stone” for addressing these questions
+through an analysis of cytoskeleton-independent gradientdetection mechanisms that can regulate actin polymerization.
+We anticipate that, in the further chemotaxis models, the
+relative roles of P2 and small G-proteins (Cdc42, Rac, and
+
+59
+
+Rho) in regulation of actin polymerization will be further
+accounted for. It is becoming clear that actin is polymerized
+at the leading edge of migrating cells according to the
+dendritic nucleation model, whereby a regulatory protein
+complex, Arp2/3, both creates new filaments and crosslinks them into a branching meshwork. Recently, it has been
+shown that costimulation of Arp2/3 by both P2 and small
+G-proteins (Cdc42 in particular) through accessory WASP
+protein family is essential for its activation (Blanchoin et al.,
+2000). It is important to have congruent activation of both
+these regulators in formation of cell membrane protrusions
+at the front of the cell. The nature of the positive feedback
+signal amplification suggested here guarantees that both P2
+and small G-proteins become activated only if PI3K signaling is present. Unrelated regulatory events leading to increasing concentrations of just P2 or small G-proteins can
+mediate other important processes, such as stabilization of
+potassium channels (Kobrinsky et al., 2000) or membrane
+reshaping (Loyet et al., 1998) but not formation of spikes or
+philopodia characteristic of migrating cells.
+In this study, we illustrated how the mathematical model
+of the processes underlying perfect adaptation and reversible signal amplification can be mapped to biochemical
+signaling networks that became known through experimental studies in amoebae and neutrophils, probably the most
+common model systems in studies of chemotaxis. It will be
+of interest to see whether these general mathematical principles will hold for biochemical signaling networks found in
+other chemotaxing systems. Studies of chemotropism in
+yeast revealed important differences in the identity of the
+sensory pathways involved in gradient sensing in D. discoideum and Saccharomyces cerevisiae (Arkowitz, 1999). For
+instance, PI3K does not seem to be a major player in yeast
+gradient sensing, whereas the MAPK Fus3 seems to have an
+essential role. In addition, in migration of fibroblasts or
+neuronal growth cones, reception of the signal is not mediated by G-proteins. Despite these biochemical differences,
+we suggest that the major underlying principles proposed in
+this study, such as the combination of a mechanism for
+perfect adaptation with substrate-supply-mediated reversible signal amplification will be at the core of most eukaryotic gradient-sensing systems.
+It is of interest to compare our gradient-sensing model
+with qualitative descriptions suggested before. One of the
+popular ones, proposed in Parent and Devreotes (1999), is
+conceptually very similar to the one proposed here in that it
+assumes that perfect adaptation is mediated by a broadly
+defined balance of the actions of the activator and inactivator of signaling, whereas the persistent response to gradients
+is generated by an imbalance of these components due to the
+inactivator diffusion. However, no particular mechanisms
+(either mathematical or biochemical) have been proposed
+and analyzed by the authors, which limited the predictive
+power of the model. In addition, no clear explanation for the
+sources of nonlinearity in response has been suggested. The
+Biophysical Journal 82(1) 50 – 63
+
+60
+
+Levchenko and Iglesias
+
+modeling framework proposed here, both in its general
+theoretical and its plausible biochemical embodiments, provides more opportunities for direct experimental test and
+further refinement.
+
+trations of these two enzymes are Atot and Itot, respectively. A third
+enzyme, the external signal S, mediates activation of two enzymes, whereas
+inactivation is assumed to be constitutive. Again, using the form Eq. A1,
+the differential equations describing the active states can be written as
+
+dA
+⫽ ⫺k⫺AA ⫹ k⬘AS共Atot ⫺ A兲,
+dt
+
+APPENDIX
+Description of model from Fig. 1
+We assume that the response element is found in both an active, R*, and an
+inactive, R, state. Conversion from the inactive to the active state is through
+the activator enzyme A, whereas inactivation is through the enzyme I.
+In Fig. 1 A, we presented three reactions, in which a molecule is
+converted by an activator enzyme into the active state and by an inactivator
+enzyme into the inactive state. These reaction cycles are assumed for the
+activator A, the inactivator I, and the response element R. The relationship
+among these components is as follows. For the reaction of R, the activator
+is A and the inactivator is I. For the reaction of A, the activator is S (the
+external signal) and the inactivator is a constitutively active molecule (not
+denoted). By analogy, I is activated by S, and inhibited constitutively. The
+consideration of all of these reactions will follow the general treatment in
+Goldbeter and Koshland (1981).
+First, we consider a general set of reactions for the interconversion
+between the active form W* and inactive form W of a signaling molecule.
+With the activation mediated by an enzyme E1, the enzyme–substrate
+complex designated as U1 and association, dissociation, and reaction
+(catalysis) constants denoted, respectively, as kc1, ku1, and ka1, and with the
+inactivation mediated by E2 and the corresponding parameters (kc2, ku2, and
+ka2), we have,
+
+dI
+⫽ ⫺k⫺II ⫹ k⬘IS共Itot ⫺ I兲.
+dt
+Moreover, we assume that the inactivating reactions for both A and I are far
+more efficient (as measured by the value of the ratio of the catalytic rate
+constant and the Michaelis–Menten constant) than the activating reaction
+mediated by S. A result of this assumption is that the available substrate for
+S far exceeds the concentration of the two enzymes; i.e., Atot ⬎⬎ A and
+Itot ⬎⬎ I, so that these equations can be simplified as
+
+dA
+⫽ ⫺k⫺AA ⫹ kAS,
+dt
+
+(A3a)
+
+dI
+⫽ ⫺k⫺II ⫹ k⬘IS,
+dt
+
+(A3b)
+
+where kA ⫽ k⬘AAtot and kI ⫽ k⬘I Itot. We can rewrite these equations using
+the dimensionless fraction of active molecules r ⫽ R*/Rtot, dimensionless
+time ␶ ⫽ k⫺at, and similarly, dimensionless concentrations: a ⫽ (kR/k⫺A)A,
+2
+2
+i ⫽ (kRkAk⫺I/kIkA
+) I, and s ⫽ (kAkR/k⫺A
+)S. The new dimensionless
+equations are
+
+dW
+⫽ ⫺kc1WE1 ⫹ ku1U1 ⫹ ku2U2,
+dt
+
+da
+⫽ ⫺共a ⫺ s兲,
+d␶
+
+(A4a)
+
+dU1
+⫽ kc1WE1 ⫺ 共ku1 ⫹ ka1兲U1,
+dt
+
+di
+⫽ ⫺␣共i ⫺ s兲,
+d␶
+
+(A4b)
+
+dW*
+⫽ ⫺kc2W*E2 ⫹ ku2U2 ⫹ ka1U1,
+dt
+
+dr
+⫽ ⫺␤ir ⫹ a共1 ⫺ r兲,
+d␶
+
+(A4c)
+
+dU2
+⫽ kc2W*E2 ⫺ 共ku2 ⫹ ka2兲U2.
+dt
+
+where ␣ ⫽ (k⫺I/k⫺A) and ␤ ⫽ [(k⫺R/kR)(k⫺A/kA)]/(k⫺I/kI). At the steady
+state, the concentrations of normalized activator and inactivator are both
+equal to that of the signaling molecule s. For any value of s ⬎ 0, the
+normalized concentration of the active response element is
+
+(A1)
+
+It is usual to derive the Michaelis–Menten kinetics from the quasi-steadystate approximation, in which it is assumed that a fast steady state for
+intermediate enzyme–substrate complexes is achieved (dU1/dt ⫽ dU2/dt ⫽
+0). Using these conditions, the equation for the rate of change in W* given
+above can be rewritten as
+
+dW*
+W*E2
+WE1
+⫹ ka1
+⫽ ⫺kc2W*E2 ⫹ ku2
+dt
+KM2
+KM1
+⫽ ⫺␦W*E2 ⫹ ␭WE1.
+
+(A2)
+
+If both enzymes E1 and E2 operate far from saturation, we can assume that
+the values for these enzymes given in Eq. A2 correspond to the total rather
+than free concentrations. We will use this form for describing the particular
+reactions for R, A, and I. The reaction for R is thus
+
+dR*
+⫽ ⫺k⫺RIR* ⫹ kRAR.
+dt
+As mentioned above, we assume that the activating and inhibitory enzymes
+also occur in two states: active (A and I) and inactive. The total concenBiophysical Journal 82(1) 50 – 63
+
+rss ⫽
+
+a/i
+,
+a/i ⫹ ␤
+
+(A5)
+
+and we note that it is the ratio of enzyme concentrations that determines the
+steady-state value of the activity, and that rss is independent of the concentration of the signal s. Moreover, it is the ratio of inactivation constants
+␣ that determines the magnitude of the transient. For ␣ ⬍ 1 (resp. ␣ ⬎ 1)
+activation of A is faster (resp. slower) than that of I and, hence a transient
+increase (resp. decrease) in the concentration of r results to a positive
+increase in the concentration of s. When the concentration of the signaling
+molecule, s, is zero, Eqs. A4 have an arbitrary equilibrium value for the
+concentration of the active response element rss. However, to maintain
+continuity in the steady-state value of rss, we postulate that the only
+sensible value is that given by Eq. A5.
+To contrast the scheme proposed here with that of Goldbeter and
+Koshland (1981), we note that, in their study, the equations governing the
+activation of the two enzymes occurs in the saturating region of Michaelis–
+Menten kinetics. Based on this assumption, they obtain “ultrasensitivity” in
+the steady-state response element R* to changes in the external concentration of S. We consider the opposite regime, in which the enzyme activation
+
+Models of Eukaryotic Gradient Sensing
+
+61
+
+occurs in the linear region of Michaelis–Menten kinetics. Interestingly, the
+Goldbeter–Koshland model also results in the degree of activation being a
+function of the ratio of activating and inhibitory enzymes. Therefore, even
+if we assume a Goldbeter–Koshland-style zero-order-sensitivity regime for
+R activation, we can still predict perfect adaptation, provided that the
+concentrations of active A and I depend on S linearly. In this case, there are
+both adaptation of R* and amplification of the signal S occurring without
+any extra mechanisms. Although this scheme may seem attractive for a full
+description of gradient sensing, a different, positive feedback-based amplification scheme described in the next section agrees better with experimental data (see text).
+
+Description of models from Fig. 2
+Both systems can be described by the pair of differential equations;
+
+dR*
+k2AR
+⫽ ⫺k⫺2R* ⫹
+,
+dt
+kM ⫹ R
+dR
+⫽ ⫺k⫺1R ⫹ 共k1 ⫹ k1aA ⫹ k1*R*兲
+dt
+⫹ k⫺2R* ⫺
+
+k2AR
+.
+kM ⫹ R
+
+(A6)
+
+The first equation describes an enzymatic conversion from R to R* using
+Michaelis–Menten kinetics, as well as the reverse reaction. In the second
+equation, we assume that there is a basal level of production of R, with
+kinetic constant k1. Two other possibilities exist. If k1a ⫽ 0, then the
+enzyme A catalyzes the production of substrate as in Fig. 2 A. If k1* ⫽ 0,
+then R* provides a positive feedback loop as in Fig. 2 B.
+We look for possible equilibria of these two equations. Setting the first
+equation to zero, one obtains
+
+R* ⫽
+
+␣AR
+k2 AR
+⫽
+,
+k⫺2 kM ⫹ R ␤ ⫹ R
+
+Finally, the third case—that of Fig. 2 B— has ␦ ⫽ 0. Two solutions
+exist, but only one is non-negative,
+
+R* ⫽
+
+⫺共␤ ⫹ ␥ ⫺ A␣⑀兲 ⫹ 冑共␤ ⫹ ␥ ⫺ A␣⑀兲2 ⫹ 4␣␭A
+.
+2⑀
+
+We first consider the instance where the concentration of A is small, that
+is, ␤ ⫹ ␥ ⬎⬎ ␣⑀A. In this instance, the solution matches that of the
+previous Section. In the other extreme case, where A is very large, the
+solution approaches R* ⫽ ␣A ⫹ ␥/⑀. Thus, asymptotically, this solution
+matches that of the previous section for large values of concentration in A.
+The third regime of interest is the “transition,” which we describe below.
+For the two schemes depicted in Fig. 2 there are three regimes, depending on the concentration of A. When A is small, both schemes give rise to
+concentrations of R* that vary linearly with respect to A, and having the
+same slope. This is the regime when the contributions of either the k1a or
+k1* terms are small compared to the k1 term. Thus, neither positive
+feedback nor the contribution of A on the substrate R is playing a significant role. When R ⬎⬎ kM, the system saturates. This can only happen when
+either k1a ⫽ 0 or k1* ⫽ 0. In this regime, more positive feedback or
+contribution of A on R will not be beneficial, and, therefore, the two
+schemes have the same slope and, hence, gain.
+Where the systems can differ significantly is in the transition area, and
+we will compare the gains there. To do this, we assume that
+
+␥ ⬍⬍ R ⫽ ␥ ⫹ ␦A ⫹ ⑀R* ⬍⬍ kM ⫽ ␤.
+It is straightforward to check that when ⑀ ⫽ 0, this leads to R* ⫽ (␣␦/␤)A2.
+For the positive feedback scheme, in the region far from saturation, R* ⬵
+AR/␤ ⫽ ␣A(⑀R* ⫹ ␥)/␤. Thus,
+
+R* ⬇
+
+␣␥A
+,
+␤共1 ⫺ ␣⑀A兲
+
+provided that A ⬍ 1/(␣⑀). This scheme can provide arbitrarily larger gains
+near A ⫽ 1/(␣⑀). However, as the concentration of A approaches this
+threshold, we quickly reach saturation. A comparison of the gains for the
+two schemes is shown in Fig. 2 C.
+
+Description of models in Fig. 3
+where ␣ ⫽ k2/k⫺2 and ␤ ⫽ kM. Similarly,
+
+R⫽
+
+1
+共k ⫹ k1aA ⫹ k1*R*兲 ⫽: ␥ ⫹ ␦A ⫹ ⑀R*.
+k⫺1 1
+
+Together, these equations lead to the following quadratic equation for the
+steady-state concentration of R*:
+
+⑀共R*兲2 ⫹ 共␤ ⫹ ␥ ⫹ A共␦ ⫺ ␣⑀兲兲R* ⫺ ␣A共␥ ⫹ ␦A兲 ⫽ 0.
+We consider some special cases in detail. In the base-line level, we
+assume that k1a ⫽ k1* ⫽ 0; equivalently, ␦ ⫽ ⑀ ⫽ 0. In this case, there is
+only one solution, R* ⫽ [␣␥/(␤⫹␥)]A, showing that the concentration of
+R* increases linearly with that of A.
+The situation depicted by Fig. 2 A, where there is no feedback, amounts
+to setting ⑀ ⫽ 0. Once again, there is only one solution: R* ⫽ ␣A[(␥ ⫹
+␦A)/(␤ ⫹ ␥ ⫹ ␦A)]. Notice that, in the two extreme regimes (small and
+large concentrations of A), the resultant concentration for R* varies linearly
+with that of A. For small A, the slope (␣␥/(␤ ⫹ ␥)) is the same as in the
+previous case. For large A, the slope (␣) is strictly larger. In the transition
+regime, the concentration of R* varies as the square of A. This is the region
+when the production of R due to A is now significantly more than the basal
+level (k1aA ⬎⬎ k1) but R has not saturated (kM ⬎⬎ R).
+
+We first analyze the model of Fig. 3 A and consider the analysis of the
+system, assuming that the concentration of the external signaling molecule
+is homogeneous. This system then combines the schemes of Figs. 1 A and
+2 A. The equations governing the evolution of the system are those of Eqs.
+A3, together with
+
+dR*
+⫽ ⫺k⫺2IR* ⫹ k2AR,
+dt
+dR
+⫽ ⫺k⫺1IR ⫹ k1aA ⫹ k⫺2R* ⫺ k2AR,
+dt
+
+(A7)
+
+which is Eq. A2 in the transition regime discussed in the previous section.
+Analysis of this pair of equations leads to a steady-state concentration
+value for R* as in the previous section,
+
+R*ss ⫽
+
+k2k1a
+共A/I兲2,
+k⫺2k⫺1
+
+so that the steady-state concentration of R* depends on the square of the
+ratio of concentrations of A and I.
+The system described by Fig. 3 B consists of a cascade of the systems
+described in Fig. 1 A and the system in Fig. 2 B. Thus, if we once again
+Biophysical Journal 82(1) 50 – 63
+
+62
+
+Levchenko and Iglesias
+
+concentrate on the transition regime of the previous section, the steadystate concentration of R*1 is given by
+
+R*1⫺ss ⫽
+
+␣␥共A/I兲
+.
+␤共1 ⫺ ␣⑀共A/I兲兲
+
+We note that it is, once again, the ratio of enzyme concentrations that
+governs the behavior of the system. When the activity of these enzymes is
+regulated as in Eqs. A3, constant concentrations of S will lead to steadystate concentrations of the response element that are independent of the
+level S. This analysis is valid when the system is stimulated by spatially
+homogeneous source signal concentrations. To account for graded inputs,
+the system is modified slightly. We assume that the concentrations of all
+system species are localized except for the inhibitor, which is allowed to
+diffuse. To account for this diffusion, we modify one term to the differential equation describing the inactivator dynamics, Eq. A3b,
+
+⭸I共t, x兲
+⫽ ⫺k⫺II共t, x兲 ⫹ kIS共t, x兲 ⫹ Dⵜ2I共t, x兲.
+⭸t
+For boundary conditions, we assume no flux at either end. Note that the
+concentration of the inactivator is now indexed according to the spatial
+dimension.
+We model the cell as a one-dimensional system where the concentration
+of the external signal varies linearly as the spatial parameter x. Thus S(x) ⫽
+s0 ⫹ s1x. By solving the above equation, the steady-state concentration of
+the inactivator enzyme can then be calculated as
+
+I共x兲 ⫽
+
+冉
+
+冉
+
+kI
+sinh ␴x cosh ␴x关cosh ␴ ⫺ 1兴
+s0 ⫹ s1 x ⫺
+⫹
+k⫺I
+␴
+␴ sinh ␴
+
+冊冊
+
+,
+
+where ␴ ⫽ 公k⫺I/D. Because the activator enzyme cannot diffuse, its
+steady-state concentration profile mirrors that of the external source,
+A(x) ⫽ (kA/kA)S(x). Recall that the concentration of the response element
+is governed by the ratio of these two enzymes, which is now A(x)/I(x), and
+this equals
+
+冉
+
+冉
+
+cosh ␴x关cosh ␴ ⫺ 1兴 sinh ␴x
+⫺
+␴ sinh ␴
+␴
+
+kAk⫺I
+⬍
+.
+k⫺AkI
+
+冊冊
+
+⫺1
+
+(A8)
+
+It is the parameter ␴ that determines the spatial response of the system.
+For small values of ␴, the concentration of I(x) is approximately constant
+across the length of the cell. Hence, the ratio A(x)/I(x) mirrors that of the
+external source. When ␴ is large, the concentration I(x) is linear across the
+length of the cell, and hence the ratio of A(x)/I(x) is independent of the
+spatial parameter x.
+The output of a simulation involving the system in Fig. 3 B is shown in
+Fig. 3, C–E. Parameters used are kA ⫽ 1 s⫺1, k⫺A ⫽ 1 s⫺1, kI ⫽ 0.05 s⫺1,
+k⫺I ⫽ 0.05 s⫺1, k1 ⫽ 1 ␮M s⫺1, k*1 ⫽ 100 s⫺1, k⫺1 ⫽ 1 s⫺1, k2 ⫽ 1 ␮M⫺1
+s⫺1, k⫺2 ⫽ 1 s⫺1, kM ⫽ 100 ␮M, and D ⫽ 0.8 ␮m2 s⫺1. As discussed with
+regards to the system of Fig. 1 A, the property of perfect adaptation does
+not depend on the value of the parameters chosen. The concentration of the
+response element R*, which serves as the output of the first subsystem and
+input to the second subsystem, has a steady-state value of 1 ␮M. The other
+parameter values (k1, k1, k⫺1, k2, k⫺2, kM, and D) where chosen to provide
+large amplification near this operating point. This is achieved by selecting
+parameters so that the point of highest slope in Fig. 2 C matches the
+concentration of the input of the second subsystem, R*.
+Biophysical Journal 82(1) 50 – 63
+
+Description of Model from Fig. 4 A
+We assume a one-dimensional model of a cell, 10-␮m long. The differential equations describing our model are given below. Except for the
+following two cases, the reactions are assumed to follow first-order kinetics. First, in the conversion of PI to PIP, and PIP to P2, the rate constants
+k1 and k2 are augmented by terms proportional to the concentration of the
+small G-protein; these are meant to express the increase in conversion that
+is mediated by these proteins. Second, the conversion of P2 to P3 follows
+Michaelis–Mentin quasi-steady-state dynamics. These assumptions lead to
+the following set of differential equations:
+
+⭸PI3K
+⫽ ⫺k⫺KPI3K ⫹ kKG
+⭸t
+⭸PTEN
+⫽ ⫺k⫺PPTEN ⫹ kPG ⫹ Dⵜ2PTEN
+⭸t
+⭸SGP
+⫽ ⫺k⫺SSGP ⫹ kSPIP3
+⭸t
+⭸PIP
+⫽ ⫺k⫺1PIP ⫹ 共k1 ⫹ k11SGP兲 ⫹ k⫺2P2
+⭸t
+⫺ 共k2 ⫹ k21SGP兲PIP
+⭸P2
+⫽ ⫺k⫺2P2 ⫹ 共k2 ⫹ k2SGP兲PIP ⫹ k⫺3PTEN 䡠 P3
+⭸t
+
+A共x兲 kAk⫺I
+s1
+⫽
+1⫹
+I共x兲 k⫺AkI
+s 0 ⫹ s 1x
+䡠
+
+It is seen that the system adapts perfectly to homogeneous changes in
+the concentration of the external signal S. Graded changes in S lead to
+graded changes in both the concentrations of R* and R*1. However, as
+expected from Eq. A8, the relative concentration gradient in R* is smaller
+than that of S. However, the amplification subsystem involving R*1 leads to
+large gradients in this molecule’s concentration, as seen in Fig. 3, D and E.
+Varying parameters from these nominal values can have significant effects
+on the magnitude of the response element R*1 (not shown).
+
+⫺ k3PI3K
+
+P2
+1 ⫹ k31P2
+
+⭸P3
+P2
+⫽ ⫺k⫺3PTEN 䡠 P3 ⫹ k3PI3K
+⭸t
+1 ⫹ k31P2
+The analysis of this set of equations is similar to that of the previous
+section. The only difference is that there are now two positive feedback
+loops. Nevertheless, it is possible to show that, for spatially homogeneous
+levels of G-protein signaling, the concentration of the signal P3 is independent on the level of concentration of G. For spatially graded inputs, the
+spatial distribution of P3 depends on the spatially local ratio of concentrations of PI3K and PTEN. These spatial distributions are governed as in the
+previous section. Note, however, that, for these spatially inhomogeneous
+differences in concentrations to have the greatest effect on the distribution
+of concentrations of P3, this ratio must lie in the transition region described
+in Description of Models from Fig. 2. Kinetic constants used are found in
+Table 1. These constants were chosen to give basal levels of PIP, P2, and
+P3 around 50, 30, and 0.05 ␮M, which is in the range reported (Stenmark,
+2000). The diffusion coefficient used corresponds to that predicted in
+Postma and van Haastert (2001).
+The authors gratefully acknowledge P. N. Devreotes, D. Bray, M. D. Levin
+and D. A. Lauffenburger as well as the anonymous reviewers for their
+
+Models of Eukaryotic Gradient Sensing
+careful reading of the manuscript and for their helpful insights and suggestions.
+Partial support for this work was provided by Burroughs Wellcome Fund’s
+Fellowship in Computational Biology (Interfaces program at Caltech) to
+A.L., the Whitaker Foundation (P.I.) and the National Science Foundation
+(P.I.) under grant No. DMS-0083500.
+
+REFERENCES
+Ali, H., R. M. Richardson, B. Haribabu, and R. Snyderman. 1999. Chemoattractant receptor cross-desensitization. J. Biol. Chem. 274:
+6027– 6030.
+Alon, U., M. G. Surette, N. Barkai, and S. Leibler. 1999. Robustness in
+bacterial chemotaxis. Nature. 397:168 –171.
+Arkowitz, R. A. 1999. Responding to attraction: chemotaxis and chemotropism in Dictyostelium and yeast. Trends. Cell Biol. 9:20 –27.
+Barkai, N., and S. Leibler. 1997. Robustness in simple biochemical networks. Nature. 387:913–917.
+Blanchoin, L., T. D. Pollard, and R. D. Mullins. 2000. Interactions of
+ADF/cofilin, Arp2/3 complex, capping protein and profilin in remodeling of branched actin filament networks. Curr. Biol. 10:1273–1282.
+Czech, M. P. 2000. PIP2 and PIP3: complex roles at the cell surface. Cell.
+100:603– 606.
+Eddy, R. J., L. M. Pierini, F. Matsumura, and F. R. Maxfield. 2000.
+Ca2⫹-dependent myosin II activation is required for uropod retraction
+during neutrophil migration. J. Cell Sci. 113:1287–1298.
+Gierer, A., and H. Meinhardt. 1972. A theory of biological pattern formation. Kybernetik. 12:30 –39.
+Goldbeter, A., and D. E. Koshland. 1981. An amplified sensitivity arising
+from covalent modification in biological systems. Proc. Natl. Acad. Sci.
+U.S.A. 78:6840 – 6844.
+Glogauer, M., J. Hartwig, and T. Stossel. 2000. Two pathways through
+Cdc42 couple the N-formyl receptor to actin nucleation in permeabilized
+human neutrophils. J. Cell Biol. 150:785–796.
+Janetopoulos, C., T. Jin, and P. N. Devreotes. 2001. Receptor-mediated
+activation of heterotrimeric G-proteins in living cells. Science. 291:
+2408 –2411.
+Jin, T., N. Zhang, Y. Long, C. A. Parent, and P. N. Devreotes. 2000.
+Localization of the G protein ␤␥ complex in living cells during chemotaxis. Science. 287:1034 –1036.
+Kim, J. Y., R. D. Soede, P. Schaap, R. Valkema, J. A. Borleis, P. J. Van
+Haastert, P. N. Devreotes, and D. Hereld. 1997. Phosphorylation of
+chemoattractant receptors is not essential for chemotaxis or termination
+of G-protein-mediated responses. J. Biol. Chem. 272:27313–27318.
+Knox, B. E., P. N. Devreotes, A. Goldbeter, and L. A. Segel. 1986. A
+molecular mechanism for sensory adaptation based on ligand-induced
+receptor modification. Proc. Natl. Acad. Sci. U.S.A. 83:2345–2349.
+Kobrinsky, E., T. Mirshahi, H. Zhang, T. Jin, and D. E. Logothetis. 2000.
+Receptor-mediated hydrolysis of plasma membrane messenger PIP2
+leads to K⫹-current desensitization. Nat. Cell Biol. 2:507–514.
+Loyet, K. M., J. A. Kowalchyk, A. Chaudhary, J. Chen, G. D. Prestwich,
+and T. F. Martin. 1998. Specific binding of phosphatidylinositol 4,5bisphosphate to calcium-dependent activator protein for secretion
+(CAPS), a potential phosphoinositide effector protein for regulated exocytosis. J. Biol. Chem. 273:8337– 8343.
+
+63
+Meinhardt, H. 1999. Orientation of chemotactic cells and growth cones:
+models and mechanisms. J. Cell Sci. 112:2867–2874.
+Missy, K., V. Van Poucke, P. Raynal, C. Viala, G. Mauco, M. Plantavid,
+H. Chap, and B. Payrastre. 1998. Lipid products of phosphoinositide
+3-kinase interact with Rac1 GTPase and stimulate GDP dissociation.
+J. Biol. Chem. 273:30279 –30286.
+Neptune, E. R., and H. R. Bourne. 1997. Receptors induce chemotaxis by
+releasing the ␤␥ subunit of Gi, not by activating Gq or Gs. Proc. Natl.
+Acad. Sci. U.S.A. 94:14489 –14494.
+Oatey, P. B., K. Venkateswarlu, A. G. Williams, L. M. Fletcher, E. J.
+Foulstone, P. J. Cullen, and J. M. Tavare. 1999. Confocal imaging of the
+subcellular distribution of phosphatidylinositol 3,4,5-trisphosphate in
+insulin- and PDGF-stimulated 3T3–L1 adipocytes. Biochem. J. 344:
+511–518.
+Parent, C. A., and P. N. Devreotes. 1999. A cell’s sense of direction.
+Science. 284:765–770.
+Postma, M., and P. J. van Haastert. 2001. A diffusion-translocation model
+for gradient sensing by chemotactic cells. Biophys. J. 81:1314 –1323.
+Pupillo, M., R. Insall, G. S. Pitt, and P. N. Devreotes. 1992. Multiple cyclic
+AMP receptors are linked to adenylyl cyclase in Dictyostelium. Mol.
+Biol. Cell. 3:1229 –1234.
+Rickert, P., O. D. Weiner, F. Wang, H. R. Bourne, and G. Servant. 2000.
+Leukocytes navigate by compass: roles of PI3K␥ and its lipid products.
+Trends. Cell Biol. 10:466 – 473.
+Servant, G., O. D. Weiner, P. Herzmark, T. Balla, J. W. Sedat, and H. R.
+Bourne. 2000. Polarization of chemoattractant receptor signaling during
+neutrophil chemotaxis. Science. 287:1037–1040.
+Stenmark, H. 2000. Phosphatidylinositol 3-kinase and membrane trafficking. In Biology of Phosphoinositides. S. Cockroft, editor. Oxford University Press, Oxford, UK. 32–108.
+Stephens, L., A. McGregor, and P. Hawkins. 2000. Phosphoinositide
+3-kinases: regulation by cell surface receptors and function of 3-phosphorylated lipids. In Biology of Phosphoinositides. S. Cockroft, editor.
+Oxford University Press, Oxford, UK. 32–108.
+Tall, E. G., I. Spector, S. N. Pentyala, I. Bitter, and M. J. Rebecchi. 2000.
+Dynamics of phosphatidylinositol 4,5-bisphosphate in actin-rich structures. Curr. Biol. 10:743–746.
+Tang, Y., and H. G. Othmer. 1994. A G protein-based model of adaptation
+in Dictyostelium discoideum. Math. Biosci. 120:25–76.
+Traynor, D., J. L. Milne, R. H. Insall, and R. R. Kay. 2000. Ca(2⫹)
+signalling is not required for chemotaxis in Dictyostelium. EMBO J.
+19:4846 – 4854.
+Van Duijn, B. and P. J. Van Haastert. 1992. Independent control of
+locomotion and orientation during Dictyostelium discoideum chemotaxis. J. Cell Sci. 102:763–768.
+Van Haastert, P. J. 1983. Sensory adaptation of Dictyostelium discoideum
+cells to chemotactic signals. J. Cell Biol. 96:1559 –1565.
+Vicker, M. G. 2000. Reaction-diffusion waves of actin filament
+polymerization/depolymerization in Dictyostelium pseudopodium extension and cell locomotion. Biophys. Chem. 84:87–98.
+Wu, D., C. K. Huang, and H. Jiang. 2000. Roles of phospholipid signaling
+in chemoattractant-induced responses. J. Cell Sci. 113:2935–2940.
+Yi, T. M., Y. Huang, M. I. Simon, and J. Doyle. 2000. Robust perfect
+adaptation in bacterial chemotaxis through integral feedback control.
+Proc. Natl. Acad. Sci. U.S.A. 97:4649 – 4653.
+
+Biophysical Journal 82(1) 50 – 63
+
+

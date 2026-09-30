@@ -1,0 +1,728 @@
+THEJOURNALOF BIOLOGICAL
+CHEMISTRY
+0 1988 by The American Society for Biochemistry and Molecular Biology, Inc.
+
+Vol. 263,No. 28, Issue of October 5,pp. 14538-14543,1988
+Printed in U.S.A.
+
+Ligand-induced Phosphorylation ofthe cAMP Receptor from
+Dictyostelium discoideum"
+(Received for publication, June 6, 1988)
+
+Roxanne A. Vaughan and PeterN. Devreotes
+From the Departmentof Biological Chemistry, The Johns Hopkins University Schoolof Medicine, Baltimore, Maryland21205
+
+The cell surface cAMP receptor of Dictyostelium mentally regulated genes. If cAMP is absent or present at
+discoideum exists as a doublet of low (D) and high (R) fixedlevels,gene expression is abnormal and cells do not
+electrophoretic mobility forms, both of which are phos- differentiate (8). Thus both activation and adaptation mephorylated in vivo. The R form is phosphorylated in a diated by the cell surface cAMP receptor are required for
+ligand-independent manner, whileconversion of the R chemotaxis and normal development.
+to Dforms, induced by the chemoattractant,is accomThe cell surface receptor which binds extracellular cAMP
+panied by at least a 4-fold increase in the level of has been identified (9, 10) and purified to homogeneity (11).
+phosphorylation. When cells are stimulated with satu- It exists as adoublet with the higher electrophoretic mobility
+rating levels of CAMP, increased phosphorylation is form or R form ( A I r = 40,000) predominating in nonstimulated
+detectable within 5 s and reaches maximum levels by
+cells and the lower electrophoretic mobility form or D form
+5 min with atn of 45 s. Dephosphorylation of receptor,
+initiated by removal of the stimulus, is detectable ( A I r = 43,000) predominating in CAMP-stimulated cells. The
+within 30 s, has a half-time of 2 min, and reaches a modification producing the change in forms is reversible and
+plateau by 20 min. At half-maximal occupancy, phos- occurs endogenously as cells undergo spontaneous cAMP
+phorylation occurred more slowly than at saturation, oscillations (12). In contrast to the transientCAMP-activated
+responses listed above, the electrophoretic mobility shift pert H = 1.5 min, and remainedat intermediate levels until
+the cAMP concentration wasincreased. Accompanying sists in the presence of constant cAMP (13) and may therefore
+electrophoretic mobility shifts occurred in all
+cases be involved in adaptation. The kinetics and dose dependence
+with similar,though not identical, kinetics. Both phos- of thisshift have previously been analyzed by 8-N3-[32P]
+phorylation andmobility shift werehalf-maximal at 5 CAMP' photoaffinity labeling and correlate well with the
+nM cAMP and saturated at 100 nM. Estimation of the kinetics and dose dependence of adaptation of adenylate
+specific activity of each receptor form indicates that cyclase and cell shape change (13).
+not all sites are phosphorylated during the R to D
+Metabolic labeling studies have shown thatthe cAMP
+transition; at least half of the sitesare phosphorylated receptor is phosphorylated in uiuo and that thelevel of phosafter the transitionis completed. The rate of incorpo- phorylation is increased severalfold after cells are stimulated
+ration of phosphates into the receptor, held in the D with cAMP (14, 15). Since both receptor shift and phosphoform by CAMP, was less than one-third the rate of rylation are induced by chemoattractant, phosphorylation
+ligand-induced incorporation starting with theR form may be the biochemical event producing the shift and may
+and was approximately twice thebasal rate of incor- also be an early event leading to adaptation. The cAMP
+poration. These results are compatible with ligandreceptor thus resembles many other cell surface receptors
+induced receptor phosphorylation being an earlyevent
+such as thosefor insulin, epidermal growth factor, rhodopsin,
+in the adaptationof other CAMP-induced responses.
+and adrenergic agonists which undergo phosphorylation in
+response to ligand binding (16, 17). For rhodopsin and the padrenergic receptor, ligand-induced phosphorylation has been
+During the developmental cycle of Dictyostelium dkcoideum correlated with adaptation of physiological responses (17)
+many thousands of amoebae aggregate to form a multicellular although definitive proof of this relationship is still lacking.
+structure. Aggregation is mediated by cAMP which is propa- Thisstudy investigates phosphorylation properties of the
+gated at 6-min intervals in the form of waves throughout the cAMP chemoattractant receptor including kinetics, dose decell population (1).Binding of cAMP to thecell surface elicits pendence, dephosphorylation, relationship to mobility shift,
+a variety of responses including activation of adenylate cy- and compatibility with adaptation processes.
+clase, phosphorylation of myosin heavy and light chains, and
+cell shape changes (2-5). After characteristic periods of time
+MATERIALS AND METHODS
+these processes spontaneously return to basal levels even in
+Cell Growth and Deuelopment"AX3 cells were grown to a density
+the presence of CAMP, a process termed adaptation (5, 6).
+of 5 X 106/ml in HL-5 medium and developed a t 2 X lO'/ml in
+Removal of cAMP results in the resensitization, or deadap- development buffer as described (11).Cells were pulsed with 50 nM
+tation, of these events (7). Activation and adaptation of these cAMP every 6 min throughout development.
+Preparation of Membranes and in Vivo 3zPLabeling-After develprocesses are presumed to underlie the oscillatory propagation
+5 h, cells were washed twice with and resuspended
+of cAMP waves and chemotaxis of cells during aggregation. opment a t 21 "C for
+The cAMP oscillations control the expression of develop- at 10' cells/ml in Mes buffer (20 mM Mes, pH 6.2, 2 mM MgSOd, 0.2
+
+* This work was supported by Grant GM 34933 from the United
+States Public Health Service (to P. N. D.).T h e costs of publication
+of this article were defrayed in part by the payment of page charges.
+This article must therefore
+be hereby marked "aduertisement" in
+accordance with 18 U.S.C. Section 1734 solely to indicate this fact.
+
+mM CaC12).The cells were shaken a t 100 rpm and treated with5 m M
+caffeine for 15 min to prevent activation of adenylate cyclase and
+produce the R form of receptor (12). Where i n d i ~ a t e d ~was
+~ P included
+,
+
+The abbreviations used are: 8-N3-[32P]cAMP, 8-azid0-[~*P]cyclic
+AMP; Mes, 2-(N-morpholino)ethanesulfonicacid.
+
+14538
+
+This is an Open Access article under the CC BY license.
+
+Ligand-induced CAMPReceptor Phosphorylation
+
+14539
+
+phosphorylation, the maximal total phosphorylation (summing peak
+at the same time as the
+caffeine at a final concentration of 1.0 mCi/
+ml. When stimulated, cells were then given 10 mM dithiothreitol and heights of R and D forms) in each experiment is considered to be
+loo%, and other data points are expressed as percentages
+of the
+the indicated concentrationsof CAMP for the indicated timeperiods.
+?'Pi labeling times prior to stimulationwere 15 min unless otherwise maximum value. Unless otherwise indicated, data points represent
+the fractional amount of phosphorylation of the sum of R and D
+indicated and were kept constant within g o u p s of experiments in
+order to produce similar basal phosphorylation levels. These experi- forms.
+ments were performed under conditions where ["PIATP pools were
+not equilibrated.However, using the conditionsdescribed the specific
+RESULTS
+activity of the ["PIATP does not change appreciably during the time
+course of these experiments or in response to cAMP (data not shown Kinetics of Phosphorylation-The kinetics of receptor re(18)). All labelings and cAMP stimulationswere performed at 22 "C. distribution determined by immunoblotting in response to
+After stimulation cells were withdrawn to a 5-fold volume of icesaturating cAMP are shown in Fig. L4. As previously demcold saturatedammoniumsulfateandcentrifugedin
+a Beckman
+Microfuge 12 a t 10,000 rpm for 8 min. The pellets were resuspended onstrated by photoaffinity labeling (13), about 90% of receptor
+with 1 ml of ammonium sulfate and recentrifuged. Cells were lysed protein from unstimulated cells migrates as theR form. When
+by the addition of 1 ml of lysis buffer (11)and membranes prepared cells were stimulatedwith
+M cAMPthere was arapid
+and solubilized as described (11).For all experiments, parallel sets of redistribution of receptor protein from the R to the D form
+RzPi-labeled and unlabeled cells were prepared in order to directly
+with a final distribution of 80-90% in the D form. The halfcompare changes in phosphorylation (analyzedby immunoprecipitatime
+for this process was 30 s, and a steady statewas reached
+tion) and electrophoretic mobility shift (analyzed
+by immunoblotby 5 min. No change in electrophoreticmobility was detected
+ting).
+during the remainder of the experiment. The kinetics of in
+Experimental Protocok-For phosphorylation kinetics, cells were
+washed, treated withcaffeine, and labeled with 32Pias described above. vivo phosphorylation of the cAMP receptor are shown in Fig.
+For 0-min time points, aliquots were removed to ammonium sulfate
+before cAMP stimulation. After addition of CAMP, aliquots of cells
+I
+wereremoved t o ammonium sulfate at the indicated time points.
+1.0
+Control experiments showed that, once in ammonium sulfate, cells
+E
+could be held without further processing for at least 30 min with no
+b
+LL
+change in receptor shiftor level of phosphorylation.
+0
+For dephosphorylation experiments, cells a t a density of 108/ml
+C
+._
+were labeled with "Pi and stimulated with 3 X lo" M cAMP for 15
+C
+.o
+0.5'
+min to produce the D form. The cells were then washed twice with
+0
+and resuspended a t 2 X 1O8/ml in 0 "C Mes buffer. To initiate the D
+eLL
+to R transition, cells were diluted 4-fold into 22 "C Mes buffer and
+shaken a t 100 rpm. Aliquots were removed to ammonium sulfatefor
+processingbefore dilutionand at intervalsthereafter.Since
+the
+1 .
+I
+8
+washes for removal of cAMP also removed some of the 32Pifrom the
+0
+5
+IO
+Minutes
+suspension, additional assayswere performed to distinguish between
+"Pi loss from receptor dueto decreasing [3ZP]ATPpools and loss due
+I
+I
+t o receptoroccupancychanges.Forallexperimentaltimepoints,
+control samples were taken from 32Pi-labeled cells which were never
+stimulated but were carried through the washes and dilutions to
+assess R form phosphorylation changes and from cells which were
+stimulated, washed, and diluted into
+22 "C buffer containing3 X lo-'
+M cAMP to determine the changes in phosphorylation
+of the D form.
+By determining the extentof these changes it waspossible to determine the phosphorylation changes due only to the
+removal of the
+CAMP.
+T o determine the steady-state turnover rate for phosphates on the
+Dform,cellswere
+treatedwith
+M cAMP for5 mintoproduce
+I .
+the phosphorylated D form, and32Piwas then added to the suspension.
+0
+5
+10
+A parallel set of cells was pretreated with "Pi and then given cAMP
+Minutes
+to determine the stimulus-induced phosphorylation rate. The protocol
+allowed sufficient time after cAMP stimulationfor receptor to reach
+C 1 2 3 4 5 6 7 P 9 1 0
+steady-state phosphorylation and electrophoretic mobility shift
+levels
+before the addition of 32Pi(for the experimental regimen)or removal
+of cells to ammonium sulfate (for the control regimen). Two other
+sets of cells were analyzed for R form phosphorylation utilizing the
+same protocol with the omission of the cAMP stimulus. In allcases
+aliquots of cells were removed to ammonium sulfate for processing
+after 10,20, and40 min of labeling with32Pi.All procedures were also
+performed on unlabeled cells, and receptor shift was analyzed by
+immunoblotting.
+Immunoprecipitation and Zmrn~noblots-~~Pi-labeled
+sodium dodecyl sulfate-solubilized membranes were centrifuged in a Beckman
+FIG. 1. Kinetics of receptor modification induced by satuAirfuge for 15 min to remove insoluble material. Immunoblotting
+rating CAMP. Parallel sets of cells were treated with caffeine, with
+showed that no receptor was lost by this treatment. The supernatants
+or withoutnzPilabeling, for 45 min priorto stimulation. Each set was
+were then immunoprecipitated and subjected to electrophoresis on
+then stimulated with10" M CAMP, and aliquotswere removed at the
+10% polyacrylamide gels as described (14) with the exception that
+the receptor was eluted from the final pelletof protein A-Sepharose indicated times. A, kinetics of receptor shift determined by immunoblotting. The graph shows the combined results
+of two independent
+of a t 95 "Cfor5min.
+CL-4B beads at 22 "C for 10 min instead
+of one of these
+Immunoblots of unlabeled membranes were performed as described experiments. The insetshows theWesternblot
+experiments in which the lanes contain samples taken a t times 0, 5,
+(14).
+Analysis of Data-Autoradiographs of immunoblots and immuno- 15, 25, 35, 45, 60, 120, 300, and 600 s after addition of CAMP. B,
+kinetics of receptor phosphorylation. The graph shows the combined
+precipitations were scannedwith an LKB densitometer,andthe
+heights of R and D peaks were measured. For immunoblots, data are results of two independent experiments.C,autoradiograph of immupresented as the fractionof receptor in theD form, which equals the noprecipitated "Pi-labeled receptor taken after cAMP stimulationat
+(height of D)/(height of D + height of R). Forquantitation of the times listed in panelA.
+
+1;
+
+.-
+
+Ligand-induced cAMP Receptor Phosphorylation
+
+14540
+
+1B. As previously reported (14), there is a basal amount of assays were performed to determine the changes in R and D
+receptor phosphorylation in unstimulated cells. After stimu- form phosphorylation levels due solely to thereduction in the
+lation of cells by cAMP there was a dramatic increase in the specific activity of the [32P]ATP poolscaused by the cell
+amount of receptor phosphorylation concomitant with the washes needed to remove the CAMP.In four separate experishift to the Dform. Ligand-inducedreceptor phosphorylation ments, reduction in phosphorylation levels of R and D forms
+was detectable within 5 s after stimulation, was complete by due to the washes and dilution were not detectable until 10
+5 min, and occurred with a half-time of 45 s. The process was min after the cells were diluted into the 22 "Cbuffer. At 10
+biphasic with a rapid component occurring early (60-70% min the average reduction was 10% of the initial phosphorylmaximum phosphorylation by 1 min) followed by a slower ation level, at 15 min it was 19%, andat 20 min it was 30%.
+component. No increase or decrease in phosphorylation was The data points shown in Fig. 2B have beencorrected for this
+detectable after the steady state was achieved. Fig. 1C shows 32Piloss and thus represent dephosphorylation due only to
+one of the autoradiographs of immunoprecipitated 32Pi-labeled removal of CAMP.Dephosphorylation of receptor induced by
+receptor used to generate Fig. 1B anddemonstrates the spec- removal of the ligand was detectable by 30 s, had a half-time
+ificity of the antiserum. The region shown includes proteins of 2 min, and reached a plateau by 20 min. The process was
+of M,200,000-10,000. The autoradiographs of immunoprecip- biphasic with a rapid component occurring between 0 and 3
+itations and immunoblots of all experiments described here min and a slower component occurring thereafter. Residual
+showed similar high specificity, and therefore only the region amounts of phosphorylated D form were still present at 30
+from 38 to 45 kDa is shown in other figures.
+and 45 min after removal of cAMP (not shown).
+Kinetics of Dephosphorylation-To examine the effects of
+Dose Response to CAMP-The dependence of receptor shift
+removal of CAMP,cells were first stimulated with cAMP for and phosphorylation on cAMP concentration are shown in
+10 min, washed at 0 "C, and warmed rapidly by dilution into Fig. 3. Half-maximal shift occurred at 5nM CAMP,and satu22 "CMes bufferwithout CAMP.(Immunoblotting, as well as ration occurred at 100 nM. Little orno receptor shift occurred
+previous photoaffinity labeling (13), showed that no D to R below 1 nM. Phosphorylation was also half-maximal at aptransition occurs when cells are held at 0 'C even in the proximately 5 nM and saturated at 100 nM. The experiments
+absence of CAMP.) The redistribution from the D to the R shown in Fig. 4 demonstratethat the10-min stimulation time
+form is shown in Fig. 2A. It was detectable by 30 s, occurred used was adequate for receptor shift and phosphorylation to
+with a half-time of 2.5 min, and was complete by 10 min. The reach steady state at subsaturating cAMP concentrations.
+Kinetics at a Subsaturating CAMPConcentration-During
+concurrent dephosphorylation of the receptor is shownin Fig.
+2B. As described under "Materials and Methods," control
+I.o
+0
+
+E
+
+2
+
+.-C
+C
+0
+._
+*
+
+0.5
+
+e
+
+0
+
+L
+
+LL
+
+I I
+
+0
+
+0
+
+I
+
+5
+
+5
+
+I
+
+I
+
+10
+Minutes
+
+15
+
+10
+Minutes
+
+15
+
+.
+
+I
+
+20
+
+0 -10
+
+*
+-9
+
+-8
+
+-7
+
+-6
+
+log [CAMP]
+
+20
+
+I
+
+FIG. 2. Kinetics of receptor demodification
+after removal of
+CAMP.Cells with or without 32Pilabeling were treated with 3 X 10"
+M cAMP for 10 min to produce the D form of the receptor and then
+washed by centrifugation a t 0 "C to remove the CAMP. Cells were
+then diluted into 22 "C Mes buffer to initiate demodification, and
+aliquots were taken at theindicated times. A, kinetics of D to R shift
+determined by immunoblotting. The inset shows the Western blot of
+an experiment in which samples were taken a t 0,2, 5, 10, 15, and 20
+min after dilution into 22 "C Mes. The results from two experiments
+are shown. B, kinetics of dephosphorylation. The inset shows the
+autoradiograph of immunoprecipitated 32Pi-labeledreceptor taken a t
+the times listed for panel A. 32Piloss from both R and D forms due to
+the washes was estimated as described under "Materials and Methods," and those values have been incorporated as correction factors
+to the actualdata. The results shown are from two independent
+experiments.
+
+0L'IOI
+
+I
+
+-9
+I
+
+- 81
+
+-7I
+
+I
+
+-6
+
+log [CAMP]
+
+FIG. 3. Effect of CAMP concentration on receptor modification. Parallel sets of cells were prepared with or without 32Pi
+labeling for 45 rnin. At that time cells were stimulated with the
+indicated concentrations of cAMP for 10 min and then removed for
+processing, A, dose response of receptor shift determined by immunoblotting. The graph shows the results from four independent experiments. The inset shows the immunoblot of one experiment in
+which the lanescontain samples from cells stimulated with the
+following concentrations of CAMP:0, 0.1, 1, 2, 5, 10,20, 50, 100, and
+1000 nM. B, dose response of receptor phosphorylation. The graph
+shows the results of two experiments. The inset shows the autoradiograph of immunoprecipitated 32Pi-labeledreceptors prepared from
+cells stimulated with the doses shown in p a n e l A.
+
+14541
+
+Phosphorylation
+Receptor
+Ligand-induced
+cAMP
+
+Mlnutes
+
+I 1
+
+0
+
+I
+
+5
+
+I
+
+IO
+
+I
+
+15
+
+io
+
+Minutes
+
+FIG. 4. Kinetics of receptor modification at a subsaturating
+dose. Parallel sets of cells were prepared with or without 3zPilabeling
+for 45 min. Each set was then stimulated with 5 nM CAMP, and
+aliquots were removed at the indicated times. After the last time
+point was taken the remaining cells were stimulated with 10" M
+cAMP for 3 additional minutes. The graphs show the averages of two
+independent experiments. A, kinetics of receptor shift determined by
+immunoblotting. The inset shows one of the immunoblots used to
+generate the graph. The lanes contain samples taken at times 0,0.17,
+0.5, 1, 2, 5, 10, 15, and 20 min afterstimulation. The finallane
+corresponding to the point labeled C on the graph is the sample
+prepared from cells stimulated with the saturating dose. B , kinetics
+of receptor phosphorylation. The inset shows the autoradiograph of
+immunoprecipitated 32Pi-labeledreceptors taken at the same time
+points shown in panel A. The final lane is the sample prepared from
+cells stimulated with the saturatingdose.
+
+adaptation, responsivenessto subsaturating concentrations of
+stimuli is lost, but cells remain responsive to higher stimulus
+concentrations. Therefore, phosphorylation was examined at
+5 nM CAMP,a concentration which produces an intermediate
+level of receptor shift and phosphorylation. Fig. 4A shows
+that at5 nM CAMP,the transition occurs with a half-time of
+1.5 min, reaches a steady state of 30% D form between 5 and
+10 min, and remains at thatlevel forup to 20 min. Increasing
+the cAMP concentration to lo-' M for 3 min at that time
+resulted in an increase in D form to 55%. Phosphorylation
+also reached an intermediate steady-state level at 5 nM cAMP
+(Fig. 4B).This occurred with a half-time of 1.5 min, reached
+a plateau level of 60% maximum by 5 min, and remained
+constant for 15 additional min. Increasing the cAMP concenM for 3 min at that time resulted in a further
+tration to
+increase in receptor phosphorylation.
+Turtwuer of Phosphates on Receptor-The rate of incorporation of phosphates into the pre-existing D form of receptor
+was investigated. Cells were treated with cAMP for 5 min to
+allow receptor phosphorylation to reach steady-state levels as
+shown in Fig. 1. 32Piwas then added to thecells, and aliquots
+were removed forprocessing after 10, 20, and 40 min of total
+labeling time. The standard stimulus-induced rate of phosphorylation was determined in parallel by preincubating cells
+with 32Pifor 5 min, adding CAMP,and removing aliquots at
+10, 20, and 40 min after addition of 32Pi.The rate of R form
+phosphorylation was determined under the same conditions
+with the exception of the addition of CAMP. Data are ex-
+
+pressed as the amount of phosphate in the D or R form
+relative to themaximum levelof total phosphorylation in the
+stimulus-induced sample. Because the 32Pilabeling times in
+this experiment are short, the data obtained reflect relative
+rates of phosphate incorporation into Dor R forms under the
+various conditions. The differences observedbetween the
+samples are not due to ligand-inducedvariations in [32P]ATP
+pools becausecAMP does not affect [32P]ATP
+pools overthe
+duration of the stimulus used here (data notshown) (18).
+Panel A of Fig. 5 shows the relative rates of 32Piincorporation into the D form induced by stimulus (closed circles)
+and when the receptor pre-exists in the D form (open circles).
+The results indicate that when receptor is held in the Dform,
+the rate of phosphorylation is about 3 times less than the
+stimulus-induced rate of phosphorylation beginning with the
+R form. Fig. 5B shows that phosphorylation of the R form
+was linear with respect to time and was not affected by the
+addition of the other reagents ("Pi, dithiothreitol, and caffeine). The rate of R form phosphorylation is about one-fifth
+the stimulus-induced rateand about one-half therate of
+incorporation into pre-existing D form.
+To assess the turnover of ligand-induced phosphorylation
+sites, R form phosphorylation should be subtracted from that
+e
+._
+1.0-
+
+-2.
+
+l
+
+I
+
+1
+
+--
+
+A
+
+L
+
+I
+
+I
+
+1
+
+B
+
+0
+
+0
+
+r
+
+a
+VI
+
+0
+
+S
+
+a
+
+0
+
+I
+
+IO
+
+20
+
+_
+
+40
+
+Minutes
+
+Minutes
+
+FIG. 5. Turnover of phosphate on receptor. A, cells were
+treated with caffeine for 10 min and labeled with 32Pifor the times
+
+were
+) labeled with 32Pifor 5 min
+indicated. Control cells (M
+before stimulation with lo" M cAMP while experimental cells (0-0) were stimulated with lo-' McAMP for 5 min hefore labeling
+with 32Pi.Data points are expressed as percent of maximum control
+value and are obtained from two independent experiments. B, cells
+were treated with the same regimen as in panel A except that no
+control regimen; o"-o,
+experimental
+cAMP was given. M,
+regimen.
+I
+
+.
+
+0
+
+.
+
+5
+Minutes
+
+FIG. 6. Specific activity of D form after cAMP stimulation.
+The data shown in Fig. 1 were used to calculate the specific activity
+of 32Pi-labeledD form. The amount of 32Piin the D form a t each time
+point (relative to 100% as described under "Materials and Methods")
+was determined by densitometric scanning. This amount (as a percent) was divided by the fraction of receptor in D form at that time
+point (also a percent)as determined by immunoblotting.
+
+14542
+
+Ligand-induced CAMP
+Phosphorylation
+Receptor
+
+of the D form since it is assumed to proceed independently of rylation is a function of receptor occupancy. At 5 nM CAMP,
+the stimulus. When this correction is made, the incorporation a concentrationat which receptors are incompletely occupied,
+rate of ligand-induced phosphorylation sites on pre-existing receptor phosphorylation reaches only a fraction of the maxD form is approximately one-fifth the stimulus-induced rate imal level. Steady state was achieved between 5 and 10 min
+of phosphate incorporation.
+after stimulation, and no further change in phosphorylation
+Specific Activity of D Form-The data from the experiments level occurred as long as the stimulus was held constant. A
+shown in Fig. 1 were used to estimate the changes in specific subsequent increase in the proportion of occupied receptors
+activity of receptor D form following cAMP stimulation. produced further receptor phosphorylation. Both adenylate
+Specific activity is defined as the fractional amount of phos- cyclase and myosin phosphorylation respond to step increases
+phorylation of the D form at each time point divided by the in cAMP in the same manner, i.e. a subsaturating dose of
+fraction of receptor protein in the D form at each time point CAMPproduces a submaximal response (which in these cases
+(Fig. 6). At 5-15 s after addition of stimulus, the specific then subsides), andafurther
+increase in cAMP stimulus
+activity of the D form is about 40% of the maximum value. produces a further response (5, 7).
+This value increases rapidly to about 80% of maximum by 1
+The kinetics of shift andphosphorylation also depended on
+min and reaches a plateau at the maximum level between 3 the stimulus dose. At 5 nM CAMP, the tlh for shiftand
+and 5 min. (The curve levels off above a value of 1.00 because phosphorylation were 2.5 and 1.5 min, respectively, compared
+the fractional value of phosphorylation of D form at the later to 30 and 45 s at
+M. Receptor shift at
+and lo-' M
+time points was very close to 1.00, while receptor protein in cAMP was even more rapid than at
+M (data not shown).
+the D form equilibrated at 0.80-0.90.)
+This agrees with experiments showing that the rateof rise of
+adaptation is faster with higher doses of cAMP (6). In all of
+DISCUSSION
+these respects, receptor phosphorylation characteristics are
+Receptors isolated from resting cells migrate with an elec- similar to properties ascribed to atheoreticaladaptation
+trophoretic mobility on sodium dodecyl sulfate gels of M , mechanism proposed in several models (6,23).
+Receptor shift, analyzed by immunoblotting, was assessed
+40,000 and show ligand-independent incorporation of 32Pi
+which is linear for at least 1 h. Stimulation of cells with cAMP in parallel with phosphorylation changes. The kinetics of both
+results in a rapid and dramatic increase in 32Piincorporation processes upon addition and removal of cAMP were similar
+into thereceptor concomitant with a change in its electropho- but not identical, while the dose dependence of each was
+retic mobility to M , 43,000. The cAMP dependence of these essentially the same. At subsaturatingcAMP levels both
+processes is a result of receptor occupancy rather than a receptor shift and phosphorylstion were maintained at a
+process activated by intracellular cAMP because phosphoryl- fractional level untilthe stimulusconcentration was ination and shift occur in the presence of caffeine which pre- creased. The two processes thus have very similar charactervents activation of adenylate cyclase (19). Dephosphorylation istics, but a causal relationship between the two remains to
+of receptor was also highly sensitive to receptor occupancy, be unequivocably established.
+Analysis of the specific activity of receptor phosphorylation
+occurring rapidly when cAMP was removed.The cAMP receptorthus resembles rhodopsin and ,&adrenergic receptors revealed that the specific activity of the D form increased
+which are also phosphorylated and dephosphorylated in re- during the course of the experiment (Fig. 6). At early time
+points after stimulation the specific activity of the D form
+sponse to receptor occupancy (20).
+Several lines of evidence support the hypothesis that was 30-40% of the maximum value, and maximum levels of
+CAMP-inducedreceptor phosphorylation is an early step lead- phosphorylation were not obtained until 3-5 min after stiming to adaptation of one or more CAMP-stimulated events. ulation. This result suggests that phosphorylation of receptor
+The kinetics of phosphorylation and dephosphorylation are continues after the R to D transition is complete. We have
+comparable with the kinetics of adaptation and deadaptation estimated the molar ratio of phosphates to protein in the R
+of several processes. Ligand-induced receptor phosphoryla- and D forms to be 0.2 0.1 and 4.0 k 0.8 (14), suggesting
+tion is rapid, with detectable levels present at 5 s after that numerous sites on the D form are phosphorylated. It is
+stimulation and steady state being reached by 5 min. Adap- possible that one or two sites are phosphorylated during the
+tation of adenylate cyclase, myosin phosphorylation, and cell R to D transition, and theremainder is phosphorylated only
+shape changes begin within seconds of application of chemo- after the receptor is in the D form. Experimentsare in
+attractant and are completed within 3-5 min (5, 6, 15). The progress to identify the multiple ligand-dependent and -inhalf-time for phosphorylation, 1.5 min, is also comparable to dependent phosphorylation sites and todetermine their relathe half-times for adaptation of these processes (2-3 min). tionship to the mobility shift and their contributions to the
+Dephosphorylation of receptor upon removal of cAMP had a overall kinetic properties. It will be interesting to learn
+half-time of 2 min and reached a plateau by 20 min, while whether all, some, or one of the phosphorylation sites are
+adenylate cyclase deadapts with a half-time of 2-4 min and is involved in adaptation or if phosphorylation of different sites
+completed at about 12 min (6, 7, 21). In addition, adaptation is involved with adaptation of different processes.
+Incorporation of phosphateinto receptor is most rapid
+and deadaptation of these processes as well as phosphorylationand dephosphorylation of receptor occur in caffeine- during the R to D transition. Steady-state turnover of phostreated cells (5,22), indicating that none of these processes is phate on the D form is estimated to be one-fifth to one-third
+the stimulus-induced rate. Nevertheless, the presence of dedependent upon increases in intracellular CAMP.
+The dose responses for these processes are very similar. tectable phosphate incorporation into the D form at steady
+Receptor phosphorylation was half-maximal at 5 nM cAMP state indicates that itundergoes cycles of dephosphorylationand saturated at 100 nM CAMP. Many CAMP-induced proc- rephosphorylation and that thereis a phosphatase capable of
+known
+esses are activated by nanomolar CAMP,including adenylate dephosphorylating occupied receptors. It isnot
+cyclase (Kd = 5 nM) and myosin phosphorylation (& = 5 whether or not this phosphatase activity is the same as the
+nM), while desensitization of adenylate cyclase also occurs one which dephosphorylates receptor after removal of stimulus or if there is a stimulus-dependent phosphatase.
+with a Kd of 5 nM (21).
+Several properties of ligand-induced phosphorylation of the
+The fractional amount of steady-state receptor phospho-
+
+*
+
+Ligand-induced cAMP
+Phosphorylation
+Receptor
+cAMP receptor from D. discoideum have been investigated.
+In all respects examined in this study, i.e. events induced by
+the addition of both saturating and subsaturating
+stimuli,
+events induced by the removal of stimulus, and changes as a
+function of stimulus dose, receptor modification resulting in
+electrophoretic mobility shift and receptor phosphorylation
+occurred with similar properties. No conditions have been
+found which dissociate receptor shift from phosphorylation,
+although a causal relationship between the two remains to be
+established. The similarities in kinetics and dose response
+between receptor phosphorylation and adaptation of adenylate cyclase and myosin heavy and light chain phosphorylation
+suggest that ligand-induced receptor phosphorylation is an
+early event in the causal mechanism of one or more of these
+processes.
+Recent work has shown that transmembrane signal transduction processes in Dictyostelium are similar to those of
+vertebrate cells. The deduced amino acid sequence of the
+receptor shows significant homology to rhodopsin, and the
+structural model based on hydrophobicity analysis indicates
+that it is a member of the family of receptors with seven
+membrane-spanning domains.' The proposed cytoplasmic C
+terminuscontains 18 serinesand 9 threonines which are
+potential phosphorylation sites. Light-induced phosphorylation of rhodopsin occurs primarily on a cluster of serines and
+threonines near the carboxyl terminus (25), and theproposed
+cytoplasmic tail of the P-adrenergic receptor is also serinethreonine-rich (26). Ligand-induced phosphorylation of these
+receptors has also been correlated with functional adaptation
+(16). In addition to these structural and functional similarities, activationof effector enzymes in Dictyostelium by extracellular cAMP occurs through the action of a G-protein (3,
+24). These properties in conjunction with the ease of mutant
+isolation and the recent advent of transformation by homologous recombination make Dictyostelium a powerful model
+system for the investigation of signal transduction processes.
+Acknowledgments-We thank Dr. Peter Van Haastert for helpful
+discussions and suggestions during portions of this work, Drs. Peter
+Klein, Maureen Pupillo, and Robert Gundersenfor reading the manuscript, and Peggy Ford for excellent secretarial assistance.
+
+P. Klein, C. L. Saxe, 111, T. J. Sun, A.R. Kimmel, and P. N.
+Devreotes, submitted for publication.
+
+14543
+REFERENCES
+
+1. Tomchik, K., and Devreotes, P. (1981) Science 212,443-446
+2. Konijn, T. (1970) Ezperientia 26, 367-369
+3. Theibert, A., and Devreotes, P. (1986) J . Biol. Chem. 261,1512115125
+4. Mato, J., Krens, F., Van Haastert, P., and Konijn, T. (1977) Proc.
+Natl. Acad. Sci. U.S. A . 7 4 , 2348-2351
+5. Berlot, C., Spudich, J., and Devreotes, P. (1985) Cell 43, 307314
+6. Dinauer, M., Steck, T., and Devreotes, P. (1980) J. Cell Biol. 86,
+554-561
+7. Dinauer, M., Steck, T., and Devreotes, P. (1980) J. Cell Biol. 8 6 ,
+545-553
+8. Devreotes, P. (1982) in The Development of Dictyostelium discoideum (Loomis, W . F., ed) pp. 117-168, Academic Press, Orlando, FL
+9. Juliani, M. H., and Klein, C. (1981) J. Biol. Chem. 256,613-619
+10. Theibert, A.. Klein, P., and Devreotes, P. (1984) J. Biol. Chem.
+2 5 9 , i2318-12321
+11. Klein. P.. Knox. B.. Borleis.. J.., and Devreotes., P. (1987)
+.
+. J. Biol.
+Chem. 262,352-357
+12. Klein, P., Theibert, A,, Fontana, D., and Devreotes, P. (1985) J.
+Biol. Chem. 260,1757-1763
+13. Devreotes, P., and Sherring, J. (1985) J. Biol. Chem. 260,63786384
+14. Klein, P., Vaughan, R., Borleis, J., and Devreotes, P. (1987) J.
+Bwl. Chem. 262,358-364
+15. Klein, P., Fontana, D., Knox, B., Theibert, A., and Devreotes, P.
+(1985) Cold Spring Harbor Symp. Quant. Bwl. 5 0 , 787-799
+16. Ullrich, A., Bell, J., Chen, E., Herrera, R., Petruzzelli, T., Dull,
+T., Gray, A,, Coussens, L., Liao, Y-C., Tsubokawa, M., Mason,
+P., Seberg, P., Grunfeld, G., Rosen, O., and Ramachandran, J.
+(1985) Nature 3 1 3 , 756-761
+17. Sibley, D., and Lef'kowitz, R. (1985) Nature 3 1 7 , 124-129
+18. Berlot, C. (1987) Methods Cell Biol. 2 8 , 333-345
+19. Brenner, M., and Thorns, S. (1984) Deu. Biol. 1 0 1 , 136-146
+20. Benovic, J. L., Strasser, R. H., Caron, M. G., and Lefiowitz, R.
+J. (1986) Proc. Natl. Acad. Sci. U.S. A . 8 3 , 2797-2801
+21. Van Haastert, P. (1987) J. Biol. Chem. 262,7700-7704
+22. Theibert, A., and Devreotes, P. N. (1983) J . Cell Biol. 97, 173177
+23. Knox, B., Devreotes, P. N., Goldbeter, A., and Segel, L. A. (1986)
+Proc. Natl. Acad. Sci. U.S. A . 83, 2345-2349
+24. Van Haastert, P. J. M., Snaar-Jagalska, B. E., and Janssens, P.
+M. W . (1987) Eur. J. Biochem. 1 6 2 , 251-258
+25. Thompson, P., and Findlay, J. B.C. (1984) Biochem. J. 2 2 0 ,
+773-780
+26. Dixon, R. A. F., Kobilka, B. K., Strader, D. J., Benovic, J. L.,
+Dohlman, H. G., Frielle, T., Bolanowski, M. A., Bennet, C. D.,
+Rands, E., Diehl, R. E., Mumford, R. A., Slater, E. E., Sigal, I.
+S., Caron, M.G., Lef'kowitz, R. J., and Strader, C. D. (1986)
+Nature 32 1, 75-79
+
+

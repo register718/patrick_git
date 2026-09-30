@@ -1,0 +1,799 @@
+scientific
+report
+scientificreport
+Cyclic AMP signalling in Dictyostelium: G-proteins
+activate separate Ras pathways using specific RasGEFs
+Helmut Kae1, Arjan Kortholt 2, Holger Rehmann3, Robert H. Insall4, Peter J.M. Van Haastert 2,
+George B. Spiegelman1 & Gerald Weeks1+
+1Department of Microbiology and Immunology, University of British Columbia, Vancouver, British Columbia, Canada, 2Department
+
+of Molecular Cell Biology, University of Groningen, Haren, The Netherlands, 3Department of Physiological Chemistry and
+Centre of Biomedical Genetics, University Medical Center Utrecht, Utrecht, The Netherlands, and 4School of Biosciences,
+University of Birmingham, Edgbaston, Birmingham, UK
+
+In general, mammalian Ras guanine nucleotide exchange factors
+(RasGEFs) show little substrate specificity, although they are
+often thought to regulate specific pathways. Here, we provide
+in vitro and in vivo evidence that two RasGEFs can each act on
+specific Ras proteins. During Dictyostelium development, RasC
+and RasG are activated in response to cyclic AMP, with each
+regulating different downstream functions: RasG regulates
+chemotaxis and RasC is responsible for adenylyl cyclase activation. RasC activation was abolished in a gefA mutant, whereas
+RasG activation was normal in this strain, indicating that
+RasGEFA activates RasC but not RasG. Conversely, RasC
+activation was normal in a gefR mutant, whereas RasG
+activation was greatly reduced, indicating that RasGEFR activates
+RasG. These results were confirmed by the finding that RasGEFA
+and RasGEFR specifically released GDP from RasC and RasG,
+respectively, in vitro. This RasGEF target specificity provides a
+mechanism for one upstream signal to regulate two downstream
+processes using independent pathways.
+Keywords: Ras; RasGEF; signal transduction; GDP release;
+Dictyostelium
+EMBO reports (2007) 8, 477–482. doi:10.1038/sj.embor.7400936
+
+1Department of Microbiology and Immunology, University of British Columbia,
+3540-2350 Health Sciences Mall, Vancouver, British Columbia V6T 1Z3, Canada
+2
+Department of Molecular Cell Biology, University of Groningen, Kerklaan 30,
+9751NN Haren, The Netherlands
+3
+Department of Physiological Chemistry and Centre of Biomedical Genetics,
+University Medical Center Utrecht, Universiteitsweg 100, 3584 CG Utrecht,
+The Netherlands
+4School of Biosciences, University of Birmingham, Edgbaston,
+Birmingham B15 2TT, UK
++Corresponding author. Tel: þ 604 822 0997; Fax: þ 604 822 6041;
+E-mail: gerwee@interchange.ubc.ca
+
+Received 27 November 2006; revised 6 February 2007; accepted 6 February 2007;
+published online 23 March 2007
+
+&2007 EUROPEAN MOLECULAR BIOLOGY ORGANIZATION
+
+INTRODUCTION
+Ras proteins are small, monomeric GTPases that act as crucial
+regulators of a number of cellular signalling pathways, including
+those involved in proliferation, differentiation and apoptosis. Ras
+is inactive when bound to GDP but activated when bound to GTP;
+the exchange of GDP for GTP is catalysed by a group of proteins
+called Ras guanine nucleotide exchange factors (RasGEFs).
+Therefore, RasGEFs are crucial regulatory molecules for all
+Ras-linked signal-transduction pathways. Inactivation of Ras is
+catalysed by Ras GTPase-activating proteins (RasGAPs), which
+stimulate the hydrolysis of GTP by Ras.
+Ras signalling in mammalian cells is extremely complex,
+involving 36 Ras subfamily proteins (Wennerberg et al, 2005) and
+an even greater number of RasGEFs (Quilliam et al, 2002). In
+addition, mammalian RasGEFs show little specificity for a particular Ras in vitro, making it difficult to define signalling networks.
+By contrast, the social amoeba Dictyostelium discoideum provides a relatively simple system in which to investigate Ras
+function in that there are fewer Ras proteins and each Ras protein
+seems to regulate a unique subset of functions (Lim et al, 2002).
+There are 25 sequences in the Dictyostelium genome with
+homology to the RasGEF catalytic domain, but little is known
+about which of these regulates the individual Ras proteins. Only
+three RasGEFs have been linked to possible Ras substrates, and in
+each case the evidence is merely based on phenotypic similarity
+of ras and gef gene knockout mutants (Lim et al, 2001; King &
+Insall, 2003; Wilkins et al, 2005). In this report, we provide in vivo
+and in vitro evidence for highly specific RasGEF–Ras interactions.
+
+RESULTS
+RasGEFA mediates cAMP induced RasC activation
+In a previous report, we described a Ras-binding domain (RBD)
+binding assay that allowed the measurement of the level of
+activated Ras in Dictyostelium cell lysates. This assay uses the
+RBD of the Schizosaccharomyces pombe Ras effector protein
+Byr2, which preferentially binds to activated Ras, to separate RasGTP from the pool of total cellular Ras. We showed that cyclic
+EMBO reports VOL 8 | NO 5 | 2007 4 7 7
+
+scientific report
+
+RasG
+
+0
+
+RasG
+
+B
+
+RasGEFR is required for maximal activation of RasG
+The availability of other gef gene null strains (Wilkins et al, 2005)
+provided an opportunity to search for the RasGEF protein
+responsible for activation of RasG. When pulsed gefR cells were
+stimulated with cAMP there was a partial reduction in RasG
+activation, although there was no effect on RasC activation
+(Fig 2A). These results indicate a role for RasGEFR in the activation
+of RasG, but not in the activation of RasC. However, as the
+reduction in RasG activation was only partial, it seems that there
+are at least two RasGEFs that mediate cAMP-stimulated RasG
+4 7 8 EMBO reports
+
+VOL 8 | NO 5 | 2007
+
+Total
+Ras
+
+Ras–GTP
+gefC −
+
+Ax3
+Time (s)
+
+0
+
+10
+
+60
+
+0
+
+10 60
+
+RasC
+RasG
+Ras–GTP
+gefD −
+
+Ax
+
+Time (s)
+
+Total
+Ras
+−
+
+C
+Ax3
+
+AMP (cAMP) induced activation of two Ras proteins: RasC, RasG
+(Kae et al, 2004). However, it was necessary to overexpress RasC
+to assay its activation. We have now increased the sensitivity of
+the assay by modifying the lysis buffer and by using an enhanced
+chemiluminescent detection system. With this improved assay, it
+has been possible to measure RasC activation in wild-type Ax3
+cells. Both RasC and RasG showed the same rapid and transient
+activation in response to cAMP, and maximum activation was
+reached 10 s after stimulation (data not shown), which is
+consistent with the previous results.
+Insall et al (1996) identified RasGEFA, formerly known as AleA,
+as a component involved in G-protein-mediated cAMP signalling
+events. Strains with a disrupted rasC gene had a phenotype similar
+to that of the gefA mutant; therefore it was speculated that
+RasGEFA might mediate RasC activation (Lim et al, 2001).
+However, it was not possible to test this idea genetically by the
+expression of activated RasC in the gefA strain because such
+expression had deleterious effects on early development (Lim,
+2002). The modifications to the RBD binding assay allowed for an
+alternative strategy. Six-hour cAMP-pulsed Ax3 and gefA cells
+were stimulated with cAMP, and the levels of activated RasC and
+RasG were measured at various time points after stimulation. No
+activation of RasC was observed in cells lacking RasGEFA (Fig 1),
+indicating that RasGEFA is required for all of the cAMP-stimulated
+RasC activation. By contrast, there was no reduction in RasG
+activation on cAMP stimulation in gefA cells (Fig 1), indicating
+that RasGEFA is not involved in RasG activation. There was an
+additional effect on activated RasG in the gefA cells because
+normal return to basal level at 60 s did not occur (see Discussion).
+
+10 60
+
+Ax
+3
+ge
+fR
+−
+
+60
+
+0
+
+10 60
+
+0
+
+fD
+
+A3 and gefA cells were stimulated by the addition of 200 nM cyclic
+AMP, samples were collected at the indicated time points after
+stimulation and the lysates from the cells were subjected to the RBDbinding assay. Samples were fractionated by SDS–PAGE, transferred onto
+polyvinylidine fluoride (PVDF) membrane and probed with RasCspecific, RasG-specific or a pan-specific Ras antibody, as indicated.
+This figure is representative of three independent experiments. gef,
+guanine-nucleotide exchange factor; RBD, Ras-binding domain;
+SDS–PAGE, SDS–polyacrylamide gel electrophoresis.
+
+10
+
+ge
+
+Fig 1 | gefA mutants are deficient in RasC activation. Six-hour-pulsed
+
+0
+
+RasC
+
+Ax
+3
+ge
+fC
+−
+
+10 60
+
+gefR −
+
+Ax3
+Time (s)
+
+RasC
+
+Total
+Ras
+
+Ras–GTP
+
+3
+
+0
+
+A
+
+fA −
+
+gefA−
+
+ge
+
+Ax3
+0 10 60
+
+Ax
+3
+
+Total
+Ras
+
+Ras–GTP
+Time (s)
+
+RasGEFA activates RasC, RasGEFR activates RasG
+H. Kae et al
+
+10 60
+
+RasC
+RasG
+
+Fig 2 | Loss of RasGEFR reduces activation of RasG during development.
+Six-hour-pulsed (A) gefR, (B) gefC and (C) gefD cells were stimulated
+by the addition of 200 nM cyclic AMP and assayed for activated Ras as
+described in Fig 1. This figure is representative of two independent
+experiments. gef, guanine-nucleotide exchange factor.
+
+activation. This conclusion is consistent with the observation that
+gefR cells show no apparent defect in early development (Secko
+et al, 2004). The decrease in RasG activation in gefR cells
+coincided with observed prolonged activation of RasC compared
+with wild-type cells (see Discussion). cAMP-stimulated RasC and
+RasG activation was normal in gefC and gefD strains (Fig 2B,C),
+indicating that RasGEFC and RasGEFD were not involved in the
+activation of either RasC or RasG during early development.
+
+RasGEFA and RasGEFR are highly specific in vitro
+RasGEFs catalyse the release of GDP from Ras-GDP and this can
+be measured by using an in vitro fluorescence nucleotide
+exchange assay. To determine the in vitro activity and substrate
+specificities of RasGEFA and RasGEFR, the CDC25 domains of
+RasGEFA (GefACDC25) and RasGEFR (GefRCDC25) were expressed
+in bacteria as glutathione-S-transferase (GST) fusion proteins,
+purified and enzymatically cleaved from the GST tag. To provide
+substrates for these in vitro assays, full-length RasD and RasG, and
+carboxy-terminal truncations of RasB (1–169; RasC (1–168) and
+Rap1 (1–169; RasBCT, RasCCT and Rap1CT) were also expressed in
+bacteria and purified. The C-terminal Ras truncations were used
+because they are similar to full-length proteins in their physical
+and biochemical properties (John et al, 1990); however their
+greater stability facilitated their expression and purification. The
+Ras proteins were loaded with a fluorescent GDP analogue, mGDP
+(20 -(or 30 )-O-(N-methylanthraniloyl)-guanosine 50 -diphosphate),
+incubated in the presence of an excess of GDP and either
+GefACDC25 or GefRCDC25. Nucleotide release was followed as the
+&2007 EUROPEAN MOLECULAR BIOLOGY ORGANIZATION
+
+scientific report
+
+RasGEFA activates RasC, RasGEFR activates RasG
+H. Kae et al
+
+A
+
+A
+
+1.0
+0.8
+
+Relative fluorescence
+
+Relative fluorescence
+
+1.0
+
+0.6
+0.4
+0.2
+
+0.8
+0.6
+0.4
+0.2
+
+0.0
+0
+
+1,000
+
+2,000
+
+3,000
+
+4,000
+
+0.0
+
+5,000
+
+0
+
+Time (s)
+
+1,000
+
+2,000
+
+3,000
+
+4,000
+
+5,000
+
+3,000
+
+4,000
+
+5,000
+
+3,000
+
+4,000
+
+5,000
+
+Time (s)
+
+B
+
+B
+1.0
+0.8
+
+Relative fluorescence
+
+Relative fluorescence
+
+1.0
+
+0.6
+0.4
+0.2
+
+0.8
+0.6
+0.4
+0.2
+
+0.0
+0
+
+1,000
+
+2,000
+
+3,000
+
+4,000
+
+0.0
+
+5,000
+
+0
+
+Time (s)
+
+1,000
+
+2,000
+Time (s)
+
+C
+
+1.0
+
+1.0
+0.8
+
+Relative fluorescence
+
+Relative fluorescence
+
+C
+
+0.6
+0.4
+0.2
+
+0.8
+0.6
+0.4
+0.2
+
+0.0
+0
+
+1,000
+
+2,000
+
+3,000
+
+4,000
+
+5,000
+
+Time (s)
+
+Fig 3 | RasGEFA stimulates GDP release from RasC but not RasD or
+RasG. Ras proteins were loaded with mouse GDP, incubated with (filled
+squares) or without (filled circles) 1 mM GefACDC25, or with (filled
+triangles) 1 mM CDC25, and GDP release was plotted as a decrease in
+relative fluorescence with time. The curves shown are (A) RasCCT,
+(B) RasG and (C) RasD. gef, guanine-nucleotide exchange factor.
+
+decrease of fluorescence with time. To control for the stability and
+folding of the purified Dictyostelium Ras and Rap proteins, the
+human RasGEF CDC25 (also known as RasGRF1) and the RapGEF
+C3G were used as controls (Figs 3,4; data not shown). mGDP
+release was also measured in the absence of a RasGEF to monitor
+the intrinsic GDP release (Figs 3,4).
+When RasCCT-mGDP was incubated with GefACDC25, there
+was a significantly enhanced decrease in fluorescence compared
+with the basal intrinsic decrease in the absence of a GEF
+indicating that GefACDC25 was able to catalyse GDP release from
+RasCCT (Fig 3A). By contrast, there was no increase in the loss of
+&2007 EUROPEAN MOLECULAR BIOLOGY ORGANIZATION
+
+0.0
+0
+
+1,000
+
+2,000
+Time (s)
+
+Fig 4 | RasGEFR stimulates the release of GDP from RasG but not RasC
+or RasD. Ras proteins were loaded with mouse GDP, incubated with
+(filled squares) or without (filled circles) 1 mM GefRCDC25, or with (filled
+triangles) 1 mM CDC25, and GDP release was plotted as a decrease in
+relative fluorescence with time. The curves shown are (A) RasCCT,
+(B) RasG and (C) RasD. gef, guanine-nucleotide exchange factor.
+
+fluorescence when RasG-mGDP was used as a substrate (Fig 3B).
+Incubation of GefRCDC25 with RasG-mGDP enhanced the rate
+of decrease of fluorescence relative to the basal intrinsic activity
+(Fig 4B), whereas a similar decrease in fluorescence did not
+occur when RasCCT-mGDP was used as a substrate (Fig 4A).
+Neither GefACDC25 nor GefRCDC25 stimulated the release of
+GDP from RasD (Figs 3C,4C), RasBCT or Rap1CT (data not shown).
+These results support the conclusion that RasGEFA and
+RasGEFR specifically mediate GDP release from RasC and
+RasG, respectively.
+EMBO reports VOL 8 | NO 5 | 2007 4 7 9
+
+scientific report
+DISCUSSION
+The Dictyostelium genome encodes 14 Ras subfamily proteins
+(Weeks et al, 2005), a number that is considerably greater than
+that found in yeast and other fungi. In addition, there are more gef
+genes than ras genes encoded by the Dictyostelium genome
+(Wilkins et al, 2005), indicating that at least some Ras proteins are
+activated by more than one RasGEF. Consistent with this idea, of
+the ten gef gene knockouts that have been described, several have
+no distinct phenotype (Wilkins et al, 2005).
+The isolation of a gefA strain that failed to aggregate was the
+first indication of a Ras protein being involved in cAMP signalling
+during Dictyostelium development (Insall et al, 1996). The
+subsequent isolation of a rasC null mutant with a similar
+phenotype indicated the possibility that RasC functioned downstream of RasGEFA (Lim et al, 2001). The pattern of Ras activation
+in the gefA mutant provided convincing evidence that RasGEFA
+is necessary for the activation of RasC in response to cAMP, but
+not required for RasG activation in response to cAMP (Fig 1). This
+has been verified by the use of an in vitro nucleotide exchange
+assay. RasGEFA catalysed the removal of GDP from RasC but not
+from other Ras subfamily proteins, confirming that RasGEFA is
+specific for RasC (Figs 3,4).
+A proteomic study had shown that RasGEFR was the only
+RasGEF that showed an alteration in phosphorylation in response
+to the expression of activated RasG, indicating a possible
+connection (Secko et al, 2004). However, there was no direct
+evidence to show that RasGEFR mediated RasG activation. The
+finding of a significant reduction in the magnitude of RasG
+activation in response to cAMP in a gefR mutant (Fig 2C)
+provided direct evidence that RasGEFR was responsible for
+mediating at least some of the RasG activation. This conclusion
+was confirmed by the in vitro nucleotide exchange assay, which
+showed that RasGEFR was specific for RasG (Fig 4; data not
+shown). As gefR strains show no phenotype, and as RasG
+activation is not completely abolished in this strain, there might be
+at least one other RasGEF responsible for the activation of RasG
+upon cAMP stimulation. At present, we do not know the identity
+of the other RasG-specific RasGEF(s), although, as far as cAMP
+signalling is concerned, we can eliminate RasGEFC and RasGEFD
+because gefC and gefD (Fig 2) null mutants are not defective in
+RasG activation.
+In three cases (Figs 1,2) loss of a RasGEF was associated with
+prolonged activation of those Ras proteins that were still activated.
+In particular, gefA cells showed prolonged RasG activation
+(Fig 1), gefR cells showed prolonged RasC activation (Fig 2A),
+and gefC cells showed prolonged activation of both RasC and
+RasG (Fig 2B). Given the general model of the GTP-dependent
+activation cycle of Ras proteins, this extended peak of Ras-GTP
+should reflect reduced activity of a negative regulator of Ras,
+such as a RasGAP. Nine genes have been annotated in the
+Dictyostelium genome that encode for proteins with putative
+RasGAP domains (Chisholm et al, 2006), but none has been
+characterized so far. Two other proteins with RasGAP domains—
+DGAP1 and GAPA—have been identified as IQGAPs but the
+evidence shows that these two proteins act on Rho family GTPases
+and not Ras (Adachi et al, 1997; Faix et al, 1998). Whether the
+nine putative RasGAPs show specificity towards individual Ras
+proteins is unknown. It is possible that RasGAPs are activated by
+the same signal that activates the Ras proteins, thereby entraining
+4 8 0 EMBO reports
+
+VOL 8 | NO 5 | 2007
+
+RasGEFA activates RasC, RasGEFR activates RasG
+H. Kae et al
+
+the adaptation response with the activation response; however,
+explaining such a regulation will require detailed investigation of
+the RasGAP proteins.
+The findings that RasGEFA is specific for RasC and that RasGEFR
+is specific for RasG are consistent with the idea that RasC and RasG
+are involved in different responses generated from the cAMP
+stimulus: RasC is predominantly involved in the activation of the
+adenylyl cyclase expressed during aggregation (ACA), whereas
+RasG predominantly involved in chemotaxis (Bolourani et al,
+2006). In chemotaxing cells it has been shown that activated Ras
+appears at the tip of the pseudopod within 10 s of an applied cAMP
+stimulus (Sasaki et al, 2004). We believe that the activated Ras
+detected by Sasaki et al (2004) is RasG because the Raf1–RBD used
+for the assay has a higher affinity for RasG than RasC (Kae et al,
+2004). RasC and RasG each have their own specific RasGEFs. As
+ACA is localized at the rear of the cell (Kriebel et al, 2003), it is
+tempting to speculate that RasGEFA is also localized at the rear of
+the cell where RasC activation would be responsible for ACA
+activation. A precedent for Ras signalling occurring in two distinct
+subcellular domains was proposed for T cells, in which Ras is
+activated at the plasma membrane by SOS1 and at the Golgi
+membrane by RasGRP1 (Bivona et al, 2003). At present, a reagent
+that will specifically detect activated RasC in the cell is not
+available; therefore, it is not possible to determine whether the
+activation of RasC and RasG have different localizations.
+The high degree of RasGEF–Ras specificity in Dictyostelium is
+in contrast to the situation in mammalian cells, in which
+overlapping specificities are common (Quilliam et al, 2002). For
+example, SOS1 shows in vitro exchange activity on one group of
+Ras proteins (H-Ras, K-Ras, N-Ras, M-Ras and R-Ras; Porfiri et al,
+1994; Ohba et al, 2000; Nielsen et al, 2001), and RasGRF1 has
+been shown to activate a second group of Ras proteins (H-Ras,
+K-Ras, N-Ras, M-Ras, R-Ras1 and R-Ras2; Ohba et al, 2000;
+Nielsen et al, 2001). Little is known about the structural
+determinants of Ras that might be involved in conferring RasGEF
+specificity. Analysis of a SOS1–Ras crystal structure has shown
+that three regions are involved in the RasGEF–Ras interaction:
+Switch 1 region (residues 21–40), Switch 2 region (57–75) and
+helix a3 region (95–111; Boriack-Sjodin et al, 1998). RasC and
+RasG show a number of differences in the Switch 1 (4 out of 19
+residues), Switch 2 (2 out of 19) and helix a3 regions (6 out of 17),
+providing various possible determinants of specificity. However,
+RasGEFR is able to activate RasG but not RasD, despite the fact
+that RasD and RasG are highly related (89% identity). In fact,
+RasD and RasG have identical Switch 1 and 2 regions and differ
+by only one residue, at position 111 in the helix a3 region, with
+most of the differences between these two proteins confined to the
+C-terminal residues. Therefore, the high degree of identity in the
+Switch 1 and Switch 2 regions, and even the helix a3 regions,
+between RasD and RasG indicates that the RasGEFR–RasG
+specificity might involve other residues. A detailed mutational
+analysis is required to determine which Ras residues are the
+important determinants that confer specificity for RasGEFA as
+opposed to RasGEFR.
+
+METHODS
+
+Cell culture and development. D. discoideum Ax3, gefA,
+gefC, gefD and gefR cells were grown in HL5 medium (Watts
+& Ashworth, 1970) supplemented with 50 mg/ml streptomycin
+&2007 EUROPEAN MOLECULAR BIOLOGY ORGANIZATION
+
+scientific report
+
+RasGEFA activates RasC, RasGEFR activates RasG
+H. Kae et al
+
+(Sigma, St Louis, MO, USA). To prepare pulsed aggregation
+competent cells, vegetative cells were washed three times and
+resuspended at 5  106 cells/ml in KK2 (20 mM potassium phosphate (pH 6.1)), shaken at 160 r.p.m. for 1 h and then pulsed with
+50 nM cAMP every 6 min. After pulsing for 5 h, cells were
+collected by centrifugation, washed twice in KK2 and resuspended
+in KK2 at 5  107 cells/ml.
+RBD-binding assay. The assay was carried out as described
+previously (Kae et al, 2004), with one modification. The buffer
+used for cell lysis (2  RBD-LB buffer) contained 20 mM sodium
+phosphate (pH 7.2), 2% Triton X-100, 20% glycerol, 300 mM
+NaCl, 20 mM MgCl2, 2 mM EDTA, 2 mM Na3VO4, 10 mM NaF
+and two protease-inhibitor tablets (Roche, Basel, Switzerland) per
+50 ml of buffer. Six-hour-pulsed aggregation-competent cells were
+stimulated by the addition of 200 nM cAMP. Aliquots (400 ml)
+were taken at selected time points and lysed by the addition of an
+equal volume of ice-cold 2  RBD-LB and incubated on ice for
+5 min. The lysates were cleared by centrifugation at 12,000g for
+10 min and protein concentrations were determined by using the
+DC Protein Assay (Bio-Rad, Hercules, CA, USA). The same mass
+of protein (800 mg) from each lysate was incubated with 100 mg of
+purified recombinant GST–RBD bound to glutathione Sepharose
+beads (GE Healthcare, Baie d’Urfe, Canada) and the mixture was
+tumbled at 4 1C for 1 h. Beads were collected by centrifugation
+and washed three times in 1  RBD-LB. A 50 ml portion of 1  SDS
+gel loading buffer was added to the pelleted beads and the mixture
+was boiled for 5 min. Samples were fractionated by SDS–
+polyacrylamide gel electrophoresis, blotted onto nitrocellulose,
+blocked with non-fat milk and probed with antibodies specific
+for RasC or RasG. The bound antibody was detected by using an
+ECL-Plus (GE Healthcare) reaction.
+Expression and purification of recombinant proteins. The catalytic domain of RasGEFA (aa 182–605) was amplified from
+complementary DNA using the primers 50 -GAGGATCCAAAAT
+GACCACAGAATACGATA-30 and 50 -GAGCGGCCGCTTAAA
+GAACATCAGATCTTTGAGC-30 . The catalytic domain of RasGEFR (aa 1,298—1,676) was amplified from cDNA using the
+primers 50 -GAGGATCCATGGGTACATTAAATAAATTAATTTC-30
+and 50 -GAGCGGCCGCTTATCTTGGTTCACGAATTAAAGAG-30 .
+The resulting fragments were cloned into pGEX 4T-3 (Stratagene,
+La Jolla, CA, USA). The catalytic domain of CDC25 and the
+Ras proteins have been described previously (Lenzen et al,
+1998; Kortholt et al, 2006). All of the recombinant proteins
+were expressed in Escherichia coli BL21 (DE3) codonplus-RIL
+(Stratagene) and purified as described by Kae et al (2004) and
+Kortholt et al (2006).
+In vitro guanine nucleotide release assays. GEF-induced nucleotide release was measured as described previously (Lenzen et al,
+1995). Briefly, the Ras proteins were loaded with the fluorescent
+GDP analogue mGDP (Jena Bioscience, Jena, Germany) by
+incubation in the presence of 10 mM EDTA and a 20-fold excess
+of mGDP for 2 h at 25 1C. The mGDP-loaded Ras proteins were
+incubated at 25 1C in assay buffer (50 mM Tris–HCl (pH 7.5),
+5 mM MgCl2, 50 mM NaCl and 5 mM DTE) containing a 200-fold
+excess of unlabelled GDP, with 1 mM RasGEF protein. Nucleotide
+exchange was measured in real time as decay in fluorescence
+using a Spex1 spectrofluorometer (Spex Industries, Meutchen, NJ,
+USA), with excitation and emission wavelengths of 366 and
+450 nm, respectively.
+&2007 EUROPEAN MOLECULAR BIOLOGY ORGANIZATION
+
+ACKNOWLEDGEMENTS
+G.W. was supported by a grant from Canadian Institutes of Health
+Research (CIHR) of Canada. R.H.I. was supported by Biotechnology
+and Biological Sciences Research Council (BBSRC) grant G17939.
+Work by A.K. and P.V.H. was supported by the Netherlands Science
+Foundation (NWO). H.R. was supported by the Chemical Sciences of the
+Netherlands Organization for Scientific Research (NWO-CW) and is
+recipient of the Otto-Hahn-Medaille of the Max-Planck-Gesellschaft.
+REFERENCES
+Adachi H, Takahashi Y, Hasebe T, Shirouzu M, Yokoyama S, Sutoh K (1997)
+Dictyostelium IQGAP-related protein specifically involved in the
+completion of cytokinesis. J Cell Biol 137: 891–898
+Bivona TG, Perez De Castro I, Ahearn IM, Grana TM, Chiu VK, Lockyer PJ,
+Cullen PJ, Pellicer A, Cox AD, Philips MR (2003) Phospholipase Cg
+activates Ras on the Golgi apparatus by means of RasGRP1. Nature 424:
+694–698
+Bolourani P, Spiegelman GB, Weeks G (2006) Delineation of the roles played
+by RasG and RasC in cAMP-dependent signal transduction during
+the early development of Dictyostelium discoideum. Mol Biol Cell 17:
+4543–4550
+Boriack-Sjodin PA, Margarit SM, Bar-Sagi D, Kuriyan J (1998) The structural
+basis of the activation of Ras by Sos. Nature 394: 337–343
+Chisholm RL, Gaudet P, Just EM, Pilcher KE, Fey P, Merchant SN, Kibbe WA
+(2006) dictyBase, the model organism database for Dictyostelium
+discoideum. Nucleic Acids Res 34: D423–D427
+Faix J, Clougherty C, Konzok A, Mintert U, Murphy J, Albrecht R, Muhlbauer B,
+Kuhlmann J (1998) The IQGAP-related protein DGAP1 interacts with Rac
+and is involved in the modulation of the F-actin cytoskeleton and control of
+cell motility. J Cell Sci 111: 3059–3071
+Insall RH, Borleis J, Devreotes PN (1996) The aimless RasGEF is required for
+processing of chemotactic signals through G-protein-coupled receptors in
+Dictyostelium. Curr Biol 6: 719–729
+John J, Sohmen R, Feuerstein J, Linke R, Wittinghofer A, Goody RS (1990)
+Kinetics of interaction of nucleotides with nucleotide-free H-ras p21.
+Biochemistry 29: 6058–6065
+Kae H, Lim CJ, Spiegelman GB, Weeks G (2004) Chemoattractant-induced
+Ras activation during Dictyostelium aggregation. EMBO Rep 5:
+602–606
+King J, Insall RH (2003) Parasexual genetics of Dictyostelium gene
+disruptions: identification of a ras pathway using diploids. BMC Genet
+4: 12
+Kortholt A, Rehmann H, Kae H, Bosgraaf L, Keizer-Gunnink I, Weeks G,
+Wittinghofer A, Van Haastert PJ (2006) Characterization of the
+GbpD-activated Rap1 pathway regulating adhesion and cell polarity
+in Dictyostelium discoideum. J Biol Chem 281: 23367–23376
+Kriebel PW, Barr VA, Parent CA (2003) Adenylyl cyclase localization
+regulates streaming during chemotaxis. Cell 112: 549–560
+Lenzen C, Cool RH, Wittinghofer A (1995) Analysis of intrinsic and
+CDC25-stimulated guanine nucleotide exchange of p21ras-nucleotide
+complexes by fluorescence measurements. Methods Enzymol 255:
+95–109
+Lenzen C, Cool RH, Prinz H, Kuhlmann J, Wittinghofer A (1998) Kinetic
+analysis by fluorescence of the interaction between Ras and the catalytic
+domain of the guanine nucleotide exchange factor Cdc25Mm.
+Biochemistry 37: 7420–7430
+Lim CJ (2002) The Ras subfamily protein, RasC, is required for the aggregation
+of Dictyostelium discoideum. PhD Thesis, University of British Columbia,
+Vancouver, BC, p 128
+Lim CJ, Spiegelman GB, Weeks G (2001) RasC is required for optimal
+activation of adenylyl cyclase and Akt/PKB during aggregation. EMBO J
+20: 4490–4499
+Lim CJ, Spiegelman GB, Weeks G (2002) Cytoskeletal regulation by
+Dictyostelium Ras subfamily proteins. J Muscle Res Cell Motil 23:
+729–736
+Nielsen KH, Gredsted L, Broach JR, Willumsen BM (2001) Sensitivity of wildtype and mutant ras alleles to Ras specific exchange factors: Identification
+of factor specific requirements. Oncogene 20: 2091–2100
+Ohba Y, Mochizuki N, Yamashita S, Chan AM, Schrader JW, Hattori S,
+Nagashima K, Matsuda M (2000) Regulatory proteins of R-Ras, TC21/RRas2, and M-Ras/R-Ras3. J Biol Chem 275: 20020–20026
+
+EMBO reports VOL 8 | NO 5 | 2007 4 8 1
+
+scientific report
+Porfiri E, Evans T, Chardin P, Hancock JF (1994) Prenylation of Ras proteins
+is required for efficient hSOS1-promoted guanine nucleotide exchange.
+J Biol Chem 269: 22672–22677
+Quilliam LA, Rebhun JF, Castro AF (2002) A growing family of guanine
+nucleotide exchange factors is responsible for activation of Ras-family
+GTPases. Prog Nucleic Acid Res Mol Biol 71: 391–444
+Sasaki AT, Chun C, Takeda K, Firtel RA (2004) Localized Ras signaling at the
+leading edge regulates PI3K, cell polarity, and directional cell movement.
+J Cell Biol 167: 505–518
+Secko DM, Insall RH, Spiegelman GB, Weeks G (2004) The identification of
+Dictyostelium phosphoproteins altered in response to the activation of
+RasG. Proteomics 4: 2629–2639
+
+4 8 2 EMBO reports
+
+VOL 8 | NO 5 | 2007
+
+RasGEFA activates RasC, RasGEFR activates RasG
+H. Kae et al
+
+Watts DJ, Ashworth JM (1970) Growth of myxamoebae of the cellular
+slime mould Dictyostelium discoideum in axenic culture. Biochem J 119:
+171–174
+Weeks G, Gaudet P, Insall RH (2005) The small GTPase superfamily. In
+Dictyostelium Genomics, Loomis WF, Kuspa A (eds) pp 173–210.
+Norfolk, UK: Horizon Biosciences
+Wennerberg K, Rossman KL, Der CJ (2005) The Ras superfamily at a glance.
+J Cell Sci 118: 843–846
+Wilkins A, Szafranski K, Fraser DJ, Bakthavatsalam D, Muller R, Fisher PR,
+Glockner G, Eichinger L, Noegel AA, Insall RH (2005) The Dictyostelium
+genome encodes numerous RasGEFs with multiple biological roles.
+Genome Biol 6: R68
+
+&2007 EUROPEAN MOLECULAR BIOLOGY ORGANIZATION
+
+

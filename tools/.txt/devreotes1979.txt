@@ -1,0 +1,943 @@
+CYCLIC
+
+3',5'
+
+I. A T e c h n i q u e
+
+AMP
+
+RELAY
+
+to Monitor
+
+IN DICTYOSTELIUM
+
+Responses
+
+to Controlled
+
+DISCOIDEUM
+Stimuli
+
+PETER N. DEVREOTES, PAMELA L. DERSTINE, and THEODORE L. STECK
+From the Departments of Biochemistryand Medicine, The Universityof Chicago, Chicago, Illinois
+60637
+
+ABSTRACT
+A perfusion technique was developed to deliver [14C]adenosine 3',5'-cyclic
+monophosphate (cAMP) stimuli of well-defined magnitude and duration to
+tritium-labeled Dictyostelium discoideum amoebae and simultaneously monitor
+the elicited secretion of [3H]cAMP (i.e., the relay response). The tritiated
+compounds secreted in response to [14C]cAMP stimuli were highly enriched in
+[3H]cAMP and reflected an increase in intracellular c A M P accompanying stimulation rather than the release of a preexisting store or bulk cellular contents. The
+secretory response (per 106 cells) to 2-min stimuli increased during differentiation
+from about 0.2 pmol at 0.5 h to - 5 pmol of c A M P at 7 h. Without adequate
+perfusion, a m o e b a e altered the level of c A M P in their environment in two ways:
+phosphodiesterases destroyed c A M P stimuli under some conditions so as to
+attenuate the relay response; under other circumstances, secreted c A M P magnified minimal exogenous stimuli into maximal responses. A m o e b a e , furthermore,
+would respond to their basal secretion of c A M P autocatalytically if its removal or
+destruction were interrupted. The perfusion system minimized these cell-induced
+modifications, allowing control of the level of the stimulus and response in
+quantitative studies.
+KEY WORDS cyclicAMP
+Dictyostelium
+discoideum
+cellularslime molds
+chemotaxis morphogenesis secretion
+Dictyostelium discoideum grows as free-living soil
+amoebae which, after a period of differentiation
+induced by starvation, aggregate to form a succession of multicellular stages (3, 5). Aggregation is
+mediated by chemotaxis toward the intercellular
+attractant, cyclic adenosine 3',5'-monophosphate
+(cAMP) (1, 11, 13). In situ observations suggest
+that cAMP signals are propagated by relay (2, 17,
+18), i.e., cells stimulated by cAMP secrete additional cAMP. It has been demonstrated in vitro
+that differentiated amoebae secrete cAMP in re-
+
+sponse to exogenous cAMP stimuli (6, 7, 14, 20).
+Responding cells are thought to exhibit a temporarily reduced ability to transmit the chemoattractant, based on the observation that signal propagation from aggregation centers is both unidirectional and intermittent (19).
+The goal of our studies is the elucidation of the
+cAMP relay mechanism in D. discoideum. In this
+report, we describe techniques by which stimuli of
+well-defined magnitude and duration can be delivered to [3H]adenosine-labeled amoebae and the
+secretion of [3H]cAMP accurately assayed.
+A perfusion technique was employed because
+we recognized that these cells are capable of
+modifying exogenously applied cAMP stimuli in
+
+J. CELLBIOLOGy9 The Rockefeller University Press 90021-9525/79/02/0291-0951.00
+Volume 80 February 1979 291-299
+
+291
+
+two ways. First, an active cell surface phosphodiesterase ( P D E ) (12) can effectively destroy extracellular c A M P and reduce b o t h the stimulus delivered and the response recorded. Second, by the
+relay mechanism u n d e r study, a m o e b a e can increase extracellular c A M P concentrations. B o t h
+of these complications can be minimized by continual, rapid perfusion with defined concentrations
+of c A M P . In this way, secreted c A M P (and soluble P D E ) are r e m o v e d and the stimulus is constantly renewed. A n additional advantage of the
+peffusion system is that a single p r e p a r a t i o n can
+b e repeatedly stimulated, washed, a n d restimulated without mechanical p e r t u r b a t i o n .
+MATERIALS
+
+AND METHODS
+
+Media and Buffers
+Nutrient-free buffer (NFB), axenic medium (HL-5),
+bacterial growth medium, nutrient-free agar plates, and
+nutrient agar plates were prepared as described by Clark
+et al. 1 TPGA medium is TPG medium (21) with 1.0 g of
+KH2PO4 and 10 g of Casamino Acids per liter. KC
+medium has been described (21).
+
+Growth and Development
+Conditions for the growth of D. discoideum strains
+NC-4 and AX-3 and D. purpureum are described elsewhere.1 Conditions for development on agar substrates
+or filters followed Clark et al., 1 except that dimensions
+were scaled to small numbers of labeled cells. For
+development on filters, 0.5-1 x 10~ amoebae in 300/~1
+of NFB were loaded on 13-mm, 3.0-/.~m Millipore filters
+(SSWPO 1300, Millipore Corp., Bedford, Mass.) supported by the base of a Nucleopore "pop-top" filter
+holder (Nucleopore Corp., Pleasanton, Calif.). After the
+excess NFB had drained, the filters were placed on 13ram Millipore adsorbant pads containing 120/zl of NFB.
+For development on agar, 1-2 x 106 amoebae in 20/zl
+of NFB were deposited on 2 cm 2 2% agar disks which
+had been dried 30 rain at 50~ The filters and pads or
+agar disks were then placed in 35-mm plastic Petri dishes
+(Falcon, Becton, Dickinson & Co., Cockeysville, Md.).
+For development in suspension, AX-3 cells (107 cells/ml
+in 20-50 ml of NFB) were agitated in a 125-ml Ehrlenmeyer flask at 225 rpm (1 cm radius of gyration).
+Growth and development occurred at 22~ in a dark
+incubator.
+
+from Dr. Barbara Bachmann, E. coil Genetic Stock
+Center, New Haven, Conn., was grown to stationary
+phase in KC broth. The bacteria were diluted 1:50 into
+TPGA medium containing 10/zg/ml adenosine. After 3
+h of incubation at 37~ 1-5 mCi Jail]adenosine (20-50
+Ci/mmol, New England Nuclear, Boston, Mass.) in 200
+p.1 of H20 was added to 5 ml of bacterial culture.
+Bacteria were collected after an additional 3 h by
+centrifugation at 10,000 rpm for 20 min in a Sorvall SS34 rotor (DuPont Instruments-Sorvall, DuPont Co.,
+Wilmington, Del.). The bacteria incorporated 30-60%
+of the [all]adenosine in the medium. Pellets were resuspended in 1 ml of NFB and stored in 100-p.l aliquots in
+glass culture tubes at -20~
+For labeling, 2-3 • 106
+amoebae (in <100/~1NFB) were added to 100/zl of the
+bacterial stock and shaken at 225 rpm at 22~ for 30
+min to 3 h. Amoebae were freed of labeled bacteria by
+three washes with 5 ml of NFB at 40C. Amoebae took
+up - 1 2 % of the label per hour.
+
+Perfusion Chamber
+Fig. 1 illustrates our perfusion chamber. 106 labeled
+amoebae were placed on the central 1 cm z of a 13-mm,
+3.0-~m white Millipore filter (SSWPO 1300) resting on
+a Nucleopore "pop-top" membrane holder. Buffer fell
+to the filter in 45-/zl drops from a height of 0.8 cm and
+spread to cover the entire surface without overflow.
+Amoebae were completely submerged for only - 1 . 5 s
+as each drop flowed through the filter. The perfusion
+rate was varied between one drop/2 s and one drop/40 s.
+
+MP
+
+[~H]Adenosine Labeling
+Escherichia coli strain PC0205 (CGSC strain no.
+4432), an adenosine auxotroph (pur A 45) obtained
+~R. CLARK, G. RETZINGER,and T. Sawcg. 1978.
+Alternative pathways in the morphogenesis of the cellular slime mold, Dictyostelium discoideum. Manuscript in
+preparation.
+
+292
+
+Collector
+
+"'•Drain
+To
+
+FmuaE 1 Schematic diagram of the perfusion apparatus. The entire apparatus is drawn to the scale of the
+filter holder which is actually 13 mm in diameter.
+
+ThE JOURNAL OF CELL BIOLO(;Y" VOLUME 80, 1979
+
+Solutions were delivered by means of a 4-channel Gilson
+Minipuls peristaltic pump (Gilson Medical Electronics,
+Inc., Middleton, Wis.) through "Tygon" tubing (R3603), the end of which was connected to the tip cut
+from a 1.0-ml plastic pipette (Falcon). One stream was
+directed onto the amoebae while three were pumped
+into a waste receptacle. After passing through the filter,
+solutions traversed a 3-cm length of polyethylene tubing
+(Intermedic PE 90, Becton, Dickinson and Co., Clay
+Adams Div., Parsippany, N. J.). This tubing was connected (through a small piece of Intermedic PE 205) to
+the tip cut from a 1-rnl pipette (Falcon) matched to those
+above the filter. A drop of buffer emerged from the
+lower pipette tip as each drop flowed into the filter.
+Perfusion buffers were changed by manually rotating the
+disk holding the four pipette tips. The effluent was
+collected into a M 75 fraction collector (Medical Research Corporation, Boston, Mass.) equipped with a
+photocell drop counter. The "hold-up" volume of the
+chamber containing a filter with unlabeled amoebae was
+measured by switching to a standard solution of
+[3H]cAMP. After about four drops, the radioactivity in
+the effluent equaled that of the applied solution. Amoebae likely encountered more abrupt changes in concentration, since most of the mixing volume was located
+below the filter.
+Fractions of 3-12 drops were collected into test tubes
+containing 20/~t of a stopping solution which was shown
+to inactivate secreted phosphodiesterase rapidly. This
+solution contained 0.2 M HC1, 50 mM dithiothreitol
+(DTE), and 10 -~ M cAMP. The samples were diluted
+and neutralized with 1 ml of 5 mM Tris base when
+purifying cAMP. After an experiment, filters were sometimes removed from the chamber and placed on Millipore pads for development. The number and size of the
+fruiting bodies, which developed after 24 h on perfused
+and control filters, were very similar.
+
+Dowex 50W-X4 Chromatography
+Dowex 50W-X4 columns (1 ml) were prepared by
+pouring 2 ml of 50% slurry of Bin-Red AG 50-X4 (BioRad Laboratories, Richmond, Calif.), preequilibrated in
+1 mM Tris-HCl (pH 7.0), into Bio-Rad econocolumns
+(22). Neutralized samples were decanted onto columns
+which were then eluted with 1 mM Tris-HCI (pH 7.0).
+The cAMP peak typically eluted after seven columnvolumes. In processing many columns, the first 4 ml of
+eluate were discarded and the next 5 ml were collected
+directly into scintillation vials. Samples were evaporated
+to dryness at 80"C, resuspended in 1 ml of 1% sodium
+dodecyl sulfate (SDS), and prepared for scintillation
+counting. The procedure yielded 60-80% recovery of
+cAMP. Columns were regenerated by addition of 2 ml
+of 1 N HC! followed by 20 ml of 1 mM Tris-HCl (pH
+7.0). Storage in a dosed box at 4"C prevented the
+columns from drying.
+
+Cellulose Thin-Layer Chromatography
+1- to 50-t~l samples (nine per plate) were applied,
+
+D
+
+~
+
+ET AL.
+
+with the aid of a drawn-out Pasteur pipette, as small
+spots on 20 cm x 20 cm cellulose thin-layer plates
+(Eastman Kodak Co., Rochester, N. Y.). Plates were
+developed for 8 h by the ascending solvent, acetone:
+acetic acid:butanol:NI-hOH:H20 (10:6:14:1:8) (16). 2cm wide strips extending from each origin were cut out
+and sectioned into 1.5-cm fractions; these were placed in
+scintillation vials and eluted with 1 ml of 2% SDS.
+
+Erythrocyte Ghost Binding Assays
+Human erythrocyte ghosts, which possess high-affinity
+cAMP-binding sites (15), were used to isolate
+[3H]cAMP or to quantitate unlabeled cAMP by isotope
+dilution.
+[aHIcAMP
+I S O L A T I O N : Samples
+containing
+JaN]cAMP in 200/~1 of NFB plus 20 #l of 2 M Tris-HC1
+(pH 7.8) were mixed with 50 /~! of packed, freezethawed erythrocyte ghosts in 50 /zl of 5 mM sodium
+phosphate (pH 8.0). After incubation for 3-24 h at 4~
+in 75 x 12 mm plastic tubes, samples were diluted to 5
+ml with NFB at 4~ Tubes were centrifuged at 3,200
+rpm for 20 rain and the supernatant fuid was discarded.
+We have determined the half-time for dissociation of the
+JaN]cAMP-ghost complex to be 14 h, so that negligible
+dissociation occurred during the washing step. Pellets
+were dissolved in 2% SDS, 10 mM Tris-HCl (pH 7.8),
+and prepared for scintillation counting. Under these
+conditions, 60% of cAMP was recovered at all cAMP
+concentrations up to ~10 pmol per assay.
+ISOTOPE D I L U T I O N ASSAY: T h e isotope dilution assay was carded out essentially as described by
+Hesse et al. (9), except that samples were collected by
+centrifugation and prepared for scintillation counting as
+described above.
+
+Scintillation Counting
+Liquid scintillation spectroscopy of aH and 14C was
+carded out in a Searle Mark II scintillation counter
+(Seafle Diagnostics, G. D. Seade & Co., Des Plaines,
+Ill.), Triton-toluene fiuor was made by mixing 2 liters of
+toluene fluor (16 g of PPO plus 0.4 g of POPOP per
+gallon of toluene) with 1 liter of Triton X-100. This
+mixture was miscible with aqueous samples at a ratio of
+7:1. The efficiency for 3H was 60% and for 14C was
+50%. During simultaneous counting of both isotopes,
+spfllover of t4C into the JaN]channel was 40% and of aH
+into the t4C channel was 0.01%.
+RESULTS AND DISCUSSION
+
+Demonstration o f the cAMP Relay
+Response and Analysis o f Released
+Radioactive Material
+Typical relay responses are shown in Fig. 2.
+A m o e b a e were loaded in the perfusion apparatus
+and washed dropwise with a stream of buffer at
+r o o m temperature (22~176
+The spontaneous
+
+A Techniqueto MonitorcAMP Relayin D. discoideum
+
+293
+
+cFP
+
+]'|
+
+,A4\,t ,000
+MINUTES
+
+FRACTION
+
+FIGURE 2 Characterization of the secretory response
+of labeled amoebae. Panel A. NC-4 amoebae were
+labeled for 3 h with [all]adenosine bacteria and then
+deposited on agar at 5 x I(P cells/cm~. After 8 h. 106
+amoebae were loaded on a Millipore filter in the perfusion chamber and perfused with NFB at 1 drop/30 s for
+30 rain before the experiment shown. 1-min stimuli of
+10 -r M cAMP were then introduced (arrows). Aliquots
+of 20/zl were counted directly (---0---); 40-/xl aliquots
+were analyzed for [SH]cAMP after binding to ghosts
+(- - 9 -) or cAMP-treated ghosts ( . . . . . ). Values have
+been corrected for volume differences but not for cAMP
+recovery. In an experiment similar to that shown in
+panel A, 50-t~l aliquots were taken from fractions collected just before ("interpeak," panel B) and just after
+("peak," panel C) cAMP application and analyzed by
+thin-layer chromatography.
+release of radioactive material was initially high,
+but subsided during the first 30 min of perfusion.
+The baseline release rate stabilized at - 0 . 1 % of
+cellular radioactive material per minute (Fig. 2 A ) .
+Introduction of 10 -r M cAMP into the perfusion
+fluid elicited a rapid and transient two to threefold
+increase in the rate of tritium release. In other
+experiments, the increment in cAMP-stimulated
+tritium release was as low as 20-50% of the
+background rate.
+The following analyses established that the
+background of unelicited radioactive material consisted of compounds other than cAMP, while the
+evoked response was attributable primarily to
+[aH]cAMP secretion.
+The released radioactive material was not sedimentable at 10,000 rpm for 30 min or precipitable
+with trichloroacetic acid in the presence of bovine
+serum albumin (Sigma Chemical Co., St. Louis,
+Mo.), suggesting that the tritium was not carried
+by cells, organelles, or macromolecules. Furthermore, the number of viable amoebae which escaped through the filter into the filtrate was shown
+by plaque assay on a bacterial lawn to be < l / r a i n
+(i.e., < 1 0 -6 rain-l). The release of cells thus
+
+294
+
+accounts for < 0 . 1 % of the released tritiated compounds. Background tritium release was fivefold
+lower at 4~ consistent with the notion that it
+reflected a metabolic process.
+The selective binding of cAMP to human erythrocyte ghosts provided a convenient way to separate secreted [all]cAMP from other compounds.
+Fig. 2A illustrates that, after the ghost binding
+step, the cAMP-stimulated tritium release rate
+typically increased to a value 3-8 times greater
+than the background rate. [all]cAMP binding to
+ghosts was specific; it could be abolished by
+preincubating ghosts with 10 -5 M unlabeled
+cAMP,
+The radioactive compounds contained in peak
+(Fig. 2 C) and interpeak (Fig. 2 B) fractions were
+analyzed by thin-layer chromatography. Whereas
+the background (i.e., interpeak) radioactive material was distributed diffusely throughout the
+chromatogram, the additional radioactive material
+released during cAMP stimulation (i.e., the peak)
+was primarily confined to a major spot which
+cochromatographed with a cAMP standard and a
+minor spot of slower mobility, corresponding to
+5 ' - A M P (the anticipated breakdown product of
+cAMP).
+In a series of experiments in which amoebae
+were stimulated with cAMP in the absence of the
+PDE inhibitor, DTT, the recovery of [all]cAMP
+ranged from 40 to 100% of [3H]cAMP plus
+[3H]5'-AMP. The relative amount of Y - A M P
+(presumably reflecting cAMP hydrolysis) could be
+reduced by adding DTT, increasing the flow rate
+during perfusion, and reducing the delay between
+sample collection and chromatography.
+The radioactive material collected during the
+period of elevated tritium release was also examined by Dowex 50 chromatography. A large fraction of this material co-eluted at 7 column-volumes with an authentic cAMP standard; a very
+small fraction co-eluted with Y - A M P at 25 column-volumes. The remainder eluted as a peak at
+1-2 column-volumes. Most of the unelicited radioactive material also chromatographed in this early
+peak; thus, there is little spontaneous release of
+cAMP and 5'-AMP. While the early peak had the
+chromatographic behavior of ATP, most of it was
+not altered by digestion with potato apyrase
+(Sigma) and 5'-nucleotidase (Sigma) under conditions which totally converted an ATP standard to
+adenosine (which is retained by the column). In
+other experiments, digestion with a mixture of
+beef heart PDE (Sigma), apyrase, and 5'-nucleo-
+
+THE JOURNAL OF CELL BIOLOGY" VOLUME 80, 1979
+
+large fraction of the additional radioactive material elicited by application of exogenous cAMP
+was [aH]cAMP. After correcting for cAMP losses,
+102% in the 12.5-minute peak and 88% in the
+19.5-minute peak were found to be [3H]cAMP.
+Specificity in the cAMP-elicited response was
+further established by the following observations.
+No responses to 5 ' - A M P stimuli were observed in
+the 10 -1~ to 10 -4 M range. [ZH]cAMP secretion
+was not elicited by adding 50 mM KCI to the
+perfusion buffer or by sudden drops in the p H of
+the perfusion buffer (from pH 6.5 to p H 5.5).
+Labeled, vegetative amoebae failed to respond.
+Amoebae, heat-inactivated (80~ 2 min) before
+labeling, did not respond to cAMP, nor did
+[3H]adenosine-labeled E. coli alone. Thin-layer
+chromatographs of 5% T C A extracts of
+[3H]adenosine-labeled amoebae bore no resemA Specific Assay for c A M P Relay
+blance to chromatographs of radioactive material
+Dowex 50 column chromatography provided a released during cAMP stimulation, suggesting that
+convenient and effective means of purifying the released material is a selective fraction of the
+[aH]cAMP from sample fractions. As shown in acid-soluble cell contents.
+[all]cAMP relay responses were obtained both
+Fig. 3, this step revealed that the cAMP-stimulated release of [3H]cAMP was ~100 times the from amoebae fed [3H]adenosine directly and
+unstimulated background. A quantitative compar- from amoebae fed [all]adenosine-labeled bacteison of the two panels in Fig. 3 indicates that a ria; the latter labeling technique was somewhat
+more efficient. Similar responses were observed
+from amoebae induced to differentiate either at
+an air-water interface on Millipore filters or on
+~00
+agar, submerged on agar substrates or in suspension. Relay responses were routinely elicited from
+both NC-4 and AX-3 strains of D. discoideum and
+from D. purpureum,
+20C
+-~00 ~
+tidase destroyed the late-eluting peaks but had
+only a slight effect on the early peak.
+Cyclic A M P stimulated the appearance of small
+amounts of labeled compound(s) other than 5'A M P and cAMP. This compound(s) also cochromatographed with [aH]ATP. Its time course of
+release differed from that of [all]cAMP. A careful
+analysis of the time course of the total tritium vs.
+[all]cAMP released in response to cAMP stimuli
+(see Fig. 3, below) revealed that the fraction of
+non-cAMP radioactive compound(s) rose at the
+end of the response. Frequently, this compound(s)
+initially represented ~ 1 0 - 3 0 % of the total; however, it became a progressively larger fraction as
+its release persisted beyond that of Jail]cAMP.
+This material was not 5'-AMP, and its identity is
+presently under investigation.
+
+Quantitation o f the c A M P Relay Response
+While the specific activity of the [3I-I]cAMP
+released during relay has not been determined,
+the magnitude of cAMP secretion by unlabeled
+I0
+20
+I0
+20
+MINUTES
+amoebae was estimated by isotope dilution assay.
+MINUTES
+As
+will be demonstrated below (Fig. 6), 10 -a M
+FtotmE 3 Dowex 50W-X4 purification of secreted
+[all]cAMP. Panel A. NC-4 amoebae were labeled for cAMP can elicit a nearly maximal relay response
+60 rain and allowed to develop on a Millipore filter for when administered in the presence of 2 mM D T ~
+9.5 h. The filter was placed in the perfusion chamber at a slow peffusion rate. This low level stimulus
+and washed with buffer at a flow rate of 1 dropll6 s for imposes only a small background against which
+25 min before the experiment shown. Initially, the the relay response can be readily quantitated. As
+amoebae were stimulated at intervals with 10 -~ M I~C- shown in Table I, the amount of cAMP elicited by
+cAMP for 2 min. The flow rate was then increased to 1 single 2-min stimuli increased during the starvadrop/6 s and amoebae were stimulated as shown. 50 t~l
+tion period, reaching a maximum at - 8 h for
+of each fraction (-200 t~l) were analyzed for total
+radioactivity. Panel B. 100/~1 of each fraction collected strain AX-3 and at 10-12 h for NC-4. The largest
+(panel A ) were analyzed for [all]cAMP by Dowex 50W responses were roughly 3-5 x 106 molecules/cell
+X-4 chromatography. No corrections were made for for AX-3 and 1-2 x 106 molecules/cell for NC-4.
+We have also determined levels of intracellular
+volume differences or recovery of cAMP. ( - - O - - )
+[I'C]cAMP; (--O--) 3H.
+cAMP during a relay response. As seen in Fig. 4,
+DEV~EOTI~ ET AL A Technique to Monitor cAMP Relay in D. discoideum
+
+295
+
+TABLE I
+
+Quantitation of cA MP Secretion during
+Development
+strain
+NC-4:
+Exp. 1
+Exp. 2
+
+AX-3:
+Exp. 1
+
+Hoursof starvation*
+
+Secretionr
+(pmol/106cells)
+
+10.0
+5.0
+7.5
+10.0
+
+0.87
+1.78
+2.87
+
+0.5
+1.5
+2.5
+3.8
+5.0
+6.1
+7.1
+8.5
+
+0.20
+0.21
+1.13
+1.16
+1.90
+3.00
+4.80
+3.14
+
+1.25
+
+Amoebae were shaken with E. coli which had not
+been labeled with [all]adenosine (see [aH~denosine
+Labeling in Materials and Methods). Differentiation
+was then initiated by starvation, and the amoebae
+were deposited on a MiUipore filter in the perfusion
+chamber. The filter was perfused with NFB at a flow
+rate of 1 drop per 30 s. Four-drop fractions were
+collected into 20/zl of 2 M HCt. Occasionally, 10 -~ M
+cAMP plus 5 mM dithiothreitol (DTT) was added to
+the porfusion fluid for a 2-min interval. 3-8 such
+stimuli were delivered at 6-12 min intervals.
+Fractions were neutralized with 25/zl of 2 M Tris and
+cAMP was determined by isotope dilution (Materials
+and Methods). Backgrounds were estimated by parallel perfusion of a filter without amoebae. Under these
+conditions, the background was - 0 . 2 pmol/2 min
+while maximum stimulated release by AX-3 amoebae
+was - 7 pmol/2 min.
+* NC-4 cells were allowed to develop at 10~ cell/cm~ on
+agar; AX-3 cells were allowed to develop at 107 cells/
+ml in suspension (see Materials and Methods).
+~t Values are averages of 4-6 responses. The cAMP
+recovered in the fraction in which the stimulus was
+applied and the two following fractions were taken as
+the response. (Most cAMP was recovered in the
+fraction immediately after stimulus application.)
+the intracellular level of c A M P in a m o e b a e before
+e x p e r i m e n t a l stimulation was 1-2 pmol/106 cells.
+(This represents an u p p e r limit; lower values were
+o b s e r v e d in o t h e r experiments.) Stimulation of
+a m o e b a e with 10 -~ M c A M P plus 2 m M D T s at
+a slow perfusion rate elicited a n increase in intracellular c A M P levels in b o t h NC-4 and A X - 3 over
+a time course reminiscent of the increased secretion of c A M P s h o w n above. Consistent with extracellular c A M P m e a s u r e m e n t s (Table I), intracel-
+
+296
+
+lular c A M P pools in A X - 3 rose to higher levels
+t h a n those of NC-4.
+
+Unelicited c A M P Secretion
+A s s h o w n in Fig. 5, suitably differentiated
+a m o e b a e r e s p o n d to slow perfusion with 2 - 1 0
+m M D T T , an effective P D E inhibitor, by emitting
+[ a l l ] c A M P secretory responses typical of c A M P
+relay. T h e effect was not a function of the D T Y
+I
+
+I
+
+INTRACELLULAR cAMP
+
+20
+
+tn
+
+9
+
+~
+
+I
+
+--o-~I 9
+
+3
+
+6
+MINUTES
+
+FIGURE 4 Profile of intracellular cAMP concentration
+during stimulation with 10 -~ M cAMP plus 5 mM DTT.
+AX-3 amoebae were allowed to develop for 8 h in
+suspension at a density of 107 cells/ml. NC-4 amoebae
+were allowed to develop on agar starvation plates for 9
+h, washed from the agar with buffer, and adjusted to 107
+cells/ml. Aliquots containing 106 amoebae were deposited on multiple filters resting on Nucleopore "pop-top"
+membrane holders. Amoebae were washed at room
+temperature for 5 min at a flow rate of 0.4 ml/min. The
+perfusion fluid was then replaced by NFB containing
+10 .-0 M cAMP plus 5 mM DTF. After various intervals,
+filters were removed, blotted free of excess liquid, and
+inverted in 60/zl of 5% TCA in the well of a multiwell
+culture tray (Falcon). 500 p.1 of 500 mM potassium
+phosphate (pH 7.0) was added to each well to neutralize
+the TCA. Duplicate aliquots of 200/.d were assayed for
+cAMP by isotope dilution. As controls, extracts were
+sometimes predigested with 0.01 unit beef heart PDE
+(Sigma) for 60 min at 37~ Samples originally containing as much as 7 pmol of cAMP caused negligible
+inhibition of [3H]cAMP binding in the isotope dilution
+assay after digestion, indicating little interference by
+other components in the extracts.
+
+TItE JOURNAL OF CELL BIOLOGY" VOLUME 80, 1979
+
+I
+
+I
+
+r
+
+I
+
+400
+
+CPI~
+200
+
+rm
+
+1
+
+F
+
+-I
+
+r--1
+
+30
+
+rl [ t
+
+JL.
+60
+
+90
+
+MINUTES
+
+~GUR~ 5 Elicitation of cAMP secretion by perfusiGn
+with D'I'T. NC-4 amoebae were labeled for 3 h, allowed
+to develop on agar for an additional 6 h, placed in the
+perfusion chamber and washed at a flow rate of 1 drop/5
+s for 20 min before the portion of the experiment shown.
+Amoebae were perfused three times with 2 mM D T r at
+this rapid flow rate (dashed rectangles). The flow rate
+was then reduced to 1 drop/30 s, and amoebae were
+perfused twice with 2 mM DTF (dashed rectangles).
+During rapid perfusion, 12-drop fractions were collected
+while 2-drop fractions were collected at the slow flow
+rate. 10 drops of buffer were added to the latter before
+cAMP secretion was measured in both sets in parallel.
+alone, since rapid perfusion with D ' I T of the same
+concentration minimized this response. Addition
+of 10 mM DTT to AX-3 amoebae in suspension
+could also elicit immediate increases in total
+cAMP (M. Dinauer, personal communication).
+We interpret this behavior to signify that the
+amoebae on the filter emit cAMP at low levels in
+the absence of exogenous stimulation, but that the
+flowing buffer and cell-bound PDE activity (the
+soluble PDE being continuously removed by the
+perfusion stream) prevent responses from building
+up. Inhibition of PDE allows the spontaneously
+released cAMP to accumulate and become a
+stimulus for relay by a highly effective positive
+feedback loop. The inhibitory effect of rapid
+perfusion supports this view, since the pool of
+secreted cAMP at the cell surface would be more
+rapidly depleted under these conditions, the presence of DTT notwithstanding.
+"'Clamping" the Extracellular
+c A NIP Concentration
+
+The data presented above imply that a cAMP
+stimulus not only can be reduced at the cell
+surface by the action of PDE but also can be
+
+magnified by the cAMP secretory response. Before a reliable analysis of the relationship of
+cAMP dose and response can be established,
+control of these variables must be secure. The
+goal, in essence, is to maintain effective cAMP
+stimulus levels at operator-specified values in the
+face of complex cellular activity. We call this
+"clamping," in analogy with the neurophysiological technique (10).
+As a means of evaluating the impact of cellbound phosphodiesterase and the action of the
+positive feedback loop on the response (and the
+capability of our perfusion system to minimize
+these effects), we monitored secretory responses
+in the presence and absence of DTT, at fast and
+slow flow rates, and at high and low cAMP
+concentrations (Fig. 6). Labeled NC-4 amoebae
+were stimulated with low (10 -9 M) and high (10 -'6
+M) levels of [~4C]cAMP in the presence and
+absence of 2 mM DTT at slow (1 drop/40 s) and
+rapid (1 drop/5 s) flow rates. Stimulation with
+10 --9 M cAMP elicited a weak response (panel B)
+unless delivered with DTT, which suppressed its
+destruction (panel D), or under rapid perfusion,
+which constantly renewed the stimulus despite
+destruction (panel A ) . The relay response to stimuli of 10 -9 M cAMP was the same in the presence
+and absence of DT'F at rapid flow rates (panels A
+and C), confirming that rapid perfusion alone is
+capable of minimizing PDE destruction of both
+the input and secreted cAMP.
+Stimulation with 10 4 M cAMP in the presence
+of DTT evoked a larger relay response at slow
+perfusion rates than at rapid perfusion rates (compare panels C and D). Indeed, the response to
+slow perfusion with 10 -~ M cAMP plus DTT
+approached that elicited by 10 4 M cAMP (compare panels D and F ) . Control experiments with
+stimuli of 10 -6 M cAMP have established that the
+rate of perfusion does not of itself have an effect
+on the relay response (compare panels E and F )
+and that DTT does not necessarily alter the relay
+response at this high cAMP concentration (not
+shown). These results are consistent with the
+hypothesis stated above. They suggest that, once
+PDE is inhibited, the cAMP secreted in response
+to 10 -9 M cAMP stimuli can act to provoke a
+maximal response, provided the released cAMP is
+allowed to act autocatalytically (i.e., at a slow rate
+of perfusion in the presence of DTF). We conclude that one condition which minimizes modulation of the stimulus size by the cells is a rapid
+perfusion rate and have adopted 1 drop/4-5 s as a
+
+DEV'REOrES ET AL. A Technique to Monitor cAMP Relay in D. discoideurn
+
+297
+
+'
+FAST FLOW A [ SLOWFLOW B
+120-i09M
+TI6~
+MI
+120
+40 ~
+
+L
+
+~
+C I~69E
+
+t69M + DTT
+
+40
+A
+
+D
+
+--I- %1\
+
+4
+
+40
+I ,66~T T
+
+E 1166M§ DTT
+
+~176
+4
+
+I
+
+\-l-r
+8
+
+\_oo
+4
+
+8
+
+MINUTES
+FIGURE 6 The effect of experimental variables on the
+relay response. Two identical sets of NC-4 amoebae
+were incubated for 3 h with [~
+E.
+coli, except that the labeling of one set was started 1.5 h
+after the other. [~
+amoebae were
+allowed to develop on agar disks for 6 h after labeling.
+A 1,5-h experiment was carried out on the first set of
+amoebae and then an experiment was initiated on the
+second set. Amoebae were placed in the perfusion
+chamber and washed with NFB for 15 rain before the
+experiments shown. Amoebae were then stimulated with
+10 -~ M [14C]cAMP, 10-~ M [14C]cAMPplus 2 mM DT1~
+or 10--6 M [z4C]eAMPplus 2 mM DTI' as indicated. Not
+shown are 15 or 20 fractions of low, constant background separating the peaks. The first set of amoebae
+was perfused at a flow rate of t drop/5 s and 8-drop
+fractions were collected. The second set of amoebae was
+perfused at a flow rate of 1 drop/40 s and 1-drop
+fractions were collected. Seven drops of buffer were
+added to the fractions collected from the second set of
+amoebae, and both sets of fractions were processed in
+parallel to isolate [3H]cAMP. At the end of each experiment the filters were counted; the first had 1.4 times
+the radioactivity of the second. [3H]eAMP counts were
+normalized accordingly in the figure.
+standard flow rate (see accompanying manuscript
+
+[4]).
+CONCLUSION
+The perfusion system (Fig. 1) described in this
+report offers several advantages in the study of the
+cAMP relay response in D. discoideum. (a) Stimuli can be initiated and terminated rapidly and
+precisely; assay of the [I~C]cAMP provides a
+continuous monitor of the time course of stimula-
+
+tion and the recovery of the cyclic nucleotide. (b)
+Perfusion gives a direct and continuous measure
+of secretion rate; a background of secreted cAMP
+never accumulates. (c) Soluble phosphodiesterase
+and other cellular secretions, including cAMP, are
+not allowed to accumulate and condition the response. (d) Amoebae can be washed in situ and
+thus subjected to repeated stimuli without disturbance, (e) Most importantly, the ambient cAMP
+concentration is held fixed by constant renewal,
+opposing both the tendencies toward cAMP destruction and signal amplification which can otherwise be superimposed by cellular activity. Coupled with the prompt inactivation of PDE in the
+collected fractions and an efficient cAMP purification step, this system allows a precise delineation of the relay response (e.g., Fig. 3).
+The released radioactive material is not a bulk
+discharge of cytoplasmic contents but a highly
+specific secretion of cAMP produced after the
+initiation of the stimulus (Fig. 4). Furthermore,
+there is no evidence for the accumulation (storage) of cAMP in cells between stimuli. The secretion of cAMP appeared to be a specific physiologic
+event, in that its magnitude was developmentally
+regulated (Table I) and differed characteristically
+for two strains of D. discoideum. Furthermore,
+cAMP secretion could only be elicited by cAMP
+and not by a number of other types of stimuli.
+While cAMP may not be the only molecule
+secreted by amoebae in response to exogenous
+stimuli, it is clearly the predominant adenosinecontaining secretion (Figs. 2 and 3). The perfusion
+system employed runs the risk of washing away
+other, unidentified, secreted molecules which
+might normally affect the relay response. We
+found, however, that secretory responses to 10 `-6
+M cAMP stimuli were of the same magnitude at
+high and low perfusion rates (Fig. 6). Furthermore, the kinetics of the response elicited in this
+system (Table I) resemble those observed previously in a different perfusion system (20) and in
+suspension (6, 7, 14). Finally, in good quantitative
+agreement with our data, Gerisch and Wick (8)
+have reported similar results for strain AX-2.
+The relay responses observed were not all the
+same (i.e., stereotyped) but varied with the magnitude and duration of the stimulus, the perfusion
+rate, and the presence of the phosphodiesterase
+inhibitor, DTT (Fig. 6). Two features of the
+cAMP signal processing apparatus tended to distort responses we sought to characterize by perfusion with defined stimuli. One factor is cell-surface
+
+TIlE JOURNAL OF CELL BIOLOgy 9 VOLUME 8 0 , 1 9 7 9
+
+p h o s p h o d i e s t e r a s e activity. (It is a s s u m e d t h a t the
+s o l u b l e P D E is r e m o v e d by p e r f u s i o n a n d t h a t the
+intracellular P D E d o e s n o t m a k e c o n t a c t w i t h
+e x t r a c e l l u l a r c A M P . ) T h i s e n z y m i c activity a t t e n uated responses to low doses of c A M P . Inhibiting
+the e n z y m e o r r e p l e n i s h i n g the s t i m u l u s t h r o u g h
+r a p i d p e r f u s i o n o v e r c a m e this effect. S e c o n d l y ,
+the cell s u r f a c e c o n t a i n s t h e e l e m e n t s n e e d e d f o r
+a positive feedback loop w h e r e b y secreted c A M P
+c o m p o u n d s itself. W h e n s e c r e t i o n s are n o t r a p i d l y
+r e m o v e d by P D E activity o r brisk p e r f u s i o n , res p o n s e s to s u b s a t u r a t i n g stimuli can be g r e a t l y
+m a g n i f i e d by this f e e d b a c k l o o p . T h i s m e c h a n i s m
+can e v e n m a g n i f y b a c k g r o u n d c A M P levels into
+d e t e c t a b l e r e s p o n s e s (Fig. 5).
+The techniques described herein have permitted
+a n a c c u r a t e a n d reliable d e s c r i p t i o n o f the c A M P s t i m u l a t e d s e c r e t i o n o f c A M P in D . d i s c o i d e u m .
+I n the following r e p o r t , the r e q u i r e m e n t s f o r
+initiation a n d t e r m i n a t i o n o f this relay r e s p o n s e
+a r e a n a l y z e d in detail.
+Addendum
+
+Since the experiments reported here were carded out,
+several of our methods have been improved by Ms. M.
+Dinauer. For [3H]adenosine labeling, amoebae are now
+labeled by adding 3-4 x I(P amoebae in 1 ml of NFB to
+1-3 aliquots of [all]adenosine-labeled bacteria, The culture is shaken in a 5-ml beaker at 225 rpm (radius of
+gyration, 1 cm). For Dowex 50W-X4 chromatography,
+6 mt are collected into scintillation vials ([3H]cAMP),
+and columns are washed twice with 5 ml of HCI between
+each use.
+The authors thank Mr, K. Tomchik for his expert
+technical assistance, Dr. R. Clark and Ms. M, Dinauer
+for helpful discussions, Dr. R. Haselkorn and Ms. K.
+Hoffmann for critical review of the manuscript, and Ms.
+Sally Parks for typing. We would also like to thank Mr.
+A. J. Kittler for constructing the perfusion chamber.
+This research was supported by US Public Health
+Service Grant GM 22321, P. N. Devreotes is a postdoctoral Fellow of the Damon Runyon-Walter Winchell
+Cancer Fund ( D R G 178F). P. L. Derstine is a postdoctoral trainee supported by National Institutes of Health
+Research Service Award GM-7190 from General Medical Science. T. L, Steck is the recipient of a Faculty
+Research Award from the American Cancer Society.
+
+Received f o r publication 5 J u n e 1978, a n d in revised
+f o r m 15 September 1978,
+
+REFERENCES
+1. BOlCSEILL T. 1947. Evidence for the formationof cell aggregatesby
+chemotaxisin the developmentof the slimemoldDiayostelium discoideum. l, Exp, ZooL 106:1-26,
+2. BONN~tt.J. T. 1949. The demonstrationof aerasinin the laterstagesof
+developmentof the slimemold Dictyosteliumdiscoideum.J. Exp. Zool.
+110:259-271.
+3, Bo~w, J, T. 1969, The Cellular SlimeMolds. Princeton University
+Prtr~, Princeton, NewJersey. 2nd ed.
+4. Dla,ltl~rm, P., and T. S'rmm. 1978. Cyclic 3',5' AMP relay in
+Dictyoatdium discoideum. 11. Requirementsfor initiation and termination of the response.J. Cell Biol. $0".300-309.
+5. Gl~ltlsc'~,G. 1968. Cell aggregationand differentiation in Dictyoste.
+lium, In Current Topics in DevelopmentalBiology. A, Mosconaand
+A. Montroy,editors. AcademicPress,New York.3:157-197.
+6. GEIUSOl.O., D. H0tseR, D. MALCnOW,and U. WICK.1975. Cell
+communicationby periodiccyclic AMP pulses, Philos. Trans, R. Soc.
+Load. B. Biol, Sci. 272:181-192.
+7. Gl~mscll,G,, and D. MAt.cilow.1976. CyclicAMP receptorsand the
+control of cell aggregation in Dictyostelium. Adv. Cyclic Nucleoade
+Res. 7:49-68.
+8. GI~mScH,G., and U. WicK.1975. Intraeellularoscillationsand release
+of cyclic AMP fi'om D/ctyoste~um cells, Biachem. Biophys. Re~,
+Comm. 65:364-370.
+9. Hr~sE.J,, L. R ~ - D ~ z s , and W. E~'ax~, 1975. A convenient
+erythrocyte membranecyclicAMP bindingassay.Anal. Biochem. 68:
+202-208.
+10. HODGmn,~,A., A. HVxL~, and B. KATZ. 1952. Measttremanl of
+cun~nt-vditage relationsin the membraneof the giant aanoof Lolign.
+J. Physiol. (Load.). 116:424--44S.
+11, KONUN,T. M., J. G. C. VAN DE M~SE, Y.-Y. CIV~G, D. S.
+BA~EV, and J. T. Bor,r~t*R. 1969. Identification of adenosine-3',5'monophosphateas the bacterial attractant for myxamoebaeof D/ctyostelium discoideum, J. Bacteriol. 99:.510-512.
+12, MALOIOW,D., B. NZ~r,LE, H. ScHw~az, and G, GEalSCII, 1972.
+Membrane bound cyclic AMP phosphodiesteresein clmmotaetieally
+responding cells of Dictyostelium discoideum. Eur, J. Biochem. 28:
+136-142.
+13. Roa~TanN,A.. D. J. DaAOE,and M. H. CottoN. 1972. Control of
+aggregation in D/ctyoste//umd~coMeumby an external periodicpulse
+of cyclicadenosinemonophosphate.Sc/ence(Wash. D, C.). 175:333335.
+14, RCoS,W,, V. NAr~nmDr~N,D. MALOIOW,and G. G~msctL 1975,
+Amplificationof cyclic AMP signalsin aggregatingcells of Dictyosteliurn discMdelan. FEBS (Fed. Fur, Biochem. Sac.) 12U. 53.'139-142.
+15. Rtram, C. S., J. Em~ltmu,,e~. and O. M. Rosm~. 1972. Cyclic
+adenosine 3',5'-monophosphate~dependentprotein kinase of human
+erythrocymmembranes.J. Biol. Chem.247:6135-6139.
+16. R o ~ o ~ t ~ , E., and M. S o s s ~ . 1972. Adanyl cyclase in D/ctyoste//um d/scok//wn: a possible control element of the chemotactic
+system.Biochem. Biophys. Res. Comm. 47:604-610.
+17. ~ ,
+B. M. 1957. Aspectsof aggregationin cellular slime molds.
+Am, Nat. 91:19-35.
+18. Snm~ml~,B. M. 1958. Integrationin aggregatingcellular slimemolds.
+Q. J, Microsc. Sci. 99:.103-121.
+19, ~ R ,
+B. M. 1962. The acrasina.Adv. Morphog. 2:109-182.
+20. SIIAI~t,B. M, 1975. Secretionof cyclicAMP inducedby cyclicAMP
+in the cellularslimemold Dictyostelium discoideum. Nature (Load.),
+25~;:549-552.
+21, S~rsHm'Slr..~,R. L., B. STAmO~,C. NAGLER,and S. GLrI'HR1E.1962.
+The processof infectionwith bacteriophage$X174. L Evidence for a
+replicative form.J. Mol. BioL 4.'142-160.
+22, SouauoN,Y., and M. RODBr,LL. 1974. A sensitiveassayfor adenylate
+~*lase,Ana/, Biochern.511:451--45S.
+
+DEVrmOTES ET AL. A Technique to M o n i t o r c A M P Relay in D. discoideurn
+
+299
+
+

@@ -1,0 +1,1355 @@
+MOLECULAR AND CELLULAR BIOLOGY, May 1990, p. 1921-1930
+0270-7306/90/051921-10$02.00/0
+Copyright © 1990, American Society for Microbiology
+
+Vol. 10, No. 5
+
+The Cyclic Nucleotide Phosphodiesterase Gene of Dictyostelium
+discoideum Contains Three Promoters Specific for Growth,
+Aggregation, and Late Development
+MICHEL FAURE,1 JAKOB FRANKE,' ANNE L. HALL,' GREGORY J. PODGORSKI,2 AND RICHARD H. KESSINl*
+Department of Anatomy and Cell Biology, College of Physicians and Surgeons of Columbia University,
+630 W. 168th Street, New York, New York 100321 and Department of Biology,
+Utah State University, Logan, Utah 84322-53052
+Received 1 November 1989/Accepted 7 February 1990
+The cyclic nucleotide phosphodiesterase (phosphodiesterase) plays essential roles throughout the development of Dictyostelium discoideum. It is crucial to cellular aggregation and to postaggregation morphogenesis.
+The phosphodiesterase gene is transcribed into three mRNAs, containing the same coding sequence connected
+to different 5' untranslated sequences, that accumulate at different times during the life cycle. A 1.9-kilobase
+(kb) mRNA is specific for growth, a 2.4-kb mRNA is specific for aggregation, and a 2.2-kb mRNA is specific
+for late development and is only expressed in prestalk cells. Hybridization of RNA isolated from cells at various
+stages of development with different upstream regions of the gene indicated separate promoters for each of the
+three mRNAs. The existence of specific promoters was confirmed by fusing the three putative promoter regions
+to the chloramphenicol acetyltransferase reporter gene, and the analysis of transformants containing these
+constructs. The three promoters are scattered within a 4. 1-kilobase pair (kbp) region upstream of the initiation
+codon. The late promoter is proximal to the coding sequence, the growth-specific promoter has an initiation site
+that is 1.9 kbp upstream of the ATG codon, and the aggregation-specific promoter has an initiation site 3 kbp
+upstream.
+
+When Dictyostelium discoideum amoebae are deprived of
+nutrients, they initiate a developmental program that results
+in the formation of a multicellular organism composed of
+differentiated cell types. The aggregation process that takes
+place early in development is driven by chemotaxis toward
+cyclic AMP (cAMP) (6), and one of the earliest events in
+development is the elaboration of the biochemical apparatus
+required for chemotaxis toward cAMP (for reviews see
+references 7, 18, and 23). Soon after starvation, the cells
+synthesize an adenylate cyclase, a cell surface cAMP receptor, an extracellular phosphodiesterase, and a specific phosphodiesterase inhibitor. These proteins, among others, function coordinately to allow the cells to aggregate by
+chemotaxis. Cells secrete pulses of cAMP every 5 to 6 min,
+and neighboring cells respond by moving toward elevated
+concentrations of cAMP and by emitting cAMP to create a
+relay. The binding of cAMP to cell surface receptors activates second messenger cascades involving G proteins (27)
+that lead to a variety of cellular events (for reviews, see
+references 13 and 20), including the chemotactic response
+and the regulation of genes specific for development. The
+cAMP receptor is down regulated and phosphorylated upon
+constant stimulation by cAMP (25, 53), and this results in the
+adaptation of cellular responses (52). The cyclic nucleotide
+phosphodiesterase (phosphodiesterase) acts outside the cell
+to reduce cAMP levels, limiting saturation and down regulation of the receptor. The phosphodiesterase exists in
+membrane-bound and free extracellular forms (30, 47). Its
+activity is regulated at the gene level (16) and is controlled at
+the protein level by a specific inhibitor (15). A mutation
+affecting one of the signal transduction pathways, fgdA (3,
+22), prevents the induction of the aggregation-specific form
+of the phosphodiesterase mRNA (16).
+*
+
+The requirement for phosphodiesterase during aggregation
+is demonstrated by the fact that mutants deficient in phosphodiesterase are unable to aggregate unless the enzyme is
+provided exogenously (2, 4). Complete development can be
+restored by production of the enzyme from the cloned gene,
+introduced into the cells by transformation (11). The phosphodiesterase plays a role in late development when chemotaxis is involved in morphogenesis leading to fruiting body
+formation (43, 45). Overproduction of phosphodiesterase
+blocks late development (10), and local addition of phosphodiesterase to developing prespore cells reverses the differentiation of these cells (54).
+We have cloned the cDNA (28, 38) and the genomic DNA
+(37) coding for the phosphodiesterase. During early development two distinct mRNAs (1.9 and 2.4 kilobases [kb]) are
+transcribed from the phosphodiesterase gene. The 1.9-kb
+mRNA is present at a low level in vegetative cells and in
+early development. The 2.4-kb mRNA is induced soon after
+starvation and accumulates during aggregation. The accumulation of the 2.4-kb mRNA is increased by cAMP treatment
+but is blocked by cycloheximide (16). To understand the
+origin of these two mRNAs and to identify the factors and
+the second messenger pathways involved in the induction of
+the 2.4-kb mRNA, we have studied the structure of the
+phosphodiesterase gene. We have reported the complete
+sequence of the gene and demonstrated the existence of two
+promoters responsible for the transcription of the 1.9- and
+2.4-kb mRNAs (37). These two mRNAs have the same
+coding sequence but differ in their 5' untranslated sequences, which are derived from two different exons. The
+promoters responsible for the transcription of the 2.4- and
+1.9-kb mRNAs are located about 3 and 2 kilobase pairs (kbp)
+upstream of the initiation codon, respectively (37).
+In this report, we complete our description of the structure
+
+Corresponding author.
+1921
+
+1922
+
+FAURE ET AL.
+
+and the expression of the phosphodiesterase gene. We show
+that in late development, there is a third phosphodiesterase
+mRNA. This mRNA is 2.2-kb long and appears after 10 h of
+starvation on filters, at a time when the cells have completed
+aggregation and are organized in preslug structures. This
+2.2-kb mRNA is transcribed from a distinct promoter that
+lies adjacent to the phosphodiesterase coding sequence, in
+contrast with the promoters of the 2.4- and 1.9-kb mRNAs,
+which are distal. By the polymerase chain reaction (PCR)
+technique for amplification of cDNAs, we have recovered
+and sequenced cDNA clones derived from the 5' end of the
+2.2-kb mRNA, and this allowed us to locate the start site of
+transcription. We show here that the phosphodiesterase
+gene is transcribed into three mRNAs that are expressed at
+different times during growth and development and we
+discuss the significance of this complex organization.
+MATERIALS AND METHODS
+Enzymes and chemicals. Most of the enzymes and chemicals were the same as those used in previous work (37),
+except that the Taq polymerase was purchased from Beckman Instruments, Inc.
+Conditions for development and transformations. The
+axenic strain AX3-K was used for all of the experiments
+except for the separation of prestalk and prespore cells,
+where strain NC4 was used. Strain AX3-K was grown in
+HL/5 medium (14), and strain NC4 was grown on lawns of
+Klebsiella aerogenes as described by Sussman (50). The
+conditions for development in liquid and on Whatman no. 50
+filters have been previously described (16). The Sorensen
+buffer used to starve the cells was 17 mM Na2H-KH2PO4
+(pH 6.0) supplemented with 50 ,uM CaCl2. The separation of
+prestalk and prespore cells from slugs by density gradient
+centrifugation was performed as described by Ratner and
+Borth (39). Transformation experiments were performed as
+described by Nellen et al. (35). For the transformations with
+the pAV-CAT derivatives we performed the subsequent
+chloramphenicol acetyltransferase (CAT) assays on populations of transformants resulting from one transformation
+plate.
+Probes and plasmid constructions. The various probes used
+for Northern (RNA) blot hybridizations were prepared by
+purification of the appropriate restriction fragments on lowmelting-temperature agarose gels and were labeled by the
+random priming method (12). Probes A, D, and C were
+composed of the restriction fragments of the phosphodiesterase locus shown in Figure 1. Probe B was prepared from
+a cDNA clone derived from the 5' end of the 1.9-kb mRNA
+cloned into pUC13 (37). This cDNA extends from primer A
+to the 5' end of exon II (see Fig. 6). The plasmid was cut with
+BstBI (an isoschizomer of Asull) and HindlIl (in the multiple
+cloning site sequence), liberating a fragment that contains all
+of exon II and 22 bp of exon III (from the AsuII site to the
+splice site).
+Plasmid pGP-I has been described previously (37). Plasmid pBDE-1 is a derivative of the transformation vector
+pBlOTP-1 (9) constructed by replacing the 0.7-kbp HincIIHinclI fragment of pBlOTP-1 with the 2.6-kbp EcoRVHinclI fragment of pGP-1 (Fig. 1A). The plasmid selected
+carries the phosphodiesterase gene in the counterclockwise
+direction (EcoRV-site of the insert near the HindIll-site of
+the vector). The reporter gene coding for CAT was carried
+by the vector pAV-CAT (32) that provides a polylinker and
+a transcription terminator flanking the CAT gene as well as a
+G418 resistance gene. All of the fragments to be tested for
+
+MOL. CELL. BIOL.
+
+their promoter activity were inserted into pAV-CAT by
+using the PstI and SstI sites of the polylinker. The fragments
+were first subcloned into pUC vectors in such a way that the
+direction of transcription would be compatible with the CAT
+coding sequence. pVCAT carries the Bcll-Scal fragment of
+the phosphodiesterase locus (Fig. 1A and 6). This fragment
+was cut from pC34 (37) and ligated into pUC18, cut with
+BamHI and HincII, prior to insertion into pAV-CAT.
+pACAT carries the 1.6-kbp BclI-BclI fragment of the phosphodiesterase locus (Fig. 1A and 6). This fragment, cut from
+pC34, was first subcloned into the BamHI site of pUC18.
+After the proper orientation was selected, the fragment was
+transferred into pAV-CAT. pLCAT carries the EcoRVAsuII fragment of the phosphodiesterase locus. The EcoRVAsuII fragment from pGP-I was cloned into pUC19 cut with
+SmaI and AccI and was then transferred to pAV-CAT. The
+plasmids used, and their construction, are summarized in
+Table 1.
+RNA extraction and analysis. Total RNA was extracted as
+described by Franke et al. (16). Poly(A)+ RNA was purified
+on oligo(dT)-cellulose columns (31). Northern blots were
+performed as described previously (37), except that 0.45 ,uM
+Nytran membrane (Schleicher & Schuell) replaced GeneScreen Plus (DuPont, NEN Research Products).
+Primer extension analysis. The primer extension analysis
+was performed as described previously (38) with two oligonucleotides complementary to the deduced mRNA sequence. Primer A was 5'-dGTATATTTTTTGTAGTTAT
+TCGAACTATA-3', and primer B was 5'-dCACAATCT
+TCTTGTTGATGGGAATTTAC-3'. The locations of these
+oligonucleotides within the phosphodiesterase locus are
+shown in Fig. 5 and 6. For the nontransformed strain
+AX3-K, we used 10 ,ug of poly(A)+ RNA for the primer
+extension reaction and loaded 1/10 of it on a 6% acrylamide7 M urea sequencing gel, except for the sample shown in Fig.
+4, lane 1, where we used 100 ,ug of total RNA and loaded
+one-third of the reaction mixture. For the strains transformed with pGP-1 or pBDE-1 we used 12 ,ug of total RNA
+for the extension reaction and loaded 1/10 of the reaction
+mixture on a sequencing gel.
+Synthesis of specific cDNAs by the polymerase chain reaction (PCR). To synthesize cDNAs derived from the 5' end of
+the 2.2- and 2.4-kb mRNAs, we used a protocol similar to the
+one described previously for the 1.9-kb mRNA (37) with the
+following modifications. For the first strand synthesis, we
+used primers A and B described above; as a second primer
+for the PCR amplification we used either a d(pC)12-18
+oligonucleotide or primer C (5'-dCCCACAAACGCCACA
+CACTCAC-3' (see Fig. 5 and 6). For amplifications with
+d(pC) 12-18 and primers A or B, we performed two rounds of
+amplification. The products of the first round of amplification
+were ethanol precipitated before the second amplification.
+Each round of amplification was composed of 35 cycles
+(94°C, 1 min; 50°C, 2.5 min; 50°C to 65°C, 1.5 min; 65°C, 2.5
+min), except that for the first and last cycles, the extension
+time at 65°C was increased to 15 min. For amplifications with
+primers B and C, one round of amplification produced
+enough DNA for cloning into pUC13. The program used was
+composed of 35 cycles (94°C, 1 min; 55°C, 2.5 min; 70°C, 2.5
+min), except that for the first and last cycles, the extension
+time at 70°C was extended to 15 min. The cloning and
+sequencing of the amplified fragments was performed as
+described previously (37).
+Nuclear runoff. The preparation of synthetically active
+nuclei, radiolabeling of transcripts, and the preparation and
+hybridization of blots were as described by Nellen et al. (35).
+
+STRUCTURE OF THE D. DISCOIDEUM PHOSPHODIESTERASE GENE
+
+VOL. 10, 1990
+
+1923
+
+A
+_
+
+I
+
+pBDE-1
+
+I pGP-1
+BCI
+
+Hincil BCol
+5'
+
+EJxRV
+
+Scal X a
+
+AsL
+
+a
+
+E-cc I-inC Bc
+
+3'
+
+____________
+
+Probe C
+
+P-obe B
+
+PrObe A
+Proce D
+
+B
+2 4 6
+
+SII2
+
+-
+
+l
+
+3 2 0 -9202242
+
+2P4
+ob
+A
+i9 k
+Probe
+
+A
+
+I9
+
+Probe B
+
+5
+
+Probe C
+
+24
+
+4- 2.2 Kb
+
+_
+
+.w
+
+it
+
+Probe D
+
+aw
+
+4- 2.2
+
+kb
+
+FIG. 1. The phosphodiesterase gene is transcribed into three mRNAs. (A) Restriction map of the phosphodiesterase locus. Symbols: OZI,
+transcribed nontranslated regions; X, translated regions. The probes used for the Northern blots and the genomic fragments carried by the
+plasmids used in the transformation experiments are indicated. (B) RNA samples extracted from cells developing on filters were subjected
+to Northern blot analysis (5 Fg per lane) with the probes indicated in panel A. The time on filters is indicated in hours on the top of the figure.
+The sizes of the phosphodiesterase mRNAs are indicated on the side.
+
+Nuclei were obtained from cells grown in HL/5 (5 x 106
+cells/ml), from shaken cells starved in Sorensen buffer for 4
+h and from shaken cells starved for 4 h in Sorensen buffer
+with addition of cAMP to a final concentration of 1 mM after
+3 h of starvation. Conditions of growth and starvation were
+as described by Franke et al. (16). The plasmid pGP-1 was
+digested with restriction enzymes to separate the phosphodiesterase DNA sequence from the vector, and 2 pLg of
+digested DNA was run in each lane of a 1% agarose gel.
+DNA fragments were blotted to GeneScreen Plus (DuPont,
+NEN Research Products). The membrane was hybridized
+overnight with the probe and washed by the method of
+Franke et al. (16) with the following modifications. Radiolabeled nuclear transcripts (3 x 106 cpm) were added to each
+membrane in the presence of 200 pug of herring sperm DNA
+per ml (Sigma Chemical Co.), 100 pRg of yeast tRNA per ml
+(Bethesda Research Laboratories, Inc.), and 40 jig of polyadenylic acid per ml (Sigma Chemical Co.).
+CAT assays. The amount of CAT protein produced by the
+strains transformed with derivatives of the pAV-CAT vector
+was measured by an enzyme-linked immunosorbant assay
+with a kit supplied by 5 Prime-3 Prime, Inc. (West Chester,
+Pa.). Cells from two filters were harvested in Sorensen
+
+buffer, pelleted, and suspended in 0.9 ml of CAT assay buffer
+(8 mM Na2HPO4, 2 mM KH2PO4, 150 mM NaCl, 3 mM KCI,
+1% bovine serum albumin, 0.05% Tween 20 [pH 7.0]).
+Aliquots of 0.3 ml were flash frozen and stored at -80°C.
+Cells were lysed by three freeze-thaw cycles. The assays
+were performed according to the instructions provided by
+the manufacturer. The assay yielded a linear colorimetric
+response from 10 to 200 pg of CAT. The background was 0.8
+ng/107 cells in the pAV-CAT vector (without any phosphodiesterase promoter).
+RESULTS
+The phosphodiesterase gene is transcribed into three
+
+mRNAs. We have shown that during early development, the
+phosphodiesterase gene is transcribed into the following two
+mRNAs: a 1.9-kb mRNA present in growing cells and a
+2.4-kb mRNA induced shortly after starvation (16, 37).
+These two mRNAs are transcribed from distinct promoters
+and differ by their 5' untranslated sequences (37). When
+RNA from cells developing on filters was subjected to
+Northern blot analysis with the phosphodiesterase coding
+region as a probe, we observed that the mRNA that accu-
+
+1924
+
+FAURE ET AL.
+
+MOL. CELL. BIOL.
+
+TABLE 1. Plasmids
+Plasmid
+
+plasmid
+Parental
+(reference)
+
+pGP-1
+
+pBR322
+
+4.8-kbp genomic
+BclI
+
+37
+
+pC34
+
+pUC13
+
+5-kbp genomic
+EcoRV
+
+37
+
+pBDE-1
+
+pBlOTP-1 (9)
+
+2.6-kbp EcoRVHinclI from
+pGP-1 replaces
+0.7-kbp HinclI
+
+This
+report
+
+Insert fragmenta
+
+Reference
+
+PDE
+
+D19
+
+Pst Psp
+
+Pst Psp
+
+2.2 kb--
+
+pVCAT
+
+pAV-CAT (32)
+
+0.76-kbp BclI-ScaI
+from pGP-1
+(vegetative
+promoter)
+
+This
+report
+
+pACAT
+
+pAV-CAT (32)
+
+1.6-kbp BclI from
+pC34
+(aggregation
+promoter)
+
+This
+report
+
+pLCAT
+
+pAV-CAT (32)
+
+0.72-kbp EcoRVAsuII from
+pGP-1 (late
+promoter)
+
+This
+report
+
+a
+Details of the plasmid constructions are described in Materials and
+Methods.
+
+mulated after 16 h was slightly shorter than the mRNA
+accumulated between 4 and 8 h (Fig. 1B, probe A). This
+Northern blot shows the 1.9-kb mRNA present in growing
+cells (zero hour), the appearance of the 2.4-kb mRNA
+shortly after starvation (2 to 14 h) as described previously,
+and a third mRNA, 2.2 kb long, present in late development.
+To distinguish the different phosphodiesterase mRNAs,
+we hybridized the same RNA samples to probes specific for
+each transcript. Our knowledge of the gene structure (37)
+allowed us to design specific probes for the various mRNAs
+(Fig. 1A). The probe specific for the 1.9-kb mRNA (probe B)
+was a cDNA fragment derived from the 5' end of the 1.9-kb
+mRNA (37) (see Materials and Methods for details). For the
+2.4-kb mRNA, we used the 1.6-kbp BclI-BclI genomic fragment located at the 5' end of the gene (probe C). For the
+2.2-kb mRNA, we used the EcoRV-AsuII fragment (probe
+D). The choice of this fragment was dictated by the results
+described below. The 1.9-kb mRNA was present at a low
+level in vegetative cells, and its level decreased slowly
+during development (Fig. 1B, probe B). The 2.4-kb mRNA
+was not present in vegetative cells but was induced shortly
+after starvation and was present in the cells from 2 to 16 h,
+with a peak at 6 h (Fig. 1B, probe C). The 2.2-kb mRNA was
+present in the cells from 10 h of starvation to 24 h and
+accumulated to a level between those of the 1.9 and 2.2-kb
+mRNAs (Fig. 1B, probe D). The relative levels of the
+mRNAs can be judged from figure 1B, probe A, since all
+three mRNAs share the same coding sequence. There was a
+slight cross-hybridization between the 2.4-kb mRNA and
+probe D which is visible in the early time points. This
+experiment demonstrates that the phosphodiesterase gene is
+transcribed into three different mRNAs that accumulate at
+different times during D. discoideum development. The
+1.9-kb mRNA is the only phosphodiesterase transcript
+present during the vegetative stage, the 2.4-kb mRNA is
+
+** 4-- 0.8 kb
+FIG. 2. The 2.2-kb mRNA is prestalk specific. Prestalk (Pst) and
+prespore (Psp) cells from slugs were separated by density gradient
+centrifugation (39), and 5 ,ug of total RNA was used for Northern
+blot analysis with a phosphodiesterase probe (PDE) specific for the
+2.2-kb mRNA (probe D, Fig. 1). After the radioactivity bound to the
+membrane had decayed, the same blot was hybridized to the cDNA
+clone D19 that is specific for prespore cells (1).
+
+aggregation specific, and the 2.2-kb mRNA is specific for late
+development.
+Since the phosphodiesterase is involved in the morphogenesis that takes place during late development, it is
+important to know if the gene is specifically expressed in one
+of the two cell types, prespore and prestalk, that compose
+the multicellular structure called the slug. We have shown
+that the phosphodiesterase mRNA accumulates preferentially in prestalk cells (16), but at that time, we did not
+discriminate between the 2.2- and 2.4-kb mRNAs. Prespore
+and prestalk cells from migrating slugs were separated by
+density gradient centrifugation (39), and RNA extracted
+from the two cell types was subjected to Northern blot
+analysis. In the experiment shown in Fig. 2, we have
+hybridized equal amounts of RNA to a probe specific for the
+2.2-kb mRNA (probe D, Fig. 1A). The 2.2-kb mRNA was
+detected only in the prestalk RNA preparation. We hybridized the same membrane with the D19 cDNA clone (1) as a
+probe. The D19 mRNA is specific for the prespore cells, and
+it showed a strong hybridization signal with the prespore
+RNA preparation (Fig. 2), indicating that the cell separation
+was good and that the prespore RNA sample was intact.
+Thus, the 2.2-kb mRNA is specific for late development and
+for prestalk cells.
+Location of the promoter responsible for the transcription of
+the 2.2-kb mRNA. To locate the region of the phosphodiesterase locus responsible for the transcription of the 2.2-kb
+mRNA, we analyzed cell lines transformed with different
+fragments of the phosphodiesterase gene. We first analyzed
+a cell line cotransformed with the plasmids pGP-1 and
+pBlOTP-1 (10). pBlOTP-1 carries the marker for G418 resistance (9), and pGP-1 carries the 4.8-kbp BclI fragment of the
+phosphodiesterase locus (Fig. 1 and Table 1). Cells containing 100 to 200 copies of the plasmid pGP-1 overexpress the
+1.9-kb mRNA in vegetative cells and early in development
+(10). We starved these cotransformed cells on filters, extracted RNA at different times, and subjected the samples to
+Northern blot analysis, with the phosphodiesterase coding
+region as a probe (Fig. 3). The RNA samples used in the
+Northern blot (Fig. 3) were from vegetative cells and cells
+developing on filters from zero to 22 h after starvation, but it
+should be noted that the development of this transformed
+cell line is blocked because of overproduction of phosphodiesterase (10). In this experiment, the three phosphodies-
+
+STRUCTURE OF THE D. DISCOIDEUM PHOSPHODIESTERASE GENE
+
+VOL. 10, 1990
+
+V 0
+
+2
+
+4 6
+
+TABLE 2. Extracellular phosphodiesterase activity in wild type
+and transformed strainsa
+
+8 101214 182022
+
+Time (h)
+2.4 kb
+
+-_
+
+1925
+
+2.2 kb
+
+Growth
+
+Development in liquid
+2
+FIG. 3. pGP-1 directs the transcription of two mRNAs. Cells
+carrying 100 to 200 copies of the plasmid pGP-1 were prepared for
+development on filters, and RNA samples extracted at different
+times were subjected to Northern blot analysis (2 ,ug per lane). The
+blots were hybridized to probe A (see Fig. 1). V, Vegetative stage;
+this corresponds to exponentially growing cells. The numbers indicate hours of starvation on filters.
+
+terase mRNAs were visible, but in contrast to the experiment performed on the parental strain AX3-K (Fig. 1), the
+2.4-kb mRNA is the least abundant. The 1.9-kb mRNA was
+present at a high level in vegetative cells; its level decreased
+soon after starvation. The 2.4-kb mRNA was present at a
+level comparable to the level found in nontransformed cells
+during early development (2 to 8 h). The level of 2.2-kb
+mRNA present in the cells harvested after 8 h of starvation
+was increased compared with the level found in nontransformed cells. We knew from previous experiments that the
+4.8-kbp BcII fragment contained the promoter for the 1.9-kb
+mRNA but not the promoter for the 2.4-kb mRNA (10, 37).
+The high level of 2.2-kb mRNA compared with that of 2.4-kb
+mRNA indicates that the promoter responsible for the transcription of the 2.2-kb mRNA is located within the 4.8-kbp
+BclI fragment.
+Next, we constructed a plasmid carrying the entire phosphodiesterase coding region but with a shorter 5' region than
+the one in pGP-1. This plasmid, pBDE-1, contains the
+EcoRV-HincII fragment of pGP-1 inserted into the transformation vector pBlOTP-1 (Table 1). The transformed strain,
+carrying 100 to 200 copies of pBDE-1, did not overproduce
+phosphodiesterase during growth or early development in
+liquid, whereas the strain carrying pGP-1 did (Table 2). This
+is in agreement with the fact that the 1.9-kbp transcript is still
+present at high levels when growing cells are washed and
+suspended in buffer (10; Fig. 3). The 1.9-kbp mRNA rapidly
+disappears during early development but not before producing a lot of extracellular enzyme (10). During development
+on filters, the pBDE-1 transformant overproduced phosphodiesterase at a level similar to that of the pGP-1 transformant
+(Table 2). The slightly higher level of enzyme found in the
+AX3-pGP1 transformants is due to the high level of 1.9-kb
+
+transcript expressed during growth. Early in development,
+this transcript is still present (Fig. 3) and is responsible for
+the additional phosphodiesterase production. The high level
+of 2.2-kb mRNA in pBDE-1 transformants during late development was confirmed by Northern blot analysis (data not
+shown) and by primer extension (Fig. 4, lane 6). These
+results indicate that the promoter responsible for the transcription of the 2.2-kb mRNA is located between the EcoRV
+and the AsuII sites in the 5' untranslated region of the
+phosphodiesterase gene. The overproduction of phosphodiesterase during late development in the pBDE-1 transformants blocks morphogenesis after aggregation, and these
+strains are unable to form fruiting bodies. They have a final
+morphology that is very similar to that of the pGP-1 transformants (10).
+
+Phosphodiesterase activity (U/ml) in:
+AX3
+AX3-pGP1
+AX3-pBDE1
+11
+760
+7
+
+4
+6
+8
+10
+
+14
+35
+53
+107
+128
+
+80
+140
+300
+670
+1000
+
+Development on filters
+16
+22
+
+18
+15
+
+109
+230
+
+22
+45
+75
+92
+124
+
+60
+132
+a
+AX3-pGP1 and AX3-pBDE1 are strains transformed with plasmids pGP-1
+and pBDE-1, respectively. For development in liquid, exponentially growing
+cells were harvested and starved in Sorensen buffer at a density of 2 x 107/ml.
+The cell suspension (20 ml in a 125-mi Erlenmeyer flask) was incubated at
+22°C with shaking (110 rpm). The extracellular phosphodiesterase activity was
+assayed in the supernatant after inactivation of the specific inhibitor as
+described previously (15, 36) and is expressed in units per milliliter. 1 U is the
+amount of enzyme necessary to hydrolyze 1 nmol of cAMP in 1 min at 35°C
+in 50 mM Tris hydrochloride (pH 7.4) containing 50 IjM cAMP. For development on filters, exponentially growing cells were washed in Sorensen buffer
+and 2 x 107 cells were deposited on 47-mm Whatman no. 50 filters supported
+by two Whatman 17 pads (16). The extracellular phosphodiesterase was
+collected from the cells, filters, and supporting pads. The cells were harvested
+in 2 ml of Sorensen buffer and pelleted. The supernatant was used to extract
+the enzyme from the pads by shaking them for 15 min before collecting the
+liquid. Phosphodiesterase activity was assayed as described above and is
+expressed in units per milliliter of extract.
+
+Start site of transcription. We used the primer extension
+technique to find the initiation site of transcription and
+sequenced cDNA clones derived from the 5' end of the
+2.2-kb mRNA to determine its splicing pattern. In the primer
+extension experiment shown in Fig. 4, we used a primer
+located in exon III (primer A in Fig. 6). As described
+previously (37), this primer generated a cluster of extension
+products from 134 to 152 nucleotides long when it was
+hybridized to RNA extracted from vegetative cells (Fig. 4,
+lane 1) and extended. These products correspond to the
+1.9-kb mRNA. When we used RNA that had been extracted
+from cells starving in liquid for 2.5 or 4 h in the presence of
+1 mM cAMP (Fig. 4, lanes 2 and 3), the 134-to-152-nucleotide extension products were still visible, but a more
+abundant product appeared. This extension product is about
+650 nucleotides long and corresponds to the 2.4-kb mRNA.
+A few additional bands are visible in lane 2 (Fig. 4) whose
+significance is not clear at the moment. Finally, when RNA
+extracted from cells in late development was used (Fig. 4,
+lane 4), the 650-nucleotide product became weaker, and a
+doublet of 430 and 422 nucleotides appeared. These products
+probably represent the 2.2-kb mRNA, because their presence in this lane is consistent with the fact that the 2.2-kb
+mRNA accumulates during late development.
+To confirm that the 422- and 430-nucleotide extension
+products correspond to the 2.2-kb mRNA, we used RNA
+extracted either from cells transformed with pGP-1 that
+overproduce both the 1.9- and the 2.2-kb mRNAs or from
+cells transformed with pBDE-1 that overproduce only the
+2.2-kb mRNA (see above). RNA extracted from growing
+pGP-1-transformed cells shows the 134-to-152-nucleotide
+extension products (Fig. 4, lane 5) and, after starvation, both
+the 134-to-152- and 422-to-430-nucleotide extension products
+(Fig. 4, lane 7). RNA extracted from cells transformed with
+
+1926
+
+FAURE ET AL.
+
+MOL. CELL. BIOL.
+
+GATC1 234 5 678
+...
+
+.4
+
+I-
+
+qo
+
+a*
+
+-
+
+4-
+
+-.
+
+650
+
+-.
+
+430
+.
+.w
+
+a
+
+406
+
+2
+1 52
+: t~~~~~~~~~~t
+
+1 34
+FIG. 4. Mapping of the transcriptional start sites by primer
+extension. Primer A was end labeled with [y-32P]ATP, annealed to
+various RNA samples, and extended with Moloney murine reverse
+transcriptase. Aliquots were loaded on a sequencing gel as described
+in Materials and Methods. The sequencing reaction of the phage
+M13 DNA shown on the left of the figure was used to determine the
+
+lengths of the extension products indicated on the right. Lanes: 1,
+RNA from growing AX3-K cells; 2, RNA from AX3-K cells starved
+for 2 h in Sorensen buffer containing 1 mM cAMP; 3, RNA from
+AX3-K cells starved for 4 h in Sorensen buffer containing 1 mM
+cAMP; 4, RNA from AX3-K cells starved on filters for 18 h; 5, RNA
+from growing AX3-K cells transformed with pGP-1; 6, RNA from
+cells transformed with pBDE-1 starved on filters for 16 h; 7, RNA
+from cells transformed with pGP-1 starved on filters for 22 h; 8,
+tRNA from calf liver.
+
+pBDE-1 starved for 16 h shows the 422-to-430-nucleotide
+extension products (Fig. 4, lane 6). Because the signal is
+stronger in the transformants, we can see the 422- and
+430-nucleotide extension products observed with the wild
+type as well as two other less abundant products of 406 and
+414 nucleotides. The differences in size between the three
+groups of extension products (150, 430, and 650 nucleotides)
+match the size differences of the three mRNAs (1.9, 2.2, and
+2.4 kb).
+The primer extension experiment revealed the length of
+the 5' untranslated region of the 2.2-kb mRNA but did not
+tell what region of the genomic DNA is transcribed. To
+answer that question, we isolated cDNA clones derived from
+the 5' region of the 2.2-kb mRNA by the PCR technique that
+we also employed for the 1.9-kb mRNA (37). We used RNA
+extracted from cells transformed with pBDE-1 after 16 h of
+
+development on filters (the same sample as that shown in
+Fig. 4, lane 6) for a primer extension experiment with primer
+B, which is located at the 5' end of exon IV (see Fig. 6). The
+major extension product was about 520 nucleotides long; this
+is 95 nucleotides longer than the extension products obtained
+with primer A, as expected from the distance between the
+two primers in the cDNA sequence. The single-stranded
+cDNA was purified from the gel, and, after addition of a G
+tail, it was amplified by PCR (17, 42) with primer A and
+oligo(dC) (see Materials and Methods). The amplified double-stranded product was ligated into pUC13 and sequenced.
+We discovered that the 5' portion of the 2.2-kb mRNA is
+composed of exon III plus the adjacent 5' 388 nucleotides in
+the genomic DNA (Fig. 5 and 6). We called this sequence
+exon III'. The 5' portion of the 2.2-kb mRNA contrasts with
+the 5' portions of the 1.9- and 2.4-kb mRNAs, which are
+each composed of a different exon located further upstream
+and are spliced onto exon III (Fig. 6).
+Since there is no splicing between exon III and exon III',
+and primer A used for the amplification resides in exon III,
+we could not rule out the possibility that the sequence we
+isolated in the experiment described above might have
+resulted from the amplification of genomic DNA present in
+the RNA used for the primer extension. To rule out that
+possibility, we performed an amplification with primer B
+located in exon IV and with primer C located on the opposite
+strand in exon III'. We used extension products made with
+primer B and RNA from cells transformed with pBDE-1
+(same sample as that described above) or RNA from nontransformed cells starved on filters for 18 h. These extension
+products were amplified with primers B and C. The DNA
+fragments we isolated were bounded by primers B and C and
+had the expected cDNA sequence with the correct splicing
+pattern between exons III and IV. Amplification of genomic
+DNA would have shown a sequence containing the intron
+located between exons III and IV.
+Previously, we located the 5' end of the 2.4-kb mRNA by
+a combination of primer extension and Si nuclease mapping
+experiments. We used the extension product shown in Fig.
+4, lane 3, to recover a cDNA derived from the 5' end of the
+2.4-kb mRNA. After purification of the 650-nucleotide band,
+we amplified this cDNA sequence with primer A and oligo(dC) as described above. The cDNA clone we isolated was
+only 1 nucleotide shorter than the longest primer extension
+product described by Podgorski et al. (37).
+Activity of the three phosphodiesterase promoters during
+development. We have shown that the phosphodiesterase
+gene is transcribed into three mRNAs that accumulate at
+different stages of development (Fig. 1). We wanted to know
+whether the level of each mRNA is regulated transcriptionally or posttranscriptionally. The 2.4-kb mRNA appears
+soon after starvation, and treatment with 1 mM cAMP
+increases the level of the 2.4-kb mRNA (16). Nuclear runoff
+experiments showed that the induction of the 2.4-kb mRNA
+and the increase in its abundance after treatment of cells
+with cAMP was due to increased transcriptional activity
+(data not shown).
+To be able to analyze the transcriptional activity of each
+promoter individually, we prepared constructs containing
+the CAT gene linked to each of the three putative phosphodiesterase promoters. From our knowledge of the structure
+of the gene and previous transformation experiments, we
+decided to use the following restriction fragments to test
+their transcriptional activity. The EcoRV-AsuII fragment
+was expected to contain the 2.2-kb mRNA promoter, the
+BclI-ScaI fragment was expected to contain the 1.9-kb
+
+STRUCTURE OF THE D. DISCOIDEUM PHOSPHODIESTERASE GENE
+
+VOL. 10, 1990
+
+1927
+
+EcoRV
+
+3380 gatatctattgtgtgtaacaattaggggttttattatttcctttttttttaaaaaaattttttttttttttttatttactactatttttaaaaaaaaaaa
+
+3480
+
+aaaaaaaaaaaaaaaaaaaaagataatttattttgatcttttatgtgttgatacaccttttcatgtttacacacaaacaaaaaacactcgataaatttta
+
+3580 t tattat tttt tatttgtttttaatttaattgatattaaaaaaaaaaaaattaaaaaaaaaaaaaaaaaaaaattttaagtgatatataatttttaaaat
+
+3680
+
+ttttatttaTTTATTTTTTTA
+
+TAATTTTTCAAACAATATACATTCAATTCAATATACAGATTCTATCATTTGGTTTTGTT
+>----- primer C
+TTATACATATAATATTTATAACAATAACCCACAAACGCCACAC
+
+3780 TTTTTTTTTTTTTTTATTT
+
+ATCAAAAAAAAAAAAACTAAATTAAATTA
+3880 ACTCACTTATTTTTTTTAATTTTA AATTTTATTTATTTTATTTATTTATTTATTTATTTA
+V
+3980 CTAACT TAT TT T TTT TTT TATAAATATATATAAAAAAAAAAATAAATTTT TT TTTT TTCCAATAT CTTTATCT TTTTTTT TTAT TATAAAGAA
+/\
+.-------- primer A ---------<
+TGGCA TTANAAAATTgtaagtggaaaaaaaaaaaaaaaaaaaaaaaaa
+4080 GAAAGAATTA ATATAGTTCGAA CTACA TATACAAAAA
+A L N K( K L
+AsullI
+4180 aaaaaaatttaaaaatagaaattgatttgttgtttatactaattttttttttttttttttggaattttttttttggaaatttttattttttatttttttt
+<-------- primer B--------<
+4280 ttt tttcccaaaaatagAATTAGTTTATTACTTTTAATTTTTATAATTTTAAATATTGTAATTCCCATCAACAAGAAGATTGTGATGATGACGATGAAG
+I S L L L L I F I I L N I V N S H Q aE D C D D D D E D
+
+FIG. 5. Nucleotide sequence of the region containing the late development-specific promoter. The nucleotide sequence shown is from the
+EcoRV site to the beginning of the phosphodiesterase coding sequence. This is a portion of the sequence presented by Podgorski et al. (37);
+therefore, we have kept the same numbering for the nucleotides. Sequences that are part of a mature mRNA are shown in capital letters. The
+longest extension product obtained for the 2.2-kb mRNA is represented (position 3690). The locations and orientations of the oligonucleotides
+that we used for primer extension and PCR amplification are indicated above the sequence. The EcoRV and AsuII restriction sites are also
+indicated. Symbols: v,, splice site that is used for the splicing of exons I and II onto exon III; - - -, TATA box.
+
+mation, and, after selection of stable transformants, the
+amount of CAT protein produced during development was
+measured by enzyme-linked immunosorbent assay (see Materials and Methods). The results presented in Fig. 7 show
+the percentage of the maximum amount of CAT protein
+produced by each transformant and allow a comparison of
+the temporal regulation of the three promoters.
+
+promoter, and the upstream BclI-BclI fragment was expected
+to contain the 2.4-kb promoter (Fig. 6). The constructs were
+made as described in Materials and Methods and Table 1,
+with the pAV-CAT vector (32) that contains the CAT gene
+from the Tn9 transposon (19) and a G418 resistance gene.
+The three different constructs, as well as the pAV-CAT
+vector alone, were introduced into AX3-K cells by transforAgregation
+
+Vegetative
+
+Promoter
+
+promoter
+
+L-ate
+Exon numbers
+
+IV
+Bc4 l
+
+Hinci Bclt
+
+5'
+1 kb
+
+4Scal Xat
+
+Ball EcoRI
+II
+
+EcoRViJ
+
+DNA
+
+3' Primers
+
+.4n
+
+Late Development
+
+EA)
+
+Vegetative
+
+I"
+
+Aggregation
+
+Hincil Bcll
+
+2.2 kb mRNA
+
+7=
+
+_
+
+1.9 kb mRNA
+
+2.4 kb mRNA
+
+FIG. 6. Schematic representation of the phosphodiesterase locus. The restriction map of the phosphodiesterase locus is shown at the top.
+Symbols: Eli, transcribed but not translated regions; - , coding sequence. The locations of the oligonucleotides used for primer extension
+and PCR amplification are indicated, but the primers are not drawn to scale. The splicing patterns of the three mRNAs are shown.
+
+1928
+
+FAURE ET AL.
+
+100
+80
+
+MOL. CELL. BIOL.
+
+showed the highest level of transcription (260 ng of CAT per
+107 cells). Since the plasmid copy number of the transformants is about the same (100 to 200 per cell), this indicates
+that expression is not proportional to copy number for each
+promoter, maybe because other elements are involved in the
+regulation of the level of expression of the various promoters.
+
+A
+
+4
+A
+
+A
+
+60
+
+~~~~A
+
+-0
+L
+
+40
+
+.
+
+A
+
+A
+
+4'
+
+8
+
+Time
+FIG. 7.
+
+12
+on
+
+116
+
+Filters
+
+210
+
+24
+
+(hr)
+
+Transcriptional activity of the three phosphodiesterase
+
+promoters. The DNA fragments containing the three phosphodiesterase promoters were fused to the CAT coding sequence carried by
+the vector pAV-CAT (Table 1), and the amount of CAT protein
+produced by transformants carrying these construct was measured
+
+during development. Cells were developed on filters as described
+previously (28). Two filters were harvested at each time point and
+were lysed and assayed as described in Materials and Methods. The
+data shown are from one typical experiment and are the averages of
+duplicate assays. The data are expressed as percentage of the
+maximum amount for each transformant. The maximum amount of
+CAT was 260 ng/107 cells in the pVCAT transformant, 50 ng/107 cells
+in the pACAT transformant, and 90 ng/107 cells in the pLCAT
+transformant. Symbols: 0, pVCAT; A, pACAT; *, pLCAT.
+
+The 1.9-kb mRNA accumulates to its highest level in
+vegetative cells and rapidly disappears in starving cells (Fig.
+1). Its promoter activity, measured by the amount of CAT
+protein, is maximal in vegetative cells, decreases rapidly
+after starvation to about 40% of its activity and decreases
+even further during late development. It is apparent that the
+CAT protein is not stable in the cells, for it disappears when
+the promoter is not active anymore. The inclusion of the
+protease inhibitor phenylmethylsulfonyl fluoride (2 mM)
+during cell lysis did not increase the amount of CAT protein
+measured.
+The 2.4-kb mRNA accumulates during aggregation (zero
+to 6 h; Fig. 1) and decreases thereafter. When linked to the
+CAT gene, its promoter shows the highest transcriptional
+activity between zero and 6 h. Between 6 and 10 h, the
+amount of CAT protein stays constant, while it decreases
+after 10 h.
+The 2.2-kb mRNA accumulates during late development
+(12 to 22 h; Fig. 1). Its promoter shows the same pattern of
+activity when linked to the CAT gene, with low activity in
+vegetative cells and during the first 10 h of development,
+followed by an increase in activity during late development
+(Fig. 7). The CAT protein reaches maximum levels by 20 h.
+All three promoters show exactly the pattern of expression that one would predict from the results shown in Fig. 1,
+and we conclude that each of the DNA fragments we used
+contains the necessary information for proper temporal
+regulation.
+The absolute levels of expression do not follow the pattern
+observed in Fig. 1. The aggregation-specific promoter is the
+most active promoter as judged by the amount of phosphodiesterase mRNA transcribed, but it is the least-active
+promoter when linked to the CAT gene (50 ng of CAT per 107
+cells). The CAT constructs with the vegetative promoter
+
+DISCUSSION
+The cyclic nucleotide phosphodiesterase plays a crucial
+role in the development of D. discoideum. It is one of the
+central elements of the chemotactic apparatus and during
+aggregation, it permits the cell surface cAMP receptor to
+regain sensitivity to cAMP stimulation. The absence of
+phosphodiesterase leads to an aggregation-deficient phenotype (2, 4). There is growing evidence that chemotaxis
+toward cAMP directs the movements of the multicellular
+structure that is formed after aggregation (43, 46) and that
+extracellular cAMP is involved in the differentiation of
+prespore cells (54). We have shown that the presence of
+phosphodiesterase is required for proper formation of fruiting bodies (11) and that an excess of phosphodiesterase
+during late development blocks morphogenesis (10). In this
+work, we complete the description of the structure of the
+phosphodiesterase gene previously reported (37) and show
+that the importance of the phosphodiesterase in D. discoideum development is reflected in the complex structure and
+regulation of the gene.
+The phosphodiesterase gene is transcribed into three
+mRNAs that differ only in their 5' noncoding sequences.
+Therefore, the specific role of each of these mRNAs is not
+determined by differences in their coding sequences. The
+2.2-kb mRNA has the same coding sequence as the two
+others, and no open reading frame can be found upstream of
+the ATG codon located in exon III (Fig. 5). We have mapped
+the start site of transcription of the 2.2-kb mRNA by primer
+extension, which revealed two major start sites. A TATA
+box sequence is found 20 nucleotides upstream of the first
+initiation site. Two stretches of deoxythymidine residues are
+located between the TATA box and the start site of transcription (Fig. 5). These features are usually seen in D.
+discoideum genes transcribed by RNA polymerase II (24).
+We have shown that the phosphodiesterase gene has three
+independent promoters located in a region that extends 4.1
+kbp upstream of the ATG codon. The two distal promoters
+are linked to the coding sequence by the removal of introns
+(Fig. 6). By using the reporter gene CAT, we have shown
+that we could separate these three promoters and that each
+of them has the same temporal regulation as the mRNA it
+transcribes. These results indicate that the regulation observed at the mRNA level occurs primarily at the transcriptional level and that the phosphodiesterase gene has three
+promoters specific for growth, aggregation, and late development.
+These results raise the question of the significance of this
+complex gene that is transcribed to produce three different
+mRNAs, two of them having long 5' untranslated sequences,
+and all of them coding for the same protein. It appears that
+the temporal regulation and the tissue specificity of the
+promoters is an important part of the answer. The aggregation-specific promoter is inducible by cAMP, and the late
+development-specific promoter directs the synthesis of a
+mRNA that is detected only in prestalk cells. These two
+promoters allow a temporal and spatial regulation of phosphodiesterase production. This is critical, since an excess or
+
+VOL. 10, 1990
+
+STRUCTURE OF THE D. DISCOIDEUM PHOSPHODIESTERASE GENE
+
+a lack of phosphodiesterase blocks late development (10,
+11). The cAMP inducibility of the aggregation-specific promoter is consistent with the role of the enzyme during
+aggregation. The fact that the 2.2-kb mRNA is specific for
+prestalk cells, probably as a result of the specificity of the
+promoter, is relevant to our understanding of late development (for a review, see reference 55). cAMP is believed to
+induce prespore differentiation, whereas adenosine, a byproduct of cAMP degradation by the phosphodiesterase,
+inhibits prespore differentiation (54). The fact that the phosphodiesterase mRNA is prestalk specific fits well in a model
+involving gradients of cAMP and adenosine to direct the
+morphogenesis of the slug (46, 54). Such a model relies on
+low cAMP and high adenosine levels in the prestalk region,
+which could be achieved by localization of the phosphodiesterase in the prestalk region. The enzyme has been shown
+to accumulate preferentially in the prestalk region of the slug
+(41). The inducibility of the phosphodiesterase late promoter
+by differentiation inducing factor (DIF), a prestalk morphogen (21, 34), is now being tested.
+The structure of the phosphodiesterase gene could be the
+result of an evolutionary process in which additional promoters have been added to a preexisting gene having only
+the proximal promoter. There are species of cellular slime
+molds, such as Dictyostelium minutum, Dictyostelium lacteum, or Polysphondylium violaceum, that do not use cAMP
+for aggregation (8, 48, 51) but that use cAMP during late
+development (43-45). These species produce membraneassociated phosphodiesterase during culmination (44, 45).
+We postulate the existence of an ancestral phosphodiesterase gene having a promoter active only during late development. Later in the evolutionary process, species using
+chemotaxis toward cAMP during aggregation may have
+acquired a distal promoter that is active during aggregation
+and that is cAMP inducible.
+It is possible that the long leader sequence of the 2.4-kb
+mRNA and the removal of a long intron are merely a way to
+connect a cAMP-inducible promoter to the phosphodiesterase coding sequence, although the length of the leader
+sequence could also influence the efficiency of translation of
+the mRNA (26). Of the numerous examples of genes transcribed into several mRNAs with different tissue specificities, it is interesting to note that one is the Drosophila dunce
+gene that also codes for a cAMP phosphodiesterase (5).
+Another example is the gene that encodes acetyl coenzyme
+A carboxylase in the rat; this gene has two promoters and,
+by use of alternate splicing, is transcribed into five mRNAs
+that have the same coding sequence but that show some
+tissue specificity (29). It appears that these mechanisms of
+developmental regulation are ancient because we find them
+in D. discoideum, an organism that diverged very early from
+the main branch of the eucaryotes (33, 49).
+There is phosphodiesterase activity throughout the life
+cycle of D. discoideum, i.e., a low level during growth, a
+high level during aggregation, and an intermediate level
+during late development. The phosphodiesterase activity is
+regulated at multiple levels. First, there is transcriptional
+regulation as we have described above. Second, the protein
+can be localized to the membrane or secreted (47, 56). Third,
+the activity can be controlled at the enzymatic level with a
+specific inhibitor (15, 30) that inactivates the free extracellular enzyme but not the membrane-bound form. The balance between phosphodiesterase production and inhibitor
+production is achieved by virtue of the opposite effect that
+cAMP has on the expression of the phosphodiesterase and
+inhibitor genes. The phosphodiesterase is induced whereas
+
+1929
+
+the inhibitor is repressed by cAMP (40; L. Wu and J.
+Franke, submitted for publication). D. discoideum cells have
+evolved an elaborate system to regulate the phosphodiesterase activity and the level of extracellular cAMP. Regulation
+of the phosphodiesterase at the gene level is achieved by the
+use of three promoters which are probably sensitive to
+different signals. The next important problem is to identify
+those signals and the second messenger pathways that
+mediate their effects on the phosphodiesterase and inhibitor
+genes.
+
+ACKNOWLEDGMENTS
+We thank Wolfgang Nellen for the gift of the pAV-CAT vector
+and David Ratner for assisting us with the preparation of prestalk
+and prespore cells. We are grateful to Michiel van Lookeren
+Campagne for his valuable comments.
+This work was supported by Public Health Service grant
+GM33136 to R.H.K. from the National Institutes of Health.
+LITERATURE CITED
+1. Barklis, E., and H. F. Lodish. 1983. Regulation of Dictyostelium
+discoideum mRNAs specific for prespore or prestalk cells. Cell
+32:1139-1148.
+2. Barra, J., P. Barrand, M.-H. Blondelet, and P. Brachet. 1980.
+pdsA, a gene involved in the production of active phosphodiesterase during starvation of Dictyostelium discoideum amoebae.
+Mol. Gen. Genet. 177:607-613.
+3. Coukeli, M. B., S. Lappano, and A. M. Cameron. 1983. Isolation
+and characterization of cAMP unresponsive (frigid) aggregationdeficient mutants of D. discoideum. Dev. Genet. 3:283-297.
+4. Darmon, M., J. Barra, and P. Brachet. 1978. The role of
+phosphodiesterase in aggregation of Dictyostelium discoideum.
+J. Cell Sci. 31:233-243.
+5. Davis, R. L., and N. Davidson. 1986. The memory gene dunce'
+encodes a remarkable set of RNAs with internal heterogeneity.
+Mol. Cell. Biol. 6:1464-1470.
+6. Devreotes, P. 1982. Chemotaxis, p. 117-168. In W. F. Loomis
+(ed.), The development of Dictyostelium discoideum. Academic
+Press, Inc., New York.
+7. Devreotes, P. 1989. Dictyostelium discoideum: A model system
+for cell-cell interactions in development. Science 245:10541058.
+8. De Wit, R. J. W., and T. M. Konijn. 1983. Identification of the
+acrasin of Dictyostelium minutum as a derivative of folic acid.
+Cell Differ. 12:205-210.
+9. Early, A. E., and J. G. WilUiams. 1987. Two vectors which
+facilitate gene manipulation and a simplified transformation
+procedure for Dictyostelium discoideum. Gene 59:99-106.
+10. Faure, M., G. J. Podgorski, J. Franke, and R. H. Kessin. 1988.
+Disruption of Dictyostelium discoideum morphogenesis by
+overproduction of cAMP phosphodiesterase. Proc. Natl. Acad.
+Sci. USA 85:8076-8080.
+11. Faure, M., G. J. Podgorski, J. Franke, and R. H. Kessin. 1989.
+Rescue of a Dictyostelium discoideum mutant defective in
+phosphodiesterase. Dev. Biol. 131:366-372.
+12. Feinberg, A. P., and B. Vogelstein. 1983. A technique for
+radiolabeling restriction endonuclease fragments to high specific
+activity. Anal. Biochem. 132:6-13. (Addendum, 137:266-267,
+1984.)
+13. Firtel, R. A., P. J. M. Van Haastert, A. K. Kimmel, and P. N.
+Devreotes. 1989. G protein linked signal transduction pathways
+in development: Dictyostelium as an experimental system. Cell
+58:235-239.
+14. Franke, J., and R. H. Kessin. 1977. A defined minimal medium
+for axenic strains of Dictyostelium discoideum. Proc. Natl.
+Acad. Sci. USA 74:2157-2161.
+15. Franke, J., and R. H. Kessin. 1981. The cyclic nucleotide
+phosphodiesterase inhibitory protein of Dictyostelium discoideum. Purification and characterization. J. Biol. Chem. 256:
+7628-7637.
+16. Franke, J., G. J. Podgorski, and R. H. Kessin. 1987. The
+
+1930
+
+FAURE ET AL.
+
+expression of two transcripts of the phosphodiesterase gene
+during the development of Dictyostelium discoideum. Dev.
+Biol. 124:504-511.
+17. Frohman, M. A., M. K. Dush, and G. R. Martin. 1988. Rapid
+production of full-length cDNAs from rare transcripts: amplification using a single gene-specific oligonucleotide primer. Proc.
+Natl. Acad. Sci. USA 85:8998-9002.
+18. Gerisch, G. 1987. Cyclic AMP and other signals controlling cell
+development and differentiation in Dictyostelium. Annu. Rev.
+Biochem. 56:853-879.
+19. Gorman, C. M., L. F. Moffat, and B. H. Howard. 1982.
+Recombinant genomes which express chloramphenicol acetyltransferase in mammalian cells. Mol. Cell. Biol. 2:1044-1051.
+20. Janssens, P. M. W., and P. J. M. Van Haastert. 1987. Molecular
+basis of signal transduction in Dictyostelium discoideum. Microbiol. Rev. 51:396-418.
+21. Kay, R. R., B. Dhokia, and K. A. Jermyn. 1983. Purification of
+stalk-cell-inducing morphogens from Dictyostelium discoideum.
+Eur. J. Biochem. 136:51-56.
+22. Kesbeke, F., B. E. Snaar-Jagalska, and P. J. M. Van Haastert.
+1988. Signal transduction in Dictyostelium fgdA mutants with a
+defective interaction between surface cAMP receptors and
+GTP-binding regulatory protein. J. Cell Biol. 107:521-528.
+23. Kessin, R. H. 1988. Genetics of early Dictyostelium discoideum
+development. Microbiol. Rev. 52:29-49.
+24. Kimmel, A. R., and R. A. Firtel. 1983. Sequence organization in
+Dictyostelium: unique structure at the 5'-ends of protein coding
+genes. Nucleic Acids Res. 11:541-552.
+25. Klein, C., and M. H. Juliani. 1977. cAMP-induced changes in
+cAMP-binding sites on Dictyostelium discoideum amoebae. Cell
+10:329-335.
+26. Kozak, M. 1988. Leader length and secondary structure modulate mRNA function under conditions of stress. Mol. Cell. Biol.
+8:2737-2744.
+27. Kumagai, A., M. Pupillo, R. Gundersen, R. Miake-Lye, P. N.
+Devreotes, and R. A. Firtel. 1989. Regulation and function of Got
+protein subunits in Dictyostelium. Cell 57:265-275.
+28. Lacombe, M.-L., G. J. Podgorski, J. Franke, and R. H. Kessin.
+1986. Molecular cloning and developmental expression of the
+cyclic nucleotide phosphodiesterase gene of Dictyostelium discoideum. J. Biol. Chem. 261:16811-16817.
+29. Luo, X., K. Park, F. Lopez-Casillas, and K.-H. Kim. 1989.
+Structural features of acetyl-CoA carboxylase gene: mechanisms for the generation of mRNAs with 5' end heterogeneity.
+Proc. Natl. Acad. Sci. USA 86:4042-4046.
+30. Malchow, D., B. Nagele, H. Schwarz, and G. Gerisch. 1972.
+Membrane-bound cyclic AMP phosphodiesterase in chemotactically responding cells of Dictyostelium discoideum. Eur. J.
+Biochem. 28:136-142.
+31. Maniatis, T., E. F. Fritsch, and J. Sambrook. 1982. Molecular
+cloning: a laboratory manual. Cold Spring Harbor Laboratory,
+Cold Spring Harbor, N.Y.
+32. May, T., H. Kern, A. Muelier-Taubenberger, and W. Nelien.
+1989. Identification of a cis-acting element controlling induction
+of early gene expression in Dictyostelium discoideum. Mol.
+Cell. Biol. 9:4653-4659.
+33. McCarrol, R., G. J. Olsen, Y. D. Stahl, C. R. Woese, and M. L.
+Sogin. 1983. Nucleotide sequence of the Dictyostelium discoideum small-subunit ribosomal ribonucleic acid inferred from the
+gene sequence: evolutionary implications. Biochemistry 22:
+5858-5868.
+34. Morris, H. R., G. W. Taylor, M. S. Masento, K. A. Jermyn, and
+R. R. Kay. 1987. Differentiation inducing factor from Dictyostelium discoideum: chemical identification of a morphogen.
+Nature (London) 328:811-814.
+35. Nellen, W., S. Datta, C. Reymond, A. Sivertsen, S. Mann, T.
+Crowley, and R. A. Firtel. 1987. Molecular biology in Dictyostelium: tools and applications. Methods Cell Biol. 28:67-100.
+36. Orlow, S. J., R. I. Shapiro, J. Franke, and R. H. Kessin. 1981.
+The extracellular cyclic nucleotide phosphodiesterase of Dictyostelium discoideum. Purification and characterization. J. Biol.
+Chem. 256:7620-7627.
+37. Podgorski, G. J., J. Franke, M. Faure, and R. H. Kessin. 1989.
+
+MOL. CELL. BIOL.
+
+The cyclic nucleotide phosphodiesterase gene of Dictyostelium
+discoideum utilizes alternate promoters and splicing for the
+synthesis of multiple mRNAs. Mol. Cell. Biol. 9:3938-3950.
+38. Podgorski, G. J., J. Franke, and R. H. Kessin. 1986. Isolation of
+a cDNA encoding a portion of the cyclic nucleotide phosphodiesterase of Dictyostelium discoideum. J. Gen. Microbiol. 132:
+1043-1050.
+39. Ratner, D., and W. Borth. 1983. Comparison of differentiating
+Dictyostelium discoideum cell types separated by an improved
+method of density gradient centrifugation. Exp. Cell Res. 143:
+1-13.
+40. Rossier, C., J. Franke, I. A. Mullens, K. J. Keiley, and R. H.
+Kessin. 1983. Detection and regulation of the mRNA for the
+inhibitor of extracellular cAMP phosphodiesterase of Dictyostelium discoideum. Eur. J. Biochem. 133:383-391.
+41. Saefkow Brown, S., and C. L. Rutherford. 1980. Localization of
+cyclic nucleotide phosphodiesterase in the multicellular stages
+of Dictyostelium discoideum. Differentiation 16:173-183.
+42. Saiki, R. K., D. H. Gelfand, S. Stoffel, S. J. Scharf, R. Higuchi,
+G. T. Horn, K. B. Muilis, and H. A. Erlich. 1988. Primerdirected enzymatic amplification of DNA with a thermostable
+DNA polymerase. Science 239:487-491.
+43. Schaap, P. 1986. Regulation of size and pattern in the cellular
+slime molds. Differentiation 33:1-16.
+44. Schaap, P., T. M. Konijn, and P. J. M. van Haastert. 1984.
+cAMP pulses coordinate morphogenic movement during fruiting
+body formation in Dictyostelium minutum. Proc. Natl. Acad.
+Sci. USA 81:2122-2126.
+45. Schaap, P., and M. Wang. 1984. The possible involvement of
+oscillatory cAMP signaling in multicellular morphogenesis of
+the cellular slime molds. Dev. Biol. 105:470-478.
+46. Schaap, P., and M. Wang. 1986. Interactions between adenosine
+and oscillatory cAMP signalling regulate size and pattern in
+Dictyostelium discoideum. Cell 45:137-144.
+47. Shapiro, R. I., J. Franke, E. J. Luna, and R. H. Kessin. 1983. A
+comparison of the membrane-bound and extracellular cyclic
+AMP phosphodiesterases of Dictyostelium discoideum. Biochim. Biophys. Acta 758:49-57.
+48. Shimomura, O., H. L. B. Suthers, and J. T. Bonner. 1982.
+Chemical identity of the acrasin of the cellular slime mold
+Polysphondylium violaceum. Proc. Natl. Acad. Sci. USA 79:
+7376-7379.
+49. Sogin, M. L., J. H. Gunderson, H. J. Elwood, R. A. Alonso, and
+D. A. Peattie. 1989. Phylogenic meaning of the kingdom concept: an unusual ribosomal RNA from Giardia lamblia. Science
+243:75-77.
+50. Sussman, M. 1987. Cultivation and synchronous morphogenesis
+of Dictyostelium under controlled experimental conditions.
+Methods Cell Biol. 28:9-29.
+51. Van Haastert, P. J. M., R. J. W. De Wit, and T. M. Konjn.
+1982. Antagonists of chemoattractants reveal separate receptors
+for cAMP, folic acid and pterin in Dictyostelium. Exp. Cell Res.
+140:453-456.
+52. Van Haastert, P. J. M., and P. R. Van der HeUden. 1983.
+Excitation, adaptation, and deadaptation of the cAMP-mediated
+cGMP response in Dictyostelium discoideum. J. Cell Biol.
+96:347-353.
+53. Vaughan, R. A., and P. N. Devreotes. 1988. Ligand-induced
+phosphorylation of the cAMP receptor from Dictyostelium
+discoideum. J. Biol. Chem 263:14538-14543.
+54. Wang, M., R. Van Driel, and P. Schaap. 1988. Cyclic AMPphosphodiesterase induces dedifferentiation of prespore cells in
+Dictyostelium discoideum slugs: evidence that cAMP is the
+morphogenetic signal for prespore differentiation. Development
+
+103:611-618.
+
+55. Williams, J. G. 1988. The role of diffusible molecules in regulating the cellular differentiation of Dictyostelium discoideum.
+Development 103:1-16.
+56. Yeh, R. P., F. K. Chan, and M. B. Coukell. 1978. Independent
+regulation of the extracellular cyclic AMP phosphodiesteraseinhibitor system and membrane differentiation by exogenous
+cyclic AMP in Dictyostelium discoideum. Dev. Biol. 66:361374.
+
+

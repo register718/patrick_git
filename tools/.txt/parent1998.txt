@@ -1,0 +1,862 @@
+Cell, Vol. 95, 81–91, October 2, 1998, Copyright 1998 by Cell Press
+
+G Protein Signaling Events Are Activated
+at the Leading Edge of Chemotactic Cells
+Carole A. Parent,* Brenda J. Blacklock,*§
+Wendy M. Froehlich,* Douglas B. Murphy,†
+and Peter N. Devreotes*‡
+* Department of Biological Chemistry
+† Department of Cell Biology and Anatomy
+Johns Hopkins University
+School of Medicine
+Baltimore, Maryland 21205
+
+Summary
+Directional sensing by eukaryotic cells does not require polarization of chemoattractant receptors. The
+translocation of the PH domain–containing protein
+CRAC in D. discoideum to binding sites on the inner
+face of the plasma membrane reflects activation of
+the G protein–linked signaling system. Increments in
+chemoattractant elicit a uniform response around the
+cell periphery. Yet when cells are exposed to a gradient, the activation occurs selectively at the stimulated
+edge, even in immobilized cells. We propose that such
+localized activation, transmitted by the recruitment of
+cytosolic proteins, may be a general mechanism for
+gradient sensing by G protein–linked chemotactic systems including those involving chemotactic cytokines
+in leukocytes.
+
+Introduction
+How do cells in multicellular organisms find and maintain their appropriate locations? Increasing evidence
+suggests that directed cell movement, or chemotaxis,
+plays a more significant role than previously thought.
+This essential physiological process is displayed by
+many eukaryotic cells including keratinocytes, endothelial cells, neurons, and cells of the immune system (Downey, 1994; Lauffenburger and Horwitz, 1996; Baggiolini,
+1998). Phagocytic cells, including leukocytes and freeliving amoebae such as D. discoideum, although evolutionarily distant, share remarkable similarities in behavior as well as in the molecular components involved in
+chemotaxis (Devreotes and Zigmond, 1988; Chen et al.,
+1996). Both cell types exhibit a polarized shape, move
+by pseudopod extension, and sense gradients through
+a series of repeated excitation and adaptation events.
+Most interestingly, their chemotactic responses appear
+to be mediated via a common set of G protein–linked
+signaling events. This conservation, coupled with its
+accessible genetics and biochemistry, make D. discoideum an excellent model to study the mechanism of
+chemotaxis (Parent and Devreotes, 1996a).
+Whereas bacterial chemotaxis is relatively well understood, the mechanisms by which eukaryotic cells sense
+‡ To whom correspondence should be addressed (e-mail: pnd@
+
+welchlink.welch.jhu.edu).
+§ Present address: Department of Chemistry and Biochemistry, Miami University, Oxford, Ohio 45056.
+
+chemical gradients have remained cryptic. In prokaryotes, directed cell movement is mediated by the temporal regulation of a two-component histidine kinase signaling system that controls the direction of flagellar
+rotation (Alex and Simon, 1994). Cells moving up the
+gradient experience an increase in receptor occupancy
+and “swim” longer, while those choosing the wrong direction encounter a decrease in receptor occupancy
+and “tumble” sooner (Koshland, 1977). Eukaryotic cells
+also respond temporally to increases in receptor occupancy. Indeed, in leukocytes and amoebae, stimulus
+increments elicit sharp rises in the proportion of polymerized actin, in IP3 and Ca21 levels, as well as the
+phosphorylation of myosins, the production of intracellular cAMP, and the activation of MAPK and STAT (Devreotes and Zigmond, 1988; Caterina and Devreotes,
+1991; Thompson et al., 1994; Lai et al., 1996; Maeda et
+al., 1996; Parent and Devreotes, 1996a; Krump et al.,
+1997; Araki et al., 1998). All of these responses are transient and reoccur with each increase in receptor occupancy. However, in contrast to bacteria, where there is
+no communication between the “front” and the “back”
+of the cell, eukaryotic cells appear to also be capable
+of spatial sensing. When a stimulus is applied, both
+leukocytes and amoebae preferentially extend pseudopods up the gradient, suggesting that they have the
+ability to sense the surrounding chemoattractant concentration prior to moving (Zigmond, 1974; Zigmond et
+al., 1981; Devreotes and Zigmond, 1988).
+In order for cells to sense gradients, some of the
+signaling proteins must become asymmetrically distributed or activated. In D. discoideum the localization of
+several cytoskeletal and signal transduction components in chemotaxing cells has been studied using GFP
+technology and immunohistochemical staining. Actin,
+coronin, talin, cofilin, and CAP (cyclase-associated-protein) have all been shown to transiently accumulate at
+the leading edge (Gerisch et al., 1995; Kreitmeier et al.,
+1995; Gottwald et al., 1996; Aizawa et al., 1997; Westphal
+et al., 1997). These cytoskeletal rearrangements have
+been proposed to be mediated by an asymmetric distribution of chemoattractant receptors and/or G proteins.
+However, studies using GFP fusion proteins, have shown
+that neither chemoattractant receptors nor G protein
+b–subunits become unevenly distributed during chemotaxis (Xiao et al., 1997; T. Jin et al., unpublished results;
+G. Servant and H. Bourne, personal communication).
+Therefore, it must be the activation of the G protein–
+linked signaling pathways that preferentially occurs at
+the leading edge of chemotaxing cells.
+In an effort to better understand how cells sense
+chemical gradients, we set out to visualize signaling
+events using a GFP-fusion protein known to be recruited
+to the plasma membrane following chemoattractant receptor stimulation. CRAC (cytosolic regulator of adenylyl cyclase), a novel protein that contains a PH domain
+at its N terminal, must be translocated to the plasma
+membrane during each transient activation of adenylyl
+cyclase (Insall et al., 1994). Biochemical and genetic
+analyses have shown that the receptor-mediated redistribution of CRAC does not take place in cells lacking
+
+Cell
+82
+
+Figure 1. The CRAC-GFP Fusion Protein Retains Wild-Type Activity
+(A) Developmental phenotype of crac2 and CRAC-GFP/crac2 cells
+on nonnutrient agar. Photographs were taken 24 hr after the cells
+were plated. Bar represents 8 mm.
+(B) Western analysis of whole cells (total), supernatant (supnt), and
+pellet fractions after lysis and centrifugation. Samples were loaded
+on 7.5% SDS-PAGE and immunoblotted using an antibody directed
+against GFP. The multiple bands correspond to the fusion protein
+(see Experimental Procedures).
+
+the unique G protein b–subunit expressed in these cells,
+suggesting that the CRAC-binding site is either Gbg or
+that the generation of the CRAC binding site requires
+Gbg (Lilly and Devreotes, 1995). By using the relocalization of CRAC as a marker to report the spatial and temporal activation of G protein–coupled signaling, we
+sought to gain insights into the mechanisms of directed
+cell movement.
+Results
+The CRAC-GFP Fusion Protein Retains
+Wild-Type Activity
+Cyclic AMP plays a critical role in the early development
+of D. discoideum during which 105 cells spontaneously
+aggregate and differentiate to form multicellular structures (Parent and Devreotes, 1996a). Cells lacking CRAC
+do not produce cAMP because they cannot mediate
+G protein–coupled activation of adenylyl cyclase and
+therefore remain as smooth monolayers of single cells
+(Insall et al., 1994). Rescue of the aggregation defect in
+crac2 cells thus provides a stringent test for the integrity
+of the CRAC-GFP fusion protein. The crac2 cells were
+stably transfected with the CRAC-GFP expression plasmid, and a few clones were selected, expanded, and
+tested for differentiation by depositing washed cells on
+nonnutrient agar plates. Figure 1A depicts the developmental phenotype of the crac2 and CRAC-GFP/crac2
+cells. Expression of CRAC-GFP in crac2 cells suppressed the aggregation-deficient phenotype and led
+to the formation of differentiated structures. A GFP antibody specifically recognized bands of z110 kDa only in
+
+CRAC-GFP/crac2 cells. Crude subcellular fractionation
+showed that, as is the case with CRAC, CRAC-GFP was
+almost entirely found in the cytoplasmic fraction of cells
+(Figure 1B).
+The biochemical properties of the CRAC-GFP/crac2
+cells were characterized by measuring G protein–mediated adenylyl cyclase activity. In lysates of crac2 cells
+the ratio of GTPgS-stimulated to basal adenylyl cyclase
+activity was 1.9, while in lysates of CRAC-GFP/crac2
+cells it was greater than 30 (data not shown). This extent
+of activation is comparable to that displayed by wildtype AX3 cells. To further characterize the activity of the
+CRAC-GFP fusion protein, supernatants prepared from
+wild-type AX3 cells or CRAC-GFP/crac2 cells were used
+to reconstitute the GTPgS-stimulated activity of lysates
+derived from crac2 cells. Each of these supernatants
+restored the GTPgS-mediated activation of adenylyl cyclase to wild-type levels (data not shown). Taken together, these results show that the wild-type and GFPtagged CRAC proteins are essentially interchangeable.
+Chemoattractants Cause a Transient Translocation
+of CRAC-GFP from the Cytosol
+to the Plasma Membrane
+As predicted from the subcellular fractionation data, nonstimulated, differentiated CRAC-GFP/crac2 cells showed
+an even cytoplasmic fluorescent signal when observed
+by conventional fluorescence microscopy (Figure 1B,
+Figure 2 upper panel). When the cells were stimulated
+by the addition of a saturating dose of cAMP (1 mM), a
+dramatic translocation of CRAC-GFP from the cytosol to
+the plasma membrane ensued. The relocalization began
+instantaneously after the addition of the stimulus and
+peaked within 5–10 s. By 30–40 s the original uniform
+cytoplasmic distribution was reestablished (Figure 2,
+upper panel). Similar responses were observed when
+the cells were stimulated with concentrations of cAMP
+as low as 1 nM (data not shown). This translocation
+event occurred specifically following receptor activation. During random movement little or no change in the
+overall signal was observed even at the tips of extended
+pseudopods where many cytoskeletal proteins are known
+to accumulate.
+Quantification of the stimulus-induced translocation
+response showed that the enrichment of CRAC-GFP at
+the plasma membrane resulted in a depletion in the
+amount of CRAC-GFP in the cytoplasm. The bottom
+panel of Figure 2 shows the difference in fluorescence
+intensities before and after the addition of chemoattractant at points along a line through the central portion of
+the cell. As depicted by the three basal readings, the
+distribution of the signal did not change in unstimulated
+cells. However, a dramatic increase in the fluorescent
+signal at the periphery of the cell coupled to a reduction
+in the intracellular signal was observed following receptor stimulation (for clarity only the peak translocation
+point is presented). The transient kinetics of the translocation event is illustrated in the inset as a measure of
+the peak fluorescent signals measured at the periphery
+of the cells. These results show that CRAC-GFP is a
+highly sensitive marker that can be used to visualize
+activated G protein–coupled signaling pathways.
+
+Polarized G Protein Signaling in Directed Cell Movement
+83
+
+Figure 2. Kinetic Analysis of the Chemoattractant-Mediated Translocation of CRAC-GFP
+(Top panel) Montage of images of Redi CRAC-GFP/crac2 cells taken before and after the addition of 1 mM cAMP, a saturating dose of
+chemoattractant. Numbers in the lower left corner are seconds before and after stimulation. Chemoattractant was added at time 0 (note that
+the cell goes out of focus in this frame). Calibration bar represents 6 mm. An animated version of this experiment can be found in the
+supplemental data section of the on-line version of the journal (http://www.cell.com/supplemental/95/1/81). Similar results were observed in
+over 30 independent sessions.
+(Bottom panel) Quantitative analysis of the translocation event. Fluorescence intensities were measured along a thin line through the central
+portion of the cell (see schematic representation on frame taken at 24 s on the top panel). Intensities from the 22 s frame were subtracted
+from each of the other frames and plotted. For clarity, only the 6 s time point is presented. The % receptor occupancy is illustrated as 100%
+across the length of the cell. The kinetics of the translocation event is presented as a measure of the area under the curve of the florescent
+signal at the left periphery of the cell for each time point (inset). Similar results were obtained by analysis of at least five cells recorded on
+different days.
+
+To determine whether actin polymerization was required for the translocation of CRAC-GFP to the plasma
+membrane, we pretreated the cells with agents that prevent de novo actin filament polymerization. Latrunculin
+A or Cytochalasin A were used at final concentrations
+of 0.5 mM and 1 mM, respectively. A 3–5 min pretreatment
+with either drug left the cells rounded up and immobile
+(see below and Figure 6A). When these cells were stimulated with a uniform increase of chemoattractant at a
+final concentration of 10 mM, a robust translocation of
+the fluorescent signal to the plasma membrane occurred
+(data not shown). Thus, the transient relocalization of
+
+CRAC-GFP to the plasma membrane does not require
+reorganization of the actin cytoskeleton.
+
+CRAC-GFP Is Associated with Membrane Fractions
+following Chemoattractant Receptor Stimulation
+The association of CRAC-GFP with the plasma membrane observed in living cells was also apparent in membranes collected from lysed cells. CRAC-GFP/crac2
+cells were stimulated with cAMP, and at specific times,
+aliquots of cells were lysed and quickly processed for
+membrane isolation and immunoblotting. The amount
+
+Cell
+84
+
+calculated that, at the peak stimulation, z10% of total
+CRAC-GFP was associated with membranes.
+As is the case for the translocation of CRAC-GFP to
+the plasma membrane, chemoattractant-mediated activation of adenylyl cyclase is also transient. Previously
+published data have shown that the kinetics of enzyme
+activation are slower than the rapid redistribution of
+CRAC-GFP (Theibert and Devreotes, 1986; Lilly and Devreotes, 1995). To further define this possible lag between
+CRAC translocation and peak enzyme activity, each response was measured in parallel at short time points
+following chemoattractant addition. Figure 3A shows
+that the chemoattractant-mediated activation of adenylyl cyclase indeed peaks about 60 s after receptor
+stimulation, as was previously observed. Consequently,
+while CRAC-GFP translocates quickly after receptor
+stimulation, the maximum activation of adenylyl cyclase
+occurs slightly later suggesting that there are additional
+steps between CRAC translocation and the activation
+of adenylyl cyclase.
+
+Figure 3. Biochemical and Functional Analysis of CRAC-GFP
+(A) Redi CRAC-GFP/crac2 cells were stimulated with 10 mM cAMP,
+and at specific times, aliquots of cells were lysed and processed
+for membrane isolation and immunoblotting or assayed for adenylyl
+cyclase activity. The closed diamonds represent a densitometric
+analysis of the translocation of CRAC-GFP to the membrane fractions. The open squares depict the adenylyl cyclase activity.
+(B) Basal, unregulated (MnSO4), and G protein–mediated (GTPgS)
+activation of adenylyl cyclase in CRAC/crac2, D-CRAC/crac2, and
+W167A-CRAC/crac2 (see Experimental Procedures).
+(C) Amount of CRAC, D-CRAC, or W167A-CRAC that becomes associated with membrane fractions following chemoattractant addition.
+Cells were stimulated and processed for membrane isolation and
+immunoblotting as in (A). The results presented here are representative of at least two independent experiments.
+
+of CRAC-GFP associated with membrane fractions transiently increased following chemoattractant addition,
+with kinetics that paralleled those observed by fluorescence microscopy. Taking aliquots at 10 s intervals revealed that the translocation is rapid and subsides about
+40 s after the addition of the stimulus (Figure 3A). Quantification of the signal by densitometry routinely showed
+a 5- to 10-fold increase in the amount of CRAC-GFP
+translocated to the plasma membrane. Moreover, we
+
+The PH Domain Appears to Be Required for
+Recruitment to the Plasma Membrane
+To assess the molecular determinants involved in the
+translocation of CRAC to the plasma membrane, we
+studied two CRAC mutants. First we engineered a point
+mutation in the PH domain of CRAC by substituting the
+Trp residue conserved in all PH domain sequences to
+an Ala residue (W167A). This Trp residue is located on
+the C-terminal a helix, buried within the b sandwich
+of the structure, and is postulated to contribute to the
+stability of the entire PH domain (Ferguson et al., 1994,
+1995). Second, we used a mutant of CRAC, isolated
+from a chemical mutagenesis screen as an aggregationdeficient clone, which harbored an in-frame 53 amino
+acid deletion of residues 467 to 518 near the C terminal
+(D-CRAC) (P. J. Lilly et al., unpublished results). Although
+CRAC, W167A-CRAC, and D-CRAC transformed in crac2
+cells expressed protein, only cells transformed with the
+wild-type version of CRAC successfully rescued the aggregation-deficient phenotype of crac2 cells (data not
+shown). Neither W167A-CRAC nor D-CRAC/crac2 transformants showed significant GTPgS-mediated activation of adenylyl cyclase (Figure 3B). We next assessed
+the amount of wild-type or mutant CRAC that became
+associated with membranes following chemoattractant
+addition. As shown in Figure 3C, D-CRAC displayed a
+transient association with the membrane fraction following cAMP treatment, while the mutant harboring a point
+mutation in the PH domain failed to do so. Thus, while
+neither mutant protein was able to activate adenylyl
+cyclase, only the one bearing a mutation in the PH domain was unable to associate with membranes in response to cAMP. These results suggest that CRAC has
+at least two distinct functional domains and that translocation is necessary but not sufficient for the activation
+of adenylyl cyclase.
+CRAC-GFP Associates with the Plasma Membrane
+at the Leading Edge of Chemotaxing Cells
+CRAC-GFP appears to be a highly specific marker for
+the visualization of G protein–coupled activation in living
+
+Polarized G Protein Signaling in Directed Cell Movement
+85
+
+Figure 4. CRAC-GFP Translocates to the Leading Edge of Newly Elicited Pseudopods
+(Top panel) Montage of confocal images of Redi CRAC-GFP/crac2 cells taken as the cells moved toward a micropipette containing 1 mM
+cAMP. The pipette is located 25 mm above the upper right corner of the frames. Numbers in the upper left corner are seconds. Calibration
+bar represents 5.6 mm. This behavior was consistently observed over the course of 15 independent sessions. An animated version of this
+experiment can be found in the supplemental data section of the on-line version of the journal (http://www.cell.com/supplemental/95/1/81).
+(Bottom panel) Quantitative analysis of the translocation event. Fluorescence intensities were measured along a thin line through the central
+portion of the upper cell (see schematic representation on frame taken at 0 s on the top panel) and plotted as a function of distance. Similar
+results were obtained by analysis of at least five cells recorded on different days. The dotted line depicts the estimated level of receptor
+occupancy at different points assuming that the concentration at the midpoint of the cell is near Kd. If it were not near Kd, the changes would
+be smaller. See Experimental Procedures for details.
+
+cells. To study the spatial localization of signaling events
+in chemotaxing cells, we placed the CRAC-GFP/crac2
+cells in a gradient of cAMP and used a micropipette
+to deliver a constant amount of chemoattractant at a
+specific location on the cover glass. In this assay, cells
+rapidly move toward the micropipette tip, which can be
+repositioned to allow the formation of new chemotactic
+fronts. As cells carried out chemotaxis, a redistribution
+of CRAC-GFP from the cytosol to the plasma membrane
+occurred exclusively on elicited pseudopods. In the sequence of events presented in the top panel of Figure
+4, the micropipette containing 1 mM cAMP was placed
+in the upper right corner and frames were captured every
+5 s using confocal microscopy. As the cells were moving
+
+toward the chemoattractant, an intense fluorescent signal was observed at the ruffling front of the cells. Note
+that cells located closest to and furthest from the needle
+display similar localization of the signal at the leading
+edge. The association of CRAC-GFP with the plasma
+membrane in chemotaxing cells was not continuous;
+the three cells presented in Figure 4 show the appearance and disappearance of fluorescent signal at the
+plasma membrane within a 20–40 s time frame. Quantification of the translocation event revealed that while
+receptor occupancy changed only slightly across the
+cell length (see Experimental Procedures), the CRACGFP signal was strongly enriched at the front of the cell.
+The bottom panel of Figure 4 presents the change in
+
+Cell
+86
+
+CRAC-GFP fluorescence intensity along a thin line
+through the center of a cell. It is evident that a fraction
+of CRAC is sharply relocalized at the leading edge and
+that the remaining cytosolic CRAC is uniformly distributed along the length of the cell. Consequently, the
+highly polarized redistribution of CRAC-GFP at the front
+of chemotaxing cells greatly amplifies the small differences in receptor occupancy.
+When we changed the position of the micropipette,
+the cells either extended pseudopods from the original
+migrating front and made a 1808 turn toward the newly
+formed gradient or, alternatively, the cells created a new
+front thereby reversing the direction of their movement
+(Devreotes and Zigmond, 1988). Regardless, we always
+detected a bright fluorescent signal solely on the plasma
+membrane of the leading edge of the cell. For example,
+in Figure 5A (top left panel), a cell is moving up a gradient
+of cAMP toward the micropipette located above and to
+the right of the frame. The pipette was then moved below
+and to the left of the frame, and images were captured.
+As the new cAMP gradient was restored, a chemotactic
+front began to appear at the back of the cell and we
+observed small amounts of CRAC-GFP on the plasma
+membrane. By 200 s, a new leading edge was firmly
+established and showed a bright fluorescent signal.
+We also observed the response of the cells to a falling
+gradient. The pressure through the needle was first increased to a high level via the micropipette injector and
+then released to allow reestablishment of the gradient.
+Immediately upon increasing the pressure, a uniform
+translocation of CRAC-GFP from the cytosol to the
+plasma membrane occurred. As the gradient reestablished, the cells showed distinct polarized translocation
+of CRAC-GFP and, within 70 s, the cells displayed robust
+chemotaxis. An animated version of this experiment can
+be found in the supplemental data section of the online version of the journal (http://www.cell.com/supple
+mental/95/1/81). These results show the rapid and transient nature of the translocation event and underscore
+the dynamics of the response when the cells are subjected to sudden changes in chemoattractant concentrations.
+We next subjected cells to a brief increase in chemoattractant, which swept across the cells like a wave. In
+these experiments, the micropipette was positioned
+near a cell and at specific times a pulse of chemoattractant was released by applying a pressure increase on
+the microinjector for only 5 s. As illustrated in Figure 5B,
+the side of the cell that encountered the approaching
+gradient responded by selectively translocating CRACGFP along the entire membrane facing the needle. The
+cell also briefly extended a ruffled edge toward the micropipette. After repeating this stimulation routine three
+times on the right side of the cell, the pipette was repositioned on the left side and similar directional translocations of CRAC-GFP were elicited (Figure 5B). These observations imply that cells must have mechanisms that
+allow for the inhibition of the signal at their “back” even
+when the concentration of chemoattractant is rapidly
+increasing at both ends of the cell.
+To further assess the role of cell movement in chemotaxis, we set out to measure if nonmotile cells retained
+the capacity to perceive gradients. As noted above, de
+
+Figure 5. Redistribution of CRAC-GFP after Repositioning of the
+Micropipette and in Response to Brief Waves of Chemoattractant
+(A) The upper left frame was taken as the Redi CRAC-GFP/crac2
+were moving toward the micropipette, which was located at the
+upper right corner of the image (the needle contained 1 mM cAMP).
+The needle was then moved to the lower left corner, and within 1
+min, sequential images were captured. Numbers in the upper left
+corner are seconds after the observation began. Calibration bar
+represents 6 mm. This behavior was consistently observed over five
+independent sessions.
+(B) A micropipette containing 1 mM cAMP was positioned near Redi
+CRAC-GFP/crac2 cells, and a brief pulse of chemoattractant was
+released by applying a pressure increase on the microinjector for
+5 s. The numbers in the upper left corner are seconds after the
+chemoattractant was released. The micropipette was placed on the
+right side of the cell for the top three panels and on the left side of
+the cell for the bottom three panels. Calibration bar represents 7.6
+mm. This behavior was observed in at least four independent sessions. Animated versions of these experiments can be found in the
+supplemental data section of the on-line version of the journal
+(http://www.cell.com/supplemental/95/1/81).
+
+novo actin polymerization is not required for the translocation event to occur in response to a uniform increase
+in chemoattractant. We now wanted to assess whether
+
+Polarized G Protein Signaling in Directed Cell Movement
+87
+
+actin polymerization was needed to locally activate G
+protein–coupled signaling in cells exposed to a gradient.
+In these experiments, cells moving in a gradient of cAMP
+were treated with 0.5 mM Latrunculin A. After the addition of the drug, the cells gradually stopped extending
+pseudopods, became progressively rounded, and eventually showed little motility. Surprisingly, even under
+these conditions, the cells retained the ability to translocate CRAC-GFP specifically at the membrane directed
+up the chemoattractant gradient (Figure 6A). Figure 6B
+shows another field of cells examined approximately 20
+min after the addition of Latrunculin A. The upper and
+lower images, taken 90 s apart, illustrate that the cells
+are essentially immobile. Even so, a strong fluorescent
+signal was observed at the membrane facing the micropipette (the star depicts where the micropipette was
+positioned). Although these results strongly suggest that
+eukaryotic cells are able to perform spatial sensing, we
+cannot rule out that slight superficial membrane ruffling
+exhibited by the rounded cells is important for sensing
+(see animated version of this experiment in the supplemental data section of the on-line version of the journal
+[http://www.cell.com/supplemental/95/1/81]).
+We have observed that CRAC-GFP is specifically redistributed to membranes when cells are stimulated with
+chemoattractant. We also noted that CRAC is spontaneously associated with “crown-like” structures, thought
+to be precursors of macropinosomes, in randomly moving vegetative cells. These circular ruffles are regions
+where F actin accumulates along with the actin-binding
+protein coronin and myosin IB (Fukui et al., 1989; Jung
+and Hammer, 1990; Maniak et al., 1995). Figure 7 shows
+resting vegetative cells displaying an even cytoplasmic
+fluorescent signal with intense labeling of crowns. The
+signal associated with these structures took the form
+of rings and was present as the structures were forming
+but dissipated as soon as the macropinosomes closed
+and entered the cell. Developed cells had fewer macropinosomes and, when they were present, they behaved
+independently of chemoattractant stimulation (see Figure 2, upper panel, bright structure on the lower right
+corner of the cell). Furthermore, CRAC-GFP was associated with macropinosomes in the gb2 cells (data not
+shown) where we have shown that chemoattractant
+stimulation does not induce CRAC translocation (Lilly
+and Devreotes, 1995).
+
+Discussion
+Our results demonstrate that in gradients of chemoattractant the activation of the G protein–coupled signaling system, reflected by the transient translocation of
+CRAC-GFP to the membrane, is spatially localized.
+Other observations have shown that chemoattractant
+receptors and G protein subunits are uniformly localized
+at the cell periphery (Xiao et al., 1997; T. Jin et al., unpublished results; G. Servant and H. Bourne, personal communication). Biochemical analysis has shown that the
+stimulus-induced translocation of CRAC-GFP is an indication of the appearance of CRAC binding sites on the
+inner face of the plasma membrane (Lilly and Devreotes,
+1995 and see below). These sites appear transiently
+
+Figure 6. Latrunculin A–Treated Cells Retain the Ability to Selectively Translocate CRAC-GFP at the Membrane Directed up the
+Chemoattractant
+Redi AX2 cells expressing CRAC-GFP were placed in a chamber.
+(A) A micropipette containing 1 mM chemoattractant is located 10
+mm below the lower edge of the field. At time 0, Latrunculin A
+(final concentration 0.5 mM) was added and images were captured.
+Numbers in the upper left corner are seconds before and after the
+addition of Latrunculin A. Calibration bar represents 12 mm.
+(B) These images, obtained from the same chamber as in (A), were
+captured approximately 20 min after the addition of Latrunculin A.
+The position of the micropipette is indicated by the asterisk. Numbers in the upper left corner are seconds. Calibration bar represents
+9 mm. Animated versions of these experiments can be found in the
+supplemental data section of the on-line version of the journal
+(http://www.cell.com/supplemental/95/1/81).
+
+Cell
+88
+
+Figure 7. CRAC-GFP Is Associated with Macropinosomes
+CRAC-GFP/crac2 cells were harvested in their vegetative state,
+washed once, resuspended in phosphate buffer, and directly observed using conventional microscopy. (A) and (B) were captured
+at 10 s intervals. The cell shown in (C), (D), and (E) (also captured
+every 10 s) comes from another field. The arrows point to macropinosomes. Calibration bar represents 8 mm. This behavior was observed
+over the course of five independent sessions.
+
+in response to uniform stimuli and asymmetrically in
+response to gradients. Recruitment of a cytosolic protein to localized regions of activation, as we report here,
+therefore provides a means to transmit already-localized
+signals. We propose that such localized activation will
+be a general phenomenon for G protein–linked signaling
+chemotactic systems including those involving chemotactic cytokines in leukocytes.
+Oancea et al. have shown that proteins harboring cysteine-rich domains from PKC become transiently associated with the membrane following G protein– or tyrosine kinase–coupled receptor stimulation (Oancea et al.,
+1998). In other experiments, the activation of several
+different G protein–coupled receptors caused the translocation of b-arrestin-GFP to the membrane, and the
+guanine nucleotide exchange factor, ARNO, became associated with plasma membranes following treatment
+with insulin (Barak et al., 1997; Venkateswarlu et al.,
+1998). We report here the redistribution of a signaling
+protein from the cytosol to the plasma membrane specifically at the leading edge of chemotaxing cells. Although
+actin and several actin-binding proteins, including coronin, talin, cofilin, and CAP, become associated with newly
+extended pseudopod extensions in D. discoideum cells,
+this relocalization is observed in randomly moving, as
+well as chemotaxing, cells, and the redistribution of coronin still occurs in gb- cells, which lack sensitivity to all
+chemoattractants (Gerisch et al., 1995; Kreitmeier et al.,
+1995; Gottwald et al., 1996; Aizawa et al., 1997; Westphal
+et al., 1997; Peracino et al., 1998; T. Jin, N. Zhang, and
+P. N. Devreotes, unpublished results). Moreover, while
+the actin-binding proteins tend to fill the entire F-actin
+rich region of the pseudopod, CRAC-GFP specifically
+localizes to the plasma membrane at the front edge of
+the projection. Thus, CRAC-GFP represents a specific
+marker for the signal transduction events occurring at
+the leading edge of chemotactically sensitive cells.
+
+Several models for gradient sensing by eukaryotic cells
+have been proposed (Devreotes and Zigmond, 1988;
+Caterina and Devreotes, 1991). First, a “purely temporal”
+model depicts cells as extending pilot sensors in all
+directions, responding only to those extended up the
+gradient. Second, a “spatial-temporal” model sees cells
+as requiring temporal increases in receptor occupancy
+to respond, but also needs inhibition to occur at the
+side of the cell receiving a later or lower stimulus. Third,
+a “purely spatial” model has cells capable of intrinsically
+detecting differences in receptor occupancy between
+its two ends, even when receptor occupancy shows
+no temporal change. Our findings rule out the “purely
+temporal” model since nonmotile cells are able to polarize their signal transduction responses (Figure 6).
+Rather, our results favor the “purely spatial” model. For
+spatial detection, cells must sense small differences in
+receptor occupancy at their two ends. Hence, the need
+for chemotaxing cells to express their receptors and
+G proteins uniformly around the cell perimeter and to
+possess mechanisms that allow rapid polarization of the
+activation event.
+We have a good understanding of the signal transduction events involved in the activation of adenylyl cyclase.
+Chemoattractant-mediated activation of adenylyl cyclase requires, in addition to the G protein bg–subunits,
+two novel cytosolic proteins: CRAC and Pianissimo (Insall et al., 1994; Chen et al., 1997). Following chemoattractant or GTPgS stimulation, it is thought that CRAC
+binds to the plasma membrane and somehow, in concert
+with Pianissimo, activates adenylyl cyclase. The data
+presented here show that, in living cells, CRAC transiently associates with plasma membrane following
+stimulation of chemoattractant receptors. This is consistent with previous reconstitution experiments that have
+shown that the receptor- and GTPgS-mediated activation of adenylyl cyclase in crac2 cells can be restored
+by adding exogenous supernatant preparations derived
+from unstimulated cells (Lilly and Devreotes, 1995).
+These biochemical experiments have also established
+that (1) the GTPgS-induced association of CRAC with
+membranes does not require chemoattractant receptor,
+Ga2, or adenylyl cyclase, but depends essentially on
+Gb, (2) stimulus-induced modifications of CRAC are not
+required prior to binding, (3) the appearance of the binding sites is transient in the absence of CRAC, and (4)
+once created in cells, the CRAC binding sites remain
+stable in lysates. Since there is a lag of about 50 s
+between the peak CRAC translocation event and maximal adenylyl cyclase activation, there must be additional
+steps between the two events. These steps may involve
+Pianissimo, since CRAC translocation takes place in piacells (B. J. B. and P. N. D., unpublished observation).
+The identity of the CRAC binding site remains to be
+established. Our mutant analysis showed that CRAC is
+composed of at least two distinct functional domains.
+A region in the C terminal is essential for adenylyl cyclase
+activation, and based on the Trp to Ala mutation, the
+integrity of the N-terminal PH domain of CRAC is required for membrane association. Numerous reports
+have suggested that PH domains may associate with
+either Gbg-subunits or phosphatidylinositol lipids (reviewed in Lemmon et al., 1996 and Shaw, 1996). Although chemoattractant-mediated translocation of CRAC
+
+Polarized G Protein Signaling in Directed Cell Movement
+89
+
+to membranes depends essentially on Gb, the fact that
+CRAC can associate with macropinosomes in gb- cells
+suggests that Gbg itself may not be the direct CRAC
+binding site. The chemoattractant-mediated generation
+of the CRAC binding site could depend on a downstream
+effector of Gbg. While the Gbg-sensitive PI3 kinase is an
+attractive candidate, neither wortmanin nor LY294002
+inhibitors of PI3 kinase altered the translocation of
+CRAC-GFP to the plasma membrane (data not shown).
+Consequently, at the present time, we do not know the
+identity of the CRAC binding site. Additional experiments are currently under way to further address this
+point.
+The highly localized translocation of CRAC-GFP in
+chemotaxing cells indicates that the activation of adenylyl cyclase occurs within a very defined region of the
+plasma membrane at the leading edge of cells even
+though the adenylyl cyclase itself is uniformly distributed
+around the cell periphery (C. A. P. and P. N. D., unpublished results). The exact mechanism of action by which
+this localized production of intracellular cAMP is involved in chemotaxis remains to be determined. In leukocytes, it has been suggested that cAMP is involved
+in directed cell movement possibly by blocking adhesion
+via its effects on PKA and RhoA (Laudanna et al., 1997).
+We propose that other key components that signal directly to the cytoskeleton might also be recruited to the
+stimulated edge of the cell by associating with the same
+sites that recruit CRAC. By using a common binding site
+at a local region of the inner face of the membrane to
+initiate multiple signal transduction cascades, the cell
+can coordinate its behavior in response to the dynamic
+environments present in multicellular organisms.
+Experimental Procedures
+CRAC-GFP Fusion Protein Construct and Transformation
+into crac2 Cells
+A mutant GFP gene with greater brightness and slower photobleaching than the wild-type version was used (Xiao et al., 1997). The fulllength cDNA sequence of CRAC was amplified by high fidelity PCR
+using primers that created an EcoRI site at the 39-end before the
+STOP codon. The resulting PCR product was cloned into a unique
+EcoRI site located upstream of the ATG of the GFP gene. The resulting CRAC-GFP construct was sequenced using chain terminator
+chemistry (DNA Analysis Facility, Johns Hopkins School of Medicine) and finally cloned into the B18 D. discoideum expression plasmid, which gives constitutive levels of expression (Johnson et al.,
+1991). This CRAC-GFP plasmid was then electroporated into crac2
+cells using a Bio-Rad gene pulser, and stable transformants were
+selected in 20 mg/ml G418 (Howard et al., 1988; Insall et al., 1994).
+Individual clones were isolated as plaques on Klebsiella aerogenes
+lawns and grown in the presence of G418 (Sussman, 1987). The
+phenotypes of these clones were assessed by plating cells on nonnutrient agar at 228C, as previously described (Devreotes et al.,
+1987). The cells were designated CRAC-GFP/crac2. Alternatively,
+we also transfected the CRAC-GFP construct in wild-type AX2 cells.
+Both cell lines behaved similarly and were used in this study.
+D-CRAC and W167A-CRAC Constructs
+The hemaglutinin A tag was fused to the N terminal of the CRAC
+coding sequence, and the resulting DNA fragment was cloned into
+the Ddp1-based D. discoideum extrachromosomal expression plasmid, p88d1 (Hughes et al., 1994). The W167A mutation was constructed using the MORPH Kit (5 Prime → 3 Prime, Boulder, CO)
+with a primer encoding the mutated codon. These constructs were
+
+then electroporated into crac2 cells as described above and grown
+in the presence of 20 mg/ml G418.
+Cell Growth and Differentiation
+Wild-type AX3 and crac2 cells were used as controls (Insall et al.,
+1994). CRAC-GFP/crac2 cells were grown in shaking suspension to
+densities of z5 3 106 cells/ml in HL5 media containing 20 mg/ml
+G418, harvested by centrifugation, and allowed to differentiate by
+resuspending them at 2 3 107 cells/ml in DB (5 mM Na2HPO4, 5 mM
+NaH2PO4 [pH 6.2], 2 mM MgSO4, 200 mM CaCl2) and shaking them
+at 100 rpm for 5 hr with repeated pulses of 50 nM cAMP (Devreotes
+et al., 1987; Parent and Devreotes, 1996b). After a 30 min treatment
+with 2 mM caffeine (an inhibitor of adenylyl cyclase, used to bring
+the cells to a basal state), cells were harvested, washed twice, and
+finally resuspended at 8 3 107 cells/ml in PM (5 mM Na2HPO4, 5 mM
+NaH2PO4 [pH 6.2], 2 mM MgSO4) or SLB (10 mM TrisHCl [pH 7.5],
+0.2 mM EGTA, and 200 mM sucrose). The cells, designated Redi
+(resting and differentiated), were then processed according to the
+assay performed.
+Subcellular Fractionation and Immunoblotting
+Redi cells were resuspended in SLB and lysed by filtration through
+5 mm-pore-size Nucleopore filters. The resulting lysates were separated into soluble and pellet fractions by centrifugation at 12,000 3
+g for 30 min at 48C (Lilly and Devreotes, 1994). The pellets were
+resuspended in SLB, and samples were subjected to 7.5% SDSPAGE (Laemmli, 1970). Immunoblotting was performed on nitrocellulose membranes using a polyclonal antibody directed against GFP
+(Clontech Lab, Palo Alto, CA) or a polyclonal antibody directed
+against the last 15 amino acids of CRAC. Detection was performed
+by chemiluminescence using a donkey anti-rabbit horseradish peroxidase–coupled antibody (Amersham, Arlington Heights, IL). Some
+of the gels show multiple bands. Evidence suggests that these
+bands result from degradation that occurs after sample preparation.
+When a dilute suspension of cells was added directly to sample
+buffer, nearly all the signal was in the high molecular weight band.
+Quantification was performed using the NIH Image 1.59 software.
+Adenylyl Cyclase Assays
+Adenylyl cyclase enzymatic activity was measured in differentiated
+cells as previously described (Parent and Devreotes, 1995). Briefly,
+Redi cells were resuspended in PM, filter-lysed in the presence of
+2 mM MgSO4, with or without the addition of 40 mM GTPgS and 1
+mM cAMP, incubated on ice for 4 min, and assayed for 2 min at
+room temperature. The unregulated intrinsic activity of the enzyme
+was measured in the presence of 5 mM MnSO4. For receptor-mediated adenylyl cyclase activation, Redi cells were treated with 10 mM
+cAMP at room temperature, lysed in the presence of 2 mM MgSO4
+at specific time points, and assayed for 30 s. In the reconstitution
+assays, Redi crac2 cells were lysed into tubes containing cytosol
+derived from differentiated wild-type (AX3) or CRAC-GFP/crac2 cells
+as previously described (Parent and Devreotes, 1995).
+CRAC Translocation Assay
+Redi CRAC-GFP/crac2 cells were resuspended in PM buffer, stimulated with 10 mM cAMP, and, at specific time points, filter-lysed into
+1.5 ml microfuge tubes containing 1 ml ice-cold PM buffer. Samples
+were centrifuged for 1 min at 15,000 3 g and the pellet solubilized
+in Laemmli buffer (Laemmli, 1970). The samples were finally subjected to 7.5% SDS-PAGE and immunoblotted as described above.
+Fluorescence Microscopy Analysis on Live
+CRAC-GFP/crac2 Cells
+Fluorescence microscopy was performed as previously described
+(Xiao et al., 1997). Briefly, Redi cells expressing CRAC-GFP were
+harvested by centrifugation, resuspended in phosphate buffer (5
+mM Na2HPO4, 5 mM NaH2PO4 [pH 6.2]), plated in a small spot on a
+chambered coverglass (Lab-Tek, Nalge Nunc, Naperville, IL), allowed to adhere, and covered with phosphate buffer to prevent
+drying. The coverglasses were mounted onto a brass holder and
+observed using an inverted Zeiss microscope (Axiovert 135 TV,
+Thornwood, NY) equipped with 40 or 100X oil-immersion plan neofluor objective lenses, an HBO 100 watt mercury lamp, and filter
+
+Cell
+90
+
+sets for viewing GFP (Z16, Carl Zeiss; XF100, Omega Optical Co.).
+The cell movement was recorded with a cooled PXL CCD camera
+(Photometrics, Tucson, AZ) controlled by IPLab-Spectrum software
+(Scanalytics, Fairfax, VA) on a Power Macintosh computer. Figures
+presented were obtained using 50–150 ms exposures.
+Generation and Quantitation of Chemoattractant Gradients
+Gradients were generated using a microinjector connected to micropipettes containing 1 to 10 mM cAMP (Femtotips, Eppendorf, Germany). To assess the gradients generated, we placed rhodamine
+(MW 5 479) in the micropipette and observed the fluorescence
+signal after the gradient reached steady state, under a variety of
+experimental conditions. There was a radially symmetric exponential
+decrease in the rhodamine concentration centered on the tip (see
+below for quantitation). At the typical working distances of 10 to 50
+mm, we observed 10% to 30% changes in concentration over a
+distance corresponding to the length of a cell. Near Kd, similar
+changes in cAMP (MW 5 329) concentration would give rise to
+changes of 2% to 10% in receptor occupancy across the cell, as
+illustrated in Figure 4. In the course of these experiments we also
+showed that, following the application of a pressure increase on
+the microinjector, the cAMP gradients were reestablished within
+30 s.
+Fluorescence Confocal Microscopy Analysis on Live
+CRAC-GFP/crac- Cells
+Cells were prepared as described above and analyzed using a confocal laser scanning microscope (Noran OZ; Noran, Middleton, WI)
+with an inverted microscope (IX-50; Olympus, New Hyde Park, NY)
+equipped with a U plan-apo 1003/1.35 NA oil immersion lens. An
+excitation wavelength of 488 nm was used (Krypton-Argon multiline laser), and emissions of 500–550 nm were detected.
+Image Processing
+In IPLab-Spectrum, each series of images was optimized by histogram stretching and converted to TIFF files. For each series, a
+script was written in Corel Photo Paint to crop, adjust contrast,
+and sharpen. All frames of the series were processed identically.
+Selected frames were built into montages in Corel Draw or PowerPoint. Quantification of fluorescence intensities for both GFP and
+rhodamine was performed using the IPLab-Spectrum software.
+Acknowledgments
+We thank Dr. Saskia van Es for helpful discussions and technical
+assistance, Mr. Rodrigo Bustos for his assistance with the fluorescence microscopy, and Mr. Brian Kang for help with the cloning of
+CRAC-GFP. We are also grateful to Dr. Denis Wirtz for providing
+the Latrunculin A and Dr. Pierre A. Coulombe for helpful discussions
+and excellent suggestions. Videos depicting similar experiments as
+the ones presented in this paper as well as GFP-tagged chemoattractant receptors and G proteins can be viewed at www.med.jhu.
+edu/devreotes. This work was supported by The American Cancer
+Society Grant DB-1c to P. N. D., National Institutes of Health Grant
+GM57874 to C. A. P. and P. N. D., and National Institutes of Health
+Grant GM33171 to D. B. M.
+Received July 8, 1998; revised August 13, 1998.
+
+Baggiolini, M. (1998). Chemokines and leukocyte traffic. Nature 392,
+565–568.
+Barak, L.S., Ferguson, S.S., Zhang, J., and Caron, M.G. (1997). A
+b-arrestin/green fluorescent protein biosensor for detecting G protein–coupled receptor activation. J. Biol. Chem. 272, 27497–27500.
+Caterina, M.J., and Devreotes, P.N. (1991). Molecular insights into
+eukaryotic chemotaxis. FASEB J. 5, 3078–3085.
+Chen, M.Y., Insall, R.H., and Devreotes, P.N. (1996). Signaling
+through chemoattractant receptors in Dictyostelium. Trends Genet.
+12, 52–57.
+Chen. M.Y., Long, Y., and Devreotes, P.N. (1997). A novel cytosolic
+regulator, Pianissimo, is required for chemoattractant receptor and
+G protein–mediated activation of the 12 transmembrane domain
+adenylyl cyclase in Dictyostelium. Genes Dev. 11, 3218–3231.
+Devreotes, P., Fontana, D., Klein, P., Sherring, J., and Theibert, A.
+(1987). Transmembrane signaling in Dictyostelium. Methods Cell
+Biol. 28, 299–331.
+Devreotes, P.N., and Zigmond, S.H. (1988). Chemotaxis in eukaryotic
+cells: a focus on leukocytes and Dictyostelium. Annu. Rev. Cell Biol.
+4, 649–686.
+Downey, G.P. (1994). Mechanisms of leukocyte motility and chemotaxis. Curr. Opin. Immunol. 6, 113–124.
+Ferguson, K.M., Lemmon, M.A., Schlessinger, J., and Sigler, P.B.
+(1994). Crystal structure at 2.2Å resolution of the pleckstrin homology domain from human dynamin. Cell 79, 199–209.
+Ferguson, K.M., Lemmon, M.A., Schlessinger, J., and Sigler, P.B.
+(1995). Structure of the high affinity complex of inositol trisphosphate with a phospholipase C pleckstrin homology domain. Cell 83,
+1037–1046.
+Fukui, Y., Lynch, T.J., Brzeska, H., and Korn, E.D. (1989). Myosin I is
+located at the leading edges of locomoting Dictyostelium amoebae.
+Nature 341, 328–331.
+Gerisch, G., Albrecht, R., Heizer, C., Hodgkinson, S., and Maniak,
+M. (1995). Chemoattractant-controlled accumulation of coronin at
+the leading edge of Dictyostelium cells monitored using a green
+fluorescent protein-coronin fusion protein. Curr. Biol. 5, 1280–1285.
+Gottwald, U., Brokamp, R., Karakesisoglou, I., Schleicher, M., and
+Noegel, A.A. (1996). Identification of a cyclases-associated protein
+(CAP) homologue in Dictyostelium discoideum and characterization
+of its interaction with actin. Mol. Biol. Cell 7, 261–272.
+Howard, P.K., Ahern, K.G., and Firtel, R.A. (1988). Establishment of
+a transient expression system for Dictyostelium discoideum. Nucleic
+Acids Res. 16, 2613–2623.
+Hughes, J.E., Kiyosawa, H., and Welker, D.L. (1994). Plasmid maintenance functions encoded on Dictyostelium discoideum nuclear
+plasmid Ddp1. Mol. Cell. Biol. 14, 6117–6124.
+Insall, R., Kuspa, A., Lilly, P.J., Shaulsky, G., Levin, L.R., Loomis,
+W.F., and Devreotes, P.N. (1994). CRAC, a cytosolic protein containing a pleckstrin homology domain, is required for receptor and
+G protein–mediated activation of adenylyl cyclase in Dictyostelium.
+J. Cell Biol. 126, 1537–1545.
+Johnson, R.L., Vaughan, R.A., Caterina, M.J., van Haastert, P.J., and
+Devreotes, P.N. (1991). Overexpression of the cAMP receptor 1 in
+growing Dictyostelium cells. Biochemistry 30, 6982–6986.
+Jung, G., and Hammer, J.A., III (1990). Generation and characterization of Dictyostelium cells deficient in a myosin I heavy chain isoform.
+J. Cell Biol. 133, 305–323.
+
+References
+
+Koshland, D.E. (1977). A response regulator model in a simple sensory system. Science 196, 1055–1063.
+
+Aizawa, H., Fukui, Y., and Yahara, I. (1997). Live dynamics of Dictyostelium cofilin suggests a role in remodeling actin latticework into
+bundles. J. Cell Sci. 110, 2333–2344.
+
+Kreitmeier, M., Gerisch, G., Heizer, C., and Muller-Taubenberger, A.
+(1995). A talin homologue of Dictyostelium rapidly assembles at the
+leading edge of cells in response to chemoattractant. J. Cell Biol.
+129, 179–188.
+
+Alex, L.A., and Simon, M.I. (1994). Protein histidine kinases and
+signal transduction in prokaryotes and eukaryotes. Trends Genet.
+10, 133–138.
+Araki, T., Gamper, M., Early, A., Fukuzawa, M., Abe, T., Kawata, T.,
+Kim, E., Firtel, R.A., and Williams, J.G. (1998). Developmentally and
+spatially regulated activation of a Dictyostelium STAT protein by a
+serpentine receptor. EMBO J. 17, 4018-4028.
+
+Krump, E., Sanghera, J.S., Pelech, S.L., Furuya, W., and Grinstein,
+S. (1997). Chemotactic peptide N-formyl-met-leu-phe activation of
+p38 mitogen-activated protein kinase (MAPK) and MAPK-activated
+protein kinase-2 in human neutrophils. J. Biol. Chem. 272, 937–944.
+Laemmli, U.K. (1970). Cleavage of structural proteins during the
+assembly of the head of bacteriophage T4. Nature 227, 680–685.
+
+Polarized G Protein Signaling in Directed Cell Movement
+91
+
+Lai, C.F., Ripperger, J., Morella, K.K., Jurlander, J., Hawley, T.S.,
+Carson, W.E., Kordula, T., Caligiuri, M.A., Hawley, R.G., Fey, G.H.,
+and Baumann, H. (1996). Receptors for interleukin (IL)-10 and IL-6type cytokines use similar signaling mechanisms for inducing transcription through IL-6 response elements. J. Biol. Chem. 271, 13968–
+13975.
+Laudanna, C., Campbell, J.J., and Butcher, E.C. (1997). Elevation of
+intracellular cAMP inhibits RhoA activation and integrin-dependent
+leukocyte adhesion induced by chemoattractants. J. Biol. Chem.
+272, 24141–24144.
+Lauffenburger, D.A., and Horwitz, A.F. (1996). Cell migration: a physically integrated molecular process. Cell 84, 359–369.
+Lemmon, M.A., Ferguson, K.M., and Schlessinger, J. (1996). PH
+domains: diverse sequences with a common fold recruit signaling
+molecules to the cell surface. Cell 85, 621–624.
+Lilly, P.J., and Devreotes, P.N. (1994). Identification of CRAC, a
+cytosolic regulator required for guanine nucleotide stimulation of
+adenylyl cyclase in Dictyostelium. J. Biol. Chem. 269, 14123–14129.
+Lilly, P.J., and Devreotes, P.N. (1995). Chemoattractant and GTPgSmediated stimulation of adenylyl cyclase in Dictyostelium requires
+translocation of CRAC to membranes. J. Cell Biol. 129, 1659–1665.
+Maeda, M., Aubry, L., Insall, R., Gaskins, C., Devreotes, P.N., and
+Firtel, R.A. (1996). Seven helix chemoattractant receptors transiently
+stimulate mitogen-activated protein kinase in Dictyostelium. Role
+of heterotrimeric G proteins. J. Biol. Chem. 271, 3351–3354.
+Maniak, M., Rauchenberger, R., Albrecht, R., Murphy, J., and Gerisch, G. (1995). Coronin involved in phagocytosis: dynamics of particle-induced relocalization visualialized by green fluorescent protein
+tag. Cell 83, 915–924.
+Oancea, E., Teruel, M.N., Quest, A.F., and Meyer, T. (1998). Green
+fluorescent protein (GFP)-tagged cystein-rich domains from protein
+kinase C as fluorescent indicators for diacylglycerol signaling in
+living cells. J. Cell Biol. 140, 485–498.
+Parent, C.A., and Devreotes, P.N. (1995). Isolation of inactive and
+G protein–resistant adenylyl cyclase mutants using random mutagenesis. J. Biol. Chem. 270, 22693–22696.
+Parent, C.A., and Devreotes, P.N. (1996a). Molecular genetics of
+signal transduction in Dictyostelium. Annu. Rev. Biochem. 65,
+411–440.
+Parent, C.A., and Devreotes, P.N. (1996b). Constitutively active adenylyl cyclase mutant requires neither G proteins nor cytosolic regulators. J. Biol. Chem. 271, 18333–18336.
+Peracino, B., Borleis, J., Jin, T., Westphal, M., Schwartz, J.M., Wu,
+L., Bracco, E., Gerisch, G., Devreotes, P., and Bozzaro, S. (1998).
+G protein b-subunit-null mutants are impaired in phagocytosis and
+chemotaxis due to inappropriate regulation of the actin cytoskeleton. J. Cell Biol. 141, 1529–1537.
+Shaw, G. (1996). The pleckstrin homology domain: an intriguing
+multifunctional protein module. Bioessays 18, 35–46.
+Sussman, M. (1987). Cultivation and synchronous morphogenesis
+of Dictyostelium under controlled experimental conditions. Methods
+Cell Biol. 28, 9–29.
+Theibert, A., and Devreotes, P.N. (1986). Surface receptor-mediated
+activation of adenylate cyclase in Dictyostelium. Regulation by guanine nucleotides in wild-type cells and aggregation deficient mutants. J. Biol. Chem. 261, 15121–15125.
+Thompson, H.L., Marshall, C.J., and Saklatvala, J. (1994). Characterization of two different forms of mitogen-activated protein kinase
+kinase induced in polymorphonuclear leukocytes following stimulation by N-formylmethionyl-leucyl-phenylalanine or granulocytemacrophage colony-stimulating factor. J. Biol. Chem. 269, 9486–
+9492.
+Venkateswarlu, K., Oatey, P.B., Tavare, J.M., and Cullen, P.J. (1998).
+Insulin-dependent translocation of ARNO to the plasma membrane
+of adipocytes requires phosphatidylinositol 3-kinase. Curr. Biol. 8,
+463–466.
+Westphal, M., Jungbluth, A., Heidecker, M., Muhlbauer, B., Heizer,
+C., Schwartz, J.M., Marriott, G., and Gerisch, G. (1997). Microfilament dynamics during cell movement and chemotaxis monitored
+using a GFP-actin fusion protein. Curr. Biol. 7, 176–183.
+
+Xiao, Z., Zhang, N., Murphy, D.B., and Devreotes, P.N. (1997). Dynamic distribution of chemoattractant receptors in living cells during
+chemotaxis and persistent stimulation. J. Cell Biol. 139, 365–374.
+Zigmond, S.H. (1974). Mechanisms of sensing chemical gradients
+by polymorphonuclear leukocytes. Nature 249, 450–452.
+Zigmond, S.H., Levitsky, H.I., and Kreel, B.J. (1981). Cell polarity:
+an examination of its behavioral expression and its consequences
+for polymorphonuclear leukocyte chemotaxis. J. Cell Biol. 89,
+585–592.
+
+

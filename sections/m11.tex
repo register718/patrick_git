@@ -1,0 +1,36 @@
+\subsection{Module 11: Extracellular Phosphodiesterase PdsA and Inhibitor PdiA}\label{sec:m11}
+
+\paragraph{Role.}
+The level of extracellular cAMP is controlled by a phosphodiesterase that is secreted by the cells~\cite{sucgang1997}; extracellular cAMP is degraded predominantly by DdPDE1 (PdsA) and its close homologue~\cite{bader2007}.
+Cells lacking PdsA respond chemotactically to a narrower range of cAMP concentrations and do not form streams at low density~\cite{garcia2009}, and PdsA-null cells cannot move in a coordinated manner in mounds~\cite{sucgang1997}.
+The \emph{pdsA} gene has separate promoters for growth, aggregation and late development~\cite{faure1990}, and the aggregative promoter is switched off after aggregation~\cite{weening2003}.
+PdsA is inhibited by a secreted glycoprotein, PdiA, with 1:1 stoichiometry~\cite{franke1981}; the inhibitor is absent in growing cells and appears after transfer to starvation buffer~\cite{franke1981}, and its level is regulated independently by exogenous cAMP~\cite{yeh1978}.
+Module~11 therefore contains the synthesis and secretion chain of the enzyme, a starvation-induced inhibitor that is repressed by the cAMP history, and their reversible binding.
+
+\input{sections/tables/tab_m11_rxn}
+\input{sections/tables/tab_m11_const}
+
+\paragraph{Reactions.}
+\begin{description}\itemsep0pt
+\item[11.D1a/b] PdsA is synthesised in the cell at a constitutive rate (11.D1a) and at a starvation-induced rate gated by $P(H)$ (11.D1b), so that the enzyme appears with development. The gate depends only on the developmental variable $H$; the model contains no dependence of PdsA synthesis on pulses of cAMP.
+\item[11.D2/D3] The enzyme is transferred from an intracellular precursor to the cell surface (11.D2) and shed into the medium (11.D3) as PdsA$_e$, which diffuses. Only the secreted form clears extracellular cAMP; the surface-bound form is an explicit, non-diffusing species.
+\item[11.D4] All protein states turn over with one rate constant. The reactions for the secreted enzyme and the complex run in cells and on free voxels, so that clearance takes place everywhere.
+\item[11.F1/F2] A per-voxel low-pass filter of cAMP$_e$, cAMP$_s$, lets PdiA repression follow the envelope of the pulse train and not individual pulses. Its time constant of 42\,min is a modelling choice.
+\item[11.E1/E2] PdiA is synthesised under the same starvation gate as PdsA and repressed by cAMP$_s$~\cite{yeh1978}, and degraded like PdsA.
+\item[11.E3] PdsA and PdiA bind reversibly with 1:1 stoichiometry~\cite{franke1981}. The inhibition is titratable: as cells pack, the total pools scale with density, and the fraction of enzyme that is complexed rises.
+\item[11.E4] The complex retains a small residual activity, $10^{-3}$ of the free enzyme.
+\item[11.2] Free PdsA hydrolyses cAMP$_e$ (the enzyme is a catalyst and is not consumed); this is the primary clearance of the extracellular signal.
+\end{description}
+
+\paragraph{Constants and the signal range.}
+Because PdsA$_e$ is produced per cell and lost per voxel, its steady-state level, and hence the clearance strength $k_\mathrm{eff}=k_\mathrm{pdsa}[\mathrm{PdsA}_e]$, is proportional to the cell density $\rho$.
+The range over which a pulse signals, $\lambda=\sqrt{D_\mathrm{cAMP}/k_\mathrm{eff}}\propto\rho^{-1/2}$, scales like the mean cell spacing, so that $\lambda$ in units of cell spacings is independent of density for fixed rates, and the inhibitor titration breaks this only in the harmful direction: the fraction of complexed enzyme rises from 4\,\% at $\rho=7.7\times10^{-4}$ to about 70\,\% at $6\times10^{-2}$ cells per voxel, and $\lambda$ in spacings grows as cells aggregate.
+The synthesis constants $k_\mathrm{bas}$ and $k_\mathrm{ind}$ were raised by a factor of 16 above the values that reproduce a 2\,$\mu$M enzyme field at one cell per 36 voxels.
+With the smaller values the clearance constant was $k_\mathrm{eff}=9.6\times10^{-4}\,\mathrm{s^{-1}}$, so that $\lambda\approx600\,\mu$m covered the whole population and the population fired as one synchronous global flash; at the present values $k_\mathrm{eff}=1.5\times10^{-2}\,\mathrm{s^{-1}}$ (clearance time 65\,s) and $\lambda\approx150\,\mu$m for a mean spacing of 50\,$\mu$m, i.e.\ about 1--3 cell spacings depending on the domain.
+The enzyme field is initialised with its steady-state profile and not with a uniform value: the world boundary is absorbing, and $\sqrt{D_{\mathrm{PdsA}}/k_\mathrm{deg}}=361\,\mu$m is comparable to the domain, so that the boundary and not the degradation is the dominant sink, and the sustained field is 4.4--4.7 times higher at the centre than at the edge of the cell region.
+The steady state depends on the geometry, so $\lambda$ has to be quoted per geometry.
+
+Two constants deviate from measurements and should be read as model choices.
+The measured dissociation constant of the PdsA--PdiA complex is about $10^{-10}$\,M~\cite{franke1981}; the model uses $1\,\mu$M, so that the binding equilibrates within seconds and clearance is not delayed.
+And the effective clearance constant, $1.2\times10^{5}\,\mathrm{M^{-1}s^{-1}}$, is set by the required clearance time and is not a measured $k_\mathrm{cat}/K_M$; the apparent $K_M$ of DdPDE1 is $0.8\,\mu$M~\cite{bader2007}, so the linear rate law overestimates clearance during pulses whose peak exceeds about $1\,\mu$M; the model compensates with a high enzyme concentration, and the surface pool of PdsA is $2.5\times10^{6}$ molecules per cell, which is a consequence of the slow shedding rate and the required flux and not a measured abundance.
+The extracellular diffusion constant of cAMP is reduced from the free-solution value of $4.44\times10^{-6}$\,cm$^2$/s~\cite{dworkin1977} to $350\,\mu\mathrm{m^2/s}$, because cells are not excluded volumes on the lattice.

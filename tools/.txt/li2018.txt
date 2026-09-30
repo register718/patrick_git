@@ -1,0 +1,1768 @@
+SEE CORRECTION FOR THIS ARTICLE
+
+Mutually inhibitory Ras-PI(3,4)P2 feedback loops
+mediate cell migration
+Xiaoguang Lia,b,1, Marc Edwardsa,1,2, Kristen F. Swaneyc, Nilmani Singhd, Sayak Bhattacharyae, Jane Borleisa, Yu Longa,
+Pablo A. Iglesiase, Jie Chend, and Peter N. Devreotesa,2
+a
+Department of Cell Biology, School of Medicine, Johns Hopkins University, Baltimore, MD 21205; bDepartment of Biological Chemistry, School of Medicine,
+Johns Hopkins University, Baltimore, MD 21205; cDepartment of Biomedical Engineering, Johns Hopkins University, Baltimore, MD 21218; dDepartment of
+Cell and Developmental Biology, University of Illinois at Urbana–Champaign, Urbana, IL 61801; and eDepartment of Electrical and Computer Engineering,
+Whiting School of Engineering, Johns Hopkins University, Baltimore, MD 21205
+
+Signal transduction and cytoskeleton networks in a wide variety
+of cells display excitability, but the mechanisms are poorly understood. Here, we show that during random migration and in
+response to chemoattractants, cells maintain complementary
+spatial and temporal distributions of Ras activity and phosphatidylinositol (3,4)-bisphosphate [PI(3,4)P2]. In addition, depletion of
+PI(3,4)P2 by disruption of the 5-phosphatase, Dd5P4, or by recruitment of 4-phosphatase INPP4B to the plasma membrane, leads to
+elevated Ras activity, cell spreading, and altered migratory behavior. Furthermore, RasGAP2 and RapGAP3 bind to PI(3,4)P2, and the
+phenotypes of cells lacking these genes mimic those with low
+PI(3,4)P2 levels, providing a molecular mechanism. These findings suggest that Ras activity drives PI(3,4)P2 down, causing the PI(3,4)P2binding GAPs to dissociate from the membrane, further activating
+Ras, completing a positive-feedback loop essential for excitability.
+Consistently, a computational model incorporating such a feedback loop in an excitable network model accurately simulates
+the dynamic distributions of active Ras and PI(3,4)P2 as well as cell
+migratory behavior. The mutually inhibitory Ras-PI(3,4)P2 mechanisms we uncovered here provide a framework for Ras regulation
+that may play a key role in many physiological processes.
+
+|
+
+|
+
+|
+
+signal transduction phosphoinositides chemotaxis positive feedback loop
+excitability
+
+|
+
+important regulators of back activities. PI(3,4,5)P3 can also be
+converted to PI(3,4)P2. This phosphoinositide has been associated with phagocytosis and pinocytosis, but its role in cell migration is relatively understudied (23–29).
+In a previous study, we identified a pleckstrin homology (PH)
+domain-containing Dictyostelium-specific back protein, Callipygian (CynA), which binds to membranes, dissociates selectively
+from protrusions, and associates with the rear of polarized cells
+(30). This promotes polarity and increases migration efficiency.
+Here, we characterize CynA’s binding partner PI(3,4)P2 and
+provide evidence for the existence of a mutually inhibitory
+positive-feedback loop between Ras and PI(3,4)P2. This regulatory feedback loop appears to be a major regulator of the signal
+transduction network excitability, and therefore a critical controller of cellular protrusions and migration modes.
+Results
+Back-to-Front Gradient and Transient Chemoattractant-Induced
+Depletion of PI(3,4)P2. Fig. 1 shows the behavior of CynA in re-
+
+lation to spontaneous actin polymerization in a randomly migrating cell. As previously reported (30), a tandem PH-domain
+biosensor, tPHCynA-KikGR, is depleted from actin-rich protrusions at the front of cells (Fig. 1A and Movie S1). A resulting
+Significance
+
+C
+
+ell migration mediates a large number of key physiological
+activities during development and in the adult. These processes require coordination of signal transduction and cytoskeletal events, which regulate the dynamics and localization of
+cellular protrusions and contractions. For instance, local activations of Ras GTPases and PI3K pathways link to Rho GTPases,
+which mediate cytoskeletal rearrangements (1–9).
+The behavior of the signal transduction and the cytoskeleton
+networks suggest that they are excitable and has led to the “excitable network hypothesis” for cell migration (10). In migrating
+Dictyostelium cells, waves of Ras and PI3K activation propagate
+along the cell cortex, while back protein, PTEN, dissociates from
+the membrane, generating coordinated “shadow” waves. Theoretical models of excitability involving activator–inhibitor feedback loops have been remarkably successful in accounting for the
+behaviors of migrating cells, but the molecular events comprising
+the loops are not well understood (11–19).
+Phosphoinositides have played a prominent role in the molecular definition of excitable signal transduction networks.
+Phosphatidylinositol (3,4,5)-trisphosphate [PI(3,4,5)P3] and
+phosphatidylinositol (4,5)-bisphosphate [PI(4,5)P2], the product
+of PTEN, have come to characterize the front (F) and back (B)
+states in excitable network models (20). Evidence of PI(4,5)P2
+accumulation at the rear of cells and in the furrow during cytokinesis has supported these models (21, 22). Synthetic depletion
+of PI(4,5)P2 leads to significant hyperactivation of cellular protrusions (16). However, in migrating cells, back-to-front gradients of PI(4,5)P2 are modest, suggesting the existence of more
+www.pnas.org/cgi/doi/10.1073/pnas.1809039115
+
+Cell migration is central in physiological and pathological conditions such as immune response and cancer metastasis. The
+excitable network hypothesis can account for recent observations of propagating waves of signal transduction and
+cytoskeleton events as well as behaviors of migrating cells.
+However, the molecular feedback loops involved in these
+networks that bring about excitability are poorly understood.
+Here, we provide evidence for a positive-feedback loop based
+on a mutual inhibitory interaction between Ras and phosphatidylinositol (3,4)-bisphosphate [PI(3,4)P2]. Our results uncover
+an important role of PI(3,4)P2 in the regulation of Ras activity,
+which may extend well beyond cell migration.
+Author contributions: X.L., M.E., and P.N.D. designed research; X.L., M.E., K.F.S., N.S., S.B.,
+J.B., and Y.L. performed research; X.L. and P.N.D. contributed new reagents/analytic tools;
+X.L., M.E., N.S., S.B., P.A.I., and J.C. analyzed data; and X.L., M.E., and P.N.D. wrote
+the paper.
+Reviewers: A.H., University of Wisconsin–Madison; and M.W., National University
+of Singapore.
+The authors declare no conflict of interest.
+This open access article is distributed under Creative Commons Attribution-NonCommercialNoDerivatives License 4.0 (CC BY-NC-ND).
+1
+
+X.L. and M.E. contributed equally to this work.
+
+2
+
+To whom correspondence may be addressed. Email: pnd@jhmi.edu or mcedwards@
+amherst.edu.
+
+This article contains supporting information online at www.pnas.org/lookup/suppl/doi:10.
+1073/pnas.1809039115/-/DCSupplemental.
+Published online September 7, 2018.
+
+PNAS | vol. 115 | no. 39 | E9125–E9134
+
+CELL BIOLOGY
+
+Downloaded from https://www.pnas.org by Universitaetsbibliothek Erlangen-Nuernberg on September 30, 2026 from IP address 131.188.6.13.
+
+Contributed by Peter N. Devreotes, July 26, 2018 (sent for review May 29, 2018; reviewed by Anna Huttenlocher and Min Wu)
+
+LimE
+
+B
+
+Merge
+
+tPH-CynA
+
+LimE
+
+20 µm
+
+tPH-CynA
+
+20 µm
+
+A
+
+1min
+
+1min
+
+D PI(3,4,5)P3 PI(4,5)P2 PI(3,4)P2 E
+
+cPHTAPP1
+
+PI(3,4,5)P3
+PI(4,5)P2
+PI(3,4)P2
+
+800
+400
+0
+
+D
+i
+GD
+FP
+D
+iD
+G
+FP
+D
+i
+GD
+FP
+
+PIP3
+
+DiD
+
+PI(3,4)P2
+
+Number of Spots
+
+tPHCynA
+
+tPH-CynAGFP
+
+CCynA
+
+H -5
+
+0
+
+5
+
+50
+
+100
+
+380s
+
+-10
+
+0
+
+I
+
+10s
+
+*
+
+D
+40
+
+* 100
+
+* 160
+
+* 220s
+
+60s
+
+*
+
+K 240
+tPH-CynA crescent angle
+
+-60
+
+360s
+
+tPH-CynA
+
+Merge
+tPH-CynA
+
+J
+
+60s
+
+-60s
+
+tPH-CynA
+
+G
+
+PH-Crac
+
+20 µm
+
+tPH-CynA
+
+Merge
+
+LimE
+
+20uM
+
+Downloaded from https://www.pnas.org by Universitaetsbibliothek Erlangen-Nuernberg on September 30, 2026 from IP address 131.188.6.13.
+
+F ttPH-CynA
+
+180
+
+120
+0
+
+80
+
+160
+Time (s)
+
+240
+
+320
+
+Fig. 1. Back-to-front gradient and transient chemoattractant-induced depletion of PI(3,4)P2. (A) Growth-stage wild-type Ax3 cell coexpressing tPHCynA-KikGR
+(green) and LimE-RFP (red). (Scale bar: 5 μm.) (B) Kymographs of tPHCynA and LimE intensity on the perimeter of cell in A undergoing random migration.
+Confocal images collected at 5-s intervals. (C) Binding of supernatants from cells expressing full-length CynA-GFP, tPHCynA-GFP, or cPHTAPP1-GFP to PIP strips.
+(D) “Pull-down” assay showing TIRF images of tPHCynA-GFP binding to tethered vesicles containing PI(3,4,5)P3, PI(4,5)P2, or PI(3,4)P2 (Top row). DiD staining of
+vesicles (Bottom row). (Scale bar: 5 μm.) (E) Quantification of tPHCynA-GFP binding in pull-down assays. Background fluorescence spots in the GFP channel
+obtained by adding lysates to vesicles lacking PIs were subtracted from all samples. Error bars are SEM. (F) Growth-stage wild-type Ax2 cell coexpressing
+ttPHCynA-GFP (green) and LimE-RFP (red). (Scale bar: 5 μm.) (G) Four-hour–stage wild-type Ax3 cells expressing PHCRAC-RFP and tPHCynA-GFP were treated with
+5 μM latrunculin A for 20 min and then stimulated with cAMP. Time-lapse confocal representative images showing redistributions of PHCRAC-RFP (red) and
+tPHCynA-GFP (green) in the same cell. Images were collected at −10, 0, and 10 s. (Scale bar: 5 μm.) (H) Confocal images of tPHCynA-GFP (Top) in independent
+experiment similar to that in A at representative times. Corresponding kymograph of cortical tPHCynA intensity (Bottom). (Scale bar: 5 μm.) (I) Field of 4-h–
+stage wild-type Ax3 cells expressing tPHCynA-KikGR 60 s before and 360 s after exposure to a micropipette containing 1 μM cAMP. (Scale bar: 10 μm.) (J)
+Time-lapse images of an individual cell in the micropipette assay. Kymograph of the cortical tPHCynA-KikGR intensity is shown at Bottom. (Scale bar: 5 μm.) (K)
+Fluctuations in the angle of the tPHCynA-GFP crescents. To determine the positions of the crescents, the angle was defined by measuring the angle formed by
+two lines: the line drawn between the centroid of the cell and the center of the crescent, and the line drawn between the centroid of the cell and the tip of
+the micropipette. Crescent fluctuations of four cells from experiments in I are shown (n = 6).
+
+gradient in tPHCynA-KikGR membrane association from back to
+front is apparent. Kymographs of the cell perimeter show that
+this dynamic relationship is tightly maintained as the cell migrates (Fig. 1B). A construct with four PH domains, ttPHCynAGFP, which may have greater sensitivity, detected a similar
+gradient, but it extended further along the sides toward the front
+in polarized cells (SI Appendix, Fig. S1A).
+E9126 | www.pnas.org/cgi/doi/10.1073/pnas.1809039115
+
+Several assays of supernatants from cells expressing CynAderived constructs indicate that these proteins are biosensors for
+PI(3,4)P2. When applied to filters spotted with multiple phosphoinositides (“PIP strips”), CynA-GFP, tPHCynA-GFP, and
+ttPHCynA-GFP bound strongly to PI(3,4)P2, slightly to PI(3,4,5)P3,
+and negligibly to all other lipids (Fig. 1C and SI Appendix, Fig. S1
+B and C). Controls with supernatants from cells expressing
+Li et al.
+
+Deletion of OCRL Homolog Dd5P4 Leads to Lowered PI(3,4)P2 and
+Elevated Ras and Rap Activity. Purified Lowe oculocerebrorenal
+
+syndrome protein (OCRL) homolog, Dd5P4, has been shown to
+generate PI(3,4)P2 from PI(3,4,5)P3 in vitro, and we reasoned
+Li et al.
+
+that deletion of Dd5P4 might lower levels of PI(3,4)P2 (24).
+Indeed, the membrane-to-cytosolic ratio of tPHCynA-KikGR was
+3.3 ± 0.2 in wild-type cells but 1.2 ± 0.1 in Dd5P4− cells, suggesting that the PI(3,4)P2 levels are lower (Fig. 2 A and B). We
+noted that the Dd5P4− cells were also larger than wild-type cells.
+Expression of Dd5P4-GFP restored Dd5P4− cell size to wildtype proportions and partially restored cell motility, further
+demonstrating the important role of this activity (SI Appendix,
+Fig. S3 A and B).
+The Dd5P4− cells displayed significantly increased random
+migratory behavior and enhanced Ras and Rap activity, consistent with the role of these GTPases in regulating protrusive activity
+(33). Wild-type cells expressing Ras activity sensor, RBD-GFP,
+showed typical amoeboid profiles with several 1- to 2-μm-sized
+pseudopods with elevated activity at the membrane. In contrast, the Dd5P4− cells were dramatically spread with large wide
+fronts decorated with RBD-GFP (Fig. 2C and Movie S5).
+Kymographs and quantification of the cell perimeter showed
+that, while wild-type cells typically display one to three discreet
+patches of activity, the Dd5P4− cells displayed higher Ras activity, which occupied a significant portion of the cell perimeter
+(Fig. 2D). The basal surface area and relative extent of Ras activation in wild type were 97 ± 4.4 μm2 and 0.11 ± 0.02, while in
+Dd5P4− cells, they were 256 ± 13 μm2 and 0.32 ± 0.04 (Fig. 2 E
+and F). Also, PI(3,4,5)P3 levels were elevated (SI Appendix, Fig.
+S3C). Similar increases of Rap activity were observed using Rap
+biosensor RalGDS in Dd5P4− cells (Fig. 2 G–I). Furthermore,
+levels of phosphorylation of PKBR1 were elevated in Dd5P4−
+cells (SI Appendix, Fig. S4A).
+Consistent with these elevated activities, the Dd5P4− cells
+were often observed to oscillate, displaying a nearly isometric
+protrusion with high Ras activity, a strong retraction during
+which Ras activity was extinguished, followed by another global
+spreading event (Fig. 2J and Movie S6). Even though they
+appeared less polarized, the Dd5P4− cells moved apart and
+scattered more rapidly than wild-type cells (Fig. 2K and SI Appendix, Fig. S4B). The relative decrease in PI(3,4)P2 levels during
+stimulation with cAMP was blunted in the DdP5P4− versus wildtype cells (SI Appendix, Fig. S4 C and D).
+Lowering of PI(3,4)P2 by Exogenous INPP4B Leads to Hyperactive Cell
+Behavior. We sought to synthetically lower PI(3,4)P2 using 4-
+
+phosphatase, INPP4B, to further demonstrate its role in regulation of cell behavior. We expressed a fragment of INPP4B
+fused to FRB, INPP4B510–924-FRB, in wild-type cells together
+with a plasma membrane-tethered FKBP and various biosensors.
+Upon rapamycin addition, INPP4B510–924-FRB was recruited to
+the membrane, and tPHCynA-GFP dissociated and moved to the
+cytosol (Fig. 3A). The decrease in PI(3,4)P2 on the membrane
+occurred gradually and reached its lowest levels within 10 min
+(Fig. 3 B and C).
+Lowering PI(3,4)P2 led to an increase in cellular spreading and
+protrusive activity. Fig. 3D shows a control cell expressing FRB,
+and two examples of cells expressing INPP4B510–924-FRB. FRB
+recruitment had little effect, while bringing INPP4B510–924-FRB
+to the membrane led to a substantial increase in area, perimeter,
+and protrusive activity (Fig. 3 D and E). Many cells intermittently
+displayed oscillations, undergoing periods of spreading and retraction, upon recruitment of INPP4B510–924-FRB (Fig. 3G and
+Movie S7). In contrast, control cells with recruitment of FRB
+showed only infrequent gentle oscillations (Fig. 3F). The highly
+active cells with recruited INPP4B510–924-FRB displayed greater
+random motility. The average speed increased from 3.6 ± 1.2 to
+8.9 ± 2.9 μm/min (Fig. 3H).
+We combined the two independent perturbations of lowering
+PI(3,4)P2 by expressing INPP4B510–924-FRB in the Dd5P4− cells.
+As shown in Fig. 3 I and J, the cells became extremely spread on
+the surface with larger basal area, suggesting that the effects of
+PNAS | vol. 115 | no. 39 | E9127
+
+CELL BIOLOGY
+
+Downloaded from https://www.pnas.org by Universitaetsbibliothek Erlangen-Nuernberg on September 30, 2026 from IP address 131.188.6.13.
+
+PHCrac-YFP showed preferential binding to PI(3,4,5)P3, to a lesser
+extent to PI(3,4)P2, while PH PLCδ-YFP showed binding to
+PI(4,5)P2 (SI Appendix, Fig. S1C). Similarly, in a total internal
+reflection fluorescence (TIRF) microscopy-based assay, CynAGFP, tPHCynA-GFP, and ttPHCynA-GFP bound specifically to
+surface-tethered lipid vesicles containing PI(3,4)P2, with little
+binding to vesicles containing PI(3,4,5)P3 or PI(4,5)P2, or controls (Fig. 1 D and E and SI Appendix, Fig. S1 D–K). Control
+supernatants from cells expressing PHPLCδ-GFP showed binding
+to PI(4,5)P2 (SI Appendix, Fig. S1L).
+In addition to its localization at the back, ttPHCynA-GFP was
+also found to be associated with focal patches at the base of
+protrusions at the front (Fig. 1F and Movie S2), as was another
+PI(3,4)P2 sensor, C-terminal PH domain of TAPP1 (cPHTAPP1GFP). On PIP strips, cPHTAPP1-GFP associated strongly with
+PI(3,4)P2 and slightly with PI(3,4,5)P3 (Fig. 1C), like tPHCynA-GFP.
+However, association of cPHTAPP1-GFP with the back of the cell
+was not apparent (SI Appendix, Fig. S2A). In mammalian cells,
+TAPP1 has been reported to localize to the front (31), while in
+zebrafish neutrophils, it was found at the leading and trailing edges
+(26). To resolve these apparent discrepancies, we reexamined the
+distribution of the cPHTAPP1-GFP. We reasoned that perhaps the
+TAPP1 biosensor lacked sufficient sensitivity for detection at
+the back of the cell during live-cell imaging. To assess this
+possibility, we fixed cells. Under these conditions, it was clear
+that cPHTAPP1-RFP was also present on the membrane in a
+gradient from back to front that resembled that detected by
+tPHCynA-KikGR (SI Appendix, Fig. S2A).
+Since PI(3,4)P2 is a product of PI(3,4,5)P3, which increases
+during cell activation, one might expect PI(3,4)P2 to also increase;
+instead, it decreased. In cells treated with latrunculin A,
+tPH CynA -KikGR displayed a relatively uniform distribution
+around the cell perimeter. Within 10 s of addition of chemoattractant, cAMP, tPHCynA-KikGR dissociated from the membrane and moved to the cytosol, indicating a decrease in PI(3,4)P2.
+Simultaneously, PI(3,4,5)P3 on the membrane increased as previously shown (Fig. 1G). The PI(3,4)P2 decrease was transient
+with levels returning to baseline and exceeding it by 380 s (Fig.
+1H, SI Appendix, Fig. S2B, and Movie S3). The magnitude of the
+response in individual cells varied, but the kinetics were similar
+(SI Appendix, Fig. S2C). Using a fixation protocol, we also detected a drop of cPHTAPP1-RFP binding to the membrane (SI
+Appendix, Fig. S2 D and E). We also assayed phosphoinositide
+levels and phosphorylation of downstream Ras effector PKBR1
+following lysis in the presence and absence of cAMP plus GTPγS.
+Consistent with previous results, PI(3,4,5)P3 and p-PKBR1 levels
+increased and PI(4,5)P2 levels were unchanged; however, PI(3,4)P2
+levels decreased (SI Appendix, Fig. S2 F and G). Furthermore, in
+cells expressing constitutively active Ras mutant, RasCQ62L,
+which are known to have elevated PI(3,4,5)P3 levels, tPHCynAKikGR was no longer detectable on the membrane (SI Appendix, Fig. S2 H–J).
+When latrunculin A-treated cells were exposed to a gradient
+of chemoattractant, PI(3,4)P2 levels initially decreased, and then
+within several minutes showed a continuous accumulation toward the low side of the gradient (Fig. 1 I and J and Movie S4).
+Interestingly, the angle of orientation of the rear-facing crescent
+of PI(3,4)P2 oscillated with respect to the axis of the micropipette (Fig. 1K). Oscillations in the orientation of PI(3,4,5)P3
+crescents facing the gradient have been reported (32). Taken
+together, these observations show that the behavior of PI(3,4)P2
+is diametrically opposed to that of front events like PI(3,4,5)P3
+generation and Ras activation.
+
+B
+
+Dd5p4-
+
+4
+
+***
+
+2
+0
+Ax3
+
+Dd5P4-
+
+Dd5p4***
+400
+300
+200
+100
+0
+
+Ax3
+
+H
+0s
+
+30s
+
+Ax3
+
+60s
+
+30µm
+
+G
+
+30µm
+Dd5p4-
+
+J
+
+K Ax3
+0
+
+1
+
+2
+
+3
+
+Ax3
+
+Dd5P4-
+
+20s
+
+Dd5p4-
+
+***
+
+0.4
+
+0.0
+Ax3
+
+Dd5P4-
+
+I
+**
+
+1.0
+0.5
+0.0
+Ax3
+
+Dd5P4-
+
+Dd5p4-
+
+4
+
+Dd5p4-
+
+RBD-GFP
+
+Ax3
+RBD-GFP
+
+Downloaded from https://www.pnas.org by Universitaetsbibliothek Erlangen-Nuernberg on September 30, 2026 from IP address 131.188.6.13.
+
+RalGDS-GFP
+
+20s
+
+F 0.8
+Ras Activation
+(RBD patches)
+
+Cell area (um²)
+
+50 µm
+
+E
+
+Rap1 Activation
+(RalGDS patches)
+
+5min
+
+5min
+
+50 µm
+
+D
+
+Ax3
+
+C Ax3
+6
+RBD-GFP
+
+Dd5P4-
+
+Membrane/cytosol
+
+Ax3
+
+tPH-CynA
+
+A
+
+0 4 8 12 min
+
+Fig. 2. Deletion of OCRL homolog Dd5P4 leads to lowered PI(3,4)P2 and elevated Ras activity. (A) Representative confocal images of tPHCynA-KikGR in growthstage, wild-type Ax3 and Dd5P4− cells treated with 5 μM latrunculin A. (Scale bar: 10 μm.) (B) Ratio of membrane to cytosol intensity of tPHCynA-KikGR in wildtype Ax3 and Dd5P4− cells; mean ± SEM (n = 18). (C) Representative confocal images of RBD-GFP in migrating growth-stage, wild-type Ax3 and Dd5P4− cells.
+(Scale bar: 10 μm.) (D) Kymographs of cortical RBD-GFP intensities in representative individual cells from C. (E and F) Basal surface area (E) and fraction of cell
+perimeter covered by RBD-GFP patches (F) in cells from C. *P < 0.05 versus Ax3 group; mean ± SEM (n = 18). (G) Elevated RalGDS activity in Dd5P4− cells.
+Representative confocal images of Ax3 and Dd5P4− cells expressing RalGDS-GFP are shown. (Scale bar: 5 μm.) (H) Kymographs of movies of cells in G. (I)
+Quantification of RalGDS patch activity in Ax3 and Dd5P4− cells. Fraction of the perimeter occupied by RalGDS patches was quantified (Materials and Methods);
+n = 35. (J) Time-lapse confocal images of individual cells from independent experiment similar to that in C highlighting oscillatory Dd5P4− cell. (Scale bar: 10 μm.)
+(K) Color-coded tracing of cell outlines at 4-min intervals of several cells from independent experiment similar to that in C. (Scale bar: 10 μm.)
+
+the two perturbations were additive. Recruitment of INPP4B510–924FRB is not expected to increase PI(3,4,5)P3 levels as likely occurs in Dd5P4− cells (SI Appendix, Fig. S3C). This suggests that
+the increase of cell spreading and enhanced random motility in
+these cells are primarily due to lowered PI(3,4)P2.
+The Contribution of PI(3,4,5)P3 to Ras Activity. We further dissected
+the relative contributions of PI(3,4,5)P3 to PI(3,4)P2 levels and
+Ras activity by inhibiting PI3K. The sensitivity of the elevated
+Ras activity in wild-type and Dd5P4− cells to PI3K inhibition was
+time dependent. Wild-type cells treated with LY294002 immediately round up with few RBD patches; after about 30–45 min,
+the RBD patches largely return, and the cells resume random
+motility (34) (Fig. 4 A and B). Surprisingly, PI(3,4,5)P3 depletion
+led to dramatically increased PI(3,4)P2 levels as the cells
+rounded up. As the cells recovered, they had increased polarity
+(SI Appendix, Fig. S4E). The Dd5P4− cells are more resistant to
+LY294002 treatment, remaining more active than wild-type cells.
+The broad bands of RBD along the cell perimeter were broken
+into two to three smaller patches, but after about 25–40 min the
+cells recovered toward the original phenotype (Fig. 4A and
+Movie S8). Also, in Dd5P4− cells, the increase in PI(3,4)P2 upon
+PI(3,4,5)P3 depletion was blunted.
+Next, we examined PI(3,4)P2 levels and Ras activities in pten−
+cells that have elevated PIP3 levels and compared them with
+E9128 | www.pnas.org/cgi/doi/10.1073/pnas.1809039115
+
+those in the Dd5P4− cells. In latrunculin A-treated cells, the
+relative PI(3,4)P2 levels were 1, 0.94, and 0.53 in wild-type, pten−,
+and Dd5P4− cells, respectively (Fig. 4 C and D); Ras activity is
+confined to 0–2 patches in Ax3 cells, whereas in Dd5P4− cells
+the patches occupied almost the entire cell perimeter. In pten−
+cells, the patches of Ras activity were smaller than those in wildtype cells; however, there were many more patches over time
+(Fig. 4 E–G). Taken together, these observations suggest that the
+elevated Ras activity in Dd5P4− cells is largely dependent on
+decreased PI(3,4)P2. Nevertheless, there is a contribution of
+feedback from PI(3,4,5)P3.
+RasGAP2 and RapGAP3 Bind to and Are Regulated by PI(3,4)P2. To
+further explore the activation of Ras and Rap coinciding with the
+decreases in PI(3,4)P2, we examined the behavior of RasGAP
+family member, RasGAP2 (RG2), and RapGAP family member,
+RapGAP3 (RG3) (35). The position of these proteins in the
+family hierarchies and domain structures are shown in Fig. 5 A
+and B. We first noticed that these proteins localized to cupshaped protrusions at the leading edge of the cell but were displaced to the base of the structures away from F-actin biosensor
+LimE (Fig. 5 C and D, arrows, and Movies S9 and S10). In addition, RG2 and RG3 associated strongly with the rear of the
+cell, away from the sites of protrusion. Careful examination of
+the kinetics of the formation of the cup-shaped protrusions
+Li et al.
+
+A
+
+INPP4B
+
+PI(3,4)P2
+
+B
+
+Merge
+
+Rapa
+
+C
+
+Rapa
+
+0.6
+
+0.0
+0
+
+8
+Time (min)
+
+16
+
+20µM
+
++Rapa
+
+Fractional Change
+
+-Rapa
+
+1.2
+
+5min
+
+D
+-10
+
+-5
+
+0
+
+5
+
+10
+
+15
+
+20
+
+25
+
+30
+
+35
+
+40
+
+-5
+
+0
+
+7
+
+10
+
+20
+
+31
+
+35
+
+40
+
+44
+
+55
+
+-5
+
+0
+
+7
+
+10
+
+15
+
+20
+
+27
+
+32
+
+35
+
+44
+
+Control
+
+INPP4B
+
+-10
+
+INPP4B
+
++Rapa
+
+F
+
+Rapa
+
+200
+
+0
+30
+Time (min)
+
+60
+
+60
+
+0
+
+30
+-20
+
+0
+
+30
+Time (min)
+
+60
+
++Rapa
+
+-Rapa
+
+40
+
+0
+
+20
+Time (min)
+
+I
+
+***
+
+6
+
+0
+-Rapa +Rapa
+
+40
+
+J
+-Rapa
+
+tPH-CynA
+
+12
+
+30µM
+
+20
+Time (min)
+
++Rapa
+800
+
+***
+
+400
+0
+-Rapa +Rapa
+
+Fig. 3. Lowering of PI(3,4)P2 by exogenous INPP4B leads to hyperactive cell behavior. (A) Growth-stage, wild-type Ax3 cells expressing mCherry-FRB-INPP4B510–924
+(red), N150-tFKBP and tPHCynA-GFP (green) were treated with 5 μM latrunculin A for 20 min. The time-lapse confocal images of the same cell were obtained every 20 s
+for 1 h. Representative images before (Top) and 30 min after rapamycin (Rapa) treatment (Bottom) are shown. (Scale bar: 10 μm.) (B) Fractional changes of ratio of
+membrane to cytosol intensity of tPHCynA-GFP in experiment in A (n = 5). (C) Kymograph of cortical tPHCynA-GFP membrane intensity of representative cell from A. (D)
+Randomly migrating growth-stage cells were imaged every 20 s. Confocal images of three individual cells showing the transition of the cell migratory modes before
+and after rapamycin treatment. Wild-type Ax3 cells expressing mCherry-FRB-INPP4B510–924 (red) and N150-tFKBP in the second and third rows. Control cells in the
+first row are expressing mCherry-FRB (red) instead of mCherry-FRB-INPP4B510–924. (Scale bars: 10 μm.) (E) Cell areas and cell perimeters were quantified before
+and after addition of rapamycin for control (red) and experimental cells (blue) in an independent experiment similar to that in D (n = 12). (F and G) Normalized
+areas of six control (F) and six experimental cells (G) at 1-min intervals. Rapamycin was added at t = 0. Cells were segmented into amoeboid or oscillatory
+migratory modes, black and red, respectively, using MATLAB. (H) Centroid tracks showing random movement of cells from D before and after rapamycin
+addition. Each track lasts 10 min and was repositioned to the same origin. Quantification of the cell speed is on the Right (n = 18). ***P < 0.001 versus −Rapa
+group. (I) Time-lapse confocal images of Dd5P4− cells expressing mCherry-FRB-INPP4B510–924 and N150-tFKBP before (Left) and 30 min after (Right) rapamycin
+treatment. (Scale bar: 10 μm.) (J) Basal surface area covered by tPHCynA-GFP in cells from I. ***P < 0.001 versus −Rapa group; mean ± SEM (n = 10).
+
+Li et al.
+
+PNAS | vol. 115 | no. 39 | E9129
+
+CELL BIOLOGY
+
+50
+-20
+90
+
+Cell area (µm²)
+
+100
+
+Normalized Cell Area
+
+150
+
+H
+
+30µM
+
+G
+
+Rapa
+
+Normalized Cell Area
+
+Cell area (µm²)
+
+250
+
+Cell Speed (µm/min)
+
+E
+
+Cell Perimeter(µm)
+
+Downloaded from https://www.pnas.org by Universitaetsbibliothek Erlangen-Nuernberg on September 30, 2026 from IP address 131.188.6.13.
+
+-10
+
++LY294002
+
+A -1
+
+B
+
+51
+
+0.8
+
+RBD-GFP
+
+Ras Activation
+(RBD patches)
+
+5
+
+Ax3
+
+0.2
+0.0
+-1
+
+5
+
+51 min
+
+-1
+
+5
+
+51 min
+
+Ras Activation
+(RBD patches)
+
+D
+
+F
+
+E
+Ax3
+
+pten-
+
+Dd5P4-
+
+0.2
+
+Membrane/cytosol
+
+Dd5P4-
+
+0.4
+
+2.4
+
+Patch Coverage
+
+pten-
+
+0.6
+
+0.0
+
+tPH-CynA
+
+Ax3
+
+1.0
+
+1.2
+0.0
+
+0
+
+***
+Ax3
+
+No. of Patches
+
+4μm
+
+pten-
+
+Dd5P4-
+
+***
+
+Ax3
+
+G 10
+30s
+
+Downloaded from https://www.pnas.org by Universitaetsbibliothek Erlangen-Nuernberg on September 30, 2026 from IP address 131.188.6.13.
+
+0.4
+
+0.8
+
+Dd5p4-
+
+C
+
+0.6
+
+pten-
+
+Dd5P4-
+
+***
+
+5
+0
+
+Ax3
+
+pten-
+
+Dd5P4-
+
+Fig. 4. The contribution of PI(3,4,5)P3 to Ras activity. (A) Confocal representative images of vegetative, wild-type Ax3 (Top row) and Dd5P4− cells (Bottom
+row) expressing RBD-GFP treated with 50 μM LY294002 for −1 (Left), 5 (Middle), and 51 min (Right). (Scale bar: 10 μm.) (B) Quantification of fraction of cell
+perimeter covered by RBD-GFP patches in A. (C) Representative confocal images of tPHCynA-GFP in growth-stage, wild-type Ax3, Pten−, and Dd5P4− cells
+treated with 5 μM latrunculin A. (Scale bar: 10 μm.) (D) Ratio of membrane to cytosol intensity of tPHCynA. Mean ± SEM (n = 18). ***P < 0.001 versus Ax3
+group. (E) RBD patch dynamics in latrunculin A-treated cells. Representative images from time-lapse movies of latrunculin A-treated cells expressing RBD-GFP
+are shown above 180° rotated views of t stacks generated from 4-min time lapses. (Scale bar: 4 μm.) (F) Quantification of the fraction of the perimeter from
+cells in E, occupied by RBD patches (n = 18). ***P < 0.005. (G) Quantification of the number of RBD patches generated during 4-min time-lapse movies of cells
+in E. Error bars indicate SD (n = 18). ***P < 0.005.
+
+showed that RG2 and RG3 appeared late in the lifetime of these
+structures as the levels of LimE were waning (Fig. 5 E–H). Although the lifetime of different protrusions varied, we were able
+to compile the kinetic behavior of LimE versus RG2 or RG3 by
+dividing the total duration of each protrusion into 10 time segments (Fig. 5 F and H).
+Further evidence suggested that RG2 and RG3 behave kinetically like PI(3,4)P2 biosensors and in fact bind to PI(3,4)P2.
+In latrunculin A-treated cells, RG2 and RG3 distributed uniformly around the cell perimeter. Within 10 s of addition of
+chemoattractant, RG2 and RG3 dissociated from the membrane, moved to the cytosol, and then returned to the membrane
+by 40 s (Fig. 5I and SI Appendix, Fig. S5A). Controls showed that
+the response was specific for chemoattractant. On PIP strips,
+both RG2 and RG3 bound to PI(3,4)P2 and PI(3,4,5)P3 (Fig. 5J).
+However, depletion of PI(3,4,5)P3 by the inhibition of PI3K
+(LY294002) led to a small increase, <15%, in the ratio of
+membrane associated to cytosolic levels of RG2 and RG3 biosensors, suggesting that in living cells these biosensors bind
+preferentially to PI(3,4)P2 (SI Appendix, Fig. S5 B and C).
+To further demonstrate the role of PI(3,4)P2 in regulating
+RG2 and RG3, we investigated the distribution of these proteins
+in Dd5P4− cells, which have low levels of PI(3,4)P2 (Fig. 2 A and
+E9130 | www.pnas.org/cgi/doi/10.1073/pnas.1809039115
+
+B). While F-actin activity was excessively elevated in the form of
+rapidly propagating actin waves in Dd5P4− cells, RG2 and RG3
+were absent from the membrane (Fig. 5K). Taken together, these
+results suggest that RG2 and RG3 bind to PI(3,4)P2 and are regulated by the dynamic distributions of this phosphoinositide.
+Deletion of RasGAP2 and RapGAP3 Leads to Ras and Rap Activation
+and the Hyperactive Phenotype. RG2 and RG3 suppressed Ras
+
+and Rap activity and controlled protrusion size and number. Deletion of RG2 led to significantly elevated Ras activity. In wild-type
+cells, activity patches are confined to about 1 μm, while in RG2−
+cells they nearly covered the cell perimeter (Fig. 6A and Movie
+S11). Similarly, in RG3− cells, patches of Rap activity and protrusions were also elevated (Fig. 6B). In latrunculin A-treated
+RG2− and RG3− cells, the respective patches occupied more than
+one-half of the cell perimeter, whereas in wild-type cells, they
+occupied less than 20%. Kymographs of latrunculin A-treated cells
+further demonstrated the dramatic change in the amount of active
+Ras and Rap in RG2− and RG3− cells, respectively (Fig. 6 C–F).
+These elevated activities led to increases in random motility.
+Tracks of individual cells demonstrated that the RG2− and RG3−
+cells moved further from starting points compared with the wildtype cells. The average speed of wild-type cells was 5 ± 0.25 μm/min,
+Li et al.
+
+06
+
+Q54Q75
+
+RG
+
+AA
+Q5
+52W
+4
+NFAA
+
+Q5
+
+Y1
+B2
+4V
+Q5
+30
+4P
+Q5
+
+Q
+55
+CR
+Q8
+5
+SS
+U4
+
+RasGAP
+RapGAP3
+
+PH PH PH
+
+RapGAP
+
+RGAP
+B
+
+RapGAPs
+
+LimE-GFP
+
+C2
+
+RAPGAP3
+
+RasGAPs
+
+6
+Q869U
+3
+4T1
+Q5
+P2
+A
+sG
+Ra
+
+RG2-RFP
+
+4R
+T1
+
+80
+9
+
+D
+
+Merge
+
+LimE-GFP
+
+RG3-RFP
+
+LimE-GFP
+
+E LimE-GFP
+
+RG2-RFP
+
+F 100
+Peak Intensity
+
+10s
+
+LimE
+
+G LimE-GFP
+
+Merge
+
+RG3-RFP
+RG3-RFP
+
+10s
+
+RG2
+50
+
+0
+
+20s
+
+0
+
+20s
+
+10
+5
+Pseudopod Segment
+
+H
+100
+Peak Intensity
+
+30s
+
+LimE
+RG3
+
+50
+
+0
+0
+
+30s
+
+10
+5
+Pseudopod Segment
+
+I
+-3s
+
+10s
+
+40s
+
+J
+
+K
+RG2
+
+RG3
+
+LimE
+
+LimE
+
+DD5P4LimE
+
+RG2
+
+RG2
+
+RG3
+
+Ax2
+
+Control
+
+RG3-RFP
+
+PI(3,4)P2
+PI(4,5)P2
+PI(3,5)P2
+PI(3,4,5)P3
+
+RG2-RFP
+Fig. 5. RasGAP2 and RapGAP3 bind to and are regulated by PI(3,4)P2. (A) Unrooted phylogenetic trees of Dictyostelium genes with consensus RasGAP and
+RapGAP domains. Uniprot IDs are listed for uncharacterized genes. (B) Domain organization of RasGAP2 (RG2), accession number DDB_G0278483, and
+RapGAP3 (RG3), accession number DDB_G0271806. (C and D) Single confocal sections of cells coexpressing RFP-tagged RG2 (C) or RG3 (D) with LimE-GFP. The
+arrows point to the localization of GAP proteins to the base of cup-shaped macropinosome crowns. (Scale bars: 5 μm.) (E) Selected frames from time-lapse
+movies of RG2-RFP– and GFP-LimE–coexpressing cells. The arrows point to the accumulation of RG2 at the base of macropinocytotic crowns and nascent
+macropinosomes. (Scale bar: 7 μm.) (F) Analysis of RG3 localization as in E. (G) Selected frames from time-lapse movies of RG3-RFP– and GFP-LimE–coexpressing cells.
+The arrows point to the accumulation of RG3 at the base of macropinocytotic crowns and nascent macropinosomes. (Scale bar: 7 μm.) (H) Analysis of RG3 localization
+as in G. (I) Four-hour–stage Ax2 cells expressing RG3-RFP were treated with 5 μM latrunculin A for 10 min before beginning the time course. cAMP was added at time
+0. (Scale bar: 7 μm.) (J) Binding of RG2-GFP and RG3-GFP to the indicated lipids immobilized on PIP strips; see Materials and Methods. (K) Confocal representative
+images of Ax3 and Dd5P4-null cells coexpressing LimE and one of RG2-GFP, or RG3-GFP. (Scale bar: 5 μm.)
+
+Li et al.
+
+PNAS | vol. 115 | no. 39 | E9131
+
+CELL BIOLOGY
+
+Downloaded from https://www.pnas.org by Universitaetsbibliothek Erlangen-Nuernberg on September 30, 2026 from IP address 131.188.6.13.
+
+RasGAP2
+
+1
+AP
+
+510
+Y1
+V0
+Q869
+
+Q54F48
+
+C
+
+B
+
+Y18
+
+Q13
+
+RG
+
+C2GAP
+
+1
+NF
+A
+AP
+G
+
+Q 54
+
+A
+
+A
+
+B
+
+RBD-GFP
+0’
+
+2’
+
+4’
+
+6’
+
+Ax2
+
+8’
+
+RG2-
+
+2’
+
+RalGDS-GFP
+4’
+
+6’
+
+8’
+
+RG3-
+
+C
+
++180
+
+-180
+
+D
+RBD Patch Size
+
+Ax2
+
+RBD
+
+***
+
+1.0
+
+E
+
++180
+
+Ax2
+
+-180
+
+RalGDS
+RG3-
+
+0.5
+
+0.0
+AX2
+
+RG2-
+
+RG2-
+
+F
+
+***
+
+1.0
+
+0.5
+
+0.0
+AX2
+
+RG3-
+
+20µM
+
+RG2-
+
+AX2
+
+10
+
+***
+
+5
+
+0
+
+AX2
+
+RG2-
+
+20µM
+
+RG3-
+
+Cell Speed (µm/min)
+
+H
+AX2
+
+Cell Speed (µm/min)
+
+G
+Downloaded from https://www.pnas.org by Universitaetsbibliothek Erlangen-Nuernberg on September 30, 2026 from IP address 131.188.6.13.
+
+0’
+
+RalGDS Patch Size
+
+Ax2
+
+10
+
+***
+
+5
+
+0
+
+AX2
+
+RG3-
+
+Fig. 6. Deletion of RasGAP2 and RapGAP3 leads to Ras and Rap activation and the hyperactive phenotype. (A) Ras patch dynamics in wild-type and RG2−
+cells. Selected frames from time-lapse movies of Raf1-RBD-GFP–expressing wild-type and RG2− cells. (Scale bar: 5 μm.) (B) Similar experiments as in A showing
+Rap1 (of RalGDS-GFP) patch dynamics in RG3− cells. (Scale bar: 10 μm.) (C) Comparison of Ras patch dynamics in latrunculin A-treated cells. Frames from timelapse movies were stacked vertically to create time-stacked kymographs, which are shown in two 180° rotated views. (Scale bar: 5 μm.) (D) Quantification of
+the portion of the cell perimeter from C encompassed by RBD patches. ***P < 0.001. (E) Similar experiments as in C illustrating Rap1 patch dynamics using
+RalGDS-GFP biosensor. (Scale bar: 5 μm.) (F) Experiments in E were quantified as in D. ***P < 0.001. (G and H) Rose plots of cell-tracking data from time-lapse
+movies of RG2− and RG3− cells. Quantification of the cell speed is on the Right, respectively.
+
+while those of the RG2− and the RG3− cells were 8 ± 0.34 and
+8 ± 0.3 μm/min, respectively (Fig. 6 G and H). Expression of
+RG2-GFP and RG3-GFP in their respective null backgrounds
+reduced the size of the patches and restored the wild-type phenotypes (SI Appendix, Fig. S6). These results implicate RG2 and
+RG3 as important regulators of protrusion dynamics and motility.
+Deletion of Dd5P4 Allows Axenic Growth in the Presence of NF-1.
+
+Elevated Ras activity is associated with increased macropinocytosis, and previous studies have shown that mutations that
+confer axenic growth to Dictyostelium cells map to the RasGAP,
+neurofibromin homolog, NF-1. Since Dd5P4−, RG2−, and RG3−
+cells have more protrusive activity than wild-type axenic cells, we
+tested the extent to which NF-1 expression would prevent their
+growth in axenic media. The growth of wild-type, RG2−, and RG3−
+cells was largely inhibited. However, Dd5P4− cells expressing
+NF-1 were able to grow, albeit slowly, in axenic media (SI Appendix, Fig. S7 A and B). Consistently, pinocytosis was elevated
+in NF-1–expressing Dd5p4− cells (SI Appendix, Fig. S7C). These
+results show that significant lowering PI(3,4)P2 elevates Ras activity sufficiently to allow cells to grow under axenic conditions.
+Simulation of Cell Behavior Based on Mutually Inhibitory PositiveFeedback Loop. The mutual inhibition between Ras activity and
+
+PI(3,4)P2 described here would be expected to comprise a
+positive-feedback loop, providing a molecular basis for the excitable network hypothesis (10). Previous implementations of
+these models employed an activator that positively regulates
+itself, and a delayed inhibitor that returns the system to basal.
+Here, we introduce three states: F, B, and R, in which mutual
+E9132 | www.pnas.org/cgi/doi/10.1073/pnas.1809039115
+
+inhibition between F (reflected by Ras activity) and B [reflected
+by PI(3,4)P2] constitutes the positive-feedback loop, and R
+serves as the delayed inhibitor (Fig. 7 A and B). Computational
+analysis showed that, during activation, F rises rapidly as B falls.
+These events are followed by a delayed rise of R, which returns
+the system toward its basal state. There is an undershoot in F and
+an overshoot in B before they return to the basal state (arrows),
+which is generated by the transient excess in R over F (Fig. 7B).
+When F, B, and R are allowed to diffuse, spontaneously triggered waves of F and R propagated laterally as in previous
+models. Correspondingly, regions devoid of B create shadow
+waves in the F-enriched zones (Fig. 7C).
+We used a 1D model of this modified excitable system coupled
+to a viscoelastic cell model in the level set framework to determine
+the distribution of F, B, and R states on the protrusive structures
+that drive migration. In the absence of a protrusion, the membrane is in the B state. As noise triggers a protrusion, there is a
+local decline in B state, and a corresponding rise in F state. These
+activities propagate outwardly, generating a cup-like protrusion.
+At the base of the cup-like protrusion, B-state activity transiently
+rises above its basal level, corresponding to the overshoot of B
+(Fig. 7 D and E and Movie S12). These simulations are consistent
+with our observations of the distributions of front and back
+markers along the membrane and at the cup-shape protrusions
+(Figs. 1F and 5 C and D). As expected, R-state activity trails the
+outwardly propagating F state (Fig. 7 D and E).
+Discussion
+Our results reveal a mutual inhibitory interaction between
+Ras activation and PI(3,4)P2 that is central for cell migration.
+Li et al.
+
+B
+F
+
+R
+
+0.4
+
+0.2
+
+0.2
+Time (a.u.)
+
+25
+
+50
+
+The Role of PI(3,4)P2 in Cell Migration. The localization of PI(3,4)P2
+
+0
+
+B
+
+0
+
+D
+
+Downloaded from https://www.pnas.org by Universitaetsbibliothek Erlangen-Nuernberg on September 30, 2026 from IP address 131.188.6.13.
+
+0.6
+
+0
+
+-180
+
+E
+
+0.6
+
+to a further increase in Ras activity, which in turn further decreases PI(3,4)P2, creating a powerful positive-feedback loop (Fig.
+7 F and G). There is a similar loop involving RG3. Rap1 has been
+reported to lie upstream of RasC (33), but the regulation of both
+GAPs by PI(3,4)P2 suggests there are separate, interconnected
+loops. This model is consistent with our observations of the patterns of Ras and Rap activities and PI(3,4)P2 in migrating cells
+and the phenotypes resulting from perturbations. Moreover, the
+discovery of these positive-feedback loops provides critical insight
+to molecular mechanisms of excitability.
+
+50
+Time (a.u.)
+
+100
+
+B
+
+FB
+
+0
+
+50
+Time (a.u.)
+
+F
+
+100
+
+FBR
+
+0
+
+50
+Time (a.u.)
+
+100
+
+FB
+
+FB
+
+0
+
+50 (a.u.)
+
+F
+Ras
+
+Ras
+
+Positive feedback
+
+Mutual negative feedback
+
+PI3K
+PI(3,4,5)P3
+
+PI(4,5)P2
+
+PI(3,4,5)P3
+
+Dd5P4
+
+RasGAPs
+
+PI(3,4)P2
+
+PTEN
+
+G
+Ras (F)
+
+PI(3,4)P2 (B)
+RasGAPs (B)
+
+PI(3,4)P2 (B)
+RasGAPs (B)
+
+Ras (F)
+
+Fig. 7. Simulation of cell behavior based on mutually inhibitory positivefeedback loop. (A) Three state model of excitability. Front (F) in red, back (B)
+in green, and refractory (R) in blue are connected by positive-feedback
+(arrows) and delayed negative-feedback (bars) loops. (B) Typical responses
+of the F, B, and R states when the system is triggered. The arrows emphasize
+the undershoot and overshoot in F and B, respectively. (C) Simulated kymographs generated using a one-dimensional discretized domain resembling the cell perimeter. (Left) shadow wave activity of B, with the dark
+regions denoting the lowest levels and bright green the overshoot; (Middle),
+F and B activity; (Right) all three states. The horizontal dashed white line
+corresponds to the time-course shown in B. (D) Level set simulations modeling the protrusion forces corresponding to the dashed line in C, Middle. (E)
+Close up of the the time course, left to right, of a single protrusion from D.
+(F, Left) Ras regulation of PI(3,4,5)P3 production showing positive feedback.
+(Right) molecular architecture of the mutually inhibitory Ras-RasGAPs-PI(3,4)P2
+feedback loop. (G) Schematic representation of the opposing spatial and temporal patterns of Ras activity and PI(3,4)P2 in migrating cells.
+
+We show that chemoattractants, which activate Ras, as well as
+expression of RasCQ62L, lead to a reduction of PI(3,4)P2. Since
+RG2 binds to PI(3,4)P2, its dissociation from the membrane leads
+Li et al.
+
+at the back of the cell as well as at protrusions at the leading edge
+of the migrating cells can be explained by our model (26, 28, 31, 36,
+37). High-resolution time-resolved observation of protrusions
+at the leading edge revealed that PI(3,4)P2 is actually depleted
+during the early stage of a protrusion but then becomes enriched
+late in the cycle as PI(3,4)P2 rebounds onto the membrane during
+retraction at the central region of the protrusion. Thus, back proteins can transiently localize to the front at the base of the protrusions. The fact that the TAPP1 biosensor underrepresents PI(3,4)P2
+at the back likely explains why most previous investigators have
+reported that PI(3,4)P2 is exclusively a leading edge component.
+Gene deletions that modify PI(3,4)P2 levels have been previously reported to create migratory and growth phenotypes in
+mammalian cells. SHIP1-null granulocytes have been reported to
+show increased responses to cytokines and chronic progressive
+hyperplasia (38). The hyperactive phenotypes in SHIP1 gene deletions have been attributed to elevated PI(3,4,5)P3 levels present
+in these cells (39). However, our results raise the possibility that
+these phenotypes are due to lowered PI(3,4)P2 rather than elevated PI(3,4,5)P3 levels. PI3K inhibition only partially reduced the
+hyperactivity of Dd5P4− cells, strongly suggesting that the lowered
+PI(3,4)P2 leading to high Ras activity, is the major mediator of this
+phenotype (Figs. 4 and 7F). Our observations that inhibition of
+PI3K partially reduced Ras activity and elevated PI(3,4)P2, while
+loss of PTEN increased Ras activity, are consistent with the existence of a PI(3,4,5)P3-Ras feedback loop (7, 40).
+Other RasGAPs including NFaA, NF-1, and C2GAP have also
+been implicated in the regulation of Ras activity in Dictyostelium.
+The reported loss of functions of these phenotypes (41–43) are
+consistent with our observations of RG2− and RG3− cells. Remarkably, this suggests that each of these five GAPs independently contribute to the regulation of Ras or Rap activities.
+Going forward, it will be important to determine whether NFaA,
+NF-1, and C2GAP are also regulated by PI(3,4)P2 as are RG2
+and RG3. Only deletion of NF-1 confers the ability to grow in
+axenic media, suggesting that it might be the major regulator of
+macropinocytosis (41). Interestingly, deletion of Dd5P4 did allow
+cells to grow in axenic media, indicating that depleting PI(3,4)P2
+might produce a level of Ras activation similar to the loss of NF1. However, the exact relationship between Ras activity and
+axenic growth remains to be determined.
+PI(3,4)P2, Excitable Networks, and Cellular Protrusions. There appears to be a consistent pattern of phospholipid regulation involved in cup-like protrusions in migrating cells and in various
+internalization events. The PI(3,4)P2 found in the central region
+of an expanding protrusion persists at that zone and is internalized
+on macropinosomes (44). It has been previously reported that
+PI(3,4)P2 decorates phagocytic cups and internalized phagosomes
+(45). This suggests that, as we found here for macropinocytosis,
+PI(3,4)P2 may also act as a negative regulator during phagocytosis.
+PI(3,4)P2 is associated with the late stage of endosomes, indicating
+similarity to phagosomes and macropinosomes (28, 29).
+The regulation of the localization of PI(3,4)P2-interacting
+GAPs RG2 and RG3 is also consistent with the observed elevation of Ras and Rap activity at the initiation and edges of an
+PNAS | vol. 115 | no. 39 | E9133
+
+CELL BIOLOGY
+
+Perimeter Angle
+
+C180
+
+1.0
+
+B activity (a.u.)
+
+B
+
+F,R activity (a.u.)
+
+A
+
+Downloaded from https://www.pnas.org by Universitaetsbibliothek Erlangen-Nuernberg on September 30, 2026 from IP address 131.188.6.13.
+
+expanding protrusion and its rapid decline in the central, older
+region of the cup-shaped protrusions (9). Furthermore, the backto-front gradient, which we observed with all of the PI(3,4)P2
+biosensors, is largely derived from the depletion of PI(3,4)P2 at
+the protrusions at the leading edge, while PI(3,4)P2 production
+at the back might also play a role.
+The excitable network hypothesis, which comprises positive and
+delayed negative loops between hypothetical F and R states, has
+been remarkably successful in accounting for wave propagation and
+the spectrum of behaviors of migrating cells. The Ras-PI(3,4)P2
+feedback loop we identified provides significant insights into the
+molecular mechanism of excitability. Our findings suggest that, in
+addition to F and R states, a separate B state is characterized by
+high PI(3,4)P2 and low Ras activity, whereas the F state is characterized by low PI(3,4)P2 and high Ras activity. The switch between
+the states is controlled in part by the reversible recruitment of
+PI(3,4)P2-binding RasGAPs, and as-yet-uncharacterized regulation
+of the enzymes that control PI(3,4)P2. The excitable network model
+is therefore consistent with the observed localization of B-state–
+associated proteins along the membrane and at the base of protrusions at the leading edge of the cell.
+The interaction between Ras and PI(3,4)P2 that we identified here
+provides the most complete description of a feedback loop that
+mediates cell migration and raises interesting questions for further
+research. First, what are the key enzymes, in addition to Dd5P4, that
+1. Artemenko Y, Axiotakis L, Jr, Borleis J, Iglesias PA, Devreotes PN (2016) Chemical and
+mechanical stimuli act on common signal transduction and cytoskeletal networks.
+Proc Natl Acad Sci USA 113:E7500–E7509.
+2. Weiner OD, et al. (2002) A PtdInsP(3)- and Rho GTPase-mediated positive feedback
+loop regulates neutrophil polarity. Nat Cell Biol 4:509–513.
+3. Weiner OD, et al. (1999) Spatial control of actin polymerization during neutrophil
+chemotaxis. Nat Cell Biol 1:75–81.
+4. Wang Y, et al. (2013) Identifying network motifs that buffer front-to-back signaling
+in polarized neutrophils. Cell Rep 3:1607–1616.
+5. Weiger MC, Parent CA (2012) Phosphoinositides in chemotaxis. Subcell Biochem 59:
+217–254.
+6. Inoue T, Meyer T (2008) Synthetic activation of endogenous PI3K and Rac identifies an
+AND-gate switch for cell polarization and migration. PLoS One 3:e3068.
+7. Sasaki AT, et al. (2007) G protein-independent Ras/PI3K/F-actin circuit regulates basic
+cell motility. J Cell Biol 178:185–191.
+8. Yang X, Dormann D, Münsterberg AE, Weijer CJ (2002) Cell movement patterns
+during gastrulation in the chick are controlled by positive and negative chemotaxis
+mediated by FGF4 and FGF8. Dev Cell 3:425–437.
+9. Sasaki AT, Chun C, Takeda K, Firtel RA (2004) Localized Ras signaling at the leading edge
+regulates PI3K, cell polarity, and directional cell movement. J Cell Biol 167:505–518.
+10. Xiong Y, Huang CH, Iglesias PA, Devreotes PN (2010) Cells navigate with a localexcitation, global-inhibition-biased excitable network. Proc Natl Acad Sci USA 107:
+17079–17086.
+11. Meinhardt H (2003) Complex pattern formation by a self-destabilization of established
+patterns: Chemotactic orientation and phyllotaxis as examples. C R Biol 326:223–237.
+12. Meinhardt H (1999) Orientation of chemotactic cells and growth cones: Models and
+mechanisms. J Cell Sci 112:2867–2874.
+13. Cooper RM, Wingreen NS, Cox EC (2012) An excitable cortex and memory model
+successfully predicts new pseudopod dynamics. PLoS One 7:e33528.
+14. Shi C, Iglesias PA (2013) Excitable behavior in amoeboid chemotaxis. Wiley Interdiscip
+Rev Syst Biol Med 5:631–642.
+15. Nishikawa M, Hörning M, Ueda M, Shibata T (2014) Excitable signal transduction
+induces both spontaneous and directional cell asymmetries in the phosphatidylinositol lipid signaling system for eukaryotic chemotaxis. Biophys J 106:723–734.
+16. Miao Y, et al. (2017) Altering the threshold of an excitable signal transduction network changes cell migratory modes. Nat Cell Biol 19:329–340.
+17. van Haastert PJ, Keizer-Gunnink I, Kortholt A (2017) Coupled excitable Ras and F-actin
+activation mediates spontaneous pseudopod formation and directed cell movement.
+Mol Biol Cell 28:922–934.
+18. Yang HW, Collins SR, Meyer T (2016) Locally excitable Cdc42 signals steer cells during
+chemotaxis. Nat Cell Biol 18:191–201.
+19. Devreotes PN, et al. (2017) Excitable signal transduction networks in directed cell
+migration. Annu Rev Cell Dev Biol 33:103–125.
+20. Arai Y, et al. (2010) Self-organization of the phosphatidylinositol lipids signaling
+system for random cell migration. Proc Natl Acad Sci USA 107:12399–12404.
+21. Lokuta MA, et al. (2007) Type Igamma PIP kinase is a novel uropod component that
+regulates rear retraction during neutrophil chemotaxis. Mol Biol Cell 18:5069–5080.
+22. Wong R, et al. (2005) PIP2 hydrolysis and calcium release are required for cytokinesis
+in Drosophila spermatocytes. Curr Biol 15:1401–1406.
+23. Balla T (2013) Phosphoinositides: Tiny lipids with giant impact on cell regulation.
+Physiol Rev 93:1019–1137.
+
+E9134 | www.pnas.org/cgi/doi/10.1073/pnas.1809039115
+
+control PI(3,4)P2 levels and how are all of these enzymes regulated
+by Ras? How is this regulation achieved in the presence and absence
+of PI(3,4,5)P3? Second, what is the mechanism by which the GAPs,
+RG2 and RG3, bind to PI(3,4)P2? What are the key domains in
+these proteins that mediate the binding? Do other Ras Gaps, such as
+NF-1 and C2Gap, also bind to PI(3,4)P2, and are they coordinately
+regulated with RG2 and RG3? Finally, how are the various Ras
+regulatory loops, which have been previously suggested, synchronized with the Ras-PI(3,4)P2 positive-feedback loop delineated here?
+Materials and Methods
+For all experiments, Dictyostelium discoideum AX3 and AX2 strains were
+cultured in HL5 medium. A detailed description of materials and methods is
+provided in SI Appendix, SI Materials and Methods.
+ACKNOWLEDGMENTS. We thank all members of the P.N.D. and P.A.I.
+laboratories as well as Dr. Douglas Robinson, Dr. Miho Iijima, and Dr. Takanari
+Inoue for helpful suggestions. We thank Dr. Peter Van Haastert for providing
+Dd5P4-GFP constructs. We thank Taeck Joong Jeon for RasGAP3-GFP constructs.
+We thank the Johns Hopkins University (JHU) Microscope Facility for confocal
+microscopy. This work was supported by NIH Grant R35 GM118177 and Air
+Force Office of Scientific Research Multidisciplinary University Research Initiative FA95501610052 (to P.N.D.) and Defense Advanced Research Projects
+Agency Grant HR0011-16-C-0139 (to P.A.I.), NIH Grant R01 GM089771 (to
+J.C.), and NIH Grants S10 OD016374 and S10 OD023548 [to Scott Kuo of the JHU
+Microscope Facility]. M.E. was supported by the Office of the Provost of JHU.
+
+24. Loovers HM, et al. (2007) Regulation of phagocytosis in Dictyostelium by the inositol
+5-phosphatase OCRL homolog Dd5P4. Traffic 8:618–628.
+25. Wallroth A, Haucke V (2018) Phosphoinositide conversion in endocytosis and the
+endolysosomal system. J Biol Chem 293:1526–1535.
+26. Lam PY, Yoo SK, Green JM, Huttenlocher A (2012) The SH2-domain-containing inositol 5-phosphatase (SHIP) limits the motility of neutrophils and their recruitment to
+wounds in zebrafish. J Cell Sci 125:4973–4978.
+27. Nishio M, et al. (2007) Control of cell polarity and motility by the PtdIns(3,4,5)P3
+phosphatase SHIP1. Nat Cell Biol 9:36–44.
+28. Hawkins PT, Stephens LR (2016) Emerging evidence of signalling roles for PI(3,4)P2 in
+class I and II PI3K-regulated pathways. Biochem Soc Trans 44:307–314.
+29. Posor Y, et al. (2013) Spatiotemporal control of endocytosis by phosphatidylinositol3,4-bisphosphate. Nature 499:233–237.
+30. Swaney KF, Borleis J, Iglesias PA, Devreotes PN (2015) Novel protein Callipygian defines the back of migrating cells. Proc Natl Acad Sci USA 112:E3845–E3854.
+31. Bae YH, et al. (2009) Loss of profilin-1 expression enhances breast cancer cell motility
+by Ena/VASP proteins. J Cell Physiol 219:354–364.
+32. Senoo H, Cai H, Wang Y, Sesaki H, Iijima M (2016) The novel RacE-binding protein GflB
+sharpens Ras activity at the leading edge of migrating cells. Mol Biol Cell 27:1596–1605.
+33. Khanna A, et al. (2016) The small GTPases Ras and Rap1 bind to and control
+TORC2 activity. Sci Rep 6:25823.
+34. Loovers HM, et al. (2006) Distinct roles of PI(3,4,5)P3 during chemoattractant signaling
+in Dictyostelium: A quantitative in vivo analysis by inhibition of PI3-kinase. Mol Biol
+Cell 17:1503–1513.
+35. Jeon TJ, Lee S, Weeks G, Firtel RA (2009) Regulation of Dictyostelium morphogenesis
+by RapGAP3. Dev Biol 328:210–220.
+36. Krause M, et al. (2004) Lamellipodin, an Ena/VASP ligand, is implicated in the regulation of lamellipodial dynamics. Dev Cell 7:571–583.
+37. Marshall AJ, Krahn AK, Ma K, Duronio V, Hou S (2002) TAPP1 and TAPP2 are targets
+of phosphatidylinositol 3-kinase signaling in B cells: Sustained plasma membrane
+recruitment triggered by the B-cell antigen receptor. Mol Cell Biol 22:5479–5491.
+38. Desponts C, Hazen AL, Paraiso KH, Kerr WG (2006) SHIP deficiency enhances HSC
+proliferation and survival but compromises homing and repopulation. Blood 107:
+4338–4345.
+39. Liu Q, et al. (1999) SHIP is a negative regulator of growth factor receptor-mediated
+PKB/Akt activation and myeloid cell survival. Genes Dev 13:786–791.
+40. Tang M, et al. (2014) Evolutionarily conserved coupling of adaptive and excitable
+networks mediates eukaryotic chemotaxis. Nat Commun 5:5175.
+41. Bloomfield G, et al. (2015) Neurofibromin controls macropinocytosis and phagocytosis
+in Dictyostelium. eLife 4:e04940.
+42. Xu X, et al. (2017) GPCR-controlled membrane recruitment of negative regulator
+C2GAP1 locally inhibits Ras signaling for adaptation and long-range chemotaxis. Proc
+Natl Acad Sci USA 114:E10092–E10101.
+43. Zhang S, Charest PG, Firtel RA (2008) Spatiotemporal regulation of Ras activity provides directional sensing. Curr Biol 18:1587–1593.
+44. Yoshida S, Hoppe AD, Araki N, Swanson JA (2009) Sequential signaling in plasmamembrane domains during macropinosome formation in macrophages. J Cell Sci 122:
+3250–3261.
+45. Dewitt S, Tian W, Hallett MB (2006) Localised PtdIns(3,4,5)P3 or PtdIns(3,4)P2 at the
+phagocytic cup is required for both phagosome closure and Ca2+ signalling in
+HL60 neutrophils. J Cell Sci 119:443–451.
+
+Li et al.
+
+

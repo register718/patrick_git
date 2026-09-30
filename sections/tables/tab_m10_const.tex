@@ -1,0 +1,25 @@
+\begin{table*}[!t]
+\centering
+\caption{Module~10 constants.}
+\label{tab:m10const}
+\footnotesize
+\renewcommand{\arraystretch}{1.15}
+\begin{tabularx}{\textwidth}{@{}l r l c >{\raggedright\arraybackslash}X@{}}
+\toprule
+Symbol & Value & Unit & Basis & Meaning, justification, source\\
+\midrule
+$[\mathrm{RegA}]_\mathrm{tot}$ & \num{1540} & $\mathrm{molec/voxel}$ & E & Copy number never measured; $0.32\,\mu$M puts RegA on the scale of ERK2 and PKA and keeps the required catalytic efficiency sub-diffusion-limited. \\
+$[\mathrm{PKA}]_\mathrm{tot}$ & \num{1540} & $\mathrm{molec/voxel}$ & E & $0.32\,\mu$M. \\
+$k_{B1}$ & \num{0.05} & $\mathrm{s^{-1}}$ & E & Lumped phospho-relay (RdeA$\to$RegA D212) that activates RegA~\cite{thomason1999,thomason1998}. \\
+$k_{B2}$ & \num{5.6e-3} & $\mathrm{s^{-1}}$ & C & Reverse phospho-transfer~\cite{thomason1999}; chosen for a resting active fraction of 0.9. \\
+$k_{B3}$ & \num{8} & $\mu\mathrm{M}^{-1}\mathrm{s}^{-1}$ & C & ERK2$^*$ phosphorylates and thereby inhibits RegA~\cite{laub1998,maeda2004}. The Laub--Loomis coefficient ($k_8=1.3$ in relative units) is not a molecular rate; the value gives $\tau\approx0.5$\,s at the ERK2$^*$ peak so that the brake is released inside the X spike. \\
+$k_{B4}$ & \num{0.0167} & $\mathrm{s^{-1}}$ & C & The reset reaction ($\tau=60$\,s) that ends each pulse; of the order of the RegA recovery coefficient $k_7=2\,\mathrm{min^{-1}}$ of the Laub--Loomis model~\cite{laub1998} and set so that the cell has reset within about 6\,min. \\
+$k_\mathrm{cat}$ & \num{30} & $\mu\mathrm{M}^{-1}\mathrm{s}^{-1}$ & D & $k_\mathrm{cat}/K_M=3\times10^{7}\,\mathrm{M^{-1}s^{-1}}$: $k_\mathrm{cat}\approx150\,\mathrm{s^{-1}}$ at the measured $K_M\approx5\,\mu$M~\cite{thomason1998}. \\
+$\phi$ & \num{0.05} &  & L & Activity of RegA$_u$ relative to RegA$_p$; phosphorylation activates RegA by at least 20-fold~\cite{thomason1999}. \\
+$k_{D1}$ & \num{0.25} & $\mu\mathrm{M}^{-1}\mathrm{s}^{-1}$ & E & cAMP binding to the PKA regulatory subunit; with $k_{D2}$ this gives $K_d=k_{D2}/k_{D1}=0.1\,\mu$M (model choice; PKA activation is the second element of the circuit of~\cite{laub1998}). \\
+$k_{D2}$ & \num{0.025} & $\mathrm{s^{-1}}$ & D & PKA$^*$ decay ($\tau=40$\,s), from the Laub--Loomis coefficient $k_4=1.5\,\mathrm{min^{-1}}$~\cite{laub1998}; sets the minutes-long refractory tail. \\
+$k_{D3}$ & \num{0.0417} & $\mu\mathrm{M}^{-1}\mathrm{s}^{-1}$ & D & PKA$^*$ inhibits ERK2, from the coefficient $k_6=0.8$ of~\cite{laub1998} (relative units, normalised here by the PKA pool); PKA also shapes ERK2 activation and adaptation~\cite{aubry1997}. \\
+$D_{\mathrm{RegA}},D_{\mathrm{PKA}},D_{\mathrm{ERK2}}$ & \num{10} & $\mu\mathrm{m^2/s}$ & E & Cytosolic value. \\
+\bottomrule
+\end{tabularx}
+\end{table*}

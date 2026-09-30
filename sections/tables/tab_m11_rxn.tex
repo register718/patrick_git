@@ -1,0 +1,28 @@
+\begin{table*}[!t]
+\centering
+\caption{Module~11 reactions: the extracellular phosphodiesterase PdsA and its inhibitor PdiA. PdsA$_i$, PdsA$_m$ and PdsA$_e$ are the intracellular precursor, the membrane-displayed and the secreted enzyme; cAMP$_s$ is a slow, low-pass filtered copy of the local cAMP$_e$. Reactions marked $\ast$ run twice: inside cells and, with identical constants, on agent-free voxels of the world. $P(H)=H^2/(H_P^2+H^2)$ and $r(\mathrm{cAMP}_s)=[1+(\mathrm{cAMP}_s/K_\mathrm{pdi})^2]^{-1}$ are the Hill gates of Sec.~\ref{sec:hill}.}
+\label{tab:m11rxn}
+\footnotesize
+\renewcommand{\arraystretch}{1.15}
+\begin{tabularx}{\textwidth}{@{}l>{\raggedright\arraybackslash}p{0.37\textwidth}>{\raggedright\arraybackslash}X@{}}
+\toprule
+ID & Reaction & Propensity (rate law)\\
+\midrule
+11.D1a & $\varnothing \to \mathrm{PdsA}_i$ & $k_\mathrm{bas}\ \text{(zeroth order)}$ \\
+11.D1b & $\varnothing \to \mathrm{PdsA}_i$ & $k_\mathrm{ind}\,P(H)\ \text{(zeroth order)}$ \\
+11.D2 & $\mathrm{PdsA}_i \to \mathrm{PdsA}_m$ & $k_\mathrm{sec}[\mathrm{PdsA}_i]$ \\
+11.D3 & $\mathrm{PdsA}_m \to \mathrm{PdsA}_e$ & $k_\mathrm{shed}[\mathrm{PdsA}_m]$ \\
+11.D4a,b & $\mathrm{PdsA}_m \to \varnothing;\ \ \mathrm{PdsA}_i \to \varnothing$ & $k_\mathrm{deg}[\,\cdot\,]$ \\
+11.D4c$^\ast$ & $\mathrm{PdsA}_e \to \varnothing$ & $k_\mathrm{deg}[\mathrm{PdsA}_e]$ \\
+11.D4d$^\ast$ & $\mathrm{PdsA{:}PdiA} \to \varnothing$ & $k_\mathrm{deg}[\mathrm{PdsA{:}PdiA}]$ \\
+11.F1 & $\mathrm{cAMP}_e \to \mathrm{cAMP}_e+\mathrm{cAMP}_s$ & $k_\mathrm{trk}[\mathrm{cAMP}_e]$ \\
+11.F2 & $\mathrm{cAMP}_s \to \varnothing$ & $k_\mathrm{trk}[\mathrm{cAMP}_s]$ \\
+11.E1 & $\varnothing \to \mathrm{PdiA}$ & $k_\mathrm{pdi}\,P(H)\,r(\mathrm{cAMP}_s)\ \text{(zeroth order)}$ \\
+11.E2$^\ast$ & $\mathrm{PdiA} \to \varnothing$ & $k_\mathrm{deg}[\mathrm{PdiA}]$ \\
+11.E3f$^\ast$ & $\mathrm{PdsA}_e+\mathrm{PdiA} \to \mathrm{PdsA{:}PdiA}$ & $k_{i,\mathrm{on}}[\mathrm{PdsA}_e][\mathrm{PdiA}]$ \\
+11.E3r$^\ast$ & $\mathrm{PdsA{:}PdiA} \to \mathrm{PdsA}_e+\mathrm{PdiA}$ & $k_{i,\mathrm{off}}[\mathrm{PdsA{:}PdiA}]$ \\
+11.E4$^\ast$ & $\mathrm{cAMP}_e+\mathrm{PdsA{:}PdiA} \to \mathrm{PdsA{:}PdiA}$ & $k_\mathrm{res}[\mathrm{cAMP}_e][\mathrm{PdsA{:}PdiA}]$ \\
+11.2$^\ast$ & $\mathrm{cAMP}_e+\mathrm{PdsA}_e \to \mathrm{PdsA}_e$ & $k_\mathrm{pdsa}[\mathrm{cAMP}_e][\mathrm{PdsA}_e]$ \\
+\bottomrule
+\end{tabularx}
+\end{table*}

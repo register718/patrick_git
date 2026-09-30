@@ -1,0 +1,653 @@
+scientific
+report
+scientificreport
+Chemoattractant-induced Ras activation during
+Dictyostelium aggregation
+Helmut Kae, Chinten James Lim, George B. Spiegelman & Gerald Weeks+
+Department of Microbiology and Immunology, University of British Columbia, Vancouver, British Columbia, Canada
+Ras proteins are highly conserved molecular switches that
+regulate cellular response to external stimuli. Dictyostelium
+discoideum contains an extensive family of Ras proteins that
+function in regulation of mitosis, cytoskeletal function and
+motility, and the onset of development. Little is known about
+the events that lead to the activation of Ras proteins in
+Dictyostelium, primarily owing to a lack of a biochemical assay
+to measure the levels of activated Ras. We have adapted an assay,
+used successfully to measure activated Ras in mammalian cells, to
+monitor activation of two Dictyostelium Ras proteins, RasC and
+RasG. We have found that the Ras-binding domain (RBD) of
+mammalian Raf1 was capable of binding to the activated form of
+RasG, but not to the activated form of RasC; however, the RBD
+of Schizosaccharomyces pombe Byr2 was capable of binding
+preferentially to the activated forms of both RasC and RasG.
+Using this assay, we discovered that RasC and RasG showed a
+rapid and transient activation when aggregation-competent cells
+were stimulated with the chemoattractant cAMP, and this
+activation did not occur in a number of cAMP signalling mutants.
+These data provide further evidence of a role for both RasC and
+RasG in the early development of Dictyostelium.
+Keywords: Dictyostelium; Ras; cAMP
+EMBO reports (2004) 5, 602–606. doi:10.1038/sj.embor.7400151
+
+INTRODUCTION
+The Ras subfamily consists of small, monomeric GTPases that act
+as molecular switches in cellular signalling events. They perform
+their regulatory function by cycling between two conformations, a
+GDP-bound ‘OFF’ state and a GTP-bound ‘ON’ state. Extracellular
+signals stimulate guanine nucleotide exchange factors (GEFs) that
+catalyse the exchange of GDP for GTP, thereby activating the Ras
+protein, and the subsequent inactivation is due to an enhancement
+of the intrinsic GTPase activity, which is stimulated by the
+GTPase-activating proteins (GAPs) (Boguski & McCormick, 1993).
+Ras activation regulates a number of cellular events such as
+Department of Microbiology and Immunology, University of British Columbia,
+300-6174 University Boulevard, Vancouver, British Columbia, Canada V6T 1Z3
++Corresponding author. Tel: þ 1 604 822 0997; Fax þ 1 604 822 6041;
+E-mail: gerwee@interchange.ubc.ca
+Received 20 October 2003; revised 8 January 2004; accepted 25 March 2004;
+published online 14 May 2004
+
+6 0 2 EMBO reports
+
+VOL 5 | NO 6 | 2004
+
+proliferation, differentiation and cytoskeletal rearrangement, and
+the maintenance of proper Ras function is critical. For example, its
+uncontrolled activation contributes to anchorage-independent growth
+and tumorigenesis in mammalian cells (Tokumitsu et al, 1998).
+Whereas biochemical analyses are clearly highly informative,
+the targeted generation of knockout strains in organisms such as
+Dictyostelium renders an alternative, complementary approach.
+Furthermore, the unique biology of Dictyostelium allows growth
+and differentiation to be studied as separate phenomena.
+Vegetative Dictyostelium are single-celled amoebae that feed on
+bacteria by phagocytosis, or in liquid media via fluid-phase
+endocytosis. Upon nutrient depletion, Dictyostelium undergoes a
+complex, tightly regulated development process, beginning with
+the secretion of, and movement towards, cAMP, resulting in an
+aggregation of B105 cells. The aggregate then elongates to
+become a motile slug, and cells within the slug differentiate into
+spatially segregated prespore and prestalk cells. Upon culmination, the fully differentiated stalk cells hold up a sorus of viable
+spores, which germinate into free-living amoebae (reviewed in
+Kessin, 2001).
+Six Dictyostelium Ras subfamily proteins have been previously
+described, with at least two additional members identified by the
+Dictyostelium discoideum genome sequencing projects (Weeks &
+Spiegelman, 2003). Whereas such a large number of related
+proteins imply functional redundancy, gene deletions or temporal
+gene expression profiles indicate that each Ras protein serves at
+least some unique functions. For example, although rasB, rasG
+and rasS all have maximal gene expression during vegetative
+growth, RasG regulates aspects of motility and the cytoskeleton
+(Tuxworth et al, 1997), RasS is involved in phagocytosis (Chubb
+et al, 2000) and RasB appears to be linked to the progression
+through the cell cycle (Sutherland et al, 2001). In contrast, RasC is
+important for early development, as rasC cells do not aggregate
+upon starvation, primarily because they are unable to relay the
+cAMP signal, even though they are capable of responding to
+cAMP (Lim et al, 2001).
+Stimulation of aggregation-competent Dictyostelium cells with
+cAMP initiates a plethora of cellular activities, including the
+activation of phosphatidylinositol-3-OH kinases (PI(3)Ks) (Huang
+et al, 2003). PI(3)K activity produces elevated levels of the lipid
+PtdIns(3,4,5)P3, providing docking sites for PH domain-containing
+proteins, such as Akt/PKB (referred to as PKB henceforth), that
+facilitate their activation. Evidence that a Ras protein is involved in
+&2004 EUROPEAN MOLECULAR BIOLOGY ORGANIZATION
+
+GST alone
+
+GST−Byr2
+
+GST−Raf1
+
+GST−PI3K2
+
+GST−PI3K1
+
+A
+
+RasG (G12T)
+
+GST−Byr2
+
+GST−RaIGDS
+
+B
+
+GST−Raf1
+
+RasC (G13T)
+
+RasG−GTP−γ S
+
+GST−Byr2
+
+C
+
+GST−RaIGDS
+
+RasG−GDP
+
+GST−Raf1
+
+this process include the following: (1) deletion of the genes
+encoding RasC, RasG the Dictyostelium RasGEF AleA results in a
+reduced activation of PKB when stimulated with cAMP (Lim et al,
+2001; C.J.L., unpublished observations); (2) Dictyostelium PI(3)K1
+and PI(3)K2, which are related to the mammalian p110a PI(3)Ks,
+contain Ras-binding domains (RBDs), and it has been demonstrated that these RBDs are capable of binding to activated Ras in
+a two-hybrid assay (Funamoto et al, 2002); and (3) pi3k1/pi3k2
+cells that express ectopic PI(3)K1 are able to restore cAMPstimulated PKB activation, but cells expressing ectopic PI(3)K1
+with a mutation in the RBD that abolishes Ras binding are unable
+to do so (Funamoto et al, 2002).
+An important piece of evidence needed to corroborate the link
+between Ras activation and PI(3)K is to show that Ras is activated
+when cells are stimulated with cAMP, but this has yet to be
+experimentally demonstrated in Dictyostelium. Ras activation in
+mammalian cells has been measured by using the ability of the
+RBD of Raf1, a known downstream effector of Ras, to bind
+preferentially to the activated form of Ras (Taylor & Shalloway,
+1996). In this report, we describe the development of an RBD
+binding assay for use in studying Ras activation in Dictyostelium,
+and we have used this assay to confirm that RasC is activated in
+response to cAMP stimulation. In the course of these studies, we
+found that RasG is also activated in response to cAMP.
+
+GST−RaIGDS
+
+scientific report
+
+cAMP activates Dictyostelium Ras
+H. Kae et al
+
+RasC−GTP−γ S
+RasC−GDP
+
+&2004 EUROPEAN MOLECULAR BIOLOGY ORGANIZATION
+
+500
+
+500
+
+750
+
+500
+
+400
+
+200
+
+100
+
+We initially tested the ability of the RBD of Raf1 to bind to
+activated RasC in lysates of Dictyostelium cells expressing
+activated RasC (G13T), the equivalent of the mammalian H-Ras
+(G12T)-activating mutation, but we detected no significant
+binding (Fig 1A). Similar results were obtained using the RBD of
+RalGDS (Fig 1A), an RBD that we previously had found to be
+effective for detecting activated Dictyostelium Rap1 (Kang et al,
+2002). Despite their inability to bind activated RasC effectively,
+both RBDs were able to bind activated RasG (G12T) (Fig 1A).
+In view of the possible link between RasC and PI(3)K, we tested
+the ability of the RBDs of PI(3)K1 and PI(3)K2 to bind to RasC
+(G13T). Although Fig 1A shows that the PI(3)K1 and PI(3)K2 RBDs
+were able to bind activated RasC, the small amounts of the fusion
+proteins expressed in bacteria (data not shown) rendered them
+insufficient for use in a practical assay. We also found that both
+the PI(3)K1 and PI(3)K2 RBDs were able to bind activated RasG
+(Fig 1A) even at low RBD input, and RasG showed a greater
+affinity for PI(3)K1 RBD than for PI(3)K2 RBD under the conditions
+of this assay, supporting previous yeast two-hybrid assay data
+(Funamoto et al, 2002).
+Although RasC has very high overall identity to mammalian
+H-Ras, its effector domain, the region that interacts with the
+downstream effectors, contains a single amino-acid difference at
+position 39 (the equivalent of position 38 in H-Ras): asparagine
+instead of aspartate. A substitution (D38N) in the effector domain
+of H-Ras had been shown to abrogate binding to its effector
+proteins (Akasaka et al, 1996), and this may explain the inability
+of either Raf1 or RalGDS to bind to activated RasC. However,
+because the Schizosaccharomyces pombe Ras effector Byr2 had
+been shown to bind H-Ras containing the D38N substitution
+(Akasaka et al, 1996), we postulated that the Byr2 RBD might bind
+activated RasC. The data shown in Fig 1A indicate that this was
+
+Total protein (μg)
+
+1,000
+
+D
+
+RESULTS
+An assay for activated Ras proteins in Dictyostelium
+
+RasC − GTP
+
+Fig 1 | RBD binding assay. (A) The RBDs of Raf1, RalGDS, Byr2, PI(3)K1
+and PI(3)K2, as well as a GST-only control, were incubated with lysates
+from cells expressing either activated RasG (G12T) or RasC (G13T) and
+the bound Ras proteins were analysed by western blot using either RasG
+or RasC antibodies. (B) Wild-type cell lysates were incubated with either
+1 mM GTP-gS or 1 mM GDP for 1 h at 22 1C as indicated, and then
+incubated with the RBDs of Raf1, RalGDS or Byr2. Bound RasG was
+detected by western blot analysis, determined using the RasG antibody.
+(C) rasCHrasC cell lysates were incubated with either GTP-gS or GDP
+as above, and the levels of bound RasC were determined using the RasC
+antibody. (D) Byr2 RBD was incubated with the indicated amounts of
+total protein from rasCHrasC cell lysates and the bound RasC was
+determined using the RasC antibody.
+
+indeed true. In addition, Byr2 was also able to bind activated
+RasG in cell lysates (Fig 1A).
+To determine whether the RBDs were specific for the GTPbound forms of Ras, lysates from wild-type Ax2 cells were
+incubated with either GTP-gS, a nonhydrolysable analogue of
+GTP, or GDP before incubating with the glutathione S-transferase
+(GST)–RBD. All of the tested RBDs were able to bind efficiently
+RasG from Ax2 lysates incubated with GTP-gS, but only very low
+levels of RasG from lysates incubated with GDP (Fig 1B).
+However, although the Byr2 RBD bound overexpressed activated
+RasC (G13T), there was no binding to RasC when Ax2 lysates were
+incubated with GTP-gS (data not shown), suggesting that there was
+insufficient RasC present in vegetative cell extracts to be detected
+EMBO reports VOL 5 | NO 6 | 2004 6 0 3
+
+scientific report
+
+cAMP activates Dictyostelium Ras
+H. Kae et al
+
+with the Byr2 RBD assay. To try to circumvent this problem, cells
+overexpressing RasC, expressed in a rasC background (referred
+to as ‘rasC HrasC’ henceforth) were used. Byr2 bound RasC in
+lysates of rasCHrasC cells incubated with GTP-gS, but not in
+lysates incubated with GDP (Fig 1C), indicating that in these cells
+there was sufficient RasC to be able to detect the activated form of
+the protein.
+Finally, we loaded increasing amounts of lysate from
+rasC HrasC cells with the Byr2 RBD to examine the dose
+response and reproducibility of the assay. Relatively small
+changes in activated RasC could be detected, and the same
+amounts of bound RasC were detected in replicate samples of the
+lysate (Fig 1D). Similar results were observed for RasG (data not
+shown). These studies indicate that the Byr2 RBD can be used
+reproducibly to measure alterations in the levels of both activated
+RasC and RasG.
+
+Activation of RasC in response to cAMP
+As the RBD binding assay was insufficiently sensitive to detect
+RasC–GTP in Ax2 cells (see above), the possible activation of RasC
+in response to cAMP was determined in rasC HrasC cells. These
+cells were made aggregation-competent by pulsing with 50 nM
+cAMP for 5 h (referred to as ‘pulsed’ cells henceforth); they were
+then stimulated with 200 nM cAMP, and aliquots were taken at the
+time points indicated. An increase in activated RasC was observed
+at 5 s after stimulation, with a return to the basal level by 45 s
+(Fig 2A). The kinetics of activation were similar to that of cAMPstimulated PI(3)K activation (Huang et al, 2003), consistent
+with the notion that RasC is involved in the regulation of
+PI(3)K activity. There was a relatively high basal level of RasC–
+GTP in unstimulated cells, which may be the result of RasC
+overexpression. Spot densitometry was performed on the blots
+from four independent experiments, and this revealed an average
+increase of 1.870.3-fold upon cAMP stimulation, ranging
+from a minimum value of 1.5-fold to a maximum value of 2.2-fold.
+
+indicated. An increase of RasG–GTP was also detected within 5 s
+of stimulation, with levels returning to the prestimulation value by
+90 s (Fig 2B). Although the initial kinetics of activation were
+similar to those for RasC, activated RasG was undetectable before
+cAMP stimulation, and the extent of RasG activation was therefore
+greater than that observed for RasC. In the experiment shown in
+Fig 2, there was an initial drop in the level of activated RasG after
+5 s, followed by a second increase that reached a peak at 60 s.
+Although a second peak of RasG–GTP was consistently observed,
+the time at which the maximum level occurred varied from 45 to
+60 s in different experiments.
+
+Ras activation in G-protein signalling mutants
+We measured the kinetics of Ras activation in three mutant strains
+deficient in cAMP signalling: cAR1/cAR3, gb and ga2. As
+these mutants are in an Ax3 background, we also studied RasC
+and RasG activation in Ax3. RasC was overexpressed in all four
+strains (designated Ax3HrasC, cARHrasC, gbHrasC and
+ga2HrasC) to provide sufficient RasC protein to enable us to
+measure RasC activation. Ax3HrasC showed the same rapid
+activation of both RasC and RasG in response to cAMP as the Ax2derived strain (Fig 3), except that the RasC activation was more
+pronounced in Ax3 than it was in Ax2. Importantly, there was no
+increase in activated RasC or RasG upon cAMP stimulation in the
+three cAMP signalling mutants. However, all three mutants
+exhibited a higher basal level of activated RasC and RasG
+(Fig 3), suggesting a negative regulatory role for the intact
+G-protein-coupled receptor complex in Ras activation.
+
+A
+Time (s)
+
+0
+
+5
+
+20
+
+40
+
+Ax3::rasC
+
+RasG is also activated in response to cAMP
+
+cAR::rasC
+
+As the RBD binding assay could also be used to measure RasG
+activation, the levels of activated RasG were determined in
+response to cAMP stimulation. Pulsed Ax2 cells were stimulated
+with 200 nM cAMP, and aliquots were taken at the time points
+
+g2::rasC
+
+g::rasC
+RasC− GTP
+
+A
+Time (s)
+
+0
+
+5
+
+15
+
+30
+
+45
+
+60
+
+B
+
+90
+
+Time (s)
+
+0
+
+5
+
+20
+
+40
+
+RasC−GTP
+Ax3
+cAR −
+
+B
+Time (s)
+
+0
+
+5
+
+15
+
+30
+
+45
+
+60
+
+90
+RasG− GTP
+
+Fig 2 | cAMP-stimulated Ras activation. (A) Pulsed rasCHrasC cells were
+stimulated with 200 nM cAMP, and the amount of RasC protein bound to
+Byr2 was determined at the time points indicated. The experiment is
+representative of four separate experiments. (B) Pulsed Ax2 cells were
+stimulated with 200 nM cAMP, and the amount of RasG protein bound to
+Byr2 was determined at the time points indicated. The experiment is
+representative of four separate experiments.
+
+6 0 4 EMBO reports
+
+VOL 5 | NO 6 | 2004
+
+g 2 −
+g −
+RasG−GTP
+
+Fig 3 | The Byr2 RBD binding assay was performed as described in pulsed
+Ax3HrasC, cARHrasC, gbHrasC and ga2HrasC cells, and levels of
+RasC (A) and RasG (B) activation were monitored at the time points
+indicated. These data are representative of three separate experiments.
+&2004 EUROPEAN MOLECULAR BIOLOGY ORGANIZATION
+
+scientific report
+
+cAMP activates Dictyostelium Ras
+H. Kae et al
+
+DISCUSSION
+To develop an assay to detect activated Ras proteins in
+Dictyostelium cells, we initially tested the ability of the RBDs of
+the mammalian Ras effectors Raf1 and RalGDS to bind activated
+Dictyostelium Ras proteins. Although these RBDs were able to
+bind activated RasG (Fig 1) and RasB (data not shown) effectively,
+they were unable to bind activated RasC, presumably owing to an
+amino-acid difference in its effector domain, relative to H-Ras,
+RasG and RasB. We next tested the ability of the RBDs of
+Dictyostelium PI(3)K1 and PI(3)K2 to bind activated RasC,
+because a role for RasC in PI(3)K activation had been suggested
+by earlier studies (Lim et al, 2001). These RBDs bound activated
+RasC and activated RasG; however, the amounts of bacterially
+expressed PI(3)K1 (RBD) and PI(3)K2 (RBD) were too small to
+prove useful for use in an activation assay. In contrast, we found
+that the RBD of S. pombe Byr2 was extremely effective in binding
+activated RasC and RasG, providing an assay for the detection of
+both Ras proteins. Finally, we were unable to detect activated
+RasC in Ax2 cells, but were able to circumvent this problem by
+overexpressing RasC in rasC null cells (Fig 1C).
+Using this assay, it was shown that RasC was activated in
+aggregation-competent cells in response to cAMP (Fig 2A). The
+rapid kinetics of this activation were similar to those for the cAMPdependent activation of PI(3)K and PKB in aggregation-competent
+cells, consistent with the idea that RasC has a role in the activation
+of PI(3)K (Meili et al, 1999; Lim et al, 2001; Huang et al, 2003).
+However, it must be noted that there was a large amount of
+activated RasC in the unstimulated aggregation-competent cells
+(Fig 2A), and while the kinetics of the activation were very similar,
+the extent of the activation was therefore not as dramatic as that
+observed for PI(3)K and PKB. As the overexpression of RasC in the
+rasC HrasC cells is able to rescue the aggregation defect of rasC
+cells and the cells appear to be normal in all other respects (Lim
+et al, 2001), the presence of activated RasC in unstimulated cells
+does not appear to be deleterious, although the possibility that
+there may be signalling implications downstream of RasC must not
+be overlooked.
+We have also demonstrated the activation of RasG in response
+to cAMP, and in this case both the kinetics and extent of activation
+were similar to the activation of PI(3)K and PKB in response to
+cAMP. Although rasG cells are capable of aggregation, development is delayed (Tuxworth et al, 1997) and RasG may serve a
+function during early development. Furthermore, cAMP stimulation of PKB phosphorylation is reduced in rasG cells (our
+unpublished observations) and the overexpression of activated
+RasG during growth blocks aggregation (Khosla et al, 1996).
+There was no change in the levels of activated Ras following
+cAMP stimulation in mutant strains disrupted in the genes
+encoding the aggregation-stage cAMP receptors (cAR1/cAR3)
+and components of the associated heterotrimeric G-protein
+complex (gb and ga2). However, there was an elevated
+level of both activated RasC and RasG before stimulation. This
+suggests that the cAMP receptor complex may serve to
+downregulate Ras activation.
+As both rasC  and rasG  cells exhibit reduced cAMPstimulated PKB activation, it is possible that both RasC and RasG
+are involved in stimulating PI(3)K activity. Although the presence
+of both Ras proteins is clearly required for optimal PKB activation,
+both null strains still show detectable activation of PKB (Lim et al,
+&2004 EUROPEAN MOLECULAR BIOLOGY ORGANIZATION
+
+2001; unpublished observations), suggesting that neither is
+completely necessary. There may be some degree of functional
+redundancy, with each protein compensating somewhat for the
+loss of the other and it is important to note that rasG null cells
+express elevated levels of RasC relative to wild type (C.J.L.,
+unpublished observations).
+AleA is the only RasGEF that has been thus far implicated in
+the aggregation process. aleA cells are aggregation defective
+(Insall et al, 1996) and also show a dramatic reduction in cAMPstimulated PKB activation (Lim et al, 2001), suggesting the
+possibility that AleA mediates activation of both RasC and RasG.
+However, although it is possible that AleA activates both RasC and
+RasG, there may be other GEFs that are involved in this process.
+With over 20 different GEFs identified by the Dictyostelium
+Sequencing Project (Wilkins & Insall, 2001), it is clear that the Ras
+activation pathways in D. discoideum are quite complex. We
+hope that the RBD binding assay will prove to be a powerful tool
+to allow the identification of the RasGEFs and other components
+involved in the Ras activation pathways in D. discoideum.
+
+METHODS
+Cell culture and development. D. discoideum Ax2 and Ax3 cells
+were grown in HL5 medium supplemented with 50 mg/ml
+streptomycin (Sigma). This medium was supplemented with either
+10 mg/ml G418 (Invitrogen) or 5 mg/ml Blasticidin S (Calbiochem)
+for the growth of G418- and Blasticidin-resistant strains. RasG
+(G12T) was expressed behind a tetracycline-repressible promoter
+in Ax2 cells (Secko et al, 2004). Tetracycline (5 mg/ml; Sigma) was
+added to repress expression of RasG (G12T), and expression was
+induced by washing cells three times in KK2 (20 mM potassium
+phosphate, pH 6.1) and resuspending in HL5 without tetracycline
+for 18 h. RasC and RasC (G13T) were expressed behind the
+endogenous rasC promoter in rasC and Ax2 cells, respectively
+(Lim et al, 2001). Ax3, cAR1/cAR3 (Kim et al, 1997), gb (Wu
+et al, 1995) and ga2 (Chen et al, 1994) were transformed with
+pJLW30 (Lim et al, 2001) to overexpress wild-type rasC.
+Preparation of GST–RBD fusion proteins. pGEX-Raf1-RBD
+(amino acids (aa) 1–149) was obtained from David Shalloway.
+pGEX-RalGDS-RBD (aa 1–115) was obtained from Michael Gold.
+pGEX-PI(3)K1-RBD (aa 613–877) and pGEX-PI(3)K2-RBD (aa
+753–977) were obtained from Richard A. Firtel. The RBD of
+Byr2 (aa 1–236) was cloned into pGEX 4T-1 by PCR to yield
+pGEX-Byr2-RBD. All fusion proteins were expressed in Escherichia coli BL21 DE3 (Invitrogen). Cells were cultured in 500 ml
+Luria broth (LB), and induced at OD600 0.5–0.6 with 0.1 mM
+isopropyl-b-D-thiogalactoside for 18 h at 22 1C. After induction,
+cells were harvested by centrifugation, resuspended in 10 ml STE
+buffer (10 mM Tris–HCl (pH 8.0), 1 mM EDTA, 150 mM NaCl),
+and frozen overnight at o70 1C. Thawed cell suspensions were
+treated with lysozyme (10 mg/ml, 30 min on ice). In all, 100 ml 1 M
+dithiothreitol and 1.4 ml 10% Sarkosyl were added, and then cells
+were lysed by sonication. Lysates were cleared by centrifugation.
+A 4 ml portion of 10% Triton X-100 was added to the supernatant,
+and STE was added to a final volume of 20 ml. A 500 ml volume
+of STE buffer was added to 500 ml bed volume of glutathione–
+Sepharose beads (Pharmacia), and this mixture was added to
+10 ml cell lysate and tumbled for 2 h at 4 1C. The beads were
+washed three times in 1  HK-LB (10 mM sodium phosphate (pH
+7.2), 1% Triton X-100, 0.05% SDS, 10% glycerol, 150 mM NaCl,
+EMBO reports VOL 5 | NO 6 | 2004 6 0 5
+
+scientific report
+10 mM MgCl2, 1 mM EDTA, 1 mM Na3VO4, 5 mM NaF, with one
+tablet of protease inhibitors (Roche complete) added per 50 ml
+buffer) and resuspended to a total volume of 1 ml (50% slurry).
+RBD binding assay. Exponential-phase vegetative Dictyostelium
+cells were washed twice and resuspended at 5  107 cells/ml in
+KK2. Aliquots (350 ml) were taken at selected time points and lysed
+in an equal volume of ice-cold 2  HK-LB, and incubated on ice
+for 5 min. The lysates were cleared by centrifugation for 10 min
+and protein concentrations were determined using the DC Protein
+Assay (Bio-Rad). A 400 mg portion of protein lysates was incubated
+with 100 mg of GST–RBD and the mixture was incubated at 4 1C
+for 1 h. Beads were harvested by centrifugation and washed three
+times in 1  HK-LB. A volume of 40 ml of 1  SDS gel loading
+buffer was added to the pelleted beads and the mixture was boiled
+for 5 min. Samples were fractionated by SDS–polyacrylamide gel
+electrophoresis, blotted onto nitrocellulose, blocked with non-fat
+milk, and probed with either RasC (Lim et al, 2001) or RasG
+(Khosla et al, 1996) antibody. The amounts of bound RasC and
+RasG were determined by an enhanced chemiluminescence
+(Amersham) reaction.
+Assay for activated Ras proteins in aggregation-competent
+cells. To prepare pulsed aggregation-competent cells, vegetative
+cells were washed three times, resuspended at 5  106 cells/ml in
+KK2, shaken at 160 r.p.m. for 1 h, and then pulsed with 50 nM cAMP
+(final concentration) every 6 min. After pulsing for 5 h, cells were
+harvested by centrifugation, washed twice in KK2, resuspended at
+5  107 cells/ml, and stimulated with a final concentration of 200 nM
+cAMP. Before and after stimulation, 350 ml aliquots were lysed in
+350 ml 2  HK-LB, and subjected to the RBD binding assay.
+ACKNOWLEDGEMENTS
+We thank D. Shalloway, R.A. Firtel, P.N. Devreotes, M. Gold and
+D.M. Secko for the donation of the indicated vectors and cells. This work
+was supported by a grant to G.W. from Canadian Institutes of Health
+Research of Canada.
+REFERENCES
+Akasaka K, Tamada M, Wanf F, Kariya K, Shima F, Kikuchi A, Yamamoto M,
+Shirouzu M, Yokoyama S, Kataoka T (1996) Differential structural
+requirements for interaction of Ras protein with its distinct downstream
+effectors. J Biol Chem 271: 5353–5360
+Boguski MS, McCormick F (1993) Proteins regulating Ras and its relatives.
+Nature 366: 643–654
+Chen MY, Devreotes PN, Gundersen RE (1994) Serine 113 is the site of
+receptor-mediated phosphorylation of the Dictyostelium G protein
+a-subunit G a2. J Biol Chem 269: 20925–20930
+
+6 0 6 EMBO reports
+
+VOL 5 | NO 6 | 2004
+
+cAMP activates Dictyostelium Ras
+H. Kae et al
+
+Chubb JR, Wilkins A, Thomas GM, Insall RH (2000) The Dictyostelium RasS
+protein is required for macropinocytosis, phagocytosis and the control of
+cell movement. J Cell Sci 113: 709–719
+Funamoto S, Meili R, Lee S, Parry L, Firtel RA (2002) Spatial and temporal
+regulation of 3-phosphoinositides by PI 3-kinase and PTEN mediates
+chemotaxis. Cell 109: 611–623
+Huang YE, Iijima M, Parent CA, Funamoto S, Firtel RA, Devrotes PN (2003)
+Receptor-mediated regulation of PI3Ks confines PI(3,4,5)P3 to the leading
+edge of chemotaxing cells. Mol Biol Cell 14: 1913–1922
+Insall RH, Borleis J, Devrotes PN (1996) The aimless RasGEF is required for
+processing of chemotactic signals through G-protein-coupled receptors in
+Dictyostelium. Curr Biol 6: 719–729
+Kang R, Kae H, Ip H, Spiegelman GB, Weeks G (2002) Evidence for a role for
+the Dictyostelium Rap1 in cell viability and the response to osmotic
+stress. J Cell Sci 115: 3675–3682
+Kessin RH (2001) Dictyostelium—Evolution, Cell Biology, and the
+Development of Multicellularity. Cambridge, UK: Cambridge Univ.
+Press
+Khosla M, Spiegelman GB, Weeks G (1996) Overexpression of an activated
+rasG gene during growth blocks the initiation of Dictyostelium
+development. Mol Cell Biol 16: 4156–4162
+Kim JY, Soede RDM, Schaap P, Valkema R, Borleis JA, Van Haastert PJM,
+Devreotes PN, Hereld D (1997) Phosphorylation of chemoattractant
+receptors is not essential for chemotaxis or termination of G-proteinmediated responses. J Biol Chem 272: 27313–27318
+Lim CJ, Spiegelman GB, Weeks G (2001) RasC is required for optimal
+activation of adenylyl cyclase and Akt/PKB during aggregation. EMBO J
+20: 4490–4499
+Meili R, Ellsworth C, Lee S, Reddy TBK, Ma H, Firtel RA (1999)
+Chemoattractant-mediated transient activation and membrane
+localization of Akt/PKB is required for efficient chemotaxis to cAMP in
+Dictyostelium. EMBO J 18: 2092–2105
+Secko DM, Insall R, Spiegelman GB, Weeks G (2004) The identification of
+Dictyostelium phosphoproteins in response to the activation of RasG.
+Proteomics (in press)
+Sutherland BW, Spiegelman GB, Weeks G (2001) A Ras subfamily GTPase
+shows cell cycle-dependent nuclear localization. EMBO Rep 2:
+1024–1028
+Taylor S, Shalloway D (1996) Cell cycle-dependent activation of Ras. Curr
+Biol 6: 1621–1627
+Tokumitsu Y, Nakano S, Ueno H, Niho Y (1998) Ras signals to the cell cycle
+machinery via multiple pathways to induce anchorage-independent
+growth. Mol Cell Biol 18: 2586–2595
+Tuxworth RI, Cheetham JL, Machesky LM, Spiegelman GB, Weeks G, Insall
+RH (1997) Dictyostelium RasG is required for normal motility and
+cytokinesis, but not growth. J Cell Biol 138: 605–614
+Weeks G, Spiegelman GB (2003) Roles played by Ras subfamily proteins in
+the cell and developmental biology of microorganisms. Cell Signal 15:
+901–909
+Wilkins A, Insall R (2001) Small GTPases in Dictyostelium: lessons from a
+social amoeba. Trends Genet 17: 41–48
+Wu L, Valkema R, Van Haastert PJM, Devreotes PN (1995) The G protein
+b-subunit is essential for multiple responses to chemoattractants in
+Dictyostelium. J Cell Biol 129: 1667–1675
+
+&2004 EUROPEAN MOLECULAR BIOLOGY ORGANIZATION
+
+

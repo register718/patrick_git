@@ -1,0 +1,1053 @@
+THEJOURNAL
+OF BIOLOGICAL
+CHEMISTRY
+Vol. 256. No.14, Issue of July 25, pp. 7628-7637, 1981
+Printed in U.S.A.
+
+The Cyclic Nucleotide Phosphodiesterase Inhibitory Protein
+of
+Dictyostelium discoideum
+PURIFICATION AND CHARACTERIZATION*
+(Received for publication, August25, 1980, and in revised form, March 16, 1981)
+
+Jakob Franke and Richard
+H. Kessin
+From the Department of Cellular and Developmental Biology, The Biological Laboratories, Haruard University,
+Cambridge, Massachusetts 02138
+
+We have purified the glycoprotein inhibitor of the
+Neither the regulation of the inhibitor by cAMP nor the
+extracellularcyclicnucleotidephosphodiesteraseof
+role it plays during chemotaxis and later stages of developDictyostelium discoideum to apparenthomogeneity.
+ment can be understood until the molecule is purified. When
+The inhibitor has a molecular weight of 47,000 meas- the current study began, the inhibitor, which was discovered
+uredby sodium dodecylsulfate-polyacrylamide gel by Riedel and Gerisch (7), was known to be heat-stable and
+electrophoresis.The interactionof the inhibitor and thetrypsin-sensitive (8).The molecule had been partially purified
+1:1 and shown to be a glycoprotein (9). More recently the inhibcyclicnucleotidephosphodiesteraseoccurswith
+stoichiometry and with a dissociation constant
+of about itors from D.discoideum and D. purpureum were purified (10,
+10“’ M. Periodate oxidation of the inhibitor or of the l l ) , although in neither case was enough material recovered
+enzyme destroys concanavalin A binding ability but
+for complete biochemical characterization.
+does not affect the formation of the enzyme-inhibitor
+In initial experiments with partially purified inhibitor we
+complex. Inhibitoris not producedby cells during logdetermined
+that the kinetic effect of the inhibitor is to alter
+arithmic growth but appears in quantity during
+staThe
+tionary phase and after transferfrom growth medium the K , of the phosphodiesterase from 10 p~ to 2 a.
+association
+of
+enzyme
+and
+inhibitor
+is
+disrupted
+by
+dithioto phosphate buffer.
+threitol, which inactivates the inhibitor (12, 13). The current
+paper presents methods for the production and purification of
+inhibitor as well as more evidence on thenature of the
+When cells of the social amoeba Dictyostelium discoideum inhibitor and its interaction with cyclic nucleotide phosphoare removed from nutrient medium, they develop the ability diesterase. The purification of cyclic nucleotide phosphodiesto detect, secrete, and move toward sources of CAMP.During terase is described in the accompanying paper (14).
+the fiist 8-10 h of starvation, the cells produce a number of
+MATERIALS AND METHODS*
+proteins thought to be necessary for chemotaxis and cellular
+adhesion (see Ref. 1 for a review). Among the proteins synRESULTS
+thesized are anextracellular cyclic nucleotide phosphodiesterase and a glycoprotein which specifically inhibits the phosCellular Synthesis of Cyclic Nucleotide Phosphodiesterase
+phodiesterase.
+Inhibitor
+The extracellular cyclic nucleotide phosphodiesterase and
+Growing cells have secreted between 100 and 200 units/ml
+its inhibitor are postulated to control the levels of cAMP
+during aggregation, the enzyme by degrading cyclic nucleotide of inhibitor by the time they reach stationary phase in HL/5
+between pulsatile signals and the inhibitor by regulating levels medium (Fig. lA).Fig. 1B shows the result of transferring the
+of phosphodiesterase activity so that the CAMPsignal is not cells to starvation medium shortly after theyreached stationattenuated. Amoebae regulate the level of enzyme and inhib- ary phase. If the cells wereleft in stationary phase for another
+itor according to the extracellular cAMP concentration; high 48 h, they continued to secrete inhibitor until a level of 400levels of CAMP stimulate enzyme appearance and suppress 600 units/ml was reached. Little extracellular phosphodiesterthat of the inhibitor (2-5). Inhibitor appears in the extracel- ase was secreted. CeUs left at stationary phase for 48 h and
+lular supernatant of CAMP-treated cells once the cAMP has then washed and placed in buffer to starve produced over 600
+been degraded by the action of the phosphodiesterase.’ A units/ml of inhibitor, but never any significant levels of enfurther reason for believing that the cyclic nucleotide phos- zyme (Fig. IC). Therefore, the same set of cells produced 600
+phodiesterase and the inhibitor play important roles during units/ml of inhibitor while in late log and stationary phase
+aggregation is that all species of slime mold which utilize and another 600 units/ml when transferred to buffer.
+For preparative purposes cells wereharvested at thebegincAMP as achemotactic signal elaborate an extracellular cyclic
+ning
+of stationary phase and starved for 13 h in phosphate
+nucleotide phosphodiesterase and inhibitor, while those which
+use other molecules for signaling do not (6).
+
+Portions of this paper (including “Materialsand Methods,” some
+of the “Results,”Figs. 1 and 2, Tables 1-3, and additional references)
+* This workwas supported byGrantGM21,809and a Research are presentedin miniprint at the end of this paper. Miniprintis easily
+size photocopies
+Career Development award (to R. H.K.) from the National Institutes read withthe aid of a standard magnifying glass. Full
+9650 Rockville
+of Health. The costs of publication of this article were defrayed in are availablefrom the Journal of Biological Chemistry,
+part by the payment of page charges. This article must therefore be Pike, Bethesda, MD 20014. Request Document No. 80111-1827, cite
+18 U.S.C. Section author(s), and include a check or money order for $4.00 per set of
+hereby marked “aduertisement” in accordance with
+photocopies. Full size photocopies are also included in the microfilm
+1734 solely to indicate this fact.
+edition of the Journal that is available from Waverly Press.
+’ Unpublished results.
+
+7628
+
+This is an Open Access article under the CC BY license.
+
+Cyclic
+Phosphodiesterase
+Nucleotide
+Inhibitor
+
+7629
+
+buffer plus CaC12(see “Materials and Methods”).
+Cells treated
+in this way produced about500 units/ml of inhibitor. Inhibitor
+recovered from the supernatants of these cells had a higher
+specific activitythaninhibitorrecoveredfromstationary
+phase supernatants. The values described above
+were for the
+preparative cultures described under “Materials and Methods.” When the cell densities of cells starving in buffer were
+lowered 2- to 4-fold, the inhibitor levels were proportionally
+reduced.
+
+time (hr)
+
+time ( h r )
+
+FIG.1. The production of cyclic nucleotide phosphodiesterase and inhibitor during growth, stationary phase, and starvation. A, 700-ml cultures of AX3 in HL/5 were incubated as de-
+
+scribed under “Materials and
+Methods.” At various times aliquots
+200 X g).The pH of the
+wereremovedandcentrifuged(5min;
+supernatants was measured, and the sampleswere stored a t -20 “C.
+The cell density in stationary phase was 2.6 X 10’ cells/ml. The pH
+increased from 7.3 (onset stationary phase) to 8.4 (80-h stationary
+phase). Aliquots were dialyzed for 48 h against two changes of Tris
+(50 mM Tris-HC1; pH 7.4 a t 35 “C) or24 h against 2 m~ dithiothreitol
+in Tris, followed by 24 h against Tris containing 0.1 m~ dithiothreitol.
+The dialyzed samples were assayedfor phosphodiesterase activity by
+thespectrophotometricassaymethod.Tris-dialyzedsamplescon(<I unit/ml)and
+tainednodetectablephosphodiesteraseactivity
+were assayed for inhibitor activity following heating for 15 min a t
+80 “C. A, enzyme activity; 0, inhibitor activity. The ordinate shows
+of the
+a timescalein
+which the 0 pointindicatestheintercept
+exponential growth phase curve and the stationary phase curve.
+B,
+cultures of AX3inHL/5wereharvested
+4 h aftertheonset
+of
+stationary phase and starved in phosphate buffer as described under
+“Materials and Methods.” Samples were harvested and assayed as
+described in A. C, cultures of AX3 in HL/5 were harvested 61 h after
+the onset of stationary phase and starvedin buffer as in B.
+
+FIG.2. SDS-polyacrylamide gel electrophoresis of purified
+inhibitor. 3000 units of inhibitor were subjected to electrophoresisin
+
+11%S D S gels and stained with Coomassie brilliant blue as described
+under “Materials and Methods.”
+
+Criteria of Homogeneity
+The absence of contaminants was demonstrated by SDS:’polyacrylamide gel electrophoresis. The inhibitor was stained
+with Coomassie brilliant blue (Figs. 2 and 4) as well as with
+glycoprotein stains and in neither case were contaminants
+detected. The glycoprotein migrated as a diffuse band or asa
+
+:’The abbreviations used are: SDS, sodiumdodecyl sulfate; Tris or
+Tris buffer, 50 mM Tris-HCI (pH 7.4 at 35 “C); BSA, bovine serum
+albumin; BIS, N,N’-methylenebisacrylamide; TEMED, N,N,N‘,N’-
+
+tetramethylethylenediamine; EGTA, ethyleneglycol bis(B-aminoethylether)N,N,N’,N’-tetraaceticacid.
+
+7630
+
+Cyclic Nucleotide Phosphodiesterase Inhibitor
+mm
+bottom
+
+0
+
+2
+4
+6
+8
+distance migrated ( c m 1
+
+FIG. 3. Electrophoresis of inhibitor under nondenaturing
+conditions. A 5% polyacrylamide slab gel with spacer gel was run
+using the pH 8.9 buffer system (see "Materials and Methods"). Gels
+were fixed and stained for 4 h at room temperature in 0.2$ Coomassie
+brilliant blue H250 in H20,methanol, aceticacid (5:51),and destained
+at 50 "C in 7F acetic acid containing 0.54 methanol. Lanes loaded
+with 8500 units of inhibitor were cut into 2-mm slices. Each slicewas
+eluted overnight at 4 "C in 1 ml Tris. and the eluate was assayed for
+inhibitor activity; 70-804 of the inhibitor was recovered.
+
+most noteworthy features of the amino acid composition are
+the high cystine content and the
+low level of methionine. The
+minimum cystine content is 5.9/100 residues, and extrapolating to 400 residues, theminimumnumber
+of half-cystine
+residues is 47/molecule. This is a minimum estimate because
+some cysteine residues are lost during
+hydrolysis (16).
+The carbohydrate contentof the inhibitor was determined
+with the anthrone reaction (17) using D-glUCOSe as the standard. Inhibitor contained0.07-0.08 mg of carbohydrate/mg of
+protein. Since it is known that several sugars,including mannose and fucose, have a lower color yield than glucose in the
+anthroneassayandhexosamines
+give no color at all, our
+estimate is probably a minimal one. A positive identification
+of glucosamine was made during the amino acid analysis of
+the 24-h hydrolysate.
+
+Inhibitor-Cyclic Nucleotide Phosphodiesterase Interaction
+Stoichiometry
+
+The strategy used to determine the stoichiometry of the
+inhibitor-enzyme interaction was to mix the two components
+with one in excess. In this way, the molecular weights of the
+resulting complex andone of thetworeactants
+couldbe
+compared in one gel filtration analysis. The results are shown
+before and after heating
+in Figs. 6 and 7. Inhibitor was assayed
+doublet in SDS gels (see also Fig. 4 of the accompanying
+paper (14)). Whenpurified inhibitor was subjected to electro- aliquots of the column fractions; enzyme activity was determined before and after activation with dithiothreitol. Fig. 6
+phoresis under nondenaturing conditions, only two bands were
+detected, although these sometimes
+merged into a singleband. shows the results when 2150 units of enzyme and 2500 units
+Glycoprotein stains(Alcian blue and periodic acid-Schiff) did
+not reveal any additional bands. When native
+gels were sliced
+andeluted, two peaks of inhibitoractivity werefound at
+positions corresponding to the stained bands (Fig. 3). Two
+peaks of activity were also detected when partially purified
+U
+material was analyzed by column isoelectrofocusing. These
+B
+peaks hadisoelectric points of 3.4 and 4.3, respectively (results
+2000not shown).
+Another demonstration of the purity of the inhibitor preparation was obtained by reacting dithiothreitol treated puriI500
+fied inhibitor with [:'H]iodoacetic acid. T h e labeled product
+was analyzed by SDS-gel electrophoresis and one peak
+of
+radioactivity,correspondingtothestainedbands,
+was observed (Fig. 4).
+Duringelectrophoresisunder
+a variety of conditionsit
+became apparent that the inhibitor glycoprotein was sometimes difficult to stain. In nativegels Amido black stained the
+inhibitor as efficiently as did Coomassie brilliant blue. T h e
+same amount of protein stained more intensely in S D S gels
+0
+than itdid in nondenaturing gels. This effect was amplified by
+0
+2
+4
+6
+8
+IO
+increasing the 2-mercaptoethanol concentration in the samd
+s
+t
+a
+n
+c
+e
+from
+top
+(
+c
+m
+)
+ples prior to SDS-gel electrophoresis.
+FIG. 4. SDS-polyacrylamide gel electrophoresis of 'H-laMolecular Weight
+beled inhibitor. 2400 units of inhibitor (5.4 pg) in 20 mM Tris-HCI
+7.4 at 35 "C) with or without 2 mM dithiothreitol were heated for
+Varying molecular weights were observed for the inhibitor 2(pH
+min in boiling water. Total volume was 60 pl. After cooling. 30 pl of
+during electrophoresis in 7.5% and 10% SDS-polyacrylamide [.'H]iodoacetate were added (20 mM ["Hliodoacetic acid in 250 mM
+gels. Fig. 5 shows the results when the apparent molecular
+Tris-HCI;specific activity, 19.3 Ci/mol). The samples were incubated
+weights were determined with a range of polyacrylamide gel 30 min at 35 "C in the dark, at which time 25 pI of 208 (v/v)
+concentrations (15). These results
+revealed a molecular weight mercaptoethanol containing5% (w/v) SDS were added. The samples
+at the asymptote of 47,000. Gel filtration also yielded varying were heated 5 min in boiling water, and then sucrose and bromophenol
+molecular weights. On Sephacryl S-200 columns the inhibitor blue were added. The samples were subjected to electrophoresis in
+IOr$ SDS-polyacrylamide gels in tubes (see "Materialsand Methconsistentlyelutedwithanapparent
+molecularweight of ods"). Following electrophoresis the gels were fixed and stained with
+about 50,000, while on an Ultrogel AcA34 column the molec- Coomassie brilliant blue as described. The destained gels were secular weight was 29,000 (Fig. 6) or 33,000 (see Fig. 8 of accom- tioned in 2.5- or 5-mm slices, which were incubated for 1.5 h at 60 "C
+in 2-dram vials containing 1 ml of 30% HnOr.The hydrolyzed slices
+panying paper (14)).
+were counted after the addition of 3.5 ml of Scintiverse.The counting
+efficiency was 8.1% andwas determined by the addition of ["HIAmino Acid Analysis
+iodoaceticacid to vials containing unlabeled polyacrylamide slices
+T h e results of anamino acid analysisperformedon
+a prior to hydrolysis. A, without dithiothreitol. B, with 2 mM dithiopurified preparation of inhibitor are shown in Table I. T h e threitol.
+
+i
+
+n
+
+fI
+
+4 4
+P
+y
+I
+
+I
+
+Phosphodiesterase
+Nucleotide
+Inhibitor
+Cyclic
+
+I
+
+I
+
+7631
+
+I
+
+I
+
+15
+
+IO
+% polyacrylamide
+
+FIG. 5. Molecular weight determination of inhibitor glycoprotein by SDS-polyacrylamide gel electrophoresis. SDS gels
+with varying concentrations of polyacrylamide were prepared as
+described under "Materials and Methods." Samples were boiled with
+1%SDS and 2% mercaptoethanol. All gels were run with a constant
+current of 2mA/tube until bromophenol blue reached the bottom of
+the tubes. Molecular weight markers were phosphorylase A (94,000),
+BSA (67,000),pyruvate kinase (57,000),ovalbumin (45,000),deoxyribonuclease I (31,000),soybean trypsin inhibitor (21,500),and nbonuclease A (13,700).
+
+TABLEI
+Amino acid composition of inhibitor
+Residue
+~
+
+Amount
+mo1/100 mol
+
+ASP
+13.7
+Thr"
+13.1
+Sera
+10.0
+Glu
+5.3
+Pro
+7.0
+GlY
+8.0
+Ala
+4.3
+Cysb
+Val
+Met
+0.3
+Ile
+4.4
+Leu
+4.4
+Tyr"
+6.2
+Phe
+2.9
+LYS
+2.1
+His
+A%
+2.1
+" T h e values for Thr, Ser, and Tyr are extrapolations to 0-time
+hydrolysis.
+* The values for cystine were 4.9, 5.9, and 0.9 after 24-, 48-, and 72h hydrolysis, respectively.
+
+of inhibitor were fractionated on an Ultrogel AcA34 gel fiitration column. Enzyme activity was nearly undetectable in
+fractions which had not been treated with dithiothreitol (Fig.
+6A).After dithiothreitol treatmentof the eluted fractions, 90%
+of the original enzyme activity could be recovered in a peak
+corresponding to M , = 77,000. When the unheated eluate was
+assayed for inhibitor activity a peak of M , = 29,000 was found
+(Fig. 6B),corresponding to excess free inhibitor. If aliquots of
+the column fractions were heated to 80 "C for 15min to
+destroy phosphodiesterase and to release bound inhibitor, an
+additional inhibitor peak, fractionating in the same position
+as the enzyme activity peak appeared. A similar experiment
+was performed in the accompanying paper (14) where we
+reported a complex with an apparent M , = 84,000, and excess
+free inhibitor with an apparentM , = 33,000.
+
+elution volume ( m l )
+
+FIG. 6. Gel filtration of complex and excess inhibitor. 2150
+units of purified extracellular phosphodiesterase (M, = 50,000) and
+2500 units of purified inhibitor ware incubated for 30 min a t 35 "C in
+a total volume of 1 ml and fractionated on an AcA34 gel filtration
+column (bed volume, 74.5 ml; bed height, 74 cm). Theelution volume
+of blue dextran was 29.5 ml and was used as void volume. The flow
+rate was 4.12 ml/h with a constanthydrostatic head of 20 cm.
+Fractions of 1.03 ml were collected. The elution buffer4 was: Tris
+containing 0.2 M NaCl, 0.01% bovine serum albumin and 0.01%NaNB.
+A: 0, enzyme activity without dithiothreitol activation; 0, enzyme
+activity following dithiothreitol activation. B: A, inhibitor activity
+without heating; A, inhibitor activity following15 min heating at
+80 "C.
+
+In theexperiments described in Figs. 6 and7, the enzyme and the
+inhibitor, as well as their complex, bind to the gel matrix when the
+elution buffer is Tris. The inclusion of 0.2 M NaCl and 0.01% bovine
+serum albumin in the buffer eliminates this problem and results in
+90-100% recovery.
+
+7632
+
+Cyclic Nucleotide Phosphodiesterase Inhibitor
+When cyclic nucleotide phosphodiesterase activity was totally suppressed by excess inhibitor and then treated with
+dithiothreitol, the recovered enzyme activity eluted from a gel
+filtration column at the position of the free enzyme with an
+apparent M, = 55,000 (results not shown). From all of these
+results we conclude that the enzyme has an apparent M, by
+gel filtration of 55,000-59,000 and that itreacts with 1 inhibitor
+molecule of M, = 29,000-33,000, to form a complex of M , =
+77,000-87,000.
+The existence of a stableinhibitor-phosphodiesterase complex wasalso demonstrated by isoelectrofocusing.The results
+obtained following isoelectrofocusing in polyacrylamide gels
+of phosphodiesterase, inhibitor, and complexes with either an
+excess of enzyme or an excess of inhibitor, are as follows:
+phosphodiesterase focused beween pH 7.8 and pH 8.7, enzyme-inhibitor complexes focusedbetween pH 6.1 and pH7.8,
+and inhibitor focused between pH 3.8 and pH 4.9.
+
+Dissociation Constant
+The dissociation constant of the enzyme-inhibitor complex
+was determined by three methods. In each case we made the
+assumption that the phosphodiesterase activity measured at
+low substrate concentrations reflects the free enzyme concentration. Units of activity were converted to nanomoles of
+phosphodiesterase using the factor 7000 units/nmol of enzyme; this is based on a specific activity of 140,000 units/mg
+of protein anda molecular weight of 50,000 by SDS-gel
+electrophoresis for the phosphodiesterase (see the accompaelutlon vdume (ml)
+nying paper (14)) .
+The final specific activity we have measured for the inhibFIG. 7. Gel filtration of complex and excess phosphodiesterase. 2150 units of purified enzyme (Mr = 50,000) and 880 units of itor is 440,000 units/mg of protein. We have shown in Figs. 6
+as and 7 that the stoichiometry of the interaction is 1:1, so that
+purified inhibitor were incubated and fractionated by gel filtration
+describedin the legend of Fig. 6. The flow rate was4.0 ml/h, and 1.0- the specific activity of the inhibitor should be similar to that
+ml fractions werecollected.A: 0,
+enzyme activity without dithiothre- of the phosphodiesterase, shown in the accompanying paper
+itol activation;0,enzyme activity following dithiothreitolactivation.
+The hatched region corresponds to the differentialcurve. B: A, (14) to be 140,000 units/mg protein. We have attributed this
+difference to thedifficulty of staining the inhibitor and believe
+inhibitor activity after 15 min heating of fractions at 80 “C.
+that our estimate of protein may be low, thus accounting for
+Although inhibitor was added in excess based on activity the high specific activity. In calculating the dissociation con(Fig. 6), it was not in molar excess. 2500 units of inhibitor stant we have used 7,000 units/nmol as thespecific activity of
+correspond to 0.12 nmol (M, = 47,000 on SDS gels; specific purified inhibitor.
+Method 1-Purifiedcyclic
+nucleotide phosphodiesterase
+activity, 440,000 units/mg), while 2150 units of enzyme equal
+0.31 nmol (MI = 50,000 by SDS-gel electrophoresis; specific was reacted with an excess of purified inhibitor, and the
+activity, 140,000 units/mg; see Ref. 14). In order to account remaining concentrations of enzyme, inhibitor, and complex
+were determined. The datapresented in Table I1 were used to
+for the excess of inhibitor activity, one must postulatea
+complex of 3 enzyme moleculeswith 1 inhibitor molecule. The calculate an average equilibrium constant of 1.7 X 10”’ M.
+Method 2-Inhibitor and an excess of enzyme were incugel filtration data shown in Fig. 6 do not support such a large
+complex with a calculated molecular weight of 197,000. The
+TABLEI1
+observed size of the complex (77,000-84,000) indicates a stoiEquilibrium
+constant
+of
+enzyme-inhibitor
+complex withexcess
+chiometry of 1 inhibitor to 1 enzyme molecule. We believe
+inhibitor
+that thehigh specific activity of the inhibitor is caused by an
+Enzyme-inhibitor complexes were prepared by mixing aliquots of
+underestimate of the inhibitor protein concentration. The
+purified enzyme and inhibitor in Tris.The samples were incubated 1
+protein assays used display significant protein to protein var- h at 35 “C, and stored several daysat 4 “C.The free enzymeactivity
+iation (18), and we have noted above the difficulties encoun- was assayed by the radiometric method, and total enzyme wasdetertered when staining the inhibitor glycoprotein.
+mined spectrophotometrically following treatment with 2 mhf dithiThe results of an experiment with enzyme in excess are othreitol (see “Materials and Methods”).Total inhibitor activity was
+shown in Fig. 7. The elution profile of cyclic nucleotide phos- assayed after heating aliquots15 min at 80 “C in the presence of 0.2
+as the average value
+phodiesterase activity assayed with and without destruction M NaCl. The concentrationof complex was taken
+of (total enzyme - free enzyme) and (total inhibitor - free inhibitor).
+of the inhibitor by dithiothreitol is shown (Fig. 7A). Free K = [free enzyme][free inhibitor]/[complex]. We have useda specific
+enzyme eluted at a position corresponding to a molecular activity of 7000 units/nmol for the enzyme and for the inhibitor (see
+weight of 59,000. Treatment of the fractions with dithiothreitol the text).
+inactivated the inhibitor and resulted in an unmasking of the
+Total inFree inTotal enFree enExperiK
+hibitor
+hibitor
+ment
+zyme
+zyme
+enzyme. If the activity of the free enzyme wassubtracted from
+units/ml
+M
+the activity of the dithiothreitol treated enzyme, a differential
+250
+4.4 x lo-”
+80
+1
+7.2
+2 10
+curve corresponding to the enzyme-inhibitor complexwas
+460
+1.0 X 10”’
+2
+0.62
+250
+260
+produced (hatched region, Fig. 7A). This peak, with an ap330
+0.6 X lo-’’
+170
+3
+0.47
+230
+parent molecular weight of 87,000 contained inhibitor activity
+780
+0.9 X 10”’
+240
+4
+1.5
+550
+(Fig. 7B).
+
+7633
+
+Cyclic NucleotidePhosf Ihodiesterase Inhibitor
+bated at 35 “C at different concentrations but in a constant
+ratio and the remaining enzyme activities were determined.
+In this case, enzyme was in excess, so any contribution to
+cyclic nucleotide hydrolysis by the complex would be negligible. The concentration of complex was calculated as total
+enzyme minus free enzyme and the concentration of free
+inhibitor was taken as total inhibitor minus complex. The
+dissociation constant was calculated from the equation:
+
+where Et, I,, and Efrepresent the total
+enzyme, total inhibitor,
+and free enzyme concentrations, respectively. Using this
+method over a 30-fold range of concentrations and the conversion factors given above, dissociation constants of 9 X lo-”,
+1 X lo-”, and 1.1 X 10”’ were derived. Data are not shown.
+Method 3-In the A I method described by Greco and
+Hakala (19) the dissociation constant can be calculated using
+the equation K = (2 X 175/3)- 150where 1 7 5 and I, are the
+total inhibitor concentrations at 75 and 50% inhibition, respectively. Increasing amounts of inhibitor were mixed with
+3.5 units of enzyme under the conditions of the inhibitor assay
+(see “Materials and Methods”).Following a 30-min incubation
+at 35 “C the remaining enzyme activities were determined.
+The results, plotted in the same way as those in Fig. 1 (see
+miniprint section), were used to calculate a dissociation constant of 2 X lo-” M (data not shown).
+The rateof complex formation was very fast. Inhibitor (150
+units/&) and enzyme (90 units/&) were mixed at 35 “C, and
+at 15-s intervals the remaining enzyme activities were measured over a 30-s period with the radiometric assay. The
+inhibition was 80%complete within 45 s, 90% complete within
+60 s, and 99% complete within 15 min. When the inhibition of
+enzyme (22 units/&) with inhibitor (27 units/ml) wasfollowed in the presence of 50 p~ CAMP, the rate of complex
+formation was substantidy reduced. After 60 s, the inhibition
+was only 20-30% complete.
+Once formed, the complex is stable in the presence of
+CAMP. Complex (230 units/ml of enzyme; 330 units/ml of
+1
+
+lo
+
+w
+
+0
+
+I
+
+0
+
+I
+0.1
+0.2
+Concanavalin A (mg/ml)
+
+FIG. 8. The effect of concanavalin A on inhibitor-enzyme
+interaction in the presence and absence of a-methylmannoside. Five units of cyclic nucleotide phosphodiesterase were incubated
+with 3 units of purified inhibitor in Tris buffer in the presence of
+varying amounts of concanavalin A. The total volume was 1.32 rnl
+and incubations were for 15 min at 35 “C. The remaining enzyme
+activities were assayed spectrophotometricdy after the addition of
+25of coupling enzymes (see “Materials and Methods”) and 50 pl of
+1 mM CAMPto 925 pl of incubation mixture. 0, decreasing inhibitor
+activity with increasing concentration of concanavalin A (100% inhibitor activity corresponding to about40% remaining enzyme activity);
+0, the same experimen. but in the presence of 0.2 M cr-methylmannoside.
+
+I
+
+I
+
+V
+
+0
+
+50
+
+100
+150
+pl Inhibitor
+
+200
+
+I
+
+FIG. 9. The effect of periodate oxidationof cyclic nucleotide
+phosphodiesterase on its interaction with the inhibitor. Five
+units of enzyme were incubated with varying amounts of inhibitor,
+and theremaining enzyme activities were determined as described in
+the legend of Fig. 8. The periodate oxidation of the enzyme has been
+described in the legend of Table 111. Oxidized enzyme had lost its
+ability to bind to concanavalin A-Sepharose 4B and hadabout 60%of
+the activity of untreated enzyme. A, the inhibition of untreated
+enzyme (0)and periodate-oxidized enzyme (A);B , the inhibition of
+untreated enzyme in the absence (0)or presence (0)
+of concanavalin
+A (0.2 mg/rnl); C, the inhibition of periodate oxidized enzyme in the
+absence (A)or presence (A) of concanavalin A (0.2 mg/rnl).
+
+inhibitor) was assayed with two substrate concentrations in
+the radiometric assay. With 50 PM CAMP, the activity was
+0.47 units/& and at 1m substrate concentration, the activity
+was 10 units/ml. In both cases, the hydrolysis of CAMPwas
+linear for at least 30 min, demonstrating that the complex is
+not dissociating during an incubation of 30 min in the presence
+of 1 mM CAMP. We cannot rule out a very rapid partial
+dissociation of the complex after the addition of 1 mM CAMP.
+Attempts were made to measure the rate of dissociation.
+Enzyme-inhibitor complex wasprepared at high concentration
+and percent inhibition was determined (about 50%).Following
+a 100-fold dilution and incubation for several hours, percentage inhibition did not change.
+Oligosaccharides and the Enzyme-Inhibitor Interaction
+Since both the inhibitor and the enzyme are glycoproteins,
+it is possible that theformation of the enzyme-inhibitor complexinvolves a lectin type of binding. The effect of the
+following sugars on the formation of the complex was tested:
+D-glUCOSe,D-gdaCtOSe, D-mannose, D-fucose, L-fucose, D-ghcosamine,N-aCetyl-D-glUCOSamine,N-acetyl-D-galactosamine,
+a-methyl-D-mannoside, a-methyl-D-glucoside, myoinositol,
+and a-lactose. A t a final concentration of 0.2 M, none of these
+sugars had any effect on either the enzyme activity or the
+inhibitor activity.
+Concanavalin A has no effect on cyclicnucleotide phospho-
+
+CyclicPhosphodiesterase
+Nucleotide
+Inhibitor
+
+7634
+
+diesterase activity,but theinteraction of the enzyme with the
+inhibitor is affected by concanavalin A, as shown in Figs. 8
+and 9B. The presence of 0.2 M a-methylmannoside counteracts
+this effect (Fig. 8).
+In order to determine whether the oligosaccharide residues
+of the inhibitor or of the enzyme participate in the enzymeinhibitor interaction, we treated the purified glycoproteins
+with periodate. As the results in Table I11 show, periodatetreated inhibitor no longer binds to concanavalin A, but
+retains its ability to inhibit cyclic nucleotide phosphodiesterase. Periodate oxidation at pH4.5 destroys 80% of the inhibitor
+activity (Table 111, experiment 1).This is not surprising since
+the amino acidstryptophan, cysteine, cystine, and methionine
+can be oxidized by periodate, especially at low pH (20). Periodate treatment at pH 6.0 eliminates binding to concanavalin
+A with less loss of inhibitor activity (Table 111, experiment 2).
+8 presWhen periodate-treated inhibitor was assayed in the
+ence of concanavalin A, the lectin still interfered with the
+formation of the enzyme-inhibitor complex (Table IV). This
+indicates that it is not the binding of lectin to the inhibitor,
+but its reaction with the enzyme which interferes with complex formation. To demonstrate more directly that it is concanavalin A binding to the enzyme which blocks complex
+formation, periodate-oxidized cyclic nucleotide phosphodiesterase was prepared. The oxidation was again monitored by
+
+TABLE
+V
+Periodate treatment of cyclic nucleotide phosphodiesterase
+Periodate oxidations were performed at pH 6.0 as described in the
+legend of Table 111. Concanavalin A binding was done in batches.
+One-ml aliquots were incubated 30 min at room temperature with 1
+ml of concanavalin A-Sepharose 4B suspension (0.3 ml of packed
+beads) in Tris. Following low speed centrifugation, the supernatant
+was mixed with 1 ml of fresh suspension and treated as before. The
+pellets were combined and washed twice with 1 ml of Tris buffer. The
+combined supernatants and washings contained unbound enzyme,
+expressed as a percentage of the original units. Bound enzyme was
+determined by eluting the pellets twice with 2 mlof 20% (w/v) amethylmannoside in Tris.
+Conditions
+
+Experiment
+
+Condition
+
+pH
+
+Inhibitor
+
+Concanavalin ASepharose 4B
+Unbound Bound
+
+units/ml
+
+4.5
+
+1
+
+6.0
+
+2
+
+-periodate
++periodate65
+-periodate
++periodate
+
+%
+
+1100
+240
+1300
+980
+
+0
+
+94
+26
+77
+
+90
+
+0
+
+0
+
+TABLEIV
+Effect of concanavalin A on inhibitor treated with periodate
+Periodate treatments in experiments 1 and 2 were performed in
+acetate buffer (pH 4.5), while in experiment 3 citrate buffer (pH 6.0)
+was used (see the legend to Table 111). Approximately 3 units of
+inhibitor were incubated with 5 units of cyclic nucleotide phosphodiesterase in Tris buffer with and without concanavalin A (0.2 mg/ml) .
+The total volume was 1.32 ml. Following a 30-min incubation at 35
+OC the remaining enzyme activities were determined spectrophotometrically after the addition of 50 p1of 1 m~ CAMP and 25 p1of
+coupling enzymes (see “Materials and Methods”) to 925 plof the
+incubation mixture. The results are expressed as theper cent inhibition of controls containing no inhibitor.
+Inhibition of uhosphodiesterase
+Inhibitor (-IO4-)
+
+Experiment
+
+-ConA
+
+1
+2
+3
+
+Average
+
+44
+
++ ConA
+
+Inhibitor (+IO,-)
+- C+
+oC
+nA
+onA
+
+57
+
+52
+
+30
+23
+29
+
+55
+
+21 27
+
+51
+
+51
+
+51
+
+24
+18
+22
+
+Unbound
+
+units/ml
+
+Bound
+%
+
+285
+203
+
+- periodate
+99
++periodate
+
+66
+
+14
+
+TABLE
+VI
+pH stability of the inhibitor
+Aliquots of inhibitor were incubated at room temperature under
+the conditions shown. The inhibitor concentration was 600 units/ml.
+At the times indicated aliquots were diluted 10-fold in 0.5 M Tris
+buffer and assayed for remaining activity. The table shows the percentage of the original activity.
+Original activity after:
+
+Inhibitor
+
+TABLE
+I11
+Periodate treatment of inhibitor
+Periodate oxidations were performed in a total volume of 4.0 ml
+containing 50 m~ Na-acetate, pH 4.5 (experiment 1) or 50 mM Nacitrate, pH6.0 (experiment 2), 10 m~ periodic acid, and inhibitor. The
+samples were incubated overnight at 4 “C in the dark, and thereaction
+was terminated by the addition of 1.0 ml of 0.2 M glucose. One-ml
+aliquots were applied to a concanavalin A-Sepharose 4B column (0.4ml bed volume; 1-cm bed height) equilibrated in Tris buffer. After
+washing with Tris, the bound inhibitor was eluted with 20% a-methylmannoside in Tris. Bound and unbound inhibitor are expressed as
+Dercentaees of the units amlied.
+
+Concanavalin A-Sepharose 4B
+
+Enzvme
+
+9 6lhh2 4 h
+
+4h
+
+100
+94
+102
+105
+100
+30
+
+100
+
+770
+
+Tris
+90
+1 M acetic acid
+0.36 M trichloroacetic acid
+0.05 N HCI
+0.7 M Na2C03
+0.05 N NaOH
+
+92
+59
+102
+80
+0
+
+loo
+85
+81
+106
+
+74
+
+0
+
+100
+87
+93
+17
+-
+
+the loss of binding to concanavalin A-Sepharose 4B (Table
+V). Since the enzyme is not stable at low pH, the oxidations
+were carried out at pH 6.0. The results shown in Fig. 9A
+indicate that, although the periodate-treated enzyme has lost
+its ability to bind concanavalin A, its activity can still be
+depressed by the inhibitor. However, 30-40% more inhibitor
+is needed to achieve a given level of inhibition if the enzyme
+has been periodate oxidized. Since the periodate-treated enzyme has lost about 30% of its activity, the inactive enzyme
+may still be competing with active enzyme for the inhibitor.
+Alternatively, the oligosaccharide of the enzyme may have a
+function in inhibitor binding.
+When periodate-oxidized enzyme was incubated with the
+inhibitor in the presence of concanavalin A, no effect of
+concanavalin A on the inhibitor-enzyme complex formation
+was observed (Fig. 9 0 . This again demonstrates that the
+binding of concanavalin A to the cyclic nucleotide phosphodiesterase interferes with complex formation.
+
+Ion Effects
+The effect of several ionsand chelators onthe formation of
+enzyme-inhibitor complex was examined in the presence of
+bovine serum albumin (0.1 mg/ml) using the radiometric
+assay. CaC12, MgC12,and NH&l at 2 mM concentrations had
+no effect on the inhibition of enzyme activity, nor did 10
+mM EDTA, 10 mM ethylene glycol bis(P-aminoethyl
+ether)N,N,N’,N’-tetraaceticacid, or a mixture of the two at 5
+mM each. 0-Phenanthroline (2 m ~ had
+) no effect except to
+5’-AMP and 20
+inhibit enzyme activity by about 30%; 2
+mM potassium phosphate did not interfere with the inhibition,
+while the presence of 0.5 M NaCl diminished inhibition by
+about 10%.
+
+Cyclic Nucleotide Phosphodiesterase Inhibitor
+Inhibitor Stability
+
+7635
+
+extracellular, the purified inhibitor can be added to fields of
+aggregating cells and the effect on aggregation observed diThe inhibitor is not only extremely resistant to denaturation
+by heat (30 min at 80 "C showed no loss of activity) but is also rectly. If extracellular cyclic nucleotide phosphodiesterase is
+essential to aggregation, a supposition which has been quesstable at low pH. Table VI shows the remaining activity after
+exposure of the inhibitor to various acids and bases. Inhibitor tioned (22), adding a large excess of inhibitor to aggregating
+precipitatedwithtrichloroacetic
+acid (5%, w/v) was fully cells should block or delay aggregation. The K , of the complex, which we know forms rapidly, is 2 m, far above the
+active when redissolved in Tris buffer.
+micromolar levels observed during aggregation (23). Experiments of this type, to be reported elsewhere, have shown that
+DISCUSSION
+excess inhibitor delays the aggregation of cells at low but not
+The structure of the inhibitor is unusual. There is little or a t high density. This is consistent with the results of Wier (24)
+no methionine but 47 or more residues of half-cystine. This who showed that cells at a low density preferentially make
+number is a minimum estimate (16) derived from amino acid extracellular phosphodiesterase, while at high density a maanalysis. Most of it is found as cystine (Fig. 4) and theresulting
+jority of phosphodiesterase activity is membrane-bound and,
+disulfide bonds probably confer stability to heat and to acid
+therefore, insensitive to inhibitor.
+(Table VI) as well as sensitivity to dithiothreitol. We have
+never been able to recover inhibitor activity after dithiothreAcknowledgments-We would like to thank Dietmar Kappes for
+the excellent assistance in some experiments, Mike Brenner forhelpitol treatment.
+The interaction of the inhibitor with the cyclic nucleotide ful discussions and critical reading of the manuscript, and Harry Orr
+phosphodiesterase changes the K,,, of the enzyme without for assistance with the amino acid analysis. Alice Blatchley and Julie
+greatly affecting V,,,.,, whether thesubstrate is cAMP or Otto deserve special thanks for typing the manuscript.
+cGMP (12). The interaction is nearly irreversible, with a Kd of
+REFERENCES
+10"" M or less. The interaction is not salt-sensitive and is
+Loomis,
+W
+.
+F.
+(1979)
+Deu.
+Biol. 70, 1-12
+1.
+slowed but not stoppedin the presence of high levels of CAMP.
+2. Klein, C. (1975) J. Biol. Chem. 250, 7134-7138
+We have shown that concanavalin A interferes with the
+3. Klein, C., and Darmon, M. (1977) Nature 268, 76-78
+inhibitor-enzyme complex formation by binding to the en4. Tsang, A. S., and Coukell, M. B. (1977) Cell Differ. 6, 75-84
+zyme. This inhibition of complex formation is probably due to 5. Yeh, R. P., Chan, F. K., and Coukell, M. B. (1978) Deu. Biol. 66,
+361-374
+steric hindrance.Conditions which prevent binding of concan6. Gerisch, G., Malchow, D., Riedel, V., Muller, E., and Every, M.
+avalin A to theenzyme, e.g. periodate treatment of the enzyme
+(1972) Nature New Biol. 235,90-92
+or the presence of a-methyl-D-mannoside,still allow inhibitor7. Riedel, V., and Gerisch, G. (1971) Biochem. Biophys. Res. Comenzyme interaction. Based on the results obtained following
+mun. 42, 119-124
+periodate oxidation of the inhibitor and of the enzyme it seems
+8. Riedel, V., Malchow, D., Gerisch, G., and Nagele, B. (1972)
+Biochem. Biophys. Res. Commun. 46,279-287
+unlikely that the oligosaccharide moieties of inhibitor and
+9. Eitle, E., and Gerisch, G. (1977) Cell Differ. 6, 339-346
+enzyme are critical to their interaction.
+Our conclusion that thestoichiometry of the enzyme-inhib- 10. Dicou, E., and Brachet, P. (1979) Biochem. Biophys. Res. Commun. 90, 1321-1327
+itor interaction is 1:l is based on gel filtration data and, 11. Tsang, A. S., and Coukell, M. B. (1979) Eur. J. Biochem. 95,419therefore, on the assumption that complex formation causes
+425
+no massive changes in molecular shape.
+12. Kessin, R. H., Orlow, S. J., Shapiro, R. I., and Franke, J. (1979)
+Proc. Natl. Acad. Sci.U.S. A . 76,5450-5454
+We are not aware of any similar cyclic nucleotide phosphodiesterase inhibitory protein, withthe possible exception of a 13. Toorchen, D., and Henderson, E. J. (1979) Biochem. Biophys.
+Res. Commun. 87,1168-1175
+protein which has been partially purified from the rod outer
+14. Orlow, S. J., Shapiro, R. I., Franke, J., and Kessin, R. H. (1981) J.
+segment of the bovine eye (21).
+Biol. Chem. 256, 7620-7627
+The inhibitor of cyclic nucleotide phosphodiesterase is of 15. Segrest, J. P., and Jackson, R. L. (1972) Methods Enzymol. 28,
+interest because of the role that it plays during chemotaxis
+54-63
+and because the cells regulate its production during growth 16. Blackburn, S. (1978) in Amino Acid Determination (Blackburn,
+S., ed) pp. 12-14, Dekker, New York
+and development. The experiments shown in Fig. 1 define the
+times and conditions during which the cells produce large 17. Spiro, R.G. (1966) Methods Enzymol. 8,3-5
+amounts of inhibitor. We do not know whether the induction 18. Technical Bulletin 1069 (1979) Bio-Rad Laboratories, Richmond,
+CA
+of inhibitor seen instationary phase and in buffer is the result 19. Greco, W . R., and Hakala, M. T. (1979) J. Biol. Chem. 254,
+of new mRNA synthesis, nordo we know the level of regula12104-12109
+tion of the suppression of inhibitor secretion brought about 20. Gottschalk, A. (Editor) (1972) Glycoproteins Vol. 5, Part A, p.
+331, BBA Library, Elsevier, Amsterdam
+by exogenous cAMP (2-5). The purification and physical
+characterization of the inhibitor make approaches to these 21. Dumler, I. L., and Etingof, R. N. (1976) Biochim. Biophys. Acta
+429,474-484
+questions feasible.
+22. Gerisch, G. (1976) Cell Differ. 5 , 21-25
+It isnow possible to explore the biological role of the 23. Brenner, M. (1978) Deu. Biol. 64, 210-223
+inhibitor and theextracellular cyclic nucleotide phosphodies- 24. Wier, P. W . (1977) Differentiation 9, 183-191
+terase. Since some of the events involved in chemotaxis are Additional references will be found on p. 7637.
+
+7636
+
+Cyclic Nucleotide Phosphodiesterase Inhibitor
+
+-
+
+1
+
+-
+
+-
+
+IO01
+100
+
+80
+
+-
+
+40
+
+80
+
+120
+
+160
+
+200
+
+pl purified inhibitor
+
+1
+
+I
+
+I
+
+1
+
+2
+
+-
+
+1
+
+3
+
+I
+
+4
+
+Diihiothreliol IrnM)
+
+I
+
+5
+
+Cyclic Nucleotide Phc3sphodiesterase Inhibitor
+
+7637
+
+

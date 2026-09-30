@@ -1,0 +1,883 @@
+708
+
+Research Paper
+
+A novel Akt/PKB-related kinase is essential for morphogenesis
+in Dictyostelium
+Ruedi Meili, Charlene Ellsworth and Richard A. Firtel
+Background: Dictyostelium Akt/PKB is homologous to mammalian Akt/PKB
+and is required for cell polarity and proper chemotaxis during early
+development. The kinase activity of Akt/PKB kinase is activated in response to
+chemoattractants in neutrophils and in Dictyostelium by the chemoattractant
+cAMP functioning via a pathway involving a heterotrimeric G protein and
+PI3-kinase. Dictyostelium contains several kinases structurally related to
+Akt/PKB, one of which, PKBR-1, is investigated here for its role in cell polarity,
+movement and cellular morphogenesis during development.
+Results: PKBR-1 has a kinase and a carboxy-terminal domain related to those
+of Akt/PKB, but no PH domain. Instead, it has an amino-terminal myristoylation
+site, which is required for its constitutive membrane localization. Like Akt/PKB,
+PKBR-1 is activated by cAMP through a G-protein-dependent pathway, but
+does not require PI3-kinase, probably because of the constitutive membrane
+localization of PKBR-1. This is supported by experiments demonstrating the
+requirement for membrane association for activation and in vivo function of
+PKBR-1. PKBR-1 protein is found in all cells throughout early development but
+is then restricted to the apical cells in developing aggregates, which are
+thought to control morphogenesis. PKBR-1 null cells arrest development at the
+mound stage and are defective in morphogenesis and multicellular
+development. These phenotypes are complemented by Akt/PKB, suggesting
+functional overlap between PKBR-1 and Akt/PKB. Akt/PKB PKBR-1 double
+knockout cells exhibit growth defects and show stronger chemotaxis and
+cell-polarity defects than Akt/PKB null cells.
+
+Address: Section of Cell and Developmental
+Biology, and Center for Molecular Genetics,
+University of California, San Diego 9500, Gilman
+Drive, La Jolla, California 92093-0634, USA.
+Correspondence: Richard A. Firtel
+E-mail: rafirtel@ucsd.edu
+Received: 20 January 2000
+Revised: 22 March 2000
+Accepted: 14 April 2000
+Published: 31 May 2000
+Current Biology 2000, 10:708–717
+0960-9822/00/$ – see front matter
+© 2000 Elsevier Science Ltd. All rights reserved.
+
+Conclusions: Our results expand the previously known functions of Akt/PKB
+family members in cell movement and morphogenesis during Dictyostelium
+multicellular development. The results suggest that Akt/PKB and PKBR-1 have
+overlapping effectors and biological function: Akt/PKB functions predominantly
+during aggregation to control cell polarity and chemotaxis, whereas PKBR-1 is
+required for morphogenesis during multicellular development.
+
+Background
+Akt/PKB is a serine/threonine protein kinase whose activity
+is regulated by the phosphorylation of conserved residues in
+the activation loop and carboxy-terminal tail [1,2]. Akt/PKB
+activation is induced through the stimulation of Gprotein-coupled receptors and tyrosine kinases and
+requires the function of phosphatidylinositol-3 kinase
+(PI3-kinase) [2–6]. Binding of the amino-terminal PH
+domain of Akt/PKB to phosphoinositide products of PI3kinase (such as PI(3,4,5)P3) is thought to help localize
+Akt/PKB to the plasma membrane [7–9], thereby facilitating its phosphorylation by PDK1, the kinase that phosphorylates Akt/PKB on the activation loop. Akt/PKB
+when constitutively localized to the plasma membrane via
+an amino-terminal myristoylation site is constitutively
+active [1,10]. Dictyostelium Akt/PKB lacking the PH
+
+domain is only inefficiently activated by upstream pathways
+(R.M. and R.A.F., unpublished observations). In metazoans, Akt/PKB is involved in regulating cell size, cell and
+organism survival, cell differentiation, apoptosis and
+metabolic pathways [11–18].
+When Dictyostelium amoebae are starved, they aggregate to
+form a mound of up to 105 cells, which subsequently
+develops into a spore-containing fruiting body. Aggregation is mediated by chemotaxis in response to cAMP, and
+is activated through pathways activated by G-proteincoupled cAMP receptors [19,20]. We previously demonstrated that Dictyostelium Akt/PKB is required for cell
+polarization and proper chemotaxis in response to cAMP
+during aggregation of cells to form a multicellular organism [1]. Dictyostelium Akt/PKB kinase activity is transiently
+
+Research Paper Akt/PKB-related kinase in Dictyostelium Meili et al.
+
+stimulated by cAMP via a signaling pathway mediated by
+a G-protein-coupled receptor and involving PI3-kinase.
+The Akt/PKB PH domain fused to green fluorescent
+protein (GFP) localizes to the plasma membrane in
+response to cAMP stimulation and to the leading edge
+during chemotaxis. These results suggest that Akt/PKB is
+an important component of the signaling pathways that
+control chemotaxis in Dictyostelium. Mammalian Akt/PKB
+is also activated in response to fMet-Leu-Phe (fMLP) and
+chemokines [21], and a GFP fusion with the Akt/PKB PH
+domain localizes to the plasma membrane in neutrophils
+in response to fMLP [22], suggesting a possible conserved
+role for Akt/PKB in responding to chemoattractants [23].
+Here, we describe the regulation and function of an
+Akt/PKB-related kinase, PKBR-1, in Dictyostelium. PKBR-1
+is highly homologous to Akt/PKB in the kinase and
+carboxy-terminal extension but lacks the amino-terminal
+PH domain. Instead, PKBR-1 is localized to the membrane
+by myristoylation. PKBR-1 is not essential for aggregation
+but is required during multicellular development for morphogenesis beyond the mound stage. Like Akt/PKB,
+PKBR-1 is activated via a cAMP-mediated, G-proteincoupled pathway, which, in contrast to Akt/PKB activation, does not require PI3-kinase; however, like Akt/PKB,
+membrane localization of PKBR-1 is essential. We
+present results that suggest Akt/PKB and PKBR-1 serve
+similar biological roles, with Akt/PKB functioning during
+aggregation and PKBR-1 acting during mound formation
+and morphogenesis.
+
+Results
+PKBR-1 structure and subcellular localization
+
+A Dictyostelium PKBR-1 cDNA was cloned using
+sequence information from previous PCR screens [24]
+and GenBank (accession number M59744). A comparison
+of the deduced PKBR-1 amino-acid sequence with Dictyostelium (GenBank U15210) and human Akt/PKB
+(GenBank M63167) revealed a high degree of homology
+in the kinase domain and the carboxy-terminal extension
+(Figure 1a). PKBR-1 lacks the amino-terminal PH domain,
+however. Instead, it has a consensus myristoylation site
+(MGXXX(S/T)(K/R); single-letter amino-acid notation,
+where X is any amino acid) followed by a cluster of basic
+amino acids, a sequence motif that embodies a putative
+membrane anchor [25,26]. The two regulatory Akt/PKB
+phosphorylation sites [1,2] in the activation loop and carboxyl terminus (Ser473/Thr435) are conserved in
+PKBR-1 (Thr309 and Thr470) and lie in a conserved
+sequence context.
+The presence of a consensus myristoylation site followed
+by a cluster of basic amino acids is normally sufficient for
+stable membrane association [25,26]. Using indirect
+immunofluorescence, we examined the subcellular localization of PKBR-1 tagged at its carboxyl terminus with
+
+709
+
+the hemagglutinin (HA) epitope (PKBR-1–HA). As shown
+in Figure 1b, PKBR-1–HA is associated with the plasma
+membrane. When the myristoylation site is inactivated by
+placing a Myc epitope at the amino terminus of the
+protein (Myc–PKBR 1), membrane localization is lost and
+the kinase appears to be found in small clusters or particles within the cytoplasm (Figure 1b). Membrane localization is restored when the c-Src myristoylation site with
+its basic cluster [25,26] is fused to the PKBR-1 amino terminus (Myr–PKBR-1).
+The chemoattractant cAMP activates PKBR-1 via a
+G-protein-dependent, PI3-kinase-independent pathway
+
+Dictyostelium Akt/PKB is activated in response to the
+chemoattractant cAMP via a G-protein-dependent pathway
+from the cAMP receptor that requires the function of PI3kinase [1]. To investigate whether PKBR-1 is similarly
+activated, we stimulated aggregation-stage cells with
+cAMP and PKBR-1 activity was assayed. Cells were lysed
+at the times shown and PKBR-1 was isolated from these
+lysates by immunoprecipitation with a polyclonal antibody
+raised against a carboxy-terminal PKBR-1 peptide (see
+Materials and methods). PKBR-1 kinase activity was
+assayed using histone 2B as a substrate. For comparison,
+we isolated Akt/PKB from the same lysates using a Dictyostelium Akt/PKB-specific antibody and assayed
+Akt/PKB kinase activity as previously described [1]. As we
+show in Figure 2a, the activation kinetics of the two
+kinases are almost indistinguishable. There is rapid activation within 10–20 seconds and fast adaptation to basal
+levels within 120 seconds. To confirm the specificity of
+the assay for the respective kinases, we performed control
+experiments using null strains for each kinase. As
+expected, no Akt/PKB activity was observed in pkbA null
+cells and no PKBR-1 activity was seen in pkbR1 null cells,
+whereas pkbA null cells had cAMP-activated PKBR-1
+activity and pkbR1 null cells had cAMP-activated Akt/PKB
+activity (Figure 2a).
+Akt/PKB activation in higher eukaryotes as well as in
+Dictyostelium is mediated by PI3-kinases and their phosphoinositide products (see Introduction). We therefore
+wanted to determine whether PI3-kinases are involved
+in PKBR-1 activation. Maximal activation of Dictyostelium
+Akt/PKB requires either of the genetically redundant
+PI3-kinases [27] PIK1 and PIK2, which are most closely
+related to the subfamily containing mammalian
+p110α [27], but not PIK3, which is most closely related
+to the PI3-kinase isoforms activated by Gβγ subunits [1].
+To assess the role of PI3-kinase in PKBR-1 activation, we
+used the PIK1/PIK2 double knockout cells (pik1–/pik2–
+cells) and the PI3-kinase inhibitor LY294002 [28], which
+inhibits cAMP-mediated activation of Akt/PKB [1]. As
+previously shown, Akt/PKB activity is significantly
+reduced in pik1–/pik2– cells (compare ‘WT’ lanes with
+
+710
+
+Current Biology Vol 10 No 12
+
+Figure 1
+
+Amino-acid sequence, domain structure and sequence features of
+Dictyostelium PKBR-1 and its subcellular localization. (a) The
+derived PKBR-1 sequence is aligned with Akt/PKB from
+Dictyostelium and human cells. The kinase domain (gray
+background) is highly conserved, followed by a well-conserved
+‘extension’. There are two potential targets for regulatory
+
+phosphorylation: Thr309 (gray bar in the activation loop of the kinase
+domain) and Thr470 (black bar in the kinase extension). (b) Indirect
+immunofluorescence showing subcellular localization of HA-tagged
+wild-type PKBR-1 (PKBR-1–HA), a non-myristoylatable PKBR-1
+(Myc–PKBR-1), and PKBR-1 fused with the c-Src membrane
+anchor (Myr–PKBR-1).
+
+‘PI3K 1/2 null’ lanes in Figure 2b) or when cells are pretreated for 60 seconds with 12.5 µM LY294002 (Figure 2b;
+the western blot shows levels of Akt/PKB and PKBR-1
+protein). In some experiments, the level of inhibition is
+greater when pik1–/pik2– cells are pretreated with the
+inhibitor (Figure 2b). This greater inhibition may be due
+to the inhibition of residual PI3-kinase activity derived
+from PIK3 or an unidentified PI3-kinase. In contrast,
+PKBR-1 activation is not reduced in either of the double
+knockout cells and/or in the presence of the inhibitor
+(Figure 2b), indicating that PKBR-1 activation is independent of PI3-kinase (the Akt/PKB and PKBR-1 assays were
+done on the same samples). To examine whether cAMPmediated PKBR-1 activation functions through a
+G-protein-coupled pathway, as does cAMP activation of
+
+Akt/PKB, we used a cell line in which the gene encoding
+the sole Gβ subunit was disrupted but which constitutively
+expressed the cAMP receptor cAR1 [1,29]. As depicted in
+Figure 2c, cAR1-expressing, gβ null cells exhibit no
+cAMP-mediated activation of PKBR-1 activity.
+To determine whether the conserved Akt/PKB activation
+sites in the activation loop and carboxy-terminal extension are important for PKBR-1 activation, we mutated
+Thr309 and Thr470 to alanine (PKBR-1T309A,T470A).
+PKBR-1T309A,T470A was expressed in pkbR1 null cells and
+cAMP-mediated activation was assayed. We observed no
+activity above the basal level (data not shown). Moreover,
+PKBR-1T309A,T470A expressed in pkbR1 null cells is unable
+to complement the null phenotype (see below). These
+
+Research Paper Akt/PKB-related kinase in Dictyostelium Meili et al.
+
+data are consistent with phosphorylation at these sites
+being required for PKBR-1 activation.
+
+711
+
+Figure 2
+
+PKBR-1 exhibits a temporally and spatially regulated pattern
+of expression
+
+PKBR-1 RNA blots show two developmentally regulated
+transcripts (Figure 3a). The smaller mRNA species is found
+at low levels during vegetative growth and is induced by
+starvation at the onset of development, with transcript
+levels peaking at 4–8 hours during the aggregation stage. By
+8 hours of development, the larger transcript is induced and
+peaks at the mound stage (12 hours), suggesting that
+PKBR-1 transcription is regulated by two different pathways. Both mRNAs are derived from the same gene, as they
+are both absent from pkbR1 null cells (data not shown).
+In contrast to the mRNA, there is a single protein species.
+The overall protein levels increase upon the initiation of
+development and are maximal during aggregation, constent with the expression of the first transcript. Protein
+levels then decrease ~2–3-fold and remain constant at this
+level throughout the slug stage (Figure 3b). Examination
+of the PKBR-1 expression pattern by immunohistochemistry reveals a switch from ubiquitous expression in all
+cells during growth and aggregation in early development
+to expression restricted to cells found at the top of the
+mound during tip formation (data not shown). This
+expression pattern is similar to that of ecmA, which is a
+marker for the prestalkA cells that eventually form the
+anterior 10% of the slug [30]. The appearance of the larger
+mRNA species and the change to spatially restricted
+protein expression occur at about the same time during
+development, suggesting a possible causal relationship
+between these two events.
+pkbR1 null cells arrest at the mound stage
+
+To investigate the role of PKBR-1, we generated a knockout strain by homologous recombination. No PKBR-1 gene
+product was detectable on both mRNA and protein levels
+(data not shown). pkbR1 null cells aggregate with kinetics
+similar to those of the parental wild-type strain, forming a
+tight aggregate around 10 hours of development
+(Figure 4a). The subsequent development of pkbR1 null
+mounds deviates markedly from that of wild-type mounds,
+however; most pkbR1 null mounds arrest without forming a
+tipped aggregate, whereas wild-type strains form fruiting
+bodies by 25 hours (Figure 4a). Although most of the
+mounds show no further morphogenesis, some mounds
+round up and become almost spherical (Figure 4a, panel
+‘pkbR1 null 50 h’). Depending on the conditions, some of
+the mounds form an aberrant sorus atop an irregular stalklike structure without proceeding through the normal
+intermediate stages. Dissection of the fruiting body-like
+structures that form reveals mature spores and stalk cells;
+however, these are less organized than in normal fruiting
+bodies and no stalk tube is observed (data not shown).
+
+Activation of PKBR-1 by the chemoattractant. (a) Wild-type (WT), pkbA
+null and pkbR1 null aggregation-stage cells were stimulated with cAMP.
+Samples were taken at the times indicated and PKBR-1 and Akt/PKB
+kinase activity were visualized by autoradiography of an immunocomplex
+in vitro kinase assay with histone 2B as substrate separated on
+SDS–PAGE. (b) Kinase activation in response to cAMP stimulation in
+wild-type (WT) and PI3K1/PI3K2 null cells (PI3K1/2) with or without a
+60 sec pretreatment with 12.5 µM of the PI3-kinase inhibitor LY294002.
+(The Akt/PKB and PKBR-1 assays were done on the same samples so
+the relative effect of PI3-kinase can be compared.) (c) PKBR-1 kinase
+activity in gβ null cells constitutively expressing the cAMP receptor
+cAR1. See Materials and methods for details. (d) Activation of PKBR-1
+(WT), Myr–PKBR-1 and Myc–PKBR-1 expressed in pkbR1 null cells
+from the Act15 promoter. The upper panel shows the kinase activity.
+The lower panel is a western blot and shows protein levels.
+
+A pkbA/pkbR1 double knockout strain does not grow
+axenically or aggregate
+
+Because of the structural similarity of PKBR-1 to Akt/PKB,
+we investigated the impact of the absence of both kinases
+on Dictyostelium growth and development. As described
+previously, Akt/PKB (pkbA) null cells do not polarize properly in a chemoattractant gradient, move slowly, and do not
+aggregate at lower cell densities, densities at which the
+parental strain aggregates normally [1]. However, pkbA null
+cells exhibit no obvious growth defects and multicellular
+aggregates form normal fruiting bodies.
+We generated a PKBR-1 Akt/PKB double knockout
+strain (pkbR1/pkbA null cells, see Materials and methods).
+
+712
+
+Current Biology Vol 10 No 12
+
+Figure 3
+
+Temporal expression pattern of Dictyostelium pkbR1 and
+cell-type-specific genes during development. (a) Northern blot
+analysis of pkbR1 RNA during development. (b) Western blot
+analysis of PKBR-1 protein using an antibody raised against the
+carboxyl terminus. (c) RNA blot analysis examining responsiveness to
+cAMP of the wild-type (WT), pkbA null (pkbA–), pkbR1 null (pkbR1–)
+
+and double knockout (Double) cells. Top two rows: RNA was
+isolated from log-phase vegetative cells (Veg) or from cells pulsed
+for 5 h with 30 nM cAMP (cAMP) and probed for the pulse-induced
+genes cAR1 and csA. Bottom row: for the post-aggregative gene
+CP2, RNA from cells pulsed for 5 h and then given high cAMP
+(300 µM) was used.
+
+It became apparent that disruption of both genes
+severely impairs cell growth under axenic conditions,
+even when the cells grow attached to plastic Petri dishes.
+To isolate clones and grow pkbR1/pkbA null cells, it was
+necessary to supplement the axenic medium with bacteria (Klebsiella aerogenes). When we examined the developmental potential of pkbR1/pkbA null cells, no aggregation
+occurred and the cells remained in a monolayer indefinitely (Figure 4b, and data not shown). Re-expression of
+Akt/PKB under the control of an Act15 promoter partially
+rescues the developmental defect, allowing aggregation
+
+and formation of smaller than wild-type mounds, most of
+which arrest at this stage (Figure 4b).
+To determine whether the double null cells are either
+unable to detect the developmental signals or cannot
+respond chemotactically, we assayed the ability of the
+double null cells to respond to cAMP signaling by examining cAMP-mediated gene expression and the ability of
+‘aggregation-competent’ double null cells pulsed for
+5 hours with cAMP (to maximize expression of the signaling components required for responses to cAMP [1,29],
+
+Figure 4
+Developmental phenotype of the pkbR1 single
+knockout and pkbR1/pkbA double knockout.
+(a) Developmental morphology of wild-type
+(left panels) and pkbR1 null cells (right
+panels) at the mound stage (11 h) and at the
+terminal stage of development (25 h for
+wild-type cells; 50 h for pkbR1 null cells). The
+inset illustrates the range of terminal
+structures formed by the knockout strain.
+(b) Aggregation-deficient phenotype of
+pkbR1/pkbA double knockout cells after 28 h
+(upper panel). Partial complementation was
+achieved by re-expression of Akt/PKB from
+the Act15 promoter (lower panel).
+
+Research Paper Akt/PKB-related kinase in Dictyostelium Meili et al.
+
+713
+
+Figure 5
+Chemotaxis of wild-type and pkbR1 null cells.
+Cells were pulsed for 5 h with 30 nM cAMP
+every 6 min to induce cAMP receptors and
+other components of the cAMP chemotaxis
+pathway and plated on a glass coverslip
+covering a hole in a small plastic Petri dish.
+Chemotaxis of the cells to a micropipette
+containing 150 µM cAMP was assayed as
+previously described [1]. The cells were
+visualized on a Nikon microscope with
+differential interference contrast imaging as
+described in the Materials and methods and
+analyzed using the DIAS program [38]. The
+double knockout cells exhibit a speed of
+1.4 ± 0.3 µM/min, wild-type cells showed a
+mean speed of 8.9 ±1.0 µM/min, and the
+pkbA null cells exhibited a mean speed of
+3.3 ± 0.3 µM/min.
+
+see below) to undergo chemotaxis towards cAMP emitted
+from a micropipette. Figure 3c shows the expression in
+wild-type, pkbA null, pkbR1 null, and the double knockout cells of the aggregation-stage genes encoding the
+cAMP receptor cAR1 and the cell adhesion protein
+contact sites A (CsA) in response to 30 nM pulses of
+cAMP, a signal that mimics cAMP signaling during aggregation [29]. All four strains showed a similar induction of
+cAR1 expression. The expression of CsA, which is dependent on cAR1 expression and pathways regulated through
+cAR1, is similar in wild-type cells and the single knockout strains, but is reduced in the double null cells. We
+also examined the expression of CP2, a gene induced by
+high levels of cAMP at the mound stage via a cAR1dependent pathway. The expression level in the double
+knockout cells is slightly reduced compared to that in the
+other three strains. These results indicate that the double
+knockout cells can respond to cAMP signals, but at a level
+that is slightly reduced compared with either null strain or
+wild-type cells.
+As shown in Figure 5, the double knockout cells undergo
+chemotaxis, but at a significantly reduced rate compared
+with either the wild-type or pkbR1 null cells (which show
+normal chemotaxis, data not shown). The rate is also
+reduced compared to pkbA null cells, which already
+exhibit a significantly reduced rate of chemotaxis and cell
+polarization compared to wild type ([1], and see legend to
+Figure 5). In addition, pkbR1/pkbA null cells undergoing
+chemotaxis do not polarize (Figure 5, inset; compare with
+
+inset of wild-type cells). This defect is not unexpected,
+considering the polarization defect of pkbA null cells [1].
+The growth and aggregation defects and more severe
+chemotaxis deficiencies of pkbR1/pkbA null cells compared
+with pkbA null cells suggest that PKBR-1 and Akt/PKB
+may co-regulate multiple pathways and there may be
+some functional redundancy between the genes. We note
+that the double knockout cells exhibit strong growth
+defects and thus the reduced response of these cells to
+cAMP signaling could be due to pleiotropic effects of the
+growth defects or actual defects in the response pathways.
+Expression of either PKBR-1 or Akt/PKB can complement
+the mound-arrest pkbR1 null phenotype
+
+The hallmarks of pkbR1 null strain development are
+mound arrest, the absence of a slug stage for those aggregates that develop further, and formation of a few, aberrant, fruiting bodies. pkbA null cells, on the other hand,
+exhibit aggregation-stage defects, with the aggregates that
+form producing normal fruiting bodies [1]. Akt/PKB
+protein is preferentially expressed during growth and
+aggregation [1] and becomes undetectable at the mound
+stage, the time at which pkbR1 null strain developmental
+defects are first observed. One explanation for this is that
+PKBR-1 function is mostly redundant in the presence of
+Akt/PKB protein but becomes essential after the disappearance of Akt/PKB protein.
+To test this hypothesis, we expressed Akt/PKB or
+PKBR-1 in pkbR1 null cells from the constitutive Act15
+
+714
+
+Current Biology Vol 10 No 12
+
+Figure 6
+Development of PKBR-1 mutant strains.
+(a) The developmental phenotypes of pkbR1
+null strains expressing PKBR-1, Akt/PKB, a
+kinase-inactive mutant of PKBR-1
+(PKBR-1K182M) and a non-myristoylatable
+mutant (Myc–PKBR-1) at either 15 h (slug
+stage) or 25 h (terminal development).
+Expression from the Act15 and GFP
+promoters are shown for Akt/PKB and
+PKBR-1. (b) pkbR1 null cells expressing GFP
+under the control of the Act15 promoter were
+mixed with wild-type (KAx-3) cells in a ratio of
+1:10 and plated for development. Structures
+are visualized by admixing some visible light to
+show nonfluorescent cells more clearly.
+
+promoter and the GBF promoter, which is preferentially
+induced after aggregation [31] (J. Brown and R.A.F.,
+unpublished observations). Clones were selected and their
+development analyzed. Strains expressing PKBR-1 from
+the GBF promoter (GBF–PKBR-1) develop like the wildtype Dictyostelium parental strain, proceeding through a
+slug stage to the formation of well-proportioned fruiting
+bodies (Figure 6a). Strains expressing Akt/PKB from the
+Act15 (Act15–Akt/PKB) or GBF promoter exhibit almost
+normal development, with a slug stage and formation of
+fruiting bodies, although the slugs and the fruiting bodies
+do not appear completely normal (Figure 6a, data for GBF
+promoter not shown). A putative kinase-dead mutant of
+PKBR-1 (Act15/PKBR-1K182M), which has lysine in the
+ATP-binding site mutated to methionine, is unable to
+restore development (Figure 6a). These cells aggregate
+abnormally and form very small mounds which arrest at
+this stage, suggesting that the kinase-dead PKBR-1 functions as a dominant-negative during aggregation and may
+affect Akt/PKB as well as PKBR-1 function. Consistent
+with this, expression of this construct in wild-type cells
+resulted in a similar phenotype (data not shown). Likewise, expression of a mutant lacking the amino-terminal
+myristoylation site (Act15–Myc–PKBR-1) does not restore
+normal development, although expression of a mutant in
+which the native myristoylation site is replaced with the
+one from c-Src (Act15–Myr–PKBR-1) does (Figure 6a),
+indicating that PKBR-1 membrane localization is required
+for in vivo function.
+To determine the ability of the amino-terminally tagged
+Myc– and Myr–proteins to be activated, we repeated the
+kinase activation experiments with pkbR1 null strains
+
+constitutively expressing Myr–PKBR-1 and Myc–PKBR-1
+at approximately the same levels as endogenous PKBR-1
+is expressed in wild-type cells (Figure 2d). As shown,
+Myr–PKBR-1 but not Myc–PKBR-1 is activated, suggesting that activation requires the protein to be membrane
+localized. The level of activation of Myr–PKBR-1 is
+approximately a third to a half that of endogenous
+PKBR-1 expressed at approximately the same levels in
+wild-type cells. This reduced activation may result from
+structural changes in the protein that may stem from the
+added amino-terminal domain.
+PKBR-1 knockout cells exhibit patterning defects in
+chimeras with wild-type cells
+
+The mound-arrest phenotype of the pkbR1 null strain could
+indicate that these cells have either a cell movement defect,
+a defect in cell-type differentiation, or a combination of
+both. To examine if cell-type-specific gene expression is
+induced in pkbR1 null mounds, we probed developmental
+RNA blots with the prestalk-specific and prespore-specific
+genes ecmA and SP60/cotC [19,32]. Both genes are induced
+in pkbR1 null cells with kinetics similar to those of induction and expression in wild-type cells, indicating that pkbR1
+null cells are able to induce cell-type differentiation (data
+not shown), although the level of expression is reduced.
+This is probably a result of the pkbR1 null cells arresting at
+the mound stage, which is before the maximal level of ecmA
+and SP60/cotC expression is reached in wild-type strains.
+We cannot, however, exclude a direct role for PKBR-1 in
+maximal expression of these genes.
+To follow movement and position of pkbR1 null cells
+during morphogenesis, we tagged these cells by expressing
+
+Research Paper Akt/PKB-related kinase in Dictyostelium Meili et al.
+
+GFP under the control of the Act15 promoter and allowed
+them to form chimeric aggregates with wild-type cells. In
+aggregation streams, pkbR1 null cells participate normally
+in aggregate formation (Figure 6b), suggesting that there is
+no cell movement defect at this stage. Moreover, the pkbR1
+null cells have a normal elongated shape, suggesting that
+they are not defective in cell polarization at this stage of
+development. The formation of the anterior–posterior axis
+and spatial patterning of cell types in Dictyostelium result
+from a differential sorting of prestalk cells to the apical tip
+to form a discrete anterior prestalk domain [19,30,32]. But
+while the distribution of the pkbR1 null cells remains
+uniform in early mounds (data not shown), the null cells
+are not found in the tip or in the resulting anterior prestalk
+domain in the slug (Figure 6b, data not shown). pkbR1 null
+cells form spores and are part of the basal disc but are not
+found in the stalk (data not shown).
+
+Discussion
+Regulation and localization of PKBR-1
+
+PKBR-1 is highly homologous to Akt/PKB, including the
+presence of the two conserved phosphorylation sites
+required for kinase activation. Alanine substitutions at
+these sites abolish cAMP-mediated activation of PKBR-1.
+A major difference between PKBR-1 and Akt/PKB is the
+absence of a PH domain and the presence of a myristoylation site in PKBR-1. This myristoylation site is required
+for constitutive localization of PKBR-1 on the plasma
+membrane, cAMP-mediated activation of PKBR-1, and
+the ability of PKBR-1 to complement the pkbR1 null phenotype, and can be replaced by the c-Src amino-terminal
+myristoylation site. The requirement for membrane localization for PKBR-1 activation and function is consistent
+with the requirement for the PH domain and membrane
+localization for Akt/PKB activation.
+Our results suggest that some aspects of the activation
+pathway are conserved between PKBR-1 and Akt/PKB,
+including activation in response to cAMP via a heterotrimeric G-protein-dependent pathway with similar
+kinetics, and the requirement of the conserved consensus
+sites for phosphorylation. Unlike Akt/PKB, however,
+PKBR-1 activation does not require PI3-kinase. This is
+not so surprising, as PKBR-1 has a myristoylation site
+which functions as a constitutive membrane-localization
+signal. Interestingly, the addition of an amino-terminal
+myristoylation signal from c-Src to either bona fide mammalian or Dictyostelium Akt/PKB, but not PKBR-1, results
+in a constitutively active kinase [1,10]. It has been proposed that Akt/PKB is held in an inactive state through a
+negative regulatory function of the PH domain and that
+binding of the PH domain to the PI3-kinase product
+PI(3,4,5)P3 in the plasma membrane results in the localization of the protein to the plasma membrane. This possibly causes a conformational change in the protein [33]
+and allows access to PDK1 (or the equivalent kinase in
+
+715
+
+Dictyostelium). Dictyostelium Akt/PKB either lacking the
+PH domain or containing a point mutation in the PH
+domain which abrogates its ability to translocate to the
+plasma membrane in response to cAMP signaling, shows
+significantly reduced cAMP-mediated activation (R.M.
+and R.A.F., unpublished observations), which is consistent with a requirement for membrane localization for
+activation. An amino-terminal myristoylation site would
+place Akt/PKB constitutively at the membrane, where
+basal levels of phospholipids might release the negative
+inhibition, allowing PDK1 to have access to Akt/PKB. As
+PKBR-1 is not activated by constitutive membrane localization, it is possible that the amino-terminal domain of
+PKBR-1 may be an inhibitory domain similar to the PH
+domain, but one not regulated by phospholipids. We
+suggest that in Dictyostelium, and possibly in metazoans,
+there are two upstream regulatory pathways for Akt/PKB:
+a PI3-kinase-dependent pathway that controls plasma
+membrane localization, and a distinct PI3-kinase-independent pathway that regulates kinase phosphorylation
+and activation.
+Function of PKBR-1 and redundancy with Akt/PKB
+
+PKBR-1 protein is present throughout growth and development, with levels increasing upon starvation and being
+maximal during aggregation. Protein levels then decrease
+~2–3 fold, at the time that expression of the gene from a
+second promoter is induced by cAMP signaling. This corresponds temporally with a change in the expression
+pattern of the protein. Initially, all cells have a similar
+level of PKBR-1 protein, as determined by in situ staining;
+during tip formation, however, cells expressing PKBR-1
+are spatially restricted to a subpopulation of cells at the
+top of the mound. This restriction is similar to that
+observed with some prestalk-specific proteins [32]. Thus,
+the reduction in the level of PKBR-1 as the mound forms
+coincides with the loss of the protein in the cells that will
+not be forming the tip. In Dictyostelium, spatial patterning is
+established, in part, through the differential sorting of prestalk cells to the apex of the mound, forming the tip [19,32].
+Because of the changes in protein levels and the distribution of PKBR-1-expressing cells in the mound, we suggest
+that the protein expressed during early development is
+turned over in all cells, or possibly only in cells that will
+not sort to form the tip. New PKBR-1 protein would then
+be expressed in this tip cell population from the late promoter. This shift from the presence of PKRB-1 in all cells
+to the localization of the protein only in prestalk cells,
+which form the tip and represent ~20% of the organism,
+presumably accounts for the reduced levels of this protein
+in the whole organism at the mound stage. As the cells
+that preferentially have PKBR-1 in the mound are those
+that have started to form the tip, and which extend to form
+a standing finger, we suggest that potential cell motility or
+polarity defects of pkbR1 null cells are responsible for the
+mound-arrest phenotype.
+
+716
+
+Current Biology Vol 10 No 12
+
+The first observed developmental defect of pkbR1 null
+cells is the mound-arrest phenotype. In chimeric organisms
+containing predominantly wild-type cells, pkbR1 null cells
+are uniformly distributed during aggregation and in the
+early mound. As cell sorting starts to form the apical, anterior prestalk domain, pkbR1 null cells do not participate,
+however. These results, combined with the observation
+that these cells can induce prestalk and prespore genes, are
+consistent with a defect in the ability of these cells to sort
+and form this developing tissue, rather than to a defect in
+the ability of the cells to induce prestalk cells. Several other
+mutant strains with known cell movement defects have a
+similar phenotype, including strains in which the genes
+encoding myosin II, myosin regulatory light chain and the
+LIM domain protein LIM2 have been disrupted [34–37].
+As pkbA null cells have polarity defects during aggregation,
+it is possible that the morphogenesis defect of the pkbR1
+null strain is due to defects in cell movement at this stage
+of development. pkbR1 null cells do not exhibit polarity
+defects in aggregation streams. A role for PKBR-1 in controlling cell movement and polarity is, however, supported
+by the strong chemotaxis and polarity defects exhibited by
+the PKBR-1 and Akt/PKB double knockout strain, which
+are presumably masked in the pkbR1 single knockout by
+the presence of Akt/PKB. The severe growth and aggregation defects exhibited by the double null strain are consistent with PKBR-1 functioning at these stages of the life
+cycle and with PKBR-1 and Akt/PKB being at least partially redundant. Our results suggest that at least one of the
+kinases must be present for the cells to aggregate.
+We also demonstrate that Akt/PKB can complement most
+of the morphogenetic phenotypes of pkbR1 null cells. This
+is consistent with PKBR-1 and Akt/PKB having at least
+some overlapping functions and common downstream substrates. We also demonstrate that expression of a potential
+dominant-negative, kinase-dead form of PKBR-1 in wildtype cells results in aggregation defects, possibly due to the
+inhibition of Akt/PKB as well as PKBR-1 function. This is
+also consistent with PKBR-1 and Akt/PKB having common
+substrates. The expression patterns of PKBR-1 and
+Akt/PKB and the phenotypes of single and double knockout strains suggest that whereas Akt/PKB and PKBR-1 have
+overlapping functions during early development, PKBR-1
+provides a unique function in the multicellular stages, when
+Akt/PKB protein is no longer present. If Akt/PKB and
+PKBR-1 have overlapping functions, why do akt/pkb null
+cells exhibit aggregation-stage polarization and chemotaxis
+defects? One possible reason is that PKBR-1 may not effectively interact with all the Akt/PKB substrates, as PKBR-1
+is membrane-tethered. Alternatively, this difference may
+result from the uniform localization of PKBR-1 around the
+plasma membrane. We have shown that the PH domain of
+Akt/PKB is preferentially localized at the leading edge of
+cells undergoing chemotaxis and suggested that this leading
+edge localization and activation of Akt/PKB may have an
+
+important function in regulating cell polarization in a
+chemoattractant gradient [1]. Myristoylated PKBR-1 may
+not be able to provide this localized function. Moreover,
+when myristoylated Akt/PKB is expressed during aggregation, the cells show a loss of cell polarization similar to that
+observed for pkbA null cells [1]. One explanation is that a
+myristoylated protein is not locally activated at the leading
+edge, which may be important for the function of Akt/PKB.
+Our results do not explain why PKBR-1, a novel form of
+Akt/PKB with an amino-terminal myristoylation site but
+lacking a PH domain, would have evolved to function
+during the multicellular stages of development. We expect
+that the regulatory circuitry that controls Akt/PKB and
+PKBR-1 activation is optimized in the multicellular stages
+by using a different amino-terminal regulatory domain,
+which may involve differences in the activation pathway.
+
+Materials and methods
+Antibodies
+A rabbit polyclonal anti-Dictyostelium PKBR-1 antibody was raised
+against the carboxy-terminal peptide CGADSILKD coupled via the cysteine to bovine serum albumin (BSA). An affinity resin was prepared as
+follows: a HincII/XhoI cDNA fragment coding for the carboxyl terminus
+of PKBR-1 was expressed as a glutathione-S-transferase (GST) fusion
+protein in Escherichia coli, purified by glutathione affinity chromatography according to the manufacturer’s (Pharmacia) instructions, and
+coupled to Affigel10 (BioRad) according to the manufacturer’s protocol.
+Affinity purification was essentially performed as described for the rabbit
+polyclonal anti-Dictyostelium Akt/PKB antibody [1]. Rabbit polyclonal
+anti-HA-tag antibody was purchased from Santa Cruz and mouse monoclonal anti-c-Myc antibody (9E10) was obtained from Invitrogen.
+
+Molecular biochemistry and cell biology
+A full-length pkbR1 cDNA clone was obtained by screening a 12–16 h
+developmental λZAP library [31] with a probe amplified from genomic
+DNA by PCR. Epitope-tagged versions of PKBR-1 were made by PCR
+by amplifying the appropriate regions of the pkbR1 cDNA with primers
+containing the necessary sequences. The nucleotide sequence of all
+amplified DNA and the final constructs were confirmed by DNA
+sequence. A pkbr1 knockout construct was made by inserting the blasticidin-resistance cassette into a BamHI site created at base 484 of the
+pkbR1 cDNA by a PCR-based approach as described previously [1].
+Randomly selected clones were screened for gene disruption by Southern blot analysis. Two independent clones were chosen for further analysis. To make a pkbA/pkbr1 double knockout strain, pkbr1 was first
+knocked out in Dictyostelium JH10 cells using the Thy1 expression cassette using the approaches described previously [1]. The double knockout cells grow only in the presence of bacteria. They were either
+propagated on bacterial lawns or in HL5 axenic medium supplemented
+with 5% of a K. aerogenes overnight culture. Western blot analysis was
+done as previously described [1]. PKBR-1 kinase assay was performed
+using an essentially identical protocol to that described previously for
+Dictyostelium Akt/PKB. Aggregation-competent cells were prepared by
+pulsing washed log-phase vegetative cells for 5 h with 30 nM cAMP
+every 10 min as described [1,29]. After bubbling the cells to reduce
+basal kinase activities [1,29], they were stimulated with cAMP (100 nM
+final concentration). Cell lysis, sample preparation and the kinase assay
+were as previously described for Akt/PKB [1], except that a PKBR-1-specific antibody was used to immunoprecipitate PKBR-1 from the lysates.
+
+Plating cells for development and in situ staining
+Exponentially growing cells were harvested and washed twice with
+12 mM Na/K phosphate buffer pH 6.1 and plated on Na/K phosphate
+agar plates at a density of 4 × 106 cells/cm2. Mixed cell populations of
+1 part pkbr1 cells tagged with Act15–GFP and 9 parts wild-type cells
+
+Research Paper Akt/PKB-related kinase in Dictyostelium Meili et al.
+
+were plated in the same way. For in situ staining, cells were developed on filters and fixed in Z-buffer (60 mM Na2HPO4, 40 mM
+NaH2PO4, 10 mM KCl, 1 mM MgSO4) containing 0.5% glutaraldehyde and 0.1% Nonidet-P40 for 10 min. The filters were blocked for
+1 h with 2% gelatin in TBS (20 mM Tris-HCl pH 7.5, 150 mM NaCl),
+washed briefly with TTBS (TBS + 0.05% Tween 20) and incubated
+with the primary antibody in 1% gelatin TTBS for 1 h. All further incubation steps were done using the reagents from the Vectastain Elite
+ABC kit (Vector Laboratories) in 1% gelatin TTBS according to the
+manufacturer’s instructions. The substrate for color development was
+Fast Red from Sigma. Chemotaxis assays and image acquisition were
+done as previously described [1].
+
+Acknowledgements
+We would like to thank members of the Firtel laboratory for their suggestions during the course of this work and Jennifer Roth for editing the manuscript. Ruedi Meili was supported, in part, by a postdoctoral fellowship from
+the Schweizerische Krebsliga Projekt BIL SKL 411-1-1997. This research
+was supported by USPHS grants to R.A.F.
+
+References
+1. Meili R, Ellsworth C, Lee S, Reddy TB, Ma H, Firtel RA:
+Chemoattractant-mediated transient activation and membrane
+localization of Akt/PKB is required for efficient chemotaxis to
+cAMP in Dictyostelium. EMBO J 1999, 18:2092-2105.
+2. Alessi D, Andjelkovic M, Caudwell B, Cron P, Morrice N, Cohen P,
+Hemmings B: Mechanism of activation of protein kinase B by
+insulin and IGF-1. EMBO J 1996, 15:6541-6551.
+3. King WG, Mattaliano MD, Chan TO, Tsichlis PN, Brugge JS:
+Phosphatidylinositol 3-kinase is required for integrin-stimulated
+AKT and Raf-1/mitogen-activated protein kinase pathway
+activation. Mol Cell Biol 1997, 17:4406-4418.
+4. Murga C, Laguinge L, Wetzker R, Cuadrado A, Gutkind J: Activation
+of Akt/protein kinase B by G protein-coupled receptors. J Biol
+Chem 1998, 273:19080-19085.
+5. Franke T, Yang S, Chan T, Datta K, Kazlauskas A, Morrison D, et al.:
+The protein kinase encoded by the Akt proto-oncogene is a
+target of the PDGF-activated phosphatidylinositol 3-kinase. Cell
+1995, 81:727-736.
+6. Burgering B, Coffer P: Protein kinase B (c-Akt) in
+phosphatidylinositol-3-OH kinase signal transduction. Nature
+1995, 376:599-602.
+7. Andjelkovic M, Alessi D, Meier R, Fernandez A, Lamb N, Frech M, et al.:
+Role of translocation in the activation and function of protein
+kinase B. J Biol Chem 1997, 272:31515-31524.
+8. Frech M, Andjelkovich M, Ingley E, Reddy K, Falck J, Hemmings B: High
+affinity binding of inositol phosphatase and phosphoinositides to
+the pleckstrin homology domain of RAC/protein kinase B and their
+influence on kinase activity. J Biol Chem 1997, 272:8474-8481.
+9. Klippel A, Kavanaugh W, Pot D, Williams L: A specific product of
+phosphatidylinositol 3-kinase directly activates the protein kinase
+Akt through its pleckstrin homology domain. Mol Cell Biol 1997,
+17:338-344.
+10. Kohn A, Summers S, Birnbaum M, Roth R: Expression of a
+constitutively active Akt Ser/Thr kinase in 3T3-L1 adipocytes
+stimulates glucose uptake and glucose transporter 4
+translocation. J Biol Chem 1996, 271:31372-31378.
+11. Datta SR, Brunet A, Greenberg ME: Cellular survival: a play in three
+Akts. Genes Dev 1999, 13:2905-2927.
+12. Rommel C, Clarke BA, Zimmermann S, Nunez L, Rossman R, Reid K,
+et al.: Differentiation stage-specific inhibition of the raf-MEK-ERK
+pathway by Akt. Science 1999, 286:1738-1741.
+13. Cross D, Alessi D, Cohen P, Anjelkovich M, Hemmings B: Inhibition
+of glycogen synthase kinase-3 by insulin mediated by protein
+kinase B. Nature 1995, 378:785-789.
+14. Zimmermann S, Moelling K: Phosphorylation and regulation of raf
+by akt (protein kinase B). Science 1999, 286:1741-1744.
+15. Cardone MH, Roy N, Stennicke HR, Salvesen GS, Franke TF,
+Stanbridge E, et al.: Regulation of cell death protease caspase-9
+by phosphorylation. Science 1998, 282:1318-1321.
+16. del Peso L, Gonzalez-Garcia M, Page C, Herrera R, Nunez G:
+Interleukin-3-induced phosphorylation of BAD through the
+protein kinase Akt. Science 1997, 278:687-689.
+17. Lin K, Dorman JB, Rodan A, Kenyon C: daf-16: An HNF-3/forkhead
+family member that can function to double the life-span of
+Caenorhabditis elegans. Science 1997, 278:1319-1322.
+
+717
+
+18. Ogg S, Paradis S, Gottlieb S, Patterson GI, Lee L, Tissenbaum HA,
+Ruvkun G: The Fork head transcription factor DAF-16 transduces
+insulin-like metabolic and longevity signals in C. elegans. Nature
+1997, 389:994-999.
+19. Aubry L, Firtel RA: Integration of signaling networks that regulate
+Dictyostelium differentiation. Annu Rev Cell Dev Biol 1999,
+15:469-517.
+20. Parent CA, Devreotes PN: Molecular genetics of signal transduction
+in Dictyostelium. Annu Rev Biochem 1996, 65:411-440.
+21. Tilton B, Andjelkovic M, Didichenko SA, Hemmings BA, Thelen M:
+G-Protein-coupled receptors and Fcgamma-receptors mediate
+activation of Akt/protein kinase B in human phagocytes. J Biol
+Chem 1997, 272:28096-28101.
+22. Servant G, Weiner O, Herzmark P, Balla T, Sedat J, Bourne H:
+Polarization of chemoattractant receptor signaling during neutrophil
+chemotaxis. Science 2000, 287:1037-1040.
+23. Watton S, Downward J: Akt/PKB localisation and 3′
+phosphoinositide generation at sites of epithelial cell-matrix and
+cell-cell interaction. Curr Biol 1999, 9:433-436.
+24. Mann SK, Firtel RA: A developmentally regulated, putative
+serine/threonine protein kinase is essential for development in
+Dictyostelium. Mech Dev 1991, 35:89-101.
+25. Buser C, Sigal C, Resh M, McLaughlin S: Membrane binding of
+myristylated peptides corresponding to the NH2 terminus of Src.
+Biochemistry 1994, 33:13093-13101.
+26. Sigal C, Zhou W, Buser C, McLaughlin S, Resh M: Amino-terminal
+basic residues of Src mediate membrane binding through
+electrostatic interaction with acidic phospholipids. Proc Natl Acad
+Sci USA 1994, 91:12253-12257.
+27. Zhou KM, Takegawa K, Emr SD, Firtel RA: A phosphatidylinositol
+(PI) kinase gene family in Dictyostelium discoideum: biological
+roles of putative mammalian p110 and yeast Vps34p PI 3-kinase
+homologs during growth and development. Mol Cell Biol 1995,
+15:5645-5656.
+28. Vlahos CJ, Matter W, Hui KY, Brown RF: A specific inhibitor of
+phosphatidylinositol 3-kinase, 2-(4-morpholinyl)-8-phenyl-4H-1benzopyran-4-one (LY294002). J Biol Chem 1994, 269:5241-5248.
+29. Insall RH, Soede RDM, Schaap P, Devreotes PN: Two cAMP
+receptors activate common signaling pathways in Dictyostelium.
+Mol Biol Cell 1994, 5:703-711.
+30. Abe T, Early A, Siegert F, Weijer C, Williams J: Patterns of cell
+movement within the Dictyostelium slug revealed by cell
+type-specific, surface labeling of living cells. Cell 1994, 77:687-699.
+31. Schnitzler GR, Fischer WH, Firtel RA: Cloning and characterization
+of the G-box binding factor, an essential component of the
+developmental switch between early and late development in
+Dictyostelium. Genes Dev 1994, 8:502-514.
+32. Williams J: Prestalk and stalk heterogeneity in Dictyostelium. In
+Dictyostelium - A Model System for Cell and Developmental Biology.
+Edited by Maeda Y, Inouye K, Takeuchi I. Tokyo: Universal Academy
+Press; 1997:293-304.
+33. Kandel E, Hay N: The regulation and activities of the multifunctional
+serine/threonine kinase Akt/PKB. Exp Cell Res 1999, 253:210-229.
+34. Chen TL, Wolf WA, Chisholm RL: Cell-type-specific rescue of
+myosin function during Dictyostelium development defines two
+distinct cell movements required for culmination. Development
+1998, 125:3895-3903.
+35. Traynor D, Tasaka M, Takeuchi I, Williams J: Aberrant pattern
+formation in myosin heavy chain mutants of Dictyostelium.
+Development 1994, 120:591-601.
+36. Eliott S, Joss GH, Spudich A, Williams KL: Patterns in Dictyostelium
+discoideum — the role of myosin-II in the transition from the
+unicellular to the multicellular phase. J Cell Sci 1993, 104:457-466.
+37. Chien S, Chung CY, Sukumaran S, Osborne N, Lee S, Ellsworth C,
+et al.: The Dictyostelium LIM domain-containing protein LIM2 is
+essential for proper chemotaxis and morphogenesis. Mol Biol
+Cell 2000, 11:1275-1291.
+38. Wessels D, Voss E, Von Bergen N, Burns R, Stites J, Soll DR:
+A computer-assisted system for reconstructing and interpreting
+the dynamic three-dimensional relationships of the outer surface,
+nucleus and pseudopods of crawling cells. Cell Motil Cytoskel
+1998, 41:225-246.
+
+

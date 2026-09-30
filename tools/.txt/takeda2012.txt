@@ -1,0 +1,539 @@
+RESEARCH ARTICLE
+CELL BIOLOGY
+
+Incoherent Feedforward Control Governs
+Adaptation of Activated Ras in a Eukaryotic
+Chemotaxis Pathway
+Kosuke Takeda,1 Danying Shao,2 Micha Adler,3 Pascale G. Charest,1 William F. Loomis,1
+Herbert Levine,2 Alex Groisman,3 Wouter-Jan Rappel,2* Richard A. Firtel1*
+
+INTRODUCTION
+
+Many biological systems that exhibit perfect adaptation use an integral
+control strategy in which a buffering component of the signaling network
+integrates the difference between the response and the desired basal amount.
+This difference is then fed back to achieve perfect adaptation through negative regulation. Examples include bacterial chemotaxis (1–4), yeast osmoregulation (5), and calcium homeostasis in mammals (6). Integral control,
+however, is not the only way to accomplish perfect adaptation. A systematic
+computational analysis of a three-node network revealed that a second network topology can achieve robust perfect adaptation (7, 8). This topology
+uses an incoherent feedforward mechanism (9) in which two nodes of the
+network are activated proportionally by the input stimulus. These two nodes
+then act on the third node with opposite effects (such that one activates and
+one inhibits), leading to a transient response that adapts perfectly. To date,
+no clear examples of biological networks that use the incoherent feedforward strategy have been identified, which is perhaps surprising because
+networks that contain incoherent feedforward loops perform better than
+those that use integral control (8).
+Many eukaryotic cells can respond to steep or shallow chemoattractant
+gradients over a wide range of chemoattractant concentrations (10, 11).
+Not surprisingly, adaptation has been suggested to be a key component of
+eukaryotic chemotaxis and to be essential for gradient sensing (12–15).
+Indeed, many downstream biochemical components involved in the chemotaxis pathways display adaptive behavior (16–18). The precise mechanism
+of this adaptation, however, is not clear, although it occurs downstream
+from the chemoattractant receptors and coupled heterotrimeric guanosine
+triphosphate (GTP)–binding proteins (G proteins) (19). Furthermore, even
+though many components of the chemotactic pathways have been de1
+Section of Cell and Developmental Biology, Division of Biological Sciences,
+University of California, San Diego, La Jolla, CA 92093, USA. 2Department of
+Physics, University of California, San Diego, La Jolla, CA 92093, USA. 3Center
+for Theoretical Biological Physics, University of California, San Diego, La Jolla,
+CA 92093, USA.
+*To whom correspondence should be addressed. E-mail: rappel@physics.
+ucsd.edu (W.-J.R.); rafirtel@ucsd.edu (R.A.F.)
+
+scribed, the precise mechanisms of gradient sensing are not fully understood. A number of models for the initial response to gradients have been
+proposed, most of which contain a global inhibitor that provides communication between the different parts of the cell (12, 13, 20–23). It remains a
+challenge to distinguish between the different proposed mechanisms in the
+absence of quantitative data for the kinetics of the underlying pathways.
+RESULTS
+
+To measure the adaptation kinetics of a eukaryotic chemotaxis signaling
+pathway, we exposed cells of the social amoeba Dictyostelium discoideum
+to sudden uniform (global) increases and decreases in the concentration of
+the chemoattractant cyclic adenosine monophosphate (cAMP) by means
+of a microfluidic device (Fig. 1A and fig. S1). We examined the dynamics
+of activated Ras, Ras-GTP, with the Ras binding domain of human Raf1
+[RBD–green fluorescent protein (GFP)] as a reporter, which preferentially measures activated RasG, the upstream activator of phosphoinositide
+3-kinase (PI3K) (15, 24, 25). Ras proteins are molecular switches that bind
+to and activate downstream effectors in their activated GTP- but not guanosine diphosphate (GDP)–bound state, with different Ras proteins activating a range of effectors. Ras proteins are activated by RasGEFs (guanine
+nucleotide exchange factors), which exchange Ras-bound GDP for GTP,
+and are inactivated by a slow, intrinsic guanosine triphosphatase (GTPase)
+activity that can be stimulated >103-fold by RasGAPs (GTPase-activating
+proteins). In unstimulated cells, RasG-GDP is distributed uniformly along
+the plasma membrane. After the sudden exposure to a chemotactic gradient, RasG is rapidly and locally activated within seconds at the front of the
+cell (24). This is followed by the Ras-GTP–dependent activation of PI3K
+and the translocation of phosphatidylinositol 3,4,5-trisphosphate [PI(3,4,5)P3,
+PIP3]–binding pleckstrin homology (PH) domains to the sites of RasG
+activation (24, 26–28). Activation of RasG and a second Ras, RasC, at the
+leading edge of chemotaxing cells is the earliest measurable signaling event
+downstream of heterotrimeric G protein activation in a sequence of spatially
+localized cellular redistributions of signaling molecules that eventually lead
+to chemotactic motility (24, 29–31).
+
+www.SCIENCESIGNALING.org
+
+3 January 2012
+
+Vol 5 Issue 205 ra2
+
+1
+
+Downloaded from https://www.science.org at University Erlangen Nuernberg on August 23, 2026
+
+Adaptation in signaling systems, during which the output returns to a fixed baseline after a change in the
+input, often involves negative feedback loops and plays a crucial role in eukaryotic chemotaxis. We
+determined the dynamical response to a uniform change in chemoattractant concentration of a eukaryotic
+chemotaxis pathway immediately downstream from G protein–coupled receptors. The response of an activated Ras showed near-perfect adaptation, leading us to attempt to fit the results using mathematical
+models for the two possible simple network topologies that can provide perfect adaptation. Only the incoherent feedforward network accurately described the experimental results. This analysis revealed that
+adaptation in this Ras pathway is achieved through the proportional activation of upstream components
+and not through negative feedback loops. Furthermore, these results are consistent with a local excitation,
+global inhibition mechanism for gradient sensing, possibly with a Ras guanosine triphosphatase–activating
+protein acting as a global inhibitor.
+
+RESEARCH ARTICLE
+
+Using a microfluidic device (fig. S1), we switched the chemoattractant
+concentration in the medium surrounding the cells within <1 s (Fig. 1B).
+Multiple cells were imaged every 0.63 s by means of spinning disk confocal microscopy, and the dynamics of activated Ras was followed by the
+translocation of RBD-GFP to the cell cortex (Fig. 1C). We quantified the
+dynamics of Ras-GTP by selecting a cytosolic region of interest and measured the RBD-GFP intensity normalized by the average cytosolic intensity before cAMP stimulation and corrected for bleaching as a function of
+time (Fig. 1D). Before changes in chemoattractant concentration, RBDGFP was uniformly distributed in the cytosol, with a low, basal amount at the
+plasma membrane. After an increase in chemoattractant concentration, RBDGFP translocated rapidly to the cell membrane by binding to Ras-GTP, reaching a maximum at ~3 s. This was followed by a more gradual return to the
+cytosol, where the RBD-GFP intensity returned to its basal amount in <35 s.
+We verified that the intensity of membrane-associated RBD-GFP was inversely related to cytosolic RBD-GFP fluorescence, further illustrating the
+translocation of RBD-GFP from cytosol to the membrane and back (fig. S2).
+We quantified the degree of adaptation of Ras-GTP by exposing previously unstimulated cells to different chemoattractant concentrations
+ranging from 1.0 × 10−2 to 1.0 × 103 nM (Fig. 2A). The response increased
+for increasing concentrations and saturated by 1 mM of chemoattractant.
+Furthermore, the peak time, Tpeak, defined as the time from the addition
+of the stimulus to the peak of the response, decreased with increasing concentration of chemoattractant, consistent with previous experiments on the
+kinetics of PIP3, a signaling component downstream from activated Ras
+(32). By 35 s, the normalized RBD-GFP amount returned to the prestimulus
+
+www.SCIENCESIGNALING.org
+
+3 January 2012
+
+Vol 5 Issue 205 ra2
+
+2
+
+Downloaded from https://www.science.org at University Erlangen Nuernberg on August 23, 2026
+
+Fig. 1. A sudden change in uniform chemoattractant results in a transient
+response of RBD-GFP to the membrane. (A) Drawing of channels of the
+microfluidic device used in our experiments. (B) The concentration in a
+test chamber of the device is switched within 1 s, as demonstrated by
+recording the fluorescence intensity of a dye. (C) Images of a Dictyostelium
+cell undergoing a sudden increase in cAMP concentration at t = 0 s. (D)
+The cytosolic fluorescence intensity of RBD-GFP, normalized by the fluorescence intensity before stimulation and corrected for bleaching, as a
+function of time after a sudden 1 mM cAMP increase at t = 0 s. The amplitude of the maximum response, Ipeak, and its time point, Tpeak, were
+recorded for each experiment.
+
+amount for all chemoattractant concentrations (Fig. 2B), indicating that
+Ras-GTP adaptation was near perfect over a wide range of stimuli.
+To further quantify the adaptation kinetics of Ras-GTP, we exposed cells
+to a constant chemoattractant concentration for 10 min followed by a sudden increase in chemoattractant concentration. We computed the response
+(maximum decrease in cytosolic RBD-GFP fluorescence), Ipeak, which reflects the translocation of the reporter to the membrane. These values were
+normalized by the maximum response in naïve (not pretreated) cells after a
+1 mM stimulus (Fig. 2C). Cells that were not pretreated with cAMP responded
+to a chemoattractant increase that spanned three to four orders of magnitude
+with an EC50 (median effective concentration) of about 0.25 nM. Furthermore, cells that were pretreated with 100 nM showed a considerable response
+to a sudden increase in stimulus. Finally, Tpeak decreased with increasing
+chemoattractant for the four different prestimulus amounts (Fig. 2D).
+Finally, we examined the Ras-GTP kinetics in cells that were exposed
+to a sudden increase and a subsequent sudden decrease in cAMP. In the
+first experiment, the concentration went from 0 to 0.2 nM and back to 0 nM
+(Fig. 2E). As before, the cytosolic RBD-GFP fluorescence decreased (due
+to translocation of the reporter to the cortex) after the increase in chemoattractant, whereas the decrease in cAMP concentration led to a rapid increase in the cytosolic RBD-GFP fluorescence and a subsequent slow return
+to the basal amount. In the second experiment, the concentrations changed
+from 100 to 1000 nM and back to 100 nM (Fig. 2F) and, compared to the
+first experiment (Fig. 2E), the return to basal amount after the decrease in
+cAMP concentration was markedly faster.
+Previous studies identified a number of feedback loops that involve
+activated RasG, PI3K, and F-actin polymerization (24, 33–36). To determine the role of the F-actin feedback loop in the observed adaptation, we
+treated cells with latrunculin B to block F-actin polymerization. Again, we
+found that the cytosolic RBD-GFP amounts returned to basal amounts
+after a sudden change in chemoattractant concentration, indicating that adaptation was not affected (fig. S3). Furthermore, latrunculin B treatment
+did not have a major effect on either the dose-response curve (Fig. 2G) or
+the characteristic response time (Fig. 2H). These results show that RasG
+adaptation does not involve feedback loops containing actin and that the
+signaling network responsible for the observed perfect adaptation is
+upstream from F-actin polymerization.
+This finding, combined with previous experimental results that demonstrate that adaptation occurs downstream from the receptors (19), motivated us to construct a mathematical model for adaptation that contained
+only Ras-GTP, RasGEF, and RasGAP. To determine which network topology is consistent with our experimental data, we constructed models that
+incorporate the two known three-node network topologies that can produce
+perfect adaptation (Fig. 3, A and B) (7, 8). In the incoherent feedforward
+topology, both the RasGEF and the RasGAP are activated by the chemoattractant signal acting through the receptors R (Fig. 3A). Because RasGEF
+and RasGAP activate and inhibit Ras, respectively, this network can have
+the properties of ultrasensitivity described by Goldbeter and Koshland
+(37). In the integral control topology, the output of the model, Ras-GTP,
+is fed back with the RasGAP as a buffering node (Fig. 3B). In both models,
+the external stimulus is translated into an internal response through the
+binding of the chemoattractant cAMP to the receptors.
+Previous studies have identified several species of receptors with different binding affinities for cAMP (38). Thus, we included two types of
+receptors in our models, one with a high affinity (R1, with a dissociation
+constant of Kd1 = 60 nM) and one with a low affinity (R2, with a dissociation constant of Kd2 = 450 nM). We assumed that the two types of
+receptors activate downstream components in an identical fashion. Numerical fits with only one receptor population resulted in dose-response curves
+that were less accurate (text S1 and fig. S4).
+
+RESEARCH ARTICLE
+
+These models can be cast in terms of ordinary differential equations (text
+S2) that can be integrated in time to determine the dynamical response for
+various temporal patterns of the stimulus as a function of changes in the
+amount of stimulus. To compare the dynamic response of the two topologies
+to the experimental results, we performed mathematical fits, using a subset of
+the experimental data. Specifically, we used the dose-response curves (Fig.
+2C), the response time curves (Fig. 2D), and the peak times and amplitudes
+after the decrease in cAMP concentration and the response amplitude 60 s
+after the decrease (Fig. 2, E and F). We used a simulated annealing fitting
+procedure (text S3) and, to avoid overfitting the data, used only two data sets,
+nonpretreated cells and cells pretreated with 100 nM chemoattractant (Fig. 2,
+C and D). The resulting numerical fit using 21 data points constrained the
+nine free model parameters in both topologies. Our simulation results indicated that the integral control mechanism was incompatible with our experimental results. In particular, this mechanism displayed considerable
+dependence of the adaptation kinetics on the size of the stimulus step (Fig.
+3C). Contrary to our experimental results, for small concentration increases
+this network led to oscillations, and time to reach the basal amount increased
+markedly as the step size increased (fig. S5). This dependence could be analyzed analytically (text S4 and fig. S8). Additionally, other ways to implement
+integral control are also incompatible with the experimental data (fig. S6).
+Finally, a spatially extended version of the model, cast in partial differential
+equations, resulted in qualitatively similar results (text S5 and fig. S9).
+The results of the best fit using the incoherent feedforward network are
+shown as solid lines in Fig. 2, C and D. In contrast to the integral control
+topology, the RBD-GFP amount in the incoherent feedforward model
+could respond to a wide range of concentrations of chemoattractant stimuli
+and adapted quickly. Specifically, this network topology could respond
+quickly even when the stimulus was large. Furthermore, the numerical
+results track the experimental data well for all stimulus strengths, including
+the data sets that were not explicitly fitted. The model parameters obtained
+by our fitting procedure are listed in table S1.
+A closer inspection of the results of our fitting procedure revealed that
+the activation kinetics of RasGEF were faster than that of the RasGAP.
+
+to 1 mM and a subsequent drop back to 100 nM. (G) The dose-response
+curve for untreated cells after a sudden increase in cAMP with (red) and
+without latrunculin B (black). (H) The peak time of the response as a
+function of cAMP concentration with (red line) and without latrunculin B
+(black line). (B), (C), (D), (G), and (H) represent the average response of
+n = 60 cells from three independent experiments.
+
+This is to be expected because a positive Ras-GTP response after an increase in cAMP requires that the activation step initially is larger than the
+deactivation step. Eventually, the RasGAP kinetics catches up, resulting in
+a steady-state Ras-GTP amount that is independent of the stimulus strength.
+The kinetics of our model components is shown in Fig. 3D, where we plot
+RasGAP, RasGEF, and Ras-GTP as a function of time, after a sudden increase in chemoattractant concentration. In Fig. 3E, we plot the full dynamical response in our simulations together with experimental results for
+two jumps in the chemoattractant concentration. Finally, our simulation
+results for the two experiments in which the concentration is increased and
+then subsequently decreased are shown as solid lines in Fig. 2, E and F.
+The agreement between the experiments and the simulations is excellent
+for the entire time course of the experiments.
+DISCUSSION
+
+Our study examined the initial response to changes in uniform chemoattractant stimuli using a combined experimental and theoretical approach.
+We did not consider possible responses with longer time scales, including
+the formation of Ras patches (localized areas of increased concentration of
+membrane-bound Ras-GTP) and cell polarization. We find that the response of activated RasG adapted perfectly for a large range of cAMP
+stimuli, in particular for stimuli less than 1 mM. The inclusion of GEF saturation in our model could account for the possible deviation from perfect
+adaptation for very large stimuli (text S2). We also found that the peak time
+of the response of activated RasG decreases with increasing stimulus concentration. This is consistent with previous experiments on the kinetics of
+membrane-bound PIP3, a signaling component downstream from activated
+Ras, which showed that the peak value for PIP3 is reached faster for a high
+value of cAMP stimulus (100 nM) than for a low value of cAMP (1 nM) (32).
+Our combined experimental and theoretical analysis suggests that adaptation in the RasG signaling pathway does not rely on integral control
+mechanisms that contain negative feedback loops. Instead, and unlike any
+other biological systems analyzed to date, adaptation is achieved through
+
+www.SCIENCESIGNALING.org
+
+3 January 2012
+
+Vol 5 Issue 205 ra2
+
+3
+
+Downloaded from https://www.science.org at University Erlangen Nuernberg on August 23, 2026
+
+Fig. 2. Ras response adapts over a large
+range of concentrations. (A) The RBDGFP cytosolic fluorescence intensity I(t)
+as a function of time for different amounts
+of stimulation. (B) The cytosolic fluorescence intensity of RBD-GFP after 35 s
+as a function of the cAMP concentration.
+(C) The RBD-GFP dose-response curves
+for different pretreatment concentrations.
+The x axis represents the poststimulation
+concentration of the chemoattractant. The
+symbols are the experimental results. The
+solid lines are the results of our numerical
+simulations using the incoherent feedforward network. The error bars here and elsewhere in this paper represent the SD. (D)
+The time of the maximum RBD-GFP response
+for different prestimulation and stimulation
+amounts of cAMP (experiments: symbols; simulations: solid lines). (E and
+F) I(t) as a function of time after a sudden increase (at 15 s) and a sudden
+decrease (at 75 s) of cAMP concentration. The symbols correspond to the
+experimental results, and the solid lines represent our numerical results. In
+(E), the concentration increased from 0 to 0.2 nM, then decreased back to
+0 nM. In (F), cells were exposed to 100 nM, followed by a sudden increase
+
+RESEARCH ARTICLE
+inhibitor RasGAP is the diffuse cytosolic component. This is consistent
+with previous results showing that the RasG-GAP Dictyostelium NF1 is an
+essential and uniformly distributed component of the directional sensing
+mechanism and that in the absence of NF1, cells are unable to effectively
+sense the chemoattractant gradient’s direction and exhibit extended RasG
+activation (15). Further, our results argue that the RasG-GAP is not
+constitutively active but is activated in response to chemoattractant stimulation and that this activation of both the RasGEF and the RasGAP is essential for gradient sensing and adaptation.
+
+MATERIALS AND METHODS
+
+Growth and development
+
+Temporal stimulation
+
+Fig. 3. One network topology is consistent with the experimental data.
+(A) The incoherent feedforward model of Ras adaptation considered
+in this study. The chemoattractant binds to G protein–coupled receptors,
+leading to the activation of both RasGEF and RasGAP, which activates
+and inactivates Ras, respectively. (B) An implementation of the integral
+control topology. The receptor activates a RasGEF that, in turn, activates
+Ras. The RasGAP is activated by Ras-GTP and, through negative feedback, inactivates Ras, thus functioning as a buffering node. (C) The response of the integral control network, normalized to the prestimulus
+RBD-GFP concentration, for different amounts of chemoattractant stimulation. (D) A typical time course of the RasGAP, RasGEF, and Ras-GTP
+for the incoherent feedforward model after a sudden increase in chemoattractant at 0 s. (E) The full dynamical response of RBD-GFP in the
+experiments (symbols) and in the fitted model (solid lines) for two different concentration increases.
+
+the simultaneous activation of an activator and an inhibitor. In the model
+we have analyzed here, the signal directly activates RasGEF and RasGAP,
+and variants of the incoherent feedforward topology (fig. S7) will give similar results. Of course, an alternate possibility is that adaptation is achieved
+downstream from the receptors and upstream from RasGEF. The output of
+this adaptation module, containing unknown components, would then activate RasGEF, whereas RasGAP would be constitutively active. In either
+case, our network is consistent with the local excitation, global inhibition
+(LEGI) model (12) for gradient sensing that postulates that the response to
+an external chemoattractant signal is governed by an intracellular membranebound activator and a diffuse inhibitor throughout the cell. Such a gradient
+sensing model can convert the external gradient of bound receptors into
+an internal gradient, especially if it is coupled to a module that further
+amplifies the internal asymmetry (39, 40). Our model suggests that the
+activator RasGEF is the local, membrane-bound component, whereas the
+
+Developed cells were harvested, washed twice with phosphate buffer, and
+loaded into microfluidic test chambers by means of a syringe and a blunt
+cannula. Cells were allowed to settle and disperse on the coverslip at the
+bottom of the test chambers for 15 to 30 min before imaging and stimulation. Before and during the exposure to cAMP, the cells were under the
+same continuous shear flow of fresh medium, preventing the effect of
+self-secreted cAMP and of stimulation by shear. Fluorescence images
+were taken every 0.63 s with a Leica inverted confocal microscope with
+a 63×/1.4 objective and a Hamamatsu EM CCD (charge-coupled device)
+camera. Alexa Fluor 594 (Invitrogen) fluorescent dye was added to the
+cAMP solutions used to monitor cAMP temporal change.
+
+Microfluidic device and setup
+The microfluidic device used in the study consisted of a polydimethylsiloxane
+(PDMS) chip with microchannels engraved on its surface and a #1.5 microscope cover glass sealing the microchannels (Fig. 1A and fig. S1). Its major elements were five observation chambers each situated upstream of a
+dedicated outlet, a mixing channel, and resistance channels. The mixing
+channel served the purpose of mixing the buffer flowing from the buffer
+inlet with a concentrated cAMP solution flowing from the cAMP inlet to
+deliver to the observation chambers a well-mixed solution with a reduced
+concentration of cAMP. Steps of cAMP concentration with a transition
+time of ~0.25 s were generated by switching the pressure at the cAMP
+inlet with a solenoid valve.
+
+Fluorescence microscopy methods
+
+A series of confocal images of a 115 mm × 115 mm (512 × 512 pixels) region were recorded (SimplePCI) and saved as 16-bit grayscale bitmaps.
+The images were processed in ImageJ by selecting, for each cell, a cytosolic
+region of interest with the aid of a computer. To determine the cytosolic
+region, we used a customized plug-in for ImageJ, which automatically outlined the cell perimeter. This perimeter was shrunk by 2 pixels, resulting in
+the cell interior. Visible cytosolic organelles, defined as areas of very low or
+very high fluorescence intensity, were omitted. The fluorescence signal for
+the image at time t, Ic(t), was determined by taking the average value of all
+pixels within the cell interior. We also determined the average cytosolic fluorescence intensity, Ic0, during the 18 frames immediately preceding cAMP
+
+www.SCIENCESIGNALING.org
+
+3 January 2012
+
+Vol 5 Issue 205 ra2
+
+4
+
+Downloaded from https://www.science.org at University Erlangen Nuernberg on August 23, 2026
+
+Transformed KAx-3 cells carrying an extrachromosomal construct in which
+the regulatory region of Actin 15 drives a fusion of GFP to the Ras binding
+domain of Raf were grown in suspension in HL5 medium. When exponentially growing cells reached 1 × 106 to 3 × 106 cells/ml, they were harvested
+by centrifugation, washed in phosphate buffer, and resuspended in phosphate buffer at 5 × 106 cells/ml. Shaken cells were starved for 1 hour
+before addition of pulses of 30 nM cAMP every 6 min for 5 hours.
+
+RESEARCH ARTICLE
+stimulation. The fluorescence signal was then normalized by computing the
+following value: Ic,nor(t) = [Ic(t) − Ib]/(Ic0 − Ib), where Ib is the background
+fluorescence intensity. For each experiment, the fluorescence signal was also corrected for bleaching effects. These bleaching effects typically account
+for ~10% intensity loss during a 1-min recording. For the correction, we
+determined the cytosolic fluorescence signal Ia for each cell in the absence
+of any stimulation during a time interval that was identical to the one corresponding to the duration of the experiment. This signal was processed as
+the signal in the actual experiment, resulting in a normalized time series,
+Ia,nor (t) = [Ia(t) − Ib]/(Ia0 − Ib). The final cytosolic signal, as reported in this
+study, was then computed as I(t) = Ic,nor(t)/Ia,nor(t).
+SUPPLEMENTARY MATERIALS
+
+REFERENCES AND NOTES
+1. H. C. Berg, D. A. Brown, Chemotaxis in Escherichia coli analysed by three-dimensional
+tracking. Nature 239, 500–504 (1972).
+2. N. Barkai, S. Leibler, Robustness in simple biochemical networks. Nature 387,
+913–917 (1997).
+3. T. M. Yi, Y. Huang, M. I. Simon, J. Doyle, Robust perfect adaptation in bacterial
+chemotaxis through integral feedback control. Proc. Natl. Acad. Sci. U.S.A. 97,
+4649–4653 (2000).
+4. R. G. Endres, N. S. Wingreen, Precise adaptation in bacterial chemotaxis through
+“assistance neighborhoods”. Proc. Natl. Acad. Sci. U.S.A. 103, 13040–13044 (2006).
+5. D. Muzzey, C. A. Gómez-Uribe, J. T. Mettetal, A. van Oudenaarden, A systems-level
+analysis of perfect adaptation in yeast osmoregulation. Cell 138, 160–171 (2009).
+6. H. El-Samad, J. P. Goff, M. Khammash, Calcium homeostasis and parturient hypocalcemia: An integral feedback perspective. J. Theor. Biol. 214, 17–29 (2002).
+7. M. Behar, N. Hao, H. G. Dohlman, T. C. Elston, Mathematical and computational
+analysis of adaptation via feedback inhibition in signal transduction pathways.
+Biophys. J. 93, 806–821 (2007).
+8. W. Ma, A. Trusina, H. El-Samad, W. A. Lim, C. Tang, Defining network topologies that
+can achieve biochemical adaptation. Cell 138, 760–773 (2009).
+9. S. S. Shen-Orr, R. Milo, S. Mangan, U. Alon, Network motifs in the transcriptional
+regulation network of Escherichia coli. Nat. Genet. 31, 64–68 (2002).
+10. D. Fuller, W. Chen, M. Adler, A. Groisman, H. Levine, W. J. Rappel, W. F. Loomis,
+External and internal constraints on eukaryotic chemotaxis. Proc. Natl. Acad. Sci. U.S.A.
+107, 9656–9659 (2010).
+11. L. Song, S. M. Nadkarni, H. U. Bödeker, C. Beta, A. Bae, C. Franck, W. J. Rappel,
+W. F. Loomis, E. Bodenschatz, Dictyostelium discoideum chemotaxis: Threshold
+for directed motion. Eur. J. Cell Biol. 85, 981–989 (2006).
+12. C. A. Parent, P. N. Devreotes, A cell’s sense of direction. Science 284, 765–770 (1999).
+13. A. Levchenko, P. A. Iglesias, Models of eukaryotic gradient sensing: Application to
+chemotaxis of amoebae and neutrophils. Biophys. J. 82, 50–63 (2002).
+14. G. L. Ming, S. T. Wong, J. Henley, X. B. Yuan, H. J. Song, N. C. Spitzer, M. M. Poo,
+Adaptation in the chemotactic guidance of nerve growth cones. Nature 417, 411–418
+(2002).
+15. S. Zhang, P. G. Charest, R. A. Firtel, Spatiotemporal regulation of Ras activity
+provides directional sensing. Curr. Biol. 18, 1587–1593 (2008).
+16. P. J. M. Van Haastert, P. R. Van der Heijden, Excitation, adaptation, and deadaptation
+of the cAMP-mediated cGMP response in Dictyostelium discoideum. J. Cell Biol. 96,
+347–353 (1983).
+
+Acknowledgments: We thank P. Van Haastert for providing the Raf-GFP cells. Funding:
+This work was supported by the U.S. NIH (PO1 GM078586). Author contributions: K.T.
+performed the experiments with assistance from P.G.C. D.S. performed the modeling simulations. M.A. and A.G. designed and fabricated the microfluidic devices. R.A.F. and W.-J.R.
+designed the experiments and modeling studies, with contributions from W.F.L. and H.L.
+The manuscript was written by R.A.F. and W.-J.R. with assistance from all other authors.
+Competing interests: The authors declare that they have no competing interests.
+Submitted 4 August 2011
+Accepted 9 December 2011
+Final Publication 3 January 2012
+10.1126/scisignal.2002413
+Citation: K. Takeda, D. Shao, M. Adler, P. G. Charest, W. F. Loomis, H. Levine,
+A. Groisman, W.-J. Rappel, R. A. Firtel, Incoherent feedforward control governs
+adaptation of activated Ras in a eukaryotic chemotaxis pathway. Sci. Signal. 5, ra2
+(2012).
+
+www.SCIENCESIGNALING.org
+
+3 January 2012
+
+Vol 5 Issue 205 ra2
+
+5
+
+Downloaded from https://www.science.org at University Erlangen Nuernberg on August 23, 2026
+
+www.sciencesignaling.org/cgi/content/full/5/205/ra2/DC1
+Text S1. Effects of two species of receptors.
+Text S2. Model equations.
+Text S3. Data fitting.
+Text S4. Analytical analysis of the incoherent feedforward and the integral control topologies.
+Text S5. Spatially extended models.
+Fig. S1. Detailed drawing of the microfluidic device.
+Fig. S2. Membrane-associated RBD-GFP is inversely related to cytosolic RBD-GFP
+fluorescence.
+Fig. S3. Responses in latrunculin-treated cells.
+Fig. S4. Effects of different receptor populations.
+Fig. S5. Response times for the different models.
+Fig. S6. Possible integral control topologies.
+Fig. S7. Possible incoherent feedforward topologies.
+Fig. S8. Core model topologies.
+Fig. S9. Comparison of the response in a spatially uniform and spatially extended model.
+Table S1. Model parameters used in this study.
+References
+
+17. S. H. Zigmond, S. J. Sullivan, Sensory adaptation of leukocytes to chemotactic
+peptides. J. Cell Biol. 82, 517–527 (1979).
+18. X. Xu, M. Meier-Schellersheim, J. Yan, T. Jin, Locally controlled inhibitory mechanisms are
+involved in eukaryotic GPCR-mediated chemosensing. J. Cell Biol. 178, 141–153 (2007).
+19. C. Janetopoulos, T. Jin, P. Devreotes, Receptor-mediated activation of heterotrimeric
+G-proteins in living cells. Science 291, 2408–2411 (2001).
+20. W. J. Rappel, P. J. Thomas, H. Levine, W. F. Loomis, Establishing direction during
+chemotaxis in eukaryotic cells. Biophys. J. 83, 1361–1367 (2002).
+21. H. Levine, D. A. Kessler, W. J. Rappel, Directional sensing in eukaryotic chemotaxis:
+A balanced inactivation model. Proc. Natl. Acad. Sci. U.S.A. 103, 9761–9766 (2006).
+22. C. Beta, G. Amselem, E. Bodenschatz, A bistable mechanism for directional sensing.
+New J. Phys. 10, 083015 (2008).
+23. M. Postma, P. J. M. Van Haastert, A diffusion–translocation model for gradient sensing
+by chemotactic cells. Biophys. J. 81, 1314–1323 (2001).
+24. A. T. Sasaki, C. Chun, K. Takeda, R. A. Firtel, Localized Ras signaling at the leading
+edge regulates P13K, cell polarity, and directional cell movement. J. Cell Biol. 167,
+505–518 (2004).
+25. H. Kae, A. Kortholt, H. Rehmann, R. H. Insall, P. J. Van Haastert, G. B. Spiegelman,
+G. Weeks, Cyclic AMP signalling in Dictyostelium: G-proteins activate separate ras
+pathways using specific RasGefs. EMBO Rep. 8, 477–482 (2007).
+26. C. A. Parent, B. J. Blacklock, W. M. Froehlich, D. B. Murphy, P. N. Devreotes, G protein
+signaling events are activated at the leading edge of chemotactic cells. Cell 95, 81–91 (1998).
+27. R. Meili, C. Ellsworth, S. Lee, T. B. Reddy, H. Ma, R. A. Firtel, Chemoattractantmediated transient activation and membrane localization of Akt/PKB is required for
+efficient chemotaxis to cAMP in Dictyostelium. EMBO J. 18, 2092–2105 (1999).
+28. S. Funamoto, R. Meili, S. Lee, L. Parry, R. A. Firtel, Spatial and temporal regulation
+of 3-phosphoinositides by PI 3-kinase and PTEN mediates chemotaxis. Cell 109,
+611–623 (2002).
+29. K. F. Swaney, C. H. Huang, P. N. Devreotes, Eukaryotic chemotaxis: A network of signaling pathways controls motility, directional sensing, and polarity. Annu. Rev. Biophys.
+39, 265–289 (2010).
+30. P. G. Charest, R. A. Firtel, Feedback signaling controls leading-edge formation during
+chemotaxis. Curr. Opin. Genet. Dev. 16, 339–347 (2006).
+31. W. J. Rappel, W. F. Loomis, Eukaryotic chemotaxis. Wiley Interdiscip. Rev. Syst. Biol.
+Med. 1, 141–149 (2009).
+32. X. Xu, M. Meier-Schellersheim, X. Jiao, L. E. Nelson, T. Jin, Quantitative imaging of
+single live cells reveals spatiotemporal dynamics of multistep signaling events of
+chemoattractant gradient sensing in Dictyostelium. Mol. Biol. Cell 16, 676–688 (2005).
+33. K. C. Park, F. Rivero, R. Meili, S. Lee, F. Apone, R. A. Firtel, Rac regulation of chemotaxis and morphogenesis in Dictyostelium. EMBO J. 23, 4177–4189 (2004).
+34. P. G. Charest, Z. Shen, A. Lakoduk, A. T. Sasaki, S. P. Briggs, R. A. Firtel, A Ras
+signaling complex controls the RasC-TORC2 pathway and directed cell migration.
+Dev. Cell 18, 737–749 (2010).
+35. M. Fivaz, S. Bandara, T. Inoue, T. Meyer, Robust neuronal symmetry breaking by
+Ras-triggered local positive feedback. Curr. Biol. 18, 44–50 (2008).
+36. A. T. Sasaki, C. Janetopoulos, S. Lee, P. G. Charest, K. Takeda, L. W. Sundheimer,
+R. Meili, P. N. Devreotes, R. A. Firtel, G protein–independent Ras/PI3K/F-actin circuit
+regulates basic cell motility. J. Cell Biol. 178, 185–191 (2007).
+37. A. Goldbeter, D. E. Koshland Jr., An amplified sensitivity arising from covalent modification in biological systems. Proc. Natl. Acad. Sci. U.S.A. 78, 6840–6844 (1981).
+38. P. J. M. Van Haastert, R. J. W. De Wit, Demonstration of receptor heterogeneity and
+affinity modulation by nonequilibrium binding experiments. The cell surface cAMP
+receptor of Dictyostelium discoideum. J. Biol. Chem. 259, 13321–13328 (1984).
+39. I. Hecht, D. A. Kessler, H. Levine, Transient localized patterns in noise-driven reactiondiffusion systems. Phys. Rev. Lett. 104, 158301 (2010).
+40. Y. Xiong, C. H. Huang, P. A. Iglesias, P. N. Devreotes, Cells navigate with a localexcitation, global-inhibition-biased excitable network. Proc. Natl. Acad. Sci. U.S.A.
+107, 17079–17086 (2010).
+
+Incoherent Feedforward Control Governs Adaptation of Activated Ras in a
+Eukaryotic Chemotaxis Pathway
+Kosuke Takeda, Danying Shao, Micha Adler, Pascale G. Charest, William F. Loomis, Herbert Levine, Alex Groisman,
+Wouter-Jan Rappel, and Richard A. Firtel
+
+Sci. Signal. 5 (205), . DOI: 10.1126/scisignal.2002413
+
+View the article online
+https://www.science.org/doi/10.1126/scisignal.2002413
+Permissions
+https://www.science.org/help/reprints-and-permissions
+
+Use of this article is subject to the Terms of service
+Science Signaling (ISSN 1937-9145) is published by the American Association for the Advancement of Science. 1200 New York Avenue
+NW, Washington, DC 20005. The title Science Signaling is a registered trademark of AAAS.
+Copyright © 2012, American Association for the Advancement of Science
+
+Downloaded from https://www.science.org at University Erlangen Nuernberg on August 23, 2026
+
+Adapting Incoherently
+The model organism Dictyostelium moves toward higher concentrations of the chemoattractant cAMP (cyclic
+adenosine monophosphate), which activates a receptor that then stimulates effector proteins of the Ras family. Takeda
+et al. sought to understand how Dictyostelium adapts to rapid changes in chemoattractant by measuring the kinetics
+of Ras activation in cells exposed to cAMP. Mathematical modeling indicated that a signaling network in which the
+chemoattractant activates two components, which respectively activate and inhibit a third component, accurately
+described the data obtained from cAMP-stimulated cells. This type of network, called incoherent feedforward control,
+may be conserved in other chemotactic signaling networks.
+
+

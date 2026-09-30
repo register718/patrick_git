@@ -1,0 +1,723 @@
+www.sciencesignaling.org/cgi/content/full/5/205/ra2/DC1
+
+Supplementary Materials for
+Incoherent Feedforward Control Governs Adaptation of Activated Ras
+in a Eukaryotic Chemotaxis Pathway
+Kosuke Takeda, Danying Shao, Micha Adler, Pascale G. Charest, William F. Loomis,
+Herbert Levine, Alex Groisman, Wouter-Jan Rappel,* Richard A. Firtel*
+*To whom correspondence should be addressed. E-mail: rappel@physics.ucsd.edu (W.-J.R.);
+rafirtel@ucsd.edu (R.A.F.)
+Published 3 January 2012, Sci. Signal. 5, ra2 (2012)
+DOI: 10.1126/scisignal.2002413
+
+The PDF file includes:
+Text S1. Effects of two species of receptors.
+Text S2. Model equations.
+Text S3. Data fitting.
+Text S4. Analytical analysis of the incoherent feedforward and the integral control
+topologies.
+Text S5. Spatially extended models.
+Fig. S1. Detailed drawing of the microfluidic device.
+Fig. S2. Membrane-associated RBD-GFP is inversely related to cytosolic RBD-GFP
+fluorescence.
+Fig. S3. Responses in latrunculin-treated cells.
+Fig. S4. Effects of different receptor populations.
+Fig. S5. Response times for the different models.
+Fig. S6. Possible integral control topologies.
+Fig. S7. Possible incoherent feedforward topologies.
+Fig. S8. Core model topologies.
+Fig. S9. Comparison of the response in a spatially uniform and spatially extended
+model.
+Table S1. Model parameters used in this study.
+References
+
+Text S1. Effects of two species of receptors.
+Our model included two populations with different receptor affinities. Including only one
+population led to a dose-response curve that fit less accurately with the experimental
+results. This is demonstrated in fig. S4, in which we show the results of our simulations
+if only the low affinity (dashed lines) or the high affinity receptor population (dotted lines)
+was included. As a comparison, we also plotted our simulations results for the twopopulation receptor model. Inclusion of only the low affinity receptors led to a reduced
+response for small values of the stimulus in the non-pretreated cells. The effect of only
+high affinity receptors was more pronounced, because it increased the response at low
+values in the non-pretreated cells. Furthermore, it greatly reduced the response in cells
+that were pretreated with 100 nM cAMP.
+We also calculated the Akaike’s information criterion, AIC, a measure of the relative
+goodness of fit. This criterion is expressed as AIC
+= 2k + χ 2 , where k is the number of
+fitting parameters. We found the following values for this criterion: AIC=20.5 (for the
+model with both receptor populations), AIC=31 (with only the receptors with Kd=60 nM),
+and AIC=17.5 (with only the receptors with Kd=450 nM). This indicates that a model with
+either both or only the low affinity receptors gives a better a fit than the model with only
+the high affinity receptors.
+
+Text S2. Model equations.
+If we assume that the cytosolic concentration of all components is uniform, we can cast
+the incoherent feed forward model and the integral control model in terms of a set of
+coupled ordinary differential equations (ODEs). These equations, which describe the
+dynamics of the concentrations of the components, can then be easily integrated to
+determine the dynamics of the various components. For the incoherent feedforward
+model, the equations take on the form:
+dR1
+= k R1 (cAMP + r1 )(R1tot − R1 ) − k− R1 R1
+dt
+dR2
+= k R2 (cAMP + r2 )(R2tot − R2 ) − k− R2 R2
+dt
+R = R1 + R2
+dGEF
+= kGEF R − k−GEF GEF
+dt
+dGAP
+= kGAP R − k−GAPGAP
+dt
+dRasGTP
+= k RasGEF(Rastot − RasGTP ) − k− RasGAP RasGTP
+dt
+dRBD cyt
+off
+on
+= k RBD
+(RBD tot − RBD cyt ) − k RBD
+RasGTP RBD cyt
+dt
+The first two equations describe the binding process of the external chemoattractant,
+cAMP, to the two receptor populations, R1 and R2. One population has a large Kd value
+and one has a small Kd value. The downstream activity of the bound receptors is
+assumed to be the same for both populations, such that the effective input in the
+equations for the downstream components is simply the sum, R. Also, we have allowed
+for the possibility of constitutive activation, parameterized through r1 and r2. The fourth
+and fifth equations describe the first order activation and deactivation of RasGEF and
+RasGAP (denoted for brevity by GEF and GAP), and the sixth equation models the
+dynamics of activated Ras, denoted here as RasGTP. The total concentration of Ras is
+given by Rastot. The final equation describes the cytosolic reporter molecule RBD-GFP,
+denoted by RBDcyt. Its total concentration is RBDtot and it binds membrane-bound
+activated Ras, leading to a removal from the cytosol, and is removed from the
+membrane with simple first order kinetics.
+The equations for the integral control model are identical to the ones above, with the
+dGAP
+equation for RasGAP replaced by
+= kGAP Ras GTP − k−GAP . This form of the equations
+dt
+contains a zero-order term, and can be derived from the full Michaelis-Menten kinetic
+equations assuming saturation conditions (see also below) (1). We have verified
+through direct simulations that the system with full Michaelis-Menten kinetics or first
+order kinetics shows quantitatively similar behavior. In addition, we verified that
+
+including a feedback loop from Ras to RasGEF, as suggested in previous studies (2),
+does not change the qualitative results of the model.
+
+Text S3. Data fitting.
+To fit the experimental data, we chose 21 discrete experimental points that best
+characterized the experimental data set. Specifically, we chose 5 points from the dose
+response curve for the non-pretreated cells but excluded the response of nonpretreated cells to a 1 µM stimulus because we used this value to normalize our results.
+Furthermore, we picked the 3 points of the dose-response curve for cells pretreated with
+100 nM cAMP (Fig. 2C). The fit also used the equivalent 8 points of the time response
+curves (Fig. 2D). The resulting 16 points were supplemented by 5 points from the 2
+experiments shown in Fig. 2, E and F, (0 to 0.2 nM, followed by 0 nM and 100 nM to 1
+µM, followed by 100 nM). These were the peak amplitudes, estimated to be 1.0905 and
+1.1196, and peak times, taken to be 19.5 sec and 8 sec, following a decrease in the
+cAMP concentration. Finally, the last point used in our fit was the amplitude of the
+response 60 sec after a change in concentration from 0.2 nM to 0, estimated to be
+equal to 1 (Fig. 2E).
+Our model contains 18 parameters, of which we fixed 9: We chose the off rates of the 2
+receptors populations to be equal to the values found in single molecule experiments (3):
+k-R1=0.16 s-1 and k-R2=1.1 s-1. Furthermore, we fixed kR1 and kR2 by taking the
+disassociation constant for the high affinity receptor population to be 60 nM and for the
+low affinity population to be 450 nM, consistent with experimental values(4). We further
+reduced the number of free parameters by noticing that kGEF did not affect the kinetics of
+GEF activation and was related only to the amount of GEF, which regulates Ras
+activation. Because kRas also regulates activation of Ras, we simply took kGEF=0.1k-GEF.
+Similarly, we fixed kGAP=0.1k-GAP. Moreover, because k-GAP should always be smaller
+than k-GEF, and because the system is primarily sensitive to the ratio of the two
+parameters, we used ln(k-GEF/k-GAP) instead of k-GAP as a fitting parameter. Finally, we
+normalized the Ras and RBD concentrations so that Rastot=1 and RBDtot=1.
+The model equations were integrated in time until a steady state was obtained. The
+resulting numerical values of the N=21 fit points, xisim , were then compared to the
+experimental values, xiexp , using the following error function
+2
+
+exp
+sim
+1 21  xi − xi 
+,
+E = ∑
+N i=1  σ iexp 
+
+where σiexp (i=1,2,…,21) are standard deviations of the experimental data for each fit
+point. The task is to search for the parameter set k that minimizes E: k = arg min(E) .
+k
+
+Because the resulting 9-dimensional parameter space can have numerous local minima,
+we chose simulated annealing as our method of fitting. Unlike other algorithms,
+simulated annealing samples a large region of parameter space and does not reject
+parameter choices that do not improve the fit (5). This is done by assigning an artificial
+temperature and “cooling” the system. Specifically, we started from a high temperature
+(T=3000), performed 100 parameter searches at each iteration and reduced the
+
+temperature by 10% after each iteration. Our program ended when the step size in the
+parameter space became smaller than a defined cut-off value or when the temperature
+had been decreased for 100 times, whichever came first. To enlarge the searchable
+area in parameter space, we started the program from different initial conditions. The
+resulting parameters, corresponding to a fit with E=0.12, are shown in Table S1.
+We have also performed fits using different experimental data points and slightly
+different versions of the model equations. For example, in one fit we used all the data
+from Fig. 2, C to F, whereas in another fit, we excluded the possibility of constitutive
+activation of the receptors (such that r1=0 and r2=0). These fits still duplicated the
+experimental data well, with an error function that was less that 0.3. Furthermore, the
+parameters that were selected were always close to the ones shown in Table S1,
+indicating that our fitting was not very sensitive to the choice of fit points or the specific
+details of the model. This was not surprising, because the experimental data put
+considerable constraints on the possible range of the parameters. In particular, the
+observed transient depletion of the cytosol following an increase in chemoattractant
+required that k-GEF was always larger than k-GAP. Furthermore, k-GAP determined the time
+scale of the return to basal amount and was thus constrained by the experimentally
+observed values. Also, the peak amplitude of the response limited the allowed ratios of
+k-GAP and k-GEF. Finally, the fraction of low affinity receptors, R2tot , needed to be large
+because cells pre-treated with 100 nM of chemoattractant showed a substantial
+response.
+
+Text S4. Analytical analysis of the incoherent feedforward and the integral control
+topologies.
+The core of the incoherent feedforward model can be represented by Fig. S8A, where
+the input signal S activates both A and B, which control the dynamics of the output X.
+The equations describing this core motif can be written as
+
+dA
+= k a S − k− a A
+dt
+dB
+= kb S − k− b B
+dt
+dX
+= k x A(1 − X ) − k− x BX
+dt
+
+(1)
+(2)
+(3)
+
+where we normalized the X equation by the total amount of X. The steady state values
+k
+k
+of A and B depend on S, A0 = a S, B0 = b S , whereas the steady state amount of X is
+k− a
+k− b
+
+k x A0
+. Thus, because both A0 and B0 depend linearly on S, X0 will be
+k x A0 + k− x B0
+independent of S. A linear stability analysis for the steady state of the system can be
+carried out. The growth mode λ is given by the solution of the following eigenvalue
+problem:
+X0 =
+
+−k− a − λ
+
+0
+
+0
+
+0
+
+−k− b − λ
+
+0
+
+k x (1 − X 0 )
+
+−k− x X 0
+
+−k x A0 − k− x B0 − λ
+
+=0
+
+These eigenvalues are always real and negative, demonstrating that the steady state is
+linearly stable and that X does not exhibit oscillations.
+The kinetics of X depends on the amount of A and B present. For small values of S,
+both A and B are small and the kinetics of X is slow. That is, Eqn.(1) and Eqn.(2) are
+much faster than Eqn.(3) and we can approximate A and B by their quasi-steady state
+k
+k
+values: A ~ a S , B ~ b S . Then, Eqn.(3) can be written as
+k− a
+k− b
+k k
+1 dX k x ka
+(1 − X ) − − x b X
+=
+S dt
+k− a
+k− b
+
+Thus, the timescale of recovery for X, τ, is inversely proportional to the signal strength,
+τ ~ 1/ S . On the other hand, when S is large, Eqn.(3) equilibrates quickly and
+
+k
+kx A
+. Because both A and B are linearly dependent on S, A = a S(1 − e− k− a t )
+k− a
+k x A + k− x B
+k
+and B = b S(1 − e− k− b t ) , we find that the kinetics of X are independent of S.
+k−b
+X~
+
+The integral control models, with negative feedback, can be represented by two core
+motifs. For analytical convenience, we assume that the activation of activator A is fast
+compared to the timescales for B and X. Then, these motifs reduce to two-node
+topologies and in the first one (Fig. S8B), the buffering node is activated by X and
+deactivates X:
+dX
+= k x S(1 − X ) − k− x BX
+dt
+dB
+= kb X − k− b
+dt
+
+(4)
+(5)
+
+The zero-order terms in these equations, and in the ones for the second motif below
+were chosen to facilitate the analytical treatment and can be derived in certain limits of
+the full Michaelis-Menten kinetic equations (1). We have verified through numerical
+simulations that the system with full Michaelis-Menten dynamics shows qualitatively
+similar behavior.
+
+k− b
+k S(1 − X 0 )
+and B0 = x
+. A linearization around
+kb
+k− x X 0
+these steady state values gives as the growth modes:
+The steady state amounts are X 0 =
+−k x S − k− x B0 − λ −k− x X 0
+kb
+
+−λ
+
+=0
+
+⇒
+
+λ 2 + (k x S + k− x B0 )λ + k− x k− b = 0
+
+Imaginary values for these modes will result in oscillations in the value of X for constant
+S. To avoid these oscillations, one has to choose a small enough value for k-b. Of
+course, it might also possible to suppress these oscillations through additional loops in
+the network.
+When Eqn. (4) is much faster than Eqn. (5), we can approximate B by its quasi-steady
+k S (1 − X )
+k S dX
+dB
+state value B ~ x
+. Then,
+kb X − k− b and
+=
+− x 2
+=
+dt
+k− x X dt
+k− x X
+
+S
+
+k
+dX
+= − − x X 2 (kb X − k− b )
+kx
+dt
+
+Thus, the recovery time scale τ increases with S: τ ~ S , inconsistent with the
+experimental results.
+
+In the second motif (Fig. S8C), the buffering node B activates X and is deactivated by X.
+Because B is not activated by the signal, we will assume a constant constitutive
+activation:
+dX
+= k x (S + c)B(1 − X ) − k− x X
+dt
+dB
+= kb − k− b X
+dt
+
+with steady-state values X 0 =
+
+kb
+and B0 =
+k− b
+
+−
+The linear stability is found by solving
+
+k− x
+
+(6)
+(7)
+
+kb
+k− b
+
+k x (S + c)(1 −
+
+k− x
+−λ
+kb
+1−
+k− b
+
+kb
+)
+k− b
+
+k x (S + c)(1 −
+
+kb
+)
+k− b
+
+= 0,
+
+−λ
+
+−k− b
+
+k− x
+λ + k x (S + c)(k− b − kb ) = 0 . Thus, again, the kinetics of the buffering
+kb
+1−
+k− b
+node B, characterized by k-b, needs to be slow to avoid oscillations. Then, Eqn.(6) will
+k x ( S + c) B
+equilibrate quickly, and X ≈
+. For large values of S, X reaches its peak
+k x ( S + c) B + k− x
+Xpeak≈1 (Fig. S6G) and remains saturated for a prolonged period. During this time, the
+dB
+decay rate of B is about
+≈ kb − k− b , leading to
+dt
+k x k− x ( S + c)
+k x k− x ( S + c)
+dX
+dB
+≈
+≈
+( kb − k − b ) .
+2
+dt [k x ( S + c) B + k− x ] dt [k x ( S + c) B0 + k− x ]2
+
+leading to λ 2 +
+
+The saturation time can be estimated to be Tsaturation ≈
+state value of B before the stimulus step.
+
+B0, pre
+k− b − kb
+
+where B0, pre is the steady
+
+Text S5. Spatially extended models.
+A spatially extended version of the adaptation model can be formulated in a
+straightforward manner. In this spatially extended version of the LEGI model, both GAP
+and RBDcyt diffuse in the cytosol with diffusion constants DGAP and DRBD, respectively.
+The above equations for the receptors and GEF are unchanged and the remaining
+equations now describe the concentration in the cytosol and on the membrane in terms
+of partial different equations (PDEs):
+dGAP mem
+on
+= kGAP
+GAP cyt − k−GAPGAP mem
+dt
+∂GAP cyt
+= DGAP∇ 2GAP cyt
+∂t
+dRasGTP
+= k RasGEF(Rastot − RasGTP ) − k− RasGAP mem RasGTP
+dt
+dRBD mem
+on
+off
+RasGTP RBD cyt − k RBD
+RBD mem
+= k RBD
+dt
+∂RBD cyt
+= DRBD ∇ 2 RBD cyt
+∂t
+
+These equations need to be supplemented with the boundary conditions
+
+∂GAP cyt
+on
+GAP cyt
+= kGAP R − kGAP
+∂n
+∂RBD cyt
+off
+on
+RBD mem
+RasGTP RBD cyt + k RBD
+= −k RBD
+DRBD
+∂n
+
+DGAP
+
+where n is the normal to the cell membrane.
+We have simulated these equations, representing a spatially extended implementation
+of the LEGI model (6), using a disk-shaped cell with radius R=5 µm. The resulting
+RBDcyt dynamics, following an increase in cAMP, is shown in Fig. S9 as symbols. The
+corresponding RBDcyt dynamics for the case where the cytosolic RBD-GFP
+concentration is assumed to be uniform and the equations can be described by ODEs is
+plotted as a solid line. A comparison reveals that both models display the same
+quantitative behavior. Of course, this result is not surprising because, as long as DRBD is
+large enough, the spatial variations of RBDcyt will be negligible.
+
+Fig. S1: Detailed drawing of the microfluidic device
+
+A detailed drawing of microchannels in the microfluidic device used in this study. Microchannels
+with depths of 30 and 120 µm are shown in green and blue, respectively. Circles mark the inlet
+and outlet ports. The device consisted of a chip made of polydimethylsiloxane (PDMS), with
+microchannels engraved on its surface, and a cover glass sealing the microchannel. The chip
+was cast of PDMS using a master mold fabricated with standard UV photolithography. A 5 inch
+silicon wafer was spin-coated with a 30 µm of a UV-curable epoxy (SU8-2015 by Microchem),
+exposed to UV-light through a photomask, spin-coated with another layer of epoxy to a total
+thickness of 120 µm, exposed to UV-light through another photomask, and developed. The
+microfluidic device had three inlets: for a buffer, a concentrated solution of cAMP, and a solution
+of fluorescent dye (Alexa 594). The device also had a vent and five outlets. The microchannel
+network of the device consisted of 30 µm and 120 µm deep channels. Its major elements were 5
+observation chambers, each situated upstream of a dedicated outlet, a mixing channel, and
+resistance channels. At its upstream end, the mixing channel was connected to the three inlets,
+and at its downstream end the mixing channel was connected to the 5 observation chambers.
+The mixing channel was a modification of a previous design (7) and consisted of a chain of 18
+identical segments with 30 and 120 µm deep elements that generated a three-dimensional flow
+with stretching and folding that promoted efficient mixing.
+
+The flow in the device was driven by the application of differential pressures between the inlets
+and outlets of the device. The pressures were controlled either hydrostatically, by setting certain
+height differences between the reservoirs feeding the inlets and the reservoirs connected to the
+outlets and the vent, or by pressurizing the inlet reservoirs with compressed air supplied by an
+accurate regulator (8310 by Porter Instruments) with the pressure measured by a sensitive
+electronic gauge (Cecomp GPG1000B). All 5 outlets of the device were connected to a single
+reservoir through 5 separate lines of Tygon tubing. At any given time, the flow through 4 out of 5
+outlets was blocked (by mechanically clamping the tubing lines connected to the outlets) and
+the entire flow through the mixing channel was directed towards a single observation chamber
+(and a single outlet). The microchannel network was designed such that the flow rate through
+an active observation chamber was set solely by the pressure at the buffer inlet that remained
+constant throughout an experiment. The concentration of cAMP in the active observation
+chamber was a linear function of the difference between the pressure at the cAMP inlet, Pc , and
+a certain reference pressure, P0 . At Pc < P0 , the entire stream of the concentrated cAMP
+solution was diverted towards the vent, resulting in 0 cAMP concentration in the observation
+chamber ( [cAMP ] = 0 ). At Pc > P0 , the concentration of cAMP in the observation chamber was
+
+[cAMP ] = α [cAMP ]0 ( Pc − P0 ) , where [cAMP ]0 was the concentration of cAMP in the solution
+fed to the cAMP inlet. The coefficient α was equal to 1 /( Pmax − P0 ) , where Pmax was the pressure
+at which the solution in the observation chamber was the same as the solution fed to the cAMP
+inlet. In our experiments, the pressure at the cAMP outlet was always below this limit ( Pc < Pmax ).
+To calibrate a device and find the values P0 and Pmax for the device, we used the fluorescent
+dye that was fed to the dye inlet. During the calibration, the dye inlet was open and pressurized
+and the cAMP inlet was blocked. In contrast, during the experiments on Dictyostelium cells, the
+dye inlet was blocked, whereas the cAMP inlet was open and pressurized. To change [cAMP ]
+in the active observation chamber, the pressure at the cAMP inlet was abruptly changed using
+pressure-regulated compressed air and a solenoid valve. The transition time for the
+concentration change in an observation chamber (near its upstream end) was 0.26 s based on a
+10% to 90% criterion (Fig. 1B). The maximal flow velocity in an active observation chamber was
+10 mm/s, corresponding in a shear stress of ~0.33 Pa at the surface of cell attached to the
+substratum that was expected to result in a minimal mechanical stimulation of the cells.
+Importantly, the flow velocity and the surface shear stress in the observation chamber remained
+constant when the cAMP concentration was switched, excluding any possible change in the
+mechanical stimulus. The availability of the 5 separate observation chambers made it possible
+to repeat the cell stimulation with cAMP 5 times in a single experiment, thus increasing the
+experimental throughput.
+
+Fig S2. Membrane-associated RBD-GFP is inversely related to cytosolic RBD-GFP
+fluorescence.
+
+The cytosolic (red line) and the membrane fluorescence intensity following a sudden
+increase in chemoattractant concentration at t=0 s.
+
+Fig. S3. Responses in latrunculin-treated cells.
+
+We quantified the degree of adaptation of Ras-GTP in cells treated with 15 µM latrunculin B by
+exposing previously unstimulated cells to different chemoattractant concentrations, ranging from
+1.0 x 10-2 to 1.0 x 103 nM in 10-fold increments. The RBD-GFP cytosolic fluorescence intensity
+I(t) as a function of time in cells treated with the 5 highest chemoattractant concentrations are
+shown. As in the case for cells not treated with latrunculin B (Fig. 2A), the response increases
+for increasing concentrations and the peak time, Tpeak, decreases with increasing concentration.
+
+Fig. S4. Effects of different receptor populations.
+
+Numerical dose response curves for cells with only low affinity (Kd=450 nM; red dashed lines) or
+only high affinity (Kd=60 nM; blue dotted lines) receptors. Shown are the results without any prestimulus and with pre-stimulation with 100 nM chemoattractant. The solid curves are shown for
+comparison and represent the results of simulations with the mixed receptor population
+described in the main text.
+
+Fig. S5. Response times for the different models.
+
+We defined the response time for the integral control and the incoherent feedforward
+model as the time between the half-peak value during the rise phase and the half-peak
+value during the decay phase of the response. In the integral control model, this
+response time increased as the stimulus size was increased (red line). In contrast, the
+response time decreased for increasing step sizes in the incoherent feedforward model
+(black line), consistent with experimental results (symbols).
+
+Fig. S6. Possible integral control topologies.
+
+(A to H) All possible three-node topologies containing a negative feedback loop (integral control
+topologies), including ones that are biologically not plausible. The dynamics of topologies (B)
+and (C) are qualitatively similar to the one depicted in A and are discussed in the main text. In
+the topologies of (A), (B), and (C), either RasGEF or activated Ras activates RasGAP which, in
+turn, exerts negative feedback. Through explicit numerical simulations, we have verified that
+these three topologies are inconsistent with the experiments for the reasons described in the
+main text: The timescale of the return to basal amount following an increase in cAMP is
+proportional to the magnitude of the stimulus. The qualitative dynamics of topologies (D) to (F)
+are shown in (G) and the corresponding dose-response curves are plotted in (H). The
+topologies of (D) to (F) have an inhibitory coupling between either RasGEF or activated Ras and
+RasGAP. The feedback loop is closed through a positive link between RasGAP and RasGEF or
+activated Ras. These topologies are also inconsistent with the experimental findings. In
+particular, for large values of the stimulus, Ras-GTP saturates and remains close to its maximal
+
+value for a prolonged period of time (G). This would result in experiments with a prolonged
+plateau in the RBD-GFP intensity. Furthermore, the saturability of Ras-GTP makes it impossible
+to obtain the dynamic range observed in the dose-response experiments. Specifically, it is
+possible to obtain a dose-response curve that is close to the experimental one for untreated
+cells. However, because for large values of the chemoattractant concentration Ras-GTP is
+saturated, the response to an increased stimulus of cells that were pre-treated with a large
+chemoattractant concentration is small. This is shown in (H), in which we plot the doseresponse curves for different values of initial chemoattractant concentrations. There is a small
+response of cells pre-treated with 100 nM chemoattractant (blue line) to subsequent increases
+in chemoattractant concentrations, inconsistent with the experimental results.
+
+Fig. S7. Possible incoherent feedforward topologies.
+
+Theoretically possible implementations, including ones that are biologically not plausible,
+of the incoherent feedforward model. The topology in (A) is the one considered in this
+study.
+
+Fig. S8. Core model topologies.
+
+Basic motifs of incoherent feedforward model (A) and integral control (negative feedback)
+model [(B) and (C)]. S is the input signal, and X is the output.
+
+Fig. S9. Comparison of the response in a spatially uniform and spatially extended model.
+
+The intensity of cytosolic RBD-GFP, normalized by RBDcyt before simulation, as a function of
+time following a sudden increase in chemoattractant from 0 to 1 µM for the spatially uniform
+model governed by ODEs (solid line) and the spatially extended model described by PDEs
+(symbols). The common parameters for both models are given in Table S1 and the additional
+parameters for the spatially extended model are: DGAP=30µm2/s, DRBD=10µm2/s,
+on
+= 3µ m / s .
+kGAP
+
+Table S1. Model parameters used in this study.
+
+parameter
+
+value
+
+parameter
+
+value
+
+R1tot
+
+0.1
+
+k-GEF
+
+0.4 sec-1
+
+R2tot
+
+0.9
+
+kGAP
+
+0.01 sec-1
+
+kR1
+
+0.00267 nM-1sec-1
+
+k-GAP
+
+0.1 sec-1
+
+k-R1
+
+0.16 sec-1
+
+Rastot
+
+1
+
+kR2
+
+0.00244 nM-1sec-1
+
+kRas
+
+390 sec-1
+
+k-R2
+
+1.1 sec-1
+
+k-Ras
+
+3126 sec-1
+
+r1
+
+0.012 nM
+
+RBDtot
+
+1
+
+r2
+
+0.115 nM
+
+off
+kRBD
+
+0.53 sec-1
+
+kGEF
+
+0.04 sec-1
+
+on
+kRBD
+
+1.0 sec-1
+
+References
+
+1.
+2.
+3.
+4.
+
+5.
+6.
+7.
+
+W. Ma, A. Trusina, H. El-Samad, W. A. Lim, C. Tang, Defining network topologies that can achieve
+biochemical adaptation. Cell 138, 760 (Aug 21, 2009).
+J. Das et al., Digital signaling and hysteresis characterize ras activation in lymphoid cells. Cell 136,
+337 (Jan 23, 2009).
+M. Ueda, Y. Sako, T. Tanaka, P. Devreotes, T. Yanagida, Single-molecule analysis of chemotactic
+signaling in Dictyostelium cells. Science 294, 864 (2001).
+P. J. M. van Haastert, R. J. W. de Wit, Demonstration of receptor heterogeneity and affinity
+modulation by nonequilibrium binding experiments. The cell surface cAMP receptor of
+Dictyostelium discoideum. J. Biol. Chem. 259, 13321 (1984).
+W. H. Press, S. A. Teukolsky, W. T. Vetterling, B. P. Flannery, Numerical Recipes: The Art of
+Scientific Computing. (Cambridge University Press, ed. 3rd, 2007), pp. 1256.
+C. A. Parent, P. N. Devreotes, A cell's sense of direction. Science 284, 765 (1999).
+C. Simonnet, A. Groisman, Chaotic mixing in a steady flow in a microchannel. Phys Rev Lett 94,
+134501 (Apr 8, 2005).
+
+

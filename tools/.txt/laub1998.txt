@@ -1,0 +1,1028 @@
+Molecular Biology of the Cell
+Vol. 9, 3521–3532, December 1998
+
+A Molecular Network That Produces Spontaneous
+Oscillations in Excitable Cells of Dictyostelium
+Michael T. Laub and William F. Loomis*
+Center for Molecular Genetics, Department of Biology, University of California, San Diego, La Jolla,
+California 92093
+Submitted July 1, 1998; Accepted September 16, 1998
+Monitoring Editor: Lucy Shapiro
+
+A network of interacting proteins has been found that can account for the spontaneous
+oscillations in adenylyl cyclase activity that are observed in homogenous populations of
+Dictyostelium cells 4 h after the initiation of development. Previous biochemical assays
+have shown that when extracellular adenosine 39,59-cyclic monophosphate (cAMP) binds
+to the surface receptor CAR1, adenylyl cyclase and the MAP kinase ERK2 are transiently
+activated. A rise in the internal concentration of cAMP activates protein kinase A such
+that it inhibits ERK2 and leads to a loss-of-ligand binding by CAR1. ERK2 phosphorylates the cAMP phosphodiesterase REG A that reduces the internal concentration of
+cAMP. A secreted phosphodiesterase reduces external cAMP concentrations between
+pulses. Numerical solutions to a series of nonlinear differential equations describing these
+activities faithfully account for the observed periodic changes in cAMP. The activity of
+each of the components is necessary for the network to generate oscillatory behavior;
+however, the model is robust in that 25-fold changes in the kinetic constants linking the
+activities have only minor effects on the predicted frequency. Moreover, constant high
+levels of external cAMP lead to attenuation, whereas a brief pulse of cAMP can advance
+or delay the phase such that interacting cells become entrained.
+INTRODUCTION
+Periodic responses on a time scale of seconds to minutes are often encountered in organisms ranging from
+bacteria to mammals (Winfree, 1975, 1977; Koshland et
+al., 1982; Meinhardt, 1982; Berg, 1990). However, the
+molecular mechanisms that underlie such oscillations
+are poorly understood. Analyses of postinfection processes in phage lambda–infected Escherichia coli as well
+as of bacterial chemotaxis have shown that the timing
+of cellular events cannot be accounted for by specific
+genes and their products alone but rather by the properties of the regulatory and biochemical networks to
+which they belong (Bray et al., 1993; McAdams and
+Shapiro, 1995; McAdams and Arkin, 1999; Barkai and
+Leibler, 1997; Spiro et al., 1997). These studies have
+also highlighted the value of computer simulations in
+understanding and characterizing network behavior.
+Such simulations can be readily used to test the response of the network to various changes and pertur* Corresponding author. E-mail address: wloomis@ucsd.edu.
+
+© 1998 by The American Society for Cell Biology
+
+bations, facilitating the generation of testable hypotheses. In this work we have simulated the molecular
+network underlying adenosine 39,59-cyclic monophosphate (cAMP) oscillations observed in fields of chemotactic Dictyostelium discoideum cells. The robust circuit
+modeled here produces the spontaneous oscillations
+in cAMP observed during the early development of D.
+discoideum and can account for the synchronization of
+the cells necessary for chemotaxis and further development.
+cAMP-mediated chemotaxis of D. discoideum cells
+has been the subject of physiological, biochemical, and
+mathematical analyses for many years (Gerisch, et al.,
+1979; Loomis, 1979; Dinauer et al., 1980; Devreotes,
+1982; Knox et al., 1986; Martiel and Goldbeter, 1987;
+Goldbeter, 1996; Parent and Devreotes, 1996). However, recent advances in the mutational tagging and
+cloning of genes pertinent to chemotaxis have uncovered enzymes not previously considered in analyses of
+the cellular responses to cAMP (Kuspa and Loomis,
+1992; Firtel, 1996; Loomis, 1996). By including in our
+simulations the interactions of these newly discovered
+3521
+
+M.T. Laub and W.F. Loomis
+
+Figure 1. Spontaneous oscillations in light scattering and ACA.
+The results of Roos et al. (1977) show that the specific activity of
+ACA (filled circles) oscillates with a frequency of ;9 min in phase
+with decreases in light scattering (upper trace) in a suspension of 108
+cells/ml after 4 h of development. E405, Excitation at 405 nm.
+
+enzymes with previously defined components in the
+signal transduction pathway, we find that many of the
+aspects of excitation, relay, and adaptation to the chemoattractant cAMP can be better understood. Numerical solutions of the differential equations used to simulate this molecular network also provide predictions
+with the resolution necessary for meaningful comparison with measured values.
+A few hours after the initiation of development,
+Dictyostelium cells exhibit spontaneous light-scattering
+oscillations with a periodicity of 5–10 min (Figure 1)
+(Gerisch and Hess, 1974; Roos et al., 1977). This property, caused by contraction of the cells, seems to be
+directly related to the response of the cells to extracellular cAMP because addition of cAMP to stirred suspensions of aggregation-competent cells shifts the
+phase in the light-scattering oscillations. Moreover,
+the light-scattering peaks coincide with spontaneous
+peaks in internal cAMP and are followed after a short
+time lag by peaks in the external cAMP concentration
+(Gerisch and Wick, 1975). After each peak, extracellular cAMP is rapidly hydrolyzed by a secreted phosphodiesterase (PDE), whereas intracellular cAMP is
+hydrolyzed by an intracellular phoshodiesterase (REG
+A) (Malchow et al., 1972; Shaulsky et al., 1998). When
+exogenous cAMP is added immediately after a peak,
+the phase of the oscillations is delayed slightly,
+3522
+
+whereas if the cAMP is added midway through a
+cycle, the phase is advanced, and continuous addition
+of cAMP suppresses the oscillations (Gerisch and
+Hess, 1974). These results indicate that cells become
+refractory to stimulation by cAMP soon after responding to cAMP and then become excitable again when
+the stimulus is removed.
+During the first few hours of development, Dictyostelium cells accumulate a high-affinity cell surface
+cAMP receptor (CAR1) that is a member of the Gprotein–linked family of receptors (Klein et al., 1988).
+By 4 h of development, there are ;40,000 molecules of
+CAR1 distributed uniformly over the surface of the
+cells (Johnson et al., 1991; Xiao et al., 1997). The apparent Kd of most of the binding sites in unsynchronized
+populations of cells is ;300 nM (Johnson et al., 1991,
+1992). When CAR1 binds cAMP, the signal is transduced via a G-protein to activation of adenylyl cyclase
+(ACA), the membrane-associated enzyme that catalyzes the formation of cAMP from ATP (Kesbeke et al.,
+1988; Kumagai et al., 1991). Some fraction of this cAMP
+is then secreted into the environment, while the rest
+remains within the cell. Binding of external cAMP to
+CAR1 thus initiates a positive feedback loop in which
+external cAMP binding CAR1 activates ACA, leading
+to the production of more external cAMP.
+However this positive feedback does not continue
+unabated. Two to three minutes after the stimulation
+of cells with external cAMP and the activation of ACA,
+there is a rapid 5- to 10-fold reduction in the affinity of
+CAR1 to cAMP and a consequent reduction in ACA
+activity (Caterina et al., 1995a,b). This loss-of-ligand
+binding is correlated with phosphorylation of a cluster
+of five serine moieties immediately after the seven
+transmembrane portions of CAR1 that results in reduced electrophoretic mobility (Hereld et al., 1994;
+Caterina et al., 1995a,b). CAR1 returns to its original
+unphosphorylated and high-affinity state shortly after
+the removal of external cAMP, indicating that the
+phosphates are rapidly removed by a phosphatase
+(Malchow and Gerisch, 1974; Vaughan and Devreotes,
+1988). Measurements on cells carrying a modified version of CAR1, in which these serines are replaced with
+alanines or glycines to preclude phosphorylation,
+showed that loss-of-ligand binding failed to occur
+upon stimulation with cAMP (Caterina et al., 1995b;
+Kim et al., 1997). It thus appears that cells rapidly bind
+cAMP when exposed to relatively low levels of the
+ligand, in the range of 10 –500 nM, and are then unable
+to bind more cAMP as a consequence of modification
+of CAR1 unless the concentration of cAMP is increased into the micromolar range. When cAMP is
+removed, the modification of CAR1 is reversed, and
+CAR1 is again able to bind cAMP with high affinity.
+Thus, ligand binding oscillates in response to the levels of external cAMP.
+Molecular Biology of the Cell
+
+Spontaneous Oscillations
+Figure 2. The aggregation circuit. Pulses of
+cAMP are produced when ACA is activated
+after the binding of extracellular cAMP to the
+surface receptor CAR1. Ligand-bound CAR1 activates the protein kinase ERK2 that may transmit the signal to ACA. An alternate circuit in
+which the activation of ACA by ligand-bound
+CAR1 is independent of ERK2 has the same
+properties as our standard circuit. When cAMP
+accumulates internally, it activates the protein
+kinase PKA by binding to the regulatory subunit of PKA. ERK2 is inactivated by PKA and
+no longer inhibits the cAMP phosphodiesterase
+REG A by phosphorylating it. A protein phosphatase activates REG A such that REG A can
+hydrolyze internal cAMP. Either directly or indirectly, CAR1 is phosphorylated when PKA is
+activated, leading to loss-of-ligand binding.
+When the internal cAMP is hydrolyzed by REG
+A, PKA activity is inhibited by its regulatory
+subunit, and protein phosphatase(s) returns
+CAR1 to its high-affinity state. Secreted cAMP
+diffuses between cells before being degraded
+by the secreted phosphodiesterase PDE. The double horizontal line represents the membrane surface of a cell.
+
+This loss-of-ligand binding and termination of the
+cAMP-positive feedback loop are initiated by CAR1’s
+activation of the MAP kinase ERK2. In addition to
+activating ACA, the binding of cAMP to CAR1 also
+causes the activity of ERK2 to increase to a peak
+within 2 min after addition of cAMP (Segall et al., 1995;
+Knetsch et al., 1996; Maeda et al., 1996; Aubry et al.,
+1997). In the next few minutes, ERK2 activity returns
+to basal levels. Phosphorylation of the cytoplasmic
+phosphodiesterase REG A by active ERK2 inhibits
+REG A such that intracellular cAMP can accumulate
+when ACA is first stimulated (Lu and Kuspa, personal
+communication). The cAMP that accumulates in the
+cell can activate the cAMP-dependent protein kinase
+PKA (Mutzel et al., 1987; Simon et al., 1992). Activated
+PKA then inhibits ERK2, possibly acting via the small
+GTP-binding protein RAS (Knetsch et al., 1996; Aubry
+et al., 1997). When ERK2 is no longer active and therefore unable to inhibit REG A, the phosphodiesterase
+reduces the internal concentration of cAMP below the
+level required for PKA activity (Shaulsky et al., 1998).
+In our simulations we also model activated PKA as
+causing, either directly or indirectly, the phosphorylation and loss-of-ligand binding of CAR1. Thus CAR1
+activates ACA and the production of more cAMP
+ligand but also initiates a signaling cascade that leads,
+via PKA, to a loss-of-ligand binding. Our simulations
+of the molecular interactions described above indicate
+that the negative feedback inhibition of CAR1 occurs
+after a short time delay relative to the positive feedback production of cAMP. Molecular systems involving similar positive feedback loops followed by a delayed negative feedback have been suggested as a
+mechanism for the production of spontaneous oscillations (Ermentrout, 1994). Our simulations demonVol. 9, December 1998
+
+strate that such a mechanism, involving the components discussed above, produces the cAMP
+oscillations necessary for chemotaxis and further development of Dictyostelium cells.
+
+THE NETWORK
+The connections among many of the above-mentioned
+components are depicted in Figure 2. We have included only those activities that are regulated, either
+directly or indirectly, by other activities in the circuit.
+PKA indirectly affects the regulation of ACA by inhibiting the cAMP receptor CAR1 as well as by being
+responsible for inhibition of ERK2 activity. When mutants lacking PKA activity are stimulated by addition
+of cAMP, the activities of both ACA and ERK2 go up
+but then remain high for much longer than in wildtype cells (Knetsch et al., 1996; Aubry et al., 1997; Mann
+et al., 1997). These observations indicate that terminating the activation of ACA and ERK2 is dependent on
+PKA activity.
+Oscillations in ACA activity are dampened unless
+the external cAMP is removed or degraded by phosphodiesterase, and so we have included the extracellular phosphodiesterase PDE in the circuit. This
+enzyme is unrelated to the cytoplasmic phosphodiesterase REG A and is responsible for the rapid
+degradation of extracellular cAMP soon after this
+cAMP is released (Malchow et al., 1972). ACA and
+REG A are critical to the relay of cAMP signals
+because they are responsible for the synthesis and
+degradation of cAMP. Null mutations in any one of
+the genes encoding components of the circuit result
+in the lack of relay (Table 1).
+3523
+
+M.T. Laub and W.F. Loomis
+
+Table 1. Comparison of measured values with predictions
+Observeda
+
+Table 2. Standard model kinetic constants
+
+Computed
+predictions
+
+Inactivated gene
+
+ACA
+
+ERK2
+
+ACA
+
+ERK2
+
+acaA
+pkaC
+erkB
+carA
+
+0
+Stable
+0
+5%
+
+Stable
+Stable
+0
+5%
+
+0
+Stable
+0
+5%
+
+Stable
+Stable
+0
+5%
+
+a
+
+Data of Vaughan et al. (1987), Harwood et al. (1992), Pupillo et al.
+(1992), Insall et al. (1994), Segall et al. (1995), Knetsch et al. (1996),
+Aubry et al. (1997), and Mann et al. (1997). Stable indicates that the
+activity does not return to basal levels during the period immediately after activation. Computed predictions were determined in the
+designated mutant cells after the addition of a single pulse of
+exogenous cAMP as well as during spontaneous oscillations.
+
+Although many of the components that are essential
+for the relay of cAMP signals accumulate only after
+the initiation of development, we have modeled the
+situation found in cells that have developed for 4 h
+and are aggregation competent. We are thus simulating a biochemical network at a given time during
+development and can neglect the synthesis and degradation of the enzymes involved.
+THE MODEL
+Changes in the enzymatic activities shown in Figure 2
+can be expressed as a set of nonlinear differential
+equations with kinetic constants kn (n 5 1–14). The
+activity of each of the seven components of the network is determined by the balance between activating
+and inactivating enzymes that is then reflected in the
+equations in the form of an activating and a deactivating term. Changes in both internal and external cAMP
+are dependent on the activities of ACA, the cytoplasmic phosphodiesterase REG A, and the secreted phosphodiesterase PDE, as well as on the proportion of
+newly synthesized cAMP that is retained within the
+cell.
+d[ACA]/dt 5 k1[ERK2] 2 k2[ACA]
+d[PKA]/dt 5 k3[internal cAMP] 2 k4[PKA]
+d[ERK2]/dt 5 k5[CAR1] 2 k6[ERK2] [PKA]
+d[REG A]/dt 5 k7 2 k8[REG A] [ERK2]
+d[internal cAMP]/dt 5 k9[ACA] 2 k10[REG A] [internal cAMP]
+d[external cAMP]/dt 5 k11[ACA] 2 k12[external cAMP]
+d[CAR1]/dt 5 k13[external cAMP] 2 k14[CAR1] [PKA]
+
+(1)
+(2)
+(3)
+(4)
+(5)
+(6)
+(7)
+
+We assume that there is sufficient inactive precursor
+at all times to generate all of the observed activity, and
+so activation can be treated as a simple zero-order
+reaction with respect to the activity under consideration. On the other hand, the inhibitory reactions were
+treated as first-order processes with respect to the
+activities under consideration because their concentrations are rate limiting. The rates at which the activities
+3524
+
+Parameter
+
+Value
+
+k1
+k2
+k3
+k4
+k5
+k6
+k7
+k8
+k9
+k10
+k11
+k12
+k13
+k14
+
+1.4 min21
+0.9 min21
+2.5 min21
+1.5 min21
+0.6 min21
+0.8 min21 mM21
+2.0 min21 mM
+1.3 min21 mM21
+0.7 min21
+1.0 min21 mM21
+0.3 min21
+3.1 min21
+1.8 min21
+1.5 min21 mM21
+
+are lost can then be determined from equations in
+which the instantaneous rate of inhibition is dependent on the amount of activity present at that time. It
+should be noted that no artificial time lags have been
+inserted into this model and that the dependence of
+the relative activities of the enzymes is explicitly represented by the above equations.
+The rate of change in the concentration of active
+ACA is equal to the difference between its rate of
+activation and inactivation, determined by the concentration of active ERK2 and the concentration of active
+ACA. The kinetic constants for these reactions, k1 and
+k2, respectively, were set at 1.4 and 0.9 min21 to generate values consistent with the measured basal levels
+of 5–10 pmolzmin21zmg21 of protein and the peak
+activity of 20 pmolzmin21zmg21 of protein ACA observed in cells developed for 4 h (Roos et al., 1977;
+Loomis et al., 1978). Likewise, the kinetic constants k5
+and k6 for the rate of change of ERK2, determined by
+the concentration of active CAR1 and the reaction of
+PKA and ERK2, were set at 0.6 and 0.8 min21, respectively, to generate the approximately fivefold increase
+in relative activity of this protein kinase that is observed within a minute of stimulation of cells with 10
+mM cAMP and the return of this protein kinase to
+basal levels within the next few minutes (Knetsch et
+al., 1996; Maeda et al., 1996; Aubry et al., 1997). Because
+the other activities have not been biochemically defined, we systematically varied their kinetic constants
+and then assigned them the values shown in Table 2
+based on the known kinetics stated above and the
+maintenance of stable oscillations with a periodicity
+matching the observed value of 8 min.
+Numerical solutions to the equations describing the
+interactions of the components of the circuit were
+generated with an ordinary differential equation
+solver provided in the Matlab software package
+(MathWorks, Natick, MA). The solver uses a loworder Runge-Kutta method to generate solutions with
+Molecular Biology of the Cell
+
+Spontaneous Oscillations
+
+1996). The changes in both internal and external cAMP
+(Figure 3) also conform accurately to the observed
+changes in these parameters with respect to both relative levels and timing (Gerisch and Wick, 1975;
+Gerisch et al., 1977; Roos et al., 1975, 1977). The internal
+concentration of cAMP has been found to increase to
+;15–20 mM, while the external concentration of
+cAMP depends on the cell density but does not exceed
+1 mM (Gerisch et al., 1977). We varied the portion of
+newly made cAMP that is retained in the cells from 20
+to 80% and found that it had little effect on the frequency of oscillations (our unpublished results). The
+best fit with the observed levels of internal cAMP was
+found when we set the portion retained at 70% (k9 5
+0.7 min21).
+Computer simulations of such networks are easily
+modified to generate predictions for behavior in the
+absence of one or more of the enzymes involved.
+Simulations of such mutant networks perfectly
+matched the observed behavior (Table 1). In addition,
+we ran the simulation under a wide range of initial
+active enzyme concentrations and found that in all
+cases stable, spontaneous oscillations with a frequency
+of ;7 min were produced (our unpublished results).
+Thus, no external stimulus is needed to initiate oscillations.
+ROBUSTNESS
+
+Figure 3. Stable oscillations in enzyme activities and cAMP predicted from the properties of the circuit. Numerical solutions to the
+equations describing the interactions of the components of the circuit were generated with the Matlab software package (MathWorks). Units are concentrations of activated enzyme (mM). Peak
+ACA activity of 20 pmolzmin21zmg21 leads to oscillations of internal
+cAMP from 3 to 10 mM, consistent with measured values.
+
+an error tolerance of 1023. By the use of the values
+presented in Table 2, the changes in the activity of
+ACA and ERK2 followed the observed values within
+the levels of accuracy of enzymatic measurements
+(Figures 1 and 3). It has not yet been possible to
+measure directly changes in REG A phosphodiesterase or PKA kinase activity with physiologically significant substrates, and so their kinetics cannot be compared with values determined during the oscillatory
+cycle. However, the predictions are consistent with
+known values for cells that have developed for 4 h
+(Leichtling et al., 1984; Behrens et al., 1986; Mann and
+Firtel, 1991; Anjard et al., 1992, 1993; Shaulsky et al.,
+Vol. 9, December 1998
+
+To explore the sensitivity of our model to the chosen
+parameters, we systematically varied each parameter
+25-fold, from 5-fold lower to 5-fold higher than the
+values in Table 2. Although the frequency was little
+changed by these deviations from the model, the amplitude was significantly affected in some cases (Table
+3). In all cases, periodic oscillations were generated,
+although the frequency decreased to 5 min in some
+cases while it increased to 12 min in others (Figure 4).
+These frequencies are within the observed range for
+aggregating cells (Devreotes, 1982). On the other hand,
+altering certain kinetic constants by more than threefold reduced the amplitude to ,10% of the mean after
+three cycles and led to further attenuation in subsequent cycles (Table 3). Nevertheless, we conclude that
+the circuit is not particularly sensitive to variations in
+the kinetic constants because twofold changes make
+little difference in either the frequency or amplitude of
+the oscillation in the enzymatic activities.
+PHASE SHIFTS
+A property of many oscillatory systems is that the
+phase of the oscillations is sensitive to the addition of
+an extraneous signal (Glass and Winfree, 1984). Addition of cAMP at 8-min intervals to aggregation-competent Dictyostelium cells entrains the phase of lightscattering peaks, whereas addition of a single pulse of
+3525
+
+M.T. Laub and W.F. Loomis
+
+Table 3. Consequences to variations in kinetic constants
+Frequencya
+
+Amplitudea
+
+Parameter
+
+Fivefold
+decrease
+
+Fivefold
+increase
+
+Fivefold
+decrease
+
+Fivefold
+increase
+
+k1
+k2
+k3
+k4
+k5
+k6
+k7
+k8
+k10
+k12
+k13
+k14
+
+1.5
+21.3
+1.3
+1.7
+1.2
+1.3
+21.5
+21.1
+1.5
+21.1
+1.2
+1.1
+
+21.3
+1.3
+21.1
+1.2
+21.1
+21.2
+1.5
+1.4
+21.4
+1.2
+21.1
+1.7
+
+24.5
+25.4
+10.4
+25.0
+26.3
+3.7
+1.8
+1.9
+1.5
+214.7
+210.0
+21.2
+
+3.8
+2.2
+23.9
+5.3
+4.1
+25.6
+28.3
+21.5
+27.1
+26.0
+4.5
+23.5
+
+a
+
+The changes in either the frequency or amplitude of the oscillations in internal cAMP concentration as a consequence of a fivefold
+decrease or increase in each parameter are presented as the fold
+change relative to the standard simulation. The amplitude is defined
+as one-half of the difference in peak and trough values of internal
+cAMP concentration after three cycles.
+
+cAMP out of phase either advances or delays subsequent peaks (Gerisch et al., 1977). We simulated the
+addition of cAMP just before the endogenous peak in
+cAMP and found that it delayed the phase slightly
+(Figure 5, top). When we simulated the addition of
+cAMP 3 min earlier, we found that the phase was
+
+Figure 5. Perturbation of the oscillations. Computer simulations
+were performed after addition of exogenous cAMP. Added cAMP
+(filled spike) was rapidly degraded by the secreted phosphodiesterase PDE. Top, addition of a pulse of cAMP during the rising phase
+of the ACA cycle resulted in a slight increase in the peak activity but
+had almost no effect on the phase. Bottom, addition of a pulse of
+cAMP in the middle of the ACA cycle advanced the phase almost
+one-half a cycle. The phases of other oscillatory components of the
+circuit were also perturbed by a pulse of cAMP added in the middle
+of the ACA cycle. Units are concentrations of activated enzyme (mM).
+
+Figure 4. Robustness. Each of the coupling constants of the equations describing the circuit (see Table 2) was systematically varied
+over a 25-fold range, and the resulting frequency of oscillations in
+ACA was determined. Reducing the rates of activation or deactivation of PKA increased the frequency up to 11 min, whereas reducing
+the rate of ACA deactivation increased the frequency slightly. Increasing these rates had the opposite effect on the frequency except
+that increases in the rate of PKA deactivation slightly increased the
+frequency. The periodicity of the computer-generated oscillations
+remained in the experimentally observed range of 5–12 min in all
+cases.
+
+3526
+
+advanced approximately one-half a cycle (Figure 5,
+bottom). The extent of phase variation was then determined by systematically varying the time of addition of exogenous cAMP throughout the cycle. During
+the early part of the cycle, the phase is increasingly
+delayed the later cAMP is added, until midway in the
+cycle when addition of cAMP results in maximal advance of the phase and then tapers off (Figure 6A).
+Both the shape and the extent of this response are
+consistent with the observed phase shifts of cells developing in suspension (Figure 6B) (Gerisch et al.,
+Molecular Biology of the Cell
+
+Spontaneous Oscillations
+
+Figure 6. Phase shifts. (A) Simulations after systematic addition of
+cAMP pulses at different times throughout the ACA cycle showing
+that the phase was delayed when cAMP was added early in the
+cycle and advanced when cAMP was added during the second
+one-half. (B) Direct measurements of phase shifts after addition of
+cAMP throughout the ACA cycle (Gerisch et al., 1977; Malchow et
+al., 1978).
+
+of a nondissipating relayed signal (Parent and Devreotes, 1996). These behaviors can be predicted from
+mathematical analyses of excitable fields with the
+properties of Dictyostelium cells (Kessler and Levine,
+1993; Levine et al., 1996). They critically depend on the
+entrainment of the millions of cells within the field
+such that their oscillatory phases are temporally coordinated. Because cells are in somewhat different physiological states and at different positions in the cell
+cycle when development is initiated, they differentiate
+at slightly different rates. Nevertheless, after 4 or 5 h of
+development, the individuality of the cells becomes
+constrained by the population as a whole, and regular
+periodic responses to cAMP can be seen throughout
+the field. Even cells held in suspension oscillate synchronously.
+Spontaneous oscillations in light scattering and
+cAMP synthesis in well mixed populations can only
+be observed when the phases of the individual cells
+are synchronized such that they rise and fall at the
+same time in every cell. We have simulated entrainment by following the changes in ACA activity in two
+cells in which the phase was initially offset (Figure
+7A). If these cells are exposed to a common environment in which the cAMP concentration is determined
+by the output from both cells, we find that they mutually interact such that peak activities become synchronized (Figure 7B). Maximally offset cells become
+entrained within an hour, whereas cells less out of
+phase become entrained even more rapidly (our unpublished results). Phase shifts in the circuits of independent cells in response to changes in the concentration of extracellular ligand to which they both
+contribute bring the individual cells into temporal
+synchrony, as required for relay of the chemotactic
+signal for aggregation (Figure 7B).
+DISCUSSION
+
+1977, 1979). The shift from delay to advance happens
+at ;0.4 of the cycle. There was no way to predict
+intuitively this outcome of the computer simulation,
+and so any bias in choice of parameters was avoided.
+Moreover, neither the shape nor the extent of the
+phase shift is affected when the coupling constants are
+varied over a fivefold range (our unpublished results).
+The phase shift response to external stimulation seems
+to be a highly robust property of the circuit.
+ENTRAINMENT
+When Dictyostelium cells develop in monolayers on a
+solid substratum, macroscopic waves can be observed
+as cAMP signals propagate through the field (Devreotes, 1982). The waves produce target patterns or
+spirals depending on the homogeneity of the field and
+travel outward at ;300 mm/min, suggesting diffusion
+Vol. 9, December 1998
+
+We find that a circuit in which PKA inhibits, either
+directly or indirectly, activation of ERK2 and ACA by
+ligand-bound CAR1 is able to generate spontaneous
+oscillations in the levels of cAMP. When newly secreted cAMP binds to the cell surface receptor CAR1,
+CAR1 activates the MAP kinase ERK2 such that ERK2
+can phosphorylate the cytoplasmic cAMP phosphodiesterase REG A, thereby inhibiting the activity of REG
+A. Internal cAMP accumulates as the result of the
+increase in ACA activity and a decrease in REG A
+activity and reaches levels that activate PKA. Some of
+this internal cAMP is secreted and can further stimulate CAR1 receptors, forming a positive feedback loop.
+However, once PKA is activated by the rise in internal
+cAMP concentration, PKA acts to block the ability of
+CAR1 to activate ERK2 and ACA and also inhibits
+ERK2. When this MAP kinase is no longer active, REG
+A is reactivated by a phosphatase and lowers the
+3527
+
+M.T. Laub and W.F. Loomis
+
+Figure 7. Entrainment. (A) Two separate populations remained
+out of phase when they were simulated separately. (B) Even maximally out-of-phase populations became entrained within an hour if
+they were allowed to interact by responding to cAMP in a common
+extracellular pool. Oscillations in ACA activity of the two separate
+populations are presented in blue and green. Units are concentrations of activated enzyme.
+
+internal cAMP level such that PKA is no longer active.
+ERK2 is then dephosphorylated, and the circuit returns to its original state (Figure 2). Our simulations
+have shown that a rapid positive feedback activation
+of CAR1, via ACA, followed by a delayed negative
+feedback inhibition of CAR1, via PKA, produces the
+observed oscillations in Dictyostelium cells developed
+for 4 h.
+This circuit is constructed from known components
+that interact in established manners. Receptor phosphorylation has been directly shown to result in the
+loss of ligand binding, but the protein kinase has not
+yet been specified (Hereld et al., 1994; Caterina et al.,
+3528
+
+1995a,b). Binding of cAMP to the external portion of
+CAR1 leads to activation of both ERK2 and ACA.
+However, the signal transduction pathway leading to
+ACA may not directly involve ERK2. In fact, we have
+found that simulated circuits in which ACA activation
+is independent of ERK2 activation generate spontaneous oscillations with the same periodicity and amplitude as that seen in the circuit in which ERK2 is in a
+direct line to ACA activation (our unpublished results). This variant circuit also shows the same phase
+shift response to an external pulse of cAMP and the
+same ability of out-of-phase cells to entrain each other
+as that seen in the circuit we have simulated in detail.
+Therefore, this specific portion of the circuit is not
+crucial to its performance; ERK2 may or may not be an
+essential component in the pathway from CAR1 to
+ACA.
+A detailed model of cAMP signaling in Dictyostelium
+that is based on receptor modification and dimerization has been presented previously by Martiel and
+Goldbeter (1984, 1987). In their model, the cAMP receptor is rapidly phosphorylated by an unspecified
+kinase when external cAMP is bound. Before phosphorylation, ligand-bound CAR1 activates ACA but is
+completely inactive after phosphorylation. A phosphatase returns the receptor to its active state. Dimerization of the active receptor is arbitrarily invoked to
+provide the cooperativity necessary to generate periodic responses. Although they use published rate constants for the most part, they had to adjust the values
+for phosphorylation and dephosphorylation of ligandfree receptor by multiplying the experimental values
+by a factor of three and reducing the rate of dephosphorylation of ligand-bound receptor to 6% of the
+measured value to generate oscillations in the range of
+5–10 min. They report that the period of oscillations in
+their model is “highly sensitive to the kinetic parameters that govern receptor modification” (Martiel and
+Goldbeter, 1987).
+In contrast, the circuit we have modeled is quite
+insensitive to variations of threefold or more in the
+parameters of the components. Moreover, we do not
+need to invoke a cooperative process such as dimerization to generate spontaneous oscillation.
+One of the basic properties of excitable cells is their
+adaption to prolonged stimulation. Maintaining a
+high extracellular cAMP level changes the dynamics
+of the network such that ACA is never fully active
+after the first surge. Both the Martiel and Goldbeter
+(1984, 1987) model and the present model show these
+characteristics. Another property of oscillatory systems is their sensitivity to brief extraneous stimulation. Depending on the point in the cycle at which the
+signal is presented, subsequent oscillations will be
+either delayed or advanced (Glass and Winfree, 1984).
+We find that our model predicts phase shifts in response to addition of an external pulse of cAMP that
+Molecular Biology of the Cell
+
+Spontaneous Oscillations
+
+follow the measured trajectory almost exactly (Figure
+6). Not only is there a sharp discontinuity between
+delay and advancement approximately midway in the
+cycle, but the extent of both delay and advancement
+closely fits the measured values. This surprising correlation gives us confidence that the circuit accurately
+reflects the molecular processes responsible for oscillation in the synthesis of cAMP.
+Receptor modification seems to account for desensitization in many physiological responses (Katz
+and Thesleff, 1957; Block et al., 1983; Knox et al.,
+1986). For instance, the acetylcholine receptor has
+been shown to take up multiple conformational
+states that have different ligand affinities (Changeux, 1981). Covalent modification of receptors such
+as methylation or phosphorylation can stabilize
+these states. An example of this is seen in turkey
+erythrocytes in which phosphorylation of the b-adrenergic receptor results in a decrease in adenylyl
+cyclase activation (Sibley et al., 1984). In Dictyostelium, phosphorylation of the major surface cAMP
+receptor CAR1 is well documented and correlated
+with a modification in the affinity to cAMP (Hereld
+et al., 1994; Caterina et al., 1995a,b). However, it has
+been suggested that phosphorylation is not essential
+for termination of the responses (Kim et al., 1997).
+Cells expressing a modified version of CAR1 in
+which the critical serines are replaced with glycines
+or alanine such that phosphorylation is precluded
+were found to respond to a cAMP pulse by rapid
+activation of ACA followed by a somewhat prolonged decrease in the activity (Kim et al., 1997). The
+initial response to exogenous cAMP is consistent
+with the predictions of our model because the receptor will be fully active. Within a few minutes, the
+internal level of cAMP will be reduced by the REG
+A phosphodiesterase when REG A is no longer inhibited by ERK2, and the external cAMP level will
+be reduced by the secreted phosphodiesterase (Figure 3). Thus, CAR1 will gradually return to the
+ligand-free form and will no longer stimulate ACA
+activity. Published data are also consistent with a
+direct inhibition of ACA by PKA (Kim et al., 1997).
+We have determined the characteristics of such a
+circuit and found that it is also capable of generating
+stable oscillations (our unpublished results). Thus,
+circuits in which PKA either leads to loss-of-ligand
+binding of CAR1 or directly inhibits ACA activation
+are both able to generate spontaneous oscillations in
+cAMP.
+Numerical solution of the differential equations
+describing the circuit shows that ACA activity oscillates over a twofold range (Figure 3). If we assume 106 molecules of ACA per cell and a cell
+volume of 1029 ml, the concentration of cAMP
+would increase at 0.68 mM/min, consistent with the
+rate observed in our computer simulations when
+Vol. 9, December 1998
+
+REG A is inactive. Thus, our calculations simulate
+the situation when the specific activity of ACA is in
+the experimentally observed range of 10
+pmolzmin21zmg21 (Figure 1). Moreover, the period
+of oscillation predicted by solving the equations is
+6.7 min, whereas the period observed is ;8 min. The
+length of the period decreases from 12 to 5 min
+during development as the specific activity of ACA
+increases (Gerisch et al., 1979). Simulations of the
+circuit also predict that the period will become
+shorter when ACA accumulates (Figure 4). Thus, the
+output of the simulations accurately reflects these
+aspects of the cycle.
+Internal cAMP is also predicted to oscillate between
+3 and 10 mM with a period of 6.7 min, in close agreement with measured values (Gerisch et al., 1977). The
+model generates lower amplitude oscillations in external cAMP as has been directly observed in the buffer
+used to suspend developing cells (Gerisch et al., 1977,
+1979). Spontaneous oscillations were observed even
+when we started with minimal ACA activity but were
+not initiated for 7 min. Once oscillations had started,
+subsequent cycles were indistinguishable from the oscillations that had started earlier in cells with higher
+initial ACA activity.
+Addition of a pulse of cAMP when the internal
+cAMP is at its minimum advances the following
+peak by ;3 min (Figure 5, bottom). The activity of
+internal phosphodiesterase REG A drops rapidly
+after the external pulse as the consequence of activation of its inhibitor ERK2. ACA activity rises more
+rapidly than in the unperturbed system and reaches
+a slightly higher level leading to a precocious increase in internal cAMP (Figure 5, bottom). Other
+than affecting the timing of the following peak in
+oscillation, addition of external cAMP has surprisingly little effect on the overall pattern of changes in
+activity or on the levels of cAMP. Within a few
+cycles the system returns to a pattern indistinguishable from that seen before addition of cAMP. The
+buffering capacity of the network is such that it
+returns rapidly to a stable oscillatory state. To a
+large extent this is an expression of the stability and
+robustness of the circuit that underlies changes in
+cAMP. Moreover, our simulations produced identical oscillations independent of the initial activities
+of the enzymes involved. It has been argued that
+any biologically significant circuit that has survived
+selective surveillance must be robust in the face of
+random perturbations, and our circuit supports
+such an hypothesis (Barkai and Leibler, 1997).
+Phase shifts are the basis for the interactions of
+independent cells that result in field-wide entrainment. If populations of cells did not become synchronized, cAMP pulses released out of phase
+would lead to interference such that waves would
+not spread out and the directional information nec3529
+
+M.T. Laub and W.F. Loomis
+
+essary for subsequent chemotactic aggregation
+would be limited. Fewer cells would enter an aggregate, and subsequent fruiting bodies would be
+smaller. The properties of the circuit we have modeled are such that responses to external cAMP either
+advance or delay the period. When the concentration of cAMP is determined by the output of multiple cells, even maximally offset cells become synchronized within an hour. These results account for
+the observations that cells developing in suspension
+as well as those developing in monolayers on a solid
+support become synchronized soon after acquiring
+sensitivity to cAMP and can subsequently relay the
+signal over long distances.
+
+Changeux, J.P. (1981). The acetylcholine receptor: an “allosteric”
+membrane protein. In: Harvey Lectures 1979 –1980, New York: Academic Press, 85–254.
+Devreotes, P.N. (1982). Chemotaxis. In: The Development of Dictyostelium discoideum, ed. W.F. Loomis, New York: Academic Press,
+117–168.
+Dinauer, M.C., MacKay, S.A., and Devreotes, P.N. (1980). Cyclic
+39,59-AMP relay in Dictyostelium discoideum. III. The relationship of
+cAMP synthesis and secretion during the cAMP signaling response.
+J. Cell Biol. 86, 537–544.
+Ermentrout, G.B. (1994). The mathematics of biological oscillators.
+Methods Enzymol. 240, 198 –216.
+Firtel, R.A. (1996). Interacting signaling pathways controlling multicellular development in Dictyostelium. Curr. Opin. Genet. Dev. 6,
+545–554.
+
+ACKNOWLEDGMENTS
+
+Gerisch, G., and Hess, B. (1974). Cyclic-AMP-controlled oscillations
+in suspended Dictyostelium cells: their relation to morphogenetic cell
+interactions. Proc. Natl. Acad. Sci. USA 71, 2118 –2122.
+
+We thank Sijie Lu and Adam Kuspa for results before publication.
+We also thank Drs. Adam Kuspa, Herbie Levine, Lucy Shapiro, and
+especially Harley McAdams for helpful discussions. This work was
+supported by a grant from the National Institutes of Health (HD30892).
+
+Gerisch, G., Maeda, Y., Malchow, D., Roos, W., Wick, U., and
+Wurster, B. (1977). Cyclic AMP signals and the control of cell
+aggregation in Dictyostelium discoideum. In: Development and Differentiation in the Cellular Slime Moulds, ed. P. Cappuccinelli and
+J.M. Ashworth, Amsterdam: Elsevier/North-Holland, 105–124.
+
+REFERENCES
+Anjard, C., Etchebehere, L., Pinaud, S., Veron, M., and Reymond,
+C.D. (1993). An unusual catalytic subunit for the cAMP-dependent
+protein kinase of Dictyostelium discoideum. Biochemistry 32, 9532–
+9538.
+Anjard, C., Pinaud, S., Kay, R.R., and Reymond, C.D. (1992). Overexpression of DdPK2 protein kinase causes rapid development and
+affects the intracellular cAMP pathway of Dictyostelium discoideum.
+Development 115, 785–790.
+Aubry, L., Maeda, M., Insall, R., Devreotes, P.N., and Firtel, R.A.
+(1997). The Dictyostelium mitogen-activated protein kinase ERK2 is
+regulated by ras and cAMP-dependent protein kinase (PKA) and
+mediates PKA function. J. Biol. Chem. 272, 3883–3886.
+Barkai, N., and Leibler, S. (1997). Robustness in simple biochemical
+networks. Nature 387, 913–917.
+Behrens, M.M., Juliani, M.H., and Maia, J.C.C. (1986). Periodic
+changes in the cAMP-dependent protein kinase activity ratio in
+Dictyostelium discoideum. Biochem. Internatl. 13, 221–226.
+Berg, H.C. (1990). Bacterial microprocessing. Cold Spring Harb.
+Symp. Quant. Biol. 55, 539 –545.
+Block, S.M., Segall, J.E., and Berg, H.C. (1983). Adaption kinetics in
+bacterial chemotaxis. J. Bacteriol. 154, 312–323.
+Bray, D., Bourret, R.B., and Simon, M.I. (1993). Computer simulation
+of the phosphorylation cascade controlling bacterial chemotaxis.
+Mol. Biol. Cell 4, 469 – 482.
+Caterina, M.J., Devreotes, P.N., Borleis, J., and Hereld, D. (1995a).
+Agonist-induced loss of ligand binding is correlated with phosphorylation of cAR1, a G protein-coupled chemoattractant receptor from
+Dictyostelium. J. Biol. Chem. 270, 8667– 8672.
+Caterina, M.J., Hereld, D., and Devreotes, P.N. (1995b). Occupancy
+of the Dictyostelium cAMP receptor, cAR1, induces a reduction in
+affinity which depends upon COOH-terminal serine residues.
+J. Biol. Chem. 270, 4418 – 4423.
+
+3530
+
+Gerisch, G., Malchow, D., Roos, W., and Wick, U. (1979). Oscillations of cyclic nucleotide concentrations in relation to the excitability of Dictyostelium cells. J. Exp. Biol. 81, 33– 47.
+Gerisch, G., and Wick, U. (1975). Intracellular oscillations and release of cyclic AMP from Dictyostelium cells. Biochem. Biophys. Res.
+Commun. 65, 364 –370.
+Glass, L., and Winfree, A.T. (1984). Discontinuities in phase resetting experiments. Am. J. Physiol. 246, 251–258.
+Goldbeter, A. (1996). Biochemical Oscillations and Cellular
+Rhythms, Cambridge, United Kingdom: Cambridge University
+Press.
+Harwood, A.J., Hopper, N.A., Simon, M.N., Driscoll, D.M., Veron,
+M., and Williams, J.G. (1992). Culmination in Dictyostelium is regulated by the cAMP-dependent protein kinase. Cell 69, 615– 624.
+Hereld, D., Vaughan, R., Kim, J.Y., Borleis, J., and Devreotes, P.
+(1994). Localization of ligand-induced phosphorylation sites to
+serine clusters in the C-terminal domain of the Dictyostelium cAMP
+receptor, car1. J. Biol. Chem. 269, 7036 –7044.
+Insall, R., Kuspa, A., Lilly, P.J., Shaulsky, G., Levin, L.R., Loomis,
+W.F., and Devreotes, P. (1994). CRAC, a cytosolic protein containing
+a pleckstrin homology domain, is required for receptor and G
+protein-mediated activation of adenylyl cyclase in Dictyostelium.
+J. Cell Biol. 126, 1537–1545.
+Johnson, R.L., Van Haastert, P.J.M., Kimmel, A.R., Saxe III, C.L.,
+Jastorff, B., and Devreotes, P.N. (1992). The cyclic nucleotide specificity of three cAMP receptors in Dictyostelium. J. Biol. Chem. 267,
+4600 – 4607.
+Johnson, R.L., Vaughan, R.A., Caterina, M.J., Van Haastert, P.J.M.,
+and Devreotes, P.N. (1991). Overexpression of the cAMP receptor 1
+in growing Dictyostelium cells. Biochemistry 30, 6982– 6986.
+Katz, B., and Thesleff, S. (1957). A study of “desensitization” produced by acetylcholine at the motor end-plate. J. Physiol. (Lond.)
+138, 1314 –1320.
+Kesbeke, F., Snaar-Jagalska, B.E., and Van Haastert, P.J.M. (1988).
+Signal transduction in Dictyostelium fgdA mutants with a defective
+
+Molecular Biology of the Cell
+
+Spontaneous Oscillations
+interaction between surface cAMP receptors and a GTP-binding
+regulatory protein. J. Cell Biol. 107, 521–528.
+Kessler, D.A., and Levine, H. (1993). Pattern formation in Dictyostelium via the dynamics of cooperative biological entities. Phys. Rev.
+E 48, 4801– 4804.
+Kim, J.Y., Soede, R., Valkema, R., Borleis, J.A., VanHaastert, P.J.M.,
+Devreotes, P.N., and Hereld, D. (1997). Phosphorylation of chemoattractant receptors is not essential for chemotaxis or termination of
+G-protein-mediated responses. J. Biol. Chem. 272, 27313–27318.
+Klein, P., Theibert, A., and Devreotes, P. (1988). Identification and
+ligand induced modification of the cAMP receptor in Dictyostelium.
+Methods Enzymol. 159, 267–278.
+Knetsch, M.L.W., Epskamp, S.J.P., Schenk, P.W., Wang, Y.W., Segall,
+J.E., and Snaar-Jagalska, B.E. (1996). Dual role of cAMP and involvement of both G-proteins and ras in regulation of ERK2 in Dictyostelium discoideum. EMBO J. 15, 3361–3368.
+Knox, B.E., Devreotes, P.N., Goldbeter, A., and Segel, L.A. (1986). A
+molecular mechanism for sensory adaption based on ligand-induced receptor modification. Proc. Natl. Acad. Sci. USA 83, 2345–
+2349.
+Koshland, D., Goldbeter, A., and Stock, J.B. (1982). Amplification
+and adaption in regulatory and sensory systems. Science 217, 220 –
+225.
+Kumagai, A., Hadwiger, J.A., Pupillo, M., and Firtel, R.A. (1991).
+Molecular genetic analysis of two Galpha protein subunits in Dictyostelium. J. Biol. Chem. 266, 1220 –1228.
+Kuspa, A., and Loomis, W.F. (1992). Tagging developmental genes
+in Dictyostelium by restriction enzyme-mediated integration of plasmid DNA. Proc. Natl. Acad. Sci. USA 89, 8803– 8807.
+Leichtling, B.H., Majerfeld, I.H., Spitz, E., Schaller, K.L., Woffendin,
+C., Kakinuma, S., and Rickenberg, H.V. (1984). A cytosolic cAMPdependent protein kinase in Dictyostelium discoideum. II. Developmental regulation. J. Biol. Chem. 259, 662– 668.
+Levine, H., Aranson, I., Tsimring, L., and Truong, T.V. (1996). Positive genetic feedback governs cAMP spiral wave formation in
+Dictyostelium. Proc. Natl. Acad. Sci. USA 93, 6382– 6386.
+Loomis, W.F. (1979). Biochemistry of aggregation in Dictyostelium.
+Dev. Biol. 70, 1–12.
+Loomis, W.F. (1996). Genetic networks that regulate development in
+Dictyostelium cells. Microbiol. Rev. 60, 135.
+Loomis, W.F., Klein, C., and Brachet, P. (1978). The effect of divalent
+cations on aggregation of Dictyostelium discoideum. Differentiation
+12, 83– 89.
+Maeda, M., Aubry, L., Insall, R., Gaskins, C., Devreotes, P.N., and
+Firtel, R.A. (1996). Seven helix chemoattractant receptors transiently
+stimulate mitogen-activated protein kinase in Dictyostelium–role of
+heterotrimeric G proteins. J. Biol. Chem. 271, 3351–3354.
+Malchow, D., and Gerisch, G. (1974). Short-term binding and hydrolysis of cyclic 39:59-adenosine monophosphate by aggregating
+Dictyostelium cells. Proc. Natl. Acad. Sci. USA 71, 2423–2427.
+Malchow, D., Nagele, B., Schwartz, H., and Gerisch, G. (1972).
+Membrane-bound cyclic AMP phosphodiesterase in chemotactically
+responding cells of Dictyostelium discoideum. Eur. J. Biochem. 28,
+136 –142.
+Malchow, D., Nanjundiah, V., and Gerisch, G. (1978). pH oscillations in cell suspensions of Dictyostelium discoideum: their relation to
+cyclic-AMP signals. J. Cell Sci. 30, 319 –330.
+Mann, S.K.O., Brown, J.M., Briscoe, C., Parent, C., Pitt, G., Devreotes, P.N., and Firtel, R.A. (1997). Role of cAMP-dependent protein kinase in controlling aggregation and postaggregative development in Dictyostelium. Dev. Biol. 183, 208 –221.
+
+Vol. 9, December 1998
+
+Mann, S.K.O., and Firtel, R.A. (1991). A developmentally regulated,
+putative serine/threonine protein kinase is essential for development in Dictyostelium. Mech. Dev. 35, 89 –101.
+Martiel, J.L., and Goldbeter, A. (1984). Oscillations et relais des
+signaux d’AMP cyclique chez Dictyostelium discoideum: analyse d’un
+modele fonde sur la modification du recepteur pour l’AMP cyclique. C. R. Acad. Sc. Paris, Serie C 298, 549 –552.
+Martiel, J.L., and Goldbeter, A. (1987). A model based on receptor
+desensitization for cyclic AMP signaling in Dictyostelium cells. Biophys. J. 52, 807– 828.
+McAdams, H.C., and Arkin, A. (1999). Nongenetic diversity: random variations in gene expression reaction rates determine which
+phage lambda infected cells become lysogens. Genetics (in press).
+McAdams, H.C., and Shapiro, L. (1995). Circuit simulation of genetic networks. Science 269, 650 – 656.
+Meinhardt, H. (1982). Models of Biological Pattern Formation, San
+Diego, CA: Academic Press.
+Mutzel, R., Lacombe, M.L., Simon, M.N., De Gunzburg, J., and
+Veron, M. (1987). Cloning and cDNA sequence of the regulatory
+subunit of cAMP-dependent protein kinase from Dictyostelium discoideum. Proc. Natl. Acad. Sci. USA 84, 6 –10.
+Parent, C.A., and Devreotes, P.N. (1996). Molecular genetics of
+signal transduction in Dictyostelium. Annu. Rev. Biochem. 65, 411–
+440.
+Pupillo, M., Insall, R., Pitt, G.S., and Devreotes, P.N. (1992). Multiple
+cyclic AMP receptors are linked to adenylyl cyclase in Dictyostelium.
+Mol. Biol. Cell 3, 1229 –1234.
+Roos, W., Malchow, D., and Gerisch, G. (1977). Adenylyl cyclase
+and the control of cell differentiation in Dictyostelium discoideum. Cell
+Differ. 6, 229 –239.
+Roos, W., Nanjundiah, V., Malchow, D., and Gerisch, G. (1975).
+Amplification of cyclic-AMP signals in aggregating cells of Dictyostelium discoideum. FEBS Lett. 53, 139 –142.
+Roos, W., Scheidegger, C., and Gerisch, G. (1977). Adenylate cyclase
+activity oscillations as signals for cell aggregation in Dictyostelium
+discoideum. Nature 266, 259 –261.
+Segall, J.E., Kuspa, A., Shaulsky, G., Ecke, M., Maeda, M., Gaskins,
+C., Firtel, R.A., and Loomis, W.F. (1995). A MAP kinase necessary
+for receptor-mediated activation of adenylyl cyclase in Dictyostelium. J. Cell Biol. 128, 405– 413.
+Shaulsky, G., Escalante, R., and Loomis, W.F. (1996). Developmental
+signal transduction pathways uncovered by genetic suppressors.
+Proc. Natl. Acad. Sci. USA 93, 15260 –15265.
+Shaulsky, G., Fuller, D., and Loomis, W.F. (1998) A cAMP-phosphodiesterase controls PKA-dependent differentiation. Development
+125, 691– 699.
+Sibley, D.R., Peters, J.R., Nambi, P., Caron, M.G., and Lefkowitz, R.J.
+(1984). Desensitization of turkey erythrocyte adenylate cyclase.
+b-Adrenergic receptor phosphorylation is correlated with attenuation of adenylate cyclase activity. J. Biol. Chem. 259, 9742–9749.
+Simon, M.N., Pelegrini, O., Veron, M., and Kay, R.R. (1992). Mutation of protein kinase-A causes heterochronic development of Dictyostelium. Nature 356, 171–172.
+Spiro, P.A., Parkinson, J.S., and Othmer, H.G. (1997). A model of
+excitation and adaption in bacterial chemotaxis. Proc. Natl. Acad.
+Sci. USA 94, 7263–7268.
+Vaughan, R., Pupillo, M., Theibert, A., Klein, P., and Devreotes, P.
+(1987). Surface receptor mediated activation and adaptation of adenylate cyclase in Dictyostelium discoideum. In: Molecular Mecha-
+
+3531
+
+M.T. Laub and W.F. Loomis
+nisms of Desensitization to Signal Molecules (NATO ASI Series H,
+Cell Biology), ed. T.M. Konijn, P.J.M. van Haastert, H. van der
+Starre, H. van der Wel, and M.D. Houslay, Berlin: Springer-Verlag,
+15–24.
+
+Winfree, A. (1975). Unclocklike behaviour of biological clocks. Nature 253, 315–319.
+
+Vaughan, R.A., and Devreotes, P.N. (1988). Ligand-induced phosphorylation of the cAMP receptor from Dictyostelium discoideum.
+J. Biol. Chem. 263, 14538 –14543.
+
+Xiao, Z., Zhang, N., Murphy, D.B., and Devreotes, P.N. (1997). Dynamic distribution of chemoattractant receptors in living cells during
+chemotaxis and persistent stimulation. J. Cell Biol. 139, 365–374.
+
+3532
+
+Winfree, A. (1977). Phase control of neural pacemakers. Science 197,
+761–763.
+
+Molecular Biology of the Cell
+
+

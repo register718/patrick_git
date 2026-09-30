@@ -1,0 +1,22 @@
+\begin{table*}[!t]
+\centering
+\caption{Module~2 constants.}
+\label{tab:m2const}
+\footnotesize
+\renewcommand{\arraystretch}{1.15}
+\begin{tabularx}{\textwidth}{@{}l r l c >{\raggedright\arraybackslash}X@{}}
+\toprule
+Symbol & Value & Unit & Basis & Meaning, justification, source\\
+\midrule
+$G{:}R$ & \num{60} &  & E & G-protein to receptor ratio; Biswas et al.\ use 3~\cite{biswas2021}. Chosen to raise the G$\beta\gamma$ count (shot noise) at constant activated fraction; an explicit trade of abundance realism for signal-to-noise, not a claim about abundance. \\
+$G_\mathrm{tot}$ & \num{184620} & $\mathrm{molec/voxel}$ & D & $R_\mathrm{tot}\times G{:}R$ ($38\,\mu$M). \\
+$t_{1/2,\mathrm{diss}}$ & \num{3.2} & $\mathrm{s}$ & L & Half-time of FRET loss (G-protein dissociation) after stimulation, $3.4\pm1.4$\,s~\cite{tang2014}; reproduced by the model of~\cite{biswas2021} (3.0--3.3\,s, Table~2). \\
+$k_E$ & \num{0.339} & $\mu\mathrm{M}^{-1}\mathrm{s}^{-1}$ & D & $k_E=\ln 2/(t_{1/2,\mathrm{diss}}\,[\mathrm{R}]_\mathrm{tot})$: pseudo-first-order dissociation when all receptors are occupied. \\
+$\varepsilon_E$ & \num{1} &  & L & Phosphorylated and unphosphorylated occupied receptors catalyse the G-protein cycle equally~\cite{janetopoulos2001}; Biswas et al.\ likewise weight all occupied classes equally~\cite{biswas2021}. \\
+$k_{E0}$ & \num{2.18e-7} & $\mathrm{s^{-1}}$ & L & Basal, receptor-independent exchange (Table~2 of~\cite{biswas2021}, value for $G{:}R=3$, not rescaled); sets the resting G$\beta\gamma$ floor. \\
+$k_\mathrm{hyd}$ & \num{0.162} & $\mathrm{s^{-1}}$ & C & $7\ln2/30$: intrinsic GTP hydrolysis of G$\alpha_2$, raised 7$\times$ above the value matching the 30\,s recovery anchor to de-saturate the stage (see text). \\
+$k_\mathrm{re}$ & \num{6.09} & $\mu\mathrm{M}^{-1}\mathrm{s}^{-1}$ & C & $3500/(t_{1/2,\mathrm{re}}\,[\mathrm{G}]_\mathrm{tot}/2)$ with $t_{1/2,\mathrm{re}}=30$\,s (measured reassociation half-times 28.7--32.3\,s~\cite{tang2014}); the factor 3500 keeps recapture pseudo-first order (see text). The realised reassociation half-time is 7.5\,s, not 30\,s. \\
+$D_{\mathrm{G}\alpha\beta\gamma},D_{\mathrm{G}\alpha_2},D_{\mathrm{G}\beta\gamma}$ & \num{0.2} & $\mu\mathrm{m^2/s}$ & E & The value $0.2\,\mu\mathrm{m}^2/\mathrm{s}$ is that of Table~3 of~\cite{biswas2021}; equal mobility of the three forms is a design choice (G proteins also exchange between cytosol and membrane~\cite{elzie2009}). \\
+\bottomrule
+\end{tabularx}
+\end{table*}

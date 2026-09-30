@@ -1,0 +1,32 @@
+\begin{table*}[!t]
+\centering
+\caption{Module~3 constants. Rate constants and pool sizes are paired: $k_{E,\mathrm{on}}[\mathrm{GEF_R}]_\mathrm{tot}$, $k_{R,\mathrm{on}}[\mathrm{GEF_R}]_\mathrm{tot}$ and $k_{I,\mathrm{on}}[\mathrm{GAP}]_\mathrm{tot}$ were held fixed when the pools were enlarged, so that only shot noise changed.}
+\label{tab:m3const}
+\footnotesize
+\renewcommand{\arraystretch}{1.15}
+\begin{tabularx}{\textwidth}{@{}l r l c >{\raggedright\arraybackslash}X@{}}
+\toprule
+Symbol & Value & Unit & Basis & Meaning, justification, source\\
+\midrule
+$[\mathrm{RasG}]_\mathrm{tot}$ & \num{38500} & $\mathrm{molec/voxel}$ & E & $5\times10^5$ per cell; large for low shot noise. The copy number is not well measured. \\
+$[\mathrm{GEF_R}]_\mathrm{tot}$ & \num{138600} & $\mathrm{molec/voxel}$ & E & Excitor pool ($1.8\times10^6$ per cell). RasGEFR activates RasG~\cite{kae2007}. \\
+$[\mathrm{GAP}]_\mathrm{tot}$ & \num{46200} & $\mathrm{molec/voxel}$ & E & Inhibitor pool ($6\times10^5$ per cell); a RasGAP (NF1) is the global inhibitor~\cite{zhang2008}. \\
+$k_{E,\mathrm{on}}$ & \num{3.8e-3} & $\mu\mathrm{M}^{-1}\mathrm{s}^{-1}$ & C & G$\beta\gamma$-driven GEF activation; the initial Ras response requires G$\beta$~\cite{kortholt2013}. \\
+$k_{E,\mathrm{off}}$ & \num{0.5} & $\mathrm{s^{-1}}$ & C & GEF inactivation, $\tau_E=2$\,s: the excitor is fast, so the Ras peak occurs within seconds~\cite{kae2004,takeda2012}. \\
+$k_{R,\mathrm{on}}$ & \num{0.333} & $\mu\mathrm{M}^{-1}\mathrm{s}^{-1}$ & C & GEF-catalysed GDP$\to$GTP exchange on RasG. \\
+$k_{I,\mathrm{on}}$ & \num{2.53e-4} & $\mu\mathrm{M}^{-1}\mathrm{s}^{-1}$ & C & G$\beta\gamma$-driven GAP activation. It reads the \emph{same} input as 3.1, as an incoherent feed-forward loop requires~\cite{takeda2012,goentoro2009}. \\
+$k_{I,\mathrm{off}}$ & \num{0.033} & $\mathrm{s^{-1}}$ & C & GAP inactivation, $\tau_I=30$\,s: the inhibitor is slower than the excitor, which produces adaptation~\cite{takeda2012}. \\
+$k_{I,\mathrm{b}}$ & \num{5e-4} & $\mathrm{s^{-1}}$ & C & Stimulus-independent GAP activity. Without it the resting Ras/PIP3 loop latches; consistent with a basal RasGAP~\cite{zhang2008,xu2021c2gap}. Minimum value giving the low rest state. \\
+$k_{I,p}$ & \num{0} & $\mu\mathrm{M}^{-1}\mathrm{s}^{-1}$ & E & GAP activation by R$_p$C is defined but switched off: it reads a different upstream variable than 3.1 and inverts the response above $\approx\!10$\,nM. \\
+$K_\mathrm{NF1}$ & \num{0.2} & $\mu\mathrm{M}$ & L & Michaelis constant of the NF1 GAP domain, $0.3\,\mu$M~\cite{wiesmuller1992,coyle2016}; the value is rounded to $0.2$. Mammalian catalytic domain; no \emph{Dictyostelium} kinetics exist. \\
+$k_\mathrm{cat}$ & \num{15.8} & $\mathrm{s^{-1}}$ & D & Derived from the resting distance to the zero-order switch, $\theta_\mathrm{rest}=0.5$. Only the product $k_\mathrm{cat}[\mathrm{GAP}^*]$ enters; it is 11$\times$ the mammalian $k_\mathrm{cat}=1.4$\,s$^{-1}$, so the active-GAP pool stands for more enzyme than is measured. \\
+$k_\mathrm{PIP3}$ & \num{0.04} & $\mu\mathrm{M}^{-1}\mathrm{s}^{-1}$ & C & Ras/PIP3 positive feedback; the amplifier of the excitable network~\cite{sasaki2004,fukushima2019,kataria2013}. Expressed relative to the legacy PIP2 pool (Sec.~\ref{sec:m4}). \\
+$k_{B,\mathrm{on}}$ & \num{24.1} & $\mu\mathrm{M}^{-1}\mathrm{s}^{-1}$ & D & Brake activation by PKBR1$^*$; half-activation at 20 PKBR1$^*$ molecules/voxel. \\
+$k_{B,\mathrm{off}}$ & \num{0.1} & $\mathrm{s^{-1}}$ & E & Brake decay ($\tau=10$\,s); sets the refractory time of the Ras/PIP3 loop. \\
+$k_{B,\mathrm{hyd}}$ & \num{39.8} & $\mu\mathrm{M}^{-1}\mathrm{s}^{-1}$ & D & Chosen so that at half activation the brake removes RasG-GTP at $0.6\times$ the rate of the LEGI GAP arm at the driven state (design target). \\
+$[\mathrm{B}]_\mathrm{tot}$ & \num{1540} & $\mathrm{molec/voxel}$ & E & Brake pool; the mean braking action is independent of pool size, so it was raised to reduce noise. \\
+$D_{\mathrm{GEF_R}},D_{\mathrm{RasG}}$ & \num{0.1} & $\mu\mathrm{m^2/s}$ & E & Local excitor and membrane-bound Ras (prenylated anchor). \\
+$D_{\mathrm{GAP}},D_\mathrm{B}$ & \num{20} & $\mu\mathrm{m^2/s}$ & E & Global inhibitor and global brake. Cytosolic value; for B$^*$, a membrane-attached species in the code, it is a caveat of the present model. \\
+\bottomrule
+\end{tabularx}
+\end{table*}

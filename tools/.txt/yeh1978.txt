@@ -1,0 +1,1584 @@
+DEVELOPMENTAL
+
+66,361-374
+
+BIOLOGY
+
+(1978)
+
+Independent Regulation of the Extracellular Cyclic AMP
+Phosphodiesterase-Inhibitor
+System and Membrane Differentiation
+Exogenous Cyclic AMP in Dictyostelium discoideum
+
+by
+
+R. P. YEH, F. K. CHAN, AND M. B. COUKELL
+Department
+
+of Biology,
+
+York University,
+
+4700 Keele Street, Downsview,
+
+Ontario,
+
+Received December 27,1977; accepted in revised form April
+
+Canada M3J IP3
+
+17,197s
+
+When amoebae of Dictyostelium
+discoideum, suspended in buffer, were treated with 100 nM
+pulses of CAMP, the extracellular CAMP phosphodiesterase (ePD) activity increased dramatically
+and the synthesis of the phosphodiesterase inhibitor (PDI) was repressed. In addition, the time of
+appearance on the cell surface of contact sites A, membrane-bound CAMP phosphodiesterase, and
+CAMP binding sites was accelerated by 3-4 hr and the concentration
+of intracellular
+CAMP
+increased -20-fold. When the concentration of the CAMP pulse was reduced to 1 n&f, the effect of
+the pulses on membrane differentiation
+and on the CAMP pool was virtually the same, while the
+effect on the ePD-PDI system was reduced. When CAMP was added to the suspension continuously, the nucleotide had no effect on membrane differentiation
+and failed to stimulate the
+intracellular
+CAMP pool, however, the ePD-PDI
+system was regulated normally. When the
+developmental mutant, HC112, was treated with CAMP pulses, membrane differentiation
+and the
+level of the CAMP pool were unaffected, while the ePD-PDI system responded to the exogenous
+CAMP. In another mutant, HC53, membrane differentiation
+was stimulated by CAMP pulses and
+this response was accompanied by a sharp increase in the concentration of the CAMP pool. These
+results suggest that the ePD-PDI system and membrane differentiation
+are regulated independently by exogenous CAMP and that regulation of the ePD-PDI system does not require activation
+of the adenylyl cyclase.
+INTRODUCTION
+
+Upon starvation, amoebae of the cellular
+slime mold Dictyostelium discoideum enter
+the developmental phase of their life cycle.
+After a preaggregation period of 6-8 hr at
+22°C the cells stream into multicellular
+aggregates, proceed through various morphogenetic stages, and eventually form a
+fruiting body structure composed of highly
+differentiated
+stalk cells and spores (see
+Loomis, 1975). Both cell aggregation and
+cell differentiation
+have been shown to be
+regulated, at least in part, by the nucleotide
+3’-5’-cyclic
+adenosine
+monophosphate
+(CAMP)’ (Konijn et al., 1968; Bonner, 1970;
+’ Abbreviations
+used: CAMP, adenosine 3’,5’-cyclic
+monophosphate;
+ePD, extracellular
+CAMP pbosphodie&erase; PDI, extracellular
+CAMP pbosphodiesterase inhibitor;
+mPD, membrane-bound
+CAMP phosphodiesterase;
+DTT, dithiothreitol;
+Mes, 2-(N-morpholino)ethanesulfonic
+acid, TCA, trichloroacetic
+acid.
+
+Darmon et al., 1975; Gerisch et al., 1975a).
+During the preaggregation and early aggregation phases, a number of extracellular
+and cellular activities change dramatically.
+For example, shortly after starvation, the
+extracellular
+CAMP
+phosphodiesterase
+(ePD) activity decreases, and this drop in
+activity can be correlated with the secretion
+from the cells of a specific protein inhibitor
+(PDI) of this enzyme (Riedel et al., 1973).
+These changes are followed closely by the
+appearance on the cell surface of several
+new activities, including contact sites A
+(Beug et al., 1973), CAMP binding sites
+(Malchow and Gerisch, 1973; Green and
+Newell, 1975), and a membrane-bound
+CAMP phosphodiesterase
+(mPD) (Malchow et aZ., 1972). It has also been reported
+that there is an appreciable increase in adenylyl cyclase activity during this period
+(Klein, 1976; Roos et al., 1977b).
+361
+0012-1606/78/0662-0361$02.00/O
+Copyright 0 1978by Academic Press, Inc.
+All rights of reproduction in any form reserved.
+
+362
+
+DEVELOPMENTALBIOLOGY
+
+When amoebae, suspended in buffer, are
+treated with exogenous CAMP, in the form
+of either a single pulse or a series of pulses,
+the ePD activity of the suspension increases
+and PDI synthesis is inhibited (Klein, 1975;
+Tsang and Coukell, 1977; Klein and Darmon, 1977). (Since these two extracellular
+activities are regulated in a reciprocal fashion by exogenous CAMP, they will be referred to in this paper as the ePD-PDI
+system.) Under the same conditions, artificial periodic pulses of CAMP (but not
+CAMP added continuously)
+have been
+shown to accelerate the appearance on the
+cell surface of contact sites A, CAMP binding sites, and mPD (Gerisch et al., 1975a)
+and to activate the adenylyl cyclase (Klein
+and Darmon, 1977; Roos et al., 1977b).
+Based on the latter observation, Klein and
+Darmon (1977) suggested that the exogenous CAMP might regulate cell differentiation by stimulating adenylyl cyclase activity, thereby elevating the level of intracellular CAMP and enhancing endogenous signal emission.
+To determine if the regulation of the
+ePD-PDI system and membrane differentiation by exogenous CAMP is mediated by
+a common mechanism involving the adenylyl cyclase, we have measured the different
+extracellular and cellular activities and the
+intracellular
+CAMP pools of cells treated
+with CAMP pulses and a continual flux of
+CAMP. We have also examined these parameters in two aggregation-deficient
+mutants which respond differently to exogenous CAMP. The results suggest that exogenous CAMP regulates the production of
+the extracellular
+and cellular activities by
+different mechanisms and that regulation
+of the ePD-PDI system by CAMP does not
+require the activation of the adenylyl cy&se.
+MATERIALS
+
+AND
+
+METHODS
+
+Chemicals. [8-3H]cAMP (21 Ci/mmole)
+and NCS tissue solubilizer were purchased
+from Amersham/Searle,
+Oakville, Ontario.
+CAMP, 5’-AMP, dithiothreitol
+(DDT), 2-
+
+VOLUME 66,1978
+
+(iV-morpholino)ethanesulfonic
+acid (Mes),
+and bovine serum albumin were from
+Sigma Chemical Co., St. Louis, MO. Trichloroacetic acid (TCA) was from Fisher
+Scientific Co., Toronto, Ontario. 2-Ethoxyethanol (scintillation grade) was purchased
+from British Drug House, Toronto, Ontario.
+Strains and culture conditions. Amoebae of D. discoideum strain AX2 (Watts
+and Ashworth, 1970) were cultured in HL5 medium (Cocucci and Sussman, 1970) at
+22°C on a Gallenkamp orbital shaker. Cells
+growing exponentially
+(l-5 X lo6 cells/ml)
+were harvested by centrifugation
+at 400g
+for 2 min. Wild-type strains HC6 and HC91
+and the developmental
+mutants HC33,
+HC53, HC85, and HC112 have been described previously (Coukell, 1975). These
+strains were grown in association with
+Klebsiella aerogenes on SM agar plates
+(Sussman, 1966) and the amoebae were harvested in cold salt solution (SS) (Bomrer,
+1947) just as the bacterial lawns began to
+clear.
+In all experiments, development was initiated by washing the cells twice in cold SS
+and once in 17 mM Sorenson’s phosphate
+(SP) buffer, pH 6.0, and resuspending the
+cells in the same buffer at a concentration
+of 2 X lo7 cells/ml. Zero time was defined
+as the time when the cells were resuspended
+in buffer.
+Addition of CAMP to cell suspensions.
+One hundred milliliters
+of cell suspension
+in a 500-ml Erlenmeyer flask was shaken
+(-120 rpm) in a New Brunswick gyrotary
+(Model G76) water bath shaker at 22’C.
+CAMP or phosphate buffer (for the control)
+was added dropwise to each flask by means
+of an electrically
+controlled
+peristaltic
+pump. The drops (33 ~1 each) were added
+at 5-min intervals and the concentration of
+CAMP in the reservoir was adjusted to give
+the desired initial concentration in the cell
+suspension. When the nucleotide was to be
+added continuously, the flow rate was adjusted to deliver one drop every 30 set and
+the delivery tubes were immersed in the
+cell suspension to ensure continuous addi-
+
+YEH, CHAN, AND COUKELL
+
+Cell Differentiation
+
+tion. In these experiments, the concentration of CAMP in the reservoir was reduced
+so that the total amount of nucleotide
+added to the flask over a 5-min period was
+equivalent to a single 10 or 100 niV pulse.
+Even at the highest concentration of CAMP
+added, the level of ePD activity in the suspensions was more than sufficient to prevent an accumulation of the nucleotide. All
+activities, in these experiments, were corrected for cell density changes due to dilution.
+
+CAMP binding, mPD, ePD, and PDI assays. All activities were determined on the
+same sample of cell suspension. At various
+times after the initiation of development, 5ml aliquots of cell suspension were removed
+and centrifuged at 400g for 2 min. The cell
+pellet was placed on ice. The supernatant
+was further centrifuged at 10,OOOgfor 10
+min, dialyzed overnight at 4°C against two
+changes of 10 mM Tris-HCl buffer, pH 7.5,
+and stored at 4°C.
+To measure the binding of C3H]cAMP to
+intact cells, the cells were washed twice by
+centrifugation
+in cold 25 mit4 Mes buffer,
+pH 6.0, and assayed by the pellet assay
+method of Henderson (1975), except that
+10 n-&f DTT was added to the rinsing buffer
+and the cGMP in the assay mixture was
+replaced by 20 mil4 DTT. All binding activities reported were averages of duplicate
+determinations after correction for nonspecific binding. Binding activity
+was expressed as picomoles of CAMP bound per
+lo7 cells.
+Cells not used in the binding assays were
+washed once more with 50 mikf Tris-HCl
+buffer, pH 7.5, resuspended to lOa cells/ml
+in the same buffer, and stored at -20°C.
+When the samples were to be assayed for
+mPD activity, the cells were lysed by freezing and thawing (2X). The crude membrane
+preparation was then pelleted and washed
+twice in 50 mJ4 Tris-HCl buffer, pH 7.5, by
+centrifugation
+(27,000g for 20 min) at 4°C.
+mPD activity was assayed as described by
+Malchow et al. (1972).
+ePD activity was determined in the di-
+
+in D. discoideum
+
+363
+
+alyzed supernatant fluids as described previously (Tsang and Coukell, 1977). One unit
+of ePD or mPD activity was defined as the
+amount of enzyme required to degrade 1
+nmole of cAMP/min at 35°C.
+To measure PDI activity, the dialyzed
+supernatant fractions were heated to 80°C
+for 30 min to inactivate the ePD and release
+the inhibitor. We found that heating the
+supernatant for only 10 min, as described
+previously (Riedel el al., 1972), failed to
+inactivate all the ePD activity in samples
+containing very large amounts of enzyme.
+Inhibitor
+was assayed according to the
+method of Riedel et al. (1972) using ePD
+obtained from the inhibitor-negative
+strain
+HC35 (Coukell, 1975; Tsang and Coukell,
+unpublished), after 8 hr of starvation in SP
+buffer. Since this ePD preparation
+was
+rather unstable under these assay conditions (presumably due to the low level of
+protein secreted by HC35 during starvation), the inhibitor assay mixture was supplemented with bovine serum albumin to a
+final concentration of 500 pg/ml. One unit
+of PDI was defined as the amount of inhibitor required to inactivate one unit of ePD
+activity.
+Protein concentration was determination
+according to the method of Lowry et al.
+(1951) with bovine serum albumin as a standard.
+Determination of contact sites A. The
+time of appearance of contact sites A on
+the cell surface was determined as described by Darmon et al. (1975).
+Extraction of intracellular CAMP. At
+each time point after the initiation of development, four 0.5~ml aliquots of cell suspension were removed at 90-set intervals
+and collected on separate 25-mm Sartorius
+membrane filters (pore size, 0.8 pm). Each
+filter was washed with approximately
+0.3
+ml of SP buffer, and the four filters were
+immersed together in 2.0 ml of ice-cold 5%
+TCA to inactivate cell-associated phosphodiesterase activity. After 30 min on ice, the
+sample was heated to 95°C for 10 min, the
+filters were removed, and the TCA extract
+
+364
+
+DEVELOPMENTALBIOLOGY
+
+was clarified by centrifugation
+at 27,000g
+for 15 min. One milliliter of the supernatant
+was then extracted 5~ with 2 vol of watersaturated ether, and the residual ether was
+removed by boiling for 1 min. The extract
+was then frozen to -7O”C, lyophilized, and
+redissolved in 0.5 ml of 50 mM acetate
+buffer, pH 4.0. The extracts were stored at
+-20°C until they were to be assayed. Recovery of CAMP by this procedure was
+about 80%. At all time points, greater than
+90% of the protein kinase-reactive material
+in the TCA extracts was degraded after
+incubation with the ePD from strain HC35
+for 4 hr at 25°C.
+CAMP assay. CAMP was assayed according to Gihnan (1970). The CAMP-dependent protein kinase and its inhibitor were
+isolated from fresh bovine heart muscle
+(Miyamoto et al., 1969). An aliquot of the
+TCA extract was added to an assay mixture
+containing, in a total volume of 200 ~1, 2.39
+pmoles of [3H]cAMP (21 Ci/mmole), 1 pg
+of protein kinase, 13.9 pg of protein kinase
+
+Time
+
+after
+
+harvesting
+
+fh 1
+
+VOLUME 66,1978
+
+inhibitor,
+and 50 mM acetate buffer, pH
+4.0. After incubation at 0°C for 2 hr, 0.8 ml
+of cold 20 mM potassium phosphate buffer,
+pH 6.0, was added and the mixture was
+transferred quantitatively
+onto a 25-mm
+Sartorius membrane filter (pore size, 0.45
+pm) which was then washed with 15 ml of
+the same buffer. Finally, the filters were
+dissolved in 1 ml of ethoxyethanol and 3 ml
+of scintillation
+fluid (toluene/PPO/POPOP) and counted. A blank containing only
+SP buffer was carried through the extraction procedure, assayed along with the cell
+extracts, and subtracted from each experimental value.
+RESULTS
+
+Effect of exogenous CAMP on membrane
+differentiation
+and regulation of the
+ePD-PDI system. Figure 1 shows the effect
+of pulses of CAMP, at an initial concentration of 100 nM, on the differentiation
+of
+amoebae of strain AX2 suspended in phosphate buffer. In this experiment, the time
+
+Time
+
+after
+
+harvesting
+
+(h)
+
+FIG. 1. Effect of 100 n&f CAMP pulses on the ePD-PDI system (A) and membrane differentiation
+(B) of
+strain AX2. The cells were grown axenically, harvested, washed, shaken in phosphate buffer, treated with
+CAMP, and assayed as described in Materials and Methods. ePD activity (0, 0); PDI activity (A, A); mPD
+activity (V, V); CAMP binding sites (0, W); time of appearance of contact sites A (a, 1 ). Open symbols,
+untreated cells, closed symbols, CAMP-treated cells. The results are representative of three experiments.
+
+YEH, CHAN, AND COUKELL
+
+Cell Differentiation
+
+of appearance of contact sites A, mPD, and
+CAMP binding sites on the cell surface was
+accelerated by 3-4 hr in the CAMP-treated
+suspension (Fig. 1B). These results confirm
+previous reports on the effect of CAMP
+pulses on membrane differentiation
+in D.
+discoideum (Gerisch et al., 1975a; Roos et
+al., 1977b).
+In the same experiment, the ePD activity
+in the CAMP-treated suspension increased
+rapidly, reaching a level after 8 hr approximately 17-fold higher than the activity in
+the untreated suspension. This elevated
+level of ePD activity appeared to be due, at
+least in part, to the inhibition of PDI synthesis in the CAMP-pulsed cells (Fig. 1A).
+However, due to the presence of PDI in the
+control suspension, the low ePD activity
+measured in this suspension did not reflect
+accurately the amount of enzyme produced
+by the untreated cells; therefore it was not
+possible to determine from this experiment
+whether the CAMP pulses were also stimulating the rate of ePD synthesis. Since the
+PDI is a tight-binding
+inhibitor (Riedel et
+al., 1972), Klein and Darmon (1975) have
+shown that it is possible to measure the
+total ePD (ePDt) present in suspensions
+containing PDI by using the relationship
+TABLE
+
+365
+
+in D. discoideum
+
+ePDt = ePDd + (PDL - PDIf), where ePDd
+is the ePD activity detected, PDIt is the
+total inhibitor and PDIf is the free inhibitor
+in the suspension. The value PDIt - PDIf
+represents the amount of ePD complexed
+with inhibitor. Using this approach, we repeated the experiment shown in Fig. 1 and
+calculated the total ePD present in an untreated suspension and in an identical suspension treated with 100 nM CAMP pulses.
+The results of one experiment are presented
+in Table 1. In the absence of CAMP pulses,
+total ePD production proceeded at a low
+rate for about 5 hr and then the rate increased sharply. This pattern of ePD production by untreated cells is very similar to
+that described by Klein and Darmon
+(1975). However, in the CAMP-pulsed suspension, the total ePD began to increase
+rapidly after only l-2 hr, and after 5 hr of
+starvation there was approximately
+five
+times as much enzyme in the CAMP-treated
+suspension as in the control suspension.
+After this time, the rate of ePD production
+in the CAMP-treated suspension relative to
+the control suspension appeared to decrease slowly (see Table 1). These results
+indicate that the increased ePD activity
+detected in cell suspensions treated with
+1
+
+EFFECT OF CAMP PULSES ON THE PRODUCTION OF EXTRACELLULAR CAMP PHOSPHODIESTERASE BY STRAIN
+AX2”
+Control activities
+(units/ml)
+
+Time
+(hr)
+
+CAMP-pulsed activities
+(units/ml)
+
+ePDd
+
+PDIt
+
+PDIr
+
+ePDt
+(A)
+
+ePDd
+
+PDI,
+
+PDIr
+
+ePDt
+(B)
+
+5.1
+3.3
+1.9
+1.7
+3.3
+2.3
+3.0
+3.1
+
+0
+4.5
+17.6
+17.5
+20.1
+26.1
+38.5
+36.2
+
+0
+0
+11.4
+11.2
+14.0
+13.0
+21.0
+3.0
+
+5.1
+7.8
+8.1
+8.0
+9.4
+15.4
+20.5
+36.3
+
+6.7
+12.9
+17.8
+28.3
+45.1
+63.5
+80.6
+93.9
+
+0
+0
+0
+0
+0
+0
+6.4
+11.9
+
+0
+0
+0
+0
+0
+0
+0
+0
+
+6.7
+12.9
+17.8
+28.3
+45.1
+63.5
+87.0
+105.8
+
+Relative increase
+(B/A)
+
+1.3
+1.7
+2.2
+3.5
+4.8
+4.1
+4.2
+2.9
+
+n Amoebae were incubated and treated with CAMP as described in the legend to Fig. 1 and in Materials and
+Methods. The total ePD (ePDt) in each supernatant sample was determined using the relationship ePDt =
+ePDd + (PDIt - PDIf). ePDd, enzyme activity detected in the supernatant; PDIt, inhibitor activity measured
+after heating the supematant at 80°C for 30 min; PDIr, inhibitor activity in the unheated supernatant. These
+results are representative of three experiments.
+
+DEVELOPMENTALBIOLOGY
+
+366
+
+CAMP pulses is due to both enhanced ePD
+synthesis and repressed PDI synthesis.
+The effect of 1 nM CAMP pulses on cell
+differentiation
+is shown in Fig. 2. Although
+the concentration of the CAMP was reduced
+NO-fold, the small pulses were almost as
+effective as the large pulses at accelerating
+membrane differentiation
+(compare Figs.
+1B and 2B). On the other hand, the 1 nil4
+CAMP pulses seemed to be less effective at
+regulating the ePD-PDI system. When the
+cell suspensions were pulsed with 1 ti
+CAMP, the rate of PDI synthesis was only
+slightly reduced and the ePD activity of the
+pulsed suspensions increased slowly (Fig.
+2A). Therefore, regulation of the ePD-PDI
+system by CAMP pulses would appear to be
+more concentration dependent than regulation of membrane differentiation.
+Figure 3 shows the effect of the continuous addition of CAMP, at an average rate
+equivalent to the 100 r&f pulses (see Materials and Methods), to amoebae of strain
+AX2 in suspension. Under these conditions,
+the addition of exogenous CAMP had no
+I
+40
+c
+
+I
+
+I
+
+I
+
+I
+
+VOLUME 66,1978
+
+effect on the rate of membrane differentiation (Fig. 3B; also see Gerisch et al., 1975a),
+however, the ePD activity in the suspension
+increased dramatically
+and PDI synthesis
+was strongly inhibited (Fig. 3A). In addition
+to the effect of exogenous CAMP on ePD
+activity, total cellular PD activity (as determined on crude cell lysates) also increased rapidly after l-2 hr of starvation
+(data not shown). Since the mPD activity
+was not elevated under these conditions
+(Fig. 3B), this activity would appear to represent nascent soluble enzyme. Furthermore, in this particular
+experiment, the
+ePD activity in the CAMP-treated suspension after 2 hr (before the appearance of an
+appreciable amount of inhibitor in the control) was four- to fivefold higher than the
+activity in the control suspension (Fig. 3A).
+Together, these observations suggest that
+the addition of a continuous flow of CAMP
+to cells in suspension inhibits PDI production and also induces the synthesis of ePD.
+The continuous addition of CAMP at a lofold lower concentration also failed to stimf-
+
+I
+
+A
+
+-f
+
+8-
+
+-f
+
+6-
+
+I
+
+I
+
+I
+
+I
+
+2
+Time
+
+4
+after
+
+6
+harvesting
+
+8
+
+I
+
+.
+-4
+
+4-
+
+-2
+
+2-
+
+,
+Time
+
+after
+
+harvestmg
+
+(h)
+
+Od
+0
+
+10
+fh)
+
+FIG. 2. Effect of 1 nil4 CAMP pulseson the ePD-PDI system (A) and membrane differentiation
+(B) of strain
+AX2. The cells were grown axenically, harvested, washed, shaken in phosphate buffer, treated with CAMP, and
+assayed as described in Materials and Methods. ePD activity (0,O); PDI activity (A, A); mPD activity @, V);
+CAMP binding sites (0, W); time of appearance of contact sites A (4 , Jj ). Open symbols, untreated cells, closed
+symbols, CAMP-treated cells. The results are representative of two experiments.
+
+YEH,
+
+‘&AN,
+
+AND
+
+C0UREl.L
+
+Cell Differentiation
+
+in D. discoideum
+
+6
+
+-0
+
+2
+Time
+
+4
+
+6
+
+after
+
+harvesting
+
+a
+
+10
+(h)
+
+T!me
+
+after
+
+harvesting
+
+(h)
+
+FIG. 3. Effect of the continuous addition of CAMP at an average rate equivalent to the 100 nM pulses on the
+ePD-PDI
+system (A) and membrane differentiation
+(B) of strain AX2 The cells were grown axenically,
+harvested, washed, shaken in phosphate buffer, treated with CAMP, and assayed as described in Materials and
+Methods. ePD activity (0, 0); PDI activity (A, A); mPD activity (V, V); CAMP binding sites (0, W); time of
+appearance of contact sites A ( 4 , 1 ). Open symbols, untreated cells; closed symbols, CAMP-treated cells. The
+results are representative of three experiments.
+
+ulate the rate of membrane differentiation,
+while the response of the ePD-PDI system
+under these conditions was comparable to
+the response produced by 1 nM pulses (data
+not shown).
+Effect of exogenous CAMP on the level
+of intracellular
+CAMP. To determine if the
+exogenous CAMP was regulating
+the
+ePD-PDI system and/or membrane differentiation by activating the adenylyl cyclase,
+the concentration
+of the intracellular
+CAMP pools of untreated cells and cells
+treated with CAMP was monitored during
+early development.
+When axenicahy
+grown amoebae of
+strain AX2 were shaken in phosphate
+buffer, the initial intracellular
+concentration of CAMP was l-3 pmoles/107 cells, and
+this concentration remained relatively constant for about 2 hr before increasing
+sharply five- to sevenfold. After remaining
+at the elevated level for l-2 hr, the CAMP
+concentration dropped to a level approximately two to three times the initial level
+(Fig. 4). Under the same conditions, similar
+
+changes in the concentration of intracellular CAMP during development were observed with different
+wild-type
+strains
+grown on bacteria (see the results for
+strains HC91 and HC6 in Figs. 6 and 8,
+respectively).
+When amoebae of strain AX2 were
+treated with 100 nil4 pulses of CAMP, the
+intracellular
+CAMP level remained relatively low for approximately 2 hr and then
+increased 20-25 fold, reaching a peak at 4
+hr. Then, despite continued pulsing, the
+intracellular
+CAMP concentration dropped
+to a level comparable to that of the pool of
+untreated cells (Fig. 4). When the concentration of the artificial CAMP pulses was
+reduced to 10 or to 1 ti,
+the relative increase in the size of the intracellular CAMP
+pools was approximately
+the same (Table
+2). However, when the CAMP was added in
+a continuous flux, at an average rate equivalent to the 100 nM pulses, not only was
+there no stimulation
+of the intracellular
+CAMP pool, but the normal increase in pool
+size observed in untreated cells was re-
+
+368
+
+DEVELOPMENTAL BIOLOGY
+
+“0
+
+2
+Time
+
+8
+after4 harvest ini
+
+(h )
+
+FIG. 4. Effect of exogenous CAMP on the concentration of intracellular
+CAMP in amoebae of strain
+AX2. The cells were grown axenically, harvested,
+washed, shaken in phosphate buffer, treated with
+CAMP, extracted, and assayed for CAMP as described
+in Materials and Methods. CAMP in untreated cells
+(0), CAMP-pulsed (100 ndf) cells (O), and cells treated
+with a continuous flux of CAMP at an average rate
+equivalent to the 100 ru%f pulses (A). The arrows
+indicate the time of appearance of contact sites A on
+untreated (4 ) and on CAMP-pulsed cells ( lJ ). The
+results are representative of three or more experiments
+under each set of conditions.
+
+pressed (Fig. 4). Essentially the same result
+was obtained when the CAMP was added
+continuously at a lo-fold lower concentration, except that in some experiments, the
+level of the CAMP pool began to rise slowly
+after 6-8 hr of starvation (data not shown).
+To estimate the amount of extracellular
+CAMP contaminating
+the intracellular
+CAMP pool determinations
+of CAMPtreated cells, the following control experiments were performed with strain AX2. At
+hourly intervals from 0 to 8 hr after starvation, 1.0-n-J aliquots of cell suspension (2
+x lo7 cells/ml) were removed from the control flasks and treated with r3H]cAMP to
+give a final concentration
+of l-100 ti.
+Then the suspensions were agitated vigorously and the cells in 0.5 ml of the suspen-
+
+VOLUME 66,1978
+
+sion were collected immediately on a filter,
+washed once with 0.3 ml of SP buffer, dissolved in 1.0 ml of ethoxyethanol,
+diluted
+with 3.0 ml of scintillation
+fluid, and
+counted. The results indicated that even at
+the highest concentration of CAMP used in
+our experiments (100 ti),
+contamination
+of the intracellular
+pools by extracellular
+CAMP was less than 0.3 pmoles/107 cells.
+Effect of CAMP pulses on certain aggregation-deficient mutants. During the characterization of a group of aggregation-deficient mutants of D. discoideum, several
+mutants were found which failed to respond
+to exogenous CAMP in a variety of tests
+(Lo et al., 1978). Strain HC112 failed to
+respond chemotactically
+to CAMP in the
+cellophane square test (Bonner et al., 1966),
+and the developmental
+defect(s) in this
+strain could not be suppressed by artificial
+pulses of CAMP. The effect of CAMP pulses
+(100 n&f) on membrane differentiation,
+the
+ePD-PDI system, and intracellular
+CAMP
+levels in strain HC112 is presented in Figs.
+5 and 6. When amoebae of this strain were
+shaken in buffer, the cells produced relatively high levels of mPD and CAMP binding activities, however, the time of appearance and the maximum levels of these activities were the same in the presence and
+in the absence of CAMP pulses (Fig. 5B).
+Furthermore,
+neither the CAMP-treated
+nor the untreated cells formed detectable
+levels of contact sites A. The artificial
+CAMP pulses also had no effect on the
+intracellular CAMP pool of the mutant cells
+TABLE 2
+EFFECT OF ARTIFICIAL CAMP PULSES OF
+DIFFERENT CONCENTRATIONS ON THE
+INTRACELLULAR CAMP POOL OF AX2
+Initial
+Intracellular
+CAMP
+Relative
+CAMP
+increase
+(pmoles/lO’ cells)
+concentration”
+Initial
+Maximum
+(nM)
+loo
+10
+1
+a Each experiment
+cell population.
+
+3.0
+3.5
+2.5
+
+69.4
+68.8
+46.1
+
+was performed
+
+23.1
+19.6
+18.4
+with a different
+
+YEH,
+
+&AN,
+
+AND
+
+COUKELL
+
+Cell ‘Differentiation
+
+369
+
+in D. discoideum
+
+I
+
+I
+
+I
+
+I
+
+I
+
+B
+16 -
+
+-6
+
+-2
+.0
+;;12;I
+
+%
+;
+
+E
+3
+.Z
+5
+,. 6 .Z
+.>
+2
+,”
+E
+4-
+
+0
+Time
+
+after
+
+harvesting
+
+(h)
+
+0
+
+2
+Time
+
+4
+
+6
+
+after
+
+harvesting
+
+6
+
+10
+(h)
+
+PIG. 5. Effect of 100 mJ4 CAMP pulses on the ePD-PDI system (A) and membrane differentiation
+(B) of the
+aggregation-deficient
+mutant, strain HC112. The cells were grown on plates with bacteria, harvested, washed,
+shaken in phosphate buffer, treated with CAMP, and assayed as described in Materials and Methods. ePD
+activity (0,O); PDI activity (A, A); mPD activity (V, V); CAMP binding sites (0, N). Open symbols, untreated
+cells; closed symbols, CAMP-pulsed cells. The results are representative of two experiments.
+
+(Fig. 6). However, despite the absence of an
+effect on membrane differentiation
+and intracellular CAMP, the pulses of CAMP stimulated the level of ePD activity in the
+CAMP-treated suspension and partially inhibited PDI synthesis by these cells (Fig.
+5A). Since the ePD activity in the CAMPtreated suspension, before the appearance
+of PDI, was approximately sevenfold higher
+than the activity in the control suspension,
+this elevated ePD activity would appear to
+be due to enhanced ePD synthesis as well
+as to a reduction in PDI production.
+In addition to strain HC112, two other
+mutants, HC33 and HC85, failed to respond
+appreciably to exogenous CAMP (Lo et al.,
+1978). When these strains were examined
+for the effect of artificial CAMP pulses on
+membrane differentiation,
+the level of intracellular CAMP and the ePD-PDI system, only the ePD-PDI system responded
+to the added nucleotide (data not shown).
+It should be noted that the developmental
+mutations in strains HC112 and HC33 have
+
+been mapped at the same agg locus ( aggI)
+(Coukell, 1975, 1977).
+Another
+aggregation-deficient
+mutant,
+strain HC53, also failed to respond chemotactically to CAMP in the cellophane square
+test. However, unlike mutants HC112,
+HC33, and HC85, when amoebae of this
+strain were pulsed with CAMP (100 nM),
+the cells formed contact sites A within 6 hr,
+and when the CAMP-treated
+cells were
+placed on a solid substratum, they proceeded to form mature aggregates (Lo et
+al., 1978). To determine if the developmental response of these cells to pulses of
+CAMP could be correlated with specific biochemical changes in the cells, the effect of
+CAMP pulses on the ePD-PDI
+system,
+membrane differentiation
+and intracellular
+CAMP levels was examined. The results are
+shown in Figs. 7 and 8. When amoebae of
+strain HC53, suspended in buffer, were
+treated with 100 nJ4 pulses of CAMP, PDI
+synthesis was completely inhibited for 8 hr,
+and the ePD activity was elevated dramat-
+
+DEVELOPMENTAL BIOLOGY
+24-
+
+I
+
+I
+
+I
+
+I
+
+l-
+
+.16-
+
+VOLUME 66,197s
+
+increased abruptly, reaching a level comparable to the maximum level observed in
+the wild-type parent of this mutant, strain
+HC6. The concentration of the CAMP pool
+then decreased rapidly to a steady-state
+level, equivalent to that of the CAMP pools
+of the untreated mutant cells and the parental cells (Fig. 8).
+DISCUSSION
+
+6-
+
+4e
+o0
+
+I
+
+I
+
+I
+
+I
+
+I
+
+2
+
+4
+
+6
+
+6
+
+10
+
+after
+
+harvesting
+
+(h)
+
+Time
+
+FIG. 6. Effect of 100 n&f CAMP pulseson the concentration of intracellular
+CAMP in the aggregationdeficient mutant, strain HC112. The cells were grown
+on plates with bacteria, harvested, washed, shaken in
+phosphate buffer, treated with CAMP, extracted, and
+assayed for CAMP as described in Materials and Methods. For comparison, the intracellular
+CAMP pool of
+the wild-type parent of this mutant (strain HC91) is
+also shown. Untreated mutant cells (0); CAMP-pulsed
+mutant cells (0); untreated wild-type cells (0). The
+arrow (a ) indicates the time when contact sites A
+were fist detected on strain HC91. The results are
+representative
+of two experiments.
+
+ically (Fig. 7A). Therefore, the ePD and
+PDI activities in the mutant HC53 appeared to be regulated by exogenous CAMP
+in the same manner as they are regulated
+in wild-type cells. In addition, treatment of
+the mutant cells with CAMP pulses resulted
+in a sharp increase in mPD activity and
+CAMP binding sites after 4-6 hr of starvation, and in this experiment, contact sites
+A were detected on the CAMP-pulsed cells
+after -6 hr (Fig. 7B). In the absence of
+CAMP pulses, the concentration
+of the
+CAMP pool of the mutant cells remained
+low during the first 10 hr of development.
+When the cells were pulsed with CAMP
+(100 nM), the concentration of the CAMP
+pool was unaffected for -4 hr and then
+
+The results obtained in this study suggest
+that, in D. discoideum, extracellular CAMP
+regulates the ePD-PDI system and the formation of certain membrane components
+by two functionally
+distinct mechanisms.
+As reported previously (Gerisch et al.,
+1975a), we have observed that the time of
+appearance of membrane components such
+as contact sites A, mPD, and CAMP binding
+sites was accelerated when cells suspended
+in buffer were treated with pulses of CAMP,
+but not by the continuous
+addition of
+CAMP (Figs. 1B and 3B). Furthermore, the
+degree of acceleration of membrane differentiation by CAMP pulses was approximately the same (3-4 hr), regardless of
+whether the concentration of the pulse was
+100 or 1 n&f (Figs. 1B and 2B). In addition,
+pulses of CAMP produced a dramatic increase in the concentration of the intracellular CAMP pools of the treated cells (Fig.
+4), presumably by activating the plasma
+membrane-bound
+adenylyl cyclase (Klein
+and Darmon, 1977; Roos et al., 1977b), and
+the magnitude of this increase was also
+relatively constant over a l-100 nkf range
+of CAMP concentrations.
+On the other
+hand, treatment of the cells with a continuous flux of CAMP not only failed to increase the level of the intracellular
+CAMP
+pool, but generally decreased the pool size
+(Fig. 4). These observations support the
+hypothesis (Gerisch et al., 1975a; Roos et
+al., 1977b) that certain events in early cell
+differentiation
+are regulated by a mechanism which detects a change in extracellular CAMP concentration with time, rather
+than simply an increase in the concentration of CAMP. The observation that small
+
+YEH, CHAN, AND COUKELL
+
+Cell Differentiation
+I
+
+I
+
+371
+
+in D. discoideum
+I
+
+I
+
+I
+
+r
+
+7'
+
+FIG. 7. Effect of 100 nM CAMP pulses on the ePD-PDI system (A) and membrane differentiation
+(B) of the
+aggregation-deficient
+mutant, strain HC53. The cells were grown on plates with bacteria, harvested, washed,
+shaken in phosphate buffer, treated with CAMP, and assayed as described in Materials and Methods. ePD
+activity (0,O); PDI activity (A, A); mPD activity (V, Vl; CAMP binding sites (Cl, n ). Open symbols, untreated
+cells; closed symbols, CAMP-pulsed cells. The arrow (1 ) indicates the time when contact sites A were first
+detected on the CAMP-pulsed cells. The results are representative of two experiments.
+
+pulses of CAMP (1 ti)
+are almost as effective as large pulses (100 IS) at increasing
+intracellular
+CAMP levels and at stimulating membrane differentiation
+also supports
+the suggestion that certain effects of exogenous CAMP pulses on cell differentiation
+are mediated through the activation of the
+adenylyl cyclase (Klein and Darmon, 1977;
+Roos et al., 1977b). Further evidence for
+such a mechanism is provided by the results
+with the two aggregation-deficient
+mutants,
+HC53 and HC112. When amoebae of strain
+HC53 were pulsed with CAMP, the stimulation of membrane differentiation
+observed in this strain was accompanied by a
+fivefold increase in intracellular
+CAMP
+(Figs. 7B and S), while under the same
+conditions, neither membrane differentiation nor the size of the CAMP pool of strain
+HC112 was stimulated when the cells were
+treated with CAMP (Figs. 5B and 6).
+Unlike the effect of exogenous CAMP on
+membrane differentiation,
+the ePD-PDI
+system was regulated by both pulses of
+
+CAMP and a continuous flux of CAMP
+(Figs. 1A and 3A). In addition, regulation
+of the ePD-PDI system by CAMP seemed
+to be concentration
+dependent, because
+when the concentration of the CAMP pulse
+was reduced lOO-fold, there was an appreciable reduction in the rate of appearance
+of ePD activity in the CAMP-treated suspension and PDI synthesis was only slightly
+inhibited (Figs. 1A and 2A). The ePD-PDI
+system was also regulated by exogenous
+CAMP under experimental conditions (e.g.,
+in the presence of a continuous flow of
+CAMP) which failed to produce an increase
+in intracellular
+CAMP levels (Figs. 3A and
+4). Together, these results suggest that the
+ePD-PDI system is regulated by a mechanism which responds to elevated levels of
+extracellular CAMP, as well as to a change
+in the concentration of CAMP with time.
+Furthermore, exogenous CAMP appears to
+regulate this system without activating the
+adenylyl cyclase. The results of experiments with the developmental
+mutant
+
+372
+
+DEVELOPMENTALBIOLOGY
+I
+
+01
+0
+
+I
+
+I
+
+I
+
+I
+
+I
+
+I
+
+I
+
+I
+
+I
+
+2
+
+4
+after
+
+6
+harvesting
+
+8
+(h)
+
+10
+
+Time
+
+FIG. 8. Effect of 166 ml4 CAMP pulses on the concentration of intracellular
+CAMP in the aggregationdeficient mutant, strain HC53. The cells were grown
+on plates with bacteria, harvested, washed, shaken in
+phosphate buffer, treated with CAMP, extracted, and
+assayed for CAMP as described in Materials and Methods. For comparison, the intracellular
+CAMP pool of
+the wild-type parent of this mutant (strain HC6) is
+also shown. Untreated mutant cells (0); CAMP-pulsed
+mutant cells (0); untreated wild-type cells (El). The
+arrows indicate the tune of appearance of contact sites
+A on the wild-type cells ( // ) and on the CAMP-pulsed
+mutant cells (1). The results are representative
+of
+two experiments.
+
+HC112 also indicated that membrane differentiation and the ePD-PDI system are
+regulated independently
+by extracellular
+CAMP. Membrane differentiation
+and the
+intracellular CAMP pool of the mutant cells
+was unaffected by 100 n&f CAMP pulses,
+while the ePD-PDI system in this mutant
+was regulated normally, except that the
+inhibition of PDI synthesis was incomplete
+(Figs. 5 and 6). The properties of the mechanism described here for regulating the
+ePD-PDI system by exogenous CAMP are
+consistent with the proposed role of this
+system in early D. discoideum development
+(Tsang and Coukell, 1977), i.e., to maintain
+a low concentration of extracellular CAMP
+
+VOLUME 66,197s
+
+in the vicinity of the preaggregative cells,
+thereby increasing the signal-to-noise ratio
+of the endogenous CAMP pulses.
+Do measurements of the intracellular
+CAMP pools of amoebae treated with exogenous CAMP reasonably reflect the in
+uivo activity of the adenylyl cyclase? In
+shaken suspensions, the basal adenylyl cyclase activity of amoebae of strain AX2 has
+been reported to increase as much as 45
+fold after approximately
+3-4 hr of starvation (Klein, 1976; Klein and Darmon, 1977;
+Roos et al., 1977b). Superimposed upon this
+increase in basal activity are rhythmic oscillations in adenylyl cyclase activity which
+also begin about this time. These oscihations occur with a periodicity of 5-8 min
+and have an amplitude 3-10 times that of
+the basal activity (Roos et aE., 1977a; Klein
+et al., 1977). Together, these changes in
+adenylyl cyclase activity are probably responsible for the sharp increase in the level
+of the CAMP pool observed after 3-4 hr in
+amoebae of strain AX2 grown axenically
+(Fig. 4) and after 5-6 hr in amoebae of
+strains HC91 and HC6 grown on bacteria
+(Figs. 6 and 8). The subsequent drop in the
+concentration of the CAMP pool after 5-6
+hr is probably due to enhanced secretion of
+the nucleotide by the cells, since extracellular CAMP levels are maximal at this time
+(Klein and Brachet, 1975). When amoebae,
+under the same conditions, are treated with
+artificial pulses of CAMP, both the basal
+activity and the periodic oscillations in adenylyl cyclase activity are stimulated after
+3-4 hr of starvation (Roos et al., 1977b;
+Gerisch and Hess, 1974; Roos et al., 1977a).
+Presumably, this activation of the adenylyl
+cyclase by CAMP pulses is responsible for
+the dramatic increase in the CAMP pools of
+the CAMP-pulsed cells observed at this
+time (Fig. 4; Table 2). Again, the subsequent drop in intracellular
+CAMP is probably due to enhanced secretion. When
+CAMP was added to the cell suspensions in
+a continuous flow, the CAMP pools of the
+cells usually increased slowly two- to threefold and then remained relatively constant
+
+YEH, CHAN, AND COUKELL
+
+Cell Differentiation
+
+for 6-8 hr (see Fig. 4). Since it has been
+reported that the basal adenylyl cyclase
+activity is not activated by the continual
+addition of CAMP (Roos et al., 1977b) and
+that CAMP applied in this form extinguishes the periodic oscillations in adenylyl
+cyclase activity (Gerisch and Hess, 1974;
+Roos et al., 1977a), the modest increase in
+intracellular
+CAMP observed under these
+conditions is probably due to the appearance in the developing cells of nonactivated
+adenylyl cyclase (see Roos et al., 197713).
+Alternatively,
+the low level of intracellular
+CAMP detected in cells treated with a continual flux of CAMP might be an artifact
+due to the elevated cellular PD activity
+present under these conditions (Yeh and
+Coukell, unpublished). However, this interpretation seems unlikely since cellular PD
+levels are also elevated by treating the cells
+with CAMP pulses (Klein and Darmon,
+1975; Lo and Coukell, unpublished),
+and
+under these conditions the concentration of
+the CAMP pool is very high (Fig. 4). In
+general, then, the changes observed in the
+levels of the CAMP pools of cells under
+different conditions do appear to reflect the
+changes occurring in adenylyl cyclase activity under the same conditions.
+These results suggest that during the first
+few hours of starvation, the amoebae might
+form two distinct types of CAMP receptors:
+(1) a receptor which detects a change in the
+concentration of extracellular CAMP with
+time, and responds by inducing a number
+of changes in the plasma membrane (and
+possibly other events), probably by activating the adenylyl cyclase; and (2) a receptor
+which simply detects an increase in the
+level of extracellular
+CAMP and, without
+activating the adenylyl cyclase, increases
+the production of ePD and inhibits PDI
+synthesis. However, the results of experiments described in this study do not exclude the possibility that a single CAMP
+receptor could be involved in regulating
+both processes. During this study, we consistently observed a distinct peak of CAMP
+binding to the cell surface after approxi-
+
+in D. discoideum
+
+373
+
+mately 2 hr of starvation (e.g., see Figs, 1B
+and 2B). Unlike the major CAMP binding
+sites, which reach a maximum activity after
+8-10 hr in strain AX2, the appearance of
+these “early” binding sites is not stimulated by CAMP pulses and their appearance
+is not accompanied by an increase in mPD
+activity (Figs. 1B and 2B) (Lo et al., 1978).
+The properties of these early sites together
+with their time of appearance during development suggest that these sites might be
+components of a receptor(s) system, which
+is formed shortly after starvation, to detect
+changes in the level of extracellular CAMP.
+We are presently examining these “early”
+binding sites for a possible role(s) in regulating early development.
+F.K.C. was a recipient of a Province of Ontario
+Postgraduate Fellowship. This work was supported by
+a grant from the National Research Council of Canada.
+REFERENCES
+BEUG, H., KATZ, F. E., and GERISCH, G. (1973). Dynamics of antigenic membrane sites relating to cell
+aggregation in Dictyostelium
+discoideum. J. Cell
+Biol. 56, 647-658.
+BONNER, J. T. (1947). Evidence for the formation of
+cell aggregates by chemotaxis in development of the
+slime mold Dictyostelium
+discoideum. J. Exp. Zool.
+106, l-26.
+BONNER, J. T. (1970). Induction of stalk cell differentiation by cyclic AMP in the cellular slime mold
+Dictyostelium
+discoideum. Proc. Nat. Acad. Sci.
+USA. 65, 110-113.
+BONNER, J. T., KELSO, A. P., and GILLMOR, R. G.
+(1966). A new approach to the problem of aggregation in the cellular slime molds. Biol. Bull. 130,
+28-42.
+COCUCCI, S., and SUSSMAN, M. (1970). RNA in cytoplasmic and nuclear fractions of cellular slime mold
+amebas. J. Cell Biol. 45, 399-407.
+COUKELL, M. B. (1975). Parasexual genetic analysis of
+aggregation-deficient
+mutants of Dictyostelium
+discoideum. Mol. Gen. Genet. 142,119-135.
+COUKELL, M. B. (1977). Evidence against mutational
+“hot-spots” at aggregation loci in Dictyostelium discoideum. Mol. Gen. Genet. 151,269-273.
+DARMON, M., BRACHET, P., and PEREIRA DA SILVA,
+L. H. (1975). Chemotactic signals induce cell differentiation in Dictyostelium
+discoideum. Proc. Nat.
+Acad. Sci. USA 72,3163-3166.
+GERISCH, G., and HESS, B. (1974). Cyclic-AMP-controlled oscillations in suspended Dictyostelium cells:
+Their relation to morphogenetic
+cell interactions.
+
+374
+
+DEVELOPMENTAL BIOLOGY
+
+Proc. Nat. Acad. Sci. USA. 71,2118-2122.
+GERISCH, G., HUESGEN, A., and MALCHOW, D. (1975a).
+Genetic control of cell differentiation
+and aggregation in Dictyostelium:
+The role of cyclic-AMP
+pulses. In “Proceedings of the Tenth FEBS Meeting,” pp. 257-267.
+GERISCH, G. H~LSER, D., MALCHOW, D., and WICK,
+U. (1975b). Cell communication
+by periodic cyclicAMP pulses. Phil. Trans. Roy. Sot. London B 272,
+181-192.
+GILMAN, A. C. (1970). A protein binding assay for
+adenosine 3’,5’-cyclic monophosphate.
+Proc. Nat.
+Acad. Sci. USA 67.305-312.
+GREEN, A. A., and NEWELL, P. C. (1975). Evidence for
+the existence of two types of CAMP binding sites in
+aggregating cells of Dictyostelium
+discoideum. Cell
+6, 129-136.
+HENDERSON, E. J. (1975). The cyclic adenosine 3’,5’monophosphate
+receptor of Dictyostelium
+discoideum. J. Biol. Chem. 250,4730-4736.
+KLEIN, C. (1975). Induction of phosphodiesterase
+by
+cyclic adenosine 3’,5’-monophosphate
+in differentiating Dictyostelium
+discoideum amoebae. J. Biol.
+Chem. 250.7125-7138.
+KLEIN, C. (1976). Adenylate cyclase activity in Dictyostelium discoideum amoebae and its changes
+during differentiation.
+FEBS Lett. 68, 125-128.
+KLEIN, C., and BRACHET, P. (1975). Effects of progesterone and EDTA on cyclic AMP and phosphodiesterase in Dictyostelium
+discoideum. Nature (London) 254,432-434.
+KLEIN, C., and DARMON, M. (1975). The relationship
+of phosphodiesterase
+to the developmental cycle of
+Dictyostelium
+discoideum. B&hem.
+Biophys. Res.
+Commun. 67,440-447.
+KLEIN, C., and DARMON, M. (1977). Effects of cyclic
+AMP pulses on adenylyl cyclase and the phosphodiesterase inhibitor of D. discoideum. Nature (London) 268, 76-78.
+KLEIN, C., BRACHET, P., and DARMON, M. (1977).
+Periodic changes in adenylyl cyclase and CAMP
+receptors in Dictyostelium
+discoideum. FEBS Lett.
+76, 145-147.
+KONIJN, T. M., BARKLEY, D. S., CHANG, Y. Y., and
+BONNER, J. T. (1968). Cyclic AMP: A naturally
+occurring acrasin in the cellular slime molds. Amer.
+Natur. 102,225-233.
+Lo, E. K.-L., COUKELL, M. B., TSANG, A. S., and
+PICKERING, J. L. (1978). Physiological and biochemical characterization
+of aggregation-deficient
+mutants of Dictyostelium
+discoideum: Detection and
+response to exogenous cyclic AMP. Canad. J. Mi-
+
+VOLUME 66,1978
+
+crobiol. 24,455-465.
+LOOMIS, W. F. (1975). “Dictyostelium
+discoideum: A
+Developmental
+System.” Academic Press, New
+York/London.
+LOWRY, 0. H., ROSEBROUGH, N. J., FARR, A. L., and
+RANDALL, R. J. (1951). Protein measurement with
+the Folin phenol reagent. J. Biol. Chem. 193,
+265-275.
+MALCHOW, D., and GERISCH, G. (1973). Cyclic AMP
+binding to living cells of Dictyostelium
+discoideum
+in the presence of excess cyclic GMP. Biochem.
+Biophys. Res. Commun. 55,200-204.
+MALCHOW, D., NXGELE, B., SCHWARZ, H., and GERISCH, G. (1972). Membrane-bound
+cyclic AMP phosphodiesterase in chemotactically
+responding cells of
+Dictyostelium
+discoideum. Eur. J. Biochem. 26,
+136-142.
+MIYAMOTO, E., Kuo, J. F., and GREENGARD, P. (1969).
+Cyclic nucleotide-dependent
+protein kinases. III.
+Purification and properties of adenosine 3’,5’-monophosphate-dependent
+protein kinase from bovine
+brain. J Biol. Chem. 244, 63956402.
+RIEDEL, V., MALCHOW, D., GERISCH, G., and NXGELE,
+B. (1972). Cyclic AMP phosphodiesterase
+interaction with its inhibitor of the slime mold Dictyostelium discoideum. Biochem. Biophys. Res. Commun.
+46, 279-287.
+RIEDEL, V., GERISCH, G., MUELLER, E., and BEUG, H.
+(1973). Defective cyclic adenosine-3’,5’-phosphatephosphodiesterase regulation in morphogenetic mutants of Dictyostelium
+discoideum. J. Mol. Biol. 74,
+573-585.
+Roos, W., SCHEIDEGGER, C., and GERISCH, G. (1977a).
+Adenylate cyclase activity oscillations as signals for
+cell aggregation in Dictyostelium
+discoideum. Nature (London) 266,259-260.
+Roos, W., MALCHOW, D., and GERISCH, G. (1977b).
+Adenylyl cyclase and the control of cell differentiation in Dictyostelium
+discoideum. Cell Different. 6,
+229-239.
+SUSSMAN, M. (1966). Biochemical and genetic methods in the study of cellular slime mold development.
+In “Methods in Cell Physiology” (D. Prescott, ed.),
+Vol. 2, pp. 397-410. Academic Press. New York.
+TSANG, A. S., and COUKELL, M. B. (1977). The regulation of cyclic AMP-phosphodiesterase
+and its specific inhibitor by cyclic AMP in Dictyostelium.
+Cell
+Different. 6, 75-84.
+WATTS, D. J., and ASHWORTH, J. M. (1970). Growth of
+myxamoebae of the cellular slime mould Dictyostelium discoideum in axenic culture. Biochem. J. 119,
+171-174.
+
+

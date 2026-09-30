@@ -1,0 +1,980 @@
+DEVELOPMENTAL BIOLOGY 192, 181–192 (1997)
+ARTICLE NO. DB978720
+
+Null Mutations of the Dictyostelium
+Cyclic Nucleotide Phosphodiesterase Gene
+Block Chemotactic Cell Movement
+in Developing Aggregates
+Richard Sucgang,*,1 Cornelis J. Weijer,† Florian Siegert,‡
+Jakob Franke,* and Richard H. Kessin*
+*Department of Anatomy and Cell Biology, College of Physicians and Surgeons, Columbia
+University, 630 West 168 Street, New York, New York 10032; †Department of Anatomy and
+Physiology, Old Medical School, University of Dundee, Dundee DD1 4HN, Scotland;
+and ‡Zoologisches Institut, Universität München, Luisenstrasse 14, 80333 Munich, Germany
+
+Extracellular cAMP is a critical messenger in the multicellular development of the cellular slime mold Dictyostelium
+discoideum. The levels of cAMP are controlled by a cyclic nucleotide phosphodiesterase (PDE) that is secreted by the cells.
+The PDE gene (pdsA) is controlled by three promoters that permit expression during vegetative growth, during aggregation,
+and in prestalk cells of the older structures. Targeted disruption of the gene aborts development, and complementation
+with a modified pdsA restores development. Two distinct promoters must be used for full complementation, and an
+inhibitory domain of the PDE must be removed. We took advantage of newly isolated PDE-null cells and the natural
+chimerism of the organism to ask whether the absence of PDE affected individual cell behavior. PDE-null cells aggregated
+with isogenic wild-type cells in chimeric mixtures, but could not move in a coordinated manner in mounds. The wildtype cells move inward toward the center of the mound, leaving many of the PDE-null cells at the periphery of the aggregate.
+During the later stages of development, PDE-null cells in the chimera segregate to regions which correspond to the prestalk
+region and the rear of the slug. Participation in the prespore/spore population returns with the restoration of a modified
+pdsA to the null cells. q 1997 Academic Press
+
+INTRODUCTION
+During Dictyostelium discoideum’s development, starving cells generate pulses of extracellular cAMP which create
+temporal gradients that attract other cells. Dictyostelium
+amoebae respond to the pulses of cAMP in two ways: by
+migrating to higher concentrations of cAMP and by secreting more cAMP. This results in propagating waves of
+cAMP that guide the cells during aggregation to form
+mounds of approximately 105 cells; within these mounds,
+the cells undergo a series of movements to establish a tipped
+mound, a slug, and finally, a mature fruiting body. Waves
+of cAMP also occur in the multicellular structures
+(Steinbock et al., 1993) and can be observed as propagating
+1
+
+Current address: Department of Biochemistry, Baylor College
+of Medicine, 1 Baylor Plaza, Houston, TX 77030.
+
+optical density waves brought about by periodic changes in
+cell shape in response to cAMP (Siegert and Weijer, 1995).
+Cells in a slug move with periodic changes in velocity akin
+to the chemotactic movements of aggregation (Siegert and
+Weijer, 1992). Although disrupting the cAMP signal by overexpression or inhibition of the secreted phosphodiesterase
+deranges development (Traynor et al., 1992; Wu et al.,
+1995), cAMP does not provide positional information to the
+developing cells (Wang and Kuspa, 1997).
+Precursors to the terminal spores and stalk cells can be
+identified within a developing aggregate. In the slug,
+prestalk cells populate the anterior 15–20%, including the
+tip, and in addition a number of prestalk cells are scattered
+throughout the posterior of the slug; they are called the
+anterior-like cells (ALC). There is also a population of
+prestalk cells at the rear of the slug. Prespore cells constitute
+the rest of the structure. The two cell types can be distinguished based on a number of criteria, including differential
+
+0012-1606/97 $25.00
+Copyright q 1997 by Academic Press
+All rights of reproduction in any form reserved.
+
+AID
+
+DB 8720
+
+/
+
+6x30$$$261
+
+181
+
+11-06-97 23:01:38
+
+dba
+
+182
+
+Sucgang et al.
+
+staining by vital dyes (Bonner, 1952) and expression of tissue-specific marker genes (Williams and Morrison, 1994).
+Prestalk and prespore cells can also be distinguished based
+on their differential mobility toward cAMP, either in segregated cells (Mee et al., 1986) or in aggregates (Traynor et
+al., 1992).
+Cell-surface receptors (cARs) bind cAMP and transduce
+the signal to different cellular responses, including cell
+movement and gene expression (Hereld and Devreotes,
+1992). Permanently elevated levels of extracellular cAMP,
+which lead to receptor desensitization, are prevented
+through the action of two extracellular cyclic nucleotide
+phosphodiesterase (PDE) activities: a secreted soluble form
+(ePDE) and a membrane-bound form (mPDE). While ePDE
+levels accumulate as development progresses, mPDE levels
+accumulate only during aggregation; after the mound forms,
+mPDE levels fall rapidly. The ePDE can be inactivated by
+a specific glycoprotein inhibitor (PDI), while the mPDE is
+immune to inhibition as long as it is bound to the membrane. ePDE and mPDE activities are different forms of the
+same protein, and all of the detectable mPDE activity has
+been localized to the outer surface of the cell (Shapiro et
+al., 1983; Malchow et al., 1972).
+The PDE gene (pdsA) is developmentally regulated: a vegetative growth-specific promoter is inactivated when development begins, and an aggregation-stage promoter drives
+expression during early development (Faure et al., 1990).
+Later in development, a prestalk-specific promoter directs
+expression at the tip of the slug and in other presumptive
+stalk cells (Hall et al., 1993), most notably in the prestalk
+A compartment (Jermyn et al., 1989). Overexpression of the
+ePDE-specific inhibitor glycoprotein from the prestalk promoter of pdsA deranges terminal development (Wu et al.,
+1995); therefore the presence of PDE during later development is critical.
+We have constructed targeted gene disruption mutants of
+pdsA and also modified the gene so that the new mutants
+can be efficiently complemented. The gene disruption mutants of pdsA reflected the phenotype of the previously reported mutants: development was aborted, but the addition
+of purified ePDE to PDE-null cells restored aggregation competence to the gene disruption mutant (Barra et al., 1980;
+Faure et al., 1989). This suggested that the PDE protein need
+only be present outside the cell and serves in the intercellular signaling mechanisms. Thus, a minority of PDE-null
+cells in a population of wild-type cells should be able to
+synergize and participate in forming the chimeric structures—but this is not the case. We have used the isogenic
+null and parental cells to show that, even in the presence
+of an excess of wild-type cells, the PDE-null cells have a
+different fate. They move randomly within aggregates. The
+wild-type cells are gathered in the center of the aggregate,
+leaving the PDE-null cells more randomly spread, with a
+large number in the periphery. The null cells fail to become
+spores at the expected frequency, and become preferentially
+cells at the front and rear of the slug. The PDE-null cells
+later populate the upper and lower cups of the sorus, indicat-
+
+ing that they have also formed a portion of the anterior-like
+cells of the slug. Endogenous production of PDE by each
+cell is necessary for efficient postaggregation localization
+and for the formation of slugs. We found that during aggregation the elaboration of streams and large territories depends
+critically on the amount of PDE provided by wild-type cells.
+Because the product of pdsA is secreted, we attribute this
+to cAMP receptor desensitization.
+
+MATERIALS AND METHODS
+Cell lines. The parental strain DH1 (Caterina et al., 1994) was
+a gift from P. Devreotes. It is a derivative of the axenic strain Ax3K
+in which pyr5-6 has been deleted and requires exogenous uracil
+for growth. The PDE-null strain uk7 was generated from DH1 by
+targeted gene disruption, with pyr5-6 as a selectable marker.
+Gene disruptions. pIX1.4 contains the cDNA of pdsA under
+the control of the bacterial lacZ promoter and was made by subcloning the 1.4-kb BstBI/EcoRI fragment of pdsA cDNA (Lacombe
+et al., 1986) into pUC19 digested with AccI and EcoRI. To generate
+the PDE-null cells, the plasmid pIX1.4 was digested with ClaI. This
+linearized the plasmid at the unmethylated ClaI site in the coding
+sequence of pdsA. The plasmid pJB-1, a gift from P. Devreotes,
+carries a fragment of the D. discoideum genome containing pyr56 (Jacquet et al., 1988) in the ClaI site of pBluescript II KS (Stratagene). The pyr5-6 cassette was isolated from pJB-1 by digesting
+the plasmid with ClaI and purifying the 3.7-kb fragment. The fragment was ligated to the ClaI-linearized pIX1.4 to generate pUrK0.
+In this plasmid, the direction of transcription of pyr5-6 was oriented
+opposite to that of pdsA. The plasmid pUrK0 was introduced into
+DH1 cells via electroporation (Howard et al., 1988). Parental cells
+were grown to a density between 1 1 106 and 3 1 106 cells/ml. The
+cells were harvested, washed once in buffer (250 mM sucrose, 1
+mM sodium phosphate, pH 6.1), and resuspended to a density of
+4 1 107 cells/ml in the same buffer. An aliquot of 0.4 ml was
+electroporated in a 0.2-cm cuvette at 1.0–1.5 kV with 200 V at 3
+mF. The time constant was 0.5–0.6 ms. Cells were permitted to
+recover overnight in HL5 supplemented with uracil. To facilitate
+isolating independent transformation events, the cells from one
+electroporation cuvette were diluted in 20 ml FM medium (Franke
+and Kessin, 1977) and subdivided among the wells of a 96-well
+microtiter plate for growth under selective conditions. Each cuvette
+did not yield more than 30 growing wells at a time. The resulting
+transformants were screened for the expected genotype; of the
+transformants with the correct genotype, one isolate named uk7
+was chosen for all further study.
+Development. For multicellular development, cells were
+washed once in cold Sor/Ca buffer (16.7 mM Na2H/KH2PO4 , pH
+6.0, supplemented with 50 mM CaCl2). The cells were resuspended
+in Sor/Ca buffer to a density of 1 1 108 cells/ml, and 0.5 ml was
+plated on Millipore filters resting on Whatman 17 filter pads saturated with Sor/Ca buffer as previously described (Franke et al.,
+1987) or on 1% agar dissolved in KK2 buffer (20 mM potassium
+phosphate, pH 6.8), at a density of 3.9 1 105 cells/cm2.
+Enzyme assays. The PDE activity of the cells was measured in
+two fractions: the extracellular medium and the cell membranes.
+Extracellular buffer was harvested by squeezing the filter pads on
+which the cells developed. To inactivate the PDI, the harvested
+buffer was dialyzed against 1 mM dithiothreitol (DTT) in 50 mM
+Tris (50 mM Tris–HCl, pH 7.5) overnight at 47C, then against 0.1
+
+Copyright q 1997 by Academic Press. All rights of reproduction in any form reserved.
+
+AID
+
+DB 8720
+
+/
+
+6x30$$$261
+
+11-06-97 23:01:38
+
+dba
+
+183
+
+Null Mutations of the Phosphodiesterase Gene
+
+FIG. 1. Strategy used in inactivating pdsA. (A) The structure of the gene with relevant restriction sites and primers. All Southern blots
+employed genomic DNA digested with BstXI and were probed with a 0.9-kb BstXI fragment that contains most of the pdsA coding
+sequence. As expected, a 0.9-kb band is detected in parental DNA digested with BstXI. (B) Disruption in the uk7 strain (uracil selection).
+See Materials and Methods for details of constructs.
+
+mM DTT in 50 mM Tris for 2–6 h at 47C. The dialyzed buffer was
+referred to as the E fraction and contained the ePDE activity. The
+cells were harvested by vigorous washing of the filters. The harvested cells were resuspended in 0.5 ml of 50 mM Tris, and broken
+by one round of freezing at 0207C and thawing. Microscopic inspection was used to determine that the majority of cells were lysed
+using this method. The lysate was centrifuged in a microfuge at
+47C for 30 min to pellet the membrane fraction. The membrane
+pellet was washed twice with 50 mM Tris. The washes did not
+contain significant levels of PDE activity. The pellet was dissolved
+in 0.2% Triton X-100 in 50 mM Tris. Residual debris was pelleted
+by centrifugation in a microfuge for 15 min. The supernatant from
+the Triton-extracted membranes contained the mPDE activity.
+PDE activity was measured using a modification of a previously
+described radiometric assay (Bulgakov and Van Haastert, 1983).
+Deletion of a region of acidic amino acids. A pair of PCR products was used to generate a deletion of the acidic region (AR) of
+the PDE. A map is shown in Fig. 1A. The primers AR5 (AAGTTAACGGAATTTACAATATTTA) and AR3 (AAGTTAACAGTAACGATGGTAGTAA) each contain a synthetic HpaI site and
+match the sequences that flank the acidic region of pdsA. The
+primer EcoTerm (GGTTTAACTTTGAC) is downstream of the
+EcoRI site in the coding region of pdsA, and the primer RK2 (CCCACAAACGCCACACACTCAC) is located in the 5* untranslated
+region of pdsA. Genomic DNA from DH1 was employed as a template to amplify a 0.5-kb fragment from the primers RK2 and AR5.
+This fragment was treated with Klenow enzyme and subcloned
+into the SmaI site of pUC18 to yield p213. The HpaI site was
+adjacent to the BamHI site of pUC18. The inserted fragment was
+sequenced to confirm that no PCR errors had occurred between
+the HpaI site and the internal BstBI site. A 0.7-kb fragment was
+obtained from the primers AR3 and EcoTerm. This fragment was
+digested with EcoRI and HpaI, and was subcloned into pUC18 that
+had been digested with EcoRI and HincII to yield the plasmid p301.
+
+The subcloned fragment was sequenced to confirm that no errors
+had occurred between the synthetic HpaI site and the internal NsiI
+site. The plasmid p301 was digested with HincII and MscI, and the
+resulting 0.6-kb fragment was subcloned into p213 that had been
+digested with HpaI and HincII. The resulting plasmids were
+checked for the presence of an HpaI site; one plasmid, p408, was
+chosen. The fusion of the synthetic HpaI sites removes all nucleotides that code for the AR and replaces them with a single GTT
+codon. To minimize the possibility of a PCR error causing an unintended mutation, p408 was digested with BstBI and NsiI to excise
+the fully sequenced portion of the fused PCR products, and this
+fragment was subcloned into pVH (pUC18 containing the EcoRV
+to HincII fragment of the pdsA genomic clone) that had also been
+digested with BstBI and NsiI. The result was pVHDAR. To attach
+the appropriate promoters to the construct, the plasmid pGP-1,
+which is a genomic clone of pdsA with its vegetative and late
+promoters carried in pBR322 (Faure et al., 1989), was digested with
+HindIII and AatII, treated with Klenow, and religated. This eliminated a pBR322-borne EcoRI site and rendered the EcoRI in the
+pdsA coding sequence unique. The modified plasmid was renamed
+pGP-1.1 to reflect this change. The plasmid pVHDAR was digested
+with BstBI and EcoRI to excise the 0.9-kb fragment that lacks the
+AR, and this fragment was subcloned into pGP-1.1 that had also
+been digested with BstBI and EcoRI. The resulting plasmid, pGP1.1DAR, contains pdsA without the AR, under the control of the
+vegetative and late promoters. To generate a construct of the modified gene (pdsADAR) under the control of the aggregation promoter,
+the plasmid pGP-1.1DAR was digested with NruI and BstBI to remove the vegetative and late promoters. The aggregation promoter
+was excised from the plasmid pAP53 (Hall et al., 1993) with SmaI
+and AccI and this fragment was cloned into pGP-1.1DAR. The new
+plasmid, pGPADAR, contains the modified pdsA under the control
+of the aggregation promoter.
+Dot blots. To assay for changes in specific activity, the ePDE
+
+Copyright q 1997 by Academic Press. All rights of reproduction in any form reserved.
+
+AID
+
+DB 8720
+
+/
+
+6x30$$$261
+
+11-06-97 23:01:38
+
+dba
+
+184
+
+Sucgang et al.
+
+extracts prepared from the different transformant strains were diluted to the same concentration of PDE units/ml, and serial dilutions were immobilized on nitrocellulose using a dot blot assay.
+The blots were probed with polyclonal antibodies raised against a
+synthetic peptide corresponding to the N-terminus of the processed
+protein (Franke et al., 1991) and developed using horseradish peroxidase-conjugated secondary antibodies and the Renaissance chemiluminescence kit (NEN/Dupont).
+Transformants. The constructs were cotransformed with
+pB10TP-2 into PDE-null cell line uk7. The plasmid pB10TP-2 carries a neoR cassette that confers resistance to the drug G418 (Early
+and Williams, 1987). The resulting transformed cells were screened
+by Southern blot for multiple-copy integration events. Northern
+blots were prepared from confirmed transformants using standard
+techniques to verify overexpression of the transformed plasmid.
+The strain uk7-A15gal was constructed by transforming uk7
+with the plasmid pA15gal (Shaulsky et al., 1995), which carries the
+neoR marker and the bacterial b-galactosidase gene lacZ under the
+control of the D. discoideum actin-15 promoter. All cells used in
+the mixing experiments were isogenic derivatives.
+Tracking cells. To track cell movements in chimeric mixtures,
+a representative number of cells were labeled with a fluorescent
+dye prior to mixing. Cells were labeled with rhodamine dextran,
+CellTracker green, or CellTracker red (Molecular Probes). To label
+D. discoideum cells with CellTracker, washed cells were kept in
+suspension with KK2 buffer containing 50 mM CellTracker red or
+green at a density of 1 1 107 cells/ml for 30–60 minutes, and then
+washed once in KK2 prior to use. All cells were stained by this
+method, and they remained viable. CellTracker red yielded a punctate staining pattern, while CellTracker green had a more uniform
+cytosolic stain. All gave the same results. The best staining was
+obtained with CellTracker green, which was used in subsequent
+tracking experiments. Fluorescently labeled cells constituted 2%
+of the total number of cells in a chimeric mixture.
+Dark-field waves and single-cell tracks were recorded and analyzed using equipment and methods previously reported (Siegert
+and Weijer, 1989, 1992, 1995; Siegert et al., 1994). Briefly, structures
+were imaged with a standard inverted microscope using a CCD
+camera; digital images were averaged at regular intervals (usually
+every 20 s), and stored onto a laser disk, under the control of an
+Intel standard 486-based computer equipped with a custom-built
+video capture board. Analyses of images were performed using custom written software (Siegert and Weijer, 1995).
+Participation in spore formation. Since the terminally differentiated stalk cells are inviable, participation in spore formation
+can be measured by permitting spores from chimeric fruiting bodies
+to germinate and scoring for mutant clones that appear. PDE-null
+cells are unable to aggregate, and form easily detected flat plaques
+on a lawn of bacteria. PDE-null (uk7) cells and parental (DH1) cells
+were mixed, and an aliquot was plated on Klebsiella aerogenes
+lawns to determine the ratio of flat plaques to aggregating clones.
+The remainder of the mixture was placed on sterile KK2 agar and
+permitted to develop under conditions described earlier. After 30
+h, when fruiting bodies are evident, the plate was washed with cold
+KK2 buffer, and the harvested cells were washed once. The spores
+were diluted to 2 1 106/ml and incubated at 457C for 30 min,
+allowed to cool for 30 min, and heated to 457C for another 30 min.
+This ensures killing of cells that have not differentiated into spores
+(Cotter and Raper, 1968); because heating kills some wild-type
+cells, we also killed nonspore cells with detergent (0.1% Triton X100). After heat or detergent treatment, spores were counted and
+plated onto K. aerogenes lawns.
+
+FIG. 2. Northern and Western blots show an altered mRNA and
+no cross-reacting material in the mutants. (A) Northern blots of
+gene disruptant uk7, alongside its isogenic parent DH1. RNA was
+isolated form different stages of development, and the blots were
+probed with labeled 0.9-kb BstXI fragment. The hours of development on filters are indicated on top of the lanes. (B) Western blots
+with antibodies raised against the AR epitope (left) or the main
+peptide of the PDE (right). The supernatants were harvested from
+cells that had been starved for 6 h in Sor/Ca buffer.
+
+LacZ and neutral red staining. In chimeric mixtures involving
+cells that express lacZ, cells were plated on circles of Whatman
+No. 50 filter paper saturated with KK2 buffer. At the appropriate
+stages, filters were fixed in 1% gluteraldehyde, and the presence of
+b-galactosidase was histochemically detected as previously described (Hall et al., 1993). Neutral red indicates the presence of
+acidic autophagic vacuoles and was first used by Bonner (1952).
+
+RESULTS
+Gene disruption. The PDE-null strain uk7 was generated from DH1 by targeted gene disruption with pyr5-6,
+utilizing a double crossover strategy (Fig. 1B). Northern
+blots of RNA isolated from uk7 detected a residual mRNA
+species that hybridized with the PDE probe (Fig. 2A). The
+detected message was truncated by 0.2–0.3 kb, consistent
+with the predicted messenger RNA that would result from
+the gene disruption. The developmental timing was normal.
+Enzyme assays detected no residual PDE activity in the
+mPDE and ePDE fractions of the pdsA disruptant (data not
+shown). Western blots, using two independent antibodies
+that recognize sequences in the amino-terminus of the PDE,
+failed to detect any protein in the disruptant (Fig. 2B). The
+first antibody was raised against the region of 27 acidic
+
+Copyright q 1997 by Academic Press. All rights of reproduction in any form reserved.
+
+AID
+
+DB 8720
+
+/
+
+6x30$$$261
+
+11-06-97 23:01:38
+
+dba
+
+185
+
+Null Mutations of the Phosphodiesterase Gene
+
+FIG. 3. Absence of PDE suppresses expression of the cAR1 transcript. A Northern blot of a developmental time course of parental
+and mutant strains is shown. Numbers indicate time in hours after
+the onset of starvation.
+
+amino acids (AR) in the amino-terminus and only recognizes the full-length PDE. The second antibody was raised
+against a peptide sequence in the body of the secreted protein (Franke et al., 1991) and recognizes both the full-length
+protein and the truncated form that appears in vivo when
+the AR is removed. Because of the absence of enzymatic
+activity and cross-reacting material, we considered these
+cells PDE-null cells. Similar results were obtained with the
+PDE-null strain called PEN, which was created by introducing a plasmid bearing the neoR cassette into the downstream
+BstXI site of the pdsA locus of strain AX3K, employing a
+single crossover strategy (data not shown).
+
+The PDE-null cells do not enter multicellular development. This is consistent with the predicted phenotype based
+on the original pdsA mutants (Barra et al., 1980; Faure et
+al., 1989). When purified PDE was added to a lawn of PDEnull cells, the mutant cells became competent to aggregate,
+although they did not proceed beyond the loose aggregate
+stage. The inability of PDE-null cells to hydrolyze extracellular cAMP may result in constitutively elevated extracellular cAMP levels. The high-affinity cAMP receptor cAR1
+is the primary transducer of the extracellular cAMP signal,
+but it desensitizes when cAMP levels remain high. Thus,
+the cAR1 receptors may be inactive in PDE-null cells. The
+cAR1 receptor is encoded by carA, which is regulated by
+aggregation and late stage promoters (Saxe et al., 1991). The
+carA aggregation promoter is sensitive to levels of extracellular cAMP: it is strongly induced by oscillating levels of
+cAMP, but is down-regulated by constant levels of extracellular cAMP. The late promoter of carA is induced by high
+steady-state levels of extracellular cAMP. Northern blots of
+RNA derived from the PDE-null cells show that, unlike the
+parental cells, the PDE-null cells do not exhibit high levels
+of carA message at 5–10 h of starvation, although a later
+stage message is expressed (Fig. 3). The expression pattern
+of the carA transcript in the PDE-null cells is consistent
+with exposure to steady-state levels of extracellular cAMP.
+Complementation of the null mutant. When a plasmid
+containing the unmodified coding sequence for PDE was
+
+FIG. 4. Higher levels of PDE activity result from constructs that lack the acidic region. (A and D) The normal expression pattern of
+extracellular and membrane-bound PDE activity, respectively. (B and E) The patterns when the entire pdsA is expressed from the aggregation-specific promoter. (C and D) PDE activities when the PDE is driven by the prestalk-specific late promoter of the PDE. In all panels
+the curves with open circles represent uk7 transformed with pdsADAR; closed circles represent uk7 transformed with pdsA.
+
+Copyright q 1997 by Academic Press. All rights of reproduction in any form reserved.
+
+AID
+
+DB 8720
+
+/
+
+6x30$$$261
+
+11-06-97 23:01:38
+
+dba
+
+186
+
+Sucgang et al.
+
+introduced into PDE-null cells, aggregation and a degree of
+development were restored to the mutant cells only when
+the cells were plated at high densities. Under low-density
+monolayer conditions (see Materials and Methods), the
+transformants did not aggregate, regardless of the promoters
+controlling the introduced copies of pdsA. Transformants
+were maintained under stringent selection conditions to
+guarantee high copy numbers of the integrated pdsA, and
+presumably high expression levels of the protein. In addition, the isolates from each transformation were screened
+by Southern blot to confirm that the introduced pdsA was
+present in multiple copies. When the transformants were
+assayed for PDE activity, they expressed less than wild-type
+ePDE activity and less mPDE activity (Fig. 4). Northern
+blots of the transformants demonstrated that the introduced
+copies of pdsA made messenger RNA of the correct size
+(data not shown).
+A form of the PDE from which the AR has been cleaved
+is found exclusively in the secreted fraction. The 27 amino
+acids of the AR were deleted to test the hypothesis that it
+is involved in anchoring the PDE to the membrane. While
+this was not the case, we did find that, when constructs
+containing pdsA with the DAR modification were used to
+transform PDE-null cells, the transformant cells synthesized higher levels of ePDE and mPDE activities (Fig. 4).
+The AR is not needed for membrane attachment of the
+enzyme, but appears to be an inhibitory domain of the PDE
+protein. This inhibition is separate from that which occurs
+by interaction of the PDE and the PDI.
+The low PDE activity measured from uk7 transformants
+overexpressing pdsA mRNA may be caused by the inability
+to translate the messenger RNA or the synthesis of a protein
+that is less active. These two possibilities were distinguished by comparing the relative amounts of PDE protein
+in extracts containing identical amounts of PDE activity.
+Aliquots of supernatants from transformants of uk7 that
+contain equal units of PDE activity were immobilized on
+nitrocellulose as dot blots and detected using a PDE antibody. The supernatants from transformants with the DAR
+construct under control of the aggregation promoter exhibited a signal similar to the parental DH1 strain, while constructs with an intact PDE coding sequence showed more
+
+FIG. 5. Dot blot showing that transformants expressing the DAR
+construct have higher specific activity PDE. Cells were starved in
+shaking suspension for 8 h, and the supernatant was harvested,
+dialyzed against DTT to inactivate the PDI, and carefully assayed
+to determine the PDE activity. Equal units of enzyme extract were
+immobilized on nitrocellulose membrane, and the PDE was detected using the antibody raised against the main peptide (Fig. 2B).
+
+FIG. 6. Complementation of the PDE-null aggregate-less phenotype. (A) The phenotype of uk7 cells overexpressing pdsADAR from
+the aggregation promoter. (B) The phenotype when expression is
+from the vegetative/late promoters. If the two transformants are
+mixed in a 1:1 ratio, morphologically normal fruiting bodies are
+restored (C).
+
+cross-reacting material (Fig. 5). This was also true if the
+vegetative/late promoters were in control of the gene (not
+shown). Thus, removing the 27 amino acids of the acidic
+region increases the specific activity of the enzyme. This
+removal also occurs during the normal process of enzyme
+maturation in vivo, probably extracellularly.
+Unlike the transformants of uk7 with the complete PDE
+coding sequence, transformants carrying multiple copies of
+pdsADAR were able to aggregate under the low-density
+monolayer conditions, consistent with the ability of the
+DAR modification to make more functional PDE. The terminal phenotypes of the pdsADAR transformants depended
+on the promoters that controlled the gene. If the pdsADAR
+is under the control of the aggregation promoter, the transformants make stalk-like structures (Fig. 6A). Under the
+control of the vegetative and late promoters, the pdsADAR
+transformants stopped at the mound stage (Fig. 6B). This is
+the same phenotype observed when the pdsA is overexpressed in wild-type cells under the control of the vegetative/late promoters, and is thought to be a consequence of
+reducing the cAMP concentration within the mound
+(Traynor et al., 1992). If the two different transformants
+(PDE-nulls expressing pdsADAR from the aggregation promoter only and PDE-nulls expressing pdsADAR from the
+vegetative and late promoters only) were mixed in a 1:1
+
+Copyright q 1997 by Academic Press. All rights of reproduction in any form reserved.
+
+AID
+
+DB 8720
+
+/
+
+6x30$$$261
+
+11-06-97 23:01:38
+
+dba
+
+187
+
+Null Mutations of the Phosphodiesterase Gene
+
+ratio, morphologically normal fruiting bodies resulted (Fig.
+6C). Both the aggregation and the late promoters are necessary for normal development, although they do not have to
+reside in the same cells to produce a phenotypically normal
+fruiting body. The two types of transformant may have different fates within the apparently normal fruiting body.
+
+The form of aggregation, the behavior of cells in mounds,
+and the formation of slugs depend on the level of PDE. A
+small proportion of parental cells can restore development
+to PDE-null cells, but at low ratios of wild-type cells, the
+normal aggregation streams are not found. When PDE-null
+cells were mixed with parental cells in a ratio of 9:1, no
+
+FIG. 7. PDE-null cells move randomly in chimeric mounds. The PDE-null mutant strain uk7 was mixed with the parental strain DH1
+at a ratio of 9:1 (90% mutant to 10% wild type) and allowed to develop on agar plates. Prior to mixing, a small number of cells from
+either strain were labeled with CellTracker green. (A and C) Fluorescence images of early mounds generated from these mixtures. (B and
+D) Vector plots showing the direction of the movement of the labeled cells; the gray line denotes the boundary of the mound. (A) is from
+a mound with the parental DH1 cells labeled. In C, mutant cells were labeled.
+
+Copyright q 1997 by Academic Press. All rights of reproduction in any form reserved.
+
+AID
+
+DB 8720
+
+/
+
+6x30$$$261
+
+11-06-97 23:01:38
+
+dba
+
+188
+
+Sucgang et al.
+
+streams of migrating cells were observed, but aggregates
+still formed as single cells made their way directly into
+centers. The mounds that formed from these aggregates
+were smaller than those from 100% DH1 cells. Thus 10%
+of the normal PDE is insufficient to gather cells from a large
+territory. When the concentration of isogenic wild-type
+cells passes 20%, normal aggregation is progressively restored. We speculate that the elaborate regulation of pdsA
+has evolved to gather cells from a large area.
+In early mounds generated from the chimeric mixtures
+containing 10% DH1 cells, the optical density waves propagate as concentric rings from the center to the periphery,
+unlike the multiarmed spirals of the parental DH1 cells (R.
+Sucgang and C. Weijer, unpublished observations). No slugs
+formed from these mounds, which proceeded directly to
+culmination. This result suggests that slug formation requires substantial expression of PDE, and is consistent with
+the results of Wu et al. (1995), who showed that suppressing
+PDE by overexpressing PDI from a late-stage PDE promoter
+also blocked slug formation.
+Parental cells segregate from mutant cells in chimeric aggregates. We asked how the behavior of PDE-null cells in
+mounds differs from that of isogenic parental cells. Each cell
+population was labeled with a fluorescent dye, and time-lapse
+videomicroscopy was used to capture the movements of the
+labeled population as development proceeded. When 2% of
+the cells in a DH1 population (wild type) were fluorescently
+labeled, the labeled cells migrated into mounds and entered a
+characteristic spiral motion, with periodic changes in velocity
+similar to those observed during chemotactic aggregation
+(Siegert and Weijer, 1989). In a chimeric mound formed from
+a mixture of 10% DH1 cells (of which 20% were labeled)
+and 90% PDE-null cells, the wild-type cells have the directed
+motions characteristic of a mound made of 100% wild-type
+cells (Figs. 7A and 7B). In contrast, the mutant cells, which
+comigrated with parental cells during aggregation, did not
+move in a coordinated rotational manner in the mound (Figs.
+7C and 7D) and instead moved randomly. The images in Figs.
+7A and 7C are single frames in a series of captured images.
+The arrows in the vector plots in Figs. 7B and 7D show the
+movement of the cells over 16 frames, captured 20 s apart.
+Parental DH1 cells segregated from the mutant cells by moving into the center of the mound (Figs. 7A and 8).
+If the parental cells constituted the majority of the cells
+(2% PDE-null cells and 98% parental cells), early macroscopic aggregation phenomena such as dark-field waves and
+stream formation occurred, PDE-null cells still moved randomly in the mounds, and the wild-type cells were drawn
+by rotating waves into the center (data not shown), as was
+the case with the experiments shown in Figs. 7 and 8.
+As development proceeded, some PDE-null cells were recruited to the nascent tip. This is reflected in the finger and
+slug stages, where the labeled PDE-null cells populated the
+rear and tip regions of the slug (Figs. 9A and 9B). Figure 9C
+shows the PDE-null cells in the stalk and lower cup of
+chimeras. The lower cup is formed by the ALC population
+(Williams and Morrison, 1994). Figure 9F shows the sorting
+
+FIG. 8. Segregation of PDE-null and parental cells. Images of a
+single mound formed from 90% PDE-null cells and 10% parental
+cells, with subpopulations of each strain labeled with CellTracker
+green (parental) or CellTracker red (PDE-null cells). Fluorescently
+labeled cells of each kind constitute 2% of the total cell population.
+The initial gray scale images were pseudocolored to distinguish the
+double label and the two images were superimposed.
+
+of PDE-null cells to the papilla of the fruiting body, which
+is a prestalk region. Figure 9G shows cells that have been
+complemented with the modified pdsA described above;
+they no longer localize to the papilla, but populate the spore
+mass. When the parental cells in the chimeras were marked
+with CellTracker green, to locate the terminal fate of the
+wild-type cells, we found that they preferentially populated
+the spore mass (Figs. 9D and 9E).
+Segregation of PDE-null cells is also shown by PDE-null
+cells constitutively expressing the lacZ marker from a noncell-type-specific actin promoter (Fig. 10). Labeled wild-type
+cells distributed randomly throughout the aggregate and participated in both stalk and spore formation (data not shown).
+When lacZ-expressing PDE-null cells made up 20% of the
+population, they preferentially populated the rear of the slug
+(Fig. 10A). At higher proportions (80% uk7-A15gal:20%
+Ax3K), mutant cells could also be observed in the tip of the
+slug (Fig. 10B), although slugs form less frequently due to the
+reduced PDE. Mutant cells were observed throughout the
+stalk and the lower cup of the sorus (Fig. 10C). The uk7 cells
+were also labeled with neutral red, which stains an acidic
+autophagic vacuole that disappears in prespore cells (Fig. 11).
+In chimeras of 50% uk7 and 50% AX3, the stained cells were
+in the anterior compartment and in the rear of the slug, and
+in fruiting bodies the stained uk7 cells labeled the base of the
+fruiting body, the lower and upper cups, and the papilla. These
+
+Copyright q 1997 by Academic Press. All rights of reproduction in any form reserved.
+
+AID
+
+DB 8720
+
+/
+
+6x30$$$261
+
+11-06-97 23:01:38
+
+dba
+
+189
+
+Null Mutations of the Phosphodiesterase Gene
+
+FIG. 9. Behavior of PDE-null cells in postaggregation stages. PDE-null cells were labeled with the fluorescent dye CellTracker green and
+mixed at a ratio of 1:50 with parental cells. (A) The PDE-null cells coaggregated with the parental cells, but when the slug formed, labeled
+cells were found mostly in the rear end of the slug (arrow). (B) An image of a slug oriented toward the viewer. The tip is in focus and is
+encircled with a solid white line, demonstrating that a number of the fluorescently labeled PDE-null cells were present there. The body
+of the slug is out of focus, and the border is denoted by the broken line. (C) The chimeric fruiting body. (D) A fruiting body formed from
+a mixture of 10% parental DH1 cells with 90% PDE-null cells. One-fifth of the parental cells were labeled with CellTracker green. (E)
+The same fruiting body as in D, showing that the parental DH1 cells preferentially populate the spore mass. (F) A control mixture of 90%
+uk7 cells, 10% DH1 cells, with 2% of the uk7 cells labeled. The labeled cells are in the papilla. The white line delineates the border of
+the structures. (G) A chimera formed from DH1 cells and uk7 cells transformed with pdsADAR under the control of the vegetative/late
+promoters. Transformant cells were labeled with CellTracker green. During the slug stage, transformants also were found throughout the
+structure, akin to wild-type cells (not shown).
+
+are the regions that in wild-type strains contain prestalk cells
+and anterior-like cells.
+If a cell in a chimera is at a disadvantage, this should
+be reflected in the less efficient formation of spores. The
+spores from chimeric mixtures exhibited far fewer PDEnull cells than the starting population (Table 1), indicating that PDE-null cells are less likely to differentiate into
+spores, even if surrounded by a fivefold excess of parental
+cells producing PDE.
+
+DISCUSSION
+Defined mutations in critical genes offer a way to compare mutants with isogenic parents. We have disrupted the
+
+gene that codes for the cyclic nucleotide phosphodiesterase,
+which controls extracellular cAMP levels and hence the
+chemotactic responsiveness of cells at several stages of development. Gene disruption mutants made an altered PDE
+mRNA, consistent with the localization of the insert in the
+3* end of the gene, but no gene product could be detected
+by enzyme assay or by Western blots.
+In the Dictyostelium PDE a stretch of 27 acidic amino
+acids (AR) follows the signal peptide; this region is normally
+removed in the enzyme that is secreted into the medium.
+Only with constructs which lack the AR could complete
+complementation be achieved, allowing cells to aggregate
+and develop at low cell densities. We postulate that this is
+
+Copyright q 1997 by Academic Press. All rights of reproduction in any form reserved.
+
+AID
+
+DB 8720
+
+/
+
+6x30$$$261
+
+11-06-97 23:01:38
+
+dba
+
+190
+
+Sucgang et al.
+
+FIG. 10. PDE-null cells preferentially populate prestalk and stalk regions in chimeras. The PDE-null strain uk7 was marked by introducing
+a constitutively expressed copy of the bacterial lacZ. (A) A pair of slugs formed from a mixture of 10% uk7 with 90% Ax3K; blue cells
+are seen almost exclusively in the rear-guard population. If the proportion of PDE-null cells is increased to 80% of the total population,
+the incidence of slug formation decreases, but slugs that form have the PDE-null cells present in the tip of the slug as well (B). Later, Xgal-stained cells appear in the stalk and lower cup of the fruiting body (C).
+
+due to the higher enzyme specific activity. This conclusion
+is based on enzyme assays during time courses of development. Normalizing the results of enzyme assays to the
+amount of cross-reacting material detected in dot blots indicates that the specific activity of the enzyme is increased
+when it lacks the AR. The complementation studies also
+
+showed that the aggregation-specific and the later prestalkspecific promoters are both necessary for normal development. Complementation with constructs driven by either
+promoter alone results in an aggregate, but not a complete
+fruiting body. When the two strains are mixed, development
+of mature fruiting bodies is restored.
+
+FIG. 11. PDE-null cells in chimeras express prestalk cell-specific structures. Neutral red-labeled uk7 or AX3 cells were mixed with an
+equal number of unstained AX3 cells. Aggregates were allowed to form on agar, and the dish was wrapped so that only a slit was open
+to admit light. The slugs formed and migrated toward the light for 36 h before they were photographed.
+
+Copyright q 1997 by Academic Press. All rights of reproduction in any form reserved.
+
+AID
+
+DB 8720
+
+/
+
+6x30$$$261
+
+11-06-97 23:01:38
+
+dba
+
+191
+
+Null Mutations of the Phosphodiesterase Gene
+
+TABLE 1
+PDE-Null Cells in a Chimera Have a Decreased Probability of Forming Sporesa
+Method of
+killing nonspores
+Heating
+Detergent
+
+Time of scoring
+
+Total no. of
+clones scored
+
+No. of
+PDE-null clones
+
+% PDE-null cells
+in the chimera
+
+Before development (vegetative cells)
+After development (spores)
+Before development (vegetative cells)
+After development (spores)
+
+103
+699
+710
+851
+
+17
+23
+136
+11
+
+16.5%
+3.3%
+19.5%
+1.3%
+
+a
+
+Mixtures of PDE-null cells and parental cells were made, and the ratio was determined by plating them on lawns of K. aerogenes. The
+proportion of mutant cells was determined by scoring the number of flat plaques compared to the total number of clones. The mixture
+was permitted to develop, and the cells were harvested after culmination. Cells that failed to become spores were killed by heat treatment
+or washing in detergent.
+
+cAMP serves a chemotactic role during aggregation, but
+the details of its role in later development are still being
+elaborated. We therefore examined the behavior of PDEnull cells in chimeras with isogenic parental cells. Because
+PDE is an extracellular enzyme and is exported by a secretory pathway, we expected that mixing a few PDE-null cells
+with a large number of wild-type cells would compensate
+for the defect in the null cells. During aggregation, when
+the cells are relatively separate, this is apparently the case.
+PDE-null cells move into aggregates in a normal way. Once
+the cells have converged, in the much closer confines of the
+aggregate, the PDE-null cells behave differently. In mounds,
+the parental cells move in concentric circles around signaling centers at the apex of the mound. The PDE-null cells,
+even when present as a small minority (1 in 50), fail to move
+in the directed manner of the PDE-expressing cells. We interpret this to mean that the cAMP receptors (either cAR1,
+which is generally expressed, or cAR2, which is prestalk
+specific) are not properly deadapted. As shown in Fig. 3,
+this appears to be the case for the cAR1 transcript during
+aggregation.
+One explanation for the results is that PDE from adjacent
+cells does not suffice because deadaptation depends on the
+close association of PDE and cAMP receptors. It has recently been shown that cAR1, adenylate cyclase, and PDE
+coexist in plasma-membrane microdomains (Xiao and
+Devreotes, 1997), and it is possible that full signal attenuation
+is only achieved when PDE exists in this configuration.
+There is no reason to believe that the pdsA gene product
+has a cytosolic effect on cAMP as an intracellular signaling
+molecule. It is a glycosylated enzyme with a leader sequence, which presumably is efficiently sorted to membranous compartments of the secretory pathway and the extracellular space. Recently, an intracellular phosphodiesterase
+was described (Shaulsky et al., 1996). This gene, called regA,
+produces a PDE that is cAMP specific (G. Shaulsky and
+W. F. Loomis, pers. comm.).
+In chimeras of PDE-null cells and parental cells, the mutant cells fail to follow the circular pattern of the parental
+cells. The consequence is that eventually the parental cells
+tend toward the center of the aggregate, and many of the
+
+PDE-null cells are left at the periphery. The next step in
+development, following the mound stage, is an elongation
+of the mound to form a structure called a finger or standing
+slug. This occurs under the control of the centrally located
+apical tip and pulls up centrally located cells first. The cells
+on the periphery of the mound are left to form the rear of
+the slug, as shown in Figs. 9 and 10. A few of the PDE-null
+cells migrate to the tip and form the papilla, stalk cells, and
+lower cup. Only a minority of the null cells form spores, a
+number which can be quantified. If the effect of the mutation had been nil, and PDE from other cells could compensate, we would expect 80% of the PDE-null cells to form
+spores. Instead, only 6–20% of the expected number of
+spore cells are made by the PDE nulls (Table 1). The results
+show that cAMP is a critical signaling molecule in the
+mound and during later stages and that its degradation is a
+cell-autonomous event.
+
+ACKNOWLEDGMENTS
+The authors gratefully acknowledge Jens Rietdorf, Dirk Dormann, Victor Zaydfudim, and Judy Venuti for their assistance. This
+work was supported by NIH Grant GM33136 to R.H.K.
+
+REFERENCES
+Barra, J., Barrand, P., Blondelet, M. H., and Brachet, P. (1980). pdsA,
+a gene involved in the production of active phosphodiesterase
+during starvation of Dictyostelium discoideum amoebae. Mol.
+Gen. Genet. 177, 607–613.
+Bonner, J. T. (1952). The pattern of differentiation in amoeboid
+slime molds. Am. Naturalist 86, 79–89.
+Bulgakov, R., and Van Haastert, P. J. M. (1983). Isolation and partial
+characterization of a cyclic GMP-dependent phosphodiesterase
+from Dictyostelium discoideum. Biochim. Biophys. Acta 756,
+56–66.
+Caterina, M. J., Milne, J. L. S., and Devreotes, P. N. (1994). Mutation of the third intracellular loop of the cAMP receptor, cAR1,
+of Dictyostelium yields mutants impaired in multiple signaling
+pathways. J. Biol. Chem. 269, 1523–1532.
+
+Copyright q 1997 by Academic Press. All rights of reproduction in any form reserved.
+
+AID
+
+DB 8720
+
+/
+
+6x30$$$261
+
+11-06-97 23:01:38
+
+dba
+
+192
+
+Sucgang et al.
+
+Cotter, D., and Raper, K. (1968). Properties of germinating spores
+of Dictyostelium discoideum. J. Bacteriol. 96, 1680–1689.
+Early, A. E., and Williams, J. G. (1987). Two vectors which facilitate
+gene manipulation and a simplified transformation procedure for
+Dictyostelium discoideum. Gene 59, 99–106.
+Faure, M., Franke, J., Hall, A. L., Podgorski, G. J., and Kessin, R. H.
+(1990). The cyclic nucleotide phosphodiesterase gene of Dictyostelium discoideum contains 3 promoters specific for growth, aggregation, and late development. Mol. Cell. Biol. 10, 1921–1930.
+Faure, M., Podgorski, G. J., Franke, J., and Kessin, R. H. (1989). Rescue of a Dictyostelium discoideum mutant defective in cyclic
+nucleotide phosphodiesterase. Dev. Biol. 131, 366–372.
+Franke, J., and Kessin, R. (1977). A defined minimal medium for
+axenic strains of Dictyostelium discoideum. Proc. Natl. Acad.
+Sci. USA 74, 2157–2161.
+Franke, J., Faure, M., Wu, L., Podgorski, G. J., and Kessin, R. H.
+(1991). Cyclic nucleotide phosphodiesterase of Dictyostelium
+discoideum and its glycoprotein inhibitor: Structure and expression of their genes. Dev. Genet. 12, 104–112.
+Franke, J., Podgorski, G. J., and Kessin, R. H. (1987). The expression
+of two transcripts of the phosphodiesterase gene during the development of Dictyostelium discoideum. Dev. Biol. 124, 504–511.
+Hall, A. L., Franke, J., Faure, M., and Kessin, R. H. (1993). The role
+of the cyclic nucleotide phosphodiesterase of Dictyostelium discoideum during growth, aggregation, and morphogenesis: Overexpression and localization studies with the separate promoters
+of the pde. Dev. Biol. 157, 73–84.
+Hereld, D., and Devreotes, P. N. (1992). The cAMP receptor family
+of Dictyostelium. Int. Rev. Cytol. 137B, 35–47.
+Howard, P. K., Ahern, K. G., and Firtel, R. A. (1988). Establishment
+of a transient expression system for Dictyostelium discoideum.
+Nucleic Acids Res. 16, 2613–2623.
+Jacquet, M., Guilbaud, R., and Garreau, H. (1988). Sequence analysis of the DdPYR5-6 gene coding for UMP synthase in Dictyostelium discoideum and comparison with orotate phosphoribosyl
+transferases and OMP decarboxylases. Mol. Gen. Genet. 211,
+441–445.
+Jermyn, K. A., Duffy, K. T., and Williams, J. G. (1989). A new anatomy of the prestalk zone in Dictyostelium. Nature 340, 144–
+146.
+Lacombe, M. L., Podgorski, G. J., Franke, J., and Kessin, R. H.
+(1986). Molecular cloning and developmental expression of the
+cyclic nucleotide phosphodiesterase gene of Dictyostelium discoideum. J. Biol. Chem. 261, 16811–16817.
+Malchow, D., Nagele, B., Schwartz, H., and Gerisch, G. (1972).
+Membrane-bound cyclic AMP phosphodiesterase in chemotactically responding cells of Dictyostelium discoideum. Eur. J. Biochem. 28, 136–142.
+Mee, J. D., Tortolo, D. M., and Coukell, M. B. (1986). Chemotaxis-
+
+associated properties of separated prestalk and prespore cells of
+Dictyostelium discoideum. Biochem. Cell Biol. 64, 722–732.
+Saxe, C. L., III, Johnson, R. L., Devreotes, P. N., and Kimmel, A. R.
+(1991). Expression of a cAMP receptor gene of Dictyostelium and
+evidence for a multigene family. Genes Dev. 5, 1–8.
+Shapiro, R. I., Franke, J., Luna, E. J., and Kessin, R. H. (1983). A
+comparison of the membrane-bound and extracellular cyclic
+AMP phosphodiesterases of Dictyostelium discoideum. Biochim. Biophys. Acta 758, 49–57.
+Shaulsky, G., Kuspa, A., and Loomis, W. F. (1995). A multidrug
+resistance transporter serine protease gene is required for prestalk
+specialization in Dictyostelium. Genes Dev. 9, 1111–1122.
+Shaulsky, G., Escalante, R., and Loomis, W. F. (1996). Developmental signal transduction pathways uncovered by genetic suppressors. Proc. Natl. Acad. Sci. USA 93, 15260–15265.
+Siegert, F., and Weijer, C. (1989). Digital image processing of optical
+density wave propagation in Dictyostelium discoideum and analysis of the effects of caffeine and ammonia. J. Cell Sci. 93, 325–
+335.
+Siegert, F., and Weijer, C. J. (1992). Three-dimensional scroll waves
+organize Dictyostelium slugs. Proc. Natl. Acad. Sci. USA 89,
+6433–6437.
+Siegert, F., and Weijer, C. J. (1995). Spiral and concentric waves
+organize multicellular Dictyostelium mounds. Curr. Biol. 5,
+937–943.
+Siegert, F., Weijer, C. J., Nomura, A., and Miike, H. (1994). A gradient method for the quantitative analysis of cell movement and
+tissue flow and its application to the analysis of multicellular
+Dictyostelium development. J. Cell Sci. 107, 97–104.
+Steinbock, O., Siegert, F., Muller, S. C., and Weijer, C. J. (1993).
+Three-dimensional waves of excitation during Dictyostelium
+morphogenesis. Proc. Natl. Acad. Sci. USA 90, 7332–7335.
+Traynor, D., Kessin, R. H., and Williams, J. G. (1992). Chemotactic
+sorting to cAMP in the multicellular stages of Dictyostelium
+development. Proc. Natl. Acad. Sci. USA 89, 8303–8307.
+Wang, B., and Kuspa, A. (1997). Dictyostelium development in the
+absence of cAMP. Science 277, 251–254.
+Williams, J., and Morrison, A. (1994). Prestalk cell-differentiation
+and movement during the morphogenesis of Dictyostelium discoideum. Prog. Nucleic Acid Res. Mol. Biol. 47, 1–27.
+Wu, L., Franke, J., Blanton, R. L., Podgorski, G. J., and Kessin, R. H.
+(1995). The phosphodiesterase secreted by prestalk cells is necessary for Dictyostelium morphogenesis. Dev. Biol. 167, 1–8.
+Xiao, Z., and Devreotes, P. N. (1997). Identification of detergentresistant plasma membrane microdomains in Dictyostelium: Enrichment of signal transduction proteins. Mol. Biol. Cell 8, 855–
+869.
+Received for publication June 16, 1997
+Accepted August 19, 1997
+
+Copyright q 1997 by Academic Press. All rights of reproduction in any form reserved.
+
+AID
+
+DB 8720
+
+/
+
+6x30$$$261
+
+11-06-97 23:01:38
+
+dba
+
+

@@ -1,0 +1,1049 @@
+THEJOURNAL OF BIOLOGICAL
+CHEMISTRY
+0 1984 by The American Society of Biological Chemists, Inc.
+
+21,
+
+No.
+Vol. 259,
+
+Issue of November 10, pp. 13321-13328.1984
+
+Printed in U.S.A.
+
+Demonstration of Receptor Heterogeneity and Affinity Modulation by
+Nonequilibrium Binding Experiments
+THE CELL SURFACE cAMP RECEPTOR OF DICTYOSTELIUM DZSCOIDEUW
+(Received for publication, January 18,1984)
+
+Peter J. M.Van Haastert andRene J. W. D e Wit
+From the CeU Bwbm and Momho,eenesis Unit. Zooloaical
+- Laboratory, University of Leiqlen, Kaiserstruat 63, NL 231 1 GP
+Leiden, The Netherlands
+"
+
+The binding of ['H]cAMP to Dictyostelium discoideum cells was analyzed on a seconds time scale under
+both equilibrium and nonequilibrium conditions. The
+binding of ['HICAMP increases rapidlyto a maximum
+obtained at about 6 s, which is followed by a decrease
+to an equilibrium value reached at about 45 a. This
+decrease of [8H]cAMPbinding is not the resultof ligand
+degradation or isotope dilution by CAMPsecretion but
+is due to a transition of high-affinity binding to lowaffinity binding.
+Analysis of the dissociation rate of ['HICAMP from
+the binding sites indicates that these high- and lowaffinity binding sites are both fast dissociating with a
+half-life of about 1 s. In addition, these dissociation
+experimentsreveal a third binding type which is
+slowly dissociating with a half-life of about 15 s. The
+number and affinity of these slowly dissociating sites
+does not change duringthe incubation with ['HICAMP.
+The drugs caffeine and chlorpromazine donot
+change the total number of binding sites, but they
+change the ratio of the three binding types. In the
+presence of 10 m~ caffeine almost all binding sitesare
+in the low affinity conformation, while in the presence
+of 0.1 mM chlorpromazine the ratio is shifted to both
+the high-affinity type andslowly dissociating type.
+The results indicate that the
+CAMP-binding activity
+of D. discoideum cells is heterogeneous. In the absence
+of cAMP about 4% of the sites are slowly dissociating
+with & = 12.5 nM, about 40% are fast dissociating
+with high affinity ( K d = 60 nM), and about 60% are
+fast dissociating with low affinity (Kd
+= 450 nM). During the binding reaction the number of slowly dissociating sites does not change. The number of highaffinity sites decreases to a minimum of about 10%
+with a concomitant increase of low-affinity sites to
+about 90%. This transition of binding types shows
+first-order kinetics with
+a half-life of about 9 a. A halfmaximal transition is induced by 12.5 n M CAMP.
+The binding of many hormones to specific receptor proteins
+shows nonlinear Scatchard plots, which may have different
+molecular mechanisms (1)such as (i) binding site heterogeneity, i.e. two or more receptor sites with different affinities,
+*This work was supported by the Foundation for Fundamental
+Biological Research (BION) which is subsidized by the Netherlands
+Organization for the Advancement of Pure Science (ZWO). The costs
+of publication of this article were defrayed in partby the payment of
+page charges. This article must therefore be hereby marked "aduertisement" in accordance with 18U.S.C. Section 1734 solely to indicate
+this fact.
+
+(ii) a hormone-dependent alteration of the number of binding
+sites (cf. down.regulation), (iii) a hormone-dependent alteration of the affinity of the binding sites by site-site interaction
+(cooperativity)or byincreased probability of occupied binding
+sites to attain another conformation (affinity modulation).
+Discrimination between these possibilities isnecessary to
+understand the mechanism of action of the hormone. Equilibrium binding experiments are in general not sufficient to
+reveal the processes underlying the nonlinear nature of the
+Scatchard plot. In nonequilibrium kinetics the approach to a
+new equilibrium state is measured after disturbing an old
+equilibrium. This may often yield the desired information to
+describe the hormone receptor interaction at a molecular level
+(2-9). In thisreport we describe those nonequilibrium binding
+experiments for the cell surface cAMP receptor of Dictyostelium discoideum.
+cAMP acts as a first messenger in the cellular slime mold
+D. discoideum(10). Cells of this species feed on bacteria.
+Exhaustion of their food supply induces cell aggregation which
+is mediatedby chemotaxis (11)to cAMP (12).This nucleotide
+does not penetrate the cells (13) but is detected by cell surface
+receptors (14-17).
+Equilibrium binding of cAMP to D. discoideum cells shows
+nonlinear Scatchard plots (15, 18), which have been interpreted as one class of binding sites with negative cooperativity
+or as two classes of binding sites with different affinities.
+Several observations suggest the involvement of negative
+cooperativity or at least a verycloseresemblance
+of the
+different binding types. (i) cAMP accelerates the dissociation
+of the CAMP-receptor complex (18);
+(ii) the binding of low or
+high 13H]cAMPconcentrations is competed by CAMP derivatives with very similar specificity (19); (iii) photoaffinity
+labeling with 8-azidoadenosine 3',5'-[32P]monophosphate
+yields onlyone radioactive labeled protein (20).
+The addition of cAMP to a suspension ofD. discoideum
+'cells induces several responses such as a transient increase of
+cGMP levels, the excretion of protons, the methylation of
+proteins and phospholipids,dephosphorylationof myosin,and
+the entrance of calcium(seeRefs. 21-24). Thetransient
+increase of cGMP levels isthe first response observed;cGMP
+levels change within 2 s after stimulation and reach a peak
+after 10 s. Recently we have analyzed the temporal components of the CAMP-mediated cGMP response (24) which
+revealed that cAMP is detected within 1 s. Transduction of
+the cAMP signal is terminated within a few seconds by an
+adaptation process (24). Although we have only scarceinformation on the biochemical nature of this adaptation process,
+experiments with different stimuli have revealedthat itmust
+be localized in the transduction chain at the cAMP receptor
+or somewhere betweenreceptor and guanylate cyclase (25).
+
+13321
+
+This is an Open Access article under the CC BY license.
+
+13322
+
+Kinetics of cAMP Binding toD. discoideum Cells
+
+To obtain more information on the
+properties of CAMP
+detection, transduction of the cAMP signal, and adaptation
+to CAMP,we have developed a receptor binding assay, which
+can detectcAMP binding within 2 s after the addition of the
+ligand to t h e cells. Three binding types with different affinities are recognized. cAMP affects the proportioning of these
+bindingtypes, thus givingriseto
+the concavedownward
+Scatchard plot observedat equilibrium.
+EXPERIMENTALPROCEDURES
+M~teriak-[2,8-~H]cAMP (1.5 TBq/mmol) andthe cGMP radioimmunoassay kit were purchased from the Radiochemical Centre,
+Buckinghamshire, U.K.; cAMP was from Boehringer Mannheim,
+F.R.G.; caffeine was from the British Drug House, Poole, U.K.; and
+chlorpromazine and dithiothreitol were from Sigma. Siliconoil AR 20
+and AR 200 were obtained from Wacker Chemie, Munchen, F.R.G.
+Culture Conditions-D. discoideum cells NC-4(H) were grown in
+association with Escherichia coli 281 on a solid medium containing
+3.3 g of peptone, 3.3 g of glucose, 4.5 g of KH2P04,1.5 g of Na2HP04.
+2H20 and 15 g of agar per liter. Cells were harvested in the late
+logarithmic phase with 10 mM sodium/potassium phosphate buffer,
+pH 6.5 (Pb buffer), and freed from bacteria by repeated centrifugations at 100 X g for 4 min.
+CAMPBinding Assay-Cells were starved for 5 h by shaking inPb
+buffer at a density of lo7 cells/ml, washed twice in Pb buffer, and
+resuspended in Pb buffer at a density of 1.1 X 10s cells/ml. During
+the experiment the cell suspension was aerated a t a flow rate of about
+15 ml of air/ml of suspension/min. cAMP binding was measured a t
+22 "C by mixing 80 pl of the cell suspension with 40 pl of a solution
+containing Pb buffer, 22.5 mM dithiothreitol, different concentrations
+[3H]cAMP,and additives such as caffeine and chlorpromazine. After
+mixing, the solution was added to a test tube containing 10 pl of 10%
+sucrose and 220 pl of siliconoil (AR 20AR 200 = 2:l). At the times
+indicated the cells were separated from the incubation liquid by
+centrifugation through the oil in a homemade small swing-out rotor
+at about 10,000 X g for 15 s.
+The technique for very short incubation times ( t I5 s) was as
+follows. The piston of a 500-pl automatic pipette (Gilson PlOOO set
+at 500 pl) was pressed completely. The cell suspension (80 pl), an air
+bubble (-50 pl), and the [3H]cAMP solution (80 pl) were carefully
+taken into the pipette. The tipof the pipette was placed close to the
+siliconoil-containing tube placed into a centrifuge, which was slightly
+modified so that it could operate without a lid. A t = 0 s the piston
+of the pipette was released quickly, by which about 300 pl of air enter
+the pipette. This results in the removal of the barrier caused by the
+air bubble, and the cell suspension is rapidly and vigorously mixed
+with [3H]cAMP. The piston was then pressed again, and the cell
+suspension was layered on topof the siliconoil. Then thepipette was
+withdrawn from the centrifuge, and centrifugation was started. The
+actual incubation time (between the release of the piston and the
+start of the centrifuge) was recorded with a stopwatch. After some
+experience an incubation period of 1.5 s was routinely obtainable.
+After centrifugation, the tubes were frozen in liquid nitrogen, the
+bottoms of the tubes containing the sucrose and the cell pellet were
+cut, and the radioactivity was determined by liquid scintillation
+counting. Nonspecific binding was measured by including about 0.1
+mM cAMP in the incubation mixture and was subtracted from all
+data shown.
+cGMP Stimulation-Cells were starved on non-nutrient agar a t a
+density of 1.5 X lo6 cells/cm2 for 4-5 h, harvested, washed twice, and
+suspended in Pb buffer a t a density of 10' cells/ml. Aliquots (100 pl)
+were preincubated with 20 pl of caffeine or chlorpromazine for 30 s.
+Then 20 p1 of CAMP (50 mM final concentration)were added, followed
+by the addition of 100 pl of 3.5%perchloric acid (v/v). Lysates were
+neutralized with 50 pl ofKHCO3 (50% saturated a t 20 "C) and
+centrifuged at 8000 X g for 2 min. The cGMP content in 100 pl of
+the supernatantwas measured radioimmunologically (24).
+RESULTS
+Binding of 30 nM [3H]cAMP to D. discodeurn cells increases rapidly after adding the ligand (Fig. lA). Half-maxiis reached at about 1.5 s. A maximum of
+malbinding
+[3H]cAMP binding is obtained
+at about 6 s, which is followed
+at
+by a decrease to an apparent equilibrium value approached
+
+about 45-60 s. Fig. 1B demonstrates that the decrease of
+[3H]cAMP binding between 10 and 30 s follows first-order
+kinetics witha rate constant of 0.08 s" (tlIz
+= 9 9). [3H]cAMP
+at other [3H]
+association experiments were also performed
+cAMP concentrations. The decay of [3H]cAMPbinding, observed at 10 and 100 nM, also showed first-order kinetics with
+about t h e same rate constant. However, at 2 nM [3H]cAMP
+this time-dependent decrease is absent, while at concentrations above 200 nM itbecomesrelatively
+small (data not
+shown).
+6'
+
+A
+
+e
+
+x
+E 4 -
+
+P
+
+L
+0
+
+0
+
+10
+
+20
+
+30
+
+40
+
+50
+
+60
+
+seconds
+
+2004
+
+D
+
+seconds
+FIG. 1. The kinetics of association of ['HICAMP to D. discoideum cells. A, inapipette
+were sucked up 80 pl of a cell
+suspension (8.8 X 10' cells), about 50 pl of air, and 40 pl of a solution
+which yields after mixing 10 mM phosphate buffer, pH 6.5, 7.5 mM
+dithiothreitol, 30 nM [3H]cAMP (about 135,000 cpm) and 0 or 2 mM
+caffeine. At t = 0 8,300 p1 of air were sucked into thepipette, which
+caused mixing of cells with [3H]cAMP.The suspension was immediately layered on top of 220 pl of siliconoil. At the times indicated the
+cells were rapidly separated from the liquid by centrifugation in a
+swing-out rotor. The cell-associated radioactivity was determined.
+Nonspecific binding was measured by including 0.1 mM cAMP in the
+incubation mixture. The value (900 cpm) was constant between 6 and
+60 s and was subtracted from all data. Each point is a single determination, except the points a t 45 and 60 s which are the means of
+triplicate determinations. 0, control; 0, with 2 mM caffeine. B,
+semilogarithmic plot of the data of A. (Y = cpm bound a t t - cpm
+bound at equilibrium (60 s). The straight line indicates a decay of
+[3H]cAMP binding between 10 and 30 s which follows first-order
+kinetics with a rate constantk = 0.08 s-'. C, experiment as described
+in A, except that at the
+indicated times the suspensions were pipetted
+into a tube containing 100 pl of perchloric acid 3.5% (v/v). Degradation of [3H]cAMPwas measured as described (24). D,eighty pl of a
+cell suspension (8.8 X lo6 cells) were mixed with 40 pl of cAMP
+solution (final concentrations 30 nM CAMP, 7.5nM dithiothreitol,
+with or without 2 mM caffeine). At the times indicated 100 pl of
+perchloric acid were added for the detection of total CAMP,or samples
+were centrifuged briefly (5 s a t 10,000 X g), and the supernatantwas
+added to 100 p1 of perchloric acid for the determination of extracellular CAMP. After neutralization of the lysates, cAMP was determined by the Gilman assay (27). 0, total cAMP 0, total cAMP in
+the presence of 2 mM caffeine; A, extracellular CAMP. The results
+shown are from a typical experiment repeated two times.
+
+Kinetics of CAMPBinding to D. discoideum Cells
+Two trivial explanations for the decrease of [3H]cAMP
+binding after 10 s are the degradation of the ligand or the
+dilution of [3H]cAMPwith cAMP secreted by the cells. Degradation is less than 5% during the first 30 s of the binding
+assay (Fig. IC). [3H]cAMP stimulation induces astrong
+cAMP response in the cells; however, this cAMP is secreted
+only after 1 min (Fig. 1D). Furthermore, caffeine has been
+shown to be a strong inhibitorof the CAMP-mediated cAMP
+response (26). Although this drug alters cAMP binding, relatively low concentrations completely inhibit the cAMP response, while the decrease of [3H]cAMPbinding is still present (Fig. 1,A and D).
+These observations indicate that changes of the binding
+site rather than of the ligand concentration are responsible
+for the peculiar binding kinetics of [3H]cAMP.
+The number of binding sites as well as thebinding affinity
+may decrease during the incubation with [3H]cAMP.Therefore, Scatchard analysis was made at thetime point of maximal [3H]cAMPbinding (6 s) and at the moment of apparent
+equilibrium binding (45 s). This reveals(Fig. 2) that the
+number of binding sites does not change during the incubation. Furthermore, both curves intersect the ordinate at approximately the same point, which represents the association
+of the first cAMP molecule to a binding site. These results
+suggest that at first cAMP binds to high-affinity sites which
+convert to low-affinity sites in a time-dependent manner.
+This conversion is also cAMP dose dependent with almost no
+conversion at 2 nM cAMP and maximal conversion at concentrations above 100 nM.
+The dissociation of the [3H]cAMP-receptor complex was
+measured to obtain more information on these high- and lowaffinity binding types. Cells were incubated with 2 nM 13H]
+cAMP (high-affinity binding) or 100 nM [3H]cAMP (lowaffinity binding) till equilibrium (45 s). Then excess cAMP
+was added and bound radioactivity was measured (Fig. 3).
+
+Bib
+
+ionM
+/
+
+lk I
+
+13323
+seconds
+
+O
+
+i
+
+-3A
+
+0
+
+,
+
+2
+
+4
+
+6
+
+bound (nM)
+
+8
+
+FIG. 2. Scatchard plot of equilibrium and pre-equilibrium
+binding. The binding of different r3H]cAMP concentrations (2, 4,
+10,30,100,200,400,1000,2000
+nM) was measured at equilibrium (45
+s, 0 ) and at the maximum of cAMP binding (6 s, 0).The results
+shown are the means of 15 (0)or 3 (0)independent experiments
+each in triplicate. A maximum binding of 8 nM equals about 8 X 10'
+binding sites/cell.
+
+0
+
+FIG. 3. Dissociation of the ['HICAMP-receptor complex. A
+suspension (120 pl) containing 8.8 X lo6cells, 2 or 100 nM [3H]cAMP,
+7.5 mM dithiothreitol, and Pbbuffer was incubated for 45 s and then
+rapidly mixed with 6 pl of 2 mM cAMP with a technique as described
+in the legend to Fig. 1A. At the times indicated, cells were centrifuged
+through siliconoil, and the cell-associated radioactivity was determined. Nonspecific binding was measured by including 0.1 mM cAMP
+during the entire incubation mixture. b(t) is the specific binding at t
+seconds after the cAMP chase. 0, dissociation after binding with 2
+nM [3H]cAMP 0,with 100 nM [3H]cAMP.
+
+The release of cell-associated ['HH]cAMP is very fast. Most of
+the radioactivity dissociates after binding at 2 or 100nM [3H]
+cAMP with a half-life of about 1.5or 0.7 s, respectively.
+However, a small but significant portion of the radioactivity
+dissociates more slowly with a half-life of about 15 s at both
+ligand concentrations. About 27% of the specific binding of 2
+nM [3H]cAMP is bound to this slowly dissociating binding
+type; this figure is 13% at 100 nM 13H]cAMP.
+The slowly dissociating binding type (which is further referred to as "slow," abbreviated as S) was studied in more
+detail by Scatchard analysis (Fig. 4). Cells were incubated
+with different i3H]cAMP concentrations for 45 s followed by
+the release of [3H]cAMPfrom the fast-dissociating complexes
+during a 8-9 incubation with excess CAMP.Residual binding
+after 8 s of dissociation shows a linear Scatchard plot with a
+dissociation constant of12.5nM. During the 8-s period at
+least 96-99% of the radioactivity is chased from the fastdissociating types; however, also 33% of the radioactivity
+bound to S dissociates during this period. The dashed line in
+Fig. 4B represents the Scatchard plot of S at the onset of
+dissociation. The number of S-binding sites is approximately
+4 % of the total number of CAMP-binding sites.
+S has high binding affinity. Is this binding type identical to
+the high-affinity binding which converts during the incubation period into low-affinity binding? If this were the case we
+would expect that thebinding of [3H]cAMPto S is high at 6
+s and decreases as the conversion from high-affinity to lowaffinity binding proceeds. Therefore, the association of [3H]
+cAMP to S was measured (Fig. 5). [3H]cAMPwas allowed to
+bind to the totalpopulation of binding sites during different
+time periods. Then excess cAMP was added, and S-specific
+binding was measured 8 s later. The results of Fig. 5A demonstrate that the hypothesis that S is identical to the highaffinity site which transfers to low-affinity binding is not
+valid.
+
+1 T\knM
+,
+
+l
+
+13324
+
+Kinetics of CAMP Binding to D. discoz2eum
+Cells
+This may suggest that S is a stable nonconvertible binding
+type for which the law of mass action is applicable,
+cAMP + S
+
+kl
+
+CAMP
+
+k-1
+
+- S.
+
+(1)
+
+Then, association of [3H]cAMPto S follows the equation,
+b(t) = b(a)(l - e - ( k ~ l C ~ P l + 1b ) ~
+
+(24
+
+-ln(l - b(t)/b(m))= (kl[cAMP] + k-&
+
+(2b)
+
+or
+where b(t) is the binding at t, and b(m) is the binding at
+equilibrium (45s).
+A replot of the data of Fig. 5A as the left-hand portion of
+Equation 2b uersus time yields straight lines for all concentrations (Fig. 5B). The slopes (8) of these l i e s equal
+kl[cAMP] k l .A replot .of 8 uersus [CAMP]also yields a
+straight line (Fig. 5C). The intersection with the abscissa
+yields the dissociation constant (Kd= 17 nM), the intersection
+with the ordinate yields the rate constant of dissociation
+= 0.054 s-'), and the slope yields the rate constant of association (kl = 3.3 X lo6 M-' s-'). This experiment shows that S
+has normal kinetic properties without changes of the number
+of binding sites or their affinity during the incubation with
+[3H]cAMP. This suggests that still two other binding types
+must exist to account for the observed negative cooperative
+interactions. These binding types are both fast dissociating
+(Fig. 3) and have high- and low-binding affinity (H and L,
+respectively).
+In Fig. 4B the binding of [3H]cAMP to S at equilibrium
+(dashed line) was calculated. Subtraction of these data from
+the total equilibrium binding (open symbols in Fig. 4A) yields
+
++
+
+bound (nM)
+
+FIG. 4. Scatchard plot of S . A, cells were allowed to bind different ['HICAMP concentrations till equilibrium (45 s). Then excess
+cAMP (2 pl of lo-* M) was added, and ['HICAMP binding was
+measured 8 s later. 0, binding before, and 0, binding after the 8-8
+chase with excess CAMP.B, enlargement of a part of A. The dashed
+line represents the Scatchard plotof S at the start
+of the cAMP chase
+(the rate constant of dissociation (0.05 8-l) predicts that about 33%
+of the occupied S sites dissociate during 8 8. The number of S sites
+(0.31 nM = 3100 sites/cell) is about 4% of the total binding sites. The
+slope represents the apparent dissociation constant, 16 = 12.5 nM.
+The results shown are the mean of 15 (0)or 3 (0)independent
+experiments each in triplicate.
+
+B
+c
+
+r
+
+I
+
+5
+
+0
+
+10
+
+15
+
+seconds
+
+I C
+
+.-20
+seconds
+
+I
+
+0
+
+20
+
+CAM^ (nM)
+
+40
+
+FIG. 5. Association of ['HICAMP to S . A, a 80-pl cell suspension was mixed with 40 pl of ['HICAMP. At the
+M), and
+times indicated M h e r binding of [3H]cAMPwas prevented by the addition of excess cAMP (2 pl of
+S-specific binding was measured by centrifugation of the samples after 8 8 . 0 , 2 nM; 0, 15 nM; A, 27.5 nM; A, 40
+nM ['HJcAMP. The binding at 45 and at60 s is approximately equal, indicating the attainment of equilibrium at
+45 8. Nonspecific binding was subtracted from all data.The results shown are themeans of triplicate determinations
+from a single experiment. B, replot of the data of A (same symbols). b(t) equals the specific binding at t, and b ( a )
+at equilibrium (45 9). C, replot of the dataof B (same symbols). B equals the slopes in B @ = kl[cAMP] + kl.The
+intercept with the abscissa equals - K d , yielding 16 = 16.5 nM, and the intercept with the ordinate equals k-l =
+0.056 s-'.
+
+13325
+
+Kinetics of CAMPBinding toD. discoideum Cells
+the binding to H + L (Fig. 6A).At low cAMP concentrations
+the binding is mainly to H, while at high concentrations
+(>lo0 nM), binding is mainly to L. However, the proportioning of H and L at these extremes of the cAMP concentration
+is not known. The fraction of H + L sites in H (aH)in the
+absence of cAMP is called $, and aH in the presence of large
+cAMP concentrations is called 4 ($ > 4). The cAMP dose
+dependence of the conversion of H to L is shown in Fig. 6B;
+a half-maximal conversion is induced by 12.5 nM.
+The Effect of Drugs on cAMP Binding-Since the proportioning constants $ and 4 are unknown for the present, it is
+not possible to use the data of Fig. 6A or Fig. 2 to calculate
+the binding affinities of H and L. Therefore, we have tested
+several drugs for an effect on the distribution of binding types
+with the aim to find a drug which fixes the binding sites in
+one of the H, L, or S binding types. Additionally, such a drug
+mayreveal the binding type which transduces the cAMP
+signal.
+The screening procedure consists of three steps. First the
+effect of different concentrations of drugs on the cGMP
+response and on the equilibrium binding of 2 nM [3H]cAMP
+was tested. At this low [3H]cAMP concentration all three
+binding types will be detected. In a second step thepositively
+responding drugs were tested for an effect on (a) the binding
+of 2 nM [3H]cAMP at equilibrium and at 8 s after a chase
+with excess cAMP (which yields information on S ) and (6)
+binding of 100 nM [3H]cAMP after 6 s of association and at
+[drug] ( M )
+
+FIG.7. Effect of caffeine and chlorpromazineon [8H]cAMP
+binding and on the CAMP-mediated cGMP response. A, the
+
+binding of 2 nM [3H]cAMPwas measured after 45 s in the presence
+of different concentrations of caffeine or chlorpromazine. Nonspecific
+binding in the presence of the drugs was also measured and subtracted
+from total binding. B, cells were preincubated with the drugs for 30
+a, followed by the addition of 50 nM cAMP (final concentration). The
+cells were lysed at 40 s by perchloric acid, and cGMP was measured
+in the neutralized lysates. The results shown are the means and
+standard deviations of three to six experiments each in triplicate. *,
+significantly above control; **, significantly below control. 0, chlorpromazine; 0, caffeine.
+
+0
+
+0
+
+2
+
+4
+
++
+
+1
+
+6
+
+8
+
+bound (nM)
+
+FIG. 6. Scatchard plot of H L. Replot of the data of Fig. 4.
+Binding to S at equilibrium (doshed line in Fig. 4B) was subtracted
+from total binding at equilibrium (open symbols in Fig. 4A). The
+result is shown in Fig. 6A. The fraction of H + L sites in the H
+conformation is called aH.Assume that aH = $ if [CAMP]= 0 and aH
+= @ if [CAMP] is large; then aH at any concentration of cAMP is
+
+given by aH = $ - ($ - 6)-where a and b are segments on the
+a + b'
+line which connects the measured point with the origin. In B aH is
+presented uersus [CAMP].The curve represents the equation
+aH =
+
+*- (*
+
+[CAMP]
+[CAMP] + 12.5 '
+
+See "Calculation of Binding Parameters" for an estimation of
+
+$ and 6.
+
+equilibrium (which yields information on the transfer of H to
+L). In the third step the
+drugs were tested for their effect on
+all binding parameters by Scatchard analysis at equilibrium
+conditions and at nonequilibrium conditions (6-s association
+and 8-5 chase). The two most interesting drugs, caffeine and
+chlorpromazine, will be treated below.'
+Caffeine inhibits the binding of 2 nM [3H]cAMP to about
+40% while it simultaneously enhances the cGMP response
+(Fig. 7). Chorpromazine has a different effect; cAMP binding
+is stimulatedby this drug, the cGMP response is slightly but
+significantly stimulated at low drug concentrations, and completely inhibited at high drug concentrations. The effects of
+these drugs on nonequilibrium binding data are shown in
+Table I. Caffeine has no effect on nonspecific binding. Chlorpromazine increases nonspecific binding to 220% at 0.1 mM.
+This effect increases at higher chlorpromazine concentrations
+up to 618% at 1 mM (data not shown). Caffeine inhibits 2 nM
+equilibrium binding about 47%. After a 8-5 chase with excess
+Caffeine and chlorpromazine were investigated because these
+
+drugs have been reported to interfere with cAMP relay and the cGMp
+
+response (23,26281, and, in the case of chlorpromazine, with CAMP
+binding (report of P. c. Newel1 at the British C e l l h r slim Mould
+Meeting, Stirling, Sept. 15, 1983).
+
+13326
+
+Kinetics of CAMPBinding to D. discoideum Cells
+TABLEI
+The effect of caffeine and chlorpromazineon mnequilibrium ['HICAMP binding
+
+no.
+
+Experiment
+
+Time
+
+IlM
+
+8
+
+2
+100
+
+6-60"
+6-60"
+
+58.7 f 1.3
+2531 f 67
+
+45
+
+Nonspecific binding
+1
+2
+
+2
+
+Specific binding
+3
+4
+5
+6 .
+
+modulation
+Affinity
+
+2
+
+(615)
+
+45
+
+Counta/min bound
+
+-
+
+['FilcAMP
+
+100
+100
+
+45
+
++ 8 offb
+6
+
+10 ~M
+
+0.1 mhf
+
+61.4 f 2.0
+2491 f 90
+
+130 f 4
+6004 f 192
+
+428 f 23
+1462 226 f 15
+81 f 3.0
+54 f 3.4
+9873 f 632
+5431 f 186
+5902 f 254
+16129
+4800 f 151
+1.67 f 0.13
+1.13 f 0.05
+
+f 60
+595 f 29
+16587 f 371
+f 447
+1.03 f 0.04
+
+Control chlommmazine
+caffeine
+
+Nonspecific binding does not change between
+6 and 60 8.
+Binding with 2 nM ['HICAMPfor 45 s followed by a chase with 0.1 mM cAMP for 8 8. The results shown are
+the means and standard deviationof triplicate determinationsof a typical experiment.
+e
+
+cAMP it appears that binding to S is inhibited about 33%. the calculated curve is within a 10%deviation of the observed
+Caffeine inhibits the 100 nM equilibrium binding slightly data. The kinetic constants of s are (Figs. 3-5, 8,and 9) Kd
+(19%), and binding at 6 s after association is only slightly = 12.5 f 3 nM and k-l = 0.05 f 0.015 s-'.
+larger than at equilibrium, which may indicate that the tran- By using the drugs caffeine and chlorpromazine it was
+sition from H to L does not take.place. These results suggest possible to alterate cAMP binding. Nevertheless, the total
+that caffeine partially inhibits thebinding of [3H]cAMPto S number of binding sites was not affected and neither were the
+and toH, but that binding to L is not strongly inhibited.
+binding constants of S (Kd and k-l). We make the assumption
+Chlorpromazine has a different effect. Equilibrium binding that these drugs also do not affect the binding constants (Kd
+at 2 nM cAMP is increased to 342%, and binding to S is and k-1) of H and L. Thus, we assume that the drugs only
+increased even to 735%. The effect on 100 nM binding is less change the proportioning of the three binding types. After
+pronounced. As with caffeine,binding at 6 s and at equilibrium having madethis assumption it is possible to establish the Kd
+(45 s) are almost identical, which suggests that also in the values of H and L as 60 and 450 nM, respectively.
+presence of chlorpromazine the transition of H into L is
+In Fig. 6A the Scatchard plot of H + L is shown, and in
+absent. These results suggest that chlorpromazine stimulates Fig. 6 B the fraction in H (aH)as a function of the cAMP
+the binding to S and to H, while binding to L maybe
+concentration is shown. The Scatchard plot should fit the
+suppressed.
+equation,
+Scatchard analyses of [3H]cAMP binding in the presence
+[CAMP]
++ (1 - p )
+of caffeine and chlorpromazine are shown in Fig. 8. Neither
+(34
+blL
+[CAMP]+ 60
+[CAMP]+ 450
+of the drugs affects the total number of binding sites. The
+Scatchard plots at 8 s after a chase with excess cAMP yield where
+approximately identical dissociation constants for S in the
+absence or presence of caffeine or chlorpromazine (Fig. 8,B
+[CAMP]
+and D ) . The dissociation rate constant (k-l) of S is also not
+aH = $' - (' - )' [CAMP]+ 12.5
+affected by these drugs (Fig. 9). The drugs changethe number
+of S binding sites; the fraction of binding sites with the S where [CAMP]is the nanomolar concentration of CAMP.The
+configuration is reduced by caffeine from about 4 to 2.5%, first term in the right-handportion of Equation 3a represents
+while the fraction is increased to 16% in the presence of the binding to H and the second term the binding to L. aH is
+the fraction of sites in H; is the fraction in H in the absence
+chlorpromazine (Fig. 8).
+Scatchard plots of H L are calculated by subtraction of of cAMP and 4 is the fraction in H at high cAMPconcentrathe binding to S before the chase (dashed lines in Fig. 8, A tions (Fig. 6B). and $J were varied to find an optimal fit of
+and C) from the total binding at 45 s. The results (Fig. 8E) Equations 3 for the observed data of Fig. 6 A , which yields
+show that [3H]cAMPbinding in the presence of caffeine is = 0.4 f 0.05 and 4 = 0.1 f 0.04.
+The value of can also be estimated from the binding data
+mainlylow-affinity binding with Kd = 450 nM and that
+binding in the presence of chlorpromazine is almost exclu- at 6 s after association (Fig. 2). However, subtraction of the
+binding to S from the totalbinding is more complicated,since
+sively high-affinity binding with & = 60 nM.
+Calculation of Binding Parameters-In this section the ki- binding to S has not yet reached equilibrium at 6 s. The
+netic constants (k-l and &) of H, L, and S will be calculated association rate of CAMP binding to S is known (Fig.5); thus
+by curve fitting of a mathematical equation with the experi- it is possible to calculate the binding to S at 6 s (by using
+mental data which have been obtained in the previous sec- Equation 2a). These data are subtracted from the total bindtions. The standard deviation of the cAMP binding assay is ing at 6 s, and subsequently the resulting data are fitted to
+about 3%. The standarddeviation in Scatchard plots is about Equation 3a where aH = (the transition of H to L has not
+4% at low cAMP concentrations (2 nM) and increases at yet taken place). This yields = 0.45 f 0.1.
+By using the calculated values for and $J and theobserved
+higher cAMP concentrations. Thestandard deviation beKd valuesfor H, L, and s, it ispossible to estimate the
+comes above10%at cAMP concentrations above l p ~There.
+fore, all values of the kinetic parameters are regarded validif distribution of radioligand bound to the three binding types
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
+13327
+
+Kinetics of CAMPBinding to D. discoideum Cells
+
+0 :
+0
+
+.
+
+.
+
+2
+
+.
+
+,
+
+4
+
+,
+"
+-
+
+6
+bound (nM)
+
+ti
+
+"\.....,
+
+FSG.8. Effect of caffeine and chlorpromazine on Scatchard plots of ['HICAMP binding. A, the total
+binding of different 13H]cAMPconcentrations was measured in the absence (0)or presence (0)of 10 mM caffeine
+at equilibrium (45 a). E, the binding of different ['HICAMP concentrations to S waa measured by incubation of
+cells with [3H]cAMP till equilibrium (45 s), followed by the addition of excess CAMP (2 ~ 1 lo
+, -' M). [3H]cAMP
+binding was detected 8 s later. Same symbols as in A. C and D, same experiment as in A and E , except that caffeine
+is replaced by 0.1 mM chlorpromazine. 0,control; A,chlorpromazine. E,Scatchard plotof H + L. The dashed lines
+in A and C represent the binding to S at equilibrium (45a) in the presence of the drugs. These data are subtracted
+from the total binding in. the presence of the drugs. The binding of cAMP to H + L in the absence of drugs is
+shown for comparison (redrawn from Fig. 6A). 0, control; 0, 10 mM caffeine; A, 0.1 mM chlorpromazine. The
+results shown are the means of triplicate or duplicate determinations from three independent experiments.
+seconds
+
+3
+
+6
+
+9
+
+12
+
+TABLEI1
+
+Summary of the CAMPreceptor b i d i n g parameters
+
+k
+
+Transition rate constant (H-+ L), k = 0.08 +- 0.014 9". Half
+maximal transition at 12.6 j, 2.8 nM.
+Parameter
+Unit
+H
+L
+S
+60 -t 13 450 f 140 12.5 -C 3
+Kd
+nM
+0.45 -t 0.1 1.0 f 0.2 0.05 -C 0.015
+k-1
+s-'
+7.5 2 2.3 2.2 k 0.8
+4 1.5
+kl
+pM" s-'
+Site distribution
+H
+L
+S
+%
+
+Before transition
+After maximal transition
+With caffeine
+With chlorpromazine
+
+FIG.9. Dissociation rateof S in the presence of caffeine and
+chlorpromazine. Cells werepreincubated with 2 nM ['HICAMP and
+
+10 m M caffeine or 0.1 mM chlorpromazine for 45 s. Then (at t = 0 a)
+excess cAMP (2 p1 of IO-* M)was added, and [3H]cAMPbinding was
+detected at 6,8,9, and 12 s. The intercept with the ordinate represents
+the fraction of the specifically bound.radioactivity which is bound to
+S. 0, control; 0,caffeine; A, chlorpromazine. The results shown are
+the mean of triplicate determinations from a single experiment.
+
+at any cAMP concentration. At 2 nM [3H]cAMP the label
+distribution is 30%to H, 43% to L, and 27% to S; at 100 nM
+[3H]cAMPthis is 12% to H, 75% to L, and 13% to S. The
+dissociation of [3H]cAMP formall three binding types after
+a CAMPchase is given by
+
+where i denotes H, L, or S and J the fraction of L3H]cAMP
+bound to these types. The k1of S has been established as
+0.05 s" (Figs. 3, 5C, and 9). The dissociation rate constants
+
+38.5
+9.6
+17.5
+84
+
+57.5
+
+86.4
+
+z90
+0
+
+4
+4
+
+2.5
+16
+
+of H and L were changed to find an optimal fit for the release
+of bound [3H]cAMP observed
+in Fig. 3. This yields for H, 12-,
+= 0.45 f 0.1 s-' and for L, k 1 = 1.0 +. 0.2 s".
+All parameters for the complex of cAMP binding sites on
+the cell surfaceof D. discoideum are summarized in Table 11.
+DISCUSSION
+
+Three binding types, H, L, and S , are recognized by kinetic
+analysis of [3H]cAMP binding to D. discoideum cells. The
+ratio of the number of the three binding types may change
+during the incubation period and by pharmacological agents.
+Nevertheless, thetotal number of binding sites does not
+change. This suggests that the three binding types belong to
+the same population of binding sites and that they can be
+converted into each other. The three binding types are characterized by their kinetic properties. S has high affinity for
+cAMP (Kd = 12.5 nM) and is slowly dissociating (tllz = 15 s);
+H has high affinity ( K d = 60 nM) and is fast dissociating (tIl2
+= 1.5 SI; and L has low affinity (& = 450 nM) and is fast
+dissociating (tlIz= 0.7 8). S is a stable nonconvertible site,
+while H and L are interconvertible. This indicates that the
+
+Kinetics of CAMP Binding to D. discoideum Cells
+
+13328
+
+curvilinear Scatchard plotat equilibrium is the result of both nonequilibrium binding experiments the binding of the
+binding site heterogeneity (S uerszu H L) as well as affinity chemoattractant folic acid to D.discoideum cells appears to
+modulation (H "* L). The change of binding affinity could be take place at five partially interconvertible binding types.2
+detected because the binding to H and L is much faster (tIlz Binding site heterogeneity and interconversion of binding
+< 1.5 9) than the transition of H to L which has a half-life of sites has also been observedamong the acetylcholine receptor
+about 9 s.
+(6) and the@adrenergic receptor (8).It is tempting to suggest
+The conversion of H to L time
+is and cAMP dose dependent. that interconversion of heterogeneous binding sites is a genWe can, therefore, describe the binding to H and L as
+eral featureof signal transduction via cell surface receptors.
+
++
+
+- CAMP
+K Jr
+Jr m
+L + CAMP =L - cAMP
+a&
+H + CAMP
+
+Kd
+
+H
+
+Acknowledgments-We gratefully acknowledge Theo Konijn for
+stimulating discussions, Pauline Schaap for her patient assistance
+with timing of the experiments, and Jaap Bevelander for the construction of the swing-out rotor.
+
+REFERENCES
+1.
+Bwynaems,
+J.
+M.,
+and
+Dumont, J. E. (1980) Outlines of Receptor
+where K = H/L and /3K = H cAMP/L
+CAMP. If the
+Theory, p.221, Elsevier/North-Holland Biomedical Press, Amsystem is closed and receives no input of materials of energy,
+sterdam
+the principle of detailed balance or microscopic reversibility 2. Maelicke, A., Fulpius, B. W . , Klett, R. P., and Reich, E. (1977)
+We know that in the absence of CAMP,K
+J. Biol. Chem. 252,4811-4830
+implies that a = @.
+3. Quast, U., Schimerlik, M., Lee, T., Witzeman, V., Blanchard, S.,
+= H/L = 0.4/0.6 = 2/3, and that in the presence of high
+and Rafterry, M. A. (1978) Biochemistry 17,2405-2414
+cAMP concentrations, PK = H cAMP/L cAMP = O.l/
+4. Heidemann, T., and Changeux, J.-P. (1979) Eur. J. Bwchem. 9 4 ,
+0.9 = 1/9,thus j3 = 1/6. Furthermore, we know that Kd = 60
+255-279
+nM and that aKd = 450 nM; thus a = 7.5 and a # 8. This
+5. Boyd, N. D., and Cohen, J. B. (1980) Biochemistry 1 9 , 5344indicates that Scheme 1is not aclosed system and thatthere
+5353
+6. Boyd, N. D., and Cohen, J. B. (1980) Biochemistry 1 9 , 5353must be a driving force beyond H and L to account for the
+5358
+time- and concentration-dependent transition from H to L.
+7. Tolkowsky, A. M., Braun, S., and Levitzki, A. (1982) Proc. Natl.
+What is the nature of this driving force? We have observed
+Acad. Sci. U. S. A. 79, 213-217
+that the transition (defined .as a decrease of 100 nM [3H] 8. Toews,
+M. L., Harden, T. K., and Perkins, J. P. (1983) Proc.
+cAMP binding between 6 and 45 s) takes place at 0 "C and in
+Natl. Acad. Sci. U. S. A. 80,3553-3557
+cells preincubated at 22 "C with 1 mM NaN3 for 10 min which
+9. Neufeld, G., Steiner, S., Korner, M., and Schramm, M. (1983)
+Proc. Natl. Acad. Sci. U. S. A. 80, 6441-6445
+depleted the ATP content. This suggests that the driving
+force for the transition of H to L is not solely an input of 10. Konijn, T. M. (1972) Adu. Cyclic Nucleotide Res. 1, 17-31
+energy, but that it probably proceeds via the input of mate- 11. Bonner, J. T. (1947) J. Exp. 2001.106,l-26
+12. Konijn, T. M., Van de Meene, J. G. C., Bonner, J. T., and Barkley,
+rials; this implies that theoccupied high-affinity site H interD. S. (1967) Proc. Natl. Acad. Sci. U. S. A. 5 8 , 1152-1154
+acts with another structure (e.g. protein or phospholipid) by 13. Moens, P. B., and Konijn, T.M. (1974) FEES Lett. 46,44-46
+which the binding affinity for cAMP is reduced. Wemay
+14. Malchow, D.,and Gerisch, G. (1974) Proc. Natl. Acad. Sci. U. S.
+A. 71, 2423-2427
+hypothesize two identities for this structure. First, we have
+observed that half-maximal transition occurs at 12.5 nM 15. Green, A. A., and Newell, P. C. (1975) Cell 6 , 129-136
+CAMP,which is the I(d for S; thus the occupancy of the third 16. Henderson, E. J. (1975) J. Biol. Chem. 250,4730-4736
+17. Mato, J. M., and Konijn, T. M. (1975) Biochim. Biophys. Acta
+binding type S may determine the proportioning of the other
+385,173-179
+two binding types. Second, a similar affinity modulation has 18. Mullens, I. A., and Newell, P. C. (1978) Differentiation 1 0 , 171been observedin other hormone-signal transduction pathways
+176
+(7-9). The reduction of binding affinity of the receptor for 19. Van Haastert, P. J. M., and Kien, E. (1983) J. Biol. Chem. 2 5 8 ,
+9636-9642
+the hormone appears to be due to the coupling of occupied
+20.
+Juliani,
+H., and Klein, C. (1981) J. Biol. Chem. 256,613-619
+receptor via a GTP-binding protein to adenylate cyclase ac- 21. Gerisch,M.
+G. (1982) Annu. Reu. Physiol. 44,535-552
+tivity. The same process may take place in D.discoideum.
+22. Van Haastert, P. J. M., and Konijn, T. M. (1982) Mol. Cell.
+The drugs caffeine and chlorpromazine were used to charEndocr. 26.1-17
+acterize the binding constants of H and L. These drugs may 23. Devreotes, P. N. (1982) in The Development of Dictyostelium
+discoideum (Loomis, W . F., ed) pp. 117-168, Academic Press,
+also shed light on the function of the binding sites. Binding
+New York
+to H is almost absent in the presence of caffeine, and the
+cGMP response is not inhibited, which suggests that H does 24. Van Haastert, P. J. M., and Van Der Heijden, P. R. (1983) J. Cell
+Biol. 96,347-353
+not transduce the cAMP signal to guanylate cyclase. The 25. Van Haastert, P. J. M. (1983) Biochem. Biophys. Res. Commun.
+results with chlorpromazine cannot give a clear answer on the
+115,130-136
+function of the binding sites, because this drug induces a 26. Teibert, A., and Devreotes, P. N. (1983) J. Cell Biol. 97,173-177
+strong increase of nonspecific binding. Therefore, the inhibi- 27. Gilman, A. G. (1970) Proc. Natl. Acad. Sci. U. S. A. 67,305-312
+tion of the cGMP response is not necessarily due to theshift 28. Brenner, M., and Thorns, S. D. (1984) Deu. Biol. 101,136-146
+
+SCHEME1
+
+-
+
+-
+
+-
+
+-
+
+of binding types but could be the result of other membrane
+perturbations, which apparently are induced by this drug.
+Receptor heterogeneity and affinity modulation are not
+unique for the cAMP receptor. By using essentially identical
+
+R. J. W. De Wit and P. J. M. Van Haastert, manuscript in
+preparation.
+
+

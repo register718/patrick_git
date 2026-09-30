@@ -1,0 +1,26 @@
+\begin{table*}[!t]
+\centering
+\caption{Optional full multi-affinity receptor module of Biswas et al.~\cite{biswas2021} (Table~1, rows 1--26), selectable in the code but \emph{not} used in the results of this paper. Classes H, L, S: high, low and slow affinity; P is the free-phosphate pool; $^P$ marks phosphorylated states. Each row lists the forward and reverse constants.}
+\label{tab:m1brx}
+\footnotesize
+\renewcommand{\arraystretch}{1.15}
+\begin{tabularx}{\textwidth}{@{}l>{\raggedright\arraybackslash}p{0.37\textwidth}>{\raggedright\arraybackslash}X@{}}
+\toprule
+ID & Reaction & Propensity (rate law)\\
+\midrule
+1/2 & $\mathrm{H}+\mathrm{cAMP}\rightleftharpoons \mathrm{H{:}C}$ & $k_H=\num{7.5},\ k_{-H}=\num{0.45}$ \\
+3/4 & $\mathrm{L}+\mathrm{cAMP}\rightleftharpoons \mathrm{L{:}C}$ & $k_L=\num{2.2},\ k_{-L}=\num{1}$ \\
+5/6 & $\mathrm{S}+\mathrm{cAMP}\rightleftharpoons \mathrm{S{:}C}$ & $k_S=\num{4},\ k_{-S}=\num{0.05}$ \\
+7/8 & $\mathrm{H}\rightleftharpoons \mathrm{L}$ & $k_{HL}=\num{0.08},\ k_{-HL}=\num{0.0536}$ \\
+9/10 & $\mathrm{H{:}C}\rightleftharpoons \mathrm{L{:}C}$ & $k_{HLC}=\num{0.08},\ k_{-HLC}=\num{7.1e-3}$ \\
+11/12 & $\mathrm{H{:}C}+\mathrm{P}\rightleftharpoons {}^P\mathrm{H{:}C}$ & $k_{HCP}=\num{5.3e-4},\ k_{-HCP}=\num{8e-4}$ \\
+13/14 & ${}^P\mathrm{H}+\mathrm{cAMP}\rightleftharpoons {}^P\mathrm{H{:}C}$ & $k_{PHC}=\num{0.04},\ k_{-PHC}=\num{2.42e-3}$ \\
+15/16 & $\mathrm{H}+\mathrm{P}\rightleftharpoons {}^P\mathrm{H}$ & $k_{PH}=\num{5.3e-4},\ k_{-PH}=\num{8e-4}$ \\
+17/18 & $\mathrm{L{:}C}+\mathrm{P}\rightleftharpoons {}^P\mathrm{L{:}C}$ & $k_{LCP}=\num{5.3e-4},\ k_{-LCP}=\num{8e-4}$ \\
+19/20 & ${}^P\mathrm{L}+\mathrm{cAMP}\rightleftharpoons {}^P\mathrm{L{:}C}$ & $k_{PLC}=\num{5},\ k_{-PLC}=\num{1.5}$ \\
+21/22 & $\mathrm{L}+\mathrm{P}\rightleftharpoons {}^P\mathrm{L}$ & $k_{PL}=\num{5.3e-4},\ k_{-PL}=\num{8e-4}$ \\
+23/24 & ${}^P\mathrm{H}\rightleftharpoons {}^P\mathrm{L}$ & $k_{PHL}=\num{4.3e-4},\ k_{-PHL}=\num{2.9e-4}$ \\
+25/26 & ${}^P\mathrm{H{:}C}\rightleftharpoons {}^P\mathrm{L{:}C}$ & $k_{PHLC}=\num{4.3e-4},\ k_{-PHLC}=\num{3.8e-5}$ \\
+\bottomrule
+\end{tabularx}
+\end{table*}

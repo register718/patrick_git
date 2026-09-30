@@ -1,0 +1,339 @@
+\relax 
+\AC@reset@newl@bel
+\citation{gillespie1977}
+\newacro{1D}[1D]{one-dimensional}
+\newacro{2D}[2D]{two-dimensional}
+\newacro{3D}[3D]{three-dimensional}
+\newacro{MC}[MC]{molecular communication}
+\newacro{TX}[TX]{transmitter}
+\newacro{RX}[RX]{receiver}
+\newacro{3D}[3D]{three dimensional}
+\newacro{CIR}[CIR]{channel impulse response}
+\newacro{PDE}[PDE]{partial differential equation}
+\newacro{ODE}[ODE]{ordinary differential equation}
+\@writefile{toc}{\contentsline {section}{\numberline {I}Introduction}{1}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {II}Intracellular Signalling Model}{1}{}\protected@file@percent }
+\newlabel{sec:model}{{II}{1}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {II-A}}Overview and conventions}{1}{}\protected@file@percent }
+\newlabel{sec:conv}{{\mbox  {II-A}}{1}{}{}{}}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {\mbox  {II-A}0a}Signal flow.}{1}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {\mbox  {II-A}0b}Spatial discretisation and stochastic engine.}{1}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {\mbox  {II-A}0c}Units and rate constants.}{1}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {\mbox  {II-A}0d}Two numerical conventions that affect propensities.}{1}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {\mbox  {II-A}0e}Provenance of the constants.}{1}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {\mbox  {II-A}0f}Constants that are deliberately not literature values.}{1}{}\protected@file@percent }
+\citation{segall1995}
+\citation{maeda2004,laub1998}
+\citation{matsuoka2018}
+\citation{nakajima2014}
+\citation{wiesmuller1992,coyle2016}
+\citation{yeh1978}
+\citation{ford2023}
+\citation{gregor2010,sgro2015}
+\citation{laub1998,maeda2004}
+\citation{ford2023}
+\citation{maeda1996}
+\@writefile{lot}{\contentsline {table}{\numberline {I}{\ignorespaces Hill gates and saturable kinetics of the default network. $x$ is the input of the gate.}}{2}{}\protected@file@percent }
+\newlabel{tab:hill}{{I}{2}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {II-B}}Hill gates}{2}{}\protected@file@percent }
+\newlabel{sec:hill}{{\mbox  {II-B}}{2}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {II-C}}Reproducibility}{2}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {II-D}}Module 0: Developmental State, Excitable Element and Refractory Clock}{2}{}\protected@file@percent }
+\newlabel{sec:m0}{{\mbox  {II-D}}{2}{}{}{}}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {\mbox  {II-D}0a}Role.}{2}{}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {II}{\ignorespaces Module~0 reactions: Hunger, the excitable element (X, Y), the refractory clock (Rf) and the ERK2$\to $ACA output stage. For the species of the excitable element $N_s$ is the copy number of species $s$ \emph  {per cell}; $c(\mathrm  H)$ and $b(\mathrm  {Rf})$ are the Hill gates of Sec.~\ref {sec:hill}.}}{3}{}\protected@file@percent }
+\newlabel{tab:m0rxn}{{II}{3}{}{}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {III}{\ignorespaces Module~0 constants. Basis: L literature value, D derived from a literature anchor, C calibrated on the model against a stated target, E estimate or design choice (Sec.~\ref {sec:conv}).}}{3}{}\protected@file@percent }
+\newlabel{tab:m0const}{{III}{3}{}{}{}}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {\mbox  {II-D}0b}Reactions.}{3}{}\protected@file@percent }
+\citation{schlogl1972}
+\citation{fitzhugh1961,nagumo1962}
+\citation{maeda2004}
+\citation{ford2023}
+\citation{maeda1996}
+\citation{segall1995}
+\citation{ford2023}
+\citation{ford2023}
+\citation{maeda2004}
+\citation{vanhaastert1984}
+\citation{vaughan1988,hereld1994}
+\citation{caterina1995a,caterina1995b}
+\citation{biswas2021}
+\citation{biswas2021}
+\citation{biswas2021}
+\citation{biswas2021}
+\citation{vanhaastert1984}
+\citation{vanhaastert1984}
+\citation{vanhaastert1984}
+\citation{caterina1995b,caterina1995a}
+\citation{vanhaastert1984}
+\citation{vaughan1988}
+\citation{vaughan1988,hereld1994}
+\citation{vanhaastert1984,johnson1991}
+\citation{vaughan1988}
+\citation{takebayashi2023}
+\citation{biswas2021,ueda2001}
+\citation{biswas2021}
+\citation{vaughan1988}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {\mbox  {II-D}0c}Constants.}{4}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {II-E}}Module 1: cAMP Receptor Binding and Desensitisation}{4}{}\protected@file@percent }
+\newlabel{sec:m1}{{\mbox  {II-E}}{4}{}{}{}}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {\mbox  {II-E}0a}Role.}{4}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {\mbox  {II-E}0b}Reactions.}{4}{}\protected@file@percent }
+\citation{vaughan1988}
+\citation{johnson1991,vanhaastert1984}
+\@writefile{lot}{\contentsline {table}{\numberline {IV}{\ignorespaces Module~1 reactions (default two-state receptor). R is the unphosphorylated cAR1 receptor, R$_p$ its phosphorylated form, RC and R$_p$C the cAMP-bound states; A is the cytosolic adapter of reactions 1.8.}}{5}{}\protected@file@percent }
+\newlabel{tab:m1rxn}{{IV}{5}{}{}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {V}{\ignorespaces Module~1 constants (default receptor model).}}{5}{}\protected@file@percent }
+\newlabel{tab:m1const}{{V}{5}{}{}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {VI}{\ignorespaces Optional full multi-affinity receptor module of Biswas et al.~\cite  {biswas2021} (Table~1, rows 1--26), selectable in the code but \emph  {not} used in the results of this paper. Classes H, L, S: high, low and slow affinity; P is the free-phosphate pool; $^P$ marks phosphorylated states. Each row lists the forward and reverse constants.}}{5}{}\protected@file@percent }
+\newlabel{tab:m1brx}{{VI}{5}{}{}{}}
+\citation{kamino2017}
+\citation{biswas2021}
+\citation{vanhaastert1984}
+\citation{biswas2021}
+\citation{biswas2021}
+\citation{takebayashi2023}
+\citation{biswas2021,ueda2001}
+\citation{kim1997}
+\citation{vanhaastert1984}
+\citation{vaughan1988}
+\citation{caterina1995b}
+\citation{janetopoulos2001}
+\citation{kortholt2013}
+\citation{kataria2013}
+\citation{biswas2021}
+\citation{biswas2021}
+\citation{biswas2021,janetopoulos2001}
+\citation{janetopoulos2001}
+\citation{biswas2021}
+\citation{biswas2021}
+\citation{biswas2021}
+\citation{elzie2009}
+\citation{janetopoulos2001}
+\citation{biswas2021,janetopoulos2001}
+\citation{biswas2021}
+\citation{biswas2021}
+\citation{biswas2021}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {\mbox  {II-E}0c}Constants.}{6}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {\mbox  {II-E}0d}Limitations.}{6}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {II-F}}Module 2: G-Protein Cycle}{6}{}\protected@file@percent }
+\newlabel{sec:m2}{{\mbox  {II-F}}{6}{}{}{}}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {\mbox  {II-F}0a}Role.}{6}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {\mbox  {II-F}0b}Reactions.}{6}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {\mbox  {II-F}0c}Constants.}{6}{}\protected@file@percent }
+\citation{kae2004}
+\citation{sasaki2004,takeda2012}
+\citation{takeda2012}
+\citation{levchenko2002,ma2004}
+\citation{goentoro2009}
+\citation{zhang2008}
+\citation{nakajima2014}
+\citation{fukushima2019,miao2017,devreotes2017,iglesias2012}
+\citation{takeda2012}
+\citation{kae2007}
+\citation{zhang2008}
+\citation{kortholt2013}
+\citation{kae2004,takeda2012}
+\citation{takeda2012,goentoro2009}
+\citation{takeda2012}
+\citation{zhang2008,xu2021c2gap}
+\citation{wiesmuller1992,coyle2016}
+\citation{sasaki2004,fukushima2019,kataria2013}
+\citation{kae2007}
+\citation{kortholt2013}
+\citation{zhang2008,xu2021c2gap}
+\@writefile{lot}{\contentsline {table}{\numberline {VII}{\ignorespaces Module~2 reactions: the G-protein cycle of G$\alpha _2\beta \gamma $. G$\alpha _2^{\mathrm  {GTP}}$ and G$\alpha _2^{\mathrm  {GDP}}$ are the GTP- and GDP-bound free $\alpha $ subunits; G$\beta \gamma $ is the free dimer.}}{7}{}\protected@file@percent }
+\newlabel{tab:m2rxn}{{VII}{7}{}{}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {VIII}{\ignorespaces Module~2 constants.}}{7}{}\protected@file@percent }
+\newlabel{tab:m2const}{{VIII}{7}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {II-G}}Module 3: Ras Activation, Adaptation and Amplification}{7}{}\protected@file@percent }
+\newlabel{sec:m3}{{\mbox  {II-G}}{7}{}{}{}}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {\mbox  {II-G}0a}Role.}{7}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {\mbox  {II-G}0b}Reactions.}{7}{}\protected@file@percent }
+\citation{nakajima2014}
+\citation{wiesmuller1992,coyle2016}
+\@writefile{lot}{\contentsline {table}{\numberline {IX}{\ignorespaces Module~3 reactions in the default configuration. GEF$_R$ and GAP are the cytosolic RasG exchange factor and GTPase-activating protein (asterisk: active form); $\mathrm  {RasG}^{\mathrm  {GTP/GDP}}$ are the membrane-bound Ras states; B is the substrate of the delayed brake (3.3c--e), activated by PKBR1$^*$ from Module~8.}}{8}{}\protected@file@percent }
+\newlabel{tab:m3rxn}{{IX}{8}{}{}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {X}{\ignorespaces Module~3 constants. Rate constants and pool sizes are paired: $k_{E,\mathrm  {on}}[\mathrm  {GEF_R}]_\mathrm  {tot}$, $k_{R,\mathrm  {on}}[\mathrm  {GEF_R}]_\mathrm  {tot}$ and $k_{I,\mathrm  {on}}[\mathrm  {GAP}]_\mathrm  {tot}$ were held fixed when the pools were enlarged, so that only shot noise changed.}}{8}{}\protected@file@percent }
+\newlabel{tab:m3const}{{X}{8}{}{}{}}
+\citation{sasaki2004,fukushima2019}
+\citation{kataria2013}
+\citation{charest2010}
+\citation{miao2017}
+\citation{charest2010}
+\citation{miao2017}
+\citation{funamoto2002,iijima2002}
+\citation{huang2003}
+\citation{parent1998}
+\citation{postma2003}
+\citation{sasaki2004,fukushima2019}
+\citation{matsuoka2018}
+\citation{miao2017,charest2010}
+\citation{sasaki2004,fukushima2019}
+\citation{huang2003}
+\citation{funamoto2002,iijima2002}
+\citation{iijima2002,huang2003}
+\citation{huang2003}
+\citation{matsuoka2018}
+\citation{iijima2002,huang2003}
+\citation{li2018}
+\citation{meili1999}
+\citation{kamimura2008}
+\citation{kamimura2010}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {\mbox  {II-G}0c}Constants.}{9}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {II-H}}Module 4: PIP3, PTEN and the PkbA Feedback}{9}{}\protected@file@percent }
+\newlabel{sec:m4}{{\mbox  {II-H}}{9}{}{}{}}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {\mbox  {II-H}0a}Role.}{9}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {\mbox  {II-H}0b}Reactions.}{9}{}\protected@file@percent }
+\citation{charest2010}
+\@writefile{lot}{\contentsline {table}{\numberline {XI}{\ignorespaces Module~4 reactions: PI3K recruitment, PIP3/PTEN mutual inhibition, PIP3 removal, and the delayed PkbA feedback. Subscripts c and m denote cytosolic and membrane-bound forms; $N$ is a molecule count per voxel.}}{10}{}\protected@file@percent }
+\newlabel{tab:m4rxn}{{XI}{10}{}{}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {XII}{\ignorespaces Module~4 constants. All rates except the PkbA arm (4.10--4.14) carry the uniform time-scale factor $s_4=20$ (Sec.~\ref {sec:m4}).}}{10}{}\protected@file@percent }
+\newlabel{tab:m4const}{{XII}{10}{}{}{}}
+\citation{meili1999,meili2000}
+\citation{cai2010}
+\citation{kae2007}
+\citation{cai2010}
+\citation{kamimura2008}
+\citation{meili2000}
+\citation{charest2010}
+\citation{scavello2017}
+\citation{insall1994}
+\citation{comer2005}
+\citation{parent1998}
+\citation{kae2007}
+\citation{charest2010}
+\citation{kae2007}
+\citation{cai2010}
+\citation{charest2010,kamimura2008}
+\citation{meili2000,kamimura2008}
+\citation{kamimura2008}
+\citation{cai2010}
+\citation{insall1994,parent1998,comer2005}
+\citation{kamimura2008}
+\citation{scavello2017}
+\citation{laub1998}
+\citation{kae2007}
+\citation{charest2010}
+\citation{cai2010}
+\citation{charest2010}
+\citation{scavello2017}
+\citation{parent1998,comer2005}
+\citation{kamimura2008}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {\mbox  {II-H}0c}Constants.}{11}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {\mbox  {II-H}0d}Limitations.}{11}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {II-I}}Module 8: RasC--TORC2--PKB--CRAC Relay}{11}{}\protected@file@percent }
+\newlabel{sec:m8}{{\mbox  {II-I}}{11}{}{}{}}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {\mbox  {II-I}0a}Role.}{11}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {\mbox  {II-I}0b}Reactions.}{11}{}\protected@file@percent }
+\citation{kae2004}
+\@writefile{lot}{\contentsline {table}{\numberline {XIII}{\ignorespaces Module~8 reactions: the RasC$\to $TORC2$\to $PKB$\to $CRAC relay arm and its output edge 8.14 into the excitable element of Module~0. PKBR1 (module 8b) and CRAC are the kinase and effector; $g(\mathrm  {PIP3})=[1+(K_P/N_\mathrm  {PIP3})^{8}]^{-1}$ and $b(\mathrm  {Rf})$ are the gates of Sec.~\ref {sec:hill}.}}{12}{}\protected@file@percent }
+\newlabel{tab:m8rxn}{{XIII}{12}{}{}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {XIV}{\ignorespaces Module~8 constants (a): RasC branch, TORC2 and PKBR1.}}{12}{}\protected@file@percent }
+\newlabel{tab:m8const}{{XIV}{12}{}{}{}}
+\citation{pitt1992}
+\citation{insall1994}
+\citation{segall1995}
+\citation{cai2010}
+\citation{miranda2015}
+\citation{dinauer1980}
+\citation{devreotes1979}
+\citation{devreotes1979}
+\citation{miranda2015}
+\citation{dinauer1980}
+\citation{laub1998}
+\citation{cai2010}
+\citation{dinauer1980}
+\citation{laub1998}
+\citation{cai2010}
+\@writefile{lot}{\contentsline {table}{\numberline {XV}{\ignorespaces Module~8 constants (b): CRAC, the relay output edge, pools and diffusion constants.}}{13}{}\protected@file@percent }
+\newlabel{tab:m8constb}{{XV}{13}{}{}{}}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {\mbox  {II-I}0c}Constants.}{13}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {II-J}}Module 9: cAMP Synthesis and Export}{13}{}\protected@file@percent }
+\newlabel{sec:m9}{{\mbox  {II-J}}{13}{}{}{}}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {\mbox  {II-J}0a}Role.}{13}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {\mbox  {II-J}0b}Reactions.}{13}{}\protected@file@percent }
+\citation{laub1998}
+\citation{devreotes1979}
+\citation{dinauer1980}
+\citation{bader2007}
+\citation{thomason1999}
+\citation{thomason1998}
+\citation{shaulsky1998}
+\citation{laub1998,maeda2004}
+\citation{aubry1997}
+\citation{thomason1999,thomason1998}
+\citation{thomason1999}
+\citation{laub1998,maeda2004}
+\citation{laub1998}
+\citation{thomason1998}
+\citation{thomason1999}
+\citation{laub1998}
+\citation{laub1998}
+\citation{laub1998}
+\citation{aubry1997}
+\citation{thomason1999}
+\citation{maeda2004}
+\citation{thomason1999}
+\citation{laub1998,aubry1997}
+\@writefile{lot}{\contentsline {table}{\numberline {XVI}{\ignorespaces Module~9 reactions: cAMP synthesis by the adenylyl cyclase ACA, export, and ACA inactivation. Reaction 8.12 belongs to the ACA arm and is listed here.}}{14}{}\protected@file@percent }
+\newlabel{tab:m9rxn}{{XVI}{14}{}{}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {XVII}{\ignorespaces Module~9 constants.}}{14}{}\protected@file@percent }
+\newlabel{tab:m9const}{{XVII}{14}{}{}{}}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {\mbox  {II-J}0c}Constants.}{14}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {II-K}}Module 10: RegA, PKA and ERK2 Brake}{14}{}\protected@file@percent }
+\newlabel{sec:m10}{{\mbox  {II-K}}{14}{}{}{}}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {\mbox  {II-K}0a}Role.}{14}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {\mbox  {II-K}0b}Reactions.}{14}{}\protected@file@percent }
+\citation{sucgang1997}
+\citation{bader2007}
+\citation{garcia2009}
+\citation{sucgang1997}
+\citation{faure1990}
+\citation{weening2003}
+\citation{franke1981}
+\citation{franke1981}
+\citation{yeh1978}
+\@writefile{lot}{\contentsline {table}{\numberline {XVIII}{\ignorespaces Module~10 reactions: the intracellular brake. RegA is a conserved three-state moiety: RegA$_u$ (unphosphorylated, weakly active), RegA$_p$ (phosphorylated at D212, active) and RegA$_{pi}$ (phosphorylated by ERK2, inactive). PKA and ERK2 are the kinases of the Laub--Loomis/Maeda circuit.}}{15}{}\protected@file@percent }
+\newlabel{tab:m10rxn}{{XVIII}{15}{}{}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {XIX}{\ignorespaces Module~10 constants.}}{15}{}\protected@file@percent }
+\newlabel{tab:m10const}{{XIX}{15}{}{}{}}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {\mbox  {II-K}0c}Constants.}{15}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {II-L}}Module 11: Extracellular Phosphodiesterase PdsA and Inhibitor PdiA}{15}{}\protected@file@percent }
+\newlabel{sec:m11}{{\mbox  {II-L}}{15}{}{}{}}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {\mbox  {II-L}0a}Role.}{15}{}\protected@file@percent }
+\citation{laub1998}
+\citation{bader2007}
+\citation{faure1990}
+\citation{weening2003}
+\citation{franke1981}
+\citation{yeh1978}
+\citation{franke1981}
+\citation{dworkin1977}
+\citation{yeh1978}
+\citation{franke1981}
+\citation{franke1981}
+\citation{laub1998}
+\citation{dworkin1977}
+\@writefile{lot}{\contentsline {table}{\numberline {XX}{\ignorespaces Module~11 reactions: the extracellular phosphodiesterase PdsA and its inhibitor PdiA. PdsA$_i$, PdsA$_m$ and PdsA$_e$ are the intracellular precursor, the membrane-displayed and the secreted enzyme; cAMP$_s$ is a slow, low-pass filtered copy of the local cAMP$_e$. Reactions marked $\ast $ run twice: inside cells and, with identical constants, on agent-free voxels of the world. $P(H)=H^2/(H_P^2+H^2)$ and $r(\mathrm  {cAMP}_s)=[1+(\mathrm  {cAMP}_s/K_\mathrm  {pdi})^2]^{-1}$ are the Hill gates of Sec.~\ref {sec:hill}.}}{16}{}\protected@file@percent }
+\newlabel{tab:m11rxn}{{XX}{16}{}{}{}}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {\mbox  {II-L}0b}Reactions.}{16}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {\mbox  {II-L}0c}Constants and the signal range.}{16}{}\protected@file@percent }
+\citation{skoge2014}
+\citation{skoge2014}
+\bibstyle{IEEEtran}
+\bibdata{Bibliography}
+\@writefile{lot}{\contentsline {table}{\numberline {XXI}{\ignorespaces Module~11 constants. $M=4817.6$ molecules\,$\mu \mathrm  {M}^{-1}$ per voxel.}}{17}{}\protected@file@percent }
+\newlabel{tab:m11const}{{XXI}{17}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {II-M}}Optional Module: Directional Memory}{17}{}\protected@file@percent }
+\newlabel{sec:mmem}{{\mbox  {II-M}}{17}{}{}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {III}Section 2}{17}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {IV}Section 3}{17}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {V}Conclusion}{17}{}\protected@file@percent }
+\newlabel{sec:conclusion}{{V}{17}{}{}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {XXII}{\ignorespaces Optional memory module (Mem), off by default and not used for the results of this paper: a phenomenological mark written where PIP3 is high and erased slowly. $H(\mathrm  {PIP3})=N_\mathrm  {PIP3}^3/(K_\mathrm  {mem}^3+N_\mathrm  {PIP3}^3)$.}}{18}{}\protected@file@percent }
+\newlabel{tab:mmemrxn}{{XXII}{18}{}{}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {XXIII}{\ignorespaces Constants of the optional memory module.}}{18}{}\protected@file@percent }
+\newlabel{tab:mmemconst}{{XXIII}{18}{}{}{}}
+\gdef \@abspage@last{18}

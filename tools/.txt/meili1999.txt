@@ -1,0 +1,1125 @@
+The EMBO Journal Vol.18 No.8 pp.2092–2105, 1999
+
+Chemoattractant-mediated transient activation and
+membrane localization of Akt/PKB is required for
+efﬁcient chemotaxis to cAMP in Dictyostelium
+
+Ruedi Meili, Charlene Ellsworth, Susan Lee,
+T.B.K.Reddy, Hui Ma and Richard A.Firtel1
+Department of Biology, Center for Molecular Genetics, Room 225,
+University of California, San Diego, 9500 Gilman Drive, La Jolla,
+CA 92093-0634, USA
+1Corresponding author
+e-mail: rafirtel@ucsd.edu
+
+Chemotaxis-competent cells respond to a variety of
+ligands by activating second messenger pathways leading to changes in the actin/myosin cytoskeleton and
+directed cell movement. We demonstrate that Dictyostelium Akt/PKB, a homologue of mammalian Akt/
+PKB, is very rapidly and transiently activated by the
+chemoattractant cAMP. This activation takes place
+through G protein-coupled chemoattractant receptors
+via a pathway that requires homologues of mammalian
+p110 phosphoinositide-3 kinase. pkbA null cells exhibit
+aggregation-stage defects that include aberrant chemotaxis, a failure to polarize properly in a chemoattractant
+gradient and aggregation at low densities. Mechanistically, we demonstrate that the PH domain of Akt/
+PKB fused to GFP transiently translocates to the
+plasma membrane in response to cAMP with kinetics
+similar to those of Akt/PKB kinase activation and is
+localized to the leading edge of chemotaxing cells
+in vivo. Our results indicate Akt/PKB is part of the
+regulatory network required for sensing and
+responding to the chemoattractant gradient that mediates chemotaxis and aggregation.
+Keywords: Akt–PKB/chemotaxis/Dictyostelium/PI3
+kinase
+
+Introduction
+The protein kinase Akt/PKB controls a variety of regulatory responses in mammalian cells, including inhibition
+of apoptosis, inhibition of GSK3 activity, and regulation
+of cellular metabolism and protein synthesis (Bellacosa
+et al., 1991; Coffer and Woodgett, 1991; Jones et al.,
+1991; Cross et al., 1995; Kohn et al., 1996; Lefebvre
+et al., 1996; Deprez et al., 1997; Dudek et al., 1997;
+Kauffmann-Zeh et al., 1997; Kennedy et al., 1997; Kulik
+et al., 1997) and is activated by both receptor tyrosine
+kinases and G protein-coupled receptors (Burgering and
+Coffer, 1995; Franke et al., 1995; Andjelkovic et al.,
+1997; Murga et al., 1998). In Caenorhabditis elegans,
+Akt/PKB is a negative regulator of dauer larval formation
+and is activated through the insulin receptor (Paradis and
+Ruvkun, 1998). In mammalian cells, Akt/PKB activation
+occurs through the binding of phosphatidylinositol-3,4bis-phosphate [PtdIns-(3,4)-P2] to the PH domain located
+at the N-terminus of the protein, and by phosphorylation
+2092
+
+by PDK1 and proposed PDK2 of a Ser/Thr residue in the
+activation loop and one near the C-terminus, respectively (Alessi et al., 1996, 1997a,b; Frech et al., 1997;
+Klippel et al., 1997; Stockoe et al., 1997). PDK1, in
+turn, is activated by the phosphoinositide-3 kinase
+(PI3K) product phosphatidylinositol-3,4,5-tris-phosphate
+[PtdIns-(3,4,5)-P3] (Alessi et al., 1997a,b; Stephens
+et al., 1998).
+In Dictyostelium, the transition from individual cells to a
+multicellular organism is controlled by the chemoattractant
+extracellular cAMP. Cyclic AMP activates second messenger pathways via the serpentine, cell surface receptor
+cAR1 coupled to the heterotrimeric G protein containing
+the Gα2 subunit (Firtel, 1995; Chen et al., 1996; Parent
+and Devreotes, 1996; Van Haastert and Kuwayama, 1997).
+Two pathways are central to regulating this response:
+(i) the activation of adenylyl cyclase ACA, which results
+in production of cAMP, the activation of PKA and the
+release of cAMP into the extracellular space, thereby
+relaying the chemoattractant signal; and (ii) the activation
+of guanylyl cyclase, producing cGMP, a second messenger
+essential for chemotaxis. Cyclic GMP, functioning through
+a proposed cGMP-dependent protein kinase, activates
+myosin II kinase, which controls myosin fiber assembly
+(Pagh et al., 1984; Abu-Elneel et al., 1996; Chen et al.,
+1996; Dembinsky et al., 1996; Kuwayama and Van
+Haastert, 1996; Van Haastert and Kuwayama, 1997).
+Cyclic GMP is also required for the reorganization of the
+actin cytoskeleton, via an as yet undefined mechanism.
+cAMP stimulation leads to an assembly of the actin
+cytoskeleton at the leading edge (Newell, 1995; Noegel
+and Luna, 1995; Chen et al., 1996). Activation of guanylyl
+and adenylyl cyclases is very transient, with the levels of
+cGMP and cAMP peaking at ~10 and ~90 s, respectively.
+Both pathways become refractory to subsequent stimulation until the cAMP is hydrolyzed by extracellular/cell
+surface phosphodiesterase, allowing the pathways to
+de-adapt.
+The signaling pathways leading to the activation of
+the adenylyl cyclase ACA during aggregation are well
+understood. In addition to the Gβγ subunit, which appears
+to be the direct activator of ACA, proteins such as the
+cytosolic protein Pianissimo, the pleckstrin homology
+(PH) domain-containing protein CRAC (which translocates from the cytoplasm to the plasma membrane at
+the site of receptor activation) and the MAP kinase ERK2
+play important roles in controlling the production of
+cAMP, but do not affect chemotaxis (Insall et al., 1994a;
+Segall et al., 1995; Wu et al., 1995; Chen et al., 1996,
+1997; Firtel, 1996; Parent et al., 1998). Mutations in other
+genes required for ACA activation, including the gene
+encoding the putative Ras guanine nucleotide exchange
+factor (GEF) Aimless (AleA) and the Ras-interacting
+protein RIP3, also lead to chemotaxis defects (Insall et al.,
+© European Molecular Biology Organization
+
+Regulation of Akt/PKB
+
+Fig. 1. Sequence, structure and expression of Dictyostelium Akt/PKB. (A) Sequence comparison of Dictyostelium Akt/PKB with human Akt/PKBα
+and Akt/PKBβ, rat PKBγ and Drosophila melanogaster PKB (Bellacosa et al., 1991; Coffer and Woodgett, 1991; Jones et al., 1991; Andjelkovic
+et al., 1995). Putative sites of phosphorylation in the activation loop and the C-terminal end are marked with a #; gray bar, PH domain; black bar,
+kinase domain. (DDBJ/EMBL/GenBank accession Nos: Dictyostelium Akt/PKB, U15210; D.melanogaster PKB, X83510; human Akt/PKBα,
+M63167; human Akt/PKBβ, M77198; rat Akt/PKBγ, D49836.) (B) Structure comparison of mammalian, Drosophila and Dictyostelium Akt/PKB.
+Proteins have an N-terminal PH domain followed by a conserved kinase domain, and a C-terminal regulatory domain. The consensus sequence
+around the two sites of phosphorylation are shown. (C) Western blot analysis of the developmental pattern of expression of Dictyostelium Akt/PKB.
+See Materials and methods for details.
+
+1996; S.Lee, C.Parent, R.Insall and R.A.Firtel, manuscript
+in preparation). The null mutation in the gene encoding the
+Ras protein RasG shows defects in cell movement, being
+unable to properly regulate pseudopod extension (Tuxworth
+et al., 1997). Strains lacking the MAP kinase kinase
+DdMEK1 exhibit severe aggregation defects, forming
+extremely small multicellular aggregates (Ma et al., 1997).
+ddmek1 null cells exhibit normal receptor activation of
+adenylyl cyclase, but the activation of guanylyl cyclase is
+impaired and the cells are defective in chemotaxis towards
+cAMP. Further analysis suggests that DdMEK1 does not lie
+between the receptor and guanylyl cyclase, but permits
+receptor activation of this pathway (Ma et al., 1997).
+Previous studies identified a Dictyostelium homologue
+of mammalian Akt/PKB (PkbA; S.K.O.Mann and
+R.A.Firtel, unpublished observation; R.Dottin, DDBJ/
+EMBL/GenBank accession No. DDU15210). The encoded
+open reading frame (ORF) exhibits a high degree of amino
+acid sequence conservation and a domain organization
+that is indistinguishable from that of Akt/PKBs from
+metazoans (Bellacosa et al., 1991; Coffer and Woodgett,
+
+1991; Jones et al., 1991), including an N-terminal PH
+domain, homologous kinase and C-terminal regulatory
+domains, and phosphorylation sites required for Akt/
+PKB activation. In this manuscript, we demonstrate that
+Dictyostelium Akt/PKB is activated in response to
+chemoattractant signaling. This activation is mediated
+by the cAMP receptor cAR1 and requires the coupled
+heterotrimeric G protein. In addition, the activation
+requires the function of PI3Ks that are related to mammalian p110, PI3K. We demonstrate that pkbA null cells
+exhibit aggregation-stage defects, including the inability
+to polarize properly in a chemoattractant gradient and a
+decrease in the rate of chemotaxis towards cAMP. Moreover, we find that an Akt/PKB PH domain–green fluorescent protein (GFP) fusion (PH–GFP) transiently translocates to the plasma membrane in response to receptor
+stimulation and localizes to the leading edge of chemotaxing cells. These data that suggest that transient membrane localization correlates with Akt/PKB activation by
+chemoattractants, and that this pathway is involved in
+controlling aspects of cell polarity and cell movement.
+2093
+
+R.Meili et al.
+
+Fig. 2. Activation of Akt/PKB. (A) Akt/PKB activity of immunoprecipitates towards H2B as a substrate is shown. Aggregation-stage cells (see
+Materials and methods) are activated by cAMP. Aliquots were taken at the timepoints indicated. Cells were lysed, Akt/PKB was immunoprecipitated
+using a rabbit anti-Dictyostelium PKB peptide antibody, and kinase activity was measured as described in Materials and methods. Wild-type and
+pkbA null cells are shown. Activity peaks between 10 and 20 s. (B) PKB activity in wild-type cells, pkbA null cells, PI3K1/PI3K2 double knockouts
+(pi3k1/2 null cells), PKB overexpressing cells and pik1/2 double knockout cells constitutively expressing PI3K1. Wild-type cells were also treated
+with the PI3K inhibitor LY294002 (Calbiochem) at 12.5 μM for 60 s immediately prior to cAMP stimulation. Wild-type controls were done at the
+same time each mutant was analyzed as an internal control. (C) Akt/PKB activity is depicted in cAR1/cAR3 (car1–/3–) double knockout cells.
+cAR1/cAR3 double knockout cells constitutively expressing cAR1 under the control of the Act15 promoter, gβ null cells and gα2 null cells
+constitutively expressing cAR1, and wild-type cells (Insall et al., 1994b). (D) Left-hand panel shows H2B kinase activity of cells overexpressing
+wild-type Akt/PKB and Akt/PKB tagged with the N-terminus of c-Src which is sufficient for N-terminal myristylation and membrane localization.
+Right-hand panel depicts the Western blots of aliquots from the same experiment using the anti-PKB antibody. Wild-type Akt/PKB and the
+myristylated Akt/PKB are expressed at the same level. A closed arrowhead marks the position of the phosphorylated H2B. All experiments shown
+have been repeated independently. The data shown in all panels are representative. car1–/3– double knockout cells expressing cAR1, and gβ and gα
+null cells constitutively expressing cAR1 and their use in similar experiments have been described previously (Insall et al., 1994b; Milne et al.,
+1995; Schnitzler et al., 1995; Wu et al., 1995; Maeda et al., 1996).
+
+The conservation of regulatory pathways that control cell
+movement and cytoskeletal elements between Dictyostelium and mammalian cells (Chen et al., 1996; Zigmond
+et al., 1997) potentially allows one to use findings in one
+system to understand cell movement in another.
+
+Results
+Structure and expression pattern of Dictyostelium
+Akt/PKB
+Akt/PKB (pkbA) was cloned using data from previous
+PCR screens (S.K.O.Mann and R.A.Firtel, unpublished
+observation) and sequence data in DDBJ/EMBL/GenBank
+(accession No. DDU15210). Figure 1A shows the derived
+amino acid sequence of Dictyostelium Akt/PKB compared
+with that of metazoan Akt/PKBs (Bellacosa et al., 1991;
+Coffer and Woodgett, 1991; Jones et al., 1991). There is
+
+2094
+
+strong amino acid sequence conservation in the N-terminal
+PH and kinase domains. The site of expected phosphorylation in the activation loop of the kinase is conserved.
+Comparison of the site that is phosphorylated near the
+C-terminus in mammalian Akt/PKBs identifies a possible
+phosphorylation consensus sequence (Figure 1B). In mammalian Akt/PKBs, this second phosphorylation site is a
+Ser, while the Dictyostelium Akt/PKB has a Thr at the
+comparable position.
+Figure 1C depicts Western blot analysis of Akt/PKB
+protein levels (see Materials and methods). The protein is
+found in vegetative cells and levels increase during the
+first few hours of development. After 8 h, the time of
+mound formation, the levels have decreased significantly
+and the protein is barely detectably using our assay. The
+protein is not detected in the Akt/PKB null strain (data
+not shown).
+
+Regulation of Akt/PKB
+
+Fig. 3. Membrane localization of Dictyostelium Akt/PKB PH–GFP fusion protein. (A) Wild-type cells expressing the Akt/PKB PH domain fused to GFP
+expressed under the control of the Act15 promoter were pulsed for 4.5 h to make them aggregation-competent and then plated on a glass coverslip glued
+over a hole in a 30 mm Petri dish (see Materials and methods). By applying pressure to a glass capillary filled with 150 μM cAMP, a short pulse of cAMP
+was released at t0 and the ensuing changes in GFP:PH distribution were recorded. The first image is taken immediately before the cAMP addition. One
+whole cell and part of another are in the field. Images were taken every 2.8 s. Every image is shown for the first 11.2 s and then every other image.
+(B) Aggregation-competent cells were plated on a coverslip and allowed to chemotax towards a micropipet containing 150 μM cAMP (approximate
+position of the tip indicated by the asterisk in the first image). Accumulation of PH–GFP can be seen at the leading edge of some cells. Three of these cells
+are marked with an arrowhead. The time for each image relative to when the recording was initiated. An enlargement of part of the second image (8 s)
+showing localization at the leading edge is shown. The CCD integration time for each image was ~8 s. See Materials and methods for details. All
+experiments have been repeated and the data shown are representative. Scale bar, 10 μm; the same scale is shown for all parts of the figure.
+
+2095
+
+R.Meili et al.
+
+Activation of Akt/PKB by the chemoattractant
+cAMP
+Cyclic AMP is the chemoattractant that regulates aggregation in Dictyostelium (see Introduction). To determine
+whether Dictyostelium Akt/PKB activity is stimulated in
+response to the chemoattractant, aggregation-stage cells
+were stimulated by cAMP, lysed, and Akt/PKB was
+immunoprecipitated with a rabbit anti-Dictyostelium Akt/
+PKB peptide antibody (see Materials and methods).
+Figure 2A shows that kinase activity towards histone 2B
+(H2B) is rapidly stimulated in response to cAMP, peaking
+at 10–20 s, after which the activity rapidly decreases. The
+kinetics of activation and subsequent adaptation are very
+similar to those of cAMP stimulation of guanylyl cyclase
+activity (Van Haastert and Van der Heijden, 1983). To
+determine whether the stimulated kinase activity is due to
+Akt/PKB, we created an Akt/PKB null (pkbA null) strain by
+homologous recombination (see Materials and methods).
+Immunoprecipitates from these cells only contain a low
+background activity that does not change in response to
+cAMP stimulation. Mammalian Akt/PKB kinase activity
+is activated through the phosphorylation of conserved Ser/
+Thr residues (see Introduction). To examine this indirectly,
+we mutated the conserved residues (Figure 1B) to Ala
+(pkbAT278A,T435A) and overexpressed the mutant protein in
+pkbA null cells. As can be seen, cells overexpressing
+pkbAT278A,T435A show no receptor-mediated activation of
+Akt/PKB activity (Figure 2A). These data are consistent
+with the possibility that the Dictyostelium Akt/PKB is
+
+2096
+
+activated by phosphorylation in a similar way to mammalian Akt/PKB.
+Cyclic AMP activation of Akt/PKB requires the
+PI3Ks, PI3K1 and PI3K2
+In mammals, Akt/PKB is co-regulated by the phospholipid
+products of PI3K PtdIns-(3,4,5)-P3 and PtIns-(3,4)-P2.
+We previously identified three Dictyostelium PI3Ks
+(PI3K1–3) with extensive homology to members of the
+mammalian p110 family of PI3Ks (Zhou et al., 1995).
+PI3K1 and PI3K2 are most closely related to each other
+and appear to be genetically redundant. A single knockout
+of either gene has no overt phenotype, while the double
+knockout has multiple growth and developmental defects,
+including defects in the organization of the actin cytoskeleton (Zhou et al., 1995, 1998; Buczynski et al., 1997).
+PI3K3 is most homologous to mammalian p110γ
+(Vanhaesbroeck et al., 1997). A knockout of this gene has
+no visible consequences but is essential for growth in a
+genetic background lacking either PI3K1 or PI3K2.
+Figure 2B demonstrates that Dictyostelium Akt/PKB is
+not activated in response to cAMP in PI3K1/2 double
+knockout cells (pi3k1–/2–). Activation is normal in PI3K1
+or PI3K2 single knockouts or PI3K3 null cells (data not
+shown). Expression of PI3K1 in pi3k1–/2– cells results in
+complementation of the growth and developmental defects
+of pi3k1–/2– cells (Zhou et al., 1995; T.B.K.Reddy, R.Meili
+and R.A.Firtel, unpublished observation). When assayed
+for cAMP-stimulated Akt/PKB activation, these cells
+
+Regulation of Akt/PKB
+
+exhibit receptor stimulation of Akt/PKB activity
+(Figure 2B). LY294002 is an inhibitor of mammalian
+PI3Ks (Vlahos et al., 1994). Although use of the pi3k1/2
+double knockout strain provides a strong genetic test for
+the requirement of PI3K for Akt/PKB activation, we
+cannot rule out that this effect is due to a pleiotropic
+effect of disrupting PI3K1 and PI3K2. We therefore tested
+whether LY294002 can inhibit cAMP-stimulated Akt/PKB
+activation. As depicted in Figure 2B, addition of LY294002
+1 min before cAMP decreased the level of Akt/PKB
+activation by ⬎90%. Together, these data indicate that
+
+PI3K1 and PI3K2 are required for Akt/PKB activation in
+Dictyostelium.
+Many, but not all cAMP-stimulated, receptor-dependent
+pathways in Dictyostelium require heterotrimeric G
+proteins containing the Gα2 protein subunit (Firtel, 1995;
+Chen et al., 1996; Parent and Devreotes, 1996). To
+investigate whether this is the case for Akt/PKB, we
+analyzed cAMP stimulation of Akt/PKB in gα2 null and
+gβ null cells that constitutively express cAR1 (to ensure
+that the receptor is not limiting). To minimize experimental
+differences between these cells and wild-type control cells,
+
+Fig. 4. Time-lapse phase-contrast video microscopy of wild-type and PKB cells during aggregation. (A) Aggregation of wild-type cells is depicted.
+Log-phase vegetative cells were washed and plated at ~95% confluency on agar as described previously (Ma et al., 1997). White arrowheads point
+to several aggregation centers. Arrowheads with black centers point to the perimeters of the aggregation domains. Aggregation centers can be seen
+by 3 h and the perimeters of the aggregation domains are observed by the 3 h 30 min timepoint. Loose aggregates are formed by 6 h.
+(B) Corresponding experiments were performed using pkbA null cells. Aggregation centers are not observed until 3 h 30 min or later. These centers
+tend to be transient. Aggregation domains are visible by 4 h 30 min. The domains are larger than those in wild-type cells. Because of the location of
+the aggregation domains, the region of the plate being viewed was shifted at the 5 h timepoint to show a representative large aggregation center.
+This is representative of observations over the entire plate. Images from 5 h 10 min onward depict this extremely large aggregation center and a
+smaller one. Very long aggregation streams are observed for the large aggregate; the large aggregate breaks up into smaller aggregates which
+produce tips and undergo morphogenesis. Experimental details are described in Materials and methods. All experiments have been repeated and the
+data shown are representative. Scale bar, 100 μm; valid for all frames in the figure.
+
+2097
+
+R.Meili et al.
+
+these cells were stimulated for 5 h with 30 nM cAMP
+(see Materials and methods). This stimulation activates
+receptor-dependent, G protein-independent pathways such
+as the activation of ERK2, calcium influx and receptor
+phosphorylation (Milne and Devreotes, 1993; Milne et al.,
+1995; Maeda et al., 1996; Kim et al., 1997). Neither gβ
+nor gα2 null cells constitutively expressing cAR1 show
+receptor stimulation of Akt/PKB activity (Figure 2C).
+car1/car3 double knockout strains, which lack cAR1 and
+the other aggregation-stage receptor cAR3 (Insall et al.,
+1994b), do not exhibit cAMP stimulation of Akt/PKB
+activity (Figure 2C). These data indicate that cAMP
+stimulation of Akt/PKB activity functions through the
+cAMP serpentine receptor and heterotrimeric G proteins
+containing the Gα2 subunit. Our data suggest the induction
+of Akt/PKB activity requires the function of PI3K1 and
+PI3K2, and is activated through the cAMP receptors via
+a G protein-linked pathway.
+
+together with the integration times of ~8 s per frame, reduce
+the probability of synchronizing each image captured to
+visualize leading edge localization. We therefore do not
+expect our recordings to show the translocation for every
+cell as it moves. Moreover, as the cell lifts its leading
+edge during the initial forward movement, the leading
+edge is no longer in focus. Changing the plane of focus
+periodically shows cells with the PH–GFP fusion at
+the leading edge (R.Meili and R.A.Firtel, unpublished
+observation). In at least three of the cells (Figure 3B,
+marked by arrowheads), the timing of the recording and
+the response was fortuitously synchronized. The Akt/PKB
+PH–GFP fusion localizes to the leading edge, delocalizes
+and relocalizes as the cells move. When the cells form cell–
+cell contacts as they do in vivo during stream formation, a
+more intense fluorescence can be seen where the cells
+touch. This is also observed in experiments using CRAC–
+GFP (C.Parent and P.Devreotes, personal communication).
+
+Cyclic AMP-stimulated translocation of an Akt/PKB
+PH–GFP gene fusion
+Akt/PKB translocates to the plasma membrane in response
+to receptor activation (Andjelkovic et al., 1997). In addition, the PH domain of mammalian Akt/PKB binds PtdIns(3,4,5)-P3 and PtdIns-(3,4)-P2, leading to the activation of
+kinase activity (Burgering and Coffer, 1995; Frech et al.,
+1997; Klippel et al., 1997). As Dictyostelium Akt/PKB
+activation requires the function of PI3K1 or PI3K2, we
+examined whether the Dictyostelium Akt/PKB PH domain
+fused to GFP translocates to the plasma membrane with
+kinetics consistent with the activation of Akt/PKB kinase
+activity. As depicted in Figure 3A, the Akt/PKB PH–GFP
+fusion is uniformly distributed in the cytoplasm of resting,
+unstimulated cells. In response to cAMP stimulation,
+the fusion protein rapidly translocates to the plasma
+membrane. Partial membrane localization can be detected
+in the first image (2.8 s after stimulation) and is maximal
+at ~6–9 s. This translocation is very transient, being
+significantly reduced by 11 s, and not discernible by 22 s.
+These kinetics of PH–GFP translocation to the plasma are
+very similar to those of receptor-mediated activation of
+Akt/PKB kinase activity. Akt/PKB activity remains high
+for a short period of time after the PH–GFP fusion is
+no longer membrane-localized, suggesting that continued
+membrane localization may not be required for kinase
+activity.
+We examined localization of Akt/PKB PH–GFP fusion
+in cells chemotaxing to cAMP (Figure 3B). Of the
+migrating cells (some cells are non-responsive and do not
+migrate at all; we expect this is due to photo damage),
+~70% show a transient localization of the Akt/PKB PH–
+GFP fusion to the leading edge. A careful frame-by-frame
+viewing of the images reveals that this translocation
+coincides with the movement of these cells, as has been
+described for the PH domain-containing protein CRAC
+(Parent et al., 1998). Cell movement occurs by the
+protrusion of a leading edge followed by a lifting and
+retraction of the posterior of the cell (see Soll and
+Voss, 1998). The rapidity of the PH–GFP membrane
+translocation suggests that the Akt/PKB localization occurs
+during the initial phase of this two-step process, prior to
+the protrusion of a new pseudopod. The rapid and transient
+kinetics of this translocation, as depicted in Figure 3A,
+
+pkbA null cells exhibit aggregation defects
+When Dictyostelium cells are plated for development on
+phosphate-buffered agar plates as an ~95% confluent
+monolayer, wild-type cells aggregate to form a multicellular aggregate in ~8 h (Ma et al., 1997). The properties of
+this aggregation can be visualized by time-lapse phasecontrast video microscopy, which permits the observation
+of wave patterns of cAMP moving through the field of
+cells that result in cell shape changes and chemotaxis (Ma
+et al., 1997). Aggregation centers become very well
+defined by 4 h, followed shortly thereafter by the chemotaxis of cells towards the aggregation center (Figure 4A).
+Examination of the videotapes of pkbA null cells reveals
+similar refractoral waves moving across the field of cells
+prior to the formation of aggregation centers (data not
+shown), indicating that pkbA null cells produce and
+respond to cAMP. As shown in Figure 4B, pkbA null cells
+exhibit refractoral patterns in the monolayer of cells as
+aggregation centers form in response to cAMP signaling.
+However, contrary to our observations for wild-type cells,
+the centers are not stable. Eventually, a few large aggregation centers emerge. Chemotaxis commences and very
+large aggregates form (Figure 4B). When we examine
+aggregation under conditions in which cells are plated at
+~25% confluency, wild-type cells aggregate normally with
+only a slight delay and all of the cells participate in
+aggregate formation (data not shown). In contrast, pkbA
+null cells do not aggregate (data not shown).
+Many of the components of the aggregation-stage signaling pathways are induced by nanomolar pulses of cAMP
+via an autoregulatory loop. Aggregation-stage cells are
+generated by pulsing cells in suspension with 30 nM
+cAMP for 5 h to maximally express receptors and other
+components of the pathways required for receptor activation of adenylyl and guanylyl cyclases (Devreotes et al.,
+1987; Mann and Firtel, 1987; Saxe et al., 1991). To
+determine whether pkbA null cells are unable to aggregate
+properly due to an inability to activate cAMP-induced
+aggregation-stage gene expression, pkbA null cells were
+pulsed with 30 nM cAMP. We examined expression of
+two aggregation-stage genes, those encoding cAR1 and
+the cell adhesion molecule csA, which are good indicators
+of the expression of this class of gene. Both genes are
+expressed similarly in pkbA null and wild-type cells
+
+2098
+
+Regulation of Akt/PKB
+
+Fig. 5. Aggregation-stage gene expression and cAMP-induced
+activation of guanylyl cyclase in wild-type and pkbA null cells.
+(A) Expression of the pulse-induced aggregation-stage genes csA and
+cAR1. Cells were pulsed with either 25 (lanes A) or 80 nM (lanes B)
+cAMP every 6 s. RNA was isolated and analyzed by RNA blot
+hybridization. (B) Cyclic AMP stimulation of guanylyl cyclase was
+measured by quantitating cGMP production in response to cAMP
+stimulation. The experiment was repeated several times representative
+results are shown. See Materials and methods for details.
+
+(Figure 5A). This finding strongly suggests that the components required for aggregation, except for Akt/PKB, are
+not limiting in pkbA null cells and that these cells respond
+to cAMP and activated aggregation-stage pathways. We
+cannot exclude that some genes required for chemosensory
+signaling are not fully expressed in pkbA null cells.
+The kinetics of activation of Dictyostelium Akt/PKB in
+response to the chemoattractant cAMP are very similar to
+those of accumulation of cGMP (Van Haastert and Van der
+Heijden, 1983), a second messenger required for chemotaxis, and pkbA null cells show aggregation defects,
+suggesting that Akt/PKB function may be required for
+proper chemotaxis. To examine this question, we directly
+compared receptor-mediated cGMP production and the
+ability to chemotax in pkbA null and wild-type cells. As
+we show in Figure 5B, addition of cAMP to aggregationstage cells results in a rapid stimulation of cGMP production with kinetics and levels of accumulation similar to
+those of control wild-type cells. Therefore, aggregation
+phenotypes exhibited by pkbA null cells are presumably
+not due to effects on guanylyl cyclase activation and
+cGMP production.
+pkbA null cells exhibit defects in polarization and
+cell movement in chemoattractant gradients
+To examine chemotaxis, we assayed the ability of aggregation-competent pkbA null cells (cells pulsed for 4.5 h with
+cAMP) to chemotax to cAMP emitted from a micropipet.
+Figure 6A (left panel) depicts wild-type cells chemotaxing
+towards a micropipet containing cAMP, a response that is
+
+conveniently analyzed by time-lapse video microscopy.
+Wild-type cells become very elongated (polarized) in the
+cAMP gradient and move with pseudopodia extending
+almost exclusively in the direction of the cAMP gradient
+(Figure 6B). In contrast, pkbA null cells are less polarized
+in the gradient and the majority of cells remain more
+rounded (Figure 6A, right panel, and C). Detailed analysis
+indicates that the pkbA null cells often extend pseudopodia
+in directions perpendicular to the direction of the cAMP
+gradient (Figure 6C), a response that is seldom seen with
+wild-type cells but is similar to observations in rasG null
+cells (Tuxworth et al., 1997). pkbA null cells move more
+slowly than wild-type cells, as illustrated in Figure 6A,
+where many fewer pkbA null cells accumulate by the
+micropipet tip at 20 min than wild-type cells (Figure 6A).
+To exclude the possibility that pkbA null cells are simply
+delayed in obtaining the ability to properly chemotax, we
+assayed pkbA cells that had been pulsed for as much as
+7 h with 30 nM cAMP prior to assaying chemotaxis. We
+observed no difference in the response of pkbA null cells
+(data not shown).
+Our results indicate that Akt/PKB function is required
+for the proper function of cells in a chemoattractant
+gradient and may play a role in suppressing lateral
+pseudopod extension. We examine this further by overexpressing either wild-type Akt/PKB or Akt/PKB carrying
+the N-terminal myristylation signal from mammalian Src,
+which localizes proteins to the plasma membrane (Buser
+et al., 1994; Sigal et al., 1994). As shown in Figure 2B,
+overexpression of wild-type Akt/PKB results in an increase
+in basal and cAMP-stimulated kinase activity in Akt/PKB
+immunoprecipitates. When the myristylated wild-type
+Akt/PKB is overexpressed to the same level as wildtype Akt/PKB as determined by Western blot analysis
+(Figure 2F), there is a significant increase in basal activity
+(Figure 2E). We envision this to be due to the constitutive
+localization of Akt/PKB to the plasma membrane leading
+to a constitutive activation of kinase activity, as has been
+demonstrated for mammalian Akt/PKB (Kohn et al.,
+1996). When we analyzed chemotaxis towards cAMP
+emitted from a micropipet, cells expressing the myristylated Akt/PKB polarized but moved extremely slowly, even
+compared with pkbA null cells (data not shown).
+
+Discussion
+Akt/PKB is transiently activated in response to the
+chemoattractant cAMP
+We demonstrate that in response to the chemoattractant
+cAMP, Dictyostelium cells rapidly stimulate Akt/PKB
+activity. The activity peaks at 10–15 s and then quickly
+decreases, indicating that Akt/PKB activation, like many
+other aggregation-stage responses in Dictyostelium, rapidly
+adapts. We find that Akt/PKB activation requires cellsurface cAMP receptors and the heterotrimeric G protein
+that couples to other receptor-mediated aggregation-stage
+responses. Interestingly, activation of Akt/PKB in Dictyostelium requires the function of two closely-related PI3Ks
+that exhibit a high level of homology to the mammalian
+p110 family of PI3Ks, which are activated in response to
+a variety of extracellular signals (Vanhaesbroeck et al.,
+1997). The role of PI3K in Akt/PKB activation is supported
+by our results demonstrating that the PI3K inhibitor
+
+2099
+
+R.Meili et al.
+
+LY294002, at concentrations similar to those that inhibit
+PI3K activity in mammalian cells, effectively blocks
+cAMP stimulation when it is given only 1 min prior to
+receptor stimulation. The genetic and inhibitor studies
+strongly suggest that the requirement of PI3K for Akt/
+PKB activation is direct. We suggest that receptor stimulation leads to the activation of PI3K via a G proteincoupled pathway, and the activation of Akt/PKB, possibly
+via a mechanism that is similar to Akt/PKB activation in
+mammalian cells. This occurs via a phosphorylation of
+conserved residues in the activation loop and C-terminal
+tail (see Introduction). Consistent with such a model, we
+show that Dictyostelium Akt/PKB, in which these two
+residues are mutated to Ala (pkbAT278A,T435A), is not
+activated in response to cAMP.
+We found that a GFP fusion with the Akt/PKB PH
+domain transiently translocates to the plasma membrane
+
+2100
+
+responding cells. We show that as cells form cell–cell
+contacts, as they would in the formation of aggregation
+stream in vivo, there is a sustained localization of PH–
+GFP at the position of the cell contact. We surmise that
+cell–cell contact may potentiate pathways leading to this
+localization. Although we do not directly demonstrate that
+the whole kinase undergoes a similar translocation in
+response to cAMP due to technical difficulties with the
+full-length Akt/PKB–GFP fusion, our data are consistent
+with a membrane translocation of Dictyostelium Akt/PKB
+in response to receptor stimulation and, in accordance
+with models describing the activation of mammalian Akt/
+PKB (see Introduction). Considering the requirement of
+PI3K1/2 for Akt/PKB activation, we hypothesize that
+PI3K1 and PI3K2 are transiently activated in response
+to cAMP and their activation is required for Akt/PKB
+activation. Recently, Parent et al. (1998) demonstrated
+
+Regulation of Akt/PKB
+
+Fig. 6. Chemotaxis of wild-type and pkbA null cells. Wild-type and pkbA null cells were washed and pulsed for 4.5 h with 30 nM cAMP every
+10 min (see Materials and methods), and plated on a Petri dish with a hole in the center over which a glass coverslip has been glued in place for the
+chemotaxis assay. The tip of a micropipet containing 150 μM cAMP is visible. (A) Chemotaxis of wild-type cells and pkbA null cells. The three lefthand panels of the figure show wild-type cells. Accumulation of cells at the micropipet tip is seen within 10 min and significant accumulation is
+observed after 20 min. The right-hand side of the figure shows the chemotaxis of pkbA null cells. pkbA null cells move very slowly and very few
+cells have accumulated at the tip after 20 min, even though the initial density of the pkbA null cells is slightly higher than for the wild-type cells
+(compare the ‘0 min’ panels). (B) Chemotaxis of a single wild-type cell towards a micropipet containing cAMP recorded at 6 s intervals. The frames
+show the same area of the Petri dish (data courtesy of Chang Chung; Chung et al., submitted). Note: after the 108 s time point, the needle was
+moved further away from the cells. For both wild-type cells and pkbA null cells (C), the properties of the cell movement was not dependent on how
+close the needle was to a specific cell as long as the cell was in the field of view shown in (A). (C) Movement of a pkbA null cell. A single cell is
+viewed at 12 s intervals. The position of the micropipet remains constant and points in the direction of the open arrowhead shown in the upper left
+panel. The cell being followed is marked by a white arrowhead. The cells do not polarize in the direction of movement. Pseudopodia are extended in
+multiple directions simultaneously and not in the direction of the chemoattractant gradient. All experiments have been repeated and the data shown
+are representative. Scale bars, 10 μm in (A) and (B), 20 μm in (C).
+
+2101
+
+R.Meili et al.
+
+that a GFP fusion of the PH domain containing protein
+CRAC, which is required for receptor activation of adenylyl cyclase in Dictyostelium, shows a transient membrane
+translocation to the leading edge of cells with kinetics
+similar to those of the Akt/PKB PH–GFP fusion in
+response to cAMP stimulation. In polarized, chemotaxing
+cells, the Akt/PKB PH–GFP fusion exhibits a similar
+localization to the leading edge. As described in the
+Results section, our data suggest that in chemotaxing cells
+the Akt/PKB PH–GFP fusion transiently localizes to the
+leading edge, indicating this is a dynamic process that
+occurs during the process of chemotaxis. It is possible
+that the same second messenger regulates the membrane
+localization of both proteins, nucleating the formation of
+signaling complexes at the leading edge required for a
+series of signaling responses, including activation of
+adenylyl cyclase and pathways leading to cell movement.
+This would facilitate the interaction of the proteins
+involved in these pathways and localize the downstream
+responses to permit the directed cell movement required
+during aggregation. Such signaling complexes have been
+reported in Dictyostelium (Xiao and Devreotes, 1997),
+although it is not known how many components of
+these pathways are localized. It is expected that similar
+complexes would be formed in metazoans.
+pkbA null cells exhibit aggregation defects
+Our phenotypic analysis of pkbA null cells suggests that
+Akt/PKB has multiple functions during the aggregation
+stage of Dictyostelium development that include the regulation of chemotaxis. pkbA null cells are less polarized in
+cAMP gradients and the rate of movement of these cells
+is slower than for wild-type cells. Closer examination
+reveals that, unlike wild-type cells, many of the pkbA null
+cells produce lateral pseudopodia even though cAMP
+receptors are uniformly distributed along the surface of
+the cell and thus all parts of a cell in a cAMP gradient
+receive a signal (Xiao et al., 1997). rasG null cells have
+similar cell movement defects (Tuxworth et al., 1997).
+Cells must discriminate between small concentration differences between the front and back of a cell in a gradient
+to regulate directional responses such as chemotaxis.
+Previous results with CRAC–GFP similarly indicated that
+the activation of downstream pathways may be restricted
+to the leading edge of a migrating cell (Parent et al.,
+1998). It is therefore probable that an intracellular signal
+relay mechanism prevents pseudopodia formation in
+regions of the cells other than the front. Alternatively,
+some components of these pathways may be limiting and
+their accumulation in one part of the cells may limit the
+ability for the same pathway to be activated in another
+part of the same cell. While we cannot distinguish between
+these possibilities, we favor the former model, which is
+consistent with localization of CRAC–GFP and Akt/PKB
+PH–GFP at the leading edge. Our data are consistent with
+Akt/PKB being required for the suppression of lateral
+pseudopod formation perpendicular to the chemoattractant
+gradient. We demonstrate that overexpression of a membrane-targeted (myr) Akt/PKB results in a very high
+constitutive Akt/PKB kinase activity, and myr-Akt/PKBexpressing cells are unable to chemotax efficiently. Overexpression of a membrane-targeted Akt/PKB might result
+in a constitutive activation of Akt/PKB along the entire
+
+2102
+
+plasma membrane. We expect that such a non-spatially
+restricted active Akt/PKB may inhibit chemotaxis by
+preventing the cells from detecting the directionality of a
+subsequent cAMP signal. Although these cells become
+polarized, possibly due to a spatially-restricted activation
+of other cellular responses, the cells move more slowly
+than wild-type cells, suggesting that localized activation
+of Akt/PKB may be an important component of cell
+movement. In mammalian cells, PI3K is required for Rasmediated reorganization of the actin cytoskeleton in nonmotile cells (Ma et al., 1998). It is not known whether
+this function of PI3K requires downstream activation of
+Akt/PKB.
+We found that pkbA null cells exhibit normal expression
+of two aggregation-stage genes that are representative of
+genes expressed during aggregation required for chemotaxis. Thus, we do not think the defects in cell movement
+that we have observed result from secondary effects on gene
+expression, although we cannot exclude the possibility that
+some genes required for chemosensory responses are not
+fully expressed. We demonstrated that cells pulsed for as
+long as 7 h have similar chemotaxis defects. Thus, if pkbA
+null cells are delayed in attaining chemotaxis competence,
+it cannot be overcome by pulsing the cells for a longer
+period of time. Moreover, cAMP activation of guanylyl
+cyclase in pkbA null cells, which is required for chemotaxis,
+is indistinguishable from that of wild-type cells, indicating
+that defects in this pathway are not responsible for cell
+movement defects of pkbA null cells and that the ability to
+activate this pathway is not delayed in pkbA null cells.
+pkbA null cells have two other aggregation defects.
+First, pkbA null cells produce few stable aggregation
+centers and the formation of aggregates is delayed compared with wild-type cells. Aggregation requires each cell
+to respond to ~20 pulses of cAMP (one every 6–10 min)
+to produce a multicellular organism (Firtel, 1995; Ginsburg
+et al., 1995; Van Haastert, 1995; Parent and Devreotes,
+1996). Analysis of video movies of pkbA null cells
+indicates that aggregation centers appear but are rapidly
+lost, with new centers appearing and disappearing. Eventually, a few dominant, large aggregation centers persist
+over an area in which wild-type cells normally have
+multiple stable aggregation domains. One possible
+explanation of this phenotype is that Akt/PKB affects
+the adaptation of the signaling pathways, although the
+available data do not prove this model. The second
+phenotype is an inability of cells to aggregate when plated
+at lower densities. We think this phenotype is associated
+with the reduced efficiency of chemotaxis. When cells are
+plated as a confluent monolayer, cell–cell contacts may
+facilitate chemotaxis, possibly through cell adhesion molecules that are induced during aggregation. It is thought
+that such processes allow the coalescing of mek1 null
+cells to form aggregates (Ma et al., 1997).
+We predict that Akt/PKB translocates to the plasma
+membrane in response to cAMP signaling, as this would
+be consistent with a proposed pathway for Akt/PKB
+activation and the present data. As many of the components
+required for chemotaxis are thought to be conserved
+between Dictyostelium and mammalian cells (Chen et al.,
+1996; Zigmond et al., 1997), it is possible that PI3K and
+Akt/PKB may play similar roles in the response of
+mammalian cells to chemokines.
+
+Regulation of Akt/PKB
+
+Materials and methods
+Materials
+Sodium orthovanadate, β-glycerophosphate, aprotinin and leupeptin were
+obtained from Sigma. H2B was purchased from Boehringer Mannheim.
+[γ-32P]ATP was from ICN. Protein A–Sepharose CL-4B was obtained
+from Pharmacia Biotech., Inc.
+Antibodies
+A rabbit polyclonal anti-Dictyostelium PKB antibody was raised against
+a glutaraldehyde conjugate of bovine serum albumin (BSA) with the
+peptide KGGVAESEHLER corresponding to the C-terminus of DdPKB.
+Preparation of the affinity resin and affinity purification was essentially
+performed according to Harlow and Lane (1988). The peptide was
+coupled to immobilized diaminodipropylamine (Pierce) activated with
+glutaraldehyde (Sigma, Grade I) by rotating a slurry containing 5 mg
+peptide/ml beads for 2 h at room temperature.
+Creation of pkbA null strain
+A pkbA knockout construct was made by inserting the Blasticidin
+resistance (Sutoh, 1993) cassette into a BamHI site created at base 520
+of the PKB cDNA. Specifically, pkbA knockout plasmid was made by
+inserting a Blasticidin resistance (Sutoh, 1993) cassette into a BamHI
+site inserted by PCR at a position 520 of the Akt/PKB ORF in the
+cDNA in the following construct: a 5⬘-fragment including a small
+intron was amplified from genomic DNA by PCR using the primers
+TAAATATGTCAACAGCACCAATTAAAC and TTTTTGGATCCTTTGAAGAATATTACGCTCAC and subsequently digested with the
+enzymes HincII and BamHI. A 3⬘ fragment was amplified using
+the primers TTTTGGATCCATCACCCATTTTTGGTTAATCTC and
+TTTTTTCTAGAGGGAACGAGCATCTGGAG and digested with the
+enzymes BamHI and AatII. These fragments were used to replace the
+HincII and AatII fragment in the pkbA cDNA clone.
+The vector was digested with HincII and AatII and the DNA was
+transformed into Dictyostelium cells. After Bsr selection (Sutoh, 1993),
+cells were plated for the isolation of clones. Randomly selected clones
+were screened for a gene disruption by PCR, which was then confirmed
+by Southern blot analysis. Two independent clones were picked and
+examined. Both showed the same aggregation defects described in the
+Results section.
+Plasmids
+A full-length pkbA cDNA clone was obtained by screening a 12–16 h
+developmental λZAP library (Schnitzler et al., 1994) with a probe
+amplified from genomic DNA by PCR.
+To introduce a membrane targeting epitope, a linker coding for the
+first 16 amino acids of chicken c-Src composed of the myristylation
+signal and the basic amino acid cluster sufficient for stable membrane
+association (Buser et al., 1994; Sigal et al., 1994) was added to the
+N-terminus using the unique HincII site.
+For the PH–GFP fusion construct, GFP was amplified by PCR using
+a template obtained from Roger Tsien (UCSD) using the two primers
+GTTTTTACTAGTAAAAAATGAGTAAAGGTGAAGAACTTTTC and
+TTTTTGATATCTTGTATAGTTCATCCATGC. This product was
+digested with SpeI and EcoRV. DNA encoding the first 113 amino
+acids of Akt/PKB comprising the PH domain was amplified from the
+pkbA cDNA using primers TAAATATGTCAACAGCACCAATTAAAC
+and CCCCCCCTCGAGAAAAATTAAGATTCCGATTTCTTTGGTTGTTTACC. This product was digested with HincII and XhoI. In a
+triple ligation, the two PCR products were subcloned into pBluescript,
+sequenced, and inserted into the expression vector DIP-j expression
+(Gaskins et al., 1996).
+The putative non-activatable mutant, pkbAT278A,T435A, in which the
+putative phosphorylation sites of Akt/PKB were mutated to Ala, was
+generated using the ‘Transformer site-directed mutagenesis kit’
+(Clonetech) with the oligonucleotides GTACCACAGAAAGCACCAGTTTTG and GATTCAGCGACATAAGCAAATCCTTCAAAATC. Successful mutagenesis was confirmed by sequencing.
+All pkbA constructs were subcloned into DIP-j for expression in
+Dictyostelium (Gaskins et al., 1996).
+cAMP stimulation of Dictyostelium cells
+To produce aggregation-competent cells, log-phase vegetative cells were
+washed three times with Na/K phosphate buffer and resuspended at a
+density of 2–3⫻106 cells/ml in Na/K phosphate buffer and pulsed for
+5 h with 30 nM cAMP every 10 min (Devreotes et al., 1987; Mann and
+
+Firtel, 1987; Saxe et al., 1991). The cells were collected by centrifugation
+and resuspended at a density of 2–3⫻107 cells/ml. Cells were allowed
+to resensitize to being able to be stimulated by cAMP by bubbling air
+through the cell suspension for 10 min (Devreotes et al., 1987; Ma
+et al., 1997). A sample of 200 μl was taken before the cells were
+stimulated with cAMP (100 nM final concentration). Samples were taken
+at the times indicated.
+
+Lysis and immunoprecipitation
+The 200 μl samples were lysed by mixing with an equal volume of 2⫻
+lysis buffer [50 mM Tris pH 7.6 at room temperature, 200 mM NaCl,
+20 mM NaF, 2 mM vanadate, 50 mM β-glycerophosphate, 6 mM sodium
+pyrophosphate, 2 mM EDTA, 2 mM EGTA, 4 μg/ml leupeptin, 4 μg/ml
+aprotinin, 2% Nonidet P-40 (NP-40), 20% glycerol, 2 mM dithiothreitol
+(DTT)]. The lysate was pre-cleared by centrifugation after addition of
+20 μl pansorbin (Calbiochem). One microliter of antibody was added to
+200 μl supernatant and incubated on ice for 1 h. The formed immune
+complexes were collected with 50 μl of a 1:1 slurry of protein A beads
+in lysis buffer by incubation under agitation for 1 h at 4°C. The beads
+were washed twice with lysis buffer and twice with kinase buffer (25 mM
+MOPS pH 7.4 at room temperature, 25 mM β-glycerophosphate, 20 mM
+magnesium chloride, 1 mM DTT).
+PKB/Akt activity assay
+PKB/Akt activity was measured in a immunocomplex kinase assay
+following immunoprecipitation with the anti-PKB antibody. The beads
+were incubated with 75 μl kinase buffer containing 5 μCi [γ-32P]ATP,
+5 μM cold ATP, and 5 μg H2B as substrate. The reaction was stopped
+by the addition of 25 μl 4⫻ sample buffer and boiling for 5 min. The
+samples were separated by SDS–PAGE (12.5%), blotted onto a PVDF
+membrane (Millipore), and exposed to film. All assays were repeated
+independently.
+cGMP assay
+To measure cGMP production in response to cAMP stimulation, cells
+were prepared and stimulated as described in the section entitled ‘cAMP
+stimulation of Dictyostelium cells’ and assayed as described previously
+(Van Haastert and Van der Heijden, 1983; Ma et al., 1997). One-hundred
+microliter samples were taken at appropriate intervals and processed
+using the ‘Cyclic GMP [3H] assay system’ (Amersham) following the
+manufacturer’s instructions. The assay was independently repeated. A
+representative experiment is shown.
+Developmental time course of Akt/PKB levels: Western blot
+analysis
+Exponentially growing cells were harvested and washed twice with
+12 mM Na/K phosphate buffer pH 6.1 and plated on Na/K phosphate
+agar plates at a density of 4⫻106 cells/cm2. For each time point, 1.5⫻107
+cells were harvested. The samples for Western blotting were processed
+as described under ‘Lysis and immunoprecipitation’. PKB was released
+from the protein A beads by boiling in 100 μl 1⫻ SDS sample buffer.
+Materials were sized by SDS–PAGE.
+After separating the samples (10 μl/lane) by SDS–PAGE and blotting
+onto PVDF membranes (Millipore), the membranes were probed using
+standard Western blotting protocols. For detection of the primary antiAkt/PKB antibody, we used an alkaline phosphatase protein A conjugate
+(Calbiochem). We developed the membranes using a colorigenic substrate
+combination (5-bromo-4-chloro-3-indolyl phosphate/nitro blue tetrazolium; Boehringer Mannheim).
+Chemotaxis assay
+Log-phase vegetative cells were washed three times with Na/K phosphate
+buffer and resuspended at a density of 2–3⫻106 cells/ml in Na/K
+phosphate buffer and pulsed for 5 h with 30 nM cAMP every 10 min
+(Devreotes et al., 1987; Mann and Firtel, 1987; Saxe et al., 1991).
+Pulsed cells were plated in Na/K phosphate buffer at a density of 6⫻104
+cells/cm2 onto a plate with a hole covered by a 0.17 mm glass coverslip.
+A Eppendorf Patchman micromanipulator with a glass capillary needle
+(Eppendorf Femtotip) filled with 150 μM cAMP solution was brought
+into the field of view of an inverted microscope. The response of the
+cells was followed by time-lapse video recording.
+Image acquisition
+Dictyostelium cells were developed on Na/K phosphate agar plates at a
+density of 4⫻106 cells/cm2 and recorded with a CCD72S video camera
+(DAGE MTI, Michigan City, MI) using a Nikon Optiphot-2 microscope
+and a 4⫻ phase-contrast lens. Individual frames were captured into a
+
+2103
+
+R.Meili et al.
+image processing program (NIH Image) with the help of a SCION
+frame-grabber board.
+Visible light images of chemotaxing cells were taken with a Nikon
+Eclipse TE 300 inverted microscope equipped for DIC-imaging with a
+Plan Fluor ELWD 2⫻/0.45 or Plan Fluor ELWD 4⫻/0.60 lens. Individual
+frames were captured from a CCD72S video camera into a image
+processing program (NIH Image) with the help of a SCION framegrabber board.
+Fluorescence pictures were obtained with the same equipment but
+using a RC300 video camera (DAGE MTI, Michigan City, MI) capable
+of on-chip integration. The pictures were acquired with IPLab Spectrum,
+Scanalytics, by integrating for 2–8 s.
+
+Acknowledgements
+We would like to thank members of the Firtel laboratory, particularly
+Chang Chung and Jason Brown, for helpful discussions. We would also
+like to thank Jennifer Roth and Jason Brown for helpful suggestions on
+the manuscript. R.M. was funded, in part, by grants from the Swiss
+National Science Foundation and the Novartis Stiftung. This work was
+funded by research grants from the USPHS to R.A.F.
+
+References
+Abu-Elneel,K., Karchi,M. and Ravid,S. (1996) Dictyostelium myosin II
+is regulated during chemotaxis by a novel protein kinase C. J. Biol.
+Chem., 271, 977–984.
+Alessi,D., Andjelkovic,M., Caudwell,B., Cron,P., Morrice,N., Cohen,P.
+and Hemmings,B. (1996) Mechanism of activation of protein kinase B
+by insulin and IGF-1. EMBO J., 15, 6541–6551.
+Alessi,D. et al. (1997a) 3-Phosphoinositide-dependent protein kinase-1
+(PDK1): structural and functional homology with the Drosophila
+DSTPK61 kinase. Curr. Biol., 7, 776–789.
+Alessi,D., James,S., Downes,C., Holmes,A., Gaffney,P., Reese,C. and
+Cohen,P. (1997b) Characterization of a 3-phosphoinositide-dependent
+protein kinase which phosphorylates and activates protein kinase Bα.
+Curr. Biol., 7, 261–269.
+Andjelkovic,M., Jones,P.F., Grossniklaus,U., Cron,P., Schier,A.F.,
+Dick,M., Bilbe,G. and Hemmings,B.A. (1995) Developmental
+regulation of expression and activity of multiple forms of the
+Drosophila RAC protein kinase. J. Biol. Chem., 270, 4066–4075.
+Andjelkovic,M. et al. (1997) Role of translocation in the activation and
+function of protein kinase B. J. Biol. Chem., 272, 31515–31524.
+Bellacosa,A., Testa,J., Staal,S. and Tsichlis,P. (1991) A retroviral
+oncogene, akt, encoding a serine-threonine kinase containing an SH2like region. Science, 254, 274–277.
+Buczynski,G., Grove,B., Nomura,A., Kleve,M., Bush,J., Firtel,R.A. and
+Cardelli,J. (1997) Inactivation of two Dictyostelium discoideum genes,
+DdPIK1 and DdPIK2, encoding proteins related to mammalian
+phosphatidylinositide 3-kinases, results in defects in endocytosis,
+lysosome to postlysosome transport and actin cytoskeleton
+organization. J. Cell Biol., 136, 1271–1286.
+Burgering,B. and Coffer,P. (1995) Protein kinase B (c-Akt) in
+phosphatidylinositol-3-OH kinase signal transduction. Nature, 376,
+599–602.
+Buser,C., Sigal,C., Resh,M. and McLaughlin,S. (1994) Membrane
+binding of myristylated peptides corresponding to the NH2 terminus
+of Src. Biochemistry, 33, 13093–13101.
+Chen,M.Y., Insall,R.H. and Devreotes,P.N. (1996) Signaling through
+chemoattractant receptors in Dictyostelium. Trends Genet., 12, 52–57.
+Chen,M.Y., Long,Y. and Devreotes,P.N. (1997) A novel cytosolic
+regulator, pianissimo, is required for chemoattractant receptor and G
+protein-mediated activation of the 12 transmembrane domain adenylyl
+cyclase in Dictyostelium. Genes Dev., 11, 3218–3231.
+Coffer,P. and Woodgett,J. (1991) Molecular cloning and characterization
+of a novel putative protein-serine kinase related to the cAMPdependent and protein kinase C families. Eur. J. Biochem., 201,
+475–481.
+Cross,D., Alessi,D., Cohen,P., Anjelkovich,M. and Hemmings,B. (1995)
+Inhibition of glycogen synthase kinase-3 by insulin mediated by
+protein kinase B. Nature, 378, 785–789.
+Dembinsky,A., Rubin,H. and Ravid,S. (1996) Chemoattractant-mediated
+increases in cGMP induce changes in Dictyostelium myosin II heavy
+chain-specific protein kinase C activities. J. Cell Biol., 134, 911–921.
+
+2104
+
+Deprez,J., Vertommen,D., Alessi,D., Hue,L. and Roder,M. (1997)
+Phosphorylation and activation of heart 6-phosphofructo-2-kinase by
+protein kinase B and other protein kinases of the insulin signaling
+cascades. J. Biol. Chem., 272, 17269–17275.
+Devreotes,P., Fontana,D., Klein,P., Sherring,J. and Theibert,A. (1987)
+Transmembrane signaling in Dictyostelium. Methods Cell Biol., 28,
+299–331.
+Dudek,H., Datta,S., Franke,T., Birnbaum,M., Yao,R., Cooper,G.,
+Segal,R., Kaplan,D. and Greenberg,M. (1997) Regulation of neuronal
+survival by the serine-threonine protein kinase Akt. Science, 31,
+661–665.
+Firtel,R.A. (1995) Integration of signaling information in controlling
+cell-fate decisions in Dictyostelium. Genes Dev., 9, 1427–1444.
+Firtel,R.A. (1996) Interacting signaling pathways controlling
+multicellular development in Dictyostelium. Curr. Opin. Genet. Dev.,
+6, 545–554.
+Franke,T., Yang,S., Chan,T., Datta,K., Kazlauskas,A., Morrison,D.,
+Kaplan,D. and Tsichlis,P. (1995) The protein kinase encoded by the
+Akt proto-oncogene is a target of the PDGF-activated phosphatidylinositol 3-kinase. Cell, 81, 727–736.
+Frech,M., Andjelkovich,M., Ingley,E., Reddy,K., Falck,J. and
+Hemmings,B. (1997) High affinity binding of inositol phosphatase
+and phosphoinositides to the pleckstrin homology domain of RAC/
+protein kinase B and their influence on kinase activity. J. Biol. Chem.,
+272, 8474–8481.
+Gaskins,C., Clark,A.M., Aubry,L., Segall,J.E. and Firtel,R.A. (1996) The
+Dictyostelium MAP kinase ERK2 regulates multiple, independent
+developmental pathways. Genes Dev., 10, 118–128.
+Ginsburg,G.T., Gollop,R., Yu,Y.M., Louis,J.M., Saxe,C.L. and
+Kimmel,A.R. (1995) The regulation of Dictyostelium development by
+transmembrane signalling. J. Eukaryot. Microbiol., 42, 200–205.
+Harlow,E. and Lane,D. (1988) Antibodies: A Laboratory Manual. Cold
+Spring Harbor Laboratory Press, New York, NY.
+Insall,R., Kuspa,A., Lilly,P.J., Shaulsky,G., Levin,L.R., Loomis,W.F. and
+Devreotes,P. (1994a) CRAC, a cytosolic protein containing a pleckstrin
+homology domain, is required for receptor and G protein-mediated
+activation of adenylyl cyclase in Dictyostelium. J. Cell Biol., 126,
+1537–1545.
+Insall,R.H., Soede,R.D.M., Schaap,P. and Devreotes,P.N. (1994b) Two
+cAMP receptors activate common signaling pathways in Dictyostelium.
+Mol. Biol. Cell, 5, 703–711.
+Insall,R.H., Borleis,J. and Devreotes,P.N. (1996) The aimless RasGEF
+is required for processing of chemotactic signals through G-proteincoupled receptors in Dictyostelium. Curr. Biol., 6, 719–729.
+Jones,P., Jakubowicz,T., Pitossi,F., Maurer,F. and Hemmings,B. (1991)
+Molecular cloning and identification of a serine/threonine protein
+kinase of the second-messenger subfamily. Proc. Natl Acad. Sci. USA,
+88, 4171–4175.
+Kauffmann-Zeh,A., Rodriguez-Viciana,P., Ulrich,E., Gilbert,C.,
+Coffer,P., Downward,J. and Evan,G. (1997) Suppression of c-Mycinduced apoptosis by Ras signalling through PI(3)K and PKB. Nature,
+385, 544–558.
+Kennedy,S., Wagner,A., Conzen,S., Jordan,J., Bellacosa,A., Tsichlis,P.
+and Hay,N. (1997) The PI 3-kinase/Akt signaling pathway delivers
+an anti-apoptotic signal. Genes Dev., 11, 701–713.
+Kim,J.Y., Soede,R.D.M., Schaap,P., Valkema,R., Borleis,J.A., Van
+Haastert,P.J.M., Devreotes,P.N. and Hereld,D. (1997) Phosphorylation
+of chemoattractant receptors is not essential for chemotaxis or
+termination of G-protein-mediated responses. J. Biol. Chem., 272,
+27313–27318.
+Klippel,A., Kavanaugh,W., Pot,D. and Williams,L. (1997) A specific
+product of phosphatidylinositol 3-kinase directly activates the protein
+kinase Akt through its pleckstrin homology domain. Mol. Cell. Biol.,
+17, 338–344.
+Kohn,A., Summers,S., Birnbaum,M. and Roth,R. (1996) Expression of
+a constitutively active Akt Ser/Thr kinase in 3T3-L1 adipocytes
+stimulates glucose uptake and glucose transporter 4 translocation.
+J. Biol. Chem., 271, 31372–31378.
+Kulik,G., Klippel,A. and Weber,M. (1997) Antiapoptotic signalling by
+the insulin-like growth factor I receptor, phosphatidylinositol 3-kinase
+and Akt. Mol. Cell. Biol., 17, 1595–1606.
+Kuwayama,H. and Van Haastert,P.J.M. (1996) Regulation of guanylyl
+cyclase by a cGMP-binding protein during chemotaxis in Dictyostelium
+discoideum. J. Biol. Chem., 271, 23718–23724.
+Lefebvre,V., Mechin,M., Louckx,M., Rider,M. and Hue,L. (1996)
+Signaling pathway involved in the activation of heart 6-phosphofructo2-kinase by insulin. J. Biol. Chem., 271, 22289–22292.
+
+Regulation of Akt/PKB
+Ma,A.D., Metjian,A., Bagrodia,S., Taylor,S. and Abrams,C.S. (1998)
+Cytoskeletal reorganization by G protein-coupled receptors is
+dependent on phosphoinositide 3-kinase γ, a Rac guanosine exchange
+factor and Rac. Mol. Cell. Biol., 18, 4744–4751.
+Ma,H., Gamper,M., Parent,C. and Firtel,R.A. (1997) The Dictyostelium
+MAP kinase kinase DdMEK1 regulates chemotaxis and is essential
+for chemoattractant-mediated activation of guanylyl cyclase. EMBO J.,
+16, 4317–4332.
+Maeda,M., Aubry,L., Insall,R., Gaskins,C., Devreotes,P.N. and
+Firtel,R.A. (1996) Seven helix chemoattractant receptors transiently
+stimulate mitogen-activated protein kinase in Dictyostelium: Role of
+heterotrimeric G proteins. J. Biol. Chem., 271, 3351–3354.
+Mann,S.K.O. and Firtel,R.A. (1987) Cyclic AMP regulation of early
+gene expression in Dictyostelium discoideum: Mediation via the cell
+surface cyclic AMP receptor. Mol. Cell. Biol., 7, 458–469.
+Milne,J.L. and Devreotes,P.N. (1993) The surface cyclic AMP receptors,
+cAR1, cAR2 and cAR3, promote Ca2⫹ influx in Dictyostelium
+discoideum by a Gα2-independent mechanism. Mol. Biol. Cell, 4,
+283–292.
+Milne,J.L.S., Wu,L.J., Caterina,M.J. and Devreotes,P.N. (1995) Seven
+helix cAMP receptors stimulate Ca2⫹ entry in the absence of functional
+G proteins in Dictyostelium. J. Biol. Chem., 270, 5926–5931.
+Murga,C., Laguinge,L., Wetzker,R., Cuadrado,A. and Gutkind,J. (1998)
+Activation of Akt/protein kinase B by G protein-coupled receptors.
+J. Biol. Chem., 273, 19080–19085.
+Newell,P.C. (1995) Signal transduction and motility of Dictyostelium.
+Biosci. Rep., 15, 445–462.
+Noegel,A.A. and Luna,J.E. (1995) The Dictyostelium cytoskeleton.
+Experientia, 51, 1135–1143.
+Pagh,K., Maruta,H., Claviez,M. and Gerisch,G. (1984) Localization
+of two phosphorylation sites adjacent to a region important for
+polymerization on the tail of Dictyostelium myosin. EMBO J., 3,
+3271–3278.
+Paradis,S. and Ruvkun,G. (1998) Caenorhabditis elegans Akt/PKB
+transduces insulin receptor-like signals from AGE-1 PI3 kinase to the
+DAF-16 transcription factor. Genes Dev., 12, 2488–2498.
+Parent,C.A. and Devreotes,P.N. (1996) Molecular genetics of signal
+transduction in Dictyostelium. Annu. Rev. Biochem., 65, 411–440.
+Parent,C.A., Blacklock,B.J., Froehlich,W.M., Murphy,D.B. and
+Devreotes,P.N. (1998) G protein signaling events are activated at the
+leading edge of chemotactic cells. Cell, 95, 81–91.
+Saxe,C.L.,III, Johnson,R.L., Devreotes,P.N. and Kimmel,A.R. (1991)
+Expression of a cAMP receptor gene of Dictyostelium and evidence
+for a multigene family. Genes Dev., 5, 1–8.
+Schnitzler,G.R., Fischer,W.H. and Firtel,R.A. (1994) Cloning and
+characterization of the G-box binding factor, an essential component
+of the developmental switch between early and late development in
+Dictyostelium. Genes Dev., 8, 502–514.
+Schnitzler,G.R., Briscoe,C., Brown,J.M. and Firtel,R.A. (1995)
+Serpentine cAMP receptors may act through a G protein-independent
+pathway to induce postaggregative development in Dictyostelium.
+Cell, 81, 737–745.
+Segall,J.E., Kuspa,A., Shaulsky,G., Ecke,M., Maeda,M., Gaskins,C. and
+Firtel,R.A. (1995) A MAP kinase necessary for receptor-mediated
+activation of adenylyl cyclase in Dictyostelium. J. Cell Biol., 128,
+405–413.
+Sigal,C., Zhou,W., Buser,C., McLaughlin,S. and Resh,M. (1994) Aminoterminal basic residues of Src mediate membrane binding through
+electrostatic interaction with acidic phospholipids. Proc. Natl Acad.
+Sci. USA, 91, 12253–12257.
+Soll,D. and Voss,E. (1998) Two- and three-dimensional computer systems
+for analyzing how animal cells crawl. In Soll,D. and Wessels,D. (eds),
+Motion Analysis of Living Cells. Wiley-Liss, New York, NY, pp. 25–52.
+Stephens,L. et al. (1998) Protein kinase B kinases that mediate
+phosphatidylinositol 3,4,5-triphosphate-dependent activation of protein
+kinase B. Science, 279, 710–714.
+Stockoe,D., Stephens,L., Copeland,T., Gaffney,P., Reese,C., Painter,G.,
+Holmes,A., McCormick,F. and Hawkins,P. (1997) Dual role of
+phosphatidylinositol-3,4,5-triphosphate in the activation of protein
+kinase B. Science, 277, 567–570.
+Sutoh,K. (1993) A transformation vector for Dictyostelium discoideum
+with a new selectable marker Bsr. Plasmid, 30, 150–154.
+Tuxworth,R.I., Cheetham,J.L., Machesky,L.M., Spiegelmann,G.B.,
+Weeks,G. and Insall,R.H. (1997) Dictyostelium RasG is required for
+normal motility and cytokinesis, but not growth. J. Cell Biol., 138,
+605–614.
+
+Van Haastert,P.J.M. (1995) Transduction of the chemotactic cAMP signal
+across the plasma membrane of Dictyostelium cells. Experientia, 51,
+1144–1154.
+Van Haastert,P.J.M. and Van der Heijden,P.R. (1983) Excitation
+adaptation and deadaptation of the cAMP mediated cGMP response
+in Dictyostelium discoideum. J. Cell Biol., 96, 347–353.
+Van Haastert,P.J.M. and Kuwayama,H. (1997) cGMP as second
+messenger during Dictyostelium chemotaxis. FEBS Lett., 410, 25–28.
+Vanhaesbroeck,B., Leevers,S., Panayotou,G. and Waterfield,M. (1997)
+Phosphoinositide 3-kinases: a conserved family of signal transducers.
+Trends Biochem. Sci., 22, 267–272.
+Vlahos,C.J., Matter,W., Hui,K.Y. and Brown,R.F. (1994) A specific
+inhibitor of phosphatidylinositol 3-kinase, 2-(4-morpholinyl)-8phenyl-4H-1-benzopyran-4-1 (LY294002). J. Biol. Chem., 269,
+5241–5248.
+Wu,L.J., Valkema,R.,Van Haastert,P.J.M. and Devreotes,P.N. (1995)
+The G protein β subunit is essential for multiple responses to
+chemoattractants in Dictyostelium. J. Cell Biol., 129, 1667–1675.
+Xiao,Z. and Devreotes,P.N. (1997) Identification of detergent-resistant
+plasma membrane microdomains in Dictyostelium: Enrichment of
+signal transduction proteins. Mol. Biol. Cell, 8, 855–869.
+Xiao,Z., Zhang,N., Murphy,D.B. and Devreotes,P.N. (1997) Dynamic
+distribution of chemoattractant receptors in living cells during
+chemotaxis and persistent stimulation. J. Cell Biol., 139, 365–374.
+Zhou,K.M., Takegawa,K., Emr,S.D. and Firtel,R.A. (1995) A
+phosphatidylinositol (PI) kinase gene family in Dictyostelium
+discoideum: Biological roles of putative mammalian p110 and yeast
+Vps34p PI 3-kinase homologs during growth and development. Mol.
+Cell. Biol., 15, 5645–5656.
+Zhou,K., Pandol,S., Bokoch,G. and Traynor-Kaplan,A.E. (1998)
+Disruption of Dictyostelium PI3K genes reduces [32P]phosphatidylinositol 3,4 bisphosphate and [32P]phosphatidylinositol trisphosphate
+levels, alters F-actin distribution and impairs pinocytosis. J. Cell Sci.,
+111, 283–294.
+Zigmond,S.H., Joyce,M., Borleis,J., Bokoch,G.M. and Devreotes,P.N.
+(1997) Regulation of actin polymerization in cell-free systems by
+GTPγS and Cdc42. J. Cell Biol., 138, 363–374.
+Received December 14, 1998; revised and accepted February 24, 1999
+
+2105
+
+

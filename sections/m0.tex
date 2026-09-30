@@ -1,0 +1,34 @@
+\subsection{Module 0: Developmental State, Excitable Element and Refractory Clock}\label{sec:m0}
+
+\paragraph{Role.}
+Before collective waves start, isolated starved cells emit cAMP pulses spontaneously, on average about once per 12\,min and at most about once per 4\,min, with inter-pulse intervals that follow a gamma distribution (shape 6.6, rate $1.25\,\mathrm{min^{-1}}$)~\cite{ford2023}.
+Such noise-driven pulsing of single cells below the threshold for collective behaviour is a key step in the onset of oscillations~\cite{gregor2010,sgro2015}.
+The molecular circuit that generates periodic cAMP in populations couples cAMP-induced activation of ACA and ERK2, inhibition of ERK2 by PKA and phosphorylation of the phosphodiesterase RegA by ERK2~\cite{laub1998,maeda2004}, and produces a period of about 7\,min.
+Module~0 replaces the unresolved part of this circuit by a compact excitable element and adds the two variables that the collective behaviour needs: a developmental state and a refractory clock.
+
+\input{sections/tables/tab_m0_rxn}
+\input{sections/tables/tab_m0_const}
+
+\paragraph{Reactions.}
+\begin{description}\itemsep0pt
+\item[0.8a/b] An abstract \emph{Hunger} variable $H$ represents the developmental state of a starved cell; it is not a molecule. It scales the competence to fire (gate $c(H)$), the cAMP synthesis rate (9.1) and the induction of the extracellular phosphodiesterase system (Module~11). In the simulations $H$ starts at its steady state $H_{\max}$ and fluctuates around it, so it acts as an approximately constant developmental level.
+\item[0.9a] Spontaneous ignition: a rare, competence-gated seed that injects X, the activator, at $k_0=3.5$ molecules\,s$^{-1}$ per cell. It is switched off by the refractory clock, which makes the block hard: with the seed shut, X decays through 0.9d and the autocatalysis 0.9b, which needs $N_\mathrm{X}\ge2$, has nothing to amplify.
+\item[0.9b--d] The autocatalytic step 0.9b creates an excitation threshold, the cubic loss 0.9c bounds the spike and keeps the stochastic simulation finite, and the linear loss 0.9d sets the resting state. These three reactions form the chemical Schl\"ogl model of a bistable/excitable system~\cite{schlogl1972}.
+\item[0.9y1--3] The recovery variable Y is produced only by spikes (quadratic in X, so resting fluctuations do not raise it), terminates the spike by removing X (0.9y2) and decays slowly (0.9y3). X and Y form the chemical counterpart of the FitzHugh--Nagumo excitable system with activator and delayed inhibitor~\cite{fitzhugh1961,nagumo1962}. With the constants of Table~\ref{tab:m0const}, the cell-level nullcline gives a resting level $\approx4$, an excitation threshold $\approx23$ and a spike maximum $\approx456$ molecules per cell.
+\item[0.9r1/2] A refractory clock Rf is charged by spikes of X (quadratic, as for Y) and decays with $\tau_R=200$\,s. Y cannot serve as the clock because it also terminates the spike, and its time constant would then be tied to the pulse shape. Charging the clock from X makes the block \emph{source independent}: a cell that has fired, spontaneously or after a relayed signal (Module~8), cannot be fired again by either route until the clock has decayed. The model requires a refractory period of several minutes, commensurate with the $\approx7$\,min oscillation period~\cite{maeda2004} and the $\approx4$\,min minimum interval between pulses of single cells~\cite{ford2023}.
+\item[0.9e] X activates ERK2 in a second-order step. ERK2$^*$ is deliberately long-lived, so it integrates X; in the calibration a first-order drive left ERK2$^*$ at 5\,\% of the pool at rest, which kept the RegA brake 87\,\% off before any spike. The second-order dependence squares the spike-to-leak contrast and can be read as a lumped ultrasensitive step; it has no direct experimental counterpart.
+\item[0.9e$'$] Basal ERK2 dephosphorylation; ERK2 activation by cAMP is rapid and transient~\cite{maeda1996}.
+\item[0.9f] X activates the adenylyl cyclase ACA once ERK2$^*$ has risen. ERK2 is required for receptor-mediated activation of adenylyl cyclase~\cite{segall1995}, and it disarms RegA (Module~10). The ERK2$^*$ gate makes ACA follow the release of the RegA brake by a few seconds, so the cAMP made by ACA$^*$ is not destroyed immediately.
+\end{description}
+
+\paragraph{Constants.}
+The parameters of 0.9a--d and 0.9y are calibrated, not measured: the excitable core has three targets (excitation threshold, spike height and recovery time), and the values in Table~\ref{tab:m0const} reproduce them.
+The ignition rate $k_0$ is the only parameter that sets the firing rate.
+It was calibrated on the stochastic engine, because neither a well-mixed reduction (about $2\times$ too slow: ignition nucleates in one voxel before diffusion levels it out) nor a 13-voxel deterministic reduction predicts it.
+With the refractory clock active, $k_0=3.5$ molecules\,s$^{-1}$ gives a mean interval of 726\,s (95\,\% interval 706--747\,s, 8 seeds), close to the 12\,min of~\cite{ford2023}; the previous value 2.52 gave 930\,s because the block adds about 390\,s of dead time.
+\emph{Limitation:} because the block is deterministic and makes up a large part of the interval, the coefficient of variation of the isolated pacemaker is 0.16, below the value $1/\sqrt{6.6}\approx0.39$ implied by the gamma distribution measured in~\cite{ford2023}.
+In populations the period converges onto the block; for 1000 cells it is $467\pm16$\,s (7.8\,min), of the order of the 7\,min period of~\cite{maeda2004}.
+The clock parameters $k_{Rp},k_{Rd},K_R$ were set on the measured recovery curve of the relay (no relayed pulse within 300\,s of the previous pulse, one in three at 360\,s, all by 420\,s; three seeds), not from the analytical estimate, because the block lifts when the gated relay drive crosses the excitation threshold, which depends on the relay gain.
+
+The Hill gates $c(H)$, $b(\mathrm{Rf})$ and the ERK2$^*$ gate are justified in Table~\ref{tab:hill}.
+The choice $n=4$ for the three is not a cooperativity claim; it makes the transition sharp enough that the gate is either nearly open or nearly shut at the values the input actually takes.

@@ -1,0 +1,1137 @@
+A MAP Kinase Necessary for Receptor-mediated
+Activation of Adenylyl Cyclase in Dictyostelium
+Jeffrey E. Segall,* A d a m Kuspa,* G a d Shaulsky,~ M a r i a Ecke,* M i n e k o M a e d a , t Chris Gaskins,*
+R i c h a r d A. Firtel,* a n d W i l l i a m F. Loomis*
+*Department of Anatomy and Structural Biology, Albert Einstein College of Medicine, Bronx, New York 10461; and *Center for
+Molecular Genetics, Department of Biology, University of California at San Diego, La JoUa, California 92093-0322
+
+Abstract. Analysis of a developmental mutant in Dictyostelium discoideum which is unable to initiate morphogenesis has shown that a protein kinase of the
+MAP kinase/ERK family affects relay of the cAMP
+chemotactic signal and cell differentiation. Strains in
+which the locus encoding ERK2 is disrupted respond
+to a pulse of cAMP by synthesizing cGMP normally
+
+D
+
+ICTYOSTELIUM discoideum amoebae grow and di-
+
+vide as individual cells feeding upon bacteria or defined axenic media. Upon removal of the food
+source, a developmental process is initiated that culminates
+"in the differentiation of cells into spore and stalk cells (12,
+31, 45, 46). Starvation induces the expression of a number
+of proteins involved in the synthesis and sensing of cAMP.
+An adenylyl cyclase (53) synthesizes cAMP which is then
+secreted. Extracellular cAMP can bind to G protein-coupled
+receptors on the cell surface (25). The cAMP receptor
+CAR1 (64) and the G protein ot subunit G~2 (37) are necessary for initial responses to extracellular cAMP. They mediate chemotactic responses to cAMP and stimulate adenylyl
+cyclase, resulting in the synthesis and secretion of cAMP in
+response to the binding of ~tracellular cAMP to CAR1. The
+result is a positive feedback loop that generates waves of
+cAMP moving outward from aggregation centers, and cell
+movement towards aggregation centers. After the formation
+of a mound, an apical tip develops that elongates to a first
+finger that fails onto the substratum to form a migrating slug
+or pseudoplasmodium. Within the slug, ammonia, DIF, and
+cAMP are important signaling molecules that coordinate cell
+movement and cell-type differentiation (2, 9). Under appropriate conditions the slugs subsequently culminate to
+form fruiting bodies in which 80 % of the cells differentiate
+into spores.
+It has been demonstrated in a number of different systems
+that MAP kinases/ERKs are activated by extraceUular stimuli (1, 3, 15, 56, 66). ERKs can be activated either by G
+protein-coupled receptors or tyrosine kinase receptors. For
+tyrosine kinase receptors, activation of ras is followed by acAddress all correspondence to Jeffrey E. Segall, Dept. of Anatomy and
+Structural Biology, Albert Einstein College of Medicine, Bronx, NY 10461.
+Tel.: (718) 430-4237. Fax: (718) 518-7236.
+© The Rockefeller University Press, 0021-9525/95/02/405/9 $2.00
+The Journal of Cell Biology, Volume 128, Number 3, February 1995 405--413
+
+but show little synthesis of cAMP. Since mutant cells
+lacking ERK2 contain normal levels of both the cytosolic regulator of adenylyl cyclase (CRAC) and
+manganese-activatable adenylyl cyclase, it appears that
+this kinase is important for receptor-mediated activation of adenylyl cyclase.
+
+tivation of a kinase cascade involving raf, MEK, and then
+ERKs. For G protein-coupled receptors, o~or/~/~ subunits
+can be important for activation, but the role of ras may vary
+with cell type (10, 16). A MEK kinase, distinct from raf, can
+activate MEK in responses activated by G proteins in mammalian cells (41). In Saccharomyces cerevisiae, the mating
+pheromone activates a kinase cascade involving a MEK kinase, MEK, and MAP kinase that leads to transcriptional activation of genes involved in mating and cell cycle arrest (15).
+Substrates for ERKs can include other kinases (including
+tyrosine kinase receptors), cytoskeletal elements, transcription factors, components of the cell cycle machinery, and
+other signal transduction enzymes (such as PLA2) (7, 30,
+44, 49, 52, 58, 65). Such a wide range of substrates suggests
+that ERKs play a critical role in many signal transduction
+systems. In Dictyostelium, the MAP kinase ERK1 has been
+shown to be essential for growth and to play a role in multicellular development (19). Overexpression of ERK1 results
+in abnormal slug morphogenesis and fruiting body formation.
+In this paper we identify an ERK in Dictyostelium which
+is important for receptor-mediated stimulation of adenylyl
+cyclase and subsequent cellular differentiation. Although
+ERKs have been shown to be stimulated in response to receptor activation in a variety of cell types, the data presented
+here present the first suggestion that they can play a role in
+the activation of adenylyl cyclase, and that ERKs are necessary for the normal developmental cycle of Dictyostelium.
+
+Materials and Methods
+Generation of Gene Disruptions
+The plasmid DIV6 was constructed by inserting the PstI/SacI fragment from
+DIV1 containing the pyr5-6 gene into pGEM5zf(+). REMI with DIV6 was
+
+405
+
+performed by digesting DIV6 with BamHI and electroporating into HL330
+with 100 U of Sau3A enzyme per electroporation (38).
+A second gene-disruption construct was made by inserting the full-length
+Thyl gene (14) into the BglII site within an ERK2 eDNA clone. The DNA
+was linearized and transformed into the Thyl auxotrophic strain JH10 (13,
+22) and selected in standard HL5 medium in the absence of exogenous
+thymidine. Individual clones were isolated and screened for gene disruption
+by Southern blot. To complement the strain, the ERK2 eDNA was inserted
+into the expression vector Exp4(+) (47) downstream from the Actin 15 promoter. Mutants were transformed with the expression vector via electroporation and selecting for resistance to 10 #g/ml of G418.
+
+Sequencing
+Sequencing was performed using a Applied Biosystems sequencer and
+specific primers. The eDNA was isolated from a lambdaZAP library (59)
+generated from the RNA of cells starved for 12-16 h. The eDNA was sequenced in both directions, and the genomic flanking sequence was sequenced in one direction to confirm the eDNA sequence. Sequences were
+obtained and analyzed using the GCG analysis package (Genetics Computer
+Group, Madison, WI).
+
+Bacterial Expression of the ERK2 Protein
+A GST-ERK2 fusion protein in vector pGEX-KG (21) was made as described for the Dictyostelium ERK1 protein (19). Escherichia coli BL21
+(DE3) was used for transformation with pGEX and PGEX-KG-ERK2.
+These transformants were cultured for 4-6 h at 30°C or overnight at 20°C
+after the addition of IPTG at 0.I mM. Glntathione-S-transferase (GST) t
+and GST-ERK2 fusion protein were prepared as previously described (62).
+Phosphorylation was performed for 10 min at 30°C in 20 #1 of kinase mixture (50/~M NaaVO4, 10 mM MgC12, 1 mM EGTA, 0.4 ug/ml leupeptin,
+40 #M benzamidine, 0.4/~M microcystin LR, 25 mM/3-glycerophosphate,
+pH 7.5, 100 #M ATP, 0.05 uCi/ml [32p]-3,-ATP,and 200/zM DTT) with or
+without myelin basic protein (MBP) at 0.5 mg/ml. GST or GST-ERK2 was
+used at 0.4 mg/ml. The reaction was stopped by adding 7/zl of 4 x sample
+buffer for SDS-PAGE. The samples were fractionated on two 10% acrylamide gels. One gel was stained with Coomassie brilliant blue, while the
+other was used for electrotransfer of proteins to Immobilon-P membrane
+according to Harlow and Lane (24). The phosphorylated bands were then
+excised out, and hydrolyzed for 2 h at ll0*C (33). After drying in vacuo,
+hydrolysates were subjected to thin layer electrophoresis at pH 3.5 for 45
+rain (28). 1.5 mg protein was combined with a mixture of phosphoserine,
+phosphothreonine, and phosphotyrosine and used for the analysis. Phosphoamino acids were identified with ninhydrin.
+
+bath at 23°C. They were then stimulated with 10 #M 2'deoxycAMP, 5 mM
+DTT, and 100-ul samples taken at the indicated time points. The samples
+were added to 100 ul of 3.5% perchloric acid, and frozen. For analysis, the
+samples were thawed, neutralized with 50% KHCO3, centrifuged, and the
+superuatants were assayed using a cAMP RIA kit (Amersham Corp.,
+Arlington Heights, IL). Samples for cGMP were treated identically and assayed using a cGMP RIA kit (Amersham Corp.).
+
+In Vivo Labeling of Cells
+Cells were labeled following a procedure developed by David Knecht (Univ.
+of Connecticut, Storrs, CT). Cells were grown in HL-5 and washed two
+times in phosphate buffer. They were resuspended in 1 mM CMFDA (C2925; Molecular Probes) in phosphate buffer at 107/ml. The cells were
+gently shaken in this buffer for 15 min, then washed and resuspended in
+HL-5 for 1 h at 2 x 106/ml. They were then washed free of HL-5 and
+resuspended at 107/mi in phosphate buffer. Labeled cells were mixed with
+unlabeled cells in a 1:10ratio. 100 ul was spread on a 1% agar plate containing 1 mM CaCI2, 1 mM MgCI2, in phosphate buffer and allowed to dry.
+The plate was then sealed and incubated in the dark at 23°C until analyzed.
+Labeling had no effect on the kinetics or morphology of development. The
+images were acquired using a BioRad MRC 600 confocal microscope using
+a 20 or 40x objective. A Z-series through the entire structure was acquired
+and then projected into a single plane for presentation.
+
+Measurement ofAdenylyl Cyclase and Cytosolic
+Regulator of Adenylyl Cyclase
+Adenylyl cyclase activation was measured as described (53). Briefly, control
+and mutant cells were starved for 4 h in suspension with stimulation by 100
+nM cAMP pulses. They were then lysed by passage through a 5-#m filter,
+and the total adenylyl cyclase activity of the lysate assayed using ct-[32P]ATP in the presence of 5 mM MnSO4. Cytosolic regulator of adenylyl
+cyclase (CRAC) activity was determined as the ability to reconstitute
+GTP-~-S stimulation of adenylyl cyclas¢ in lysates of synag 7 mutant cells.
+Synag 7 cells lack only endogenous CRAC activity and upon the addition
+of extracts from cells containing CRAC will activate adenylyl cyclas¢ (43).
+Synag 7 cell lysates were prepared in the presence of cAMP and GTP-3,-S,
+mixed with supernatants from control and mutant lysates, and then adenylyl
+cyclase activity measured in the absence of MnSO4.
+
+Northern Analysis
+The procedure is based upon a method kindly provided by J. Franke
+(Columbia Univ., NY). Cells were grown to 2 x 10~/mi in HL-5 medium.
+The cells were washed, and then resuspended in 1 mM MgCI2, .2 mM
+CaCI2 at 107/mi. They were starved for 4 h. The cells were then cantrifuged and resuspended in ice-cold nuclear lysis buffer (10 mM Mgacetate, 10 mM NaCI, 30 mM Hepes pH 7.5, 10% sucrose, 2% NP-40,
+using DEPC-treated solutions). After 5 rain on ice, nuclei were collected
+by centrifuging at 14,000 rpm in an Eppendorf microcentrifuge at 4"C. The
+supernatant (cytoplasmic RNA) and pellet (nuclear RNA) were treated with
+50% (wt/vol) guanidine thiocyanate, phenol/choroform extracted, and dissolved in water. Typically, 10 times more cytoplasmic RNA was isolated
+than nuclear RNA. The RNAs were then loaded proportionately on a gel,
+electrophoresed, and blotted. The blots were probed with the ERK2 eDNA
+using the Boehringer Mannheim Genius kit.
+
+Measurement of cAMP and cGMP
+Cells were grown in HL-5 to 2 x 106/mi and were then washed two times
+with Soerensen's phosphate buffer and starved at 107/mi in 1 mM MgCI2,
+0.2 mM CaC12. Beginning at 4 h, they were pulsed every 6 rain with 100
+nM CAMP. At 6-8 h, the cells were removed, centrifuged, and washed twice
+in cold phosphate buffer. They were resuspended at 5 x 107/mi and transferred to a glass, round bottomed tube and aerated for 10 rain in a water
+1. Abbreviations used in this paper: ACA, adenylyl cyclase; CRAC, cytosolic regulator of adenylyl cyclase; GST, glutathionine-S-transferase; MBP,
+myelin basic protein; REMI, restriction enzyme-mediated integration.
+
+Figure 1. Aggregation morphology of transformants growing on
+bacterial lawns. The edge o f the colony is on the right hand side.
+For HS176, the positive control, cells to the left of the edge of the
+colony begin to starve due to the depletion of the bacterial food
+source. They form streams leading into aggregates and eventually
+fruiting bodies on the left side of the image. HS172 and HS173 are
+two transformants showing no aggregation.
+
+The Journal of Cell Biology, Volume 128, 1995
+
+406
+
+uracil, and screened for strains that were defective in aggregation.
+For strain AK240, colonies grown on bacterial lawns did
+not aggregate (Fig. 1). To rescue the DIV6 plasmid together
+with flanking sequences marking the insertion site (termed
+IS240), genomic DNA from AK240 was cut with ClaI
+(which does not cut in the DIV6 vector), religated, and used
+to transform E. coli. The resulting plasmid, p240ClaI, contains a 3.8-kb insert of flanking sequence, divided into 2.1
+and 1.7-kb fragments by the insertion of DIV6. This plasmid
+was then used to recapitulate the insertion event in a new
+strain via homologous recombination, by linearizing the
+plasmid with ClaI and transforming in the absence of restriction enzymes. Roughly 90% of the transformants recovered
+by this procedure were defective in aggregation. Four independent aggregation-defective transformants, labeled HS172,
+HS173, HS174, and HS175, were chosen for further study
+along with a control strain, HS176, that aggregates normally
+(Fig. 1). A Southern blot of the transformants (Fig. 2),
+probed with the disruption vector p240ClaI, revealed that
+the 3.8-kb ClaI fragment in HL330 was shifted to around 9
+kb in AK240 and the recapitulated insertions, HS172-175.
+The transformed control, HS176, had the 3.8-kb band intact,
+and the vector had inserted into a high molecular mass band.
+A vector-specific probe confirmed that the vector (which
+does not hybridize to HL330 genomic DNA), labeled the
+9-kb band in HS172-175 and the high molecular mass band
+in HS176 (data not shown). Thus recapitulation of the insertion event resulted in recapitulation of the mutant phenotype,
+indicating that disruption of the encoded flanking sequences
+resulted in the mutant phenotype.
+
+Figure 2. Southern blot of recapitulation of IS240 insertions.
+Genomic DNA was cut with ClaI, blotted and probed with the recapitulation vector containing both the flanking sequences and selectable marker. HL330 (the parental strain) shows a single 3.8-kb
+band. The original mutant, AK240, and four aggregation-defective
+transformants show a shift to around 9-kb, indicating recapitulation of the insertion at the same site. HS176, the control transformant, shows the 3.8-kb band intact and the vector inserted into a
+high molecular weight band.
+
+Results
+Isolation o f erkB Mutants
+To identify genes encoding novel components essential for
+aggregation, we isolated a series of mutants that are defective
+in aggregation using restriction enzyme mediated integration
+(REMI) (38). This technique uses restriction enzymes to
+facilitate integration of a selectable vector into randomly
+distributed cognate restriction sites. Strain HL330 lacks the
+pyr5-6 gene (encoding the UMP synthase) and is therefore
+unable to grow in the absence of uracil (32). The plasmid
+DIV 6 (which contains the pyr5-6 gene) was linearized with
+BamI-II and electroporated into HL330 cells together with
+the restriction enzyme Sau3A. Sau3A generates ends compatible with the ends produced by BamHI, and cuts frequently in the Dictyostelium genome. Transformants containing the DIV6 plasmid were selected in medium lacking
+
+Structure o f the erkB Gene
+Sequencing the 2.1-kb flanking sequence of IS240 revealed
+an open reading frame. This fragment was used to identify
+a cDNA clone with sequence identical to the genornic open
+reading frame. A single intron interrupts the coding sequence in genomic DNA. When the 2.1-kb region was used
+to probe genomic Southern blots of HL330 cut with various
+restriction enzymes, only a single locus was recognized (Fig.
+3 A). An arrayed set of YAC clones that represents the Dic-
+
+Z61
+
+820
+
+m
+
+es
+B
+
+75
+N
+
+its
+Sm
+
+60
+e
+
+3404
+3205
+
+Io
+
+~
+
+A N
+-I-'1
+
+~2s
+
+~
+
+i~s
+
+,o
+
+9s
+
+1so
+
+6s
+
+zs
+5m B
+
+1--I
+
+3499
+I-'I
+
+3256
+
+Figure 3. (A) Southern blot of the gene encoding ERK2 in HL330. HL330 DNA was digested with the enzymes shown, blotted and probed
+with the 2.1-kb genomic fragment. The digestion pattern shown is consistent with data from the genomic sequence-only BclI has restriction sites within the probed sequence. (B) Chromosomal map surrounding the erkB locus. The telomeric end of chromosome 4 was mapped
+by REMI-RFLP probing with erkB and surrounding genes (Kuspa and Loomis, in press). Yeast Artificial Chromosome clones recognized
+by an erkB probe are positioned relative to rare restriction sites flanking the locus (39).
+
+Scgall et al. DictyosteliumMAP Kinase
+
+407
+
+DdERK2
+DdERKI
+RnERKI
+Scfus3
+
+1
+..... % . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+MSSE
+.......... MTQQQLQQLM PPPPTSDTSN FNDNISYFVY
+AAAAAAPGGG GGEPRGTAGV VPVVPGEVE ........ VVK
+.....................................
+MPK
+
+50
+DIDKHVLRKY
+GSQFTVPRRY
+GQPFDVGPRY
+RIVYNISSDF
+
+DdERK2
+DdERKI
+RnERKI
+Scfus3
+
+51
+I
+EVFHKIGKGA
+SIVKCIGHGA
+TQLQYIGEGA
+QLKSLLGEGA
+
+YGIVWEAIDK
+YGVACSAKDN
+YGMVSSAYDH
+YGWCSATHK
+
+II
+KPHHTVALKK
+LTGEKVAIKK
+VRKTRVAIKX
+PTGEIVAIKK
+
+IFDAFQNATD
+ISKAFDNLKD
+IS.PFEHQTY
+IE.PFDKPLF
+
+AQRTFR3IMF
+TKRTLRIIHL
+CQRTLREIQI
+ALRTLR3IKI
+
+DdERK2
+DdERKI
+RnERKI
+Scfus3
+
+101
+LQELHGHENI
+LRHFK.HENL
+LLGFR.HENV
+LKHFK.HENI
+
+IV
+V
+IKLLNVIKA...DNDRDIYL
+ISIKDILKPN SKEQFEDYYI
+IGIRDILRAP TLEAMRDVYI
+ITIFNIQRPD SFENFNEVYI
+
+VFEHMETDLH
+VSELMDTDLH
+VQDLMETDLY
+IQELMQTDLH
+
+150
+AVIRA.KILE
+QIITSPQPLS
+KLLKS.QQLS
+RVI.STQMLS
+
+DdERK2
+DdERKI
+RnERKI
+Scfus3
+
+151
+EIIKKQYTIYQ
+DDHCQYFVYQ
+NDHICYFLYQ
+DDHIQYFIYQ
+
+LLKALKYMliS
+MLRGLKHIHS
+ILRGLKYIHS
+TLRAVKVLIiG
+
+VI
+ANVLHRDIKP
+ANVLIiRDLKP
+ANVt,RRDLHP
+SNVIHRDLKP
+
+8NLLLNSECL
+SNLLINEDCL
+SNLLINTTCD
+SNLLINSNCD
+
+V I I 200
+VKVADFGLIiR
+LKICDLGL~R
+LKICDFGLAR
+LKVCDFGLJR
+
+DdERK2
+DdERKI
+RnERKI
+Scfus3
+
+201
+S I T ..... S L E S I A E A N P V L
+VED ........ ATHQ..GFM
+IAD . . . . . . . . P E H D H T G F L
+IIDESAADNS EPTGQQSG.M
+
+* *
+VIII
+IX 250
+T E Y V A T R W X R A P E I L L G S T K YTKGVDMWBI
+TEYVATRWXR AP.VILSWNK YTKAIDIWSV
+TEYVATRWYR APEIMLNSKG YTKSIDIWSV
+TEX'VATRW%rR A P E V M L T S A K Y S R A M D V W S C
+
+DdERK2
+DdERKI
+RnERKI
+Scfus3
+
+251
+GCILGELLGE
+GCIFAELLGR
+GCILAEMLSN
+GCILAELFLR
+
+KAMFPGNSTM
+KPLFQGKDYI
+RPIFPGKHYL
+RPIFPGRDYR
+
+X
+NQLDLIIEVT
+HQITLIIETI
+DQLNHILGIL
+HQLLLIFGII
+
+GRP.SAEDIE
+GSP.SEEDIC
+GSP.SQEDLN
+GTPHSDNDLR
+
+DdERK2
+DdERKI
+RnERKI
+Scfus3
+
+301
+LEBLPPSNPR ..SLSDMYPS
+IRSLNMGNQP KVNFANMFPK
+LQSL..PSKT KVAWAKLFPK
+IKSLPM..YP AAPLEKMFPR
+
+ASVDALDLLK
+ANPDAIDLLE
+SDSKALDLLD
+VNPKGIDLLQ
+
+XI
+350
+KLSQFNPDKR ITAEL%LAHP
+R M L Y F D P S E R LTVEEJ&LAXP
+R M L T F N P N E R ITVEF~%LAHP
+RMLVFDPAER ITAKEALEKP
+
+DdERK2
+DdERKI
+RnERKI
+Scfus3
+
+351
+FVTQFHNPAE
+YFQSLHDPSD
+YLEQYYDPTD
+YLQTYHDPND
+
+DdERK2
+DdERKI
+RnERKI
+Scfus3
+
+401
+450
+ERKKQTNPTK PDTTAPTLST ..............................
+DPQAPYYTDL NNPNFNLSRI QSSSELFNLL QQQKQPIHQQ VNQQSIKINN
+APEAP .............................................
+..................................................
+
+EPHFDRIIKI SID...DGQK
+EPICLHK .... FSLNFEAWD
+EPVAEEP .... FTFDMELDD
+EPEGEPIPPS FFEFDHHKEA
+
+tyostelium genome (39) was also probed and a single locus
+was identified that was mapped to chromosome 4 (Fig. 3 B).
+The sequence has been deposited in GenBank (accession
+number L33043).
+The deduced amino acid sequence predicts a protein product of molecular weight 42,010 and pI 7.1. The sequence
+shows about 40% identity to MAP kinases/ERKs from diverse organisms (Fig. 4), and the encoded protein has been
+named ERK2 (the corresponding genetic locus is erkB).
+Similar homology is seen to another ERK gene from Dictyostelium, ERK1. ERK1 shows a different pattern of expression and cells lacking ERK1 are not viable (19), indicating
+that the Dictyostelium ERK1 and ERK2 proteins perform
+
+The Journalof Cell Biology, Volume 128, 1995
+
+IIl
+
+FPIAEYRNRL
+LNRDLLKELI
+LPKERLKELI
+LTTKDLKKLI
+
+100
+
+300
+AIKSPFAGTM
+
+NIANEQARQF
+CIINMKI&RNY
+CIESPRAREY
+
+400
+YNDIIKKKKE
+YNEMLAYHPE
+FQETARFQPG
+W N E I F S ....
+
+Figure 4. Sequence comparison of Dictyostelium ERK2
+(DdERK2) with 19. discoideum ERK1 (DdERK1),
+rat ERK1 (RnERKI), and S.
+cerevisiae FUS3 (Scfus3).
+Amino acid residues identical
+in all four proteins are in bold
+type, kinase homology domains (23) are indicated by
+Roman numerals above the
+sequences, and the threonine
+and tyrosine which are phosphorylated in activated ERKs
+are marked by asterisks.
+
+different functions. In addition, the Dictyostelium ERK2
+amino acid sequence shows ,o40% identity to mammalian
+ERK1 and ERK2 while Dictyostelium ERK1 shows ,050%
+identity to those ERKs. The predicted ERK2 protein contains residues conserved in all kinases including the ATPbinding site in region I (Gly-X-GIy-X-X-GIy) and eight invariant residues present in protein kinases (23). In addition,
+there is the sequence TEY (starred), of which the threonine
+and tyrosine are phosphorylated when these protein kinases
+are activated (48, 54, 69).
+
+ERK2 Protein Kinase Activity
+To determine whether ERK2 has the biochemical properties
+
+408
+
+Figure 6. (A) Developmental regulation of ERK2 mRNA. Axenically grown AX4 cells were starved in suspension for the timed indicated, total RNA isolated, and probed with the 0.5-kb
+SstI/HindlII fragment from AK240. (B) Cytoplasmic and nuclear
+RNA were separated as described, and probed with the ERK2
+cDNA.
+Figure 5. Phosphorylation of MBP by a GST-ERK2 fusion protein.
+(A) Autoradiogram of in vitro phosphorylation of MBP with GSTERK2 expressed in E. coli and purified using glutathione
+Sepharose. Phosphorylation of MBP was assayed in lanes I and 2
+and autophosphorylation was assayed in lanes 3 and 4. Lanes I and
+3, GST protein; lanes 2 and 4, GST-ERK2. The band with the
+asterisk is the size of GST-ERK2. The two additional phosphorylated bands present in the GST-ERK2 lanes are not always
+seen and may be breakdown products of GST-ERK2. (B) A
+Coomassie brilliant blue-stained gel used for autoradiography in A.
+(C) Phosphoamino analysis of phosphorylated MBP and GSTERK2. After fractionation of phosphorylated proteins by SDSPAGE, proteins were blotted onto a PVDF membrane and then exposed to x-ray film. Phosphorylated bands were excised from the
+membrane and subjected to acid hydrolysis, followed by thin layer
+chromatography. Ori indicates the spotted position of acid
+hydrolysates.
+
+which the Thyl (14) gene was inserted into the ERK2 cDNA
+clone at amino acid position 280. This was used to create a
+different disruption of the locus encoding ERK2 in the
+thymidine auxotroph JH110. The phenotype of the resulting
+strain was found to be similar to that of strains HS172-HS175
+in that it fails to aggregate and shows reduced cAMP synthesis. Transformation of this strain with a multicopy vector
+carrying the gene encoding ERK2 fused to the actin 15 promoter region (26) resulted in strains that are once again able
+to aggregate and develop, confirming that ERK2 is essential
+for aggregation and subsequent development.
+
+Expression of erkB
+Probing Northern blots of RNA from wild-type cells with
+the ERK2 cDNA showed that a 1.8-kb mRNA was present
+at the start of development and increased two- to fivefold during early development (Fig. 6 A). No cytoplasmic ERK2
+mRNA accumulated in mutants in which the locus encoding
+ERK2 was disrupted, although a larger RNA of '~6 kb was
+seen in nuclear and whole cell preparations (Fig. 6 B). The
+large nuclear RNA was recognized by a probe from the insertion vector, indicating that it arose by transcriptional readthrough into the vector sequences. Since the vector inserted
+in the 3' untranslated region, such read-through could be expected.
+We generated a separate gene disruption construct in
+
+Phenotype of CeUs Lacking ERK2
+Aggregation in Dictyostelium cells relies upon the ability of
+cells to both sense gradients of extracellular cAMP (cAMP
+chemotaxis) and to generate these gradients via synthesis
+and secretion of cAMP (cAMP relay) (17, 36). In single-cell
+assays, the mutant cells respond chemotactically to gradients
+of cAMP in the nanomolar range (data not shown). Since the
+mutants are unable to aggregate on their own, it therefore
+seemed likely that the problem lay in cAMP production or
+relay. When we directly assayed cAMP synthesis following
+a pulse of exogenous cAMP, wild-type cells responded by a
+10-fold increase in the amount of cAMP accumulated over
+a 5-min period while mutants lacking ERK2 showed a
+strongly reduced response (Fig. 7 A).
+The defect in signal relay could be due to alterations in the
+surface cAMP receptor or coupling of activated receptor to
+adenylyl cyclase. However, we found that the mutants
+responded to a pulse of cAMP by synthesizing cGMP in a
+manner indistinguishable from that shown by wild-type cells
+(Fig. 7 B). Since the cGMP response is mediated by the
+same receptor (CAR1) and heterotrimeric G protein c~ subunit (G~2) as cAMP relay (50, 55), it appears that these
+components are fully functional in mutant cells lacking
+ERK2. Therefore, we looked to see if the genes encoding
+the cytosolic regulator of adenylyl cyclase (CRAC [29, 43])
+and adenylyl cyclase (ACA) (53) were expressed in the mutant cells. When RNA taken at various times in development
+of wild-type and mutant cells was probed for CRAC and
+ACA mRNA, it was clear that both these genes are expressed normally in the mutant cells (data not shown).
+Moreover, when adenylyl cyclase activity in cell extracts
+was determined in the presence of Mn 2÷, which bypasses
+
+Segall et al. DictyosteliumMAPKinase
+
+409
+
+of a MAP kinase, a GST/ERK2 fusion protein was expressed
+in E. coli, purified and assayed for the ability to autophosphorylate and to phosphorylate MBP, a known substrate for MAP kinases. Fig. 5 A shows that affinity purified
+GST-ERK2 fusion protein, but not purified GST protein
+alone, phosphorylates MBP and also phosphorylates a band
+of the same size as the fusion protein (Fig. 5 B). Phosphoamino acid analysis Shows that the fusion protein phosphorylates MBP predominately on threonine residues while
+the autophosphorylation is predominately on tyrosine and
+serine residues (Fig. 5 C). Autophosphorylation has been
+reported for other ERKs as well (11, 57, 60).
+
+Table I. Adenylyl Cyclase and CRAC Activities
+Strain
+
+Adenylyl cyclase
+
+200
+
+(pmol/min/mg)
+
+HS174 (mutant)
+HS176 (control)
+
+U
+
+"o
+
+15o
+
+<U
+
+lO0
+
+E
+
+18
+20
+
+99
+183
+
+Total adenylyl cyclase activity was measured using Mn2*-activated cell lysates. CRAC activity of cytosolic extracts from HS174 and HS176 was determined by addition of extracts to lysates of a CRAC mutant strain (synag 7),
+followed by measurement of adenylyl cyclase activity in the absence of Mn2÷.
+In the absence of added cytosolic extracts the background CRAC activity was
+12 pmol/min/mg.
+
+vl
+g}
+
+"5
+
+CRAC activity
+
+5O
+0
+
+i
+
+o
+
+I
+
+I
+
+50
+
+100
+
+i
+
+I
+
+i
+
+[
+
+150
+
+i
+
+200
+
+250
+
+Time (sec)
+
+B
+35
+ca
+
+30
+
+~'0
+
+25
+
+=
+
+lO
+
+0
+
+5
+
+o
+i
+
+0
+
+i
+
+i
+
+I
+
+10
+
+i
+
+i
+
+i
+
+I
+
+20
+
+~
+
+i
+
+i
+
+i
+
+•
+
+30
+
+.
+
+.
+
+i
+
+40
+
+.
+
+,
+
+,
+
+i
+
+50
+
+,
+
+•
+
+,
+
+60
+
+observed as well. During the aggregation stage, mutant cells
+joined into streams and entered aggregates, though the
+efficiency of joining the aggregates was variable. In aggregates, mutant cells were concentrated in the center and
+along the base and edges (Fig. 8, upper left). When slugs
+formed, most mutant cells remained at the aggregation site,
+but those that entered the slug were found predominantly in
+the tip (Fig. 8, middle left). Following fruiting body formation, labeled cells were found around the stalk and in the sorus (Fig. 8, lower left). Labeled wild-type cells were found
+evenly dispersed throughout the structures at all stages (Fig.
+8, right). Although a few mutant cells were seen in the sorus, they did not appear morphologically to have differentiated into spores. Sporulation of mutant cells was directly
+tested by determining the number that could survive treatment by detergent (61). From 50:50 mixtures of mutants and
+wild-type cells, less than 0.1% of the spores surviving detergent treatment were mutant, while in 90:10 mixtures (mutant/wild-type), 0.4% of the spores were mutant. This
+dramatically reduced rate of sporulation of mutant cells indicates that ERK2 functions in a cell autonomous manner to
+regulate cell differentiation.
+
+Time (,=ec)
+
+Figure 7. Stimulated synthesis of cAMP (,4) and cGMP (B). Ceils
+starved for 6-8 h in suspension were stimulated with 10 ~M
+2'deoxycAMP and samples taken and assayed for cAMP (A) or
+cGMP (B) at the marked times as described. Data points marked
+with an asterisk are significantly different from control. Filled circles, HS176 (control); open squares, HS174 and HS175 (mutants,
+there was no difference between the two mutants). Data are the
+mean and standard error of the mean of five experiments for A and
+3 forB.
+
+Discussion
+
+the requirement for activation, there was no significant
+difference between the specific activities of wild-type and
+mutant cells (Table I). Likewise, CRAC activity in both mutant and control cell extracts was within the range of activities found for wild-type cells (Table I, reference 43). We
+conclude that, either directly or indirectly, ERK2 plays an
+important role in signal relay required for aggregation.
+To determine if mutants lacking ERK2 show additional
+defects in later stages of morphogenesis, fluorescently labeled mutant cells were mixed with a majority of control
+cells (1:10, mutant/control) and the mixtures induced to undergo development. Under these conditions, the small number of mutant cells had little effect on the development of the
+wild-type cells. As a control, fluorescently labeled wild-type
+cells were mixed with unstained wild-type cells (1:10) and
+
+The data presented here demonstrate that the ERK2 protein
+is important for both activation of adenylyl cyclase and subsequent development. The initial integration site, IS240, although not within the coding sequence, appears to perturb
+expression of ERK2 by interfering with mRNA processing.
+The relatively large nuclear RNA present in these transformants could be produced by loss of the appropriate termination signals, leading to a mislocalization of the RNA, and
+loss of expression of the protein. The fact that disruption by
+a separate plasmid utilizing the Thyl selection marker at a
+site within the coding region results in the same phenotype
+indicates that the consequences of disruption of erkB are not
+allele-specific.
+ERK2 could either be directly on the pathway activating adenylyl cyclase or indirectly regulate the coupling of
+adenylyl cyclase to the cAMP receptor. One form of indirect
+regulation of adenylyl cyclase by ERK2 could be through
+regulation of the expression of factors necessary for the activation of cyclase. Alternatively, one of the proteins directly
+involved in activation of cyclase may require phosphorylation by ERK2 in order to be competent for coupling the
+cAMP receptor to cyclase. For example, other signals such
+as PSF or CMF (8) might activate pathways necessary to allow coupling of the cAMP receptor to cyclase. The observa-
+
+The Journal of Cell Biology, Volume 128, 1995
+
+410
+
+tion that mutant ceils can respond chemotactically to cAMP
+and that they respond to addition of cAMP by a burst in
+cGMP synthesis argues against such mechanisms, since
+cAMP-stimulated cGMP synthesis develops to a maximum sensitivity after cells are competent for stimulation of
+adenylyl cyclase by the cAMP receptor (34).
+Several mechanisms for the direct involvement of ERK2
+in activation of cyclase are possible. As noted above, the
+cAMP receptor of Dictyostelium is a G protein-coupled
+receptor. Another intracellular enzyme that is activated by
+binding of cAMP to the receptor is phospholipase C.
+Through increases in intracellular calcium and diacylglycerol, this could lead to activation of a protein kinase C
+that could in turn activate a raf homologue, leading to activation of ERKs (5, 27, 35, 63). Alternatively, free B/'Y subunits
+could activate a ras coupled pathway (10, 16, 68), or, as in
+the mating response of S. cerevisiae, free (J/,y subunits might
+activate a pathway utilizing a byr2 homologue which in turn
+could activate a MEK homologue which would activate
+ERK2 (15, 41). A potential substrate for ERK2 is CRAC, a
+protein necessary for receptor-stimulated activation of adenylyl cyclase. Experiments to test these possibilities are in
+progress.
+The defects in cell localization and differentiation in
+chimeras with wild-type cells are particularly intriguing.
+Chemotactic responses of mutant cells in multiceUular aggregates may be reduced, or the cells may be blocked in development of the appropriate systems necessary for correct
+localization within aggregates. In addition, there may be a
+direct defect on differentiation, since even in the stalk, mutant cells often do not show appropriate stalk cell morphology. A block in cell differentiation may be due to the inability
+to activate adenylyl cyclase, leading, in turn, to a block in
+the activation of protein kinase A and subsequent responses
+stimulated by this protein kinase (67). Alternatively, ERK2
+might be translocated to the nucleus, as has been shown for
+mammalian ERKs, where it could regulate gene transcription (6, 20, 42). Indeed, both explanations may be correct.
+Further work identifying the targets of ERK2 in the cell will
+aid in distinguishing among these possibilities.
+In summary, the work described here demonstrates that an
+ERK plays an important role in coupling cell surface receptors to adenylyl cyclase and cell differentiation. This is the
+first demonstration that ERKs can be involved in the activation of adenylyl cyclase. Since there are several different
+ERKs present in most cells, there may be a complex network
+of interactions mediated by ERKs. The generation of cells
+lacking specific ERKs as described here (4, 40, 51) provides
+a critical tool for dissecting such networks.
+
+Figure 8. Localization of cells in mixtures of mutant and control
+transformants. 1:10mixtures of HS174 to control cells were induced
+to undergo development on agar. Either mutant or 10% of control
+cells were labeled with CMFDA. Structures at each stage of developmeut were analyzed with a confocal microscope and projections
+made of the entire structure, viewed from above. Left, mutant cells
+stained; right, control cells stained; top, aggregates, middle, slug
+stage; bottom, fruiting bodies.
+
+We thank P. Lilly and P. Devreotes for performing the CRAC and ACA
+assays, D. Knecht for communicating the in vivo cell labeling method, Y.
+Wang for aiding in the initial retransformation experiments, and J. Liu for
+aiding with the fluorescent cell labelling studies. The confocal analysis was
+done in the Image Analysis Facility of the Albert Einstein College of
+Medicine.
+A portion of this work was presented at the American Society for Cell
+Biology (Mol. Biol. Cell. 1993. 4:167a). This work was supported by
+grants GM44246 (J. E. Segall), and DCB/9017782 (W. F. Loomis). J.
+Segall was the recipient of a Mellam Family Foundation Investigatorship
+of the American Heart Association.
+Received for publication 23 August 1994 and in revised form 27 October
+1994.
+
+Segall et al. Dictyostelium MAP Kinase
+
+411
+
+1. Ahn, N. G., R. Seger, R. L. Bratlien, and E. G. Krebs. 1992. Growth
+factor-stimulated phosphorylation cascades: activation of growth factorstimulated MAP kinase. Ciba Found. Sytnp. 164:113-126.
+2. Berks, M., D. Traynor, I. Carrin, R. H. Insall, and R. R. Kay. 1991.
+Diffusible signal molecules controlling cell differentiation and patterning
+in Dictyostelium. Development (Camb. ) . 112:131-139.
+3. Boulton, T. G., S. H. Nye, D. J. Robbins, N. Y. Ip, E. Radziejewska,
+S. D. Morgenbesser, R. A. DePinho, N. panayotatos, M. H. Cobb, and
+G. D. Yancopoulos. 1991. ERKs: a family of protein-serine/threonine kinases that are activated and tyrosine phosphorylated in response to insulin
+and NGF. Cell. 65:663-675.
+4. Brnnner, D., N. Oellers, J. Szabad, W. H. Biggs, HI, S. L. Zipursky, and
+E. Hafen. 1994. A gain-of-function mutation in Drosophila MAP kinase
+activates multiple receptor tyrosine kinase signaling pathways. Cell.
+76:875-888.
+5. Carroll, M. P., and W. S. May. 1994. Protein kinase C-mediated serine
+phosphorylation directly activates Raf-1 in murine hematopoietic cells.
+J. Biol. Chem. 269:1249-1256.
+6. Chen, R. H., C. Sarnecki, and J. Blenis. 1992. Nuclear localization and
+regulation of erk- and rsk-encoded protein kinases. Mol. Cell. Biol.
+12:915-927.
+7. Childs, T. J., M. H. Watson, J. S. Sanghera, D. L. Campbell, S. L. Pelech,
+and A. S. Mak. 1992. Phosphorylation of smooth muscle caldesmon by
+mitogen-activated protein (MAP) kinase and expression of MAP kinase
+in differentiated smooth muscle cells. J. Biol. Chem. 267:22853-22859.
+8. Clarke, M., N. Diminguez, I. S. Yuen, and R. H. Cromer. 1992. Growing
+and starving Dictyostelium cells produce distinct density-sensing factors.
+Dev. Biol. 152:403-406.
+9. Cotter, D. A., T. W. Sands, K. J. Virdy, M. J. North, G. Klein, and M.
+Satre. 1992. Patterning of development in Dictyostelium discoideum: factors regulating growth, differentiation, spore dormancy, and germination. Biochem. Cell Biol. 70:892-919.
+10. Crespo, P., N. Xu, W. F. Simonds, and J. S. Gutkind. 1994. Ras-dependent activation of MAP kinase pathway mediated by G-protein beta/
+gamma subunits. Nature (Lond.). 369:418--420.
+11. Crews, C. M., A. A. Alessandrini, and R. L. Erikson. 1991. Mouse Erk-1
+gene product is a serine/threonine protein kinase that has the potential to
+phosphorylate tyrosine. Proc. Natl. Acad. Sci. USA. 88:8845-8849.
+12. Cubitt, A. B., F. Carrel, S. Dharmawardhane, C. Gaskins, J. Hadwiger,
+P. Howard, S. K. Mann, K. Okalchi, K. Zhou, and R. A. Firtel. 1992.
+Molecular genetic analysis of signal transduction pathways controlling
+multicellular development in Dictyostelium. Cold Spring Harbor Symp.
+Quant. Biol. 57:177-192.
+13. Dynes, J. L., A. M. Clark, G. Shaulsky, A. Kuspa, W. F. Loomis, and
+R. A. Firtel. 1994. LagC is required for cell-cell interactions that are essential for cell-type differentiation in Dictyostelium. Genes & Dev.
+8:948-958.
+14. Dynes, J. L., and R. A. Firtel. 1989. Molecular complementation of a
+genetic marker in Dictyostelium using a genomic DNA library. Proc.
+Natl. Acad. Sci. USA. 86:7966-7970.
+15. Errede, B., and D. E. Levin. 1993. A conserved kinase cascade for MAP
+kinase activation in yeast. Curr. Opin. Cell Biol. 5:254-260.
+16. Faure, M., T. A. Voyno-Yasenetskaya, and H. R. Bourne. 1994. cAMP
+and ~/7 subunits of heterotrimeric G proteins stimulate the mitogenactivated protein kinase pathway in COS-7 cells. J. Biol. Chem. 269:
+7851-7854.
+17. Firtel, R. A., P. J. Van Haastert, A. R. Kirnmel, and P. N. Devreotes.
+! 989. G protein linked signal transduction pathways in development: Dictyostelium as an experimental system. Cell. 58:235-239.
+18. Gao, E. N., P. Shier, and C. H. Siu. 1992. Purification and partial characterization of a cell adhesion molecule (gp 150) involved in postaggregation
+stage cell-cell binding in Dictyostelium discoideum. J. Biol. Chem. 267:
+9409-9415.
+19. Gaskins, C., M. Maeda, and R. A. Firtel. 1994. Identification and functional analysis of a developmentally regulated extracellular signalregulated kinase gene in Dictyostelium discoideum. Mol. Cell. Biol.
+14:6996-7012.
+20. Gonzalez, F. A., A. Seth, D. L. Raden, D. W. Bowman, F. S. Fay, and
+R. J. Davis. 1993. Serum-induced translocation of mitogen-activated protein kinase to the cell surface ruffling membrane and the nucleus. J. Cell
+Biol. 122:1089-1101.
+21. Guan, K. L., and J. E. Dixon. 1991. Eukaryotic proteins expressed in Escherichia coli: an improved thrombin cleavage and purification procedure
+of fusion proteins with glutathione S-transferase. Anal. Biochem.
+192:262-267.
+22. Hadwiger, J. A., and R. A. Firtel. 1992. Analysis of G alpha 4, a G-pr0tein
+subunit required for multicellular development in Dictyostelium. Genes
+& Dev. 6:38-49.
+23. Hanks, S. K., and A. M. Quinn. 1991. Protein kinase catalytic domain sequence database: identification of conserved features of primary structure
+and classification of family members. Methods Enzymol. 200:38-62.
+24. Harlow, E., and D. Lane. 1988. Antibodies: a laboratory manual. Cold
+Spring Harbor Laboratory, Cold Spring Harbor, NY. 726 pp.
+
+25. Hereld, D., and P. N. Devreotes. 1992. The cAMP receptor family of Dictyostelium. Int. Rev. Cyt. 137B:35-47.
+26. Howard, P. K., K. G. Ahem, and R. A. Firtel. 1988. Establishment of a
+transient expression system for Dictyostelium discoideum. Nucleic Acids
+Res. 16:2613-2623.
+27. Howe, L. R., S. J. Leevers, N. Gomez, S. Nakielny, P. Cohen, andC. J.
+Marshall. 1992. Activation of the MAP kinase pathway by the protein
+lOnase raf. Cell. 71:335-342.
+28. Hunter, T., and B. M. Sefton. 1980. Transforming gene product of Rous
+sarcoma virus phosphorylates tyrosine. Proc. Natl. Acad. Sci. USA.
+77:1311-1315.
+29. Insall, R., A. Kuspa, R. Lilly, G. Shanlsky, L. Levin, W. F. Loomis, and
+P. N. Devreotes. 1994. CRAC, a cytosolic protein containing a pleckstrin
+homology domain, is required for receptor and G-protein mediated activation ofadenylyl cyclase in Dictyostelium. J. CellBiol. 126:1537-1545.
+30. Johnson, G. L., and R. R. Vaillancourt. 1994. Sequential protein kinase
+reactions controlling cell growth and differentiation. Curr. Opin. Cell
+Biol. 6:230-238.
+31. Johnson, R. L., R. Gundersen, D. Hereld, G. S. Pitt, S. Tugendreich,
+C. L. Saxe, A. R. Kirnmel, and P. N. Devreotes. 1992. G-protein-linked
+signaling pathways mediate development in Dictyostelium. Cold Spring
+Harbor Symp. Quant. Biol. 57:169-176.
+32. Kalpaxis, D., I. Zundorf, H. Werner, N. Reindl, E. Boy-Marcotte, M. Jacquet, and T. Dingermann. 1991. Positive selection for Dictyostelium discoideum mutants lacking UMP synthase activity based on resistance to
+5-fluoroorotic acid. Mol. Gen. Genet. 225:492-500.
+33. Kamps, M. P., and B. M. Sefton. 1989. Acid and base hydrolysis of phosphoproteins bound to immobilon facilitates analysis of phosphoamino
+acids in gel-fractionated proteins. Anal. Biochem. 176:22-27.
+34. Kesbeke, F., P. J. M. Van Haastert, and P. Schaap. 1986. Cyclic AMP
+relay and cyclic AMP-induced cyclic GMP accumulation during development of Dictyostelium discoideum. FEMS (Fed. Fur. Microbiol. Soc.)
+Microbiol. Lett. 34:85-89.
+35. Kolch, W., G. Heidecker, G. Kochs, R. Hummel, H. Vahidl, H. Mischak,
+G. Finkenzeller, D. Marine, and U. R. Rapp. 1993. Protein kinase Calpha activates RAF-1 by direct phosphnrylation. Nature (Lond.).
+364:249-252.
+36. Kumagui, A., J. A. Hadwiger, M. Pupillo, and R. A. Firtel. 1991. Molecular genetic analysis of two G alpha protein subunits in Dictyostelium. J.
+Biol. Chem. 266:1220-1228.
+37. Kumagal, A., M. Pupillo, R. Gundersen, R. Minke Lye, P. N. Devreotes,
+and R. A. Firtel. 1989. Regulation and function of G alpha protein
+suhnnits in Dictyostelium. Cell. 57:265-275.
+38. Kuspa, A., and W. F. Loomis. 1992. Tagging developmental genes in Dictyostelium by restriction enzyme-mediated integration of plasmid DNA.
+Proc. Natl. Acad. Sci. USA. 89:8803-8807.
+39. Kuspa, A., D. Maghakian, P. Bergesch, and W. F. Loomis. 1992. Physical
+mapping of genes to specific chromosomes in Dictyostelium discoideum.
+Genome. 13:49-61.
+40. Lackner, M. R., K. Kornfeld, L. M. Miller, H. R. Horvitz, and S. K. Kim.
+1994. A MAP kinase homolog, MPK-1, is involved in ras-mediated induction of vulval cell fates in Caenorhabditis elegans. Genes & Dev.
+8:160--173.
+41. l.amge-Carter, C. A., C. M. Pleiman, A. M. Gardner, K. J. Blunter, and
+G. L. Johnson. 1993. A divergence in the MAP kinase regulatory network defined by MEK kinase and Raf. Science (Wash. DC). 260:
+315-319.
+42. Lenormand, P., C. Sardet, G. Pages, G. L'Allemain, A. Brunet, and J.
+Pouyssegur. 1993. Growth factors induce nuclear translocation of MAP
+kinases (1>42mapk and p44 mapk) but not of their activator MAP kinase
+kinase (p45 mapkk) in fibroblasts. J. Cell Biol. 122:1079-1088.
+43. Lilly, P. J., and P. N. Devreotes. 1994. Identification of CRAC, a cytosolic
+regulator required for guanine nucleotide stimulation of adenylyl cyclase
+in Dictyosteliwn. J. Biol. Chem. 269:14123-14129.
+44. Lin, L. L., M. Wartmann, A. Y. Lin, J. L. Knopf, A. Seth, andR. J. Davis.
+1993. cPLA2 is phosphnrylated and activated by MAP kinase. Cell.
+72:269-278.
+45. Loomis, W. F. 1982. The Development of Dictyostelium discoideum. Academic Press, New York. 551 pp.
+46. Loomis, W. F. 1990. Essential genes for development of Dictyostelium.
+Prog. Mol. Subcell. Biol. 11:159-183.
+47. Mann, S. K., andR. A. Firtel. 1991. A developmentally regulated, putative
+serine/threonine protein kinase is essential for development in Dictyostelium. Mech. Dev. 35:89-101.
+48. Nishida, E., and Y. Gotoh. 1993. The MAP kinase cascade is essential for
+diverse signal transduction pathways. Trends Biochem. Sci. 18:128-131.
+49. Northwood, I. C., F. A. Gonzalez, M. Wartmann, D. L. Raden, and R. J.
+Davis. 1991. Isolation and characterization of two growth factor-stimulated protein kinases that phnsphorylate the epidermal growth factor receptor at threonine-669. J. Biol. Chem. 266:15266-15276.
+50. Okaichi, K., A. B. Cubitt, G. S. Pitt, and R. A. Firtel. 1992. Amino acid
+substitutions in the Dictyostelium G alpha subunit G alpha 2 produce dominant negative phenotypes and inhibit the activation of adenylyl cyclase,
+guanylyl cyclase, and phospholipase C. Mol. Biol. Cell. 3:735-747.
+51. Pages, G., P. Lenormand, G. L'Allemain, J. C. Chambard, S. Meloche,
+
+The Journal of Cell Biology, Volume 128, 1995
+
+412
+
+References
+
+and J. Pouyssegur. 1993. Mitogan-activated protein kinases iM2mapk
+and p44 mapk are required for fibroblast proliferation. Proc. Natl. Acad.
+Sci. USA. 90:8319-8323.
+52. Peter, M., J. S. Sanghera, S. L. Pelech, and E. A. Nigg. 1992. Mitogenactivated protein kinases phosphorylate nuclear lamins and display sequence specificity overlapping that of mitotic protein kinas¢ p34cdc2.
+Fur. J. Biochem. 205:287-294.
+53. Pitt, G. S., N. Milona, J. Borleis, K. C. Lin, R. R. Reed, and P. N.
+Devreotes. 1992. Structurally distinct and stage-specific adenylyl cyclase
+genes play different roles in Dictyostelium development. Cell. 69:305315.
+54. Posada, J., and J. A. Cooper. 1992. Requirements for phosphorylation of
+MAP kinase during meiosis in Xenopus oocytes. Science (Wash. DC).
+255:212-215.
+55. Pupillo, M., R. Insall, G. S. Pitt, and P. N. Devreotes. 1992. Multiple cyclic AMP receptors are linked to adenylyl cyclase in Dictyostelium. Mol.
+Biol. Cell. 3:1229-1234.
+56. Robbins, D. J., E. Zhen, M. Cbeng, S. Xu, D. Ebert, and M. H. Cobb.
+1994. MAP kinases ERK1 and ERK2: Pleiotropic enzymes in a ubiquitous signaling network. Int. Rev. Cytol. 150:95-117.
+57. Robbins, D. J., E. Zhen, H. Owald, C. A. Vanderbilt, D. Ebert, T. D.
+Geppert, and M. H. Cobb. 1993. Regulation and properties ofextracellular signal-regulated protein kinases 1 and 2 in vitro. J. Biol. Chem.
+268:5097-5106.
+58. Sanghera, J. S., F. L. Hall, D. Warhnrton, D. Campbell, and S. L. Pelech.
+1992. Identification of epidermal growth factor Thr-669 phosphorylation
+site peptide kinases as distinct MAP kinases and p34cdc2. Biochim. Biophys. Acta. 1135:335-342.
+59. Schnitzler, G. R., W. H. Fischer, and R. A. Firtel. 1994. Cloning and characterization of the G-box binding factor, an essential component of the
+developmental switch between early and late development in Dictyostelium. Genes & Dev. 8:502-514.
+60. Seger, R., N. G. Ahn, T. G. Boulton, G. D. Yancopoulos, N. Panayotatos,
+E. Radziejewska, L. Ericsson, R. L. Bratlien, M. H. Cobb, and E. G.
+
+Krebs. 1991. Microtubule-associated protein 2 kinases, ERK1 and
+ERK2, undergo autophosphorylation on both tyrosine and threonine
+residues: implications for their mechanism of activation. Proc. Naa.
+Acad. Sci. USA. 88:6142-6146.
+61. Shaulsky, G., and W. F. Loomis. 1993. Cell-type regulation in response
+to expression of Ricin A in Dictyostelium. Dev. Biol. 160:85-98.
+62. Smith, D. S., and K. S. Johnson. 1988. Single-step purification ofpolypeptides expressed in Escherichia coli as fusions with glutathione S-transferase. Gene (Arast.). 67:31-40.
+63. Sozeri, O., K. Vollmer, M. Liyanage, D. Frith, G. Kour, G. E. Mark, and
+S. Stabel. 1992. Activation of the c-Raf protein kinase by protein kinase
+C phosphorylation. Oncogene. 7:2259-2262.
+64. Sun, T. J., P. J. Van Haastert, and P. N. Devreotes. 1990. Surface cAMP
+receptors mediate multiple responses during development in Dictyostelium: evidenced by antisanse mutagenesis. J. Cell Biol. 110:15491554.
+65. Taldshima, K., I. Griswold-Prenner, T. Ingebritsen, and M. R. Rosner.
+1991. Epidermal growth factor (EGF) receptor T669 peptide kinase from
+3T3-L1 cells is an EGF-stimulated "MAP" kinase. Proc. Natl. Acad. Sci.
+USA. 88:2520-2524.
+66. Thompson, H. L., M. Shiroo, and J. Saklatvala. 1993. The chemotactic
+factor N-formylmethionyl-leucyl-phenylalanine activates microtubuleassociated protein 2 (MAP) kinase and a MAP kinase kinase in polymorphonuclear leucocytes. Biochem. J. 290:483--488.
+67. Williams, J. G., A. J. Harwood, N. A. Hopper, M.-N. Simon, S. Bouzid,
+and M. Veron. 1993. Regulation of Dictyostelium morphogenesis by
+cAMP-dependent protein kinase. Philos. Trans. R. Soc. Lond. B Biol.
+Sci. 340:305-313.
+68. Worthen, G. S., N. Avdi, A. M. Buhl, N. Suzuki, and G. L. Johnson.
+1994. FMLP activates ras and raf in human neutrophils. J. Clin. Invest.
+94:815-823.
+69. Wu, J., H. Michel, P. Dent, T. Haystead, D. F. Hunt, and T. W. Sturgill.
+1993. Activation of MAP kinase by a dual specificity kinase. Adv. Second
+Messenger Phosphoprotein Res. 28:219-225.
+
+Segall et al. Dictyostelium MAP Kinase
+
+413
+
+

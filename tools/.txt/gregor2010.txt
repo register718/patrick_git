@@ -1,0 +1,693 @@
+REPORTS
+
+The Onset of Collective Behavior
+in Social Amoebae
+Thomas Gregor,1* Koichi Fujimoto,2† Noritaka Masaki,2 Satoshi Sawai1,2‡
+In the social amoebae Dictyostelium discoideum, periodic synthesis and release of extracellular
+cyclic adenosine 3´,5´-monophosphate (cAMP) guide cell aggregation and commitment to form
+fruiting bodies. It is unclear whether these oscillations are an intrinsic property of individual cells
+or if they exist only as a population-level phenomenon. Here, we showed by live-cell imaging of
+intact cell populations that pulses originate from a discrete location despite constant exchange of
+cells to and from the region. In a perfusion chamber, both isolated single cells and cell populations
+switched from quiescence to rhythmic activity depending on the concentration of extracellular
+cAMP. A quantitative analysis showed that stochastic pulsing of individual cells below the threshold
+concentration of extracellular cAMP plays a critical role in the onset of collective behavior.
+
+P
+
+collectively can cope with the new environment.
+Studies on chemical oscillators (2), glycolytic oscillations in yeast (3), and a synthetic gene circuit
+in bacteria (4) have demonstrated that synchronized oscillations may rely on a similar quorum
+sensing–type transition. Unlike in cases where
+synchronized oscillations appear by entrainment
+of phase and frequencies of autonomously oscillating elements [e.g., fireflies (5), circadian
+
+1
+Graduate School of Arts and Sciences, University of Tokyo,
+Tokyo 153-8902, Japan. 2Exploratory Research for Advanced
+Technology (ERATO) Complex Systems Biology Project, Japan
+Science and Technology Agency ( JST), Tokyo 153-8902, Japan.
+
+*Present address: Department of Physics, Princeton University,
+Princeton, NJ 08544, USA.
+†Present address: Department of Biological Sciences, Osaka
+University, Toyonaka 560-0043, Japan.
+‡To whom correspondence should be addressed. E-mail:
+cssawai@mail.ecc.u-tokyo.ac.jp
+
+Fig. 1. Live-cell imaging of cAMP signaling
+during early development of D. discoideum
+cells. (A) About 180 cells
+were confined to a 420mm-diameter area on hydrophobic agar (22).
+Snapshots were taken at
+times indicated by the
+red asterisks in (B). Dark
+area in rightmost snapshot corresponds to final
+aggregation site of the
+population. (B) Time course
+of changes in FRET efficiency, averaged over all
+cells (time indicates hours
+after starvation). The fluorescent intensities of the
+cyan fluorescent protein
+channel divided by that of
+the yellow fluorescent protein channel are plotted
+on the y axis. The upper
+left inset is a colored schematic for the subregions
+analyzed in (C). (C) Enlargements of the time
+series for each subregion,
+containing zero to five
+cells. Red bars indicate
+time windows in (B),
+chronologically ordered
+from left to right. Colors
+correspond to the colors
+of the spatial regions
+displayed in the inset in (B). Small differences in the rising phase of the pulses for individual regions correspond to cAMP waves that are propagating in space
+(see also fig. S7).
+www.sciencemag.org
+
+SCIENCE
+
+VOL 328
+
+21 MAY 2010
+
+Downloaded from https://www.science.org at University Erlangen Nuernberg on September 30, 2026
+
+opulations of microorganisms often undergo transitions to coordinated activities
+depending on nutrient availability and
+presence of other microbes in the environment.
+In a process termed “quorum sensing” (1), small
+signaling molecules are synthesized and secreted
+into the extracellular space. When the concentration of the molecules reaches a threshold, the cell
+population undergoes a transition to a state that
+
+rhythms (6), somite segmentation (7), Josephson
+junction arrays (8), chemical reactions (9), etc.
+(10)], the quorum sensing–type transition is accompanied by a spontaneous change from quiescence to oscillations at the individual level.
+The transition, referred to as “dynamical quorum
+sensing,” encodes cell-density information in the
+frequency of the oscillations (2, 3), because the
+small-molecule threshold may be reached more
+quickly at higher cell densities. Although the
+scheme can provide a robust means for a single
+cell to change its state qualitatively depending on
+the cell density, exposing the basis of the oscillatory transition in cell populations has remained
+a challenge (11, 12) because of difficulties in analyzing the dynamics of individual cells and the
+
+1021
+
+REPORTS
+population simultaneously. Moreover, how microorganisms use cellular oscillatory mechanisms
+to implement complex life-cycle strategies at the
+population scale remains unexplored.
+
+Chemoattractant signaling in the social amoebae Dictyostelium discoideum is one of the
+best-known examples of cell-cell signaling that
+mediates cooperation in microorganisms (13).
+
+When stimulated with extracellular cyclic adenosine 3´,5´-monophosphate (cAMP), cells respond
+by synthesizing and secreting more cAMP, which
+results in nondissipating waves of cAMP (14, 15)
+
+Fig. 3. The cAMP-induced cytosolic cAMP signaling response of isolated individual cells in a perfusion chamber. (A) Representative time courses of
+subthreshold response (four cells are represented
+by different colors). The concentration of extracellular cAMP was changed at time points indicated
+by dashed lines (0 M, perfusion with buffer only,
+no cAMP). (B) Damped and persistent oscillations of
+cytosolic cAMP when perfused with 3 nM and 10 mM
+exogenous cAMP, respectively (colors indicate
+four individual cells). (C) Single-cell input/output
+relation of time- and cell-averaged responses to
+applied cAMP ranging from 100 pM to 100 mM
+(blue and red lines correspond to 3- and 30-min
+averages, respectively). The relative cAMP output
+of an isolated cell for a given input stimulus
+over a time period T is evaluated here by computing the time-integral of I485/I540 given by
+Icyt:cAMP (T) ¼ 1T ∫T0 I485 (t)/I540 (t)dt, where the stimulus is applied at t = 0 (22) (fig. S9). (D and E)
+Individual cells responding to repetitive stimuli at 6-min (D) and 3-min (E) intervals (see fig. S8
+for 4-min and 15-min intervals). Shaded regions, stimulus on (10 nM cAMP perfusion for 1 min);
+white regions, stimulus off (buffer perfusion only, no cAMP). Cells were set well below the
+transition point shown in Fig. 2C (separation >1mm; flow rate >4 ml/min).
+
+1022
+
+21 MAY 2010
+
+VOL 328
+
+SCIENCE
+
+www.sciencemag.org
+
+Downloaded from https://www.science.org at University Erlangen Nuernberg on September 30, 2026
+
+Fig. 2. Synchronized population-level oscillations of cytosolic
+cAMP. Cells were placed in a perfusion chamber (volume of
+~0.25 ml) 4 to 6 hours after starvation. (A) Populationaveraged behavior at cell densities of 1/8 monolayer (ML; 1 ML
+unit is 6600 cells/mm2), 1/32 ML, and 1/64 ML (top to bottom,
+respectively) under buffer at a fixed flow rate of 1 ml/min. The
+lowest panel is at 1/32 ML and 16 ml/min. (B) A phase diagram
+summarizes 148 experiments at various densities and flow
+rates. The mean firing rate (min−1) is represented in color. Red
+regions display the highest firing rates (period of ~6 min).
+Sporadic firing occurs in the blue regions (see also fig. S5).
+White regions correspond to regimes of no spontaneous firing;
+white vertical lines indicate nonlinear breaks in the x axis. (C)
+Firing rate as a function of the ratio between cell density and
+flow rate (r/k) (blue circles). Mean T SE (indicated in red) are
+computed from equi-populated bins. Four points around a value
+of −2 on the x axis were considered outliers because they were
+sampled at very low k (flow rates < 1 ml/min), where the effect
+of extracellular PDE is nonnegligible (30).
+
+REPORTS
+individual cells revealed a continuous exchange of
+cells to and from the signaling centers. Together,
+these observations suggest that the oscillations do
+not originate from autonomous activities of
+specialized cells, but rather that they probably
+result from inhomogeneous fluctuations in the
+concentration of extracellular signaling molecules
+that favor pulse generation.
+To probe the extracellular conditions necessary to initiate periodic pulses, we placed cells
+in a perfusion chamber that provides rapid mixing and exchange of extracellular buffer to ensure
+a uniform and controlled environment. Pulsing
+rates were systematically measured for a wide
+range of cell densities and dilution rates. Representative data are shown in Fig. 2A. At sufficiently high densities (~103 cells/mm2) and under
+moderate flow speed (~1 ml/min), cells periodically fire approximately once every 6 min on
+average (Fig. 2A, top panel), which is typically
+observed in an intact population near a monolayer
+density (14, 16, 17) (Fig. 1B). With decreasing cell
+density, the synchronized pulses become sporadic
+and finally cease (Fig. 2A). The dependence of the
+firing rate on cell density and dilution rate is
+presented as a phase diagram (Fig. 2B). The
+frequency of pulsing at flow rates >1 ml/min is
+proportional to a single parameter, r/k, which
+defines the ratio of cell density r to flow rate k
+(Fig. 2C). The pulsing rate is close to zero when
+r/k is small. As r/k is increased, the frequency
+increases logarithmically and levels off at ~6-min
+oscillations.
+To understand the origin of this dynamical
+transition, we quantified the response of single
+isolated cells to continuous application of exogenous cAMP (Fig. 3, A and B). In the absence
+of extracellular cAMP, cytosolic cAMP concen-
+
+Fig. 4. Dynamical quorum
+sensing–type transition in
+a population of excitable/
+oscillatory switch elements.
+(A) Representative simulated time courses of average cAMP concentrations
+(cytosolic [cAMP]cyt and extracellular [cAMP]ext in linear
+and logarithmic scales, respectively). Thin colored lines
+indicate [cAMP]cyt in individual cells. Cell densities
+were increased in incremental steps of 1/768 ML, 1/192
+ML, 1/48 ML, 1/12 ML, and
+1/3 ML at k = 5 ml/min. (B)
+Firing rate as a function of
+r/k as predicted by the
+coupled phase model with
+(blue line; eq. S5) or without
+(gray squares; eq. S5) incorporation of stochastic pulsing. For comparison, see experimental data from Fig.
+2C (red circles) and mean-field approximation (dashed black line; eq. S6). (C)
+Model prediction of desynchronization at elevated cytosolic cAMP concentrations [a 10-fold increase in maximum (Amax) and basal (Abas) cytosolic cAMP
+concentrations; eq. S1]. [cAMP]cyt normalized by Amax in individual cells (thin
+www.sciencemag.org
+
+trations remain steady with some fluctuations
+(fig. S4). At subnanomolar stimulation, cells pulse
+randomly (Fig. 3A). Upon application of nanomolar concentrations of cAMP, cells display
+excitatory behavior (1 nM in Fig. 3A and 3 nM
+in Fig. 3B)—a sharp transient rise that peaks after
+~30 s is followed by smaller peaks that gradually
+attenuate. Damping of the response becomes less
+marked at micromolar concentrations of cAMP
+(Fig. 3B; 10 mM). The oscillatory responses persist at 2.5- to 8-min periods, which vary from cell
+to cell. The peaks appear even at 100 mM cAMP
+(fig. S9), well above the saturation dose of the
+cAMP receptors (23), suggesting that cytosolic
+oscillations can occur without periodic changes
+in the concentration of extracellular cAMP. However, this persistent oscillatory behavior depends
+strictly on the presence of extracellular cAMP,
+because when the stimulus is removed, cytosolic
+cAMP returns to its prestimulus level within 30
+to 60 s (Fig. 3A at 90 min; Fig. 3B at 65 min).
+From fluorometric measurements, we estimate
+that the basal and the peak concentrations of cytosolic cAMP correspond on average to ~400 nM
+and ~10 mM, respectively (fig. S3). Figure 3C
+summarizes the cytosolic cAMP responses in
+the form of an input/output relation (see also fig.
+S9). The input corresponds to the applied cAMP
+concentrations and the output to the integrated
+response over two time intervals: (i) 3 min, corresponding to the initial peak of the response
+(Fig. 3C; blue curve); and (ii) 30 min (red curve).
+The 3-min interval exhibits a half-maximal
+output at 0.5 T 0.1 nM cAMP, suggesting that a
+cell can be excited by a very low number of
+cAMP molecules. For the longer interval, the halfmaximal concentration is 1.7 T 0.2 nM owing to
+damping of the response.
+
+Downloaded from https://www.science.org at University Erlangen Nuernberg on September 30, 2026
+
+that guides aggregation of individual amoeboid
+cells. Most of our understanding of the cAMP
+oscillations in Dictyostelium is based on populationlevel optical-density observations (15–17) or
+isotope dilution assays of cAMP on fixed samples
+(14, 18–20). Because such measurements hide
+possible cell-cell heterogeneities, it is unknown
+whether the initiation of the periodic behavior is
+due to synchronization of cells that can autonomously oscillate regardless of interactions with
+other cells, or whether it is a “dynamical quorum
+sensing”–type phenomenon (3)—i.e., individual
+cells remain nonoscillatory unless the entire
+population becomes oscillatory.
+To elucidate the onset of the cAMP oscillations, we used a fluorescence resonance energy transfer (FRET)–based sensor (21) to directly
+monitor cytosolic cAMP in live Dictyostelium
+cells (22) (fig. S3). Inhibiting synthesis of cAMP
+inhibited oscillations, confirming that changes in
+FRET efficiency reflect changes in cytosolic
+cAMP concentrations (22) (fig. S1). A representative time course of development is shown in Fig.
+1, A and B (movie S1). Cells began to fire
+synchronously 5 hours after nutrient deprivation
+with pulses occurring sporadically every 15 to 30
+min (Fig. 1B; 5 to 7 hours). Over the next 2
+hours, the period of firing shortened to 8 min and
+thereafter to 6 min when cells began to aggregate.
+The entire population participated in the firing
+from the first pulse (Fig. 1C, leftmost panel). Differences in the phase of the oscillations depending
+on the regions indicate that pulses propagated in
+space as waves (fig. S7). Different spatial locations
+competed for wave initiation (Fig. 1C, second
+panel from the left). However, a single region
+eventually dominated and determined the aggregation center (Fig. 1A, middle panel). Tracking of
+
+gray lines; four cells are highlighted by colors). Blue line indicates population
+average. (D) Poorly synchronized population-level oscillations in regA− mutants
+whose degradation of intracellular cAMP is reduced (1/4 ML; 2 ml/min). Colors
+indicate average signals by cells in four 100 mm by 100 mm regions separated
+by ~150 mm. Blue line indicates average of the four regions.
+
+SCIENCE
+
+VOL 328
+
+21 MAY 2010
+
+1023
+
+REPORTS
+
+1024
+
+lularly before individual cells fully recover their
+state of excitability.
+To determine quantitatively the origin of
+synchronized pulses in the population, we incorporated the observed response behavior into Eq.
+1. To this end, the single-cell–level dynamics of
+cytosolic cAMP is described by a phase equation
+(eqs. S1 and S2 and fig. S6A) that reproduces the
+pulsatile cAMP output observed in Fig. 3 (fig.
+S6B). When such cellular elements are coupled
+(eq. S5), the population switches from a quiescent
+to an oscillatory state at a critical cell density (Fig.
+4A). The model can accurately reproduce the
+frequencies of the synchronized oscillations (Fig.
+4B; blue line and red circles) only when the
+random pulsing observed at subnanomolar concentrations (Fig. 3A and fig. S4) is taken into
+account. Without random pulsing, the curve
+appears slanted and shifts toward higher r/k
+(Fig. 4B; gray line). Hence, our model confirms
+the importance of sporadic random firing at the
+onset of synchronized pulses in the population,
+as observed experimentally in fig. S5. At subnanomolar concentrations of extracellular cAMP,
+the probability that a cell is randomly excited
+increases (Fig. 3A and fig. S4), enhancing the
+chance for other cells to fire (fig. S6C). A chain
+reaction of excitation is thus generated that can
+give rise to synchronized pulses [Fig. 4A (1/48
+ML) and fig. S6C] even at subnanomolar
+concentrations below the threshold. Thus, the
+question of whether specialized cells initiate
+synchronized pulses is ill posed; the initiation
+process is inherently collective and stochastic.
+Synthesis of intracellular cAMP requires a
+receptor-mediated activation of adenylyl cyclase
+ACA (fig. S1, D to G)—the main enzyme responsible for converting adenosine 5′-triphosphate
+(ATP) to cAMP during this stage of Dictyostelium
+development. Binding of cAMP to the membranebound receptor induces production of phosphatidylinositol 3,4,5-trisphosphate (PIP3) that recruits
+an activating factor containing a specific PIP3binding domain [pleckstrin homology (PH) domain] to the plasma membrane (25). Given the
+small number of extracellular cAMP molecules
+necessary to elicit a response in cytosolic cAMP
+(Fig. 3C), the stochastic nature of the pulsing
+may originate from random binding of cAMP to
+the membrane-bound cAMP receptor. However,
+the threshold value in the response (0.5 T 0.1 nM
+in Fig. 3C; blue curve) is an order of magnitude
+below the affinity of the receptor (23). Because a
+similar dosage dependence of membrane translocation of a PH domain–containing protein has
+been observed (26), our input/output relation (Fig.
+3C, blue curve) most likely reflects the kinetics
+downstream of the membrane receptors but
+upstream of PIP3.
+That cells can be oscillatory even at the
+single-cell level in the perfusion setup (Fig. 3,
+B, D, and E) might indicate that the emergence
+of synchronized oscillations in the population is
+not a collective phenomenon. However, these
+cell-intrinsic oscillations appear only when the
+
+21 MAY 2010
+
+VOL 328
+
+SCIENCE
+
+concentrations of extracellular cAMP are kept
+above 1 nM (Fig. 3B and fig. S9). Before extracellular cAMP can rise to this level spontaneously in a cell population, synchronized pulses
+must emerge. In our perfusion experiments, at
+low r/k the population remains in a state in which
+pulses are emitted sporadically. In contrast, when
+extracellular cAMP is increased to a sufficiently
+high level, cells become transiently oscillatory.
+This occurs at high r/k where the pulsing frequency reaches a plateau (Fig. 2C). At that level,
+pulse timing is no longer dictated by the occurrence of random pulses in the population, but
+rather by an oscillatory mechanism at the singlecell level that gates and paces the timing. As a
+result, the pulses appear regularly at ~6-min intervals (Fig. 2A). One would expect that disruption of intracellular PDE (RegA) (27) should
+have a strong deleterious effect if these cellintrinsic oscillatory dynamics involve a feedback
+regulation via cytosolic cAMP (20). However, if
+the main effect of disrupting RegA is to increase
+the overall concentration of cAMP secreted into
+extracellular space, regA− cell populations should
+still be able to oscillate albeit with only partial
+synchrony (Fig. 4C) because the extracellular
+cAMP concentration should almost saturate the
+dynamic range of the input/output relation (Fig.
+3C and fig. S6B). In agreement with this model
+prediction, we observe that regA− cells oscillate
+but are poorly synchronized (Fig. 4D). Furthermore, because intrinsic oscillations observed at
+saturating dose of extracellular cAMP are also
+present in isolated regA− cells (fig. S10B), the
+oscillations at the single-cell level do not require
+a RegA-mediated feedback loop.
+Finally, the entire sequence of events in an
+intact cell population (Fig. 1), from the onset of
+sporadic firing to determination of the final periodic signaling center, can be inferred from the
+perfusion experiments. The key enzymes that
+determine the rates of secretion (r) and of cAMP
+decay (k) in Eq. 1 are ACA and extracellular
+PDE, respectively (figs. S1, S2, and S10A), both
+of which are expressed at very low levels but are
+induced during the first 4 hours after starvation
+(13, 28). When cAMP slowly begins to accumulate in the extracellular space, initial pulses are
+randomly elicited owing to the stochastic subthreshold dynamics at the single-cell level. Although several centers compete for dominance,
+the results in Figs. 2C and 4B predict that sites
+that accumulate more extracellular cAMP than
+others pulse at a higher frequency. Such sites will
+entrain other sites that fire less often (10) and
+therefore survive. Thus, the first site that accumulates enough extracellular cAMP to support the
+saturating frequency (~6-min period) becomes the
+persistent oscillatory center. This not only allows
+aggregation of more cells to the same location,
+but may also facilitate later development because
+cAMP is required for cell differentiation (29).
+The signaling centers in D. discoideum are
+dynamic entities that self-organize in the population. The onset of synchronized pulses occurs
+
+www.sciencemag.org
+
+Downloaded from https://www.science.org at University Erlangen Nuernberg on September 30, 2026
+
+The results in Figs. 2 and 3 indicate that accumulation of extracellular cAMP ([cAMP]ext)
+in the population is essential for excitatory and
+oscillatory cell responses. At low r/k, if cells
+secrete cAMP on average at a constant rate r, then
+[cAMP]ext changes according to
+d½cAMPext
+k
+½cAMP (1)
+¼ ρr −
+dt
+VT
+which states that variations in cell density r
+alter the effective synthesis rate of extracellular
+cAMP, while the rate of dilution k divided by the
+chamber volume VT determines how fast extracellular cAMP is removed. Assuming that the
+system is at steady state in this regime, [cAMP]ext
+must be proportional to the parameter r/k (eq.
+S4), and hence Eq. 1 assumes a constant cell secretion rate for cAMP. Isolated cells exposed to
+extracellular cAMP below the threshold concentration of ~500 pM (Fig. 3C), however, display
+nonnegligible excitable dynamics that appear to
+be stochastic (Fig. 3A and fig. S4). This observation matches well with the sporadic pulses observed experimentally at the population level (fig.
+S5), when r/k is near the transition point (i.e., r/k ~
+10−3 in Fig. 2C). Incorporating first-order secretion
+(24) into Eq. 1, we computed the effective synthesis rate per monolayer cell density to be r =
+5.2 nM/min (by eqs. S3 and S8), implying that
+near the transition point, cells should only be able
+to accumulate extracellular cAMP of less than
+~10 pM (eq. S7). Such low concentrations, however, are more than an order of magnitude below
+the responsive range of a single cell (Fig. 3C),
+indicating a limitation of the static picture provided by Eq. 1.
+At high r/k, the firing rate reaches a plateau
+(~1/6 min−1 in Fig. 2C), which cannot be deduced from the observed cell responses to persistent stimuli (Fig. 3C) alone. When isolated cells
+are repetitively stimulated with 10 nM cAMP at
+6-min intervals, cells responded in pace with the
+stimuli (Fig. 3D). However, at shorter intervals
+the response gradually diminished (Fig. 3E and
+fig. S8A), and at longer intervals random bursts
+appeared spontaneously (fig. S8B). Thus, an individual Dictyostelium cell behaves as a resonance filter that selects a stimulus at 6-min
+intervals. That is, extracellular cAMP must be
+removed for a certain time period for cells to
+respond to further stimuli. Such a time scale is a
+single-cell–level property. The requirement of
+cAMP removal is consistent with population
+experiments that we performed in the absence of
+flow (<1 ml/min; Fig. 2B). They demonstrate
+that synchronized oscillations require removal of
+extracellular cAMP by extracellular phosphodiesterase (PDE, the enzyme that degrades extracellular cAMP) (figs. S2 and S10A). Together
+with the observed cytosolic oscillations in cells
+under prolonged stimulation (Fig. 3B), these
+observations indicate that in addition to the time
+it takes for the extracellular cAMP to return to
+its original prepulse concentration (a global process mediated by extracellular PDE), there exist
+local mechanisms that monitor time intracel-
+
+REPORTS
+by a switchlike response of individual cells to an
+external threshold concentration. The initiation
+is highly dynamic and collective, because the
+threshold and the frequency of the response
+cannot be attributed solely to those at the singlecell level. As random cells continue to emit pulses
+sporadically, extracellular cAMP accumulates so
+that, at the peak of the synchronized pulses, cells
+become transiently oscillatory. The combination
+of these two strategies, one global and the other
+local, may allow cells to first determine the global
+maximum of extracellular cAMP concentration
+and then aggregate as the pulses become selfsustainable and are periodically emitted from such
+locations.
+References and Notes
+
+Structural Insights into the
+Assembly and Function of the
+SAGA Deubiquitinating Module
+Nadine L. Samara,1* Ajit B. Datta,1,2* Christopher E. Berndsen,1,2 Xiangbin Zhang,1,2
+Tingting Yao,3 Robert E. Cohen,3 Cynthia Wolberger1,2†
+SAGA is a transcriptional coactivator complex that is conserved across eukaryotes and performs
+multiple functions during transcriptional activation and elongation. One role is deubiquitination
+of histone H2B, and this activity resides in a distinct subcomplex called the deubiquitinating
+module (DUBm), which contains the ubiquitin-specific protease Ubp8, bound to Sgf11, Sus1,
+and Sgf73. The deubiquitinating activity depends on the presence of all four DUBm proteins.
+We report here the 1.90 angstrom resolution crystal structure of the DUBm bound to ubiquitin
+aldehyde, as well as the 2.45 angstrom resolution structure of the uncomplexed DUBm. The structure
+reveals an arrangement of protein domains that gives rise to a highly interconnected complex, which
+is stabilized by eight structural zinc atoms that are critical for enzymatic activity. The structure
+suggests a model for how interactions with the other DUBm proteins activate Ubp8 and allows us to
+speculate about how the DUBm binds to monoubiquitinated histone H2B in nucleosomes.
+he covalent modification of chromatin is
+a core feature of eukaryotic transcription
+(1). The SAGA complex regulates genes
+transcribed by RNA polymerase II by carrying
+out multiple functions that include histone acetylation and deubiquitination (2, 3). The 1.8megadalton SAGA complex, which contains 21
+proteins conserved from yeast to humans (4),
+plays a role in transcription activation and also
+couples transcription elongation with export of
+the nascent RNA through the nuclear pore complex (5). SAGA is recruited to promoter regions
+
+T
+
+by activator proteins, where it catalyzes the cleavage of monoubiquitin from lysine-123 (K123)
+of histone H2B, as well as acetylation of histone
+H3 (6). Both of these activities are thought to
+be important for evicting nucleosomes from the
+promoter region and for facilitating transcription elongation (7). The yeast SAGA complex
+has been a model for studying SAGA function
+in the transcription cycle. Histone acetylation
+by SAGA is mediated by the Gcn5 histone
+acetyltransferase subunit, whereas histone H2B
+deubiquitination is mediated by a discrete
+
+www.sciencemag.org
+
+SCIENCE
+
+VOL 328
+
+26. L. Bosgraaf, I. Keizer-Gunnink, P. J. Van Haastert, J. Cell
+Sci. 121, 3589 (2008).
+27. P. A. Thomason et al., EMBO J. 17, 2838 (1998).
+28. N. Iranfar, D. Fuller, W. F. Loomis, Eukaryot. Cell 2, 664
+(2003).
+29. L. Kim, A. Harwood, A. R. Kimmel, Dev. Cell 3, 523
+(2002).
+30. At very low k (flow rates < 1ml/min), the effect of
+extracellular PDE is nonnegligible. Pulses are no longer
+observed when dithiothreitol is applied to inhibit
+extracellular PDE (fig. S2), demonstrating that periodic
+firing under these conditions depends on degradation of
+extracellular cAMP by extracellular PDE released by the
+cells. At higher k, clearing of extracellular cAMP from the
+medium is mainly determined by dilution.
+31. We thank V. O. Nikolaev and M. J. Lohse for providing
+vector containing Epac1-camps; M. Kitahara and E. Hada
+for technical help, E. C. Cox, S. Ishihara, K. Kaneko,
+H. Kori, and J. Teramae for discussions and suggestions;
+and the Japan Society for the Promotion of Science
+(JSPS) postdoctoral fellowship (T.G.), K. Kaneko, and the
+ERATO-JST for support.
+
+Supporting Online Material
+www.sciencemag.org/cgi/content/full/science.1183415/DC1
+Materials and Methods
+Figs. S1 to S10
+References
+Movie S1
+15 October 2009; accepted 19 March 2010
+Published online 22 April 2010;
+10.1126/science.1183415
+Include this information when citing this paper.
+
+subcomplex known as the deubiquitinating
+module (DUBm) (3, 8). The yeast DUBm
+comprises four proteins: the ubiquitin-specific
+protease (Ubp8) ubiquitin hydrolase, Sgf11,
+Sus1, and Sgf73 (9, 10). Sgf73 tethers DUBm to
+the rest of the SAGA complex through a central
+domain; the N-terminal domain forms an
+integral part of the DUBm (9). Sgf73, along
+with Sus1, also facilitates SAGA’s role in
+nuclear export by binding to components of
+the nuclear pore complex (11). Although Ubp8
+contains a ubiquitin-specific hydrolase (Usp) domain (12), the protein is inactive unless it is in
+complex with the other three DUBm proteins
+(9, 13). The structural basis for Ubp8 activation
+is not understood, nor is its dependence on the
+other three DUBm proteins to form a stable
+complex that can specifically target H2B for
+deubiquitination.
+Drosophila and human SAGA include a
+DUBm that functions analogously to the yeast
+DUBm and comprises homologs of the yeast
+proteins (10, 14, 15). In addition, the human
+DUBm, consisting of USP22, ATXN7L3, ENY2
+and ATXN7 (homologs of Ubp8, Sgf11, Sus1, and
+
+Downloaded from https://www.science.org at University Erlangen Nuernberg on September 30, 2026
+
+1. C. M. Waters, B. L. Bassler, Annu. Rev. Cell Dev. Biol. 21,
+319 (2005).
+2. A. F. Taylor, M. R. Tinsley, F. Wang, Z. Huang, K. Showalter,
+Science 323, 614 (2009).
+3. S. De Monte, F. d’Ovidio, S. Danø, P. G. Sørensen, Proc.
+Natl. Acad. Sci. U.S.A. 104, 18377 (2007).
+4. T. Danino, O. Mondragón-Palomino, L. Tsimring, J. Hasty,
+Nature 463, 326 (2010).
+5. J. Buck, E. Buck, Science 159, 1319 (1968).
+6. S. Yamaguchi et al., Science 302, 1408 (2003).
+7. I. H. Riedel-Kruse, C. Müller, A. C. Oates, Science 317,
+1911 (2007).
+8. K. Wiesenfeld, P. Colet, S. H. Strogatz, Phys. Rev. Lett.
+76, 404 (1996).
+
+9. I. Z. Kiss, Y. M. Zhai, J. L. Hudson, Science 296, 1676
+(2002).
+10. A. T. Winfree, in The Geometry of Biological Time
+(Biomathematics Series) (Springer-Verlag, New York,
+1980).
+11. D. McMillen, N. Kopell, J. Hasty, J. J. Collins, Proc. Natl.
+Acad. Sci. U.S.A. 99, 679 (2002).
+12. J. Garcia-Ojalvo, M. B. Elowitz, S. H. Strogatz, Proc. Natl.
+Acad. Sci. U.S.A. 101, 10955 (2004).
+13. A. Goldbeter, Biochemical Oscillations and Cellular
+Rhythms. The Molecular Bases of Periodic and Chaotic
+Behaviour (Cambridge Univ. Press, Cambridge,
+1996).
+14. K. J. Tomchik, P. N. Devreotes, Science 212, 443
+(1981).
+15. J. D. Gross, M. J. Peacey, D. J. Trevan, J. Cell Sci. 22, 645
+(1976).
+16. F. Siegert, C. Weijer, J. Cell Sci. 93, 325 (1989).
+17. S. Sawai, P. A. Thomason, E. C. Cox, Nature 433, 323
+(2005).
+18. G. Gerisch, U. Wick, Biochem. Biophys. Res. Commun.
+65, 364 (1975).
+19. P. N. Devreotes, P. L. Derstine, T. L. Steck, J. Cell Biol. 80,
+291 (1979).
+20. M. Maeda et al., Science 304, 875 (2004).
+21. V. O. Nikolaev, M. Bünemann, L. Hein, A. Hannawacker,
+M. J. Lohse, J. Biol. Chem. 279, 37215 (2004).
+22. Materials and Methods are available as supporting
+material on Science Online.
+23. R. L. Johnson et al., J. Biol. Chem. 267, 4600
+(1992).
+24. M. C. Dinauer, S. A. MacKay, P. N. Devreotes, J. Cell Biol.
+86, 537 (1980).
+25. F. I. Comer, C. K. Lippincott, J. J. Masbad, C. A. Parent,
+Curr. Biol. 15, 134 (2005).
+
+1
+Department of Biophysics and Biophysical Chemistry, The
+Johns Hopkins University School of Medicine, Baltimore,
+MD 21205, USA. 2Howard Hughes Medical Institute, The
+Johns Hopkins University School of Medicine, Baltimore,
+MD 21205, USA. 3Department of Biochemistry and Molecular Biology, Colorado State University, Fort Collins, CO
+80523, USA.
+
+*These authors contributed equally to this work.
+†To whom correspondence should be addressed. E-mail:
+cwolberg@jhmi.edu
+
+21 MAY 2010
+
+1025
+
+The Onset of Collective Behavior in Social Amoebae
+Thomas Gregor, Koichi Fujimoto, Noritaka Masaki, and Satoshi Sawai
+
+Science 328 (5981), . DOI: 10.1126/science.1183415
+
+View the article online
+https://www.science.org/doi/10.1126/science.1183415
+Permissions
+https://www.science.org/help/reprints-and-permissions
+
+Use of this article is subject to the Terms of service
+Science (ISSN 1095-9203) is published by the American Association for the Advancement of Science. 1200 New York Avenue NW,
+Washington, DC 20005. The title Science is a registered trademark of AAAS.
+Copyright © 2010, American Association for the Advancement of Science
+
+Downloaded from https://www.science.org at University Erlangen Nuernberg on September 30, 2026
+
+All Together Now
+In the social amoeba Dictyostelium discoideum, periodic synthesis and release of cyclic AMP (cAMP) guides the
+cellular aggregation required to form fruiting bodies. It has been unclear whether the initiation of this behavior is owing
+to synchronization of autonomously oscillating cells or whether individual cells remain nonoscillatory unless the entire
+population becomes oscillatory. Gregor et al. (p. 1021, published online 22 April; see the Perspective by Prindle
+and Hasty) used live-cell imaging to show that cAMP pulses originate from a specific location in space and that
+individual cells move in and out of these signaling centers. The observations suggest that oscillations do not originate
+from autonomous activities of specialized cells. However, individual cells do display stochastic cAMP-pulsing below
+a threshold external concentration of cAMP, and the generation of synchronized oscillations could only be modeled
+accurately when this random pulsing was taken into account.
+
+

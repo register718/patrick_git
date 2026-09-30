@@ -1,0 +1,960 @@
+Vol. 270, No. 15, Issue of April 14, pp. 8667-8672, 1995
+Printed in U.S.A.
+
+THE JOURNAL OF BIOLOGICAL CHEMISTRY
+
+© 1995 by The American Society for Biochemistry and Molecular Biology, Inc.
+
+Agonist-induced Loss of Ligand Binding Is Correlated with
+Phosphorylation of cARl, a G Protein-coupled Chemoattractant
+Receptor from Dictyostelium *
+(Received for publication, December 27, 1994)
+
+Michael J. Caterina:!=, Peter N. Devreotes, Jane Borleis, and Dale Hereld§
+From the Department of Biological Chemistry, The Johns Hopkins University School of Medicine,
+Baltimore, Maryland 21205
+
+The parallel agonist-induced phosphorylation, alteration in electrophoretic mobility, and loss of ligand
+binding of a guanine nucleotide-binding regulatory protein (G protein)-coupled chemoattractant receptor from
+Dictyostelium (cARl) depend upon a cluster of five Cterminal domain serine residues (Caterina, M. J.,
+Hereld, D., and Devreotes, P. N. (1995) J. Biol. Chem. 270,
+4418-4423). Analysis of mutants lacking combinations of
+these serines revealed that either Ser303 or Ser304 is required; mutants lacking both serines are defective in all
+of these responses. Interestingly, several mutants, including those substituted at only Ser99, Ser302, or Ser303
+or at non-serine positions within the third cytoplasmic
+loop, displayed an unstable mobility shift; the alteration
+was rapidly reversed upon cAMP removal. These mutants also exhibited subnormal extents of loss of ligand
+binding, which is assessed after removal of the ligand.
+For the wild-type receptor, we found that the stability
+of phosphorylation depends upon the concentration and
+duration of agonist pretreatment. This suggests that,
+following phosphorylation of Ser303 or Ser304, cARl undergoes a further transition (EC 50 ~ 140 DM, t 112 = 4 min)
+to a relatively phosphatase-resistant state. We used this
+insight to show that, under all conditions tested, the
+extent of loss of binding is correlated with the fraction
+of cARl in the altered mobility form. We discuss possible
+relationships between cARl phosphorylation and loss of
+ligand binding.
+Receptors that couple to G proteins 1 undergo a series of
+changes upon agonist binding, including serine/threonine phosphorylation of cytoplasmic domains as well as a rapid, reversible decrease in ligand binding (reviewed in Ref. 1). The latter
+has been attributed in some cases to a reduction in binding
+affinity (32) and in others to internalization of receptors (often
+referred to as "sequestration"). The exact relationship between
+phosphorylation and reduction of binding is unclear, and may
+*This work was supported in part by National Institutes of Health
+Grant GM34933 (to P. N.D.). The costs of publication of this article
+were defrayed in part by the payment of page charges. This article must
+therefore be hereby marked "advertisement" in accordance with 18
+U.S.C. Section 1734 solely to indicate this fact.
+:j: Supported by Medical Scientist Training Program Grant GM07309.
+§Supported by a fellowship from The Damon Runyon-Walter
+Winchell Cancer Research Fund. To whom correspondence should be
+addressed: Dept. of Biological Chemistry, Johns Hopkins University
+School of Medicine, 725 N. Wolfe St., Baltimore, MD 21205. Tel.: 410955-4699; Fax: 410-955-5759.
+1
+The abbreviations used are: G proteins, guanine nucleotide-binding
+regulatory proteins; cAR, cAMP receptor; CHAPS, 3-[(3-cholamidopropyl)dimethylammonio]-1-propanesulfonate; DTT, dithiothreitol; (RP)cAMPS, cyclic adenosine 3',5'-monophosphorothioate, (RP)-isomer;
+PAGE, polyacrylamide gel electrophoresis; LLB, loss of ligand binding.
+
+vary among different G protein-coupled receptors. Studies of
+acetylcholine, gastrin-releasing peptide, and cAMP receptors
+indicate that phosphorylation and decreases in ligand binding
+are coordinately regulated (2-5, 32). In contrast, the sequestration of !32 -adrenergic receptors is preserved despite inhibiting receptor phosphorylation or eliminating putative phosphorylation sites by mutagenesis (1, 6). In addition, in this latter
+system, it has been proposed that, while phosphorylation does
+not appear to be a prerequisite for sequestration of the /32 adrenergic receptor, sequestration is necessary for receptor
+dephosphorylation (7).
+cARl, the chemoattractant cAMP receptor of Dictyostelium,
+is a G protein-coupled receptor which, upon nutrient depletion,
+coordinates the aggregation of 10 5 individual amoebae into a
+multicellular structure (Ref. 9; reviewed in Ref. 8). Like other
+members of the seven transmembrane domain receptor family,
+cARl exhibits both agonist-induced phosphorylation and loss of
+ligand binding (LLB) (10-13). While cARl internalization can
+occur under some circumstances (14), we have shown that LLB
+results largely from a reduction in binding affinity (32).
+The cARl C-terminal cytoplasmic domain contains 18 serine
+residues organized into four clusters. Agonist binding results in
+the addition of 3-4 phosphates to serines within two of these
+clusters. The majority of this phosphorylation occurs within
+cluster 1 and results in a marked reduction in cARl electrophoretic mobility. A mutant in which the five serines of cluster
+1 were substituted by site-directed mutagenesis exhibits reduced cAMP-stimulated phosphorylation and fails to undergo
+the electrophoretic mobility shift (15). Furthermore, this mutant is markedly impaired in cAMP-induced LLB (32). In contrast, elimination of the other 13 serines of the cytoplasmic
+domain (clusters 2, 3, and 4) had little effect on either the
+mobility shift or LLB. These findings suggest that phosphorylation of cluster 1 and LLB are related.
+In the present study, we describe a detailed mutational analysis of cluster 1 and identify the specific residues required for
+each of these processes. We analyzed both the onset and reversal of these two processes as exhibited by mutant and wild-type
+eARls under a variety of cAMP pretreatment conditions. Our
+results indicate that LLB and phosphorylation of specific residues within cluster 1 are coordinately regulated upon the introduction and removal of cAMP and suggest a causal relationship between these two processes.
+MATERIALS AND METHODS
+
+Site-directed Mutagenesis of Serine Cluster 1-Using site-directed
+
+mutagenesis and three previously described oligonucleotides
+(15), Ser 299 and Ser 308 were independently substituted with Ala
+and Ser 302 Ser303 Ser 304 was replaced with Gly-Ala-Gly. Alternatively, the same replacements of Ser302 , Ser 303 , and Ser304
+were made independently using the degenerate antisense oligonucleotide, 5'-GTACCACGACXTGYACXATATGGTG-3' (where X
+
+8667
+
+This is an Open Access article under the CC BY license.
+
+Correlated Loss of Binding and cAMP R ecep tor Phosphorylation
+
+8668
+
+TABLE I
+Definition of cARl cluster 1 mutants
+Cluster 1 mutants used in this study and the amino acid substitutions in each are indicated. In the mutants, preserved wild-type residues are indicated by dashes (-). A, alanine; G, glycine; S, serine.
+
+Receptor
+
+Wild-type
+Mutants
+cml
+mutl
+mut2
+mut4
+mut14
+mutl5
+mut16
+mut17
+mut18
+mut19
+
+cAMP:
+
+Residue no.
+
+299
+
+302
+
+303
+
+304
+
+s
+
+s
+
+s
+
+s
+
+A
+A
+A
+
+G
+
+A
+
+G
+
+G
+G
+
+A
+
+G
+
+s
+
+G
+G
+
+mul2
+
+mut4
+
+- +
+
+- +
+
+- +
+
+- +
+
+G
+G
+
+= T or C and Y = A or C). The cluster 1 mutants are summarized in
+Table 1.
+Cell Lines Expressing cARl Mutants-Mutated cARl cDNAs, subcloned into an expression vector (either pB18 or pJKl) (15), were
+introduced into AX-3 cells or cells lacking cARl (JB4 cells) (16) by
+electroporation as descJ;bed previously (17). Similar results were obtained when wild-type cARl and selected mutants were expressed in
+each cell type. Clonal, stably transformed cell lines were selected and
+maintained in HL-5 medium (18) containing 20 1-'g/ml G418 (Life Technologies, Inc.). Cells expressing wild-type cARl (MC36 cells) and mutant
+cml are described elsewhere (15, 16). Previously described third intracellular loop mutants (16) used in this study and their amino acid substitutions (in parentheses) are as follows: A3 (Rl84L, Yl85N, Yl87S); A5
+(Tl82S, Yl87H); A22 (Vl88F, Vl89L); A42 (Vl89D); A53 (Tl82S, Vl88T,
+Vl89R); A60 (Tl86A, Yl87D); and A62 (Rl84C, Vl88A, Vl89A).
+Induction and Measurement of the Electrophoretic Mobility ShiftCells, grown as shaken suspensions to densities of - 5 X 106 cells/ml,
+were washed with PB (5 mM Na 2 HP0 4 , 5 mM KH 2 P0 4 , pH 6.1) prior to
+each experiment. Washed, growth-stage cells were stimulated with the
+indicated concentrations of cAMP (22 °C, shaking at 200 rpm, durations
+indicated in legends) in the presence of 10 mM DTT to inhibit phosphodiesterase (19). Where indicated, 5 mM caffeine was added to inhibit
+endogenous cAMP production (20). Aliquots of cells were combined with
+sample buffer (21), mixed, and stored at -20 °C. These samples were
+subjected to SDS-PAGE on 10% or 12% low bispolyacrylamide gels (22),
+transferred to polyvinylene difluoride filters (lmmobilon, Millipore),
+blocked with 3% bovine serum albumin, and immunoblotted using cARl
+C terminus-specific antiserum and chemiluminescence as described
+elsewhere (15). Quantitation of irnmunoblots was performed using a
+digitizing scanner (Logitech) and SigmaScanJimage software (Jande!).
+Induction and Measurement of LLB-Unless indicated otherwise,
+washed, growth-stage cells were stimulated with cAMP as described for
+the induction of the electrophoretic mobility shift. Unless indicated
+otherwise, cells were then diluted 10-fold in ice-cold PB, pelleted by
+centrifugation at 0-4 oc (Sorvall SS34 rotor, 2000 rpm, 3 min), washed
+three times with ice-cold PB, and resuspended at 108 cells/mi. Binding
+of 16 nM [ 3 H]cAMP was then measured in PB by either a sedimentation
+assay (23) or by centrifugation through silicone oil (24) as indicated in
+the figure legends.
+Reversal of LLB and Mobility Shift-In order to synchronize the
+reversal of mobility shifting and LLB for cell samples treated at various
+cAMP concentrations, the initial two PB washes sometimes contained
+cAMP and dithiothreitol, as indicated in the figure legends. Reversal
+time is therefore defined as beginning with the initiation of the third
+wash, which was always with PB alone. By this convention, the 20 min
+time point illustrated in the figures occurs immediately after completion of the fourth wash and resuspension of the cells.
+
+RESULTS
+
+Phosphorylation of the Central Three Serines of Cluster 1
+Causes the Electrophoretic Mobility Shift-We have previou sly
+demonstrated that agonist-induced phosphorylation of cARl
+within the five serin es of cluster 1 (Ser 299 , Ser302 , Ser 303 ,
+Ser304 , and Ser308 ) causes a discrete shift to a lower electrophoretic mobility form (15). This is illustrated in Fig. 1 by the
+
+--- ----
+
+mutl4 mutl5 mutl6 mutl7 mutl8 mutl9
+
+A
+
+A
+A
+A
+
+cml
+
+308
+
+A
+
+G
+
+- -·
+wt
+
+cAMP:
+
+- +
+
+- +
+
+- +
+
+- +
+
+- +
+
+- +
+
+FIG. 1. Electrophoretic mobility shift of cARl serine cluster 1
+mutants. Cells expressing wild-type (wt) or mutant eARls were incubated without (-)or with (+)cAMP as indicated (15 min, 22 °C, shaken
+at 200 rpm). Caffeine (5 mM) and DTT (10 mM ) were added to inhibit
+cAMP synthesis and degradation, respectively. Samples of whole cells
+stimulated with 1 MM cAMP (wt, cml, and mut2) or CHAPS-extracted
+cells (15) stimulated with 10 MM cAMP (all others shown) were analyzed
+by SDS-PAGE on 12% low bisacrylamide gels and immunoblotting with
+anti-cARl antiserum.
+inability of mutant cml, which lacks these five serines, to
+undergo the transition in mobility. To identify the specific
+serine residues required, we selectively substituted the serines
+of cluster 1 as indicated in Table I. As shown in Fig. 1, when the
+flanking residues (Ser299 and Ser308 ) were both substituted
+(mut2), the ability of the receptor to exhibit the mobility shift
+was unaffected. In contrast, substitution of the central three
+serine residues (Ser 302 , Ser303 , and Ser304 ) in mut4, eliminated
+the shift. The failure of cml or mut4 to shift is not related to
+levels of expression (Fig. 1) or due to impaired binding (data not
+shown). These results indicate that one or more of the central
+three serines, but not the flanking serines, mediate the electrophoretic mobility shift.
+We then mutated the central three serines in various combinations. We found that each could be mutated individually
+without impairing the electrophoretic mobility shift (Fig. 1,
+mut14, mut15, and mut16). Thus, none of these serines is
+essential for this property. The mobility shift was markedly
+impaired when both Ser303 and Ser304 were mutated (Fig. 1,
+mut18). Furthermore, the preservation of either Ser303 or
+Ser304 by itself (Fig. 1, mut17 and mut19) resulted in receptors
+which shifted like wild-type cARl. These results suggest that
+either Ser 303 or Ser304 can be phosphorylated and cause the
+shift. The small fraction of shifted receptor in the cAMP-stimulated mut18 sample suggests that Ser302 can also mediate the
+shift but with lower efficiency than either Ser303 or Ser304 .
+Occasionally, wild-type and mutant receptors having intermediate electrophoretic mobilities upon cAMP-stimulation are observed (e.g. mut2 and mut17 in Fig. 1). These possibly represent underphosphorylated forms.
+
+cAMP-induced LLB of Mutants and Its Relationship to the
+Electrophoretic Shift-We next assessed the abilities of these
+clu ster 1 mutants to undergo LLB in order to further evaluate
+t h e relationship between this property and receptor phosphorylation. As shown in Fig. 2, mutants which did not undergo
+the electrophoretic mobility shift (e.g. cml and mut4) were also
+impaired in LLB. However, among the mutants which displayed the electrophoretic mobility shift, a spectrum of LLB
+behaviors was observed, ranging from those with normal LLB
+(e.g. mut16) to those with dramatically impaired LLB (e.g.
+mut15 and mut17).
+Wild-type cARl phosphorylation and the resulting mobility
+shift are readily reversible at 22 °C but very slowly reversible
+at 4 °C (11, 25). Since measurement of LLB requires prior
+removal of the cAMP stimulus by repeated washing, it was
+conceivable that instability of the shifted forms of mutants
+
+8669
+
+Correlated Loss of Binding and cAMP Receptor Phosphorylation
+
+100~---------------------------------------------------------.
+
+FIG. 2. Loss of ligand binding by
+cARl mutants. Cells expressing wildtype (wt) or mutant eARls were incubated
+without or with cAMP (10- 5 M, 15 min ),
+washed, resuspended to 108 /ml, and analyzed for LLB by the sedimentation assay
+described under "Materials and Meth<'ds." Plotted for each cell line is the percentage of binding exhibited by untreated
+cells which is lost upon cAMP pretreatment. Values represent the means :!:
+range of triplicate determinations from
+two independent experiments. mut2 was
+analyzed in only one experiment.
+
++en
+
+_g
+0)
+
+c
+
+'5
+~
+
+50
+
++-
+
+c
+
+(])
+
+~
+
+(])
+
+a...
+
+0
+
+wt
+
+cAMP:
+Time (min) after
+cAMP removal:
+
+em!
+
+mut
+1
+
+mut
+
+mut
+
+2
+
+4
+
+mut
+14
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
+0
+
+20
+
+~
+
+120
+
+0
+
+20
+
+wild-type
+
+mutl
+
+mutl4
+
+mut19
+
+mutlS
+
+A62
+
+mutl6
+
+A 53
+
+such as mut15 explained the apparent incongruity of their LLB
+and shifting properties. To examine this possibility, the shifted
+forms of selected mutants were assessed at various times at
+4 oc following cAMP removal, including the time at which we
+routinely measure LLB. As shown in Fig. 3, the reversal of the
+mobility shift for wild-type cARl is extremely slow at 0 °C.
+Nearly all of the receptor remained shifted 120 min after cAMP
+removal. Quantitation and extrapolation (not shown) of these
+data indicated that the half-time for reversal exceeds 5 h. In
+contrast, some of the cluster 1 mutants exhibit an increased
+rate of conversion of the shifted to the unshifted form. Mutation
+of Ser303 (mut15) dramatically reduced the stability of the
+shifted form (t 112 < 20 min). Mutation of either Ser299 (mutl) or
+Ser302 (mut14) had a moderate destabilizing effect (t 112 = 60120 min). Surprisingly, mutation of Ser304 (mut16), one of the
+two serines able to mediate the shift, h ad no apparent effect on
+stability. Mutants substituted at two cluster 1 serines exhibited stabilities consistent with those observed for single-serine
+substitutions. Those lacking Ser303 (mut17 and mut18) were
+predictably unstable (t 112 < 20 min, data not shown). The
+intermediate stability of mut19 (t 112 = 20 min) can be attributed to mutation of Ser302 .
+In light of the instabilities of the shifted forms of cluster 1
+mutants, we revised our strategy and compared the extent of
+LLB with the residual mobility shift of each mutant at the time
+of the LLB measurement. As demonstrated in Fig. 4, this
+analysis now revealed a significant correlation between the
+extent ofLLB and the fraction of receptors in the shifted state,
+suggesting an interrelationship of these two properties.
+
+~
+
+120
+
+mut
+15
+
+mut
+16
+
+mut
+17
+
+mut
+18
+
+mut
+19
+
+FIG. 3. Stability of the electrophoretic mobility shift of cARl mutants. Cells expressing wild-type or mutant eARls were incubated with cAMP
+(10- 5 M, 15 min) washed four times with
+ice-cold PB, resuspended to 5 x 107/ml,
+and incubated on ice for the indicated
+times. Aliquots of cells were transferred
+to sample buffer before the addition of
+cAMP (- ), following the 15 min stimulation and at 20, 60, and 120 min after the
+initiation of the third PB wash. (See "Materials and Methods" for explanation of
+time scale.) Cluster 1 mutants are defined
+in Table I. A62 and A53 are third intracellular loop mutants (16). The data
+shown are representative of at least two
+independent experiments.
+
+These observations prompted us to re-examine the mobility
+shift of cARl third intracellular loop mutants which we had
+previously found to be impaired in LLB (16). As with the cluster
+1 mutants, we found that the lower mobility forms of some of
+these mutants were less stable than that of wild-type cARl (e.g.
+A53 and A62, Fig. 3). Inclusion of data from these mutants in
+Fig. 4 further strengthened the correlation between LLB and
+the electrophoretic shift.
+cAMP Concentration-dependent Stabilization of the Shifted
+Form of Wild-type cARl-To further evaluate this correlation
+and establish its relevance to the wild-type receptor, we performed a detailed analysis of the stability of the mobility shift
+in wild-type cARl and its relationship to LLB. We first sought
+to assess whether the stabilization ofthe lower mobility form of
+wild-type cARl depended on cAMP concentration. We therefore
+treated cells expressing wild-type cARl with either 10- 7 M or
+10- 5 M cAMP, removed the cAMP, and monitored the stability
+of the lower mobility receptor form. As illustrated in Fig. 5A,
+each concentration elicited a complete conversion from unshifted to shifted forms . Upon removal of cAMP and incubation
+at 4 °C, however, the stabilities of the shifted forms differed
+markedly. While receptors treated with the higher cAMP concentration remained completely shifted for at least 2 h, those
+treated at the lower concentration exhibited a time-dependent
+decay to the higher mobility form (t 112 = 60 min). Thus, as we
+found for the mutants, electrophoretically shifted wild-type
+receptors can exhibit markedly different stabilities. Their relative stabilities depend upon the cAMP concentration with
+which they were stimulated.
+
+8670
+
+Correlated Loss of Binding and cAMP R ecep tor Phosphorylation
+100
+
+E
+
+• wt
+
+0
+
+AtfJ
+
+u..
+
+~
+
+ASO
+
+:0
+0
+
+(jj
+
+3
+0
+
+A22
+
+e mut14
+OA62
+
+~
+
+-'
+
+mut16
+
+e mutl
+A530
+
+50
+
+-~
+
+A420
+
+c
+
+e mut19
+
+A3
+
+Q)
+
+~
+
+Q)
+
+0.
+
+mullS
+e mut18
+
+~m_u_t~17__-+__,___+-~---+--~
+0 +---r--+--•
+0
+
+100
+
+50
+Percent Contro l Binding Lost
+
+FIG. 4. Correlation between cAMP-induced loss of ligand binding and electrophoretic mobility shift in cARl mutants. The
+percentage loss of cAMP binding exhibited by wild-type cARl (wt , filled
+square), cluster 1 mutants (filled circles) and third intracellular loop
+mutants (open circles) immediately following pretreatment with cAMP
+(lo -s M, 15 min) and four washes with ice-cold PB (20-min time point in
+Fig. 3) is plotted against the percentage of receptor in the lower mobility
+form, determined under the same conditions. LLB data for wild-type
+cARl and cluster 1 mutants is taken from Fig. 3 and that for the third
+intracellular loop mutants is from Caterina et al. (16). Mobility shift
+data was obtained by scanning the 20-min time point from autoradiographs generated as in Fig. 3 and represents the mean determination
+from two independent experiments. LLB and mobility shift for a given
+mutant were usua lly assayed in separate experiments but at the same
+time after cAMP removaL Comparison of data points with the illustrated correlation line (g enerated by linear regression) yields r 2 = 0.81,
+"'< 0.001. Separate analyses ofthe third loop mutants (r 2 = 0.78,"' <
+0.01) and cluster 1 mutants (r 2 = 0.81, "' < 0.01) reflected similarly
+strong correlations (not depicted).
+
+To evalu ate the kinetics of the stabilization, we completely
+converted receptors to the mobility-shifted form with 10- 7 M
+cAMP and then exposed the cells for various times to 10- 5 M
+cAMP (Fig. 5B). As before, receptors exposed to only the lower
+cAMP concentration exhibited an unstable mobility shift.
+Those exposed to the higher concentration acquired stability
+with a t 112 of approximately 4 min.
+Correlation between Shifting and LLB of the Wild-type
+cARl-Previously reported EC 50 values for the cARl mobility
+shift are up to 10-fold lower than those for LLB (11, 13, 25 , 32).
+To assess whether this apparent disparity could be explained
+by instability of shifted receptors, we undertook a detailed
+analysis of the cAMP concentration dependence of cARl mobility shifting prior to and at times following cAMP removaL As
+shown in Fig. 6A, the concentration of cAMP required to convert half of the cARl molecules to the shifted form, or EC 50 , is
+7 nM. Due to instability at low cAMP concentrations, the apparent EC 50 values observed 20 and 150 min after cAMP removal and incubation at 4 °C are 30 and 140 nM, respectively.
+We also assessed the concentration-dependence of LLB at the
+20- and 150-min time points. The EC 50 values for LLB increased with time and closely paralleled those of the mobility
+shift (Fig. 6B ).
+Lastly, we examined the relationship between the electrophoretic mobility shift and LLB of wild-type cARl, by evaluating the kinetics of both processes. As shown in Fig. 7, the
+kinetics of the electrophoretic mobility shift and LLB, induced
+by 10- 5 M cAMP and assessed immediately after cAMP removal, were nearly identical. These findings, taken together
+with the results of the concentration-dependence experiments,
+extend the correlation observed between LLB and phosphorylation in cARl mutants to the wild-type receptor.
+DISCUSSION
+
+We have previously shown that agonist binding induces the
+addition of 3 or 4 mol of phosphate per mol of cARl to serine
+residues of the C-terminal cytoplasmic domain. Phosphoryla-
+
+A
+
+•
+
+F
+cAMP (M):
+
+0
+
+10-7 10-5 0
+
+10-7 10-5 0
+
+0
+
+20
+
+Time after cAMP
+removal (min):
+
+120
+
+60
+
+B
+ur
+
+5M
+Time at
+cAMP (mln):
+Time after cAMP
+removal (min):
+
+No
+
+cAMP
+
+0
+
+2.5
+0
+
+5
+
+10
+
+15
+
+0
+
+2.5
+
+5
+
+10
+
+15
+
+170
+
+FIG. 5. Concen t r ation-dependent stability of the m obility s hifted for m of wild-type cARl. A , cells expressing wild-type cARl were
+incubated without (0 M) or with 10- 7 Mor 10- s McAMP (15 min, 22 °C), washed twice with ice-cold PB containing 10 mM DTT (for the unstimulated
+sample) or ice-cold PB containing 10- 7 M cAMP and 10 mM DTT, then twice with ice-cold PB alone, resuspended to 5 x 107 /ml , and incubated on
+ice. Cells were combined with sample buffer at the indicated times after the initiation of the third wash and analyzed by SDS-PAGE on 10% low
+bisacrylamide gels and immunoblotting with cARl-specific antiserum as described under "Materials and Methods." B , time-dependent stabilization
+of the lower mobility receptor form . Cells expressing wild-type cARl were incubated with 10- 7 M cAMP (15 min, 22 °C) after which the cAMP
+concentration was adjusted to 10- 5 McAMP for the indicated period of time. (0 indicates no further cAMP addition. ) Cells were then washed twice
+with ice-cold PB containing cAMP (10- 7 M) and 10 mM DTT, then twice with ice-cold PB alone, resuspended to 5 X 107 /ml , and incubated on ice
+
+8671
+
+Correlated Loss of Binding and cAMP Receptor Phosphorylation
+100
+
+100
+
+E
+:::::1
+E
+
+·x
+0
+~
+
+50
+
++-
+
+E
+E
+·x
+
+Q)
+
+0
+......
+
+:::::1
+
+0
+~
+
++-
+
+c
+
+Q)
+
+so
+
+c
+
+Q)
+
+a..
+
+0
+
+0
+
+0
+
+100
+
+0
+......
+
+5
+
+10
+
+15
+
+30
+
+Time (min)
+
+Q)
+
+a..
+
+FIG. 7. Kinetics of wild-type cARl mobility shift and LLB. Kinetics of LLB (open circles) and the mobility shift (filled circles).
+Washed, transformed cells expressing wild-type cARl were incubated
+without or with cAMP (10- 5 M, 15 min) washed four times with PB, and
+resuspended to 108 /ml. The percentage of receptor in the lower mobility
+form and the percentage of control binding lost upon cAMP pretreatment were simultaneously determined as in Fig. 6. To allow a direct
+comparison of kinetics, data were normalized to those values obtained
+for cells exposed to a 15 min cAMP stimulus (81% LLB, 92% mobility
+shift). Data shown represent the means :±: range from two experiments
+performed in triplicate. The LLB data from these experiments have
+previously been reported elsewhere (32).
+
+50
+
+0
+
+[cAMP] (log M)
+FIG. 6. Concentration-dependence of wild-type cARl mobility
+shift and LLB. A, cells expressing wild-type cARl were treated 15 min
+with a range of cAMP concentrations (0 to 10- 4 M) in the presence of
+caffeine and DTT. Cells treated at concentrations below 10- 7 M were
+washed twice with ice-cold PB containing DTT and the same concentration of cAMP. Cells treated with 10- 7 M cAMP and above were
+washed twice with ice-cold PB containing 10- 7 M cAMP and DTT. All
+cells were then washed twice with ice-cold PB alone, resuspended to
+108 /ml, and incubated at 4 °C with shaking (200 rpm) for an additional
+130 min. Cells were combined with sample buffer immediately after the
+incubation with cAMP (filled triangles) and at 20 min (open circles) or
+150 min (filled circles) after the initiation of the third wash. Samples
+were subjected to SDS-PAGE on 10% low bisacrylamide gels, immunoblotted with cARl-specific antiserum, and the fraction of receptor in the
+lower mobility form determined as described under "Materials and
+Methods." These values were then normalized to the percentage of
+shifting observed at 20 min in cells treated with 10- 4 M cAMP (90%).
+Data shown represent the mean :±: range of two independent experiments. B, binding to 10 nM [3 H]cAMP was assessed for the cells described in Panel A, 20 min (open squares) or 150 min (filled squares)
+after the initiation of the third wash. Binding, measured by the silicone
+oil method, was normalized to that of untreated cells. In order to allow
+a comparison between LLB and the mobility shift (dashed lines, reproduced from Panel A), binding data were expressed as a percentage of
+LLB observed at the 20 min time point in cells treated with 10- 4 M
+cAMP (86%). Data shown represent the mean :±: range from two independent experiments performed in triplicate. The 20 min LLB data for
+these two experiments have previously been presented elsewhere (32).
+
+tion within cluster 1, which includes Ser299 , Ser302 , Ser303 ,
+Ser304 , and Ser308 , accounts for two-thirds of the total and
+causes a marked decrease in cARl's electrophoretic mobility
+(15). In this report, we show that the lower electrophoretic
+mobility form can result from the phosphorylation of either
+Ser303 or Ser304 • Presumably, one or both of these two serine
+residues are targets of phosphorylation in the wild-type
+receptor.
+We have also previously demonstrated that agonist-induced
+
+LLB is largely due to a reduction in the binding affinity of cARl
+for cAMP. While under some circumstances receptor internalization can result from cAMP treatment, this process need not
+occur for LLB to be observed. Furthermore, like the electrophoretic mobility shift, LLB is markedly impaired in mutant
+receptors lacking all five serines of cluster 1 (32). Some of the
+substitutions of individual cluster 1 serines, described in the
+present report, initially appeared to break this correlation between LLB and the mobility shift. For example, substitution of
+Ser303 yielded a mutant, mutl5, which exhibited the electrophoretic mobility shift but virtually no LLB. Careful examination, however, revealed that the lower mobility form of this
+mutant is abnormally unstable. When cells were washed free of
+ligand and incubated on ice, this receptor returned to the
+higher mobility form with a half-life of several minutes or less
+compared with hours for the wild-type receptor. Consequently,
+this and other similar mutant receptors are found predominantly in the higher mobility form at the time of LLB assay.
+The discovery of this instability prompted us to re-examine
+receptors with mutations in the third cytoplasmic loop that
+exhibit impaired LLB (16). Some of these mutants also displayed unstable mobility-shifted forms (e.g. A53). When these
+instabilities are taken into account, the extent of LLB is significantly correlated with the fraction of receptors in the lower
+mobility form at the time of LLB assay for all mutants examined. Dose-dependence and kinetics studies, presented in this
+report, revealed a similar correlation for the wild-type receptor.
+This correlation implies that the phosphorylation-dependent
+electrophoretic shift and LLB are sequential processes. Phosphorylation might occur first and induce a low affinity conformation either allosterically or by promoting the binding of a
+protein such as an arrestin homolog. Alternatively, LLB might
+represent the adoption of a low affinity receptor conformation
+that is necessary but not sufficient for subsequent phosphorylation. This possibility is supported by the observation that
+
+for 170 min. Cells were combined with sample buffer prior to the addition of cAMP (no cAMP), just prior to washing (0 min) or at 170 min after
+the initiation of the third wash. Data shown are representative of two independent experiments.
+
+8672
+
+Correlated Loss of Binding and cAMP Receptor Phosphorylation
+
+(RP)-cAMPS induces LLB without causing the electrophoretic
+shift (26). Still, the LLB induced by (RP)-cAMPS is unstable
+(reversing within minutes at 4 °C), 2 suggesting that phosphorylation might stabilize the low affinity state. Interestingly, the
+G protein-coupled receptor kinase GRK2 has been shown to
+facilitate the sequestration of mammalian m2 muscarinic receptors (3), suggesting that similar relationships between receptor phosphorylation and agonist binding alterations may
+exist in other systems.
+We identified a variety of factors which affect the stability of
+the electrophoretically shifted form of the receptor. These include the dose and time of cAMP pretreatment as well as
+mutations within serine cluster 1 and the receptor's third cytoplasmic loop. For the wild-type receptor, low cAMP concentrations (~10- 7 M) induce the electrophoretic mobility shift. As
+described above, phosphorylation of either Ser303 or Ser304
+could be sufficient to produce the shift. Upon cAMP removal,
+however, receptors phosphorylated under these conditions are
+rapidly dephosphorylated and return to the unshifted state
+with a t 112 of ~20 min at 4 °C. Saturating cAMP concentrations
+(> 10- 6 M), in addition to causing the shift, trigger a process
+which dramatically increases the stability of the shifted form
+(t 112 of several hours at 4 °C). Assuming that the involved
+kinase ceases to phosphorylate the receptor after cAMP is
+removed, this stabilizing process must reflect either inactivation of the involved phosphatase or a change in the shifted
+receptor which impedes its dephosphorylation. We suspect the
+latter possibility is the case and that stabilization of shifted
+receptors might be the consequence of further phosphorylation
+of the receptor, beyond that required to cause the shift. Consistent with this possibility, 32 P-labeling experiments have
+shown that the specific radioactivity of shifted receptors increases ~2-fold during a response to saturating cAMP (11).
+Furthermore, we have previously shown that cAMP occupancy
+triggers the addition of up to 2 or 3 phosphates to cluster 1
+serines ( 15).
+The cARl mutations described in this report that impair
+stability of the shifted form might do so by diminishing the
+extent of receptor phosphorylation. For instance, mutations
+within cluster 1 might directly eliminate phosphorylation sites
+or, alternatively, might diminish phosphorylation or enhance
+the dephosphorylation of other cluster 1 residues. How mutations
+in the putative third intracellular loop might influence phosphorylation of serine cluster 1 is more puzzling. Perhaps juxtaposition of these two regions in the native receptor permits these
+mutations to affect the accessibility of cluster 1 to the kinase or
+phosphatase. Alternatively, mutations in the third loop could
+reduce the extent of receptor phosphorylation if, like ,8-adrenergic receptor kinase and rhodopsin kinase, the kinase responsible
+for cARl phosphorylation is activated by interaction with the
+receptor's intracellular loop domains (27-29).
+It has been proposed that ,82 -adrenergic receptors must be
+internalized in order to be dephosphorylated (7, 30). This appears not to be the case for cARl since we observed dephosphorylation at 4 oc, a temperature which should preclude vesicular
+traffic. Furthermore, under the conditions of our experiments,
+2
+
+P. J. M. Van Haastert, personal communication.
+
+prior internalization is unlikely as nearly all cARl molecules
+remain on the cell surface following cAMP treatment (32).
+Our findings suggest that an important role of phosphorylation might be to bring about (or maintain) a low affinity state of
+cARl, possibly serving to broaden the sensitive range of cells to
+micromolar cAMP concentrations. Such high concentrations
+are transiently produced by aggregating cells and are thought
+to persist in multicellular structures (reviewed in Ref. 31). It is
+also tempting to speculate that loss of ligand binding reflects
+the interaction of cARl to another protein, perhaps one involved in the desensitization of G protein-mediated signaling.
+Whatever their functions might be, the concentration-dependent stabilization of cARl phosphorylation and LLB, described
+here, is likely to be most relevant to the multicellular stage.
+Experiments directed at distinguishing these possibilities are
+in progress.
+Acknowledgment-We are grateful to Dr. Peter J. M. Van Haastert
+for valuable discussions.
+REFERENCES
+1. Hausdorff, W. P., Caron, M. G., and Lefkowitz, R. J. (1990) FASEB J. 4,
+2881-2889
+2. Benya, R. V., Fathi, Z., Battey, J. F., and Jensen, R. T. (1993) J. Biol. Chem.
+268, 20285-20290
+3. Tsuga, H., Kameyama, K., Haga, T., Kurose, H., and Nagao, T. (1994) J. Biol.
+Chem. 269, 32522-32527
+4. Lameh, J., Philip, M., Sharma, Y. K., Mora, 0., Ramachandran, J., and Sadee,
+W. (1992) J. Biol. Chem. 267, 13406-13412
+5. Mora, 0., Lameh, J., Hogger, P., and Sadee, W. (1993) J. Biol. Chem. 268,
+22273-222762
+6. Lohse, M. J., Benovic, J. L., Caron, M. G., and Lefkowitz, R. J. (1990) J. Biol.
+Chem. 265, 3202-3209
+7. Yu, S. S., Lefkowitz, R. J., and Hausdorff, W. P. (1993) J. Biol. Chem. 268,
+337-341
+8. Devreotes, P., Fontana, D., Klein, P., Scherring, J., and Theibert, A. (1987)
+Methods Cell Biol. 28, 299-331
+9. Klein, P. 8., Sun, T. J., Saxe, C. L., III, Kimmel, A. R., Johnson, R. L., and
+Devreotes, P. N. (1988) Science 241, 1467-1472
+10. Juliani, M. H., and Klein, C. (1981) J. Biol. Chem. 256, 613-619
+11. Vaughan, R. A., and Devreotes, P. N. (1988) J. Biol. Chem. 263, 14538-14543
+12. Klein, C., and Juliani, M. H. (1977) Cell 10, 329-335
+13. Van Haastert, P. J. M. (1987) J. Biol. Chem. 262, 7700-7704
+14. Wang, M., Van Haastert, P. J. M., Devreotes, P. N., and Schaap, P. (1988)
+Dev. Biol. 128, 72-77
+15. Hereld, D., Vaughan, R., Kim, J. Y., Borleis, J., and Devreotes, P. (1994)
+J. Biol. Chem. 269, 7036-7044
+16. Caterina, M. J., Milne, J. L., and Devreotes, P. N. (1994) J. Biol. Chem. 269,
+1523-1532
+17. Dynes, J. L., and Firtel, R. A. (1989) Proc. Natl. Acad. Sci. U.S. A. 86,
+7966-7970
+18. Watts, D., and Ashworth, J. (1970) Biochem. J. 119, 171-174
+19. Brenner, M., and Thomas, S. (1984) Dev. Biol. 101, 136-146
+20. Henderson, E. (1975) J. Biol. Chem. 250, 4730-4735
+21. Laemmli, U. K. (1970) Nature 227, 680-685
+22. Klein P., Theibert, A., Fontana, D., and Devreotes, P. N. (1985) J. Biol. Chem.
+260, 1757-1764
+23. Van Haastert, P. J. M. (1985) Biochim. Biophys. Acta 845, 254-260
+24. Van Haastert, P. J. M. (1984) Biochem. Biophys. Res. Commun. 124, 597-604
+25. Devreotes, P. N., and Sherring, J. A. (1985) J. Biol. Chem. 260, 6378-6384
+26. Van Haastert, P. J. M., Wang, M., Bominaar, A. A., Devreotes, P. N., and
+Schaap, P. (1992) Mol. Biol. Cell 3, 603-612
+27. Palczewski, K., Buczylko, J., Kaplan, M. W., Polans, A. S., and Crabb, J. W.
+(1991) J. Biol. Chem. 266, 12949-12955
+28. Chen, C.-Y., Dian, S. B., Kim, C. M., and Benovic, J. L. (1993) J. Biol. Chem.
+268,7825-7831
+29. Benovic, J. L., Onorato, J., Lohse, M. J., Dahlman, H. G., Staniszewski, C.,
+Caron, M.G., and Lefkowitz, R. J. (1990)Br. J. Clin. Pharmacal. 30, 3S-12S
+30. Barak, L. 8., Tiberi, M., Freedman, N.J., Kwatra, M. M., Lefkowitz, R. J., and
+Caron, M. G. (1994) J. Biol. Chem. 269, 2790-2795
+31. Devreotes, P. N. (1989) Trends Genet. 5, 242-245
+32. Caterina, M. J., Hereld, D., and Devreotes, P. N. (1995) J. Biol. Chem. 270,
+4418-4423
+
+

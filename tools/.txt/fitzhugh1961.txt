@@ -1,0 +1,1092 @@
+IMPULSES AND PHYSIOLOGICAL STATES IN
+THEORETICAL MODELS OF NERVE MEMBRANE
+RICHARD FITZHUGH
+
+From the National Institutes of Health, Bethesda
+
+ABSTRACT Van der Pol's equation for a relaxation oscillator is generalized by
+the addition of terms to produce a pair of non-linear differential equations with
+either a stable singular point or a limit cycle. The resulting "BVP model" has two
+variables of state, representing excitability and refractoriness, and qualitatively
+resembles Bonhoeffer's theoretical model for the iron wire model of nerve. This
+BVP model serves as a simple representative of a class of excitable-oscillatory
+systems including the Hodgkin-Huxley (HH) model of the squid giant axon.
+The BVP phase plane can be divided into regions corresponding to the physiological states of nerve fiber (resting, active, refractory, enhanced, depressed,
+etc.) to form a "physiological state diagram," with the help of which many
+physiological phenomena can be summarized. A properly chosen projection from
+the 4-dimensional HH phase space onto a plane produces a similar diagram
+which shows the underlying relationship between the two models. Impulse trains
+occur in the BVP and HH models for a range of constant applied currents which
+make the singular point representing the resting state unstable.
+INTRODUCTION
+
+This paper continues the analysis of the Hodgkin-Huxley (1952) equations for the
+nerve membrane that was begun in a previous paper (FitzHugh, 1960). In that
+paper, which will be referred to here as "T&P," an explanation was given of the
+occurrence of thresholds and plateaus. Use was made of phase space methods (nonlinear mechanics) and of reduced systems of equations, in which one or more of the
+Hodgkin-Huxley (HH) variables of state (V,m,h,n,) are held constant in order to
+isolate the behavior of the remaining variables.
+This approach is, however, not so informative in explaining how trains of impulses occur in the HH equations, where interactions between all four variables are
+essential. Two other approaches to this problem, also based on phase space methods,
+are more useful. The one to be described in the present paper considers the HH
+model as one member of a large class of non-linear systems showing excitable and
+oscillatory behavior. The phase plane model used by Bonhoeffer (1941, 1948,
+1953) and Bonhoeffer and Langhammer (1948) to explain the behavior of passi445
+
+vated iron wires is another member of this class. Still another member, better
+suited to exposition, can be obtained by generalizing the equations of van der Pol
+(1926) for the relaxation oscillator. This model, analyzed in detail below, will be
+called the Bonhoeffer-van der Pol model (BVP for short).
+From the BVP model one can derive a physiological state diagram in terms of
+which not only impulse trains but also many other properties, including those treated
+in T&P, can be presented graphically. Different regions of the diagram correspond
+to different physiological states of a nerve membrane, and many classical results can
+be illustrated and summarized with its help. A similar physiological state diagram
+can also be derived mathematically from the HH model and relates the latter to the
+same class of excitable-oscillatory systems. Thus the BVP model helps in understanding and explaining the HH model.
+The second approach to the study of impulse trains referred to above depends
+on an analysis of the stability of the singular points representing the resting state.
+The Nyquist criterion of stability, widely used in electrical engineering, can be used
+to predict the ranges of clamping conductance for which oscillations or infinite
+trains of impulses occur. This approach will be described in a later paper.
+The equations were solved with an analog computer and all figures were drawn
+using an X-Y plotter. The HH equations, methods of computation, and phase space
+terminology have been described in T&P. As before, more precise statements of
+certain mathematical details are given parenthetically in fine print.
+BVP MODEL-MATHEMATICAL DESCRIPTION
+
+B. van der Pol (1926) proposed a differential equation to describe non-linear
+"relaxation oscillators" (Andronow and Chaikin, 1949; Minorsky, 1947; Lefschetz,
+1957). Its solutions do not, to be sure, give an accurate fit to curves obtained from
+many physical oscillators. The equation was intended rather to represent the qualitative properties of a wide class of such oscillators, its algebraic form being chosen to
+be as simple as possible. The more general BVP model described below is presented
+in the same spirit to represent a wider class of non-linear systems which can show a
+stable state and threshold phenomena as well as stable oscillations. The BVP model
+has only two variables of state instead of the four of the HH model, and its properties can therefore be visualized on a phase plane. It will be shown below, however,
+that the HH equations and other nerve membrane models are also closely related
+to the BVP model, which therefore provides a simplified but central unifying concept for the theoretical study of axon physiology.
+This section describes the BVP model mathematically; the following one, its
+"physiological" properties. The two sections are closely interdependent, and either
+may be clearer after reading the other. Some readers may prefer to go directly to the
+following section and use the present one for reference when necessary.
+446
+
+BIOPHYSICAL JOURNAL VOLUME 1
+
+1961
+
+The following linear differential equation describes an oscillating quantity x with
+damping constant k (the dots represent differentiation with respect to time t):
+x + kx + x = 0
+Van der Pol (1926) replaced the damping constant by a damping coefficient which
+depends quadratically on x:
+x +
+
+c(x2- l)x + x = 0
+
+where c is a positive constant. It is convenient to use Lienard's transformation
+
+(Lienard, 1928; Minorsky, 1947):
+y = X/c + x3/3 - x
+
+and obtain the following pair of differential equations:
+x = c(y + x - x'/3)
+= -x/c
+
+The BVP model is obtained by adding terms to these equations as follows:= c(y + x - x3/3 + z)
+
+where:
+
+(1)
+
+Y = -(x-a + by)/c
+
+1 -2b/3 < a < 1,
+
+0 < b < 1,
+
+(2)
+b < C2
+
+(3)
+
+Both a and b are constants. z is stimulus intensity, a variable corresponding to membrane current I in the HH equations. For the "z-clamp" case, it is specified to be an
+arbitrary function of t, in particular a step, a rectangular pulse, or an "instantaneous"
+pulse (i.e., a constant times a Dirac delta function). The reason for conditions (3)
+will appear in several places below. Fig. 1 shows the (x,y) phase plane with solutions of equations (1) and (2) for z = 0. (The physiological labels in Fig. 1 are
+described later.) The state point or phase point representing the state of the system
+moves spontaneously in this plane along the paths (also called trajectories), which
+are the curves with arrowheads. Only a few representative paths have been drawn,
+but they should be thought of as completely filling the plane, like the stream lines
+of a fluid flow. The broken lines are the x and y nullcines, defined by equations
+(4) and (5 ) below which are obtained by setting x and y respectively equal to zero
+in equations (1) and (2). The y nullcline is a straight line with slope -1/b and
+x-intercept a. The x nulldine is an N-shaped cubic having slope -1 at the origin.
+Its three parts, separated by its maximum and minimum, will be referred to as its
+left, middle, and right branches. Conditions (3) on a and b guarantee that for
+z = 0 the nuliclines will intersect at only one singular point, which is a stable node
+or focus (x = 1.20, y = -0.625 in Fig. 1). This singular point represents the resting state. The special case, a = b = z = 0, corresponds to the original van der Pol
+RICHARD FrrZHUGH Theoretical Membrane Models
+
+447
+
+equation for which phase planes are given in Minorsky (1947) and elsewhere. (See
+also bottom curve, Fig. 2.)
+Like the HH equations, the BVP equations can be more easily understood by
+considering separately the behavior of two subsystems. y is a more slowly changing
+variable than x (except near the y nullcdlne). If y is kept constant at any value
+= 0), instead of being allowed to vary according to equation (2), the correI 2
+
+~~~~~~~~ABSOLUTELY|
+
+\
+
+y
+
+?T
+
+REGENERATIVE%%
+SELF-EXCITATORY
+
+-2
+
+20-I
+
+X
+
+FIGuRE 1 Phase plane and physiological state diagram of BVP model. Broken
+lines, x and y nullclines. Dotted line; locus of initial conditions following instantaneous z shocks at rest, also phase line of (x) reduced system. Labeled zones form
+physiological state diagram. See text for details of all figures. a = 0.7, b = 0.8, c = 3,
+z = 0.
+
+sponding horizontal line in the (x, y) plane may be thought of as a phase line of a
+reduced system with a single variable of state x. The (x) phase line through the
+resting point P (dotted in Fig. 1) has three singular points where it intersects the
+three branches of the x nuilcine. The middle one is unstable and represents a
+threshold phenomenon. The other two are a stable excited point at the left and a
+stable quiescent point (at P) at the right. Displacement of the phase point from P
+to some point to the left of the unstable threshold singular point produces excitation
+in the reduced system, and the phase point approaches the excited singular point.
+But then (considering the complete (x, y) system again) as a result of this negative
+change in x, variable y increases slowly according to (2), causing the phase line to
+move upward until the excited and threshold singular points meet and vanish.
+Then, in the (x) reduced system, the phase point rapidly approaches the only remaining singular point, the quiescent one on the right branch. Finally, y slowly decreases, and the phase point in the plane approaches the resting point P. This de448
+
+BIOPHYSICAL JOURNAL VOLUME 1
+
+1961
+
+scription is similar to that given in T&P for the course of an impulse in the HH
+equations (cf. also Moore, 1959) except that in the latter case the two subsystems
+were each of two dimensions instead of one (Hodgkin and Huxley's V and m together behave like x; h and n, like y.)
+In Fig. 1 the horizontal dotted line through P is also the locus of the points to
+which the resting phase point is displaced by an instantaneous pulse in z. Such a
+pulse does not change y directly. In the (x, y) phase plane, as contrasted to the
+(x) phase line, the threshold phenomenon does not occur at a singular point, but is
+of the "quasi" type (QTP) described by FitzHugh (1955). This type permits all
+intermediates between "all" and "none" responses, put only for extremely accurate
+settings of the stimulus amplitude. In the computer solutions there appears to be one
+path (not in fact uniquely defined), labeled QTP Separatrix, from which neighboring paths diverge sharply to right and left. With the analog computer it is in fact
+impossible to follow this separatrix very far into the large region labeled No Man's
+Land, because a slight inaccuracy in setting the initial value of x, and noise in the
+computer, always make the phase point diverge sharply away from the separatrix
+to the left or right, producing an apparently all-or-none response. (The separatrix
+in Fig. 1 was actually plotted by reversing the direction of time with the computer
+and converting diverging paths to converging ones, a liberty which one unfortunately
+cannot take with a real nerve.) The situation is similar to that shown in Fig. 2 of
+FitzHugh and Antosiewicz (1959) in which intermediate sized action potentials
+were obtained from- the HH equations by extremely accurate setting of stimulus intensity, using a digital computer.
+Excitation occurs whenever the phase point is displaced across the separatrix
+from right to left; abolition (see next section) occurs for displacement from left to
+right. But since the sharp divergence of paths from the separatrix path fades out
+gradually in the upper part of No Man's Land, the threshold phenomenon becomes
+less sharp there.
+So far, this brief analysis of the BVP equations by the method of reduced systems
+has paralleled that of the HH equations given in T&P. However, when z is a strong
+enough negative step to cause repetitive excitations, it is more informative to consider the system as a whole on the (x, y) plane. Excitation appears on this plane as
+a sequence of events which may or may not recur cyclically, depending on whether
+the resting state is stable or unstable. The stability of the resting singular point can
+be either calculated from the equations as follows, or observed empirically with the
+computer.
+
+Stability can be calculated as follows. Setting x and j equal to zero in equations
+(1) and (2), the equations for the x and y nullclines result:
+y = -x + x3/3-z
+(4)
+y = (a- x)/b
+
+(5)
+
+RICHARD FITZHUGH Theoretical Membrane Models
+
+449
+
+The point of intersection of the two nullclines is the singular point P, with the coordinates
+(xl, yi) given by the solution of the simultaneous equations (4) and (5). This can be
+done graphically or by the solution of a cubic equation in x, after eliminating y. The
+conditions (3) on b guarantee that there be only one intersection of the nullclines. Expand the right sides of equations (1) and (2) in Taylor series about the singular point
+P = (xl, yj) denoting x-xl and y-y, by I and v respectively:
+C=c[I + (1 - x12)t + XJt2 + 43/3]
+
+(6)
+
+= -(t + b?l)/c
+The first equation of (6) is non-linear, but if we omit the terms of higher than first degree
+from the right side, we obtain a pair of linear equations which have a singular point at
+the origin (6 = 7 = 0). According to a theorem of Lyapunoff (Minorsky, 1947;
+Lefschetz, 1957) this point has the same stability properties as the singular point in the
+non-linear equations. Form the matrix of the coefficients of the right side of this pair of
+linear equations:
+
+X2)c
+
+c}
+- b/
+t -/c
+M has the following characteristic polynomial equation in a complex variable X:
+M={(l
+
+M -_
+
+I = X2 + [b/c - (1 - x12)c]X + [1 - (1 - x,2)b] = 0
+
+The two roots X of the characteristic equation are the eigenvalues of the matrix M, and
+the general solution of the linearization of (6) is a weighted sum of terms of the form
+[constant times exp(Xt)]. If we omit the borderline case of either root of this equation
+being zero or pure-imaginary, the following three conditions are equivalent: (1) the
+singular point (xl, yi) is stable, (2) the real parts of both roots of the quadratic equation are negative, (3) the pair of conditions (7) and (8) holds:
+
+b/c-(1 -x12)c> 0
+
+(7)
+
+1 -(1 -x,2)b > 0
+
+(8)
+
+1 - X12 < b/C2
+
+(9)
+
+or, equivalently,
+
+1 - XI < llb
+(10)
+Since b and c are positive constants, l/b > 1 by (3), and condition (10) is always
+satisfied. By (3), b/c' < 1; therefore by (9) the singular point is unstable for all xi in an
+interval Ixii < (1 - b/c')'/' and stable for all other values of xl. For large c, the x interval of stability is practically from -1 to +1, which corresponds to the singular
+point lying on the middle branch of the x nullcline. (Fig. 5) Whatever value c has, if
+the singular point lies on either the right or the left branch, the singular point is stable.
+The location of the singular point P and hence its stability depends on z (Equation 4).
+If P is unstable, z must lie in a certain finite interval. P is stable for other values of z. The
+condition (3) on a guarantees that for z = 0, P is stable, so that the resting state is stable.
+Fig. 5 shows solution paths in the (x, y) phase plane for z negative and P on the middle
+branch and unstable. All paths (except P itself, which is a degenerate path) approach a
+closed path or limit cycle as t -> + oo, either from the outside or from the inside. When
+450
+
+BIOPHYSICAL JOURNAL VOLUME 1
+
+1961
+
+x is plotted against t, an infinite train of spikes appears. It has not been possible to get a
+finite train of spikes from the BVP model (see section on impulse trains below).
+BVP PHYSIOLOGICAL STATE DIAGRAM
+
+A physiological state diagram based on the BVP phase plane will now be described. The coordinates x and y are for the moment not to be identified physically
+except to say that x shares the properties of both membrane potential and excitability, while y is responsible for accommodation and refractoriness. Later, x will be
+identified with membrane potential. The parameter z corresponds to stimulating
+dx/dt = c(x.y-x3/3+z)
+|\
+
+~~dy/dt =- I (x-af by)
+
+z=-O
+
+BVP
+a0a.7
+
+21>
+
+z= 0.4
+z\
+
+b|b0.8
+C=3
+
+x
+
+0
+-2
+
+Van der Pol
+C=3
+
+6
+
+260
+
+400
+
+t
+
+FIGURE 2 Single impulses and trains from BVP model and special van der Pol case.
+current and is zero in Fig. 1, except for instantaneous stimulating pulses which set
+the initial condition of x. Different regions of Fig. 1 have been labeled with the
+names of different states of a nerve membrane, using for the most standard physiological terms.
+RicHARD FITZHUGH Theoretical Membrane Models
+
+451
+
+Many classical neurophysiological phenomena can be portrayed graphically with
+this diagram. (A few relevant references to the literature will be given in parentheses
+without further comment.) Let us begin with a brief description of how a single
+impulse in this model arises as a result of an instantaneous shock. (The capitalized
+terms will be explained in more detail later.) The Resting Point P is stable;
+a phase point displaced initially a short distance from P will return toward it spontaneously. If a stimulus consisting of an instantaneous shock is applied to the system,
+the phase point jumps horizontally along the dotted line for a disance Ax proportional to the amplitude of the shock-to the left for a cathodal shock (negative z)
+or to the right for an anodal one (positive z). After a sufficiently large cathodal
+shock, the phase point travels along a path to the left through the Regenerative
+zone, upward through Active, to the right through Absolutely Refractory, downward through Relatively Refractory, and finally back to P. This clockwise
+circuit represents a complete action potential, and if x, now considered as membrane potential, is plotted against time, a curve resembling an action potential
+results (Fig. 2, top). If the shock is too small, no impulse results; instead, the phase
+point returns more directly to P through Enhanced and Depressed (Erlanger and
+Blair, 1931).
+Though this model has a threshold phenomenon for excitation, it is not completely all-or-none. If the shock strength were set accurately enough on the QTP
+Separatrix, and if the computer were errorless, the resulting path would travel
+neither to Active nor directly back to P, but upward into No Man's Land, as explained in the previous section. This last non-physiological term was chosen to
+represent states of a nerve seldom reached in physiological experiments, (except
+for graded responses) namely those intermediate between all and none responses.
+The horizontal distance of a point from the separatrix is proportional to the
+threshold (magnitude of instantaneous z pulse). The Enhanced and Depressed
+Regions are so named because they are respectively horizontally nearer to and
+farther from the separatrix than the resting point and therefore have a smaller or
+larger threshold stimulus than does the resting point. Moreover, since excitation is
+the result of the phase point being displaced horizontally across the threshold
+separatrix, it follows that the system will be Absolutely Refractory when the phase
+point is above the separatrix, where such a crossing is impossible. In the Relatively
+Refractory zone, the phase point lies to the right of the separatrix and can be displaced across it, but the threshold stimulus required is greater than for the resting
+point. The Relatively Refractory and Depressed regions are qualitatively similar in
+this respect, but the former lies farther from the resting point and has a still larger
+threshold value than the latter.
+Oppositely, abolition of an impulse occurs when the phase point is displaced by
+an anodal shock across the separatrix to the right. This can happen if an anodal
+shock is applied during the regenerative or active states (Blair and Erlanger, 1936;
+452
+
+BIOPHYSICAL JOURNAL VOLUME 1
+
+1961
+
+,*h.e-*\WX1ao:.;jlsf|4*.-,'/
+
+Tasaki, 1956). In the Absolutely Refractory region, the later stage of the action
+potential can also be abolished with an anodal shock or partially restored with a
+cathodal one, but without a noticeable threshold phenomenon.
+In all cases described so far, the stimulus has been applied as an instantaneous
+shock which makes the phase point jump horizontally and discontinuously in time.
+The different case of a rectangular step or pulse of stimulating current requires a
+change in the physiological state diagram. Fig. 3 shows paths corresponding to two
+J
+
+s
+
+,,
+
+_.
+
+-
+
+ab;;e
+
+.;.
+
+-.
+
+jr
+
+*
+
+y ;
+
+J
+
+.
+
+w
+
+';
+
+v:
+
+..
+
+e
+
+f
+
+f
+
+;0f
+
+f-<..
+
+Es
+
+:-.
+
+\
+
+...
+
+.}.
+
+.. ]
+
+wi''.--"/
+= ':
+._-r,''
+
+\;
+
+.-II.-
+
+'-l.
+
+---
+
+fls
+
+-c
+
+FIGURE 3 BVP phase plane for negative z steps near rheobase. P as in Fig. 1, P'
+new stable singular point for z = - 0.128.
+
+constant values of cathodal stimulating current, one just below and one just above
+rheobase (z = -0.124 and -0.128). The N-shaped x nulldline is shown for
+z = -0.128; it is raised from its position in Fig. 1 a distance proportional to z. The
+resting state is thus moved upward along the y nullcline to a new singular point P'.
+At the instant that the step cathodal current is applied to the nerve, the phase plane
+changes instantaneously from that of Fig. 1 to that of Fig. 3. The phase point starts
+moving continuously to the left along a new path through P, which is no longer a
+singular point. The separatrix is also moved upward by the negative current. For
+z = -0.124, the new separatrix is just below P and no impulse occurs, but for
+z = -0.128, it is just above P and there is an impulse. Rheobase is defined as the
+value of z just large enough to move the separatrix so that it passes through P.
+Next, consider stimulation by a rectangular (non-instantaneous) cathodal current
+pulse above rheobase and of duration T. During the pulse, the phase point travels
+from point P to the left and slightly upward as it did in Fig. 3 for z = -0.128. At
+RIcHARD FITZHUGH Theoretical Membrane Models
+
+453
+
+the end of the pulse, when z returns discontinuously to zero, the phase plane of
+Fig. 1 is restored. If the phase point at that instant is to the left of the separatrix in
+the z = 0 phase plane, excitation occurs. This case differs from that of an instantaneous current pulse (T -O 0) only in that, at the end of the pulse, y has increased
+somewhat, and a somewhat greater value of ax is needed to carry the phase point to
+the separatrix.
+A constant anodal current (positive z) moves the x nullcline downward (Fig. 4).
+
+Y-
+
+FIGuRE 4 BVP plane for positive rectangular z pulse showing anodal break excitation. P' and broken path are for z = + 0.4; otherwise as in Fig. 1, where z = 0.
+
+This moves the singular point to a new position P' below P. The phase point, starting at P, approaches P' along the broken path. If the current pulse amplitude and
+duration are both great enough, then after the end of the pulse, when z jumps to
+zero and Fig. 1 holds again, the phase point will be below the separatrix, and an
+impulse results. This is the classical phenomenon of anodal break excitation.
+So far, nothing has been sald about recovery during a cathodal current step. In
+Fig. 3, the path representing an impulse makes a clockwise circuit and finally approaches F', which is stable. If the amplitude of the constant cathodal current is
+increased, however, P' becomes unstable and is surrounded by a stable limit cycle
+C, a path in the form of a closed loop which is approached by all paths in its near
+neighborhood (Fig. 5). If the phase point is initially inside C but not at ', it spirals
+outward and approaches C from the inside. If it is initialy outside C, it spirals inward, approaching C from the outside. Thus if a step of cathodal current sufficient
+454
+
+BIOPHYSICAL JOURNAL VOLUME 1
+
+1961
+
+to produce a limit cycle is applied to the resting BVP model, the phase point passes
+from P and approaches the limit cycle C, and an infinite train of impulses results
+(see Fig. 2, middle).
+As a final example, the more complicated phenomenon of "break reexcitation"
+in heart muscle (Cranefield and Hoffman, 1958; Hoffman and Cranefield, 1960)
+also seems to have a reasonable explanation in terms of BVP physiological state
+diagrams. An anodal shock of proper strength applied locally during the plateau of
+:
+
+BVP Eqns.
+o'. b:O.8
+
+;:
+
+0~~~~~~~~~~~~~~~0
+
+C=--.
+X~~~~~~~~~~~~~~~~~~~~~~~~'
+' 1f;t
+'
+rersne by a stbl lii cycle.
+
+0,
+
+Sal Icce C
+
+. t ;; - ; ; ,.~~~~~~~~~~~~~00
+
+certain heart muscles produces abolition of the plateau, but still stronger anodal
+shocks above a certain strength actually initiate a new action potential. A BVP
+plateau action potential can be obtained by increasing c, which decreases the rate
+of change of y relative to that of x. The plateau lasts as long as the phase point
+remains in the active region and ends when the stable excited singular point of the
+(x) reduced system disappears (Fig. 1). An instantaneous anodal shock during
+the plateau displaces the phase point horizontally to the right and causes abolition
+if the point reaches that part of No Man's Land lying to the right of the QTP
+separatrix. The separatrix, if followed backward in Fig. 1, stops at the right edge of
+the diagram. If the diagram were extended further to the right, the separatrix would
+be seen to continue rising. in the phase plane until it eventually crossed that y level
+of the plateau phase point at which the anodal shock is applied. A sufficiently strong
+shock during the plateau therefore displaces the phase point across the separatrix
+RIcHARD FITZHUGH Theoretical Membrane Models
+
+455
+
+twice, so that it reaches a point on the same side of the separatrix as that on which
+it started-the suprathreshold side. The phase point then follows a path which
+remains below the separatrix, enters the regenerative region, and there is another
+impulse.
+It happens that in the BVP model, especially with an increased c, the required
+shock strength for reexcitation is very large, and this made analog computation for
+this case impractical. But the BVP model is only a qualitative rather than a quantitative model of excitable membranes; what is important is that it predicts the
+physiological phenomenon of break reexcitation and shows how it is related to both
+abolition and ordinary anodal break excitation, described above. This phenomenon
+would therefore be expected to result from any new theoretical model of heart
+muscle which belonged to the class of models being discussed. The actual value of
+the shock strength required would of course depend on the equations used; experimentally it is variable and depends on the external Ca+ + concentration as well as on
+the particular heart tissues used. It is also affected by the circulating currents from
+adjacent excited areas.
+HODGKIN-HUXLEY PHYSIOLOGICAL STATE DIAGRAM
+
+The physiological diagram developed for the BVP model has its counterpart in
+the HH model, obtainable by projection from the four-dimensional (V, m, h, n)
+phase space. Like the BVP model, the HH model can be split into two subsystems
+of variables (T&P). The pair (V, m) corresponds to x in that they represent excitability; they change relatively rapidly. Variables (h, n) correspond to y; they represent accommodation and refractoriness and change relatively slowly. Although each
+of the two HH subsystems has two variables instead of one, the interrelations of the
+subsystems are similar in both models. The (V, m) reduced system, for resting h
+and n, has three singular points: a stable resting state, a threshold saddle point, and
+a stable excited point. After excitation h and n change so as to make the stable
+excited state and the threshold point disappear, causing recovery.
+One can eliminate one dimension from each of the planes (V, m) and (h, n)
+by linear projection, while retaining the properties of physiological interest, as follows. Since the curves of n and -h versus t during an action potential have similar
+shapes (FitzHugh, 1960, Fig. 1), n and -h can be replaced by their average
+w = 0.5(n-h) to give a simplified model. Or, from a geometrical viewpoint, the
+path of an action potential, plotted in the (n, h) plane, can be fitted to within 0.1
+by the line h + n = 0.85 (Fig. 6, left). Points of the (n, h) plane can be projected
+perpendicularly onto this line, which is considered as a w axis, by projection along
+lines of constant w, where w = 0.5(n-h). The projection lines are the broken
+straight lines with positive slope in the figure. Similarly, points of the (V, m) plane
+can be projected along lines of constant u, where u = V - 36m, as shown in Fig. 6
+456
+
+BIOPHYSICAL JOURNAL VOLUME 1
+
+1961
+
+(right) - These lines are roughly parallel to the curved threshold separatrix of the
+saddle point in the phase plane of the (V, m) reduced system (T&P, Fig 2). Thus by
+projection all that is suppressed is the initial approach of the near-threshold paths
+to the saddle point: the subsequent divergence of paths (due to the positive characteristic root) which is characteristic of the threshold phenomenon (FitzHugh, 1955)
+is preserved. By combining these two projections, the four-space is projected onto a
+(u, w) plane. Unfortunately, one cannot say that the (u, w) plane is simply a
+
+0)
+<h.n O5.5
+P4#*iZ*
+h~~~~~~~~~~~~~~~~
+I 0 ;0: /
+
+,
+
+.,
+
+~
+
+LO
+
+- ',
+
+1
+
+.1o
+
+I
+
+t-°........ -
+
+FIGURE 6 Diagrams to illustrate how the simplified (u, w) representation is obtained
+from the complete HH model. u = V - 36m, w = 0.5 (n - h). Left; curve is path
+of an action potential in the (n, h) plane. Points of this plane are projected along
+lines of constant w (broken lines with +1 slope) onto line labeled "h + n = 0.85,"
+which serves as a w axis. Right; phase plane of the (V, m) reduced system (Fig. 2 of
+FitzHugh, 1960, modified). Points of the plane are projected along lines of constant
+u (broken lines with positive slope) onto a u axis (not shown).
+
+deformation of the (x, y) phase plane of the BVP model, and therefore that from
+the HH model can be derived a member of the class of two-dimensional excitable
+systems of which the BVP model is a representative. In fact, the (u, w) plane is not
+a phase plane at all. Since each of its points is the projection of a plane in the fourspace, an infinite number of values of u and w will in general exist at that point. It
+may be that a curved-surface projection instead of a planar one could be found such
+as to make u and w unique at each point. Until such is found, however, the planar
+projection is simply a useful expository device, presented in the spirit of applied
+mathematics, for comparing the HH and BVP models.
+The (u, w) plane can be labeled as a physiological state diagram for the HH
+equations (Fig. 7). The qualitative similarity of Figs. 1 and 7 suggests that, with the
+reservation expressed just above, the HH model can be considered as belonging to
+the same general class of excitable-oscillatory systems as the BVP model.
+Figs. 8 to 10 show the effects of various steps and pulses of current; they correspond to Figs. 3 to 5 for the BVP model.
+RICHARD F1TZHUGH Theoretical Membrane Models
+
+457
+
+0.4,
+ABSOLUTELY
+
+~~~~NOMAN'S LAND
+
+S
+;(
+I
+
+ir|
+
+w~~~~~~~~~~~~~
+
+-0.2-
+
+I S;~ ~ \ 4tt\t~I
+SELF-EXCITATORY
+
+-150
+
+O
+
+-50
+
+-100
+
+FiGuRE 7 Physiological state diagram obtained by planar projection from HH phase
+space.u= V -36m,w= (n-h)/2.
+
+0.4
+
+1 =step as labeled
+
+0.2-
+
+~~~~~(,A/cm2)
+
+z t
+
+w
+
+O01
+
+-0.2
+-I50
+
+-2.
+
+-50
+
+-100
+
+3X
+
+0
+
+u
+
+FiGuRE 8 HH (u, w) plane near rheobase. Compare with Fig. 3, BVP model.
+
+458
+
+BIoPHYsIcAL JOURNAL VOLUME 1
+
+1961
+
+0.2 -
+
+w
+0-
+
+r
+
+-150
+
+-50
+
+-100
+
+0
+
+u
+
+FIGURE 9 HH (u, w) plane showing anodal break excitation. Compare with Fig. 4.
+
+0.4a
+.,
+
+Q.-2-::
+,.
+
+O
+
+Z.re*(*c- -150..
+
+50
+
+O..
+
+FIGURE 10 HH (u, w) plane showing infinite train of impulses. Compare with Fig. 5.
+
+RIcHARD FITZHUGH Theoretical Membrane Models
+
+4459
+
+w
+
+To complete the comparison, one can plot (z, x) characteristics for the BVP
+model corresponding to the current-voltage (I, V) characteristics of the HH model
+described in T&P for the reduced and complete HH equations (Fig. 11, left) To
+2
+
+2
+
+x-clamp
+
+BVP
+
+4-
+
+I
+
+IR'
+
+V-clamp
+
+HH
+
+/,m,h,n)
+
+r-
+
+-
+
+l-
+
+0
+
+t (msec)
+
+-4.
+
+FIGURE 11 Above, left; BVP steady-state (z, x) characteristics for (x) reduced
+system and (x, y) complete system. Above, right; BVP (z, t) curve under x-clamp,
+in which x changes stepwise from xl to x2 at t = 0. Below, left; HH (I, V) currentvoltage characteristics for (V, m) reduced system and (V, m, h, n) complete system.
+Below, right; HH (I, t) curve under V-clamp, V changing from V1 (= 0) to V,.
+
+obtain the (z, x) characteristic for the x reduced system, let xl and Yi be the resting
+values, the coordinates of the singular point P when z = 0. The characteristic for the
+(x) reduced system is obtained by setting
+Y = Yi and x = 0. Its equation is
+Z = -Y1 - x + x3/3
+This curve is N-shaped and intersects the x-axis in three places, the three singular
+points of the (x) reduced system. For other values of y than Yi, these points will be
+elsewhere, and there may be only one of them instead of three. The characteristic
+for the complete system is obtained by setting x~= y= 0 and eliminating y:
+z = (x - a)/b - x + x3/3.
+460
+
+BIOPHYSICAL JOURNAL VOLUME 1
+
+1961
+
+This curve intersects the x-axis only at the resting singular point of the complete
+system. These (z, x) curves resemble qualitatively the corresponding theoretical
+(I, V) curves of the HH model (Fig. 11, below left).
+For the case of an x-clamp, in which x is changed stepwise from its resting value
+xl to a different value x2 at t = 0, equations (1) and (2) have the following solution
+(Fig. 1 1, right, above):
+t < 0: X= X1
+
+Y
+
+Yi
+
+Z = Zi =
+
+t _ 0: X = X2
+y = (a-X2)(1 - exp (-bt/c))/b
+Z = (X2 - X1) 8(t)/C - X2 + X23/3 - y
+
+The term containing the Dirac delta function 8(t) is the "capacitive surge" at
+t = 0 (not shown in Fig. 11 ); there is a similar capacitive surge in the HH (I, t)
+solution. (Note that the "capacitance" in the BVP model equals l/c.) The initial
+upward peak to z = ZR (Fig. 11) corresponds to the HH Na peak. Then z falls
+toward its final steady-state value Z2, corresponding to the HH maintained K current.
+Values ZR and Z2 are given on the (z, x) diagram by the intersections of the vertical
+line x = x2 with the characteristics of the (x) reduced system and of the complete
+(x, y) system, respectively. The BVP (z, t) curve, after its initial peak, consists of
+an exponential curve with time constant c/b. The somewhat different shape of the
+(I, t) curve below results in part from the extra variables of the HH model. In
+particular, its rounded peak, lower than I4, results from the variable m; if the
+relaxation time Tm were made zero, a similar sharp peak to IR would result. In the
+BVP model, there is of course no separation of z into different currents. Such a
+separation is among the physical assumptions of the HH model, but is not essential
+for the class of excitable systems which the BVP model represents.
+IMPULSE TRAINS IN THE HODGKIN-HUXLEY
+EQUATIONS
+
+In the HH equations, constant current steps over a wide range of values give
+infinite trains of impulses (Fig. 12) or, in the phase space, stable limit cycles (Fig.
+10). As in the BVP equations, a limit cycle appears when the singular point corresponding to the resting state becomes unstable. Calculations of this stability will
+be given in a separate paper.
+It has been possible to get short trains of a few impulses, but only by adjusting
+I to the limit of accuracy of the analog computer, and even then the number of
+impulses varies from run to run as the computer drifts. A finite train obtained with
+the more accurate digital computer is given by FitzHugh and Antosiewicz (1959).
+Thus in the equations the occurrence of finite trains in response to a current step is
+RIcHARD FITZHUGH Theoretical Membrane Models
+
+461
+
+H-H Eqns.
+
+I=step
+(pA/cm2)
+
+-100
+v
+(mV)]
+
+-~~~~~~~~~~~~5
+
+J~~~~~~~~~~~~~I
+0
+
+-50
+-100
+
+-200
+
+-400
+0
+
+40
+
+20
+
+60
+
+t (msec)
+FIGURE 12 Impulse trains, damped and undamped, from HH equations, for different
+values of current (I) steps beginning at t = 0.
+
+only a borderline phenomenon occurring over a very narrow range of currents,
+between the current region for one impulse and that for infinite trains.
+Experimentally, however, in excised squid giant axons, only short finite trains
+occur, even for current values over a considerable range (Hagiwara and Oomura,
+1958). In Fig. 7 of their paper are shown impulses of one axon in which, as the
+current step amplitude was increased, the number of impulses in the train increased
+from one to four and then decreased back to one. Some axons, however, never gave
+more than a single impulse for any value of current. However, excised squid axons
+in very good condition give longer trains (Tasaki, personal communication), and it
+may be that finite trains are a sign of poor condition.
+This represents, therefore, a major disagreement between the HH equations and
+462
+
+BoPInHYsicAL JOURNAL VOLUME 1 1961
+
+the real axon. It would seem that in the real excised axon there is some accommodation process slower than any in the HH equations. If the equations were augmented
+by the addition of another accommodation variable with a relaxation time of tens
+of milliseconds, then the original equations would still be adequate as a reduced
+system, for times of the order of a couple of milliseconds. If this added variable
+changed as a result of several impulses so as to make the singular point of the
+original equations change from instability to stability, then a finite train would result.
+A slow process of the sort mentioned is reported by Frankenhaeuser and Hodgkin
+(1956). They studied the changes of resting potential and positive after-potential
+as a result of repetitive stimulation. They attribute their results to the accumulation
+of potassium ions in a space outside the excitable membrane. This would be expected to affect both the equilibrium potential VK and possibly the conductance
+coefficient gK for potassium ions. Some analog computation done with Dr. John
+Dalton on the effects of increasing the external concentration of potassium ions
+outside the axon showed that stability is lost when VK is decreased, but restored
+when gK is also increased. If the latter effect of slowly accumulating potassium ions
+were to predominate, then finite trains would be expected instead of infinite ones.
+However, as Frankenhaeuser and Hodgkin state, "further experiments are needed
+in order to place the effect on a fully quantitative basis."
+DISCUSSION
+
+A number of papers have been devoted to attempts to understand the phenomenological properties of excitable tissues, as distinguished from their physicochemical constitution, by means of non-linear models. Van der Pol and van der Mark
+(1928a, 1928b, 1929) built an electrical model of the heart consisting of three neon
+tube relaxation oscillators of progressively decreasing natural frequencies, to represent the sinus, the auricles, and the ventricles. These were interconnected by unidirectional electrical links, and the whole system was driven by the sinus as pacemaker. By interfering with the links various pathological conditions were reproduced.
+These authors also suggested that striated skeletal muscle could be represented by
+a neon tube circuit modified so as not to oscillate spontaneously, but to have a
+stable resting state instead. They called this a "relaxation cable" and it would be qualitatively similar to the present BVP model. (Other somewhat similar experiments
+were carried out by Bethe, 1940-41a, 1940-41b, 1943, 1946.)
+The BVP model is also qualitatively similar to that proposed by Bonhoeffer
+(1941, 1948, 1953) and by Bonhoeffer and Langhammer (1948) to describe the
+Ostwald-Lillie iron wire model of nerve. These authors drew comparable phase
+planes, but specified no equations.
+Just as the van der Pol equation represents qualitatively a wide variety of relaxation oscillators, the BVP model can be taken as a representative of a still wider class
+RIcHARD FITZHUGH Theoretical Membrane Models
+
+463
+
+of non-linear excitable-oscillatory systems which show threshold and refractory
+properties as well as oscillations or infinite trains of responses. These include, in
+addition to those already mentioned, the membrane model of Karreman (1951)
+and Karreman and Landahl (1953), monostable and free running multivibrators
+(Anderson, 1952; Farley, 1952), and porous fixed-charge rigid membranes
+(Teorell, 1958, 1959, 1960).1 These systems have phase planes which qualitatively
+resemble that of the BVP model.
+The BVP model is not intended to be an accurate quantitative model of the axon,
+in the sense of reproducing the shape of experimental curves; it is meant rather to
+exhibit as clearly as possible those basic dynamic interrelationships between the
+variables of state which are responsible for the properties of threshold, refractoriness, and finite and infinite trains of impulses. The algebraic form of the BVP
+equations is not important, and was chosen as the simplest; it could be changed
+without altering the general properties of interest here.
+The BVP and HH models contain a quasithreshold phenomenon (FitzHugh,
+1955), in which all intermediates between all and none responses can be obtained
+by adjusting the stimulus with extreme accuracy. Graded responses of membranes
+which play an important role in neural integration (Bishop, 1956; Bullock, 1959;
+see also Tasaki and Bak, 1958) could arise from equations of the same general
+class, but having a less sharp QTP. Quantitative changes in the equations of the
+excitable-oscillatory class can change a very sharp QTP to something which a physiologist would call simply an "active" response without threshold.
+Finally, a few remarks on the relation of the present results to earlier theoretical
+work on excitability. Weinberg (1942) constructed from experimental data a curve
+of de/dt versus e, where e is Rashevsky's excitatory factor. This resembles the cubic
+relation between x and x as given by the differential equation (1), with y constant,
+for the BVP (x) reduced system.
+Without going into detail, it should be mentioned also that the phase planes for
+linear two-factor theories such as those of Rashevsky (1933, 1948) and Hill (1936)
+resemble somewhat the region of the BVP plane containing the resting point and
+the nearby part of the separatrix, except that in this case the separatrix is defined by
+a discontinuous threshold phenomenon instead of a QTP (FitzHugh, 1955).
+Karreman (1949) considers a generalization of van der Pol's equation which is
+equivalent to equations (1) and (2) with b = z = 0, and shows that it has no
+periodic solution (limit cycle). Then he considers a further generalization which has
+both a stable resting singular point and a stable limit cycle. This is of the sort called
+1 In Teorell's mathematical model, V (rate of water flow) and P (hydrostatic pressure) can be
+taken to correspond respectively to x and y in the BVP model. Membrane current I corresponds
+to z. However, P but not V is controllable as an input variable. Although his current-voltage
+curves resemble those of the HH model, membrane potential (E) plays a somewhat different
+role in his model, since there is no membrane capacitance to delay changes in E.
+
+464
+
+BIOPHYSICAL JOURNAL VOLUME 1
+
+1961
+
+a "hard oscillation" as contrasted to the "soft" oscillations arising in the BVP model
+for negative z.
+The physiological state diagram is intended primarily as a device for representing
+the facts of axon physiology in an organized fashion and of relating nerve membrane models to those of a number of physically quite different systems which, however, behave very similarly. Non-linear mechanics provides a language particularly
+well fitted to describe models of excitable systems, in that it emphasizes qualitative
+properties which they share rather than details of the form of their equations which
+differ from model to model. In the future there should appear new mathematical
+models based on various contemporary concepts of the molecular structure of the
+nerve membrane, and the methods used in T&P and the present paper ought to make
+it easier to predict whether they will have the expected physiological properties
+before actual computation.
+The possibility of representing excitable systems by a generalization of the van der Pol
+equation was suggested to the author by Dr. K. S. Cole.
+Received for publication, March 9, 1961.
+
+REFERENCES
+ANDERSON, A. E., 1952, Transistors in switching circuits, Proc. I.R.E., 40, 1541.
+ANDRONOW, A. A., and CHAHUN, C. E., 1949, Theory of oscillations, Princeton University
+Press.
+BETHE, A., 1940-41a, Die biologischen Rhythmus-Phiinomene als selbststaindige bzw. erzwungene
+Kippvorgainge betrachtet, Arch. ges. Physiol., 244, 1.
+BETHE, A., 1940-41b, Teilrhythmus, Alternans, Amplitude und die Grenzen des Alles-oderNichts-Gesetzes, Arch. ges. Physiol., 244, 43.
+BETHE, A., 1943, Modellversuche zur Theorie der Erregung biologischer Objekte, 31, 276.
+BETHE, A., 1946, Irritabilitiat, Rhythmik und Periodik, Naturwissenschaften, 33, 86.
+BISHOP, G. H., 1956, Natural history of the nerve impulse, Physiol. Rev., 36, 376.
+BLAIR, E. A., and ERLANGER, J., 1936, On the process of excitation by brief shocks in axons,
+Am. J. Physiol., 114, 309.
+BONHOEFFER, K. F., 1941, tber die Aktivierung von passiven Eisen in Salpetersaure, Z. Elektrochem., 47, 147.
+BONHOEFFER, K. F., 1948, Activation of passive iron as a model for the excitation of nerve,
+J. Gen. Physiol., 32, 69.
+BONHOEFFER, K. F., 1953, Modelle der Nervenerregung, Naturwissenschaften, 40, 301.
+BONHOEFFER, K. F., und Langhammer, G., 1948, tber periodische Reaktionen. IV. Theorie
+der kathodischen Polarization von Eisen in Salpetersaiure, Z. Elektrochem., 52, 67.
+BULLOCK, T. H., 1959, Neuron doctrine and electrophysiology, Science, 129, 997.
+CRANEFIELD, P. F., and HOFFMAN, B. F., 1958, Propagated repolarization in heart muscle,
+J. Gen. Physiol., 41, 633.
+ERLANGER, J., and BLAIR, E. A., 1931, The irritability changes in nerve in response to subthreshold induction shocks, and the related phenomena including the relatively refractory
+phase, Am. J. Physiol., 99, 108.
+FARLEY, B. G., 1952, Dynamics of transistor negative-resistance circuits, Proc. I.R.E., 40, 1497.
+FITzHuGH, R., 1955, Mathematical models of threshold phenomena in the nerve membrane,
+Bull. Math. Biophysics, 17, 257.
+RICHARD FITZHUGH Theoretical Membrane Models
+
+465
+
+FITzHuGH, R., 1960, Thresholds and plateaus in the Hodgkin-Huxley nerve equations, J. Gen.
+Physiol., 43, 867.
+FITzHuGH, R., and ANTOsIEwIcz, H. A., 1959, Automatic computation of nerve excitationdetailed corrections and additions, J. Soc. Ind. Appl. Math., 7, 447.
+FRANKENHAEUSER, B., and HoDGKim, A. L., 1956, The after-effects of impulses in the giant
+nerve fibres of Loligo, J. Physiol., 131, 341.
+HAGIWARA, S., and OoMuRA, Y., 1958, The critical depolarization for the spike in the squid
+giant axon, Japan J. Physiol., 8, 234.
+HILL, A. V., 1936, Excitation and accommodation in nerve, Proc. Roy. Soc. London, Series B,
+119, 305.
+HoDGKIN, A. L., and HUXLEY, A. F., 1952, A quantitative description of membrane current
+and its application to conduction and excitation in nerve, J. Physiol., 117, 500.
+HOFFMAN, B. F., and CRANEFELD, P. F., 1960, Electro-physiology of the Heart, New York,
+McGraw-Hill Book Co., Inc., 231.
+KARREMAN, G., 1949, Some types of relaxation oscillations as models of all-or-none phenomena,
+Bull. Math. Biophysics, 11, 311.
+KARREMAN, G., 1951, Contributions to the mathematical biology of excitation with particular
+emphasis on changes in membrane permeability and on threshold phenomena, Bull. Math.
+Biophysics, 13, 189.
+KARREmAN, G., and LANDAHL, H. D., 1953, On spontaneous discharges obtained from a
+physicochemical model of excitation, Bull. Math. Biophysics, 15, 83.
+LEFSCHETZ, S., 1957, Differential equations: Geometric theory, New York, Interscience Publishers, Inc.
+LIENARD, A., 1928, etude des oscillations entretenues, Rev. gin. elec., 23, 901-912, 946-954.
+MINORSKY, N., 1947, Introduction to Non-Linear Mechanics, Ann Arbor, Michigan, J. W.
+Edwards.
+MOORE, J. W., 1959, Excitation of the squid axon membrane in isosmotic potassium chloride,
+Nature, 183, 265.
+RASHEVsKY, N., 1933, Outline of a physico-mathematical theory of excitation and inhibition,
+Protoplasma, 20, 42.
+RAsHEvsKY, N., 1948, Mathematical Biophysics, Chicago, University of Chicago Press, revised
+edition.
+TASAK, I., 1956, Initiation and abolition of the action potential of a single node of Ranvier,
+J. Gen. Physiol., 39, 377.
+TASAKI, I., and BAK, A. F., 1958, Discrete threshold and repetitive responses in the squid axon
+under "voltage-clamp," Am. J. Physiol., 193, 301.
+TEORELL, T., 1958, Transport processes in membranes in relation to the nerve mechanism,
+Exp. Cell Research, suppl. 5, 83.
+TEORELL, T., 1959. Electrokinetic membrane processes in relation to properties of excitable
+tissues. II. Some theoretical considerations, J. Gen. Physiol., 42, 847.
+TEORELL, T., 1960, Application of the voltage clamp to the electrohydraulic nerve analog,
+Acta Soc. Med. Upsal., 65, 231.
+VAN DER POL, B., 1926, On relaxation oscillations, Phil. Mag., 2, 978.
+VAN DER POL, B., and VAN DER MARK, J., 1928a, The heartbeat considered as a relaxation
+oscillator, and an electrical model of the heart, Phil. Mag., 6, suppl., 763.
+VAN DER POL, B., and VAN DER MARK, J., 1928b, Le battement du coeur consid6re' comme
+oscillation de relaxation, Onde Electrique, 365.
+VAN DER POL, B., and VAN DER MARK, J., 1929, The heartbeat considered as a relaxation-oscillation, and an electrical model of the heart, Arch. ne6erl. physiol., 14, 418.
+WEINBERG, A. M., 1942, Non-linear excitation theory: non-accommodative, sub-threshold
+effects, Bull. Math. Biophysics, 4, 33.
+
+466
+
+BIOPHYSICAL JOURNAL VOLUME 1
+
+1961
+
+

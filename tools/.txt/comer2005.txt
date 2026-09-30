@@ -1,0 +1,374 @@
+Current Biology, Vol. 15, 134–139, January 26, 2005, ©2005 Elsevier Ltd All rights reserved.
+
+DOI 10.1016/j .c ub . 20 05 . 01 .0 0 7
+
+The PI3K-Mediated Activation of CRAC
+Independently Regulates Adenylyl Cyclase
+Activation and Chemotaxis
+Frank I. Comer,1,2 Christopher K. Lippincott,1
+Joseph J. Masbad,1 and Carole A. Parent1,*
+1
+Laboratory of Cellular and Molecular Biology
+Center for Cancer Research
+National Cancer Institute
+2
+PRAT (Pharmacology Research Associate
+Training) Research Fellowship Program
+National Institute of General Medical Sciences
+National Institutes of Health
+Bethesda, Maryland 20892
+
+Summary
+The ability of a cell to detect an external chemical
+signal and initiate a program of directed migration
+along a gradient comprises the fundamental process
+called chemotaxis [1]. Investigations in Dictyostelium
+discoideum and neutrophils have established that
+pleckstrin homology (PH) domain-containing proteins
+that bind to the PI3K products PI(3,4)P2 and PI(3,4,5)P3,
+such as CRAC (cytosolic regulator of adenylyl cyclase)
+and Akt/PKB, translocate specifically to the leading
+edge of chemotaxing cells [2–4]. CRAC is essential for
+the chemoattractant-mediated activation of the adenylyl cyclase ACA [5], which converts ATP into cAMP,
+the primary chemoattractant for D. discoideum. The
+mechanisms by which CRAC activates ACA remain to
+be determined. We now show that in addition to its
+essential role in the activation of ACA, CRAC is involved in regulating chemotaxis. Through mutagenesis, we show that these two functions are independently regulated downstream of PI3K. A CRAC mutant
+that has lost the capacity to bind PI3K products does
+not support chemotaxis and shows minimal ACA activation. Finally, overexpression of CRAC and various
+CRAC mutants show strong effects on ACA activation
+with little effect on chemotaxis. These findings establish that chemoattractant-mediated activation of PI3K
+is important for the CRAC-dependent regulation of
+both chemotaxis and adenylyl cyclase activation.
+Results and Discussion
+CRAC Regulates Chemotaxis
+To assess whether CRAC (cytosolic regulator of adenylyl
+cyclase) is required for chemotaxis, cells lacking CRAC
+(crac⫺) [5] were starved and allowed to differentiate to
+the chemotaxis competent stage [2], as judged by Western blot analysis of early developmental markers, such
+as the chemoattractant receptor cAR1 (Figure S1 in the
+Supplemental Data available with this article online). The
+chemotactic behavior of a large population of cells was
+measured by the under-agarose chemotaxis assay. We
+observed that, in contrast to wild-type Ax3 cells, crac⫺
+cells do not move toward the chemoattractant source,
+*Correspondence: parentc@helix.nih.gov
+
+even after extended exposure to the chemoattractant
+(Figure 1A). To characterize this behavior at the cellular
+level, we visualized how cells respond to a point source
+of chemoattractant that is delivered with a micropipette.
+Here, again, we found that crac⫺ cells show reduced
+chemotaxis. Within minutes after being exposed to the
+gradient, wild-type Ax3 cells rapidly align and migrate
+to the tip of the micropipette. Cells lacking CRAC, on
+the other hand, show much slower movement, barely
+moving one cell length during the 12 min recording,
+compared to ⬎4 cell length for wild-type cells (Figure
+1B, Movies 1 and 2, and Figure S2 for DIAS analysis).
+Although the crac⫺ cells do eventually polarize and orient toward the tip of the micropipette, they display a
+broad front and do not form streams of cells aligned in
+a head-to-tail fashion, compared to wild-type cells.
+To investigate whether the chemotaxis defect of the
+crac⫺ cells is due to a fundamental defect in the mobilization of actin, we measured chemoattractant-dependent actin polymerization. We observed that, like wildtype cells, crac⫺ cells show a rapid peak of cortical
+F-actin accumulation (within 5 s) upon stimulation (Figure 1C), demonstrating that crac⫺ cells can mobilize
+the actin cytoskeleton in a chemoattractant-dependent
+manner. Indeed, in agreement with previous work showing that crac⫺ cells exhibit normal orientation when
+placed in a chemoattractant gradient, we also find that
+crac⫺ cells are able to polarize in response to chemoattractant stimulation [6] (Figure 1B and Movie 2). Interestingly, when we measure the extent by which chemoattractants can polymerize actin as a function of time, we
+find that crac⫺ cells do not display the second phase of
+actin polymerization at approximately 120 s poststimulation, which has been proposed to play a role in pseudopod extension and chemotaxis (Figure 1D) [7]. Taken
+together, these findings show that the chemotaxis defects of crac⫺ cells are not due to alterations in the
+motility machinery but, instead, to defects in translating
+the external chemoattractant gradient into directed
+pseudopod extension and subsequent directed migration. Furthermore, these results establish that, similar
+to RasC, AleA (a RasGEF), and the cytosolic regulator
+Pianissimo, CRAC has at least two functions [8–11].
+Namely, in addition to its established role in adenylyl
+cyclase activation, CRAC is also involved in regulating
+chemotaxis.
+
+CRAC Regulates Adenylyl Cyclase
+and Chemotaxis Independently
+In order to begin to understand the mechanisms by
+which CRAC regulates the activation of both adenylyl
+cyclase and chemotaxis, we generated and characterized a series of C-terminal deletion mutants (⌬C-CRAC,
+Figure 2A), including the synag7 deletion mutant, which
+was previously isolated from a chemical mutagenesis
+screen and shown to be defective in adenylyl cyclase
+activation [12]. The various CRAC mutants were fused
+to either HA (at the N terminus) or GFP (at the C terminus)
+
+CRAC Regulates Adenylyl Cyclase and Chemotaxis
+135
+
+Figure 1. CRAC Regulates Chemotaxis
+(A) Under-agarose chemotaxis assay. Differentiated wild-type Ax3 and crac⫺ cells were plated into wells on either side of a well containing
+1 ␮M cAMP. Images were taken with a Leica DM IL stereoscope 45 min after the cells were plated. Chemotaxing cells exit from the well and
+migrate under the agarose, appearing as a halo outside the perimeter of the well. Data are representative of results obtained from at least 6
+independent experiments, each performed in triplicate.
+(B) Chemotaxis to a point source of chemoattractant. Images of differentiated wild-type Ax3 (top panels and Movie 1) and crac⫺ cells (bottom
+panels and Movie 2) migrating to a micropipette filled with 10 ␮M cAMP are shown. We could not measure any significant movement from
+the crac⫺ cells in the presence of 1 ␮M cAMP, although wild-type cells responded very well to this concentration. Images representative of
+at least five independent experiments are shown.
+(C and D) Actin polymerization response in response to chemoattractant stimulation. (C) Differentiated cells were plated onto 8-well chambered
+coverslips, stimulated with 10 ␮M cAMP, fixed at the indicated time points, and then F-actin was visualized by Texas-Red-X phalloidin.
+Montages of two representative cells presented for each time point. (D) Differentiated cells were stimulated with 10 ␮M cAMP and, at the
+indicated time points, aliquots were removed and fixed in potassium phosphate-PIPES buffer containing TRITC-phalloidin. Labeled actin was
+extracted with MeOH and fluorescence intensity was measured in a spectrofluorimeter. SEM values are presented from four independent
+experiments.
+
+and expressed in crac⫺ cells. The resulting cell lines
+were allowed to differentiate and were processed through
+a battery of biological and biochemical analyses. We
+found that, like crac⫺ cells, all of the ⌬C-CRAC mutants
+fail to aggregate when plated on non-nutrient agar (data
+not shown) and are defective in chemoattractant-mediated activation of adenylyl cyclase (Figure 2B). Nevertheless, the ⌬C-CRAC mutants can translocate to the
+plasma membrane when stimulated with a uniform, saturating dose of chemoattractant, as judged by fluorescence microscopy and Western blot analysis of membrane preparations (Figure 2C). In addition, all of the
+⌬C-CRAC mutants are capable of rescuing the crac⫺
+chemotaxis defect, as judged by both the micropipette
+and the under-agarose assays (Figure 2D). Cells that
+lack adenylyl cyclase can chemotax but cannot relay
+the chemoattractant signal to distal cells. As a result,
+they do not organize in head to tail fashion in long
+streams of cells during chemotaxis [13, 14]. Likewise,
+the ⌬C-CRAC mutant-expressing cells, which are defective in the capacity to activate adenylyl cyclase, do not
+stream during chemotaxis (Figure 2D and Movie 3). From
+these studies, we conclude that the determinants under-
+
+lying CRAC’s role during chemotaxis are distinct from
+those involved in regulating adenylyl cyclase activation.
+PI3K Products Regulate Chemotaxis and Adenylyl
+Cyclase Activation
+The PH (pleckstrin homology) domain of CRAC can bind,
+in vitro, to the 3-phosphoinositides PI(3,4,5)P3 and
+PI(3,4)P2, the lipid products of PI3K [15]. We thus characterized a series of CRAC PH domain constructs in order
+to assess the role of PI3K in chemoattractant-mediated
+CRAC signaling. Here again the various PH mutants
+were fused to GFP to allow microscopic characterization
+of the translocation. We found that, similar to other PH
+domains [1], the CRAC PH domain alone (PHCRAC) expressed in crac⫺ cells is sufficient to mediate membrane
+targeting upon either a uniform, saturating dose of chemoattractant or in a gradient of chemoattractant supplied by a micropipette (Figure S3). In spite of its proper
+localization in response to chemoattractant, PHCRAC does
+not rescue the chemotaxis defect of crac⫺ cells (Figure
+S3) and crac⫺ cells expressing PHCRAC have no detectable adenylyl cyclase activation following chemoattractant stimulation (data not shown). These results demon-
+
+Current Biology
+136
+
+Figure 2. CRAC Regulates Adenylyl Cyclase and Chemotaxis Independently
+(A) Schematic representation of CRAC C-terminal deletion (⌬C-CRAC) mutants.
+(B) ⌬C-CRAC mutants do not activate adenylyl cyclase. Adenylyl cyclase activity was measured after the addition of 10 ␮M cAMP in crac⫺
+cells expressing either wild-type CRAC or ⌬C-CRAC mutants. Data are representative of results from three to four independent experiments,
+each performed in duplicate.
+(C) ⌬C-CRAC mutants translocate to the plasma membrane upon chemoattractant stimulation. In the top panels, differentiated cells were
+stimulated with 10 ␮M cAMP and visualized microscopically, either live or after fixation 5 s poststimulation. For the biochemical translocation
+assay (bottom panel), cells were stimulated with cAMP and, at the indicated time points, aliquots were removed, diluted with cold buffer, and
+the membrane fractions were collected by centrifugation. Membrane fractions were analyzed by immunoblotting with either anti-GFP or antiHA antibodies, depending on the construct. Results shown are for the synag7 deletion mutant and are representative of all of the ⌬C-CRAC
+mutants tested.
+(D) ⌬C-CRAC mutants can support chemotaxis. Chemotaxis of crac⫺ cells expressing ⌬C-CRAC mutants was assessed by both the micropipette
+assay (top panel and Movie 3) and the under-agarose assay (bottom panel) as described in the legend of Figure 1. The ⌬C-CRAC mutants
+show chemotaxis in both assays but do not organize in a head-to-tail fashion in long streams as wild-type cells do. Results shown are for
+the synag7 deletion mutant and are representative of all of the ⌬C-CRAC mutants tested.
+
+strate that, although the PH domain is responsible for
+CRAC’s recruitment to the plasma membrane, it does
+not contain the information required to mediate chemotaxis or to activate adenylyl cyclase on its own. Moreover, because we observed normal translocation kinetics, these findings show that the regulation of the PI3K/
+PTEN signaling cascade is intact in crac⫺ cells.
+To further test the role of the PH domain in CRAC
+function, we generated a mutant with a deletion of the
+entire PH domain (⌬PH-CRAC) and expressed it in crac⫺
+cells. We were unable to detect chemoattractant-mediated recruitment of ⌬PH-CRAC to the plasma membrane
+(Figure S4), further confirming that the PH domain alone
+is a primary determinant of CRAC recruitment to the
+plasma membrane. Similarly, ⌬PH-CRAC did not rescue
+either the chemotaxis defect (Figure S4) or the adenylyl
+cyclase defect of crac⫺ cells (Figure 3C). These results
+show that the PH domain of CRAC is essential for all of
+its known chemoattractant-stimulated functions, namely,
+membrane recruitment, chemotaxis, and adenylyl cyclase activation.
+
+To examine more specifically the role of 3-phosphoinositides in CRAC function, we introduced a point mutation into the predicted 3-phosphoinositide binding motif
+[16] within the CRAC PH domain (R42C-CRAC). We demonstrate that this point mutant fails to bind to 3-phosphoinositides in vitro (Figure 3A). As with ⌬PH-CRAC,
+we were unable to detect cAMP stimulated translocation
+of R42C-CRAC to the plasma membrane, either by fluorescence microscopy or Western blot analysis of membrane fractions (Figure 3B). In addition, the R42C-CRAC
+point mutant failed to support chemotaxis in either the
+micropipette assay (Figure 3B and Movie 4) or the underagarose assay (Figure 3B), even after extended exposure to the chemoattractant gradient. This finding demonstrates that 3-phosphoinositide binding is essential
+for CRAC-mediated regulation of chemotaxis. Interestingly, we also find that the R42C-CRAC point mutant
+only partially rescues the adenylyl cyclase defects of
+crac⫺ cells (Figure 3C), suggesting that 3-phosphoinositide binding is important for CRAC-mediated activation
+of adenylyl cyclase. These findings have two implica-
+
+CRAC Regulates Adenylyl Cyclase and Chemotaxis
+137
+
+Figure 3. PI3K Products Regulate Chemotaxis and Adenylyl Cyclase Activation
+(A) Dot blot assays for phosphoinositide binding. Supernatants of crac⫺ cells expressing GFP fusions of either wild-type CRAC (left panel) or
+R42C-CRAC (right panel) were incubated with dot blots containing a variety of lipids, as indicated in the key to the right. Both supernatants
+expressed comparable levels of protein, as judged by Western analysis. Bound proteins were detected with anti-GFP antibody.
+(B) Chemotaxis and translocation of R42C-CRAC/crac⫺ cells. The R42C-CRAC mutant fails to support chemotaxis in either the micropipette
+assay (top panels and Movie 4) or the under agarose assay (bottom panel). In the micropipette assay, the micropipette (indicated by the
+arrow) was not moved for the duration of the 13 min video. Note the lack of translocation of the R42C-CRAC to the side of the cell facing the
+chemoattractant source. The under-agarose assay was carried out for extended times (2 hr) to verify the chemotaxis defective phenotype of
+R42C-CRAC. With this extended duration, wild-type cells form very long streams of cells migrating toward the chemoattractant source. For
+the biochemical translocation assay (middle panel), cells were stimulated with 10 ␮M cAMP and membrane preparations analyzed as described
+in the legend of Figure 2. The results are representative of at least three independent experiments.
+(C) Adenylyl cyclase activity in CRAC PH domain mutants. Differentiated cells were stimulated with cAMP and processed for adenylyl cyclase
+activity measurements as described in the legend of Figure 2. The graph is representative of at least six independent experiments, each
+performed in duplicate.
+(D) Myr-CRAC is degraded upon the initiation of differentiation. Images show the distribution and presence of Myr-CRAC-GFP expressed in
+crac⫺ cells at different times after the initiation of differentiation. A larger field is presented for the 120 min time showing a larger number of
+cells, indicating a widespread loss of Myr-CRAC-GFP (phase image on right). The bottom panel shows Western blot detection of Myr-CRACGFP at various time points after the start of differentiation.
+
+tions. First, they establish that PI3K activity is required
+for maximal chemoattractant-mediated stimulation of
+adenylyl cyclase, as observed for relaxin-mediated adenylyl cyclase activation in a monocyte cell line [17]. Second, our findings show that the CRAC determinants that
+independently regulate chemotaxis and adenylyl cyclase activation are downstream of PI3K.
+In order to further assess the requirements for the
+membrane recruitment of CRAC for adenylyl cyclase
+activation, we fused CRAC to the src myristoylation
+(Myr) sequence, which has previously been used for
+targeting proteins to the plasma membrane [18]. This
+Myr-CRAC fusion protein showed constitutive membrane localization in undifferentiated cells. Remarkably,
+we found that the Myr-CRAC protein is rapidly internal-
+
+ized and degraded upon the initiation of differentiation
+(Figure 3D), therefore precluding us from assessing the
+effects of constitutive membrane targeting of CRAC in
+chemotaxis-competent cells. Nevertheless, these results raise the interesting possibility that the recruitment
+of CRAC to the plasma membrane initiates a program
+of regulated CRAC turnover.
+Overexpression of CRAC and CRAC Mutants
+Alters Chemoattractant Signaling
+We reasoned that, because CRAC is important for multiple aspects of chemoattractant signaling, the overexpression of CRAC in wild-type Ax3 cells could also affect
+a variety of signaling pathways. We found that the overexpression of wild-type CRAC dramatically increases
+
+Current Biology
+138
+
+Figure 4. Overexpression of CRAC and CRAC Mutants Alters Chemoattractant Signaling to Adenylyl Cyclase
+(A) Adenylyl cyclase activity in wild-type Ax3 cells expressing wild-type CRAC. To allow us to visually monitor the expression of our constructs,
+we used GFP fusions for these experiments. We overexpressed CRAC in wild-type cells, selecting for transformants at G418 concentrations
+of 5, 20, and 40 ␮g/ml. Cells were assayed for chemoattractant-stimulated adenylyl cyclase activation as described in the legend of Figure
+2. The inset shows an anti-GFP Western blot demonstrating the relative expression level of CRAC-GFP at each dose of G418.
+(B) Under-agarose chemotaxis assays of wild-type cells expressing CRAC and CRAC PH mutant constructs. These transformants were
+generated using 40 ␮g/ml G418. In each case, the untransfected wild-type cells are in the top well and the transfected cells are in the bottom
+well. Each experiment was performed at least three times in triplicate.
+(C) Adenylyl cyclase activity in wild-type cells expressing the indicated CRAC constructs. Cells were assayed for chemoattractant-stimulated
+adenylyl cyclase activation as described in the legend of Figure 2. The inset shows an anti-GFP Western blot demonstrating the relative
+expression level of each construct.
+
+the extent of adenylyl cyclase activation in response to
+chemoattractant (Figure 4A). Interestingly, we also find
+that CRAC overexpression does not have an apparent
+effect on chemotaxis (Figure 4B). We conclude that
+CRAC or a CRAC-interacting factor is limiting for adenylyl cyclase activation but not for chemotaxis. These
+results are consistent with our previously reported studies showing that ACA is not required for chemotaxis [14].
+To further characterize the CRAC PH domain, we overexpressed various PH domain mutants in wild-type Ax3
+cells and analyzed CRAC-dependent processes. Like
+wild-type CRAC, none of the overexpressed PH-domain
+mutants has a dramatic effect on chemotaxis, although
+cells expressing ⌬PH-CRAC routinely display less robust movement and PHCRAC expressed in wild-type cells
+have polarity defects (Figure 4B and data not shown).
+On the other hand, overexpression of some PH domain
+mutants leads to interesting effects on chemoattractantmediated activation of adenylyl cyclase. While the overexpression of the PH domain alone has no major conse-
+
+quence (data not shown), the overexpression of the
+R42C-CRAC has a dominant positive effect (Figure 4C)
+and the ⌬PH-CRAC mutant produced the opposite effect, showing a dominant negative suppression of adenylyl cyclase activation (Figure 4C). From these results,
+we infer that adenylyl cyclase regulation requires the
+interaction of multiple factors with both the C-terminal
+region and the N-terminal PH domain, independent of
+the 3-phosphoinositide binding site. As shown for a variety of other PH domain-containing proteins, these observations also imply that, in addition to binding to lipid
+products of PI3K, the PH domain takes part in other
+interactions that are critical for CRAC function [19]. We
+propose that the dominant positive effect of overexpressed R42C-CRAC involves its binding to multiple factors that target and activate the adenylyl cyclase signaling complex. In contrast, the dominant negative effect
+of overexpressed ⌬PH-CRAC involves its binding and
+sequestration or inactivation of essential factors that
+interact with the C-terminal region. We suggest that the
+
+CRAC Regulates Adenylyl Cyclase and Chemotaxis
+139
+
+translocation of the CRAC complex initiates a series of
+events that ultimately lead to the full activation of ACA.
+In support of this hypothesis, we show here that R42CCRAC, which fails to bind to 3-phosphoinositides and
+displays no measurable plasma membrane association,
+confers minimal ACA activation when expressed in
+crac⫺ cells. In addition, pten⫺ cells, which show an exaggerated and prolonged duration of CRAC translocation,
+display sharply increased chemoattractant-dependent
+activation of ACA [20]. Taken together, these results
+suggest that CRAC is a central regulator that mediates
+the action of multiple effectors of chemoattractant signaling.
+Supplemental Data
+Supplemental Data including Experimental Procedures, four additional figures, and four movies are available at http://www.currentbiology.com/cgi/content/full/15/2/134/DC1/.
+Acknowledgments
+The authors thank Drs. Pierre Coulombe, Alan Kimmel, and Joe
+Brzostowski for reading the manuscript and making many insightful
+suggestions. We also thank members of the Parent laboratory for
+reviewing the manuscript and for helpful discussions.
+Received: August 10, 2004
+Revised: October 13, 2004
+Accepted: November 8, 2004
+Published: January 26, 2005
+References
+1. Parent, C.A. (2004). Making all the right moves: chemotaxis in
+neutrophils and Dictyostelium. Curr. Opin. Cell Biol. 16, 4–13.
+2. Parent, C.A., Blacklock, B.J., Froehlich, W.M., Murphy, D.B.,
+and Devreotes, P.N. (1998). G protein signaling events are activated at the leading edge of chemotactic cells. Cell 95, 81–91.
+3. Meili, R., Ellsworth, C., Lee, S., Reddy, T.B., Ma, H., and Firtel,
+R.A. (1999). Chemoattractant-mediated transient activation and
+membrane localization of Akt/PKB is required for efficient chemotaxis to cAMP in Dictyostelium. EMBO J. 18, 2092–2105.
+4. Servant, G., Weiner, O.D., Herzmark, P., Balla, T., Sedat, J.W.,
+and Bourne, H.R. (2000). Polarization of chemoattractant receptor signaling during neutrophil chemotaxis. Science 287, 1037–
+1040.
+5. Insall, R., Kuspa, A., Lilly, P.J., Shaulsky, G., Levin, L.R., Loomis,
+W.F., and Devreotes, P. (1994). CRAC, a cytosolic protein containing a pleckstrin homology domain, is required for receptor
+and G protein-mediated activation of adenylyl cyclase in Dictyostelium. J. Cell Biol. 126, 1537–1545.
+6. Wang, Y., Liu, J., and Segall, J.E. (1998). MAP kinase function
+in amoeboid chemotaxis. J. Cell Sci. 111, 373–383.
+7. Chen, L., Janetopoulos, C., Huang, Y.E., Iijima, M., Borleis, J.,
+and Devreotes, P.N. (2003). Two phases of actin polymerization
+display different dependencies on PI(3,4,5)P3 accumulation and
+have unique roles during chemotaxis. Mol. Biol. Cell 14, 5028–
+5037.
+8. Lim, C.J., Spiegelman, G.B., and Weeks, G. (2001). RasC is
+required for optimal activation of adenylyl cyclase and Akt/PKB
+during aggregation. EMBO J. 20, 4490–4499.
+9. Wessels, D., Brincks, R., Kuhl, S., Stepanovic, V., Daniels, K.J.,
+Weeks, G., Lim, C.J., Spiegelman, G., Fuller, D., Iranfar, N., et
+al. (2004). RasC plays a role in transduction of temporal gradient
+information in the cyclic-AMP wave of Dictyostelium discoideum. Eukaryot. Cell 3, 646–662.
+10. Insall, R.H., Borleis, J., and Devreotes, P.N. (1996). The aimless
+RasGEF is required for processing of chemotactic signals
+through G-protein-coupled receptors in Dictyostelium. Curr.
+Biol. 6, 719–729.
+11. Chen, M.Y., Long, Y., and Devreotes, P.N. (1997). A novel cyto-
+
+solic regulator, Pianissimo, is required for chemoattractant receptor and G protein-mediated activation of the 12 transmembrane domain adenylyl cyclase in Dictyostelium. Genes Dev.
+11, 3218–3231.
+12. Theibert, A., and Devreotes, P.N. (1986). Surface receptor-mediated activation of adenylate cyclase in Dictyostelium. Regulation by guanine nucleotides in wild-type cells and aggregation
+deficient mutants. J. Biol. Chem. 261, 15121–15125.
+13. Pitt, G.S., Milona, N., Borleis, J., Lin, K.C., Reed, R.R., and
+Devreotes, P.N. (1992). Structurally distinct and stage-specific
+adenylyl cyclase genes play different roles in Dictyostelium development. Cell 69, 305–315.
+14. Kriebel, P.W., Barr, V.A., and Parent, C.A. (2003). Adenylyl cyclase localization regulates streaming during chemotaxis. Cell
+112, 549–560.
+15. Huang, Y.E., Iijima, M., Parent, C.A., Funamoto, S., Firtel, R.A.,
+and Devreotes, P. (2003). Receptor-mediated regulation of
+PI3Ks confines PI(3,4,5)P3 to the leading edge of chemotaxing
+cells. Mol. Biol. Cell 14, 1913–1922.
+16. Lemmon, M.A., and Ferguson, K.M. (2001). Molecular determinants in pleckstrin homology domains that allow specific recognition of phosphoinositides. Biochem. Soc. Trans. 29, 377–384.
+17. Nguyen, B.T., Yang, L., Sanborn, B.M., and Dessauer, C.W.
+(2003). Phosphoinositide 3-kinase activity is required for biphasic stimulation of cyclic adenosine 3⬘,5⬘-monophosphate by relaxin. Mol. Endocrinol. 17, 1075–1084.
+18. Buser, C.A., Sigal, C.T., Resh, M.D., and McLaughlin, S. (1994).
+Membrane binding of myristylated peptides corresponding to
+the NH2 terminus of Src. Biochemistry 33, 13093–13101.
+19. Philip, F., Guo, Y., and Scarlata, S. (2002). Multiple roles of
+pleckstrin homology domains in phospholipase C␤ function.
+FEBS Lett. 531, 28–32.
+20. Iijima, M., and Devreotes, P. (2002). Tumor suppressor PTEN
+mediates sensing of chemoattractant gradients. Cell 109,
+599–610.
+
+

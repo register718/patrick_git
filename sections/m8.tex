@@ -1,0 +1,45 @@
+\subsection{Module 8: RasC--TORC2--PKB--CRAC Relay}\label{sec:m8}
+
+\paragraph{Role.}
+The relay of the cAMP signal, i.e.\ the re-synthesis of cAMP in response to cAMP, runs through a second Ras branch.
+RasC and RasG are both activated by cAMP, but RasC is responsible for adenylyl cyclase activation and RasG for chemotaxis; RasGEFA activates RasC but not RasG~\cite{kae2007}.
+RasC is an upstream regulator of the target of rapamycin complex 2 (TORC2), which phosphorylates the myristoylated kinase PKBR1 independently of PIP3 and prolongs the time course of ACA activation~\cite{cai2010}.
+Within seconds of a stimulus, TORC2 activates two PKB homologues, PkbA and PKBR1, also in cells lacking PI3K activity~\cite{kamimura2008}.
+PKBR1 has no PH domain, is myristoylated for constitutive membrane localisation and does not require PI3K~\cite{meili2000}.
+PKB and PKBR1 phosphorylate the scaffold Sca1 of a Sca1/RasGEF/PP2A complex and thereby control RasC in a negative feedback~\cite{charest2010}, and PKA exerts a further negative feedback on Ras, Rap1 and TORC2 signalling~\cite{scavello2017}.
+The effector CRAC (a PH-domain protein) is required for receptor- and G-protein-mediated activation of ACA~\cite{insall1994}; CRAC binds PI3K products~\cite{comer2005} and is the translocation reporter of the G-protein pathway~\cite{parent1998}.
+The model connects this chain to the excitable element of Module~0 by an output edge (8.14) that \emph{injects the excitable activator X}, and not by a direct activation of ACA.
+A direct receptor-to-ACA edge would make the receptor arm a second pulse generator with its own amplitude and refractory state, whereas injecting X makes a relayed pulse identical to a spontaneous one and lets one refractory clock (Module~0) gate both.
+
+\input{sections/tables/tab_m8_rxn}
+\input{sections/tables/tab_m8_const_a}
+\input{sections/tables/tab_m8_const_b}
+
+\paragraph{Reactions.}
+\begin{description}\itemsep0pt
+\item[8.1/8.2] RasGEFA is activated by G$\beta\gamma$ and inactivated with $\tau=10$\,s. It uses the same G$\beta\gamma$-dependent activated-fraction curve as the RasG excitor 3.1, since both are G$\beta\gamma$-driven RasGEFs~\cite{kae2007}.
+\item[8.2s] The PKB-phosphorylated Sca1-like brake substrate B$^*$ (Module~3) releases active RasGEFA, which is the negative feedback of~\cite{charest2010}. Without PKB or TORC2, RasC activation is increased and fails to adapt by 40\,s; the constant $k_S$ is calibrated to return RasC near baseline within about 40\,s.
+\item[8.3/8.4] Active RasGEFA converts RasC-GDP to RasC-GTP; RasC-GTP hydrolyses slowly.
+\item[8.4b--d] A receptor-driven, slowly decaying RasC GAP (RC $\to$ CGAP$^*$, decay $\tau=200$\,s) hydrolyses RasC-GTP and holds RasC in its adapted state.
+\item[8.5/8.6] RasC-GTP activates TORC2~\cite{cai2010}, which relaxes with $\tau=2$\,s. The short lifetime is a design choice that places the peak of TORC2 targets within 5--10\,s, as observed for the PKB substrate Sca1~\cite{charest2010}.
+\item[8b.1/8b.2] TORC2$^*$ phosphorylates the membrane-anchored PKBR1 directly (no recruitment step), and PKBR1$^*$ is dephosphorylated rapidly, so that PKBR1 is a fast-on/fast-off pulse generator that is cleared before the slow negative feedbacks accumulate. Measured PKBR1 hydrophobic-motif phosphorylation is slower: it peaks at 30--60\,s, has a half-life of about 40\,s and is back at baseline after 2--3\,min~\cite{cai2010}; the model's $\tau=2$\,s is a design choice for the fast relay, not a measured value.
+\item[8b.4] PKA$^*$ inactivates PKBR1$^*$, which closes a slow negative feedback from cAMP to the relay arm~\cite{scavello2017}.
+\item[8.9, 8b.3] Both PKBs phosphorylate the membrane-bound CRAC pool, PkbA (Module~4) through 8.9 and PKBR1 through 8b.3.
+\item[8.9b/8.9c/8.10/8.10b] CRAC is a three-state moiety: cytosolic CRAC$_c$, membrane-bound CRAC$_m$ and phosphorylated CRAC$_m^*$. Two facts must hold together and are compatible only if recruitment and activation are separate steps: CRAC is a PH-domain protein recruited by PIP3~\cite{parent1998,comer2005}, and PKB signalling and the relay do not require PIP3~\cite{kamimura2008}. PIP3 therefore recruits CRAC (8.9b), a PIP3-independent association keeps the relay functional without PIP3 (8.9c), and the kinases phosphorylate CRAC on the membrane (8.9, 8b.3). Dephosphorylation (8.10) returns CRAC$^*$ to the membrane pool and not to the cytosol, because a phosphatase does not strip the lipid anchor; releasing it to the cytosol would cap the activated fraction at $k_\mathrm{rec}/(k_\mathrm{rec}+k_\mathrm{off})$, whatever the kinase drive. Release from the membrane (8.10b) is a separate step.
+\item[8.14] CRAC$^*$ injects X into the excitable element at up to $k_X=200$ molecules\,s$^{-1}$ per cell, gated by PIP3 and by the refractory clock. The PIP3 gate requires that the cell has already resolved the direction of the signal before it re-amplifies it: PIP3 is the first species of the cascade that is both stimulus-driven and polarised.
+\end{description}
+Three further edges exist in the code and are excluded from the default network:
+the activation of PkbA by TORC2 without a recruitment step (8.7/8.8) is PKBR1's mechanism applied to PkbA's species and would double count the kinase that Module~8b already provides;
+the PKA feedback on PkbA (8.13) is excluded together with them;
+and the direct activation of ACA by CRAC$^*$ (8.11) is disabled ($k=0$) for the reason stated above.
+
+\paragraph{Constants.}
+Most pool sizes and the RasC-branch rate constants are estimates for which no measurements exist; the calibrated properties are the timing (TORC2$^*$ and PKBR1$^*$ peak within 5--10\,s), the activated fraction of the CRAC switch and the relay drive.
+Two constants are derived from measurements of other modules and must be re-derived when those change.
+First, $k_{\mathrm{Cr},\mathrm{dp}}$ sets the activated fraction of the CRAC phospho-cycle, which is a function of $a/k_{\mathrm{Cr},\mathrm{dp}}$ only, where $a=k_\mathrm{Cr}[\mathrm{PKBA}^*]$; it is derived from the measured peak of PkbA$^*$ (567 molecules per voxel) and the target CRAC$^*$ fraction of 44\,\%.
+When Module~4 was re-anchored the measured peak fell tenfold, the fraction fell to 11\,\% and the relay stopped firing, so the derivation is stored with the measurement it depends on.
+Second, the half-open level $K_P$ of the PIP3 gate is placed between the PIP3 peak evoked by 2\,nM (about 5000 molecules per voxel) and the standing PIP3 (about $10^3$).
+Neither the gain $k_X$ nor $k_\mathrm{Cr}$ can replace these derivations: both would restore the product of drive and fraction but leave a switch operating in a tenth of its range, without its contrast.
+The pairing $k_{A,\mathrm{on}}=k_{E,\mathrm{on}}k_{A,\mathrm{off}}/k_{E,\mathrm{off}}$ removes a saturation that the earlier parameterisation had (RasGEFA 83\,\% active at rest and 99\,\% at 60\,nM), where a cAMP step drove RasC-GTP down instead of up; RasC is activated rapidly and transiently by cAMP~\cite{kae2004}.
+The pool $[\mathrm{GEF_A}]_\mathrm{tot}$ was chosen so that the number of active GEFs at the driven state is preserved.
+The relay is nearly dose independent in the model: 2\,nM cAMP fires the excitable element as fully as 200\,nM, because the LEGI/PIP3 stage reports contrast rather than level; this is why the gate must be steep.

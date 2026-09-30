@@ -1,0 +1,1136 @@
+PNAS PLUS
+
+Fold-change detection and scale invariance of cell–cell
+signaling in social amoeba
+Keita Kaminoa,1, Yohei Kondoa, Akihiko Nakajimab, Mai Honda-Kitaharaa, Kunihiko Kanekoa,b, and Satoshi Sawaia,b,c,1
+a
+Department of Basic Science, Graduate School of Arts and Sciences, University of Tokyo, Tokyo 153-8902, Japan; bResearch Center for Complex Systems Biology, University
+of Tokyo, Tokyo 153-8902, Japan; and cPrecursory Research for Embryonic Science and Technology, Japan Science and Technology Agency, Saitama 332-0012, Japan
+
+Cell–cell signaling is subject to variability in the extracellular volume,
+cell number, and dilution that potentially increase uncertainty in the
+absolute concentrations of the extracellular signaling molecules. To
+direct cell aggregation, the social amoebae Dictyostelium discoideum
+collectively give rise to oscillations and waves of cyclic adenosine
+3′,5′-monophosphate (cAMP) under a wide range of cell density. To
+date, the systems-level mechanism underlying the robustness is unclear. By using quantitative live-cell imaging, here we show that the
+magnitude of the cAMP relay response of individual cells is determined by fold change in the extracellular cAMP concentrations. The
+range of cell density and exogenous cAMP concentrations that support oscillations at the population level agrees well with conditions
+that support a large fold-change–dependent response at the singlecell level. Mathematical analysis suggests that invariance of the oscillations to density transformation is a natural outcome of combining
+secrete-and-sense systems with a fold-change detection mechanism.
+fold-change detection
+robustness
+
+| oscillations | collective behavior | Dictyostelium |
+
+C
+
+ell–cell signaling lies at the basis of development and maintenance of multicellular forms of life. Extracellular signals
+are often subject to greater fluctuations in the size of extracellular space and the number of cells (Fig. 1A), not to mention
+nonspecific binding to other molecules, degradation, and dilution. These factors introduce an uncertainty to the detectable
+number of extracellular ligand molecules, thus posing a threat to the
+fidelity of cell–cell communication. One of the means by which cells
+could cope with such uncertainties is to base their behavioral decisions on temporal changes in the extracellular signals. Persistent
+stimuli are often ignored while their changes in time elicit transient
+responses—a property collectively called adaptation (1–3). Recent
+studies have highlighted cellular response whose magnitude appears
+to be dictated by the fold change in the input stimuli—a property
+referred to as “fold-change detection” (FCD) (4, 5). In bacterial
+chemotaxis, cells respond adaptively to a fold change in chemoattractant concentration (6) so that their search patterns depend
+only on the spatial profiles of the chemoattractant irrespective of its
+absolute level. Fold-change dependence is also implied in eukaryotic
+chemotactic response (7, 8) as well as cell fate control and gene
+regulation in Xenopus embryo (9), Drosophila imaginal disk (10), and
+mammalian cells (11). These studies have shed light on the role of
+FCD for a simple unidirectional signal transduction from an extracellular ligand-receptor interaction (input) to a cellular response
+(output). However, cell–cell signaling and multicellular systems as a
+whole often use secretion and sensing of the same molecules (12),
+whereby the output is fed back to the responding cell itself in addition
+to the neighboring cells, thus forming a complex bidirectional signal
+transduction system. The consequence of equipping such systems
+with an adaptive response and FCD is so far unaddressed.
+Oscillations of extracellular cAMP that dictate aggregation of
+the social amoebae Dictyostelium discoideum is a prime example of
+robust collective behaviors in cell populations. Under starvation,
+cells synthesize and secrete cAMP, which stimulates other cells in
+the vicinity to induce further synthesis and secretion of cAMP—a
+
+www.pnas.org/cgi/doi/10.1073/pnas.1702181114
+
+process called “cAMP relay” (13). After prolonged exposure to
+cAMP, the rise in extracellular cAMP level ceases due to inactivation of adenylyl cyclase (14). As extracellular cAMP level is
+lowered by degradation, the cells exit from the state of reduced
+responsivity over the course of several minutes (15, 16), and hence
+the extracellular cAMP level once again starts to elevate. This
+tendency for the extracellular cAMP level to rise when it is lowered,
+and to be lowered when it is raised, essentially renders extracellular
+cAMP level unstable and oscillatory. The emerging oscillatory waves
+of extracellular cAMP in the cell population provide a temporal
+guidance cue for directional cell migration (17, 18). Both cAMP oscillations and cell aggregation are known to occur at a wide range of
+cell densities spanning at least two to three orders of magnitude (19–
+22). Cells lacking the cAMP-synthesizing enzyme adenylyl cyclase
+ACA when ectopically forced to differentiate cannot form aggregates
+unless they are allowed to randomly collide and form cell clusters at
+high cell densities (23), indicating that robust cell aggregation depends
+on intercellular cAMP signaling. Recent live-cell imaging studies have
+elucidated an input–output relation of the cAMP relay response at
+the single-cell level resolution (16, 24–26). Although these analyses
+have implied a role played by the stochastic cAMP relay response
+at low basal concentrations of extracellular cAMP (∼100 pM) in
+initiating the synchronized pulses, how they could take place robustly in a wide range of cell densities is yet poorly understood.
+Results
+Density Dependence of the Oscillations. To gain insights on the
+
+concentration range of intracellular and extracellular cAMP that
+Significance
+Recent works have hinted at an ability of cells to respond in the
+exact same manner to a fold change in the input stimulus. The
+property is thought to allow cells to function properly regardless of changes in the absolute concentrations of signaling
+molecules. Despite its general importance, however, evidence
+has remained scarce. The present work demonstrated that, in
+the social amoeba Dictyostelium, a response to cell–cell communication molecules is fold-change dependent and that this
+property is tightly linked to the condition that allows them to
+oscillate collectively, and thus to organize into a multicellular
+form. Such properties may be of importance for robustness of
+other developmental systems where oscillatory signaling plays
+a pivotal role in defining multicellular organization.
+Author contributions: K. Kamino, Y.K., K. Kaneko, and S.S. designed research; K. Kamino,
+Y.K., A.N., and S.S. performed research; M.H.-K. and S.S. contributed new reagents;
+K. Kamino and A.N. acquired and analyzed live cell image data; K. Kamino and Y.K. performed
+theoretical and computational analysis; and K. Kamino, Y.K., and S.S. wrote the paper.
+The authors declare no conflict of interest.
+This article is a PNAS Direct Submission.
+Freely available online through the PNAS open access option.
+1
+
+To whom correspondence may be addressed. Email: cssawai@mail.ecc.u-tokyo.ac.jp or
+k.kamino@amolf.nl.
+
+This article contains supporting information online at www.pnas.org/lookup/suppl/doi:10.
+1073/pnas.1702181114/-/DCSupplemental.
+
+PNAS | Published online May 11, 2017 | E4149–E4157
+
+BIOPHYSICS AND
+COMPUTATIONAL BIOLOGY
+
+Downloaded from https://www.pnas.org by Universitaetsbibliothek Erlangen-Nuernberg on September 30, 2026 from IP address 131.188.6.13.
+
+Edited by Peter N. Devreotes, The Johns Hopkins University School of Medicine, Baltimore, MD, and approved April 9, 2017 (received for review February
+9, 2017)
+
+Cell-cell signaling
+at high cell density
+
+Signaling
+molecule
+
+0.8
+0.75
+0
+
+0M
+
+0.9
+
+3 nM
+
+0M
+
+0.85
+0.8
+0.75
+0
+
+40
+80
+Time (min)
+
+0.8
+0.75
+0
+
+40
+80
+Time (min)
+
+D
+
+E
+
+2.4
+
+1/2 ML
+
+FRET index (a.u.)
+
+FRET index (a.u.)
+
+0.3 nM
+
+0.85
+
+1/8 ML
+
+Downloaded from https://www.pnas.org by Universitaetsbibliothek Erlangen-Nuernberg on September 30, 2026 from IP address 131.188.6.13.
+
+40
+80
+Time (min)
+1/8 ML
+
+1/2 ML
+0.9
+
+2
+
+1.6
+0
+
+2
+4
+6
+Time (min)
+
+2.4
+
+2
+
+1.6
+0
+
+2
+4
+6
+Time (min)
+
+2.4
+
+2
+
+1.6
+1/8 1/2
+Cell density (ML)
+
+Maximum FRET index (a.u.)
+
+C
+
+FRET ratio (a.u.)
+
+Cell
+
+0.3 nM
+
+0.85
+
+Minimum FRET index (a.u.)
+
+Cell-cell signaling
+at low cell density
+
+1/2 ML
+0M
+
+0.9
+
+FRET ratio (a.u.)
+
+B
+
+FRET ratio (a.u.)
+
+A
+
+2.4
+
+2
+
+1.6
+1/8 1/2
+Cell density (ML)
+
+Fig. 1. Dependency of the cAMP oscillations on cell density and the background concentrations of extracellular cAMP. (A) A schematic illustrating how
+variability in cell density introduces uncertainties in the concentration of diffusive signaling molecules. (B) Representative time series from Epac1camps
+(59)-expressing cells (24) before and after application of exogenous cAMP (0.3 nM, 3 nM). Exogenous cAMP (0.3 nM) extinguished oscillations at a low cell
+density (1/8 ML), whereas almost no clear effect was observed at a high cell density (1/2 ML). (C) A phase diagram of the mean pulse frequency as a function of
+cell density and exogenous cAMP. At high cell densities, the oscillations were relatively insensitive to exogenous cAMP. Squares represent three to six independent measurements of a 2-h duration (n = 4, 4, 3, and 3 for 1/2 ML from Left to Right; n = 8, 4, 3, and 3 for 1/8 ML; n = 4, 3, and 3 for 1/32 ML; n = 3 and
+3 for 1/128 ML). (D) Representative time series of the FRET index (Epac1camps/AX4 cells) obtained from individual cells oscillating in a population of
+1/8 monolayer (ML) (Left) and 1/2 ML cell density; perfusion rate, 1.5 mL/min. Colors indicate different cells. (E) The average of minimum (Left) and maximum
+(Right) FRET index. Error bars represent SD (n = 21 for 1/8 ML and n = 19 for 1/8 ML).
+
+supports oscillations, we revisited the cAMP dynamics quantitatively by live-cell imaging of cells expressing the cAMP probe
+Epac1camps (24) combined with a corrected quantification of
+the fluorescence resonance energy transfer (FRET) efficiency (27)
+(“FRET index”; Fig. S1 and SI Materials and Methods). Collective
+cAMP oscillations occur spontaneously in cell populations continuously perfused with buffer solution at a moderate flow rate
+(1.5 mL/min), where extracellular cAMP breakdown by secreted
+phosphodiesterase (PDE) in vivo is effectively emulated by dilution (24, 28). First, we tested the effect of adding cAMP in the
+perfusion flow (hereafter refer to as “exogenous cAMP”), which
+adds on top of endogenously synthesized and secreted cAMP
+present in the extracellular space. For 0.3 nM exogenous cAMP,
+the oscillations persisted at a relatively high cell density [1/2
+monolayer (ML); 1 ML ≡ 6.6 × 103 cells per mm2] (Fig. 1B, Left
+Upper); however, they were extinguished at a lower cell density
+(1/8 ML) (Fig. 1B, Left Lower). If we assume cAMP to be the
+single dominant extracellular factor that dictates the dynamics of
+cytosolic cAMP, then the results suggest that the concentrations of
+extracellular cAMP were different under these conditions. Indeed,
+when the high-cell density cells (1/2 ML) were supplied with
+higher exogenous cAMP, the oscillations were also extinguished
+(Fig. 1B, Right). Systematic analysis of the occurrence of synchronized pulses at various cell densities and exogenous cAMP
+concentrations showed that the oscillations were more easily
+suppressed at low cell densities (Fig. 1C; vertical axis) and by high
+exogenous cAMP concentrations (Fig. 1C; horizontal axis). On the
+other hand, the minimum and the maximum of the FRET indices
+measured at the single-cell level during the cAMP oscillations at
+low and high cell densities (Fig. 1D; 1/2 ML and 1/8 ML) were
+indistinguishable (Fig. 1E), suggesting that the range of cytosolic
+cAMP concentration during the oscillations does not depend
+strongly on the cell density. To summarize, the oscillatory range of
+extracellular cAMP level depends on the cell density and thus is
+more easily masked by exogenous cAMP at low cell densities,
+whereas that of the cytosolic cAMP is unchanged.
+E4150 | www.pnas.org/cgi/doi/10.1073/pnas.1702181114
+
+Rescaled Response Sensitivity. What exact concentration and magnitude change in the extracellular cAMP are required to sustain the
+collective oscillations? Before and during the early stage of cell
+aggregation, the basal level of extracellular cAMP slowly builds up
+and is estimated to reach around 10 nM or less (29, 30), which is
+near the Kd of the membrane-bound G-protein–coupled receptor
+CAR1. To see the effect of background concentrations of extracellular cAMP in this range, we measured single-cell level cAMP
+relay responses in well-isolated cells (<10−3 ML) (24) that were first
+primed with a fixed concentration of cAMP (0.1, 1, 3, and 10 nM)
+for about 40 min to let the initial response attenuate before elevating the cAMP level in a step-like manner (Materials and Methods). Note that, in contrast to the population-level oscillation
+experiments described in the previous section, here, care was taken
+so that cAMP secreted by the cells becomes negligible (24); extracellular buffer was rapidly diluted by fast perfusion (4–8 mL/s;
+Materials and Methods), cells were plated at low cell densities (see
+Materials and Methods), and a cell was chosen for observation after
+confirming that there is no other cell within the surrounding area of
+∼0.3-mm radius. Fig. 2A shows reference time courses of the cAMP
+relay response to a step increase in the extracellular cAMP concentration from 0 to 3 nM, a nonprimed stimulus condition that
+elicits a maximum amplitude response as measured by the FRET
+signal (24). The level of cytosolic cAMP reached the maximum at
+2–3 min after the stimulus application followed by secondary peaks
+that slowly attenuated in close agreement with a previous study (24).
+Under primed conditions, the response to 3 nM on top of 1 nM
+extracellular cAMP was markedly reduced in both initial and secondary peak amplitude (Fig. 2B, Left), whereas elevation from 1 to
+10 nM induced a large magnitude response (Fig. 2B, Right) comparable to that observed under nonpriming conditions.
+Next, we quantified the initial peak amplitude 2–3 min after
+the stimulus increase. This serves as the primary measure of the
+strength of the relay response underlying the collective oscillations, because the secondary peaks were not observed when the
+level of extracellular cAMP was elevated only for a few minutes
+Kamino et al.
+
+2
+
+2
+
+1.6
+
+1.6
+
+2
+
+1.6
+
+C
+
+-2 0 2 4 6
+Time (min)
+
+E
+
+D
+
+2.2
+
+Peak time (min)
+
+100pM
+1nM
+3nM
+10nM
+
+2
+1.8
+1.6
+
+2.2
+
+100pM
+1nM
+3nM
+10nM
+
+4
+3
+
+Response
+amplitude (a.u.)
+
+2.4
+
+2
+1
+
+101
+
+102
+
+1.8
+1.6
+
+0
+100
+
+101
+
+Fold change in [cAMP]
+
+2
+
+10-2 10-1 100 101
+Background [cAMP] (nM)
+
+102
+
+Fold change in [cAMP]
+
+G
+2.2
+
+2.2
+
+2
+
+2
+
+1.8
+
+1.8
+
+1.6
+
+1.6
+
+-1
+
+0 1 2
+Time (min)
+
+-1
+
+0 1 2
+Time (min)
+
+Response amplitude
+in high [cAMP]
+
+H
+0.3 nM to 1.5 nM
+1.5 nM to 7.5 nM
+2.4
+2.4
+
+FRET index (a.u.)
+
+Downloaded from https://www.pnas.org by Universitaetsbibliothek Erlangen-Nuernberg on September 30, 2026 from IP address 131.188.6.13.
+
+F
+
+2.2
+2
+1.8
+1.6
+1.6
+1.8
+2
+2.2
+Response amplitude
+in low [cAMP]
+
+Fig. 2. The cAMP relay response at the single-cell level obeys fold-change
+detection. (A and B) The concentration of perfused cAMP was changed from
+0 to 3 nM (A), 1 to 3 nM (B; Left), and 1 to 10 nM (B, Right). The dotted lines
+indicate the time of stimulus switch. Colors indicate different cells. (C and D)
+The peak amplitude (C) and the response time (D) of the response; priming
+concentrations, 0.1 nM (blue), 1 nM (green), 3 nM (red), and 10 nM (magenta)
+cAMP. The vertical axis: the maximum FRET index during the 4 min after the
+input change (C) and the time it took for the FRET index to reach the initial
+peak (D). Dots and error bars indicate the mean and SD (n = 11, 16, 16, and
+15 for 1-, 3-, 10-, and 100-fold change from 100 pM, respectively. In the same
+way, n = 13, 23, 15, and 16 for 1 nM; n = 11, 13, 11, and 14 for 3 nM; n = 16, 7,
+10, and 9 for 10 nM). (E) The amplitude of the response to 10-fold increase in
+the extracellular cAMP concentration. Error bars indicate SD (n = 10, 14, 16, 15,
+11, and 10 for 10−2, 3 × 10−2, 0.1, 1, 3, and 10 nM, respectively). (F) Two
+possible scenarios for the curves in C. (Left) The response sensitivity is heterogeneous and not rescaled at the single-cell level. (Right) The response
+sensitivity rescales at the single-cell level. (G) Representative responses to sequential fivefold step inputs from 0.3 to 1.5 nM (Left), and then from 1.5 to
+7.5 nM (Right). Colors are mapped to identify individual cells consistently in
+two panels. Cells were kept at 1.5 nM cAMP for 15 min before the second
+increment. (H) A scatter plot of the response amplitude to two incremental
+step inputs; correlation coefficient, 0.68 (n = 25).
+
+(24) (Fig. S2A) as is the case during the collective oscillations.
+Fig. 2C plots the index as a function of fold increase in extracellular cAMP concentration for four priming concentrations
+tested. For priming concentrations below 10 nM (0.1, 1, and
+3 nM), the plots collapsed on a single curve, indicating that,
+within this concentration range, the single major determinant
+of the peak amplitude of the cAMP relay response is the fold
+change in the extracellular cAMP concentration. The peak FRET
+Kamino et al.
+
+index observed during the relay response was half-maximal at
+about a 3-fold increase in the extracellular cAMP concentration
+and levels off at about a 10-fold increase. The time at which the
+initial peak reached the maximum value showed almost no
+dependency on the background level of extracellular cAMP
+(Fig. 2D). Moreover, the amplitude of the response to a fold
+change of 10 was more or less constant between 0.1 and 10 nM
+background concentrations (Fig. 2E), suggesting that the
+rescaling property holds for two orders of magnitude. The same
+rescaling property was also observed when the step-stimulus
+was repeated (Fig. S2A).
+One should note that an apparent fold-change dependence in
+the population-averaged response (Fig. 2C) should not be
+readily equated with a fold-change detection at the single-cell
+level. For example, cell–cell variability in the response sensitivity alone in the absence of FCD could deceptively bring
+about a similar response curve after averaging (Fig. 2F, Left). In
+principle, whether or not rescaling holds at the level of individual cell (Fig. 2F, Right) should be tested by measuring the
+response to fold-change stimulus numerous times in single
+cells. However, this is not feasible due to phototoxicity and also
+because cells differentiate in the timescale of hours. Instead, we
+measured the response to two incremental steps with a fold
+change of 5 (0.3, 1.5, and 7.5 nM cAMP). Fig. 2G shows representative time series of single-cell level responses. Those cells
+that show weak response in the initial increment also tend to
+show weak response in the second increment. Likewise, cells
+with large response were consistent in two incremental stimuli.
+Despite a large cell–cell variability in the amplitude, the variability was spread along a linear slope in the scatter plot (Fig.
+2H). In other words, the amplitudes of the response to the
+consecutive inputs were highly correlated in each individual
+cells. The results indicate that the fold-change dependence is a
+single-cell level property.
+During cell aggregation of Dictyostelium discoideum, synchronous emission of cAMP gives rise to periodic traveling waves of
+extracellular cAMP, and thus the level of extracellular cAMP is
+oscillating (29). In this respect, the spatially uniform and temporally abrupt stimulus used in the above section deviates from
+the naturally occurring one. In general, a response to a step
+stimulus may not necessarily have the same propensity as that for
+a slowly varying stimulus. Moreover, directional migration is induced by a traveling-wave stimulus (17, 18) and thus may affect
+the cAMP relay owing to a large overlap in the signal transduction network (16, 31, 32). To test relevance of the fold-change
+response property for natural cAMP wave, we used a microfluidics lighthouse (33)—a gradient-generating platform capable
+of delivering traveling-wave stimulus of various amplitude, frequencies, and speed. Using this device, we applied 6-min period
+cAMP stimuli to cells in the region of interest (Fig. 3A; dotted
+square) in the form of spatially symmetric bell-shaped gradient
+that measures ∼500 μm from the trough to the peak and traversed
+at a speed of ∼2–3 × 102 μm/min (Fig. 3 A and B), which closely
+follows the estimated parameters of natural cAMP waves (34).
+The flow is slow and does not bias directionality of cell migration
+(33), and there is no apparent shear-induced effect on the level of
+cytosolic cAMP (Fig. 3C). Fig. 3 D–F shows representative responses of well-isolated cells to repetitive wave stimulus with fold
+increase/decrease of 30 for background concentration of 0.1, 1.0,
+and 3.0 nM extracellular cAMP. In all three conditions, albeit
+cell–cell variability, the concentration of cytosolic cAMP in individual cells oscillated in phase with that of extracellular cAMP
+whose peak time showed delay of ∼10–40 s. The peak FRET
+index was on average almost constant under these conditions
+(Fig. 3G), confirming that the magnitude of single-cell level response to traveling-wave stimulus is fold-change dependent.
+The cAMP relay response is mediated by complex signaling cascades downstream of G-protein–coupled receptors that are yet to be
+PNAS | Published online May 11, 2017 | E4151
+
+PNAS PLUS
+
+1 nM to 10 nM
+2.4
+
+-2 0 2 4 6
+Time (min)
+
+-2 0 2 4 6
+Time (min)
+
+Response amplitude (a.u.)
+
+1 nM to 3 nM
+
+BIOPHYSICS AND
+COMPUTATIONAL BIOLOGY
+
+B 2.4
+FRET index (a.u.)
+
+FRET index (a.u.)
+
+2.4
+
+FRET index (a.u.)
+
+0 M to 3 nM
+
+A
+
+Downloaded from https://www.pnas.org by Universitaetsbibliothek Erlangen-Nuernberg on September 30, 2026 from IP address 131.188.6.13.
+
+Fig. 3. The cAMP relay response to traveling-wave stimuli. (A) Application of a traveling-wave stimulus using the lighthouse device (33). A schematic of
+generating periodically rotating waves at 6-min period (Left). Due to diffusion, a bell-shaped gradient forms perpendicular to the flow of buffer solution
+containing high concentration of cAMP (red). The orientation of the stimulus flow was varied at the rate of 0.34°/s anticlockwise from θ = 0° to 120°, thereby
+allowing a bell-shaped gradient to traverse the observation area (dotted square). For the remaining region from θ = 120° to 360°, the rotation was fastforwarded by switching the direction discretely in two steps from 120° to 240°, and then 240° to 360° (33). Alexa Fluor 594 was included in the stimulus
+solution to estimate the spread of cAMP. For each run of experimental observation, the rotation was cycled four to six times. (B) Merged confocal images of
+the stimulus profile (red; Alexa) and Epac1camps/AX4cells [yellow; YFP (I540nm) channel] during a wave passage. (Scale bar, 50 μm.) (C–F) cAMP response to the
+wave stimulus. cAMP concentrations: mock (C; n = 5 cells), 0.1–3 nM (D; n = 12 cells), 1–30 nM (E; n = 10 cells), and 3–90 nM (F; n = 6 cells). Temporal profiles of
+the wave stimulus (Upper) and individual cell responses (Lower; graded blue green colors indicate different cells). Buffer solution containing Alexa Fluor
+594 without cAMP was used for the mock control (C). cAMP concentrations were estimated from the fluorescence intensity of the Alexa dye (D–F). (G) The
+average peak FRET index. Error bars indicate SDs.
+
+fully revealed (31, 35). Binding of extracellular cAMP to the receptor
+activates small GTPase Ras, which then activates phosphoinositide
+3-kinase (PI3K) to elevate phosphatidylinositol-(3,4,5)-triphosphate
+(PIP3) at the plasma membrane (36). PIP3 serves as a docking
+site for a pleckstrin homology (PH) domain-containing protein
+cytosolic regulator of adenylyl cyclase (CRAC) that is essential for
+the activation of adenylyl cyclase ACA (37, 38). These activation
+processes are counteracted by deactivation of Ras by RasGAP
+(39) and conversion from PIP3 to PIP2 by phosphatase PTEN (40).
+Less is known about adaptation of ACA besides the fact that it
+depends on receptor phosphorylation (41) and PI3K (16, 38).
+Semirescaling of the response sensitivity has been reported at
+the level of Ras activation (42), which appears “FCD-like” after
+population averaging (7, 8).
+To gain further insights into how the rescaling property is
+embedded at an event closely upstream of ACA, we measured
+membrane translocation of PH domain of CRAC (37) fused to
+RFP (PHCRAC-RFP) (43) (Materials and Methods; Fig. S3). In
+the perfused cell populations, the FRET index and PHCRACRFP translocation oscillated in phase at the single-cell level
+(Fig. 4A and Movie S1) with delay of no more than 1 min as
+evident by the cross-correlation analysis (Fig. 4B). In isolated
+cells exposed to rapid step stimuli (50% exchange of extracellular solution in less than 10 s), the correlation between the
+membrane translocation of PHCRAC-RFP and the cAMP relay
+response at the single-cell level was less apparent. The transient
+translocation of PHCRAC-RFP from the cytosol to the plasma
+membrane occurred within 10–20 s after the stimulus elevation,
+which is in contrast to the cAMP relay response that took close
+to 2 min to reach its peak. Fig. 4C shows the time course of
+PHCRAC-RFP translocation in isolated cells at different priming concentrations (Materials and Methods). Similar to the
+cAMP relay response, for 0.1 and 1 nM priming concentrations
+of cAMP, the degree of membrane translocation of PHCRACRFP exhibited a fold-change dependency (Fig. 4D). The time it
+E4152 | www.pnas.org/cgi/doi/10.1073/pnas.1702181114
+
+took for the response to reach its peak also appeared almost
+identical (Fig. 4E) with a slight decline at a higher fold stimuli
+as has been noted for Ras activation (7). Rescaling of the response sensitivity was observed in a somewhat narrower range
+of the background cAMP concentrations (∼0.1–1 nM) (Fig. 4F)
+compared with that of the cAMP relay response (∼0.1–10 nM)
+(Fig. 2E). On average, there was decrease in the degree of
+PHCRAC-RFP translocation at priming concentrations higher
+than 1 nM. These results suggest that information regarding
+fold change in the extracellular cAMP concentration is encoded
+and transduced, at least partially, by the degree of membrane
+translocation of CRAC.
+Scale Invariance of FCD-Based Signaling. How are the input–output
+properties revealed at the single-cell level related to the oscillatory behavior at the population level? Let us formulate a
+secrete-and-sense system where the output “y” is determined by
+the input signal “z”; conversely, the input z is determined by the
+response y. To this end, we shall first describe a ligand-induced
+response by a two-variable system x_ = f ðx, y; zÞ, y_ = gðx, y; zÞ,
+where intracellular and extracellular cAMP are represented by
+y and z, respectively (Fig. 5A). Here, x is an internal variable
+required for adaptation. Mathematically, the system obeys FCD
+when the functions f and g satisfy a condition:
+
+∂ϕðp, xÞ
+f ðx, y; zÞ
+∂x
+gðϕðp, xÞ, y; pzÞ = gðx, y; zÞ,
+
+f ðϕðp, xÞ, y; pzÞ =
+
+[1]
+
+with an appropriate transformation function ϕ and an arbitrary
+scaling factor p (>0) (5) (SI Equations). Under this constraint, the
+variable y responds in an identical manner to two incremental p-fold
+increase in the input z (Fig. 5B). By introducing a third equation that
+Kamino et al.
+
+PNAS PLUS
+
+B
+
+D
+
+E
+
+C
+
+F
+
+Fig. 4. Rescaling of the response sensitivity in an ACA activating pathway. (A) Simultaneous measurements of cytosolic cAMP (Upper) and PHCRAC-RFP
+(Lower) (Epac1camps/PHCRAC-RFP/AX4 cells; 1/2 ML density). Representative data taken from cells chosen randomly from a field of view (n = 10). Colored lines
+indicate single-cell data, and the black line represents the average. (B) Cross-correlations for single-cell data. (C) Representative time courses of PHCRAC-RFP
+membrane translocation after a 10-fold (Left) or 103-fold (Right) increase in the extracellular cAMP concentration. Colors indicate different cells. (D and E) The
+amplitude (D) and the response time (E) of PHCRAC-RFP membrane translocation after an increase in the extracellular cAMP concentrations from 0.1 and 1 nM.
+Error bars represent SD (n = 21, 18, 30, 31, and 28 for 1-, 3-, 10-, 100-, and 1,000-fold change from 0.1 nM, respectively. Likewise, n = 18, 19, 28, 46, and 30 for
+1 nM). The minimum cytosolic fluorescence intensity for the first 1 min after the input change (D; vertical axis). The time it took for the cytosolic intensity to reach
+the minimum value (E). (F) The response amplitude to 10-fold increase in extracellular cAMP. Mean and SD are shown (n = 18, 22, 30, 28, and 17 for 10−2, 3 × 10−2,
+0.1, 1, 3, and 10 nM, respectively).
+
+describes the dynamics of extracellular cAMP z in a perfusion chamber (13, 24), we arrive at a closed-loop system (Fig. 5C):
+x_ = f ðx, y, zÞ
+y_ = gðx, y, zÞ
+z_ = ρkt y − γz,
+
+[2]
+
+where ρ, kt, and γ represent the cell density, the secretion rate,
+and the dilution rate, respectively. The extracellular cAMP z
+affects the dynamics of the cells—that is, the subsystem x and
+y; hence the system describes “sensing and secretion” of the same
+molecules (12, 44).
+From the above mathematical formulation, it is readily
+shown that Eq. 2 are invariant under a transformation; that is,
+ðx, y, z, ρÞ → ðϕðp, xÞ, y, pz, pρÞ (see Supporting Information for
+proof). The scale invariance ensures that, although extracellular
+cAMP (z) scales with the cell density, the intracellular cAMP y,
+regardless of whether it is a fixed constant or dynamically
+changing variable, remains unaffected by density transformation
+ρ → pρ. Because the invariance derives simply by requiring the
+FCD condition (Eq. 1) for the response dynamics (Eq. 2;
+equations for x and y), and combining them with the secretion/
+dilution dynamics (Eq. 2; the equation for z), it can be said that
+the robustness of the cAMP oscillations to variation in cell
+density is a natural outcome of the observed response-rescaling
+property of the constituent cells. Note that, for the sake of
+clarity, the above derivation assumed that the response functions f(x, y; z) and g(x, y; z) are the same in all cells. The conclusion holds when there is cell–cell variability (SI Equations;
+Eqs. S6 and S7).
+Scale Invariance of the cAMP Oscillations. To obtain networks that
+exhibit adaptive response that obeys FCD, which could then be
+combined with the equation for z (Eq. 2 and Fig. 5C), a
+Kamino et al.
+
+computational search for minimal networks with two nodes and
+three links (3, 45, 46) was performed (Fig. S4 A–C). Four networks were identified: two “incoherent feedforward loop” type
+(Fig. S4D) and two negative-feedback loops type (Fig. S4E), which
+are consistent with recent analytical search of a topology space
+(46). The basic network models could be slightly modified to take
+into account the nonlinear input–output relation of the cAMP
+relay response (Fig. 2C) while preserving the network topology
+and the FCD property (SI Equations). Although details of the
+response can be compared to further constrain the network topology (26, 47–49), the present aim is rather to understand the
+general outcome of incorporating FCD in a secrete-and-sense
+system. Qualitative features detailed below were conserved in all
+four selected network types (Fig. S5). For brevity of presentation,
+a feedforward-type network,
+τx_ = z − x
+zn
+y_ = n
+−y
+z + ðKxÞn
+
+[3]
+
+z_ = ρkt y − γz,
+is described below (SI Equations, model [A″]). Parameters τ, n,
+and K are positive constants. The feedforward network depicts
+receptor-mediated signals that induce both fast activation and
+slow terminating reactions (1) and is compatible with adaptation
+and deadaptation of adenylyl cyclase that depend strictly on elevation and lowering of the extracellular cAMP level, respectively.
+Earlier mathematical models of cAMP relay (50, 51) as well as
+chemotaxis models that describe conversion between GTP-bound
+and GDP-bound form of Ras (42) also have this network topology.
+With an appropriate choice of parameter values, the system
+(Eq. 3) exhibited oscillations (Fig. 5D). The oscillatory solution
+in the present model (Eq. 3), especially the level of intracellular
+PNAS | Published online May 11, 2017 | E4153
+
+BIOPHYSICS AND
+COMPUTATIONAL BIOLOGY
+
+Downloaded from https://www.pnas.org by Universitaetsbibliothek Erlangen-Nuernberg on September 30, 2026 from IP address 131.188.6.13.
+
+A
+
+A
+
+B
+
+Downloaded from https://www.pnas.org by Universitaetsbibliothek Erlangen-Nuernberg on September 30, 2026 from IP address 131.188.6.13.
+
+E
+
+C
+
+F
+
+D
+
+G
+
+Fig. 5. Density robustness is a basic property of a secrete-and-sense system consisting of FCD elements. (A and B) A reaction scheme (A, “Isolated Cell”) and
+the characteristic behaviors (B) of an FCD system. The time evolution of y and x are described by functions f and g that together constitutes a FCD system
+(A). Simulated time course of x and y (B, Lower) to incremental increase in z (B, Upper). (C and D) A Schematic diagram of a closed-loop secrete-and-sense
+system (C, “Communicating cells”) and results from model simulations (Eq. 3) for low (Upper) and high (Lower) cell densities. Here, x and y follow the same
+reaction scheme as in A except that y is secreted, and thus transformed to z to further stimulate the cells. (E) A phase diagram of the system (Eq. 3) with a
+lower detection limit. Oscillatory (red squares) and static [blue plus sign (+)] states. (F) Results from numerical simulations of a modified model (Eq. 3 with
+dz/dt = ρkty – γ(z − z0)). (G) A phase diagram of the system (the model in D) as a function of cell density ρ and the exogenous cAMP level z0. Red squares and
+blue plus signs (+) indicate oscillatory and static states, respectively. The parameters were τ = 1.5, n = 2, K = 4, kt = 2, and γ = 3, unless otherwise indicated.
+
+cAMP y, is insensitive to the value of ρ (Fig. 5B) owing to the
+scale invariance resulting from the FCD property. This feature is
+in marked contrast with earlier models (50, 51) where oscillations were observed only in a narrow range of cell density (less
+than one order of magnitude) irrespective of the dilution rate γ
+[for model (50), see Fig. S6]. With further inclusion of lower
+detection limit by replacing z by z + δ on the right-hand side of
+the equations for x and y (Eq. 3), where δ is a positive constant
+parameter (SI Equations), we see that the lower limit of cell
+density that supports collective oscillations becomes a monotonically increasing function of the dilution rate (Fig. 5E)—in
+agreement with earlier experimental data (figure 2B in ref. 24).
+The most important suggestion of the present model is that
+the range of extracellular cAMP level that confers fully periodic
+collective oscillations should be dictated by the operation range of
+FCD. Such a view is supported from the estimates of the extracellular
+cAMP concentration at various cell densities. Under typical experimental parameters, owing to the high dilution rate (γ ∼ 6 min−1 in the
+present study) compared with the timescale of intracellular cAMP
+dynamics (∼1/7 min−1), the concentration of extracellular cAMP (z)
+can be estimated by applying quasi–steady-state approximation (SI
+Equations). At cell densities of 1/2 and 1/8 ML, where population
+of cells exhibited cAMP oscillations at a constant high frequency
+(Fig. 1C) (24), the estimated basal concentrations of extracellular
+cAMP are 0.72 nM for 1/2 ML and 0.18 nM for 1/8 ML, which are
+well within the FCD range (Fig. 2E; ≥0.1 nM). At 1/32 and 1/128
+ML where populations showed sporadic or no oscillation, the
+estimated extracellular cAMP are 0.05 nM for 1/32 ML and
+E4154 | www.pnas.org/cgi/doi/10.1073/pnas.1702181114
+
+0.01 nM for 1/128 ML, which lie at the border or outside the FCD
+range (Fig. 2E; <0.1 nM). Thus, the conditions that support fullamplitude ∼7-min period oscillations agree well with the FCD range.
+The critical relation between FCD and the oscillatory conditions is also vindicated by the suppression of oscillations in the
+presence of exogenous cAMP and/or at low cell densities as
+demonstrated experimentally (Fig. 1 B and C) as well as in the
+numerical simulations (Fig. 5F). Here, the model equations were
+extended to include the influx of exogenous cAMP (z0) by rewriting the equation for z as dz=dt = ρkt y − γðz − z0 Þ, which now
+violates the condition for scale invariance. The phase diagram in
+the parameter space (z0, ρ) obtained numerically shows a linear
+slope that demarcates the oscillatory and nonoscillatory domains
+(Fig. 5G), which closely resembles the phase diagram obtained
+experimentally (Fig. 1C). The feature of the phase diagram can
+be understood by the fold-change responsiveness of the constituent cells as follows. Under no exogenous cAMP, the estimated
+fold change in the extracellular cAMP level during the oscillations is zpeak(ρ)/zbasal(ρ), where zpeak and zbasal are the peak and
+basal concentrations of extracellular cAMP, respectively, both of
+which increase as a function of cell density (SI Equations).
+Conversely, in the presence of exogenous cAMP, the estimate
+would be Az (ρ, z0) = (zpeak(ρ) + z0)/(zbasal(ρ) + z0). Because Az is
+a decreasing function of z0 and increasing function of ρ, at higher
+concentrations of exogenous cAMP and/or at lower cell densities, the response becomes small and less likely to sustain oscillations. Our single-cell data (Fig. 2C) indicate that the change in
+the level of extracellular cAMP should be greater than ∼10-fold;
+Kamino et al.
+
+Discussion
+The present study demonstrated that the cAMP relay response is
+adaptive and fold-change dependent at low extracellular cAMP
+concentrations (≤10 nM). Based on the observed input–output
+relation, we proposed a model that consists of elements that
+obey FCD that well describes the cell density and extracellular
+cAMP conditions that support the population-level oscillations.
+Recently, an alternative model based on the Fitzhugh–Nagumo
+equations was proposed (26). There, it is thought that
+population-level oscillations emerge as a result of a stochastic
+threshold-like response to fluctuating levels of extracellular
+cAMP. Such a view contrasts markedly with the model proposed
+here where a positive-feedback loop between intracellular and
+extracellular cAMP and adaptation of the response give rise to
+oscillations—a deterministic scheme that shares its core idea
+with other earlier models (50). The appearance of frequency
+selectivity and a refractory period (26) do not suffice as a criteria
+for model selection as these behaviors were also reproduced in
+the current adaptation-based model (Fig. S2 B and C and SI
+Discussion). Experimentally, the obtained dose–response (Fig.
+2C) had no clear threshold but rather increased gradually—a
+feature not in support of an excitable noise-driven mechanism.
+Moreover, according to the Fitzhugh–Nagumo-type mechanism,
+inclusion of exogenous cAMP should give rise to more pulses of
+cAMP by increasing the chance to cross the response threshold.
+Our observations were quite the opposite. The oscillations were
+suppressed by exogenous cAMP (Fig. 1 B and C). Despite these
+caveats, we should note that the Fitzhugh–Nagumo-based model
+captures the sustained (i.e., nonadaptive) oscillatory response
+behavior (26) that occurs under prolonged stimulus in the nonFCD range (>10 nM cAMP) (24). These oscillations are driven
+intracellularly without the need for clearing of extracellular
+cAMP—a feature in favor of the Fitzhugh–Nagumo-type scheme.
+For the population-level oscillations, in contrast, a strict dependency on extracellular cAMP clearing has been demonstrated
+by a null-mutant of extracellular phosphodiesterase that cannot
+oscillate unless it is cleared of extracellular cAMP by perfusion
+(28). It may be that different cAMP receptor forms (52) or receptor types (53) with different binding constants transduce FCD
+and non-FCD signals.
+The present analysis and the proposed theoretical framework
+suggest that, when an adaptive response governed by FCD is
+incorporated into a “secrete-and-sense” circuitry (12, 44), the
+resulting cell–cell communication is robust to cell density change
+due to the scale-invariant property of the system equations. In
+the present analysis, the extracellular signaling molecule z is
+described by a relatively simple equation owing to the first-order
+secretion kinetics (13) and the constant dilution rate realized by
+perfusion. In addition, density robustness can also be realized in
+more complex situations, for example, nonlinear secretion kinetics, a density-dependent degradation rate, and spatial inhomogeneity (SI Equations, Fig. S7, and SI Discussion). Although the FCD
+mechanism could explain the ability of Dictyostelium cells to
+execute aggregating behavior at a wide range of cell density (21,
+22), the present findings do not rule out other mechanisms that
+may be at work in conjunction. cAMP-dependent regulation of a
+gene encoding extracellular PDE can provide robustness (28), in
+this case by keeping the level of extracellular cAMP within a
+desirable range. Cell–cell heterogeneity in the response sensiKamino et al.
+
+PNAS PLUS
+
+tivity could also render oscillations robust to cell density change
+(Fig. 2F, Left). We should note, however, that FCD at the single
+cell–level (Fig. 2H) alleviates the requirement for averaging over
+many cells, which could be critical in nature where averaging is
+limited by diffusion. Given the ubiquity of adaptation and
+secrete-and-sense circuits (12), FCD-based robustness may have
+a wide connotation in other multicellular phenomena. A case in
+point is the collective oscillations of NADH in yeast cell suspension whose amplitude and frequency are conserved for three
+orders of magnitude in cell density (54). In higher organisms,
+morphogen fields are dynamic and their temporal changes appear to be read out to regulate cell fates (10, 55). Traveling
+waves are also prevalent in embryonic development (56, 57). It
+would be interesting to explore whether the same mathematical
+principle applies in these and other systems.
+Materials and Methods
+Strains and Cell Culture. Dictyostelium discoideum AX4 cells expressing
+Epac1camps (Epac1camps/AX4) (24), PH domain of CRAC fused to monomeric
+red fluorescent protein (mRFP) (PHCRAC-RFP/AX4) (43), and both PHCRAC-RFP
+and Epac1camps (Epac1camps PHCRAC-RFP/AX4) were used. For coexpression,
+Epac1camps/AX4 cells were transformed with PHCRAC-RFP expression vector by
+electroporation. A clonal isolate showing normal development with relatively
+bright fluorescent for both probes was used for the analysis. Cells were grown
+at 22 °C in PS medium (58) with 10 μg/mL G418 and/or 60 μg/mL hygromycin B,
+where appropriate. Typically, 30-mL cell culture was shaken in an Erlenmeyer
+flask (250 mL; Bellco) at 155 rpm (Taitec; BR43-FL). Cells were propagated
+below ∼2 × 106 cells per mL. For live-cell imaging, cells were removed from
+growth medium by centrifugation for 3 min at 700 × g followed by resuspension in fresh developmental buffer (DB) (10 mM K/Na2 phosphate buffer,
+1 mM CaCl2, 2 mM MgCl2; pH 6.5). The washing step was repeated twice. The
+cells were resuspended in ∼1-mL DB at ∼2 × 107 cells per mL and allowed to
+differentiate for 4–5 h in a centrifuge tube shaken at 155 rpm (Taitec; BR43-FL).
+Perfusion and Live-Cell Microscopy. Starved cells were plated on a glassbottom dish at a cell density below 1 × 103 cells per cm2, and a perfusion
+chamber was constructed using an insert (RC-37F; Warner Instruments) as
+previously described (24), with the exception of results shown in Fig. 3, which
+used the lighthouse device (33) (SI Materials and Methods). After cells have
+attached to the bottom of the chamber, DB was perfused to remove effects
+from past stimuli at the rate of 4–8 mL/min, unless otherwise noted. For the
+cAMP relay study, the flow rate was kept at 8 mL/min for longer than 1 min
+before and after stepwise changes in the cAMP concentrations. At the given
+flow rate, one-half of the solution in the chamber was exchanged within 10 s
+as tested by monitoring fluorescein solution under a microscope. When
+there is no need to change the stimulus level, the flow rate was reduced to
+4 mL/min. For observations of population-level cAMP oscillations, the flow
+rate was 1.5 mL/min.
+Epifluorescent live-cell imaging of Epac1camps/AX4 cells was performed
+essentially as described in the previous work (24) using the same inverted
+microscopy system. In the present study, images were taken at 10- to 15-s
+intervals for total duration of ∼0.5–2 h. In addition, an image from the YFP
+channel was acquired to correct for cross-excitation immediately before
+time-lapse acquisition (SI Materials and Methods). To this end, cells were
+exposed for 30 ms with 495-nm light using an excitation filter (BP490500HQ; Olympus), which was further attenuated by 6% using neutral density filters. The emitted light was separated from the excitation by a dichroic
+mirror (DM505; Olympus).
+Confocal imaging of PHCRAC-RFP/AX4 and PHCRAC-RFP Epac1/AX4 was
+performed using an inverted microscope (IX-81; Olympus) equipped with an
+automated stage (BIOS-215T; Sigma Koki), a confocal scanning unit (CSU-X1;
+Yokogawa), and optical shutters (LS6ZM2; Uniblitz Electronics). An oilimmersion objective lens (60× PlanApo N, N.A. 1.42, or 20× UPlanSApo N,
+N.A. 0.85; Olympus) was used. The stage and the shutters were controlled by
+a stage controller (FC-101G; Sigma Koki) and a shutter driver (VMM-D3;
+Uniblitz Electronic), respectively. The device control and data acquisition
+were conducted using the Metamorph software (Molecular Devices). A
+445-nm laser (40 mW; Vortran Laser Technology) and a 561-nm laser (25 mW;
+Melles Griot) were used as light sources. For imaging PHCRAC-RFP, cells were
+exposed to 561-nm laser for 30 ms. The laser was attenuated by 50% with a
+neutral density filter. The fluorescent light was passed through an emission
+filter (BA575IF; Olympus). For Epac1camps-expressing cells, 445-nm laser
+attenuated by 50% using neutral density filters was applied for 50 ms. A set
+
+PNAS | Published online May 11, 2017 | E4155
+
+BIOPHYSICS AND
+COMPUTATIONAL BIOLOGY
+
+Downloaded from https://www.pnas.org by Universitaetsbibliothek Erlangen-Nuernberg on September 30, 2026 from IP address 131.188.6.13.
+
+otherwise, the response amplitude was markedly diminished, and
+there were no population-level oscillations. Consistent with such
+a view, the values of Az for conditions that supported the oscillations were always higher than those in the nonoscillatory
+conditions and the border between the two domains was at Az ∼
+10 (Table S1). These results suggest that the secrete-and-sense
+system that consists of FCD elements captures the essence of the
+density dependence of the oscillations.
+
+Downloaded from https://www.pnas.org by Universitaetsbibliothek Erlangen-Nuernberg on September 30, 2026 from IP address 131.188.6.13.
+
+of multiband dichroic mirror and filters (CFP/YFP/HcRed-3X3M-A; Semrock)
+was used except for the CFP excitation filter (BP425-445HQ; Olympus). Sixteenbit 512 × 512 pixel images were captured at 3- to 10-s interval using an EMCCD
+camera (Evolve 512; Photometrics). All image acquisition was performed at
+22 °C. Data were stored in tagged image file format (TIFF) files.
+ACKNOWLEDGMENTS. We thank all members of the S.S. Laboratory and
+the K. Kaneko Laboratory and T. S. Shimizu for stimulating discussions, P. R. ten
+
+Wolde for suggestions on an earlier version of the manuscript, and V. O.
+Nikolaev and M. J. Lohse for providing an Epac1camps plasmid. This work was
+supported by Japan Society for the Promotion of Science KAKENHI Grants
+JP25710022, JP15KT0076, JP16H01442, JP25103008 (to S.S.), and JP16K18537
+(to A.N.); Fellows Grant 23-10097 (to K. Kamino); Japan Science and Technology
+Agency Precursory Research for Embryonic Science and Technology Grant
+JPMJPR11AD (to S.S.); and the Agency for Medical Research and Development,
+Platform for Dynamic Approaches to Living System.
+
+1. Devreotes PN, Steck TL (1979) Cyclic 3′,5′ AMP relay in Dictyostelium discoideum.
+II. Requirements for the initiation and termination of the response. J Cell Biol 80:
+300–309.
+2. Koshland DE, Jr, Goldbeter A, Stock JB (1982) Amplification and adaptation in regulatory and sensory systems. Science 217:220–225.
+3. Ma W, Trusina A, El-Samad H, Lim WA, Tang C (2009) Defining network topologies
+that can achieve biochemical adaptation. Cell 138:760–773.
+4. Goentoro L, Shoval O, Kirschner MW, Alon U (2009) The incoherent feedforward loop
+can provide fold-change detection in gene regulation. Mol Cell 36:894–899.
+5. Shoval O, et al. (2010) Fold-change detection and scalar symmetry of sensory input
+fields. Proc Natl Acad Sci USA 107:15995–16000.
+6. Lazova MD, Ahmed T, Bellomo D, Stocker R, Shimizu TS (2011) Response rescaling in
+bacterial chemotaxis. Proc Natl Acad Sci USA 108:13870–13875.
+7. Adler M, Mayo A, Alon U (2014) Logarithmic and power law input-output relations in
+sensory systems with fold-change detection. PLoS Comput Biol 10:e1003781.
+8. Kamino K, Kondo Y (2016) Rescaling of spatio-temporal sensing in eukaryotic chemotaxis. PLoS One 11:e0164674.
+9. Goentoro L, Kirschner MW (2009) Evidence that fold-change, and not absolute level,
+of beta-catenin dictates Wnt signaling. Mol Cell 36:872–884.
+10. Wartlick O, et al. (2011) Dynamics of Dpp signaling and proliferation control. Science
+331:1154–1159.
+11. Lee REC, Walker SR, Savery K, Frank DA, Gaudet S (2014) Fold change of nuclear NF-κB
+determines TNF-induced transcription in single cells. Mol Cell 53:867–879.
+12. Youk H, Lim WA (2014) Secreting and sensing the same molecule allows cells to
+achieve versatile social behaviors. Science 343:1242782.
+13. Dinauer MC, MacKay SA, Devreotes PN (1980) Cyclic 3′,5′-AMP relay in Dictyostelium
+discoideum. III. The relationship of cAMP synthesis and secretion during the cAMP
+signaling response. J Cell Biol 86:537–544.
+14. Dinauer MC, Steck TL, Devreotes PN (1980) Cyclic 3′,5′-AMP relay in Dictyostelium
+discoideum. V. Adaptation of the cAMP signaling response during cAMP stimulation.
+J Cell Biol 86:554–561.
+15. Dinauer MC, Steck TL, Devreotes PN (1980) Cyclic 3′,5′-AMP relay in Dictyostelium
+discoideum. IV. Recovery of the cAMP signaling response after adaptation to cAMP.
+J Cell Biol 86:545–553.
+16. Fukujin F, Nakajima A, Shimada N, Sawai S (2016) Self-organization of chemoattractant waves in Dictyostelium depends on F-actin and cell-substrate adhesion. J R
+Soc Interface 13:20160233.
+17. Skoge M, et al. (2014) Cellular memory in eukaryotic chemotaxis. Proc Natl Acad Sci
+USA 111:14448–14453.
+18. Nakajima A, Ishihara S, Imoto D, Sawai S (2014) Rectified directional sensing in longrange cell migration. Nat Commun 5:5367.
+19. Alcantara F, Monk M (1974) Signal propagation during aggregation in the slime
+mould Dictyostelium discoideum. J Gen Microbiol 85:321–334.
+20. Lee KJ, Cox EC, Goldstein RE (1996) Competing patterns of signaling activity in
+Dictyostelium discoideum. Phys Rev Lett 76:1174–1177.
+21. Hashimoto Y, Cohen MH, Robertson A (1975) Cell density dependence of the aggregation characteristics of the cellular slime mould Dictyostelium discoideum. J Cell
+Sci 19:215–229.
+22. Gingle AR (1976) Critical density for relaying in Dictyostelium discoideum and its relation
+to phosphodiesterase secretion into the extracellular medium. J Cell Sci 20:1–20.
+23. Wang B, Kuspa A (1997) Dictyostelium development in the absence of cAMP. Science
+277:251–254.
+24. Gregor T, Fujimoto K, Masaki N, Sawai S (2010) The onset of collective behavior in
+social amoebae. Science 328:1021–1025.
+25. Kamino K, Fujimoto K, Sawai S (2011) Collective oscillations in developing cells: Insights from simple systems. Dev Growth Differ 53:503–517.
+26. Sgro AE, et al. (2015) From intracellular signaling to population oscillations: Bridging
+size- and time-scales in collective behavior. Mol Syst Biol 11:779.
+27. Börner S, et al. (2011) FRET measurements of intracellular cAMP concentrations and
+cAMP analog permeability in intact cells. Nat Protoc 6:427–438.
+28. Masaki N, Fujimoto K, Honda-Kitahara M, Hada E, Sawai S (2013) Robustness of selforganizing chemoattractant field arising from precise pulse induction of its breakdown enzyme: A single-cell level analysis of PDE expression in Dictyostelium. Biophys
+J 104:1191–1202.
+29. Tomchik KJ, Devreotes PN (1981) Adenosine 3′,5′-monophosphate waves in Dictyostelium
+discoideum: A demonstration by isotope dilution–fluorography. Science 212:443–446.
+30. Devreotes PN, Potel MJ, MacKay SA (1983) Quantitative analysis of cyclic AMP waves
+mediating aggregation in Dictyostelium discoideum. Dev Biol 96:405–415.
+31. Garcia GL, Parent CA (2008) Signal relay during chemotaxis. J Microsc 231:529–534.
+32. Kriebel PW, Barr VA, Rericha EC, Zhang G, Parent CA (2008) Collective cell migration
+requires vesicular trafficking for chemoattractant delivery at the trailing edge. J Cell
+Biol 183:949–961.
+33. Nakajima A, Ishida M, Fujimori T, Wakamoto Y, Sawai S (2016) The microfluidic
+lighthouse: An omnidirectional gradient generator. Lab Chip 16:4382–4394.
+
+34. Postma M, Van Haastert PJM (2016) Mathematics of experimentally generated chemoattractant gradients. Methods Mol Biol 1407:381–396.
+35. McMains VC, Liao X-H, Kimmel AR (2008) Oscillatory signaling and network responses during the development of Dictyostelium discoideum. Ageing Res Rev
+7:234–248.
+36. Sasaki AT, Chun C, Takeda K, Firtel RA (2004) Localized Ras signaling at the leading edge
+regulates PI3K, cell polarity, and directional cell movement. J Cell Biol 167:505–518.
+37. Comer FI, Lippincott CK, Masbad JJ, Parent CA (2005) The PI3K-mediated activation of
+CRAC independently regulates adenylyl cyclase activation and chemotaxis. Curr Biol
+15:134–139.
+38. Comer FI, Parent CA (2006) Phosphoinositide 3-kinase activity controls the
+chemoattractant-mediated activation and adaptation of adenylyl cyclase. Mol Biol
+Cell 17:357–366.
+39. Zhang S, Charest PG, Firtel RA (2008) Spatiotemporal regulation of Ras activity provides directional sensing. Curr Biol 18:1587–1593.
+40. Iijima M, Devreotes P (2002) Tumor suppressor PTEN mediates sensing of chemoattractant gradients. Cell 109:599–610.
+41. Brzostowski JA, et al. (2013) Phosphorylation of chemoattractant receptors regulates
+chemotaxis, actin reorganization and signal relay. J Cell Sci 126:4614–4626.
+42. Takeda K, et al. (2012) Incoherent feedforward control governs adaptation of activated ras in a eukaryotic chemotaxis pathway. Sci Signal 5:ra2.
+43. Taniguchi D, et al. (2013) Phase geometries of two-dimensional excitable waves
+govern self-organized morphodynamics of amoeboid cells. Proc Natl Acad Sci USA
+110:5016–5021.
+44. Fujimoto K, Sawai S (2013) A design principle of group-level decision making in cell
+populations. PLoS Comput Biol 9:e1003110.
+45. Skataric M, Sontag ED (2012) A characterization of scale invariant responses in enzymatic networks. PLoS Comput Biol 8:e1002748.
+46. Adler M, Szekely P, Mayo A, Alon U (2017) Optimal regulatory circuit topologies for
+fold-change detection. Cell Syst 4:171–181.e8.
+47. Hamadeh A, Ingalls B, Sontag E (2013) Transient dynamic phenotypes as criteria for
+model discrimination: Fold-change detection in Rhodobacter sphaeroides chemotaxis.
+J R Soc Interface 10:20120935.
+48. Iglesias PA, Shi C (2014) Comparison of adaptation motifs: Temporal, stochastic and
+spatial responses. IET Syst Biol 8:268–281.
+49. Shankar P, Nishikawa M, Shibata T (2015) Adaptive responses limited by intrinsic
+noise. PLoS One 10:e0136095.
+50. Martiel JL, Goldbeter A (1987) A model based on receptor desensitization for cyclic
+AMP signaling in Dictyostelium cells. Biophys J 52:807–828.
+51. Tang Y, Othmer HG (1994) A G protein-based model of adaptation in Dictyostelium
+discoideum. Math Biosci 120:25–76.
+52. Zhang M, Goswami M, Sawai S, Cox EC, Hereld D (2007) Regulation of G proteincoupled cAMP receptor activation by a hydrophobic residue in transmembrane helix
+3. Mol Microbiol 65:508–520.
+53. Insall RH, Soede RD, Schaap P, Devreotes PN (1994) Two cAMP receptors activate
+common signaling pathways in Dictyostelium. Mol Biol Cell 5:703–711.
+54. Aldridge J, Pye EK (1976) Cell density dependence of oscillatory metabolism. Nature
+259:670–671.
+55. Richards DM, Saunders TE (2015) Spatiotemporal analysis of different mechanisms for
+interpreting morphogen gradients. Biophys J 108:2061–2073.
+56. Ishimatsu K, Takamatsu A, Takeda H (2010) Emergence of traveling waves in the
+zebrafish segmentation clock. Development 137:1595–1599.
+57. Tsiairis CD, Aulehla A (2016) Self-organization of embryonic genetic oscillators into
+spatiotemporal wave patterns. Cell 164:656–667.
+58. Sawai S, Thomason PA, Cox EC (2005) An autoregulatory circuit for long-range selforganization in Dictyostelium cell populations. Nature 433:323–326.
+59. Nikolaev VO, Bünemann M, Hein L, Hannawacker A, Lohse MJ (2004) Novel single chain
+cAMP sensors for receptor-induced signal propagation. J Biol Chem 279:37215–37218.
+60. Gordon GW, Berry G, Liang XH, Levine B, Herman B (1998) Quantitative fluorescence
+resonance energy transfer measurements using fluorescence microscopy. Biophys J
+74:2702–2713.
+61. Xia Z, Liu Y (2001) Reliable and global measurement of fluorescence resonance energy transfer using fluorescence microscopes. Biophys J 81:2395–2402.
+62. Nakajima A, Sawai S (2016) Dissecting spatial and temporal sensing in Dictyostelium
+chemotaxis using a wave gradient generator. Methods Mol Biol 140:107–122.
+63. Postma M, et al. (2003) Uniform cAMP stimulation of Dictyostelium cells induces localized
+patches of signal transduction and pseudopodia. Mol Biol Cell 14:5019–5027.
+64. Goldbeter A (1996) Biochemical Oscillations and Cellular Rhythms: The Molecular
+Bases of Periodic and Chaotic Behaviour (Cambridge Univ Press, Cambridge, UK).
+65. Tyson JJ, Murray JD (1989) Cyclic AMP waves during aggregation of Dictyostelium
+amoebae. Development 106:421–426.
+66. Tyson JJ, Alexander KA, Manoranjan VS, Murray JD (1989) Spiral waves of cyclic AMP
+in a model of slime mold aggregation. Physica D 34:193–207.
+
+E4156 | www.pnas.org/cgi/doi/10.1073/pnas.1702181114
+
+Kamino et al.
+
+BIOPHYSICS AND
+COMPUTATIONAL BIOLOGY
+
+PNAS PLUS
+
+69. Geberth D, Hütt M-T (2009) Predicting the distribution of spiral waves from cell
+properties in a developmental-path model of Dictyostelium pattern formation. PLoS
+Comput Biol 5:e1000422.
+70. Pálsson E (2009) A cAMP signaling model explains the benefit of maintaining two
+forms of phosphodiesterase in Dictyostelium. Biophys J 97:2388–2398.
+
+Downloaded from https://www.pnas.org by Universitaetsbibliothek Erlangen-Nuernberg on September 30, 2026 from IP address 131.188.6.13.
+
+67. Pálsson E, Cox EC (1996) Origin and evolution of circular waves and spirals in Dictyostelium discoideum territories. Proc Natl Acad Sci USA 93:1151–1155.
+68. Lauzeral J, Halloy J, Goldbeter A (1997) Desynchronization of cells on the developmental path triggers the formation of spiral waves of cAMP during Dictyostelium aggregation. Proc Natl Acad Sci USA 94:9153–9158.
+
+Kamino et al.
+
+PNAS | Published online May 11, 2017 | E4157
+
+

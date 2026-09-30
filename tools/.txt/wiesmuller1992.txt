@@ -1,0 +1,440 @@
+Communication
+
+THEJOURNAL
+OF BIOLOGICAL
+CHEMISTRY
+Vol. 267 No. 15 Issue of May 25 pp. 10207-10210 1992
+0 1992 by The AmericanSocilty for Biochemistry and Molecular BioloG, Inc.
+Printed in U.S.A.
+
+Expression ofthe GTPase
+Activating Domain ofthe
+Neurofibromatosis Type 1 (NF1)
+Gene in Escherichia coliand Role
+of the ConservedLysine Residue*
+(Received for publication, February 14, 1992)
+
+Lisa Wiesmuller and Alfred Wittinghofer
+From the Max-Plunck-Institut fur Mediziniche
+Forschung, Abteilung Biophysik, Jahnstrabe
+29,6900Heidelberg, Germany
+
+et al., 1991; Xu et al., 1991). For studies on the structure and
+function of the catalytic domain we have expressed in E. coli
+a minimal GTPase activating domain of NF1-GRD comprising 333 amino acids analogous to the GAP-334 domain of
+p12O-GAP expressed earlier (Halenbeck et al., 1990; Gideon
+et al., 1992). Wehave investigated the biochemical properties
+of the purified protein and mutated a lysine residue (Lys1422) that is totally conserved in all GAP-like proteins in
+order to investigate its possible involvement in the catalytic
+mechanism of GTP hydrolysis of p21”.
+MATERIALS AND METHODS
+
+Cloning Procedures”pAC3NFl (Martin etal., 1990) was used in a
+
+A small catalytic domain from the neurofibromatosis PCR amplification reaction to produce a fragment that codes for a
+type 1 gene, NF1-333, consisting of 333 amino acids 333-amino acid fragment and can be cloned into the NcoI-Hid11
+between residues 1197 and 1528, including an addi- sites of the E.coZi expression vector ptrc99A (Ammann et al., 1988).
+tional N-terminal methionine,was expressed inEsch- Forward and reverse primer were 5”AGGAGGAGGCCATGGAAAerichia coli as a soluble protein. Its catalytic activity CAGTATTGGCTGATCGGTTTGA-3’ and 5”CCTCCTCCTAAGunder non-saturating conditionsis similar to the full- CTTCCTCTATTACTCTGGAGGACCCAGGTATGCAAG-3’, relength p12O-GAP but different from truncatedGAP- spectively.
+A PCR reaction with 30 cycles (30 s a t 92 “C, 60 s at 60 “C, 90 s at
+334. Under saturating conditions its ktand KM are
+72
+“C) was done under standard conditions using 150 ng of template
+lower. Lys-1422, which is totally conserved inall GAP DNA,
+50 pmol of oligonucleotides, 200 QM dNTPs, 4 units of Taq
+proteins, was mutated and the properties of the mutant
+polymerase in PCR buffer (Boehringer). Fragments were isolated
+protein investigated. Lys-1422 seems to be essential using Geneclean (Renner GmbH), digested with NcoI and HindIII,
+for the stability of the proteins and not its
+forcatalytic and ligated into the corresponding ptrc99A fragment. The sequence
+activity.
+of the insert was verified by DNA sequencing using the T7polymerase
+
+kit from Pharmacia. For expression of the protein from the plasmid
+ptrcNF1-333 we used E. coli XllBlue (Bullock et al.,1987).
+For mutagenesis of the NF1-333 coding region, the EcoRI-HindIII
+fragment comprising 531 base pairs was cloned into M13 mp9. MuNeurofibromatosis type 1 (NF1)’ is a very common auto- tation was done with the mutagenesis kit from Amersham Buchler
+somal dominant disorder in humans. Recently a genewas
+using the oligonucleotide 5’-TGAAGTTAATGTCAAT*GATACidentified with exon-based mutations in patients suffering TTCAGAGTAT-3’ (mutating base indicated with an asterisk). After
+from NF1 neurofibromatosis (Cawthon et al., 1990; Wallace verifying the sequence over the entire EcoRI-Hind111fragment, the
+et al., 1991; Viskochil et al., 1990). Sequence analysis of the mutated sequence was recloned into the expression vector ptrcNF1corresponding cDNA predicted a gene within which a region 333.
+Protein Purification-100 g (wet weight) of E. coli cells were
+of approximately 400 amino acids had 30% similarity to the suspended in 500 ml of buffer A: 50 mM Tris-HC1, pH 8.0, 1 mM
+catalytic domain of yeast IRA proteins and the mammalian EDTA, 1 mM DTE. All buffers contained in addition the following
+et al., 1990a). These protease inhibitors: 0.5 mM PMSF, 0.2 mg/ml sodium azide, 1 pg/ml
+GTPase activating protein GAP (Xu
+proteins accelerate the GTPase of wild-type p21”” proteins pepstatin (Sigma), and 1 pg/ml leupeptin (Sigma). Cells are lysed
+and do not increase the GTPase rate of oncogenic mutants. with lysozyme, deoxycholate, and DNAse I as described (Tucker et
+For the GAP-related domain of NF1 (NF1-GRD) it has also al., 1986). The high speed supernatant was loaded onto Q-Sepharose
+(Pharmacia; 5.5 X 29) in buffer A, washed with the same buffer, and
+been shown that it stimulates the GTPase reaction of wild- eluted
+with a linear gradient of 0-250 mM NaCl in buffer A. NF1,
+type but not of oncogenic p21 (Martin et al., 1990; Xu et al., which eluted at 90 mM NaC1, was monitored by its GAP activity
+199Ob; Ballester et al. 1990). In order to indicate that there using the assay described below.
+The pool of NF1 activity was dialyzed against the chromatofocusing
+are two mammalian GTPase activating proteins they have
+been named NF1-GAP andpl20-GAP (Bollag and Mc- buffer: 25 mM Tris-acetate (pH 8.3), 1 mM EDTA, 1 mM DTE, plus
+protease inhibitors as above. The solution was loaded onto a column
+Cormick, 1991).
+(1.5 X 60 cm) of Polybuffer Exchanger PBE 94 (Pharmacia) and
+So far the NF1-GRD has been expressed in Sf9 insect cells washed
+with the chromatofocusing buffer. NF1 activity was eluted
+as a tagged protein consisting of 483 amino acids and in
+along a pH gradient at pH 6.6 with one liter polybuffer formed with
+Escherichia coli with 364 amino acids of NF1-GRD as part of 3% Polybuffer 96 (Pharmacia) and 7% Polybuffer 74 (Pharmacia), 1
+a fusion protein containing glutathione S-transferase (MartinmM EDTA, 1 mM DTE, and protease inhibitors.
+The pooled NF1 fractions were dialyzed against saturated ammo* This work was supported in part by Hoffmann-LaRoche (grant nium sulfate and the resulting precipitate dissolved in buffer B: 25
+t o L. W.). The costs of publication of this article were defrayed in mM Tris-HC1 (pH 7.4), 1 mM EDTA, 1 mM DTE, plus inhibitors.
+part by the payment of page charges. This article must therefore be The solution was chromatographed over a G-75 (Pharmacia) gel
+hereby marked “aduertisement” in accordance with 18U.S.C. Section filtration column. Protein concentrations were determined following
+the method of Bradford (1976) using bovine serum albumin as stand1734 solely to indicate this fact.
+’ The abbreviations used are: NF1, neurofibromatosis type 1; GAP, ard.
+GTPase activating protein; PCR, polymerase chain reaction; DTE,
+GAP Activity Meosurements-GTPase assay were done as dedithioerythritol; PMSF, phenylmethylsulfonyl fluoride; SDS, sodium scribed previously (John et al., 1989; Frech et al., 1990) by loading
+dodecyl sulfate; Hepes, 4-(2-hydroxyethyl)-l-piperazineethanesul- p21’” expressed in E. coli (Tucker et al., 1986) with [T-~*P]GTP.
+fonic acid; NF1-GRD, GAP-related domain of NF1.
+Excess nucleotide was removed on a NAP-5 gel filtration column
+
+10207
+
+This is an Open Access article under the CC BY license.
+
+NF1 Expression
+
+10208
+472
+127
+
+TABLEI
+Enzymatic properties of NFI-333 as compared with pl20-GAP and
+GAP-334
+
+766
+
+Protein
+
+GAP (H.s.)
+
+Ah
+
+Specific activity"
+units&
+
+kat KM T#hb ICdNaCIY
+s"
+
+pM
+
+"c
+
+mM
+
+0.3
+1.4200
+70
+1575
+NF1-333
+59
+?
+? 30
+26-1443
+NF1-333(K1422M)
+19
+9.7 ND 30-40'
+1833
+pl20-GAPd
+ND
+4.2 19 ND
+GAP-334d
+330
+One unit is defined as the amount of GAP activity necessary to
+catalyze hydrolysis of 1 nmol of p21-bound GTP at 1 PM p21-GTP,
+in standard buffer, a t 25 "C.
+Tohis the temperature a t which half the enzymatic activity is
+(irreversibly) lost during a 20-min incubation.
+e IC5a(NaCl)is the concentration of NaCl necessary for 50% inhibition of GAP activity.
+These values are from Gideon et al. (1992).
+'From McCormick et al. (1988) and Gibbs et al. (1988).
+
+I
+
+Consensus AVGSFVFJ&Fl--mIVS_P --- NllD - RPTLl -- AK -- IQS - AN
+895
+
+942
+
+FIG. 1. Alignment of sequences containing a GTPaseactivating domain. The actual catalytic domain is black; additional
+homologies are shaded. The sequences are from man (H.s.),Saccharomyces cerevisine (S.C.) and Schizosaccharomycespombe (S.P.). The
+consensus sequence containing totally conserved residues (underlined) is from Wang et al. (1991).
+
+M
+
+I
+
+2
+
+3
+
+4
+
+5
+
+~~
+
+--
+
+,.-
+
+8.00
+7.00
+
+6.00
+
+k 5.00
+
+7
+
+c
+.-
+
+E
+0
+E
+
+Q
+
+4.00
+3.00
+
+I
+
+a
+
+I
+
+F
+
+2.00
+1.oo
+
+0.00
+0.00
+
+1.00
+
+2.00
+
+3.00
+
+5.00
+
+4.00
+
+[p21 -GTP] VM
+FIG. 3. Michaelis-Mentenkinetics of the p21-GAP interaction. GTPase initial reaction rates were measured with a constant
+amount of NF1-333 and increasing concentrations of p21-GTP. By
+non-linear fitting we obtain the KM and kcatvalues shown in Table I.
+
+FIG. 2. Purification of NF1-333. The SDS-polyacrylamide gel
+shows various fractions during the purification of NF1-333, which is
+described under "Materials and Methods." Lune 1, crude soluble
+extract; lane 2, Q-Sepharose pool; lane 3, PBE 94 pool; lane 4, G-75
+pool.Molecular markers have the following molecular masses (in
+kDa) from top to bottom: 106,80,49.5,32.5, 27.5, 18.5. Lune 5 shows
+pure NF1-333as a double band, which was produced during a different
+preparation.
+(Pharmacia) in the GAP reaction buffer: 20 mM Hepes-NaOH, pH
+7.6, 1 mM DTE. The GTPase reaction in the presence of the appropriate amount of NF1-333 and 2 mM M&12 was measured by following the decrease of [-p3'P]GTP bound to p21 by nitrocellulose filtration. p21-[y-"]GTP concentration was 1 PM. The decrease of radioactivity with time was fitted by a single-exponential decrease function
+using the program Enzfitter (Elsevier Biosoft). The initial linear
+portion of the reaction was used as the initial rate of the reaction.
+The error of these measurements is 15%. For the determination of
+KMand katvalues, the initial rates measured with increasing concentrations of p21 were fitted directly to theMichaelis-Menten reaction
+using the program Enzfitter.
+Protease Digestion-NF1-333 was treated with the protease trypsin
+at a ratio 1OO:l (w/w) in 20 mM Tris-HC1 (pH 8.5), 1 mM EDTA, 5
+mM DTE. Aliquots of the reaction were taken out, and the reaction
+
+10
+
+20
+
+3040
+
+50 60 70
+
+SO
+
+90
+
+100
+
+temperature ( OC)
+FIG. 4. Thermal stability of wild-type and mutant K1422M
+NF1-333. Proteins in buffer are incubated a t the indicated temperatures for 20 min and immediately analyzed for the ability to catalyze
+the GTPase reaction of p21-GTP. The dataare plotted as theresidual
+activity of the protein after incubation. 0,wild-type; B,mutant.
+was terminated with 1 mM PMSF and analyzed on SDS-polyacrylamide gels.
+RESULTS AND DISCUSSION
+
+Fig. 1 shows the alignment of the GTPase activating domain of various proteins (Imai et aZ., 1991) and the derived
+consensus sequence in the most highly conserved regions.
+
+NF1 Expression
+
+10209
+
+some NF1-333 preparations (lam 5) the protein runs as a
+double band containing an additional 33-kDa impurity, and
+it appears that sometimes the lower band is purified. This
+seems to be a proteolysis product obtained during the preparation. The double band product has been sequencedand has
+been found to contain a uniform N terminuswith the sequence
+METVLADRFERLVE, as expected from the construction of
+the plasmid. This means that thesecond band is a breakdown
+product of NF1-333 and hasbeen digested at the Cterminus,
+even though protease inhibitors have alwaysbeen used.
+Table I lists the enzymatic properties of the purified protein. When the specific activity is measured under conditions
+where it is linearly dependent on the concentration of NF1c
+333 (5 nM) and p21 (1 PM p21-GTP), it is found to be
+approximately 3 times smaller than the specific activity of
+full-length human GAP on a molar basis (the molecular
+I
+masses are 38 kDa compared with 120 kDa) and much higher
+than the specific activity of the C-terminal fragment GAP334, which has a comparable molecular mass (Table I) (Halenbeck et al., 1990; Gideon et al., 1992).
+K1422M
+We have also measured the catalytic activity of NF1-333
+with increasing concentrations of p21-GTP (Fig. 3). On the
+assumption that p21-GTP is the substrate and NF1-333 is
+and KM, which are
+the enzyme we obtain valuesfor
+different from the values obtained for pl20-GAP (Table I).
+The maximal rate of GTP hydrolysis in the presence of NF1333 is 1.4 s-I. Since the uncatalyzed GTP hydrolysis reaction
+of p21 is 1.2 x
+s” under the same conditions, it means
+that thereaction is stimulated 1.1x lo4-fold.The stimulation
+is thus about10-fold loweras compared with full-length GAP,
+and theK M is also much lower. The higher affinity of p21 for
+NF1-GRD and the lower catalytic potential have been noted
+before with recombinant protein obtained from baculovirus
+(Martin et al., 1990). The K M value reported here agrees very
+well with the K D value measuredby inhibition studies (Martin
+et al., 1990). It should also be mentioned that the $.JKM
+value, the specificity constant for the enzymatic reaction, is
+M 0 30 60 90 120 180 240 360
+4.7 X lo6 M” s” for NF1-333 and thus very similar to that
+FIG. 5. Protease digestion of wild-type NF1-333 and mu- for pl20-GAP, but much higher than for GAP-334. Contrary
+tant K1422M.The proteins were incubated with trypsin in a ratio to what is found for pl20-GAP it appears that in NF1-GAP
+of 100/1 (w/w) at 25 “C for the indicated times (in min) asdescribed the catalytic domain is sufficient for full activity, unless it
+under “Materials and Methods.” The reaction was terminated with turns out that
+full-length NF1-GAP has an even higheractivPMSF, electrophoresed on SDS-polyacrylamide gel electrophoresis
+ity
+than
+full-length
+pl20-GAP.
+gels, and stained with Coomassie Blue. Molecular weight markers are
+Fig. 1shows the totally conserved amino acids from a region
+as in Fig. 2.
+of the catalytic domain that is the most highly conserved. It
+has been speculated that theGTPase reaction in the presence
+Amino acids totally conserved in all GAPS and GAP-like of GAP might have a mechanism different from that which
+proteins are underlined (Wang et al., 1991). NF1 contains a has been proposed forthe uncatalyzed GTPase reaction (Witregion whichis considered the actual catalytic domain and in tinghofer and Pai, 1991;Pai et al., 1990).It could beenvisioned
+addition a region of homology to the yeast IRA proteins, that GAP supplies additional catalytic residues for improved
+which is not present in pl20-GAP. We have constructed an GTP hydrolysis. Potential candidates for such catalytic resiE. coli plasmid from which a supposedly minimal catalytic dues could be the totally conserved arginine and lysine residomain of NF1 comprising 333 amino acids can be expressed. dues shown in Fig. 1. Arginine in p12O-GAP has already been
+I t covers a similar region of amino acid sequence as GAP-334 shown to be involved in catalysis (Skinner et al., 1991). Here
+described earlier (Halenbeck et al., 1990; Gideonet al., 1992). we mutated Lys-1422 to Met (for numeration see Gutmann
+Pure NF1-333 can be obtained by a three-column purification et al., 1991) and investigated the properties of the mutant
+procedure involving ion-exchange chromatography on Q- protein NF1-333(K1422M). The protein was purified by the
+Sepharose, chromatofocusing on PBE 94, and gel filtration same procedure as wild-type protein and was found to elute
+over G-75as described in detail under “Materials and Meth- under the same conditions from chromatographic columns.
+ods.” Fig. 2 shows an SDS-polyacrylamide gel summarizing The results of activity measurements were found to be irrethe purification steps. From 100 g of cells, 3.4 mg of purified producible. The specific activity varied between 26 and 1443
+NF1-333 can be obtained, which corresponds to 9% of the unitslmg. The reason for this can be seen in Fig. 4, which
+GAP activity originally present in the crude bacterial extract. shows the inactivation with temperature of wild-type and
+On a SDS-polyacrylamide gel electrophoresis gel NF1-333 mutant protein. Although an exact melting temperature has
+has an apparent molecular mass of 34kDa, whereas the not been determined it is clear that the thermal stability of
+calculated molecular mass is 38 kDa. Fig. 2 shows that in NF1-333(K1422M) is greatly reduced, the difference in the
+
+$.,
+
+10210
+
+NF1 Expression
+
+inactivation temperatureof the catalytic activity being 40 "C.
+Thus itis not surprising that during different preparations of
+the protein different amounts of protein are inactivated.
+Another indication of the stability of the protein comes
+from protease digestion experiments shown in Fig. 5. It shows
+that both proteins are
+readily digested by trypsin under native
+conditions to a polypeptide of approximately 31 kDa. However, the Lys-1422 mutant is digested much faster to a smaller
+fragment with 29 kDa with a half-life of less than 30 min,
+whereas the half-life for the wild-type protein is around 240
+min.
+It has been noted before that the GTPase
+activating activity
+of GAP is very sensitive to salts (McCormick et d., 1988;
+Gibbs et al., 1988).A remarkable difference between wild-type
+and mutant NF1-333 is the much higher sensitivity of the
+catalytic activity of the mutant protein toward sodium chloride (Table I). With 59 mM NaCl 50% of the activity is lost,
+whereas wild-type protein has an ICso value of 200 mM. The
+catalytic activity of NF1-333 is thus less sensitive to salts
+than thatof pl20-GAP (McCormick et al., 1988, Gibbs et al.,
+1988).
+From these experiments it appears that the totally conserved lysine residue is importantfor the thermalstability of
+the GAP proteins. It seems likely that the side-chain amino
+group is not free on the surface and available for interaction
+with p21-GTP, but rather
+stabilizes the protein via an internal
+hydrogen bond or an ionic interaction.
+Acknowledgment-We thank Ken Holmes for general support.
+REFERENCES
+Ammann, E., Ochs, B., and Abel, K.-J. (1988)Gene (Amst.) 69,301315
+Ballester, R., Marchuk, D., Boguski, M., Saulino, A., Letcher, R.,
+Wigler, M., and Collins, F. (1991)Cell 63,851-859
+Bollag, G., and McCormick, F. (1991)Nature 351,576-579
+Bradford, M. M. (1976)Anal. Biochem. 72,248-254
+Bullock, W. O., Fernandez, J. M., and Short, J. M. (1987)Biotechniques 6,376-380
+
+Cawthon, R. M., Weiss, R., Xu, G., Viskochil, D., Culver, M., Stevens,
+J., Robertson, M., Dunn, D., Gesteland, R., O'Connell, P., and
+White, R. (1990)Cell 62,193-201
+Frech, M., John, J., Pizon, V., Chardin, P., Tavitian, A., Clark, R.,
+McCormick, F., and Wittinghofer, A. (1990)Science 249,169-171
+Gibbs, J. B., Schaber, M. D., Allard, W. J., Sigal, I. S., and Scolnick,
+E. M. (1988)Proc. Natl. Acad. Sci. U. S. A. 86, 5026-5030
+Gideon, P., John, J., Frech, M., Lautwein, A., Clark, R., Scheffler, J.
+E., and Wittinghofer, A. (1992)Mol. Cell. Biol., in press
+Gutmann, D. H., Wood, D. L., and Collins, F. S. (1991)Proc. Natl.
+Acad. Sci. U. S. A. 88,9568-9662
+Halenbeck, R., Crosier, W. J., Clark, R., McCormick, F., and Koths,
+K. (1990)J. Biol. Chem. 265,21922-21928
+Imai. Y., Miyake, S., Hughes, D. A., and Yamamoto, M. (1991)Mol.
+Cell. Biol. 11, 3088-3094
+John, J., Schlichting, I., Schiltz, E., Rosch, P., and Wittinghofer, A.
+(1989)J. Biol. Chem. 264, 13086-13092
+Martin, G. A,, Viskochil, D., Bollag, G., McCabe, P. C., Crosier, W.
+J., Haubruck, H., Conroy, L., Clark, R., O'Connel, P., Cawthon, R.
+M., Innis, M. A., and McCormick, F. (1991)Cell 63,843-849
+McCormick, F., Adari, H., Trahey, M., Halenbeck, R., Koths, K.,
+Martin, G. A., Crosier, W. J., Watt, K., Rubinfeld, B., and Wong,
+G. (1998)Cold Spring Harbor Symp. Quunt. Biol. 53,849-853
+Pai, E. F., Krengel, U., Petsko, G. A., Goddy, R. S., Kabsch, W., and
+Wittinghofer, A. (1990)EMBO J. 9,2351-2359
+Skinner, R. H., Bradley, S., Brown, A. L., Johnson, N. J. E., Rhodes,
+S., Stammers, D. K., and Lowe, P. N. (1991)J. Biol. Chem. 266,
+14163-14166
+Tucker, J., Sczakiel, G., Feuerstein, J., John, J., Goody, R. S., and
+Wittinghofer, A. (1986)EMBO J. 5, 1351-1358
+Viskochil, D., Buchberg, A. M., Xu, G., Cawthon, R. M., Stevens, J.,
+Wolff, R. K., Culver, M., Carey, J. C., Copeland, N. G., Jenkins,
+N. A., White, R., and O'Connell, P. (1990)Cell 62,187-192
+Wallace, M. R., Andersen, L.B., Saulino, A.M., Gregory, P. E.,
+Glover, T. W., and Collins, F. S. (1991)Nature 353,864-866
+Wang, Y., Boguski, M., Riggs, M., Rodgers, L. and Wigler, M. (1991)
+Cell Regul. 2,453-456
+Wittinghofer, A. and Pai,E. F. (1990)Trends Biochem. Sci. 16,382387
+Xu, G.,O'Connel, P., Viskochil, D., Cawthon, R., Robertson, M.,
+Culver, M., Dunn, D., Stevens, J., Gesteland, R., White, R., and
+Weiss, R. (1990a)Cell 62,599-608
+Xu, G., Lin, B., Tanaka, K., Dunn, D., Wood, D., Gesteland, R.,
+White, R., Weiss, R., and Tamanoi, F. (1990b)Cell 63,835-841
+
+

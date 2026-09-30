@@ -1,0 +1,1304 @@
+4502
+
+Research Article
+
+Ras activation and symmetry breaking during
+Dictyostelium chemotaxis
+Arjan Kortholt, Ineke Keizer-Gunnink, Rama Kataria and Peter J. M. Van Haastert*
+Department of Cell Biochemistry, University of Groningen, Nijenborgh 7, 9747 AG Groningen, The Netherlands
+*Author for correspondence (P.J.M.van.haastert@rug.nl)
+
+Journal of Cell Science
+
+Accepted 9 July 2013
+Journal of Cell Science 126, 4502–4513
+ß 2013. Published by The Company of Biologists Ltd
+doi: 10.1242/jcs.132340
+
+Summary
+Central to chemotaxis is the molecular mechanism by which a shallow spatial gradient of chemoattractant induces symmetry breaking of
+activated signaling molecules. Previously, we have used Dictyostelium mutants to investigate the minimal requirements for chemotaxis,
+and identified a basal signaling module providing activation of Ras and F-actin at the leading edge. Here, we show that Ras activation
+after application of a pipette releasing the chemoattractant cAMP has three phases, each depending on specific guanine-nucleotideexchange factors (GEFs). Initially a transient activation of Ras occurs at the entire cell boundary, which is proportional to the local
+cAMP concentrations and therefore slightly stronger at the front than in the rear of the cell. This transient Ras activation is present in ga2
+(gpbB)-null cells but not in gb (gpbA)-null cells, suggesting that Gbc mediates the initial activation of Ras. The second phase is
+symmetry breaking: Ras is activated only at the side of the cell closest to the pipette. Symmetry breaking absolutely requires Ga2 and
+Gbc, but not the cytoskeleton or four cAMP-induced signaling pathways, those dependent on phosphatidylinositol (3,4,5)-triphosphate
+[PtdIns(3,4,5)P3], cGMP, TorC2 and PLA2. As cells move in the gradient, the crescent of activated Ras in the front half of the cell
+becomes confined to a small area at the utmost front of the cell. Confinement of Ras activation leads to cell polarization, and depends on
+cGMP formation, myosin and F-actin. The experiments show that activation, symmetry breaking and confinement of Ras during
+Dictyostelium chemotaxis uses different G-protein subunits and a multitude of Ras GEFs and GTPase-activating proteins (GAPs).
+Key words: Chemotaxis, Shallow gradients, Ras, Amplification, Synergy, Symmetry breaking
+
+Introduction
+Ras belongs to the family of small G-proteins that function as
+molecular switches to control a wide variety of important cellular
+functions. They switch between an inactive GDP-bound and
+active GTP-bound state. Ras activity is regulated by guaninenucleotide-exchange factors (GEFs) that catalyze the exchange of
+GDP for GTP, thereby activating the Ras protein. GTPaseactivating proteins (GAPs) stimulate an otherwise low intrinsic
+GTPase activity by many orders of magnitude, thereby
+converting the protein back into the inactive GDP-bound form
+(Bourne et al., 1991; Vetter and Wittinghofer, 2001).
+Owing to its genetic tractability and high conservation of many
+important signaling pathways, Dictyostelium has proven to be an
+excellent model for studying small G-protein signaling (Charest
+and Firtel, 2007; Kortholt and van Haastert, 2008; Rivero and
+Somesh, 2002; Sasaki et al., 2004; Weeks, 2005). Genetic studies
+have shown that Ras proteins are involved in regulation of the
+cytoskeleton, cell cycle, growth, cell polarity, chemotaxis, and
+photo- and thermotaxis of multicellular slugs (Chubb et al., 2000;
+Chubb et al., 2002; Reymond et al., 1984; Sutherland et al., 2001;
+Weeks, 2005; Wilkins et al., 2000b). RasC and RasG are the bestcharacterized Dictyostelium Ras proteins; both are activated in
+response to cAMP (Kae et al., 2004), and are important for the
+regulation of the cAMP relay and cAMP-mediated chemotaxis,
+respectively (Bolourani et al., 2006; Charest et al., 2010; Lim
+et al., 2001; Lim et al., 2005; Tuxworth et al., 1997).
+Gradients of diffusive chemicals give rise to chemotaxis
+(Hoeller and Kay, 2007; Swaney et al., 2010). Sensitive cells,
+
+such as Dictyostelium or neutrophils, can detect very shallow
+spatial gradients of ,1% concentration difference across the cell
+(Mato et al., 1975). Concepts from physics and mathematical
+models have been employed to understand how cells can detect
+such minute spatial signals against a large background of mean
+chemoattractant concentration. These concepts include symmetry
+breaking to generate a front and rear, signal amplification to
+enhance spatial differences and time averaging of spatial
+information to reduce stochastic noise (Ambrosi et al., 2004;
+Causin and Facchetti, 2009; Tranquillo et al., 1988; Ueda and
+Shibata, 2007; van Haastert and Postma, 2007).
+The signal transduction cascade for chemotaxis consists of
+surface receptors, heterotrimeric and small G-proteins, and
+numerous signaling enzymes, leading to the local activation of
+the cytoskeleton, predominantly F-actin at the front, and myosin
+filaments at the side and the rear of the cell. In Dictyostelium, a
+shallow gradient of cAMP induces the activation of cAMP
+receptors and the associated heterotrimeric G-protein Ga2bc in a
+manner that is approximately proportional to the steepness of the
+gradient (Elzie et al., 2009; Jin et al., 2000; Xiao et al., 1997). In
+contrast, activation of Ras is much stronger in the front than in
+the rear of chemotaxing cells (Charest et al., 2010; Kortholt et al.,
+2011; Sasaki et al., 2004; Sasaki and Firtel, 2006; Zhang et al.,
+2008). Several studies have shown that inactivation of both rasC
+and rasG results in defective cAMP-mediated chemotaxis
+(Bolourani et al., 2006; Kortholt et al., 2011). Four signaling
+enzymes, PI3K, TorC2, PLA2 and sGC, have been implicated in
+chemotaxis (Chen et al., 2007; Kamimura et al., 2008; Liao et al.,
+
+Journal of Cell Science
+
+Symmetry breaking of Ras activation
+
+4503
+
+2010; Veltman et al., 2008). Cells lacking all four enzyme
+activities show normal Ras activation in cAMP gradients, but can
+only exhibit chemotaxis in steep cAMP gradients (Kortholt et al.,
+2011). These observations suggest that symmetry breaking during
+chemotaxis occurs at the level of Ras activation, and that
+activation of downstream signaling pathways is not essential for
+Ras activation and chemotaxis.
+Dictyostelium Ras activation occurs downstream of
+heterotrimeric G-protein signaling (Kae et al., 2004; Sasaki
+et al., 2004), but the exact mechanism is not well understood.
+Here we used a sensitive assay to visualize Ras activation in cells
+in defined gradients of cAMP. We show that Ras activation after
+application of a stable cAMP gradient has three phases. Initially,
+a transient activation of Ras occurs at the entire cell boundary,
+which is proportional to the local cAMP concentrations and
+therefore slightly stronger at the front than in the rear of the cell.
+The second phase is symmetry breaking: Ras is activated only at
+the side of the cell closest to the pipette. During the third phase,
+the crescent of activated Ras in the front half of the cell becomes
+confined to a small area at the utmost front of the cell. Mutant
+studies revealed that activation, symmetry breaking and
+confinement during Dictyostelium chemotaxis use different Gprotein subunits and a multitude of Ras GEFs and GAPs. Taken
+together, these experiments provide a conceptual framework to
+explain the exquisite sensitivity of cells in sensing shallow
+gradients of chemoattractants.
+Results
+A sensitive assay for Ras activation at the cell boundary
+
+Ras proteins are localized approximately uniformly at the plasma
+membrane of Dictyostelium cells (Sasaki et al., 2004; Sasaki and
+Firtel, 2009). Stimulation of cells with cAMP does not change the
+localization of Ras, but locally stimulates the conversion of Ras
+from the inactive Ras-GDP state to active Ras-GTP (Sasaki et al.,
+2004; Sasaki and Firtel, 2009). The RBD domain of mammalian
+Raf binds specifically to the GTP-bound form of Ras. Ras
+activation can therefore be observed by monitoring the
+translocation of RBD-Raf–GFP from the cytoplasm to the cell
+boundary (Kortholt et al., 2011; Sasaki et al., 2004; Sasaki and
+Firtel, 2009). Because boundary pixels also contain cytoplasm,
+translocation assays are fundamentally insensitive (Bosgraaf
+et al., 2008). Here, we used a more sensitive assay to detect RasGTP by co-expressing cytosolic RFP with RBD-Raf–GFP. In
+each boundary pixel (i) the fluorescence intensity of cytosolic
+RFP (cRi) refers to the volume of cytosol in that pixel (see
+Materials and Methods). The fluorescence intensity of RBD-Raf–
+GFP specifically bound to Ras-GTP at the membrane in that pixel
+(Y) is the total GFP fluorescence intensity (Gi) minus the
+fluorescence intensity of RFP. For direct comparison among
+different cells and strains, data are presented as the level of RBDRaf–GFP at the cell membrane relative to the average level of
+RBD-Raf–GFP in the cytosol (Gcyt), Y5(Gi2cRi)/,Gcyt ..
+Cells in buffer exhibit intrinsic symmetry breaking of
+active Ras
+
+In buffer, RBD-Raf–GFP seems to be localized approximately
+uniformly in the cell, with little detectable enhanced localization
+at the boundary. However, after subtraction of RBD-Raf–GFP in
+the cytoplasm using cytosolic RFP, it appears that boundary
+pixels retain a significant amount of RBD-Raf–GFP (Fig. 1A;
+supplementary material Movie 1). RBD-Raf–GFP is clearly
+
+Fig. 1. Activated Ras-GTP in unstimulated cells. Wild-type cells in buffer
+expressing RBD-Raf–GFP and cytosolic RFP. (A) Images of a representative
+cell [GFP, RFP, GFP–RFP (Y)]. (B) Ras activation at the boundary (Y); data
+are the means6s.d. of 14 cells for different distances from the front of the
+extending pseudopod.
+
+present at the cell membrane in the extending pseudopods, but is
+also detectable at the plasma membrane of other parts of the cell
+(Fig. 1A). RBD-Raf–GFP at the membrane (Y) was measured
+around the circumference of 14 cells (Fig. 1B). The front of the
+cell is defined by the center boundary point of the extending
+pseudopod; RBD-Raf–GFP at the membrane in this point is
+Y50.5360.07 (i.e. RBD-Raf–GFP at the membrane is 5367%
+that of RBD-Raf–GFP the cytoplasm; mean6s.d., n514 cells).
+The membrane at the rear of the cell contains RBD-Raf–GFP at a
+level of Y50.1060.05, approximately a fifth that in the
+pseudopod. The experiments demonstrate that cells in buffer
+exhibit intrinsic symmetry breaking of activated Ras. The front
+half of the cell contains ,3-fold more activated Ras than the rearhalf of the cell.
+Multiple phases of Ras activation in cAMP gradients
+
+The next question we wanted to answer was how the cAMP
+gradients influence the local accumulation of activated Ras.
+Wild-type cells expressing RBD-Raf–GFP and RFP were
+stimulated with a micropipette releasing cAMP (Fig. 2). The
+actual cAMP concentration around the cells was determined in
+control experiments using the fluorescent dye Alexa in the
+pipette. The cAMP concentration rapidly increases; at a distance
+of 50 mm from the pipette cAMP reaches half-maximal levels at
+,3.2 s. At 60 mm from the pipette the cAMP concentration is not
+
+4504
+
+Journal of Cell Science 126 (19)
+
+Journal of Cell Science
+
+Fig. 2. Ras activation in cells stimulated with cAMP. Cells
+expressing RBD-Raf–GFP and cytosolic RFP were exposed to
+(A) a shallow cAMP gradient (28 pM/mm at 2.5 nM midpoint
+cAMP), and (B) a steep cAMP gradient (5000 pM/mm at
+150 nM midpoint cAMP). Presented are images of typical
+cells at different times after exposure of the cells to these
+stimuli and the calculated Y of RBD-Raf–GFP at the
+membrane (Y). See supplementary material Movies 1 and 2
+for the original experiment. (C) A schematic of the
+measurements in the cytoplasm and selected areas of the
+boundary.
+
+only lower, but also half-maximal levels are reached about
+1 second later. Thus a cell at this position receives at the
+upgradient side of the cell stronger and faster cAMP signals than
+at the down-gradient side. The measured cAMP concentration was
+used to calculate the local occupancy of the cAMP receptors with
+the known affinity of the receptor (Postma and van Haastert, 2009).
+All cells exposed to a steep cAMP gradient (5000 pM/mm at a
+mean cAMP concentration of 150 nM) exhibit a strong and
+synchronous response (Fig. 2; supplementary material Movie 2),
+which allows detailed kinetic analysis of the translocation of
+RBD-Raf–GFP from the cytoplasm to the membrane (Fig. 3).
+Upon application of the cAMP gradient, RBD-Raf–GFP rapidly
+depletes from the cytoplasm, followed by a return to the
+cytoplasm around 15 seconds (Fig. 3A). In uniform cAMP,
+RBD-Raf–GFP remains in the cytoplasm, but in a cAMP gradient
+RBD-Raf–GFP returns to the membrane but only at the
+upgradient side of the cell (Fig. 2; Fig. 3B). This shows that
+Ras activation in cAMP gradients has three phases, which we
+first will describe for cells exposed to a steep cAMP gradient,
+inducing strong chemotaxis, and subsequently analyze in cells
+exposed to different cAMP gradients.
+Initial ‘uniform’ response – excitation and adaptation of
+Ras activation
+
+At about 6 seconds after application of a steep gradient of cAMP,
+RBD-Raf–GFP exhibits maximal translocation from the
+cytoplasm to the entire membrane in what appears a uniform
+response (Fig. 2; Fig. 3A). However, detailed measurement of
+the local levels of RBD-Raf–GFP at the membrane reveals a
+gradient of RBD-Raf–GFP at the membrane that is similar to the
+gradient of cAMP (Fig. 3E). Although these gradients are said to
+be steep for chemotaxis (20% concentration difference across the
+cell induces very strong chemotaxis), the differences in receptor
+occupancy between upgradient and downgradient sides of the cell
+are actually relatively small and the initial Ras activation exhibits
+a similarly small difference across the cell (Fig. 3E). After the
+initial translocation of RBD-Raf–GFP to the entire membrane,
+RBD-Raf–GFP starts to dissociate from the membrane. This
+dissociation is observed at the downgradient side of all cells; it
+occurs with a half-time of 4–6 seconds (Fig. 3B), is completed
+after ,30 seconds and never reoccurs in a stable cAMP gradient.
+In contrast, at the upgradient side of the cells, the dissociation of
+
+RBD-Raf–GFP from the membrane is followed by a return of
+RBD-Raf–GFP at the membrane (Fig. 3B). The response is more
+heterogeneous than at the downgradient side of the cell. In some
+cells dissociation of RBD-Raf–GFP from the membrane is nearly
+complete before it starts to return, whereas in other cells RBDRaf–GFP starts to return at the membrane sooner, long before
+dissociation could be completed. The fraction of cells that exhibit
+late reappearance of RBD-Raf–GFP at the membrane was used to
+estimate the dissociation kinetics of RBD-Raf–GFP from the
+membrane at the upgradient side of the cell, and this appeared to
+be not statistically different from that at downgradient side of the
+cell (downgradient half-time, 5.861.1 seconds; upgradient halftime, 5.561.3 seconds, n54 cells).
+Symmetry breaking
+
+As mentioned above, RBD-Raf–GFP starts to return to the
+membrane at the upgradient side of the cell at ,12 to
+24 seconds after application of the pipette. Interestingly, when
+measured as the depletion of RBD-Raf–GFP from the cytoplasm,
+this recovery of RBD-Raf–GFP from cytoplasm to the membrane
+is completed after 30 seconds (Fig. 3B), but continues till
+90 seconds when measured as the membrane level of RBD-Raf–
+GFP at the front of the cell (Fig. 3C), suggesting that activation of
+Ras at the leading edge is a complex process. Fig. 3D,F reveals
+that, at 30 seconds after stimulation, Ras activation occurs at a
+relatively large crescent of 15.661.4 mm, comprising ,40% of the
+circumference of the cell. At 90 seconds after stimulation, the
+crescent is much smaller (8.360.7 mm) with a concomitant
+increase of the intensity at the utmost leading edge of the cell.
+This suggests that gradient sensing comprises two processes:
+symmetry braking to induce Ras activation at the upgradient half
+of the cell, followed by confinement of activated Ras into a smaller
+crescent. Fig. 3C reveals that, in steep gradients, Ras activation in
+the upgradient half of the cell is ,10-fold larger than in the
+downgradient half of the cell. This symmetry breaking starts at
+,16 seconds after application of the cAMP gradient, reaches halfmaximal levels in ,6 seconds and is complete at 30 seconds after
+stimulation (Fig. 3G).
+Confinement
+
+The confinement of Ras activation into a smaller crescent in steep
+gradients is the slowest process. It starts at 20 seconds, has a half-time
+
+4505
+
+Journal of Cell Science
+
+Symmetry breaking of Ras activation
+
+Fig. 3. Phases of Ras activation. Cells expressing RBD-Raf–GFP and cytosolic RFP were exposed to uniform cAMP (1 mM cAMP), a steep cAMP gradient or a
+shallow cAMP gradient as described in Fig. 2. (A) Kinetics of Ras-GTP activation presented as the depletion of RBD-Raf–GFP in the cytosol. (B) Kinetics of Ras-GTP
+activation in the membrane (Y) at the utmost front and the rear of the cell (defined as a small area at the side of the cell closest to and furthest away from the pipette,
+respectively) in a cAMP steep gradient. (C) Kinetics of Ras-GTP activation presented as the ratio of membrane bound RBD-Raf–GFP (Y) at the front half and rear half of
+the cell. (D) Kinetics of confinement of the activated Ras crescent. Measured was the width of the crescent at half-maximal height (see E). The data shown in panels A–D
+are the average of five cells. (E) The initial Ras activation at 6 seconds is directly proportional to the local activation of cAMP receptors. Left panel, Ras activation at
+different distances from the front at 6 seconds after application of a steep gradient; the data are from a typical experiment. Right panel, cells were exposed to cAMP
+gradients with different steepness and midpoint concentrations. We measured the local cAMP concentrations at the front and the rear of the cell using the dye Alexa;
+we also measured RBD-Raf–GFP at the boundary of the cell (Y). Each data point is a different cell, except the data at cAMP51 (i.e. uniform cAMP), which is the
+mean6s.d. of five cells. The linear regression curve gives a slope of 1.06, indicating that the front and rear gradient of initial Ras activation is directly proportional to the
+front and rear gradient of receptor activation. (F) Ras activation at different distances from the front at 30 and 90 seconds after application of the steep gradient.
+(G) Kinetics of Ras-GTP activation after application of uniform (green), a shallow (red) or steep gradient (blue) of cAMP. Presented are logarithmic transformations of
+the data of panels A–D. The assumption is that adaptation, symmetry breaking and confinement are first order processes with rate constant k that start a specific time t0,
+and thus follow the general equation ln(Yt/Yfinal)5k(t2t0), where Y is adaptation (decline of RBD-Raf–GFP at the membrane from A; k50.2 s21, t057 s), symmetry
+breaking (front-half:rear-half ratio from C; k50.1 s21, t0516 s), or confinement (the width of the crescent from D; k50.03 s21, t0520 s).
+
+of 24 seconds and reaches a final level at about 2 minutes after
+stimulation (Fig. 3D,G). Between 30 and 90 seconds after
+stimulation, the crescent decreases in length by 50%, and this is
+
+accompanied by a ,2-fold increase of intensity of RBD-Raf–GFP at
+the leading edge of the cell (Fig. 3F). Thus, the notion of constant
+depletion levels of RBD-Raf–GFP in the cytoplasm while the
+
+4506
+
+Journal of Cell Science 126 (19)
+
+intensity at the leading edge increases (Fig. 3B,C) is caused by
+symmetry breaking to form a crescent of activated Ras and the
+confinement of activated Ras into a smaller crescent.
+
+Journal of Cell Science
+
+Gradient-dependent activation of Ras
+
+Supplementary material Movie 3 shows the localization of RBDRaf–GFP at the membrane before and after introduction of a
+micropipette producing a shallow cAMP gradient (28 pM/mm at
+a mean background concentration of 2.5 nM). Cells move
+towards the pipette with a chemotaxis index of 0.5 (i.e. with a
+small directional bias relative to the movement in buffer). The
+localization of RBD-Raf–GFP in these cells suggests a series of
+responses that is qualitatively similar to that in steep gradients,
+but smaller in magnitude. Fig. 2B presents typical images of
+RBD-Raf–GFP at the membrane in a shallow gradient. Upon
+application of a shallow cAMP gradient, RBD-Raf–GFP
+translocates from the cytoplasm to the boundary of the cell. As
+in steep gradients, translocation is maximal at ,6 seconds and
+recovers through adaptation. The kinetics of adaptation are
+nearly identical in shallow and steep gradients (half-time
+7.661.7 seconds and 5.761.1 seconds in shallow and steep
+gradients, respectively; Fig. 3G). Following this activation and
+deactivation of Ras, RBD-Raf–GFP at the membrane starts to
+reappear at the upgradient half of the cell at a level that is about
+5-fold to that at the downgradient half of the cell. This symmetry
+breaking in a shallow cAMP gradient follows the same kinetics
+as in a steep gradient and reaches a steady state at ,40 seconds
+after application of the gradient (Fig. 3C,G). The spatial
+activation of Ras is shown in Fig. 3D, revealing that RBD-Raf–
+GFP is localized at the membrane in a wide crescent. In contrast
+to a steep gradient, this large area of Ras activation does not
+confine with time to a smaller crescent with higher intensity. In
+summary, in a shallow cAMP gradient, initial activation and
+adaptation, as well as symmetry breaking are smaller but follow
+the same kinetics as in steep cAMP gradients. In contrast,
+confinement of Ras activation, and its induced polarization, does
+not occur in shallow cAMP gradients.
+To determine the gradient-dependent activation of Ras, the
+experiments were repeated with pipettes containing different
+cAMP concentrations and cells were observed at different
+distances from the pipette. This provides a series of
+experimental conditions with gradients of different steepness of
+cAMP concentration. The chemotaxis indexes (CIs) of cells in
+these gradients are presented in Fig. 4D. To accommodate
+intrinsic Ras symmetry breaking, as well as gradient-induced
+symmetry breaking, we defined the front of the cell as the area
+from which a pseudopod is extended. In all these experiments, we
+observed no significant changes of RBD-Raf–GFP levels at the
+membrane in the rear half of the cell, which is ,10% of the level
+of RBD-Raf–GFP in the cytoplasm (Y50.1060.01).
+In buffer, the front half of the cell contains ,3-fold more
+activated Ras compared with that in the rear half of the cell
+(Fig. 4A). cAMP gradients up to ,30 pM/mm induce only a
+slight increase of activated Ras in the front half of the cell
+compared with that of cells in buffer. Ras activation at the front
+of the cell increases with increasing steepness of the gradient,
+until the front half of the cell contains ,8-fold the amount of
+activated Ras than the rear half of the cell. Data are best fitted
+with a Hill plot that yields a Hill coefficient of n50.73, and the
+gradient inducing half-maximal Ras activation (K0.5) at the front
+was 220 pM/mm (Fig. 4A). Confinement of the crescent of
+
+Fig. 4. Dose–response curves of Ras activation. Cells expressing RBDRaf–GFP and cytosolic RFP were exposed to cAMP gradients with different
+steepness. The actual cAMP gradient was established using the dye Alexa that
+was mixed with cAMP. Ras-GTP activation along the cell boundary (Y) was
+measured as in Fig. 3F. These data were used to determine Ras activation in
+the front half and rear half of the cell (A), in the utmost front area of the cell
+(B), and the width of the activated Ras crescent at half-height (C). Data points
+with error bars are derived from the experiments presented in Fig. 3, and are
+the mean6s.d. of five cells; other data points are from single cells. (D) The
+chemotaxis index of cells in these gradients.
+
+Symmetry breaking of Ras activation
+activated Ras upon longer exposure of cells to a cAMP gradient
+does not occur in shallow gradients below ,50 pM/mm
+(Fig. 4B). These data are also best fitted with a Hill plot that
+yields a Hill coefficient of n50.75 and the K0.5 for the crescent
+confinement was 890 pM/mm (Fig. 4B). The combination of
+symmetry breaking and confinement of the crescent in steep
+gradients leads to a ,5-fold increase of the intensity of RBDRaf–GFP at the utmost front of the cell (Fig. 4C). Owing to the
+negative cooperativity (Hill coefficient ,1) and the differences
+in K0.5 for symmetry breaking and confinement of the crescent,
+this increase of Ras activation at the utmost front of the cell
+occurs over four orders of magnitude of cAMP gradient
+(Fig. 4C).
+
+Journal of Cell Science
+
+A predominant role for RasG in response to cAMP
+
+Thus far, five Dictyostelium Ras proteins have been characterized
+in detail, and they all appear to have important and distinct roles
+in cell physiology; RasB is essential for cytokinesis, RasD
+regulates phototaxis and thermotaxis of multicellular slugs, RasS
+is important for the switch between eating and moving, and RasC
+and RasG together regulate all cAMP-mediated signaling in early
+development (Chubb et al., 2000; Chubb et al., 2002; Reymond
+et al., 1984; Sutherland et al., 2001; Weeks, 2005; Wilkins et al.,
+2000b). Although RasG is the predominant Ras protein detected
+by our marker, the RBD domain of mammalian Raf also binds
+with lower affinity to active RasC and probably all other
+Dictyostelium Ras proteins (Kae et al., 2004; Sasaki and Firtel,
+2009). We here have used our sensitive assay to determine the
+specific contribution of RasC and RasG during the three cAMPmediated activation phases. Cells with a deletion of rasC have
+only a slight defect in the uniform response and confinement, and
+show almost normal Ras activation at the leading edge of cells
+moving in a cAMP gradient (Fig. 5, Table 1). Several studies
+have shown that disruption of both rasC and rasG results in
+severe growth, developmental and chemotaxis defects (Bolourani
+et al., 2006; Kortholt et al., 2011). In contrast, a recent study
+showed that rasC/rasG double-null cells can undertake
+chemotaxis in response to both folate and cAMP (Srinivasan
+et al., 2013). Given that the cause of these conflicting data are
+unknown, but might be due to compensation by other pathways
+or upregulation of other Ras proteins, we instead used
+cells expressing dominant-negative RasGS17N from a tightly
+controlled doxycycline-inducible promoter (Veltman et al.,
+2009b). Wild-type cells expressing RasGS17N have reduced
+chemotaxis (CI50.6560,07) compared with that of wild-type
+
+4507
+
+cells (CI50.8860.10), exhibit a more than 50% reduction in the
+uniform response, show strong defects in symmetry breaking, and
+have no confinement. (Fig. 5, Table 1). Furthermore, rasC-null
+cells expressing RasGS17N have strongly impaired chemotaxis
+(CI50.2260.14), do not show a significant change in the
+localization of RBD-Raf–GFP, neither to uniform cAMP nor in a
+cAMP gradient (Fig. 5, Table 1; supplementary material Movie
+4). Taken together, these results confirm previous genetic studies
+(Bolourani et al., 2006), and show that RasG is the key Ras
+protein in the regulation of cAMP mediated chemotaxis.
+However, rasC-null cells expressing RasGS17N show a
+strongly reduced, but significant, RBD-Raf–GFP translocation
+in response to uniform folate (supplementary material Table S2),
+suggesting that also other Ras proteins contribute to folate
+chemotaxis.
+Different roles of G-protein subunits
+
+The cAMP receptor activates the heterotrimeric G-protein Ga2bc
+(Jin et al., 2000; Xiao et al., 1997). Mutant cells with a deletion of
+the single gb gene do not show any changes in the localization of
+RBD-Raf–GFP, neither to uniform cAMP nor to a cAMP gradient
+(Fig. 6A). Cells also do not exhibit chemotaxis, confirming that
+Gbc is essential for chemotactic signal transduction (Sasaki et al.,
+2004; Wu et al., 1995). Surprisingly, cells with a deletion of ga2 do
+show a very significant translocation of RBD-Raf–GFP to the cell
+boundary in response to uniform cAMP (Fig. 6A). Expression of
+RasGS17N in ga2-null cells completely inhibits this RBD-Raf–
+GFP response, indicating that the detected Ras activation in ga2null cells is completely dependent on RasG (Table 1). The RBDRaf–GFP response is less pronounced in ga2-null cells compared
+with that in wild-type cells, and requires ,10-fold higher cAMP
+concentrations (Fig. 6C). The rate of Ras activation is initially the
+same in ga2-null and wild-type cells (Fig. 6B). However, in ga2null cells, Ras activation stops after 3.860.7 seconds, whereas in
+wild-type cells activation continues until 6.060.9 seconds after
+stimulation with uniform cAMP (means6s.d., n58).
+As mentioned above for wild-type cells, a cAMP gradient
+initially induces a ‘uniform’ transient translocation of RBD-Raf–
+GFP to the cell boundary, which is followed by Ras activation at
+the side of the cell facing the cAMP gradient (supplementary
+material Movie 1). Also in ga2-null cells, the cAMP gradient
+induces a short transient uniform Ras activation, but in contrast to
+wild-type cells, the specific upgradient response never occurs
+(Fig. 6A); in addition, ga2-null cells do not exhibit any
+directional movement towards cAMP.
+
+Fig. 5. Contribution of RasC and RasG. Wild-type and the
+indicated Ras mutants expressing RBD-Raf–GFP and
+cytosolic RFP were exposed to a steep cAMP gradient.
+Images of typical cells after exposure to these stimuli.
+(B) The calculated RBD-Raf–GFP at the membrane (Y). Ras
+activation along the cell boundary (Y) was measured as in
+Fig. 3F; data are the means of six cells and are presented as
+degrees from the extending pseudopod.
+
+4508
+
+Journal of Cell Science 126 (19)
+Table 1. Ras activation in mutants
+
+Journal of Cell Science
+
+Initial ‘uniform’ response
+(% depletion in the cytoplasm)
+
+Symmetry breaking
+(upgradient: downgradient ratio)
+
+Width of crescent (mm)
+
+Cell
+
+Mean
+
+s.d.
+
+Mean
+
+s.d.
+
+Mean
+
+s.d.
+
+WT
+rasC-null
+WT + RasGS17N
+rasC-null + RasGS17N
+gb-null
+ga2-null
+ga2-null + RasGS17N
+WT + LatA
+4-p-null
+4-p-null +LatA
+gc-null
+myoII-null
+myo-null + LatA
+gefA-null
+gefB-null
+gefC-null
+gefD-null
+gefE-null
+gefG-null
+gefL-null
+gefM-null
+gefR-null
+nfaA-null
+
+32.0
+21.7*
+15.2*
+2.8*a
+2.6*a
+17.7*b
+1.2*a
+31.0
+33.0
+34.1
+28.6
+33.0
+35.7
+27.5*
+32.1
+28.2
+24.2*
+38.1
+35.5
+34.5
+23.1*
+20.3*
+31.4
+
+3.0
+8.4
+5.4
+4.7
+1.8
+6.8
+5.6
+6.6
+4.6
+4.6
+5.8
+5.2
+2.3
+3.6
+6.0
+2.9
+2.6
+5.6
+2.8
+4.9
+7.6
+4.7
+5.5
+
+8.73
+4.39*
+2.13*
+1.05*c
+0.95*c
+1.08*c
+ND
+12.71*
+6.86
+8.42
+8.68
+7.72
+8.12
+4.03*
+5.06*
+2.97*
+2.96*
+3.90*
+2.56*
+7.55
+2.98*
+2.22*
+3.40*
+
+0.75
+1.08
+0.60
+0.68
+0.37
+0.51
+
+7.53
+8.19
+13.27*
+ND
+ND
+ND
+ND
+13.68*
+12.42*
+12.07*
+13.34*
+12.47*
+12.57*
+10.52
+8.76
+8.47
+13.26*
+12.95*
+6.91
+7.88
+6.90
+7.94
+13.03*
+
+0.55
+1.48
+0.67
+
+1.28
+1.73
+0.79
+0.79
+1.99
+1.41
+1.36
+1.21
+0.54
+0.55
+0.71
+0.57
+1.31
+0.55
+0.22
+0.58
+
+1.68
+2.92
+0.32
+0.99
+1.99
+0.78
+3.73
+1.78
+1.62
+2.07
+1.90
+1.19
+0.79
+1.06
+1.79
+1.98
+
+Cells expressing both RBD-Raf–GFP and cytosolic RFP were exposed to a cAMP gradient (5000 pM/mm, mean concentration 150 nM). The initial ‘uniform’
+response is the fluorescence intensity of RBD-Raf-GFP in the cytoplasm at ,6 seconds after application of the cAMP gradient. RBD-Raf-GFP at the cell
+boundary (Y) was calculated at 2 to 5 minutes after stimulation. Symmetry breaking is RBD-Raf-GFP at the cell boundary in the upgradient half of the cell
+divided by that in the downgradient half of the cell. The crescent of RBD-Raf-GFP at the cell boundary has a bell-shaped form. The width of the crescent at halfmaximal height is presented. The data are the means and SD of eight wild-type or at least four mutant cells. WT, wild type; 4-p-null, cells with inhibition of four
+signaling pathways mediated by sGC, PLA2, PI3K and TorC2, were generated as previously described (Kortholt et al., 2011); ND, not determined because no
+crescent.
+*P,0.01 compared with WT cells; a, not significantly different from 0; b, significantly different from 0; cnot significantly different from 1.0.
+
+Vegetative Dictyostelium cells respond to the chemoattractant
+folate, which activates many signaling pathways in a way that is
+similar to their activation by cAMP in starved cells. Folate
+chemotaxis requires activation of Ga4bc (Hadwiger et al., 1994)
+
+and Ras at the leading edge (Lim et al., 2005). Whereas cells
+lacking gb don’t show any folate stimulated Ras activation, ga4
+(gpaD)-null cells still have a normal Ras response to uniform
+folate. As observed for cAMP in ga2-null cells, cells lacking ga4
+
+Fig. 6. Ras-GTP activation in Dictyostelium
+signaling mutants. (A) Representative images of
+RBD-Raf–GFP-expressing cells in buffer at 3–
+6 seconds after addition of uniform cAMP, or in a
+cAMP gradient. (B) The time course of
+translocation after uniform stimulation with 1 mM
+cAMP (means6s.e.m. of eight cells). (C) The
+response at 3–6 seconds after addition of uniform
+cAMP with different concentrations.
+
+Symmetry breaking of Ras activation
+don’t show the specific upgradient response or directional
+movement in a folate gradient (Kataria et al., 2013).
+These results indicate different roles for Gbc and Ga2 or Ga4
+during chemotaxis. The experiments with wild-type, ga2-null and
+ga4-null cells suggest that Gbc induces Ras activation, which is
+completely transient, even in a cAMP or folate gradient. Ras
+activation by uniform folate is about equal in wild-type and ga4null cells, suggesting that Ga4 provides little contribution to Ras
+activation. However, a comparison of Ras activation by uniform
+cAMP between wild-type and ga2-null cells suggests that Ga2
+contributes to Ras activation by which the response to uniform
+cAMP is prolonged. More importantly, in a cAMP or folate
+gradient, Ga2 or Ga4 mediates symmetry breaking by which
+Ras activation re-occurs at the side of the cell facing the
+chemoattractant, and cells move towards cAMP or folate.
+
+Journal of Cell Science
+
+Role of GEFs and GAPs
+
+The genome of Dictyostelium contains 25 genes encoding for
+GEFs and 17 genes encoding for GAPs that potentially activate
+and inactivate Ras, respectively. Many of these genes have been
+inactivated by homologous recombination, without very severe
+effects on chemotaxis (Kortholt and van Haastert, 2008; Weeks,
+2005; Wilkins et al., 2005). We have used our sensitive assay to
+measure Ras activation in nine mutants (Table 1). Recently, it
+has been shown that the GAP NfA regulates RasG activity during
+chemotaxis (Sasaki and Firtel, 2009); consistently nfaA-null cells
+show strongly reduced symmetry breaking and lack confinement
+(Table 1). The reduced symmetry breaking is the combined result
+of reduced Ras activation at the upgradient half and increased
+Ras activation at the downgradient half of the cell. All tested
+GEF mutants, with the exception of gefL-null cells, exhibit
+strongly reduced symmetry breaking, from ,8-fold in wild-type
+cells to only ,3-fold in the mutants. In all GEF mutants, this
+defect in symmetry breaking is caused by reduced Ras activation
+at the upgradient half of the cell. It should be noted that
+symmetry breaking is not absent in any mutant, suggesting that in
+wild-type cells symmetry breaking is mediated by multiple Ras
+GEFs.
+The confinement of the crescent still occurs in mutants with a
+deletion of gefB, gefC, gefG, gefL and gefM, but is essentially
+absent in mutants lacking gefD and gefE. This suggests that a
+specific subset of GEFs and GAPs might be involved in
+restricting Ras activation to the utmost front of the cell. To
+investigate the role of confinement of Ras activation in a small
+crescent for cell shape, we have measured cell elongation defined
+as the ratio of the length to the width of the cell. The results
+(supplementary material Table S1; Fig. S2) indicate that there is
+no correlation between cell elongation and the Ras responses. For
+instance, gefD-null and gefE-null cells are both defective in
+confinement, but the gefD-null mutant is more elongated whereas
+gefE-null cells are far less elongated than wild-type cells.
+The signaling pathways and cytoskeleton are important
+for confinement
+
+Previously, it has been shown that the formation of F-actin, and
+the action of the four signaling enzymes PI3K, TorC2, PLA2 and
+sGC, are not required for Ras activation by uniform cAMP or in a
+cAMP gradient (Kortholt et al., 2011). These data were obtained
+for Ras localization at the leading edge in a stable cAMP
+gradient. Table 1 shows the data for the different phases of Ras
+activation upon application of the pipette releasing cAMP for
+
+4509
+
+wild-type, cells with a deletion or inhibition of all four signaling
+pathways, and myosin-null cells, all in the absence or presence of
+the F-actin inhibitor LatA. All cell lines exhibit a similar
+‘uniform’ translocation of RBD-Raf–GFP to the membrane at
+,6 seconds after application of the pipette, the subsequent
+dissociation of RBD-Raf–GFP from the membrane, and the
+reappearance of RBD-Raf–GFP at the leading edge. Symmetry
+breaking (the ratio of Ras activation in the upgradient half versus
+the downgradient half of the cell) is essentially identical in all
+these cell lines (Table 1). In contrast, the confinement of the
+crescent of activated Ras that occurs in wild-type cells exposed to
+steep gradients does not occur in cells with a deletion of the four
+signaling pathways, deletion of myosin II, or depletion of F-actin
+with LatA. Analysis of single pathway mutants show that cGMP
+is essential for confinement (the crescent is 13.361.0 mm in gcnull cells), whereas phosphatidylinositol (3,4,5)-triphosphate
+[PtdIns(3,4,5)P3], TorC2 and PLA2 play a minor role in
+confinement (the crescent is 9.461.3 mm in wild-type cells in
+the presence of 50 mM PI3K inhibitor LY, 9.761.3 mm in rip3null and pkbR1-null cells, and 7.962.1 mm in cells lacking pla2).
+Discussion
+With a sensitive assay to detect activated Ras at the plasma
+membrane, we showed here that Dictyostelium cells exhibit
+patches of activated Ras at the leading edge. Cells in buffer have
+about 3-fold more active Ras in the front half of the cell than in
+the rear half. This gradient of active Ras is also detectable in cells
+lacking gbc or ga2, suggesting a mechanism of intrinsic
+symmetry breaking (Sasaki et al., 2007; supplementary material
+Fig. S1). An external gradient of chemoattractants further
+activates Ras. With the more sensitive assay to detect active
+Ras, we showed here that the chemotactic Ras activation consists
+of three phases. The first phase consists of activation and
+adaptation of the chemotactic machinery, and is essentially
+identical in uniform cAMP and in a cAMP gradient. Application
+of cAMP induces the translocation of RBD-Raf–GFP to the entire
+membrane and the formation of F-actin at the entire cortex. In
+both uniform cAMP and in a cAMP gradient, local Ras activation
+is proportional to the local activation of the receptor. Therefore,
+the initial Ras activation in a shallow gradient is only slightly
+stronger at the front than at the rear of the cell. The initial
+activation of Ras is transient; it is maximal after ,6 seconds and
+declines with a half-life of ,4–6 seconds owing to adaptation.
+This half-life is essentially identical in cells stimulated with
+uniform cAMP or with a shallow or steep cAMP gradient, and
+also identical at the front and the rear of the cell. Activation of
+Ras requires surface receptors and Gbc, but surprisingly can
+occur in the absence of Ga2. In wild-type cells, most of the Gbc
+is released by cAMP from Ga2bc (Kumagai et al., 1989); in ga2null cells Gbc can be released from other cAMP-stimulated Gproteins, such as Ga1bc and Ga9bc (Bominaar and Van
+Haastert, 1994; Brzostowski et al., 2002). Activation of Ras in
+ga2-null cells is smaller in magnitude and requires higher cAMP
+concentrations than in wild-type cells. Three non-exclusive
+mechanisms might explain this reduced response: Ga2
+contributes to Ras activation, as was suggested by the altered
+kinetics in ga2-null cells, less Gbc is activated in ga2-null cells,
+or mixtures of wild-type and ga2-null cells do not develop
+completely normally. However, because cells lacking ga4 show a
+similar Ras response to folate as ga2-null cells do to cAMP, the
+later mechanism seems to be unlikely.
+
+Journal of Cell Science
+
+4510
+
+Journal of Cell Science 126 (19)
+
+The signaling enzymes PI3K, cGC, TorC2, and PLA2, as well
+as the cytoskeleton components F-actin and myosin have little
+effect on the initial activation and adaptation of Ras. In addition,
+deletion of the individual GEFs does not have a very strong effect
+on activation and adaptation, suggesting that multiple GEFs
+contribute to Ras activation. Importantly, at the end of this initial
+phase of Ras activation cells are in an adapted state.
+After the initial transient activation, Ras becomes reactivated
+exclusively at the upgradient side of the cell. The magnitude of
+the response depends predominantly on the steepness of the
+gradient. Thus, in uniform 100 nM cAMP no reactivation of Ras
+is detectable, but strong activation of Ras is observed at the
+leading edge in a gradient of 10 nM/mm at a mean concentration
+of 100 nM cAMP. This symmetry breaking of Ras activation
+absolutely requires the presence of Ga2; in ga2-null cells a
+cAMP gradient induces the initial ‘uniform’ Ras response but not
+Ras activation at the leading edge and no chemotaxis. The
+signaling enzymes PI3K, sGC, TorC2 and PLA2 do not
+contribute to symmetry breaking of Ras activation in a cAMP
+gradient, neither does F-actin or myosin. The experiments
+suggest that symmetry breaking is mediated by Ga2. Since
+uniform cAMP induces stronger Ras activation in wild-type cells
+than in ga2-null cells, we propose that Ga2 contributes to Ras
+activation, presumably by activating additional GEFs or locally
+inhibiting GAPs. Dictyostelium contains 25 GEFs. Deletion
+experiments of nine GEFs reveal that in eight mutants symmetry
+breaking is strongly reduced, but not absent. These data suggests
+that multiple GEFs contribute to symmetry breaking.
+During symmetry breaking, the downgradient half of the cell
+remains subject to adaptation, whereas Ras activation occurs in a
+relatively large crescent at the upgradient half of the cell. This
+crescent of membrane bound RBD-Raf–GFP has the highest
+intensity at the leading edge and gradually declines further away
+from the front as a bell-shaped curve with a width at half-height
+of ,15 mm. In wild-type cells, the crescent of activated Ras
+becomes more confined to the utmost leading edge, which is the
+third phase of Ras activation during chemotaxis. Confinement
+occurs without a change in the total amount of activated Ras, as
+indicated by the constant amount of RBD-Raf–GFP in the
+cytoplasm or at the entire boundary of the cell. The initial wide
+bell-shaped curve of membrane-bound RBD-Raf–GFP becomes
+very narrow, with very steep flanks. This suggests that during
+confinement of the crescent RBD-Raf–GFP dissociates from the
+ends of the crescent and binds to the utmost front. The local
+amount of active Ras-GTP depends on the local activity of GEFs
+and GAPs. The experiments suggest that during initial symmetry
+breaking, long-range gradients of GEFs at the front and GAPs at
+the rear lead to the large crescent of active Ras. During
+subsequent confinement a sharp spatial transition between
+active and inactive Ras is induced, suggesting that at the
+utmost front active Ras induces more GEF activity, whereas
+further away from the front GAPs are activated, leading to
+inactivation of Ras. Confinement of Ras activation to the leading
+edge requires F-actin and myosin, and the signaling molecules
+that regulate myosin, notably cGMP in Dictyostelium. An
+attractive model is that myosin filaments that accumulate at the
+side and rear of the cell during chemotaxis activate or recruit
+GAPs, whereas actin filaments that accumulate in the front
+activate or recruit GEFs. Confinement of Ras activation is normal
+in mutants with a deletion of gefB, gefC, gefG, gefL, gefM and
+gefR, but is absent in mutants lacking gefD and gefE, and nfaA.
+
+Interestingly, GefD contains a putative RhoGAP domain,
+suggesting a direct link with the actin cytoskeleton (Wilkins
+et al., 2005).
+Expression of dominant negative RasGS17N in rasC-null cells
+results in a strongly reduced, but significant RBD-Raf–GFP
+translocation in response to uniform folate. This suggests that in
+addition to RasC and RasG, other Ras proteins contribute to
+folate signaling. By contrast, the current and previous
+experiments show that either RasC or RasG is necessary for the
+transduction of the cAMP signal and that RasG is the major Ras
+protein regulating cAMP-mediated symmetry breaking and
+confinement (Bolourani et al., 2006; Kortholt et al., 2011;
+Sasaki et al., 2004). Consistently, the strongest defects in
+symmetry breaking were observed for cells lacking nfaA and
+gefR, the only RasG-specific GAP and GEF, respectively,
+reported so far (Kae et al., 2004; Zhang et al., 2008). Much
+smaller defects in the chemotactic response were observed in
+cells lacking the RasC-specific gefA (Kae et al., 2007). However,
+the deletion experiments also show that activation, symmetry
+breaking and confinement use a multitude of Ras-GEFs, which
+are probably not all directly regulating RasG activity (Kae et al.,
+2007). Furthermore, during confinement the amplification
+pathways and cell cortex provide feedback regulation on Ras
+activity. This suggests that also other Ras proteins, activated
+downstream of RasG, can contribute to chemotaxis. Consistent
+with such a model, RapA is activated in a RasG-dependent
+manner, GefQ activates RasB in an actin-dependent manner, and
+both RasB and RapA are important for myosin II disassembly at
+the front of chemotaxing cells (Jeon et al., 2007; Mondal et al.,
+2008).
+The combination of symmetry breaking and confinement leads
+to strong Ras activation at the leading edge. The ratio of active
+Ras at the front relative to the rear is ,10:1 in a steep gradient,
+where the ratio of receptor occupancy is only ,1.2:1, indicating
+that there is a strong spatial amplification of the cAMP signal.
+Interestingly, in shallow gradients (,30 pM/mm) very little
+amplification of the cAMP gradient is detectable at the level of
+Ras activation.
+From movement in buffer to chemotaxis in shallow and
+steep gradients
+
+In the absence of chemotactic signals, cells do not move in
+random directions, but exhibit a persistent random walk (Van
+Haastert and Bosgraaf, 2009). Cells have a high probability of
+extending a new pseudopod from the same Ras-activated area of
+the cell and in the same direction as the current pseudopod. This
+intrinsic pathway for symmetry breaking is independent of
+receptor or heterotrimeric G-protein signaling. At the lower limit
+of chemotaxis (,2 pM/mm), the very shallow gradient activates a
+few additional Ras molecules at the high-gradient side of the cell,
+which might induce a small gradient-oriented bias of the intrinsic
+Ras asymmetry thereby changing the probability of where actin
+polymerization occurs and a pseudopod is made. Somewhat
+steeper gradients (,100 pM/mm) induce more Ras-GTP
+molecules and therefore a stronger directional bias. Much
+steeper gradients (,2000 pM/mm) also induce amplification of
+Ras activation, providing full activation of Ras in the utmost
+leading edge of the cell. In these cells all pseudopods are formed
+in the direction of the steep gradient.
+This cAMP gradient dose-dependent activation of Ras is
+similar in wild-type cells and in mutant cells lacking four
+
+Journal of Cell Science
+
+Symmetry breaking of Ras activation
+signaling enzymes (PI3K, TorC2, PLA2 and sGC) (Kortholt et al.,
+2011). Interestingly, these mutant cells can chemotax only in steep
+gradients with strong activation of Ras at the leading edge. Thus,
+the basal chemotaxis system, composed of cAMP receptors,
+Ga2bc, RasC/G and Rac/actin, is sufficient for chemotaxis, but is
+relatively insensitive. The few molecules of Ras that are activated
+by the shallow gradient require the signaling enzymes PI3K,
+TorC2, PLA2 and sGC to induce a stronger directional bias.
+Previous experiments (Bosgraaf and Van Haastert, 2009) have
+shown that the signaling enzyme PLA2 and cGMP function in the
+memory of direction. Wild-type cells in buffer have the strong
+tendency to persist in their direction of movement, which is due to
+the alternating left–right extension of pseudopods at a small angle.
+The persistence of direction has a time constant of ,3 minutes,
+equivalent to ,10 pseudopods. In the absence of PLA2 and cGMP
+each new pseudopod is extended in a random direction. Thus, in
+wild-type cells, the small directional bias that is imposed by the
+shallow gradient slowly accumulates at each new pseudopod
+owing to the persistence memory of PLA2 and cGMP. The other
+signaling molecules and enzymes [PtdIns(3,4,5)P3, TorCs and
+sGC] are formed at or localized to the place where Ras was
+activated. They enhance Ras-induced Rac activation and/or
+formation of F-actin at the leading edge. In the concept from
+physics, these signaling pathways enhance the signal-to-noise
+ratio, because they function as time-averaging and memory
+devices (PLA2 and cGMP), and as amplifier of spatial
+information [PtdIns(3,4,5)P3, TorCs and sGC]. Taken together,
+these signaling pathways allow chemotaxis to occur in cAMP
+gradients that are ,100-fold more shallow (Fig. 4D).
+Conclusions
+
+These experiments provide a conceptual framework of gradient
+sensing and chemotaxis. A cAMP gradient induces the activation
+of the G-protein Ga2bc. The Gbc subunit induces the uniform
+activation and adaptation of Ras. The Ga2 subunit is essential to
+activate Ras at the side of the cell facing the highest
+concentration of cAMP. Local and global activities of specific
+GEFs and GAPs lead to Ras activation in a large area at the front
+of the cell. As cells start to move in the direction of the cAMP
+gradient, the rearranged cytoskeleton locally activates additional
+GEFs and GAPs to confine Ras activation to the utmost leading
+edge, thereby inducing polarized cells that move persistently
+towards cAMP. Downstream signaling molecules contribute to
+chemotaxis as memory of direction and amplifiers of spatial
+information.
+Materials and Methods
+Cell culture and preparation
+
+The strains used are wild-type AX3, rasC-null (Bolourani et al., 2006), gb-null
+(Wu et al., 1995), ga2-null (Kumagai et al., 1991), gc-null (Veltman and van
+Haastert, 2008), myoII-null (Yumura et al., 2005), gefA-null (Insall et al., 1996),
+gefB-null (Wilkins et al., 2000a), gefC-null, gefD-null, gefE-null, gefG-null, gefLnull (Wilkins et al., 2005), gefM-null (Arigoni et al., 2005), gefR-null (Kae et al.,
+2007) and nfaA-null (Zhang et al., 2008). RasG activation was inhibited by
+expressing dominant-negative RasGS17N from the previously described
+doxycycline-inducible vector pDM310 (Veltman et al., 2009b). Expression of
+RasGS17N from this dox-on system was induced by growing the cells for at least
+24 hours in the presence of 10 mM doxycline. To determine the contribution of the
+signaling molecules, we used deletion mutants in specific genes in combination
+with drugs to inhibit one or a combination of sGC, PLA2, PI3K and TorC2 as
+previously described (Kortholt et al., 2011). Actin polymerization was inhibited
+with 5 mM Latrunculin A (LatA).
+To study Ras activation, RBD-Raf–GFP (amino acids 50–134 of RAF1) was coexpressed with cytosolic mRFP from a modified pDM318 vector (Veltman et al.,
+2009a) in which the neomycin cassette was replaced by hygromycin. F-actin
+
+4511
+
+formation was visualized by expressing LimEDcoil–GFP (amino acids 1–145 of
+LimE) from the previously published LB15B plasmid (Kortholt et al., 2011). Cells
+were grown in HL5-C medium including glucose (ForMedium) containing 50 mg/
+ml Hygromycin B (Invitrogen) for selection.
+We have taken precautions to obtain mutant cells that exhibit optimal chemotaxis
+towards cAMP. Many Dictyostelium mutants with deletion of cAMP receptors, Gproteins or signaling enzymes do not acquire good chemotactic responsiveness to
+cAMP owing to impaired development and reduced expression of other signaling
+proteins. Development can be improved considerably by exogenous pulsing with
+cAMP or starving mutants in the presence of wild-type cells (Kortholt et al., 2011).
+Unlabeled wild-type cells were mixed with equal amounts of mutant cells expressing
+GFP- or RFP-tagged proteins, and starved on agar for 5 to 7 hours until streams were
+formed. Cells were then harvested, suspended in 10 mM KH2PO4/Na2HPO4, pH 6.5
+(PB), and used in chemotaxis experiments.
+Chemotaxis assays
+
+To investigate how Ras is locally activated during chemotaxis, cells expressing
+RBD-Raf–GFP and RFP were stimulated with a micropipette releasing cAMP
+(Fig. 2). Cells were harvested in PB and incubated on a glass support at a density
+of ,46104 cells/cm2. The distance between adjacent cells is ,5 cell lengths, so
+that cells do not form streams, and chemotaxis can be measured in the absence of
+strong interactions between mutant and wild-type cells. Chemotaxis was observed
+using a confocal fluorescent microscope, detecting wild-type and mutant cells in
+the phase contrast and fluorescent channel, respectively. Control experiments
+using the fluorescent dye Alexa Fluor 594 in the pipette, and diffusion theory,
+reveal that at a distance of 50 mm from the pipette the spatial gradient is stable at 5
+to 10 seconds after application of the pipette (Postma and van Haastert, 2009).
+Using pipettes with different cAMP concentrations and recordings at different
+distances from the pipette, cells are exposed to shallow or steep cAMP gradients
+(in pM/mm) at defined mean background cAMP concentrations (in nM). Confocal
+images were recorded using a Zeiss LSM 510 META-NLO confocal laser scanning
+microscope equipped with a Zeiss plan-apochromatic 636 NA 1.4 objective.
+A sensitive assay for Ras activation at the cell boundary
+
+In Dictyostelium, Ras proteins are present at the plasma membrane. Stimulation of
+cells with cAMP does not change the localization of Ras, but converts Ras from the
+inactive Ras-GDP state into active Ras-GTP. The RBD domain of mammalian Raf
+binds specifically to the GTP-form of Ras, mainly RasG. Upon cAMP stimulation,
+RBD-Raf–GFP translocates from the cytoplasm to the cell boundary (Fig. 2). The
+RBD-Raf–GFP response to cAMP is easy detectable, very reproducible and robust.
+However, assays measuring the activation of a membrane protein using the
+translocation of a cytosolic marker to the cell boundary are fundamentally
+insensitive. Assume a cell with no Ras activation and a fluorescence intensity of
+RBD-Raf–GFP in the cytosol equal to 100. The boundary pixels are on average halffilled with cytoplasm and have an intensity of 50. When a weak cAMP signal
+induces a small level of activation of Ras so that ,10% of cytosolic RBD-Raf–GFP
+translocates from the cytoplasm to the membrane, the intensity in the cytosol
+decreases to ,90, whereas the intensity in the boundary pixel increases to only 60–
+70%, which is still below the fluorescent intensity of the adjacent cytosolic pixel.
+Previously, we have demonstrated for a PtdIns(3,4,5)P3 marker that such small
+translocations can be easily measured by co-expressing the GFP detector together
+with cytosolic RFP (Bosgraaf et al., 2008). Here, we co-expressed RBD-Raf–GFP
+and cytosolic RFP from one plasmid. The RBD-Raf–GFP minus the RFP signal in
+the boundary pixels represents Y, the amount of RBD-Raf–GFP that specifically
+binds to Ras-GTP at the membrane.
+For calculations we used the following steps. First, the mean background
+fluorescence intensity in the red and green channels outside the cells is determined
+and subtracted from all pixels of the movie. Then individual cells are analyzed. To
+correct for the difference in expression levels of the two markers within one cell,
+large areas of the cytoplasm are selected (excluding nucleus and vacuoles),
+yielding the mean average fluorescent intensity in the cytoplasm of the red channel
+,Rc. and green channel ,Gc., respectively. This provides the correction factor
+c5,Gc./,Rc., and all pixels in the red channel are multiplied by c. Then for
+each pixel (i) of that cell we calculated the difference of green and corrected red
+signal, and this is normalized by dividing by the average fluorescent intensity of
+GFP in the cytoplasm. Thus, Y(i)5(Gi2cRi)/,Gc.. Previous analysis with a
+PtdIns(3,4,5)P3 detector (Bosgraaf et al., 2008) and current analysis with the RasGTP detector (Fig. 2) reveal that this method provides a ,10-fold increase of
+sensitivity to detect local activated Ras. It should be noted that a value of Y50.4 is
+highly significant and easily detectable using the information from the green and
+red channels, but is undetectable as an increase RBD-Raf–GFP at the cell boundary
+in the green channel only. Thus, all experiments yielding values of Y between 0
+and ,0.5 yield new information on Ras activation not presented previously.
+
+Acknowledgements
+
+We want to thank Dr R. A. Firtel, Dr G. Weeks and the Dictyostelium
+stock center for providing the mutant strains used in this study.
+
+4512
+
+Journal of Cell Science 126 (19)
+
+Author contributions
+
+A.K. and P.J.M.v.H. designed the experiments and wrote the paper.
+I.K.G. and R.K. performed the experiments.
+Funding
+
+This research received no specific grant from any funding agency in
+the public, commercial, or not-for-profit sectors.
+Supplementary material available online at
+http://jcs.biologists.org/lookup/suppl/doi:10.1242/jcs.132340/-/DC1
+
+Journal of Cell Science
+
+References
+Ambrosi, D., Gamba, A. and Serini, G. (2004). Cell directional and chemotaxis in
+vascular morphogenesis. Bull. Math. Biol. 66, 1851-1873.
+Arigoni, M., Bracco, E., Lusche, D. F., Kae, H., Weeks, G. and Bozzaro, S. (2005). A
+novel Dictyostelium RasGEF required for chemotaxis and development. BMC Cell
+Biol. 6, 43.
+Bolourani, P., Spiegelman, G. B. and Weeks, G. (2006). Delineation of the roles
+played by RasG and RasC in cAMP-dependent signal transduction during the early
+development of Dictyostelium discoideum. Mol. Biol. Cell 17, 4543-4550.
+Bominaar, A. A. and Van Haastert, P. J. (1994). Phospholipase C in Dictyostelium
+discoideum. Identification of stimulatory and inhibitory surface receptors and Gproteins. Biochem. J. 297, 189-193.
+Bosgraaf, L. and Van Haastert, P. J. (2009). Navigation of chemotactic cells by
+parallel signaling to pseudopod persistence and orientation. PLoS ONE 4, e6842.
+Bosgraaf, L., Keizer-Gunnink, I. and Van Haastert, P. J. (2008). PI3-kinase signaling
+contributes to orientation in shallow gradients and enhances speed in steep
+chemoattractant gradients. J. Cell Sci. 121, 3589-3597.
+Bourne, H. R., Sanders, D. A. and McCormick, F. (1991). The GTPase superfamily:
+conserved structure and molecular mechanism. Nature 349, 117-127.
+Brzostowski, J. A., Johnson, C. and Kimmel, A. R. (2002). Galpha-mediated
+inhibition of developmental signal response. Curr. Biol. 12, 1199-1208.
+Causin, P. and Facchetti, G. (2009). Autocatalytic loop, amplification and diffusion: a
+mathematical and computational model of cell polarization in neural chemotaxis.
+PLOS Comput. Biol. 5, e1000479.
+Charest, P. G. and Firtel, R. A. (2007). Big roles for small GTPases in the control of
+directed cell movement. Biochem. J. 401, 377-390.
+Charest, P. G., Shen, Z., Lakoduk, A., Sasaki, A. T., Briggs, S. P. and Firtel, R. A.
+(2010). A Ras signaling complex controls the RasC-TORC2 pathway and directed cell
+migration. Dev. Cell 18, 737-749.
+Chen, L., Iijima, M., Tang, M., Landree, M. A., Huang, Y. E., Xiong, Y., Iglesias,
+P. A. and Devreotes, P. N. (2007). PLA2 and PI3K/PTEN pathways act in parallel to
+mediate chemotaxis. Dev. Cell 12, 603-614.
+Chubb, J. R., Wilkins, A., Thomas, G. M. and Insall, R. H. (2000). The Dictyostelium
+RasS protein is required for macropinocytosis, phagocytosis and the control of cell
+movement. J. Cell Sci. 113, 709-719.
+Chubb, J. R., Wilkins, A., Wessels, D. J., Soll, D. R. and Insall, R. H. (2002).
+Pseudopodium dynamics and rapid cell movement in Dictyostelium Ras pathway
+mutants. Cell Motil. Cytoskeleton 53, 150-162.
+Elzie, C. A., Colby, J., Sammons, M. A. and Janetopoulos, C. (2009). Dynamic
+localization of G proteins in Dictyostelium discoideum. J. Cell Sci. 122, 2597-2603.
+Hadwiger, J. A., Lee, S. and Firtel, R. A. (1994). The G alpha subunit G alpha 4
+couples to pterin receptors and identifies a signaling pathway that is essential for
+multicellular development in Dictyostelium. Proc. Natl. Acad. Sci. USA 91, 1056610570.
+Hoeller, O. and Kay, R. R. (2007). Chemotaxis in the absence of PIP3 gradients. Curr.
+Biol. 17, 813-817.
+Insall, R. H., Borleis, J. and Devreotes, P. N. (1996). The aimless RasGEF is required
+for processing of chemotactic signals through G-protein-coupled receptors in
+Dictyostelium. Curr. Biol. 6, 719-729.
+Jeon, T. J., Lee, D. J., Merlot, S., Weeks, G. and Firtel, R. A. (2007). Rap1 controls
+cell adhesion and cell motility through the regulation of myosin II. J. Cell Biol. 176,
+1021-1033.
+Jin, T., Zhang, N., Long, Y., Parent, C. A. and Devreotes, P. N. (2000). Localization
+of the G protein betagamma complex in living cells during chemotaxis. Science 287,
+1034-1036.
+Kae, H., Lim, C. J., Spiegelman, G. B. and Weeks, G. (2004). Chemoattractantinduced Ras activation during Dictyostelium aggregation. EMBO Rep. 5, 602-606.
+Kae, H., Kortholt, A., Rehmann, H., Insall, R. H., Van Haastert, P. J., Spiegelman,
+G. B. and Weeks, G. (2007). Cyclic AMP signalling in Dictyostelium: G-proteins
+activate separate Ras pathways using specific RasGEFs. EMBO Rep. 8, 477-482.
+Kamimura, Y., Xiong, Y., Iglesias, P. A., Hoeller, O., Bolourani, P. and Devreotes,
+P. N. (2008). PIP3-independent activation of TorC2 and PKB at the cell’s leading
+edge mediates chemotaxis. Curr. Biol. 18, 1034-1043.
+Kataria, R., Xu, X., Fusetti, F., Keizer-Gunnink, I., Jin, T., van Haastert, P. J. and
+Kortholt, A. (2013). Dictyostelium Ric8 is a nonreceptor guanine exchange factor for
+heterotrimeric G proteins and is important for development and chemotaxis. Proc.
+Natl. Acad. Sci. USA 110, 6424-6429.
+Kortholt, A. and van Haastert, P. J. (2008). Highlighting the role of Ras and Rap
+during Dictyostelium chemotaxis. Cell. Signal. 20, 1415-1422.
+
+Kortholt, A., Kataria, R., Keizer-Gunnink, I., Van Egmond, W. N., Khanna, A. and
+Van Haastert, P. J. (2011). Dictyostelium chemotaxis: essential Ras activation and
+accessory signalling pathways for amplification. EMBO Rep. 12, 1273-1279.
+Kumagai, A., Pupillo, M., Gundersen, R., Miake-Lye, R., Devreotes, P. N. and
+Firtel, R. A. (1989). Regulation and function of G alpha protein subunits in
+Dictyostelium. Cell 57, 265-275.
+Kumagai, A., Hadwiger, J. A., Pupillo, M. and Firtel, R. A. (1991). Molecular genetic
+analysis of two G alpha protein subunits in Dictyostelium. J. Biol. Chem. 266, 12201228.
+Liao, X. H., Buggey, J. and Kimmel, A. R. (2010). Chemotactic activation of
+Dictyostelium AGC-family kinases AKT and PKBR1 requires separate but
+coordinated functions of PDK1 and TORC2. J. Cell Sci. 123, 983-992.
+Lim, C. J., Spiegelman, G. B. and Weeks, G. (2001). RasC is required for optimal
+activation of adenylyl cyclase and Akt/PKB during aggregation. EMBO J. 20, 44904499.
+Lim, C. J., Zawadzki, K. A., Khosla, M., Secko, D. M., Spiegelman, G. B. and
+Weeks, G. (2005). Loss of the Dictyostelium RasC protein alters vegetative cell size,
+motility and endocytosis. Exp. Cell Res. 306, 47-55.
+Mato, J. M., Losada, A., Nanjundiah, V. and Konijn, T. M. (1975). Signal input for a
+chemotactic response in the cellular slime mold Dictyostelium discoideum. Proc.
+Natl. Acad. Sci. USA 72, 4991-4993.
+Mondal, S., Bakthavatsalam, D., Steimle, P., Gassen, B., Rivero, F. and Noegel,
+A. A. (2008). Linking Ras to myosin function: RasGEF Q, a Dictyostelium exchange
+factor for RasB, affects myosin II functions. J. Cell Biol. 181, 747-760.
+Postma, M. and van Haastert, P. J. (2009). Mathematics of experimentally generated
+chemoattractant gradients. Methods Mol. Biol. 571, 473-488.
+Reymond, C. D., Gomer, R. H., Mehdy, M. C. and Firtel, R. A. (1984).
+Developmental regulation of a Dictyostelium gene encoding a protein homologous
+to mammalian ras protein. Cell 39, 141-148.
+Rivero, F. and Somesh, B. P. (2002). Signal transduction pathways regulated by Rho
+GTPases in Dictyostelium. J. Muscle Res. Cell Motil. 23, 737-749.
+Sasaki, A. T. and Firtel, R. A. (2006). Regulation of chemotaxis by the orchestrated
+activation of Ras, PI3K, and TOR. Eur. J. Cell Biol. 85, 873-895.
+Sasaki, A. T. and Firtel, R. A. (2009). Spatiotemporal regulation of Ras-GTPases
+during chemotaxis. Methods Mol. Biol. 571, 333-348.
+Sasaki, A. T., Chun, C., Takeda, K. and Firtel, R. A. (2004). Localized Ras signaling
+at the leading edge regulates PI3K, cell polarity, and directional cell movement.
+J. Cell Biol. 167, 505-518.
+Sasaki, A. T., Janetopoulos, C., Lee, S., Charest, P. G., Takeda, K., Sundheimer,
+L. W., Meili, R., Devreotes, P. N. and Firtel, R. A. (2007). G proteinindependent Ras/PI3K/F-actin circuit regulates basic cell motility. J. Cell Biol.
+178, 185-191.
+Srinivasan, K., Wright, G. A., Hames, N., Housman, M., Roberts, A., Aufderheide,
+K. J. and Janetopoulos, C. (2013). Delineating the core regulatory elements crucial
+for directed cell migration by examining folic-acid-mediated responses. J. Cell Sci.
+126, 221-233.
+Sutherland, B. W., Spiegelman, G. B. and Weeks, G. (2001). A Ras subfamily GTPase
+shows cell cycle-dependent nuclear localization. EMBO Rep. 2, 1024-1028.
+Swaney, K. F., Huang, C. H. and Devreotes, P. N. (2010). Eukaryotic chemotaxis: a
+network of signaling pathways controls motility, directional sensing, and polarity.
+Annu. Rev. Biophys 39, 265-289.
+Tranquillo, R. T., Lauffenburger, D. A. and Zigmond, S. H. (1988). A stochastic
+model for leukocyte random motility and chemotaxis based on receptor binding
+fluctuations. J. Cell Biol. 106, 303-309.
+Tuxworth, R. I., Cheetham, J. L., Machesky, L. M., Spiegelmann, G. B., Weeks,
+G. and Insall, R. H. (1997). Dictyostelium RasG is required for normal motility and
+cytokinesis, but not growth. J. Cell Biol. 138, 605-614.
+Ueda, M. and Shibata, T. (2007). Stochastic signal processing and transduction in
+chemotactic response of eukaryotic cells. Biophys. J. 93, 11-20.
+Van Haastert, P. J. and Bosgraaf, L. (2009). Food searching strategy of amoeboid cells
+by starvation induced run length extension. PLoS ONE 4, e6814.
+van Haastert, P. J. and Postma, M. (2007). Biased random walk by stochastic
+fluctuations of chemoattractant-receptor interactions at the lower limit of detection.
+Biophys. J. 93, 1787-1796.
+Veltman, D. M. and van Haastert, P. J. (2008). The role of cGMP and the rear of the
+cell in Dictyostelium chemotaxis and cell streaming. J. Cell Sci. 121, 120-127.
+Veltman, D. M., Keizer-Gunnik, I. and Van Haastert, P. J. (2008). Four key signaling
+pathways mediating chemotaxis in Dictyostelium discoideum. J. Cell Biol. 180, 747753.
+Veltman, D. M., Akar, G., Bosgraaf, L. and Van Haastert, P. J. (2009a). A new set of
+small, extrachromosomal expression vectors for Dictyostelium discoideum. Plasmid
+61, 110-118.
+Veltman, D. M., Keizer-Gunnink, I. and Haastert, P. J. (2009b). An extrachromosomal,
+inducible expression system for Dictyostelium discoideum. Plasmid 61, 119-125.
+Vetter, I. R. and Wittinghofer, A. (2001). The guanine nucleotide-binding switch in
+three dimensions. Science 294, 1299-1304.
+Weeks, G. (2005). The small GTPase superfamily. In Dictyostelium Genomics (ed.
+Wiliam F. Loomis and Adam Kuspa), pp. 173-210. Horizon Bioscience.
+Wilkins, A., Chubb, J. R. and Insall, R. H. (2000a). A novel Dictyostelium RasGEF is
+required for normal endocytosis, cell motility and multicellular development. Curr.
+Biol. 10, 1427-1437.
+
+Symmetry breaking of Ras activation
+
+Journal of Cell Science
+
+Wilkins, A., Khosla, M., Fraser, D. J., Spiegelman, G. B., Fisher, P. R., Weeks,
+G. and Insall, R. H. (2000b). Dictyostelium RasD is required for normal phototaxis,
+but not differentiation. Genes Dev. 14, 1407-1413.
+Wilkins, A., Szafranski, K., Fraser, D. J., Bakthavatsalam, D., Müller, R., Fisher, P. R.,
+Glöckner, G., Eichinger, L., Noegel, A. A. and Insall, R. H. (2005). The Dictyostelium
+genome encodes numerous RasGEFs with multiple biological roles. Genome Biol. 6, R68.
+Wu, L. J., Valkema, R., Van Haastert, P. J. M. and Devreotes, P. N. (1995). The G
+protein beta subunit is essential for multiple responses to chemoattractants in
+Dictyostelium. J. Cell Biol. 129, 1667-1675.
+
+4513
+
+Xiao, Z., Zhang, N., Murphy, D. B. and Devreotes, P. N. (1997). Dynamic distribution
+of chemoattractant receptors in living cells during chemotaxis and persistent
+stimulation. J. Cell Biol. 139, 365-374.
+Yumura, S., Yoshida, M., Betapudi, V., Licate, L. S., Iwadate, Y., Nagasaki, A.,
+Uyeda, T. Q. and Egelhoff, T. T. (2005). Multiple myosin II heavy chain kinases:
+roles in filament assembly control and proper cytokinesis in Dictyostelium. Mol. Biol.
+Cell 16, 4256-4266.
+Zhang, S., Charest, P. G. and Firtel, R. A. (2008). Spatiotemporal regulation of Ras
+activity provides directional sensing. Curr. Biol. 18, 1587-1593.
+
+

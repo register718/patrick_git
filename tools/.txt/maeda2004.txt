@@ -1,0 +1,569 @@
+REPORTS
+NGF, composed of the central ␤ sheet, is unaffected by the conformational changes induced by
+p75; these changes are localized to the distal
+loops of NGF (Fig. 4A). The structural possibility of the trimolecular complex supports an
+equilibrium between p75 dimers, p75-NT
+complexes, NT-Trk complexes, and trimolecular Trk–NT–p75 signaling complexes
+(Fig. 4D) that would be dictated by the
+relative expression levels of each component
+and by the concentration of NT (7, 8). Further, the p75-induced neurotrophin conformational changes on the side of the
+pseudosites could be a mechanistic glimpse
+of the long-suspected allostery by which p75
+modulates Trk ligand affinity and specificity
+for neurotrophins.
+References and Notes
+
+1. M. Bothwell, Annu. Rev. Neurosci. 18, 223 (1995).
+2. M. Bibel, Y. A. Barde, Genes Dev. 14, 2919 (2000).
+3. G. R. Lewin, Y. A. Barde, Annu. Rev. Neurosci. 19, 289
+(1996).
+4. C. F. Ibanez, Trends Biotechnol. 13, 217 (1995).
+5. M. V. Chao, Nature Rev. Neurosci. 4, 299 (2003).
+6. G. Dechant, Y. A. Barde, Nature Neurosci. 5, 1131
+(2002).
+7. B. L. Hempstead, Curr. Opin. Neurobiol. 12, 260 (2002).
+8. E. J. Huang, L. F. Reichardt, Annu. Rev. Biochem. 72,
+609 (2003).
+9. S. Rabizadeh, D. E. Bredesen, Cytokine Growth Factor
+Rev. 14, 225 (2003).
+10. B. L. Hempstead, D. Martin-Zanca, D. R. Kaplan, L. F.
+Parada, M. V. Chao, Nature 350, 678 (1991).
+11. C. Wiesmann, M. H. Ultsch, S. H. Bass, A. M. de Vos,
+Nature 401, 184 (1999).
+
+12. Materials and methods are provided in Supporting
+Online Material (SOM).
+13. P. M. Grob, A. H. Ross, H. Koprowski, M. Bothwell,
+J. Biol. Chem. 260, 8044 (1985).
+14. S. Jing, P. Tapley, M. Barbacid, Neuron 9, 1067 (1992).
+15. N. Q. McDonald et al., Nature 354, 411 (1991).
+16. D. W. Banner et al., Cell 73, 431 (1993).
+17. M. J. Boulanger, A. J. Bankovich, T. Kortemme, D.
+Baker, K. C. Garcia, Mol. Cell 12, 577 (2003).
+18. A. Rodriguez-Tebar, G. Dechant, Y. A. Barde, Neuron
+4, 487 (1990).
+19. S. C. Garman, B. A. Wurzburg, S. S. Tarchevskaya, J. P.
+Kinet, T. S. Jardetzky, Nature 406, 259 (2000).
+20. P. Li et al., Nature Immunol. 2, 443 (2001).
+21. X. He, D. Chow, M. M. Martick, K. C. Garcia, Science
+293, 1657 (2001).
+22. J. J. Wang et al., J. Neurosci. Res. 60, 587 (2000).
+23. T. Yamashita, K. L. Tucker, Y. A. Barde, Neuron 24,
+585 (1999).
+24. K. C. Wang, J. A. Kim, R. Sivasankaran, R. Segal, Z. He,
+Nature 420, 74 (2002).
+25. We thank A. M. de Vos (Genentech, Inc.) for the gift
+of recombinant human NGF, NT-4/5 and NT-3; M.
+Boulanger for assistance with MALS; W. Mobley for
+helpful discussions and mouse NGF; and B. Hempstead and C. F. Ibanez for critically reading the manuscript. K.C.G. is supported by the American Heart
+Association, Christopher Reeve Paralysis Foundation,
+Keck Foundation, and NIH. X.H is supported by the
+Fritz Krauth Memorial Fellowship from Paralyzed
+Veterans of America, Spinal Cord Research Foundation. The coordinates and structural factors have
+been deposited in the Protein Data Bank with accession number 1SG1.
+Supporting Online Material
+www.sciencemag.org/cgi/content/full/304/5672/870/DC1
+Materials and Methods
+Table S1
+20 December 2003; accepted 4 March 2004
+
+Periodic Signaling Controlled by an
+Oscillatory Circuit That Includes
+Protein Kinases ERK2 and PKA
+Mineko Maeda,1 Sijie Lu,2* Gad Shaulsky,3 Yuji Miyazaki,1
+Hidekazu Kuwayama,4 Yoshimasa Tanaka,4 Adam Kuspa,2,3
+William F. Loomis5†
+Self-regulating systems often use robust oscillatory circuits. One such system
+controls the chemotactic signaling mechanism of Dictyostelium, where pulses of
+adenosine 3⬘,5⬘-monophosphate (cAMP) are generated with a periodicity of 7
+minutes. We have observed spontaneous oscillations in activation of the mitogenactivated protein (MAP) kinase ERK2 that occur in phase with peaks of cAMP, and
+we show that ERK2 modulates cAMP levels through the phosphodiesterase RegA.
+Computer modeling and simulations of the underlying circuit faithfully account for
+the ability of the cells to spontaneously generate periodic pulses during speciﬁc
+stages of development. Similar oscillatory processes may occur in cells of many
+different species.
+During development, a few Dictyostelium
+cells spontaneously emit pulses of cAMP,
+and surrounding cells respond within a
+minute by releasing more of the signal. When
+observed in monolayers, cAMP relay leads to
+nondissipating target and spiral patterns that
+expand through the field with a period of 6 to
+7 min, much like self-propagating waves in
+excitable fields (1, 2). The period decreases
+
+Downloaded from https://www.science.org at University Erlangen Nuernberg on September 30, 2026
+
+TNF-R family receptors, we suggest that p75 is
+intolerant to changes in the relative orientations
+of the two sites. Attempts to manually dock p75
+onto both pseudosites simultaneously resulted in
+numerous steric clashes and implausible NGFp75 contact distances relative to those formed at
+the initial sites of engagement.
+The asymmetric interaction mode of p75 and
+NGF can be contrasted with other asymmetric
+receptor and ligand complexes. The immunoglobulin IgE Fc receptor complex with Fc (19),
+the NKG2D complex with MIC-A (20), and the
+complex of CNP with the natriuretic peptide
+receptor (21) are all asymmetric complexes containing a symmetric homodimer. However, in
+these cases, the ligand or receptor binds directly
+on the two-fold symmetry axis; thereby, it sterically imposes the asymmetry through blockade
+of the binding site. The p75-NGF complex is
+distinct in that the receptor binds away from the
+symmetry axis of NGF, which leaves the mirrorimage binding site completely accessible for another receptor interaction. Therefore, an allosteric mechanism is required in order to disable the
+pseudosites. A possible functional rationale for
+this mechanism is to preserve an open face of
+NGF that could engage a second, but different,
+receptor and form a heterotrimeric complex.
+The asymmetric NGF-p75 complex structure
+now helps provide a framework for interpreting
+the voluminous body of functional data published on NT signaling through p75 and Trk
+(1–3, 5, 7–9). On the basis of our structural and
+biochemical data, we propose that one mechanism of p75 activation is through NT-induced
+dissociation of a receptor dimer. This mechanism is consistent with some experimental data
+(1, 5, 8), such as a cross-linking study showing
+that apoptotic induction by p75 requires monomerization, whereas enforced dimerization is inhibitory (22). The NT-induced p75 disassociation mechanism does not exclude the possibility
+that other receptor configurations or oligomers
+may initiate signaling, dependent on the cellular
+environment. For instance, p75 alone, p75 as
+dependence receptor, p75 with Trks, and p75
+with Nogo receptor may each have signaling
+mechanisms distinct from the NT-p75 complex.
+This could explain the complexity of p75 signaling. For example, in the same type of neuronal
+cells, NGF binding to p75 inactivates Rho (23),
+whereas binding of Nogo to the NgR-p75 complex results in Rho activation (24).
+The asymmetric NGF-p75 complex lends
+some mechanistic insight into the role of p75 in
+coordinating with Trk. The TrkA-NGF complex
+is known to comprise two NGF monomers and
+two TrkA molecules in a symmetric 2:2 stoichiometry (11). Although Trk and p75 are mutually
+exclusive on the same side of NGF because of
+the clash between the Trk D5 domain and the
+p75 CRD2-CRD3 junction, NGF is structurally
+capable of binding TrkA and p75 simultaneously
+on opposite sides to form a trimolecular complex
+(Fig. 4D). Of note, the TrkA binding site on
+
+from about 8 min to 6 min as the cells
+develop (3). The phase can be set by exogenous cAMP, but the period depends on endogenous molecular interactions within individual cells. Rapid activation and delayed
+inhibition of adenylyl cyclase could account
+for periodic production of cAMP, and there is
+considerable evidence that such processes occur in Dictyostelium. After a pulse of exoge-
+
+www.sciencemag.org SCIENCE VOL 304 7 MAY 2004
+
+875
+
+REPORTS
+nous cAMP, the MAP kinase ERK2 and the
+cAMP-dependent protein kinase A (PKA) are
+Department of Biology, Graduate School of Science,
+Osaka University, Machikaneyama-cho 1-16, Toyonaka, Osaka 560-0043, Japan. 2Department of Biochemistry and Molecular Biology, 3Department of
+Molecular and Human Genetics, Baylor College of
+Medicine, Houston TX 77030, USA. 4Institute of Biological Sciences, University of Tsukuba, Tsukuba,
+Ibaraki 305-8572, Japan. 5Division of Biological Sciences, University of California, San Diego, La Jolla, CA
+92093, USA.
+1
+
+both activated for several minutes but then
+return to basal levels (4, 5). Cells lacking
+PKA return more slowly to basal ERK2 activity, whereas constitutive PKA activity
+leads to greatly reduced ERK2 activity after
+stimulation with cAMP (6, 7). These results
+*Present address: Department of Blood and Marrow
+Transplantation, M. D. Anderson Cancer Center, Houston, TX 77030, USA.
+†To whom correspondence should be addressed. Email: wloomis@ucsd.edu
+
+Fig. 2. Spontaneous oscillations. (A)
+The circuit that generates oscillations is modiﬁed from Laub and
+Loomis (13). Arrows indicate activation; bars indicate inhibition. PDE is
+the secreted phosphodiesterase
+that hydrolyzes extracellular cAMP
+(cAMPe). CAR1 is the cAMP receptor; ACA is the aggregation adenylyl
+cyclase; PKA is the cAMP-dependent protein kinase; ERK2 is the
+MAP kinase; and RegA is the phosphodiesterase that hydrolyzes internal cAMP (cAMPi). Connecting
+intermediates, such as trimeric G
+protein, phosphatidylinositol 3-kinase, CRAC, and Pianissimo, are not
+included in the present analyses,
+and the proposed interactions need
+not be direct. (B) Output of the
+circuit simulation of cells at 4 hours
+of development. Periodic changes in
+ERK2 activity and the internal and
+external levels of cAMP are indicated (arbitrary units). (C) Measured
+changes in phospho-ERK2 and cAMP in pulse-developed cells that
+were washed and resuspended at 5 ⫻ 107 cells/ml. Samples were
+taken at 1-min intervals. The NIH Image package was used to quantify
+the level of phospho-ERK. Results are representative of three inde-
+
+876
+
+pendent experiments. (D) Samples from pulse-developed wild-type
+(AX2) and erkB– null cells were collected after treatment with 100 nM
+cAMP and analyzed on Western blots with antibodies to phosphop44/p42 MAP kinase to establish the speciﬁcity of the antibodies to
+ERK2 in Dictyostelium.
+
+7 MAY 2004 VOL 304 SCIENCE www.sciencemag.org
+
+Downloaded from https://www.science.org at University Erlangen Nuernberg on September 30, 2026
+
+Fig. 1. (A and B) Response to cAMP stimulation. Cells of various strains were developed for 8 hours in
+suspension, with pulses of 100 nM cAMP
+given every 6 min for
+the last 4 hours (25).
+Cells were then washed
+and stimulated with
+1 ␮M 2⬘-deoxy-cAMP.
+cAMP accumulation was
+measured in samples
+taken at 1-min intervals.
+Genotypes of the various strains are indicated.
+Results are representative of three or more independent experiments
+with each strain.
+
+indicate that the activities of these protein
+kinases are connected in a molecular circuit.
+Many aspects of the signal transduction
+pathway from the seven-transmembrane G
+protein–coupled cAMP receptor, CAR1, to
+the activation of the membrane-bound adenylyl cyclase, ACA, have been established in
+Dictyostelium both biochemically and genetically (8, 9). Most of the newly synthesized
+cAMP is released to relay the signal, but PKA
+is also activated by intracellular cAMP. In
+each oscillation, cAMP levels increase for
+about 3 min and then return to basal levels as
+the result of transient activation of ACA and
+the action of the extracellular and intracellular cAMP phosphodiesterases PDE and RegA
+(1, 2, 10, 11). The signal transduction pathway(s) that result in attenuation of the response
+are not yet fully understood, but it is known that
+ligand-bound CAR1 not only activates ACA
+but also leads to transient activation of ERK2,
+which has been shown to be essential for the
+accumulation of cAMP (4, 12). It was suggested that ERK2 might be necessary for the inhibition of the internal phosphodiesterase RegA,
+which otherwise would hydrolyze newly made
+cAMP, leading to a futile cycle and failure to
+activate PKA (13).
+In a screen for suppressors of the aggregateless phenotype of erkB– cells, we found
+one strain in which the regA gene was disrupted. Unlike the parent strain, the double
+mutant (erkB– regA–) is able to aggregate and
+form spores, but only if the amoebae are
+incubated as a dense lawn where aggregation
+can occur as the result of adhesion of randomly moving cells. At lower cell densities,
+aggregation does not occur and the cells show
+no evidence for relay of the chemotactic sig-
+
+REPORTS
+–
+
+Fig. 3. ERK2 activation in response to cAMP. (A)
+Pulse-developed wild-type cells were treated
+with various concentrations of cAMP and samples collected after 30 s for analyses on Western blots using antibodies to either phosphop44/p42 MAP kinase (speciﬁc to phosphorylated ERK2 in Dictyostelium) or Dictyostelium
+ERK2 (anti-DERK2), which recognizes both unphosphorylated and phosphorylated ERK2
+(*ERK2). (B) The proportion of activated ERK2
+measured with anti-DERK2 was calculated as
+percentage of total ERK2 after stimulation with
+various levels of cAMP. (C) Levels of phosphoERK2 during a spontaneous oscillation were
+compared to levels of phospho-ERK2 30 s after
+treatment with 0.1 to 5 nM cAMP.
+
+the absence of cAMP accumulation, as previously reported (15–17).
+ERK2 may directly inhibit phosphodiesterase activity by phosphorylation of RegA. There
+are several potential MAP kinase target sites
+near the catalytic domain at the C-terminal sequence of RegA. We used site-directed mutagenesis to convert Thr676 to Ala (T676A) to
+preclude phosphorylation and expressed the mutant protein in regA– null cells. We also transformed wild-type regA into either a wild-type
+background or a regA– null background. Cells
+expressing wild-type regA accumulated cAMP
+to the same levels seen in wild-type cells (Fig. 1).
+However, regA– cells expressing the T676A
+variant of RegA accumulated less than 15% as
+much cAMP, consistent with reduced inhibition
+of the phosphodiesterase activity (Fig. 1B). Cells
+of the double mutant erkB– regA– transformed
+with the T676A construct also failed to accumulate cAMP after stimulation (Fig. 1B).
+A circuit including CAR1, adenylyl cyclase,
+cAMP phosphodiesterases, and the two protein
+kinases has been proposed on the basis of biochemical and genetic evidence (13, 18). Because
+it is now clear that ERK2 does not play a direct
+role in activation of adenylyl cyclase, we have
+appropriately modified the circuit. Moreover, we
+modified the model such that PKA activity is
+responsible for the inhibition of activation of
+adenylyl cyclase based on the prolonged activity
+of ACA after cAMP stimulation pkaC-null cells
+(19). We analyzed the circuit shown in Fig. 2A
+with the use of differential equations representing activation and inactivation kinetics for each
+component (table S1). Numerical solution of the
+equations predicts that ERK2 activity oscillates
+with a 7-min period, in phase with changes in
+cAMP (Fig. 2B). To test these predictions, we
+used antibodies that specifically recognize Dictyostelium phospho-ERK2 (anti-phospho-ERK)
+and found that activated ERK2 spontaneously
+oscillated with a period of about 6 min (Fig. 2C).
+cAMP levels also showed spontaneous oscillations reaching peaks slightly after the peaks in
+activated ERK2 (Fig. 2C, dashed line). The specificity of the antibody was demonstrated by analyzing the kinetics of appearance of phosphoERK2 after stimulation of wild-type and erkB–
+
+null cells with exogenous cAMP (Fig. 2D).
+To assess the level of activated ERK2 during
+spontaneous oscillations, we pulsed developed
+cells with different levels of cAMP and analyzed
+samples 30 s after stimulation. We used both
+anti-phospho-ERK and antibodies raised against
+a 27–amino acid peptide from the C terminus of
+ERK2, which recognize both the slower migrating phospho-ERK2 and unphosphorylated
+ERK2 (Fig. 3A). Both methods for estimating
+the amount of activated ERK2 showed that phospho-ERK2 increases between 1 and 100 nM
+(Fig. 3B). By comparing the levels of activated
+ERK2 seen during spontaneous oscillations to
+those in cells treated with exogenous cAMP, we
+found that peak activity corresponded to that
+induced by 1 nM cAMP (Fig. 3C).
+Previously, we showed that cAMP failed to
+activate ERK2 in a carA– strain lacking the
+receptor CAR1 but activated ERK2 normally in
+an acaA– strain lacking the major adenylyl cyclase (4, 7). Activation in a gbpA– strain lacking
+G␤ was attenuated but still clearly observable (4,
+6). These observations were all confirmed using
+anti-phospho-ERK. Strains carrying null mutations in carA, gbpA, or acaA failed to show
+spontaneous oscillations in ERK2 activation,
+supporting the predictions of the circuit model
+(fig. S1).
+Although stable oscillations in ERK2 were
+routinely observed in cells that had been pulsed
+with cAMP for 4 hours in suspension, they were
+never seen in growing cells or in cells that had
+been developed for 7 hours or more (fig. S2). At
+the start of development, adenylyl cyclase activity is low but accumulates over the following 8
+hours (3). Spontaneous oscillations in ACA activity are first observed at 3.5 hours of development, continue for about 3 hours, and then cease.
+In our computer simulations, we mimicked developmental changes in ACA by ramping the
+maximal activity up by a factor of 6 during the
+first 4 hours. Oscillations in both ACA and
+ERK2 were not seen until after 3 hours, increased in amplitude until 4.5 hours, and then
+remained constant. Attenuation of the spontaneous oscillations could be mimicked by reducing
+the level of RegA by a factor of 5 over the first
+7 hours (Fig. 4). It is known that RegA is subject
+
+Downloaded from https://www.science.org at University Erlangen Nuernberg on September 30, 2026
+
+nal. The erkB phenotype was also suppressed by targeted disruption of regA, confirming the genetic relationship. Inactivation
+of regA restored the ability of erkB– cells to
+accumulate cAMP after stimulation (Fig.
+1A). Relative to wild-type cells, both the
+erkB– regA– double mutant and the regA– null
+strain accumulated more cAMP during the
+first few minutes after stimulation, probably
+as a result of the reduced levels of internal
+phosphodiesterase. Although double mutants
+lacking ERK2 (erkB–) with constitutive PKA
+because of targeted disruption of the gene
+encoding the regulatory subunit of PKA
+(pkaR–) were found to aggregate and develop
+to the finger stage, they did not accumulate
+cAMP after stimulation (Fig. 1A). Wild-type
+cells in which pkaR was disrupted also accumulated very little cAMP after stimulation
+(Fig. 1A). A strain carrying a null mutation in
+pkaR was previously shown to accumulate
+almost no cAMP throughout early development (14). These results show that ERK2 is
+not essential for activation of ACA and that
+RegA limits the accumulation of cAMP.
+Moreover, it appears that constitutive PKA
+activity precludes accumulation of cAMP either directly or indirectly and is sufficient to
+allow development up to the finger stage in
+
+Fig. 4. Spontaneous oscillations during development. Output of the circuit simulation of cells in
+which the maximum activity of ACA increases by a factor of 6 during the ﬁrst 4 hours of
+development and the maximum activity of the internal phosphodiesterase RegA decreases by a
+factor of 5 over the ﬁrst 7 hours. Strong oscillations in ACA (arbitrary units) only occurred between
+4 and 6 hours of development. Oscillations of activated ERK2 and other components of the circuit
+were also restricted to this developmental stage.
+
+www.sciencemag.org SCIENCE VOL 304 7 MAY 2004
+
+877
+
+REPORTS
+
+References and Notes
+
+1. G. Gerisch, U. Wick, Biochem. Biophys. Res. Commun.
+65, 364 (1975).
+2. K. Tomchik, P. N. Devreotes, Science 212, 443 (1981).
+3. G. Gerisch, D. Malchow, W. Roos, U. Wick, J. Exp. Biol.
+81, 33 (1979).
+4. M. Maeda et al., J. Biol. Chem. 271, 3351 (1996).
+5. M. M. Behrens, M. Juliani, J. Maia, Biochem. Int. 13,
+221 (1986).
+6. M. Knetsch et al., EMBO J. 15, 3361 (1996).
+7. L. Aubry, M. Maeda, R. Insall, P. N. Devreotes, R. A.
+Firtel, J. Biol. Chem. 272, 3883 (1997).
+8. C. A. Parent, P. N. Devreotes, Annu. Rev. Biochem. 65,
+411 (1996).
+9. L. Aubry, R. Firtel, Annu. Rev. Cell Dev. Biol. 15, 469 (1999).
+10. W. Roos, C. Scheidegger, G. Gerisch, Nature 266, 259
+(1977).
+11. G. Shaulsky, D. Fuller, W. F. Loomis, Development
+125, 691 (1998).
+12. J. E. Segall et al., J. Cell Biol. 128, 405 (1995).
+13. M. Laub, W. F. Loomis, Mol. Biol. Cell 9, 3521 (1998).
+14. K. Abe, K. Yanagisawa, Dev. Biol. 95, 200 (1983).
+15. B. Wang, A. Kuspa, Science 277, 251 (1997).
+16. C. Anjard, F. Soderbom, W. F. Loomis, Development
+128, 3649 (2001).
+17. N. Iranfar, D. Fuller, W. F. Loomis, Eukaryot. Cell 2,
+664 (2003).
+18. D. Wessels et al., Mol. Biol. Cell 11, 2803 (2000).
+
+878
+
+19. S. Mann et al., Dev. Biol. 183, 208 (1997).
+20. S. Mohanty et al., Genes Dev. 15, 1435 (2001).
+21. J.-L. Martiel, A. Goldbeter, Biophys. J. 52, 807 (1987).
+22. A. Goldbeter, Nature 420, 238 (2002).
+23. G. Baillie, S. MacKenzie, I. McPhee, M. Houslay, Br. J.
+Pharmacol. 131, 811 (2000).
+24. G. Baillie, S. MacKenzie, M. Houslay, Mol. Pharmacol.
+60, 1100 (2001).
+25. See supporting data on Science Online.
+26. We thank S. Payne and W.-J. Rappel for assistance
+with the circuit simulations and M. Behrens for
+discussions. D. Ikeno made contributions to these
+studies. Supported by NIH grants GM62350
+
+( W.F.L.) and GM52359 (A.K.), an NSF Biocomplexity Grant, and Ministry of Education, Science and
+Culture of Japan grants 12640633 and 13024248
+(M.M.).
+Supporting Online Material
+www.sciencemag.org/cgi/content/full/304/5672/875/
+DC1
+Materials and Methods
+Figs. S1 and S2
+Table S1
+References
+12 December 2003; accepted 5 April 2004
+
+Cognitive Inﬂexibility After
+Prefrontal Serotonin Depletion
+H. F. Clarke,1 J. W. Dalley,1 H. S. Crofts,1 T. W. Robbins,1
+A. C. Roberts2*
+Serotonergic dysregulation within the prefrontal cortex (PFC) is implicated in many
+neuropsychiatric disorders, but the precise role of serotonin within the PFC is poorly
+understood. Using a serial discrimination reversal paradigm, we showed that upon
+reversal, selective serotonin depletion of the marmoset PFC produced perseverative
+responding to the previously rewarded stimulus without any signiﬁcant effects on
+either retention of a discrimination learned preoperatively or acquisition of a novel
+discrimination postoperatively. These results highlight the importance of prefrontal
+serotonin in behavioral ﬂexibility and are highly relevant to obsessive-compulsive
+disorder, schizophrenia, and the cognitive sequelae of drug abuse in which perseveration is prominent.
+Serotonin [5-hydroxytryptamine (5-HT)] is
+implicated in cognition and impulsivity and is
+of particular relevance to our understanding
+of the psychopathology and treatment of psychiatric disorders such as depression, schizophrenia, and obsessive compulsive disorder
+(OCD). In all of these disorders, local abnormalities in prefrontal cortex (PFC) structure
+(1), neurochemistry (2), or activation (3) have
+been identified, and as is consistent with prefrontal dysfunction, cognitive inflexibility is
+a prominent feature. Moreover, drugs such as
+ecstasy (4) and amphetamine (5) have been
+shown to impair cortical 5-HT neurotransmission, but the functional consequences of
+such serotonin dysregulation are not known.
+Two approaches used to study the effect of
+central 5-HT on behavior and cognition are
+Department of Experimental Psychology, 2Department of Anatomy, University of Cambridge, Downing
+Street, Cambridge, UK.
+
+1
+
+*To whom correspondence should be addressed. Email: acr4@cam.ac.uk
+
+dietary tryptophan depletion in humans (6) and
+destruction of the ascending serotonergic projections in animals, using the selective neurotoxin 5,7-dihydroxytryptamine (5,7-DHT) (7).
+However, neither approach can differentiate between the roles of 5-HT in distinct forebrain
+structures, although there is indirect evidence
+that not all forebrain structures are equally
+modulated by 5-HT. Tryptophan depletion in
+humans has little effect on the performance of
+tasks activating the dorsolateral region of the
+PFC, such as spatial working memory or planning (6). However, tryptophan depletion does
+impair performance on visual discrimination
+reversal tasks (6, 8), on which performance is
+disrupted by orbitofrontal cortex (OFC) lesions in nonhuman primates (9, 10) and
+humans (11). There are therefore similarities between tasks that depend on OFC
+function and tasks that are affected by tryptophan depletion, suggesting a role for
+5-HT in processes mediated by the OFC.
+The present study investigated the effects of
+selective prefrontal depletion of 5-HT in pri-
+
+Table 1. Mean total error scores and SEM values (square root–transformed) for control and lesion groups
+at each experimental stage.
+
+S
+D2
+U
+D3
+Rev 1
+Rev 2
+Rev 3
+Rev 4
+R Retention
+G
+Control ⫾ SEM 6.3 ⫾ 1.8 10.4 ⫾ 2
+E 2.01 ⫾ 2 9.1 ⫾ 3.7 17.1 ⫾ 2.5 12.2 ⫾ 2.3 10.3 ⫾ 1 7.1 ⫾ 1.0
+R
+Lesion ⫾ SEM 6.6 ⫾ 2.2 8.8 ⫾ 1.4
+Y 3.5 ⫾ 2.2 7.0 ⫾ 2.4 17.8 ⫾ 3 17.5 ⫾ 2 17.1 ⫾ 3 11.2 ⫾ 2
+D1
+
+D2
+
+7 MAY 2004 VOL 304 SCIENCE www.sciencemag.org
+
+Downloaded from https://www.science.org at University Erlangen Nuernberg on September 30, 2026
+
+to regulated degradation between 4 and 12 hours
+of development (20). The strong oscillation seen
+only between 4 and 6 hours of development
+during the simulation is strikingly similar to the
+observations of Gerisch et al. (3).
+The oscillatory circuit that we have modeled
+is based on only six components and yet adequately accounts for the observed spontaneous
+oscillation of ERK2 that occurs in phase with
+periodic signaling by cAMP (Fig. 2). Complete
+loss through genetic disruption of any one of the
+components results in a lack of periodic behavior. The model predicts that partial loss of some
+of the enzymes will affect the amplitude of the
+oscillations without substantially affecting the
+period. This prediction could be tested with carefully chosen site-directed mutations. Although
+the present model does not attempt to account for
+other aspects of signal relay, such as adaptation, it shows how cells become robustly
+entrained to a 6- to 7-min cycle as soon as
+the components are put in place. An alternative model that also involves a positive
+feedback loop in which secreted cAMP
+binds the CAR1 receptor, leading to activation of adenylyl cyclase, invokes receptor
+desensitization to produce sustained oscillations (21, 22). It is possible that both mechanisms play a role in signal relay.
+The protein kinases ERK and PKA also regulate cAMP phosphodiesterase activity in mammalian cells. ERK phosphorylates the catalytic
+domains of PDE4 families B, C, and D, leading
+to inhibition of the long isoforms (23). When
+cAMP accumulates and activates PKA, ERKdependent inhibition is overcome (24). This circuit could lead to oscillations similar to those
+seen in Dictyostelium. Because these components have been conserved throughout evolution
+of the animal kingdom, it seems reasonable that
+other species have such an oscillator in place and
+continue to use it for diverse functions.
+
+Periodic Signaling Controlled by an Oscillatory Circuit That Includes Protein
+Kinases ERK2 and PKA
+Mineko Maeda, Sijie Lu, Gad Shaulsky, Yuji Miyazaki, Hidekazu Kuwayama, Yoshimasa Tanaka, Adam Kuspa, and William
+F. Loomis
+
+Science 304 (5672), . DOI: 10.1126/science.1094647
+
+Use of this article is subject to the Terms of service
+Science (ISSN 1095-9203) is published by the American Association for the Advancement of Science. 1200 New York Avenue NW,
+Washington, DC 20005. The title Science is a registered trademark of AAAS.
+American Association for the Advancement of Science
+
+Downloaded from https://www.science.org at University Erlangen Nuernberg on September 30, 2026
+
+View the article online
+https://www.science.org/doi/10.1126/science.1094647
+Permissions
+https://www.science.org/help/reprints-and-permissions
+
+
