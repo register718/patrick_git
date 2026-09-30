@@ -1,0 +1,80 @@
+{
+  "module": "M0",
+  "claims": {
+    "F1":  {"color": 1, "text": "isolated starved cells emit cAMP pulses spontaneously, on average about once per 12 min"},
+    "F2":  {"color": 2, "text": "at most about once per 4 min (minimum interval / refractory phase of single cells)"},
+    "F3":  {"color": 3, "text": "inter-pulse intervals follow a gamma distribution (shape 6.6, rate 1.25 /min)"},
+    "F14": {"color": 4, "text": "real cells have a diameter of about 10 um"},
+    "F4":  {"color": 9, "text": "noise-driven pulsing of single cells below the threshold for collective behaviour is a key step in the onset of oscillations"},
+    "F5":  {"color": 5, "text": "cAMP-induced activation of ACA and ERK2"},
+    "F6":  {"color": 6, "text": "inhibition of ERK2 by PKA"},
+    "F7":  {"color": 7, "text": "phosphorylation of the phosphodiesterase RegA by ERK2 (ERK2 controls RegA)"},
+    "F8":  {"color": 8, "text": "oscillation period of about 7 min"},
+    "F9":  {"color": 4, "text": "Schloegl model: reaction scheme A+2X -> 3X, B+X -> C with cubic rate law"},
+    "F10": {"color": 3, "text": "Schloegl model: bistability, three steady states of which two are stable"},
+    "F11": {"color": 2, "text": "FitzHugh-Nagumo: excitable system with two variables (excitability / activator and refractoriness / delayed inhibitor)"},
+    "F12": {"color": 1, "text": "ERK2 is required for receptor-mediated activation of adenylyl cyclase"},
+    "F13": {"color": 1, "text": "ERK2 activation by cAMP is rapid and transient"}
+  },
+  "papers": {
+    "ford2023": [
+      {"claim": "F1",  "page": 3,  "start": "cells produced cAMP pulses spontaneously at a mean rate of around 1 pulse per 12 min"},
+      {"claim": "F2",  "page": 3,  "start": "with a minimum of around 1 pulse per 4 min"},
+      {"claim": "F2",  "page": 3,  "start": "We interpret this fit as there being a minimum waiting time between pulses (a refractory phase)"},
+      {"claim": "F2",  "page": 3,  "start": "maximum firing frequency of cells, around once every 3", "end": "4 min"},
+      {"claim": "F3",  "page": 3,  "start": "the population distribution of inter-activation intervals follows a gamma distribution"},
+      {"claim": "F3",  "page": 4,  "start": "For the gamma distribution, the shape and rate parameter were 6.6 and 1.25 min respectively"},
+      {"claim": "F14", "page": 12, "start": "Scale bar: 10 µm (≈1 cell diameter)"},
+      {"claim": "F14", "page": 12, "start": "estimated with cell area of", "end": "52 µm2"}
+    ],
+    "gregor2010": [
+      {"claim": "F4", "page": 1, "start": "A quantitative analysis showed that stochastic pulsing", "end": "in the onset of collective behavior"},
+      {"claim": "F4", "page": 4, "start": "Isolated cells exposed to extracellular cAMP below the threshold", "end": "appear to be stochastic"},
+      {"claim": "F4", "page": 4, "start": "initial pulses are randomly elicited owing to the stochastic sub", "end": "at the single-cell level"}
+    ],
+    "sgro2015": [
+      {"claim": "F4", "page": 1, "start": "The model predicts novel noise-driven single-cell", "end": "that we then experimentally observe"},
+      {"claim": "F4", "page": 9, "start": "strongly suggests noise may also be a key to the onset of collective", "end": "(Gregor et al, 2010)"},
+      {"claim": "F4", "page": 9, "start": "population-level oscillations emerge in our model when one or a few cells stochastically spike", "end": "into synchrony"}
+    ],
+    "laub1998": [
+      {"claim": "F5", "page": 1, "start": "Previous biochemical assays", "end": "are transiently activated"},
+      {"claim": "F5", "page": 3, "start": "In addition to activating ACA, the binding of cAMP to CAR1 also", "end": "after addition of cAMP"},
+      {"claim": "F6", "page": 1, "start": "A rise in the internal concentration of cAMP activates protein kinase A", "end": "by CAR1"},
+      {"claim": "F6", "page": 3, "start": "Activated PKA then inhibits ERK2"},
+      {"claim": "F7", "page": 1, "start": "ERK2 phosphorylates the cAMP phosphodiesterase REG A", "end": "internal concentration of cAMP"},
+      {"claim": "F8", "page": 9, "start": "the period of oscillation predicted by solving the equations is 6.7 min", "end": "is ;8 min"}
+    ],
+    "maeda2004": [
+      {"claim": "F8", "page": 1, "start": "cAMP) are generated with a periodicity of 7", "end": "minutes"},
+      {"claim": "F7", "page": 1, "start": "we show that ERK2 modulates cAMP levels through the phosphodiesterase RegA"},
+      {"claim": "F5", "page": 2, "start": "ligand-bound CAR1 not only activates ACA", "end": "transient activation of ERK2"},
+      {"claim": "F6", "page": 2, "start": "Cells lacking PKA return more slowly to basal ERK2", "end": "stimulation with cAMP"},
+      {"claim": "F7", "page": 3, "start": "ERK2 may directly inhibit phosphodiesterase activity by phosphorylation of RegA"},
+      {"claim": "F7", "page": 3, "start": "regA– cells expressing the T676A variant of RegA accumulated less than 15%", "end": "reduced inhibition of the phosphodiesterase activity"},
+      {"claim": "F8", "page": 3, "start": "Numerical solution of the equations predicts that ERK2 activity oscillates with a 7-min period", "end": "changes in cAMP"}
+    ],
+    "maeda1996": [
+      {"claim": "F13", "page": 1, "start": "is rapidly and transiently activated in response to the chemoattractant cAMP"},
+      {"claim": "F13", "page": 2, "start": "Stimulation of kinase activity was observed within 10 s", "end": "returned to near-basal levels"}
+    ],
+    "segall1995": [
+      {"claim": "F12", "page": 1, "start": "A MAP Kinase Necessary for Receptor-mediated", "end": "in Dictyostelium"},
+      {"claim": "F12", "page": 1, "start": "Strains in which the locus encoding ERK2 is disrupted respond", "end": "little synthesis of cAMP"},
+      {"claim": "F12", "page": 1, "start": "it appears that this kinase is important for receptor-mediated activation of adenylyl cyclase"}
+    ],
+    "schlogl1972": [
+      {"claim": "F9",  "page": 4, "start": "Now we discuss the following chemical reactions", "end": "(3.3)"},
+      {"claim": "F10", "page": 5, "start": "For certain values", "end": "by the sign of h"}
+    ],
+    "fitzhugh1961": [
+      {"claim": "F11", "page": 1, "start": "The resulting “BVP model” has two variables of state, representing excitability and refractoriness"},
+      {"claim": "F11", "page": 3, "start": "The BVP model is obtained by adding terms", "end": "by)/c (2)"},
+      {"claim": "F11", "page": 7, "start": "x shares the properties of both membrane potential and excitability", "end": "refractoriness"}
+    ],
+    "nagumo1962": [
+      {"claim": "F11", "page": 2, "start": "Recently, FitzHugh ingeniously simplified", "end": "Pol moldel"},
+      {"claim": "F11", "page": 2, "start": "", "rect": [58, 203, 300, 286], "label": "BVP equations (2)"}
+    ]
+  }
+}
