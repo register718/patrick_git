@@ -13,13 +13,13 @@ $[\mathrm{PI3K}]_\mathrm{tot}$ & \num{200000} & $\mathrm{molec/voxel}$ & E & Poo
 $[\mathrm{PIP2}]_\mathrm{tot}$ & \num{769231} & $\mathrm{molec/voxel}$ & E & Lipid pool ($10^7$ per cell), conserved: $\mathrm{PIP2}+\mathrm{PIP3}=$ const. \\
 $[\mathrm{PTEN}]_\mathrm{tot}$ & \num{10000} & $\mathrm{molec/voxel}$ & E & PTEN pool, conserved between cytosol and membrane. \\
 $[\mathrm{PKBA}]_\mathrm{tot}$ & \num{100000} & $\mathrm{molec/voxel}$ & C & Pool of the PH-domain kinase PkbA; enlarged so that its feedback can act at low activated fractions. \\
-$k_{3K,\mathrm{on}}$ & \num{0.4} & $\mu\mathrm{M}^{-1}\mathrm{s}^{-1}$ & C & RasG-GTP recruits PI3K to the membrane~\cite{sasaki2004,fukushima2019}. \\
-$k_{3K,\mathrm{off}}$ & \num{10} & $\mathrm{s^{-1}}$ & C & PI3K membrane release; PI3K activity is transient after a stimulus~\cite{huang2003}. \\
+$k_{3K,\mathrm{on}}$ & \num{0.4} & $\mu\mathrm{M}^{-1}\mathrm{s}^{-1}$ & C & \mkt{M4-ras-pi3k}{RasG-GTP recruits PI3K to the membrane}~\cite{sasaki2004,fukushima2019}. \\
+$k_{3K,\mathrm{off}}$ & \num{10} & $\mathrm{s^{-1}}$ & C & PI3K membrane release; \mkt{M4-pip3-trans}{PI3K activity is transient after a stimulus}~\cite{huang2003}. \\
 $k_\mathrm{syn}$ & \num{0.0955} & $\mu\mathrm{M}^{-1}\mathrm{s}^{-1}$ & C & PIP3 synthesis per membrane PI3K; sets the PIP3 count (shot noise), not its contrast. \\
-$k_{PT,\mathrm{on}},\ k_{PT,\mathrm{off}}$ & \num{0.6},\ \num{4} & $\mu\mathrm{M}^{-1}\mathrm{s}^{-1},\ \mathrm{s^{-1}}$ & C & PTEN docking on PIP2 and release; PTEN sits on the membrane at the back of the cell~\cite{funamoto2002,iijima2002}. \\
+$k_{PT,\mathrm{on}},\ k_{PT,\mathrm{off}}$ & \num{0.6},\ \num{4} & $\mu\mathrm{M}^{-1}\mathrm{s}^{-1},\ \mathrm{s^{-1}}$ & C & PTEN docking on PIP2 and release; \mkt{M4-recip}{PTEN sits on the membrane at the back of the cell}~\cite{funamoto2002,iijima2002}. \\
 $k_\mathrm{ev}$ & \num{800} & $\mathrm{s^{-1}}$ & C & Saturated PIP3-dependent eviction rate of PTEN. \\
 $K_\mathrm{ev},\ n_\mathrm{ev}$ & \num{1.31e5},\ 2 & $\mathrm{molec/voxel},\ -$ & C & Half-eviction level ($17\,\%$ of the lipid pool) and steepness of the eviction gate (Sec.~\ref{sec:hill}). \\
-$k_{PT}$ & \num{1.39} & $\mu\mathrm{M}^{-1}\mathrm{s}^{-1}$ & C & PTEN dephosphorylation of PIP3 to PIP2~\cite{iijima2002,huang2003}. \\
+$k_{PT}$ & \num{1.39} & $\mu\mathrm{M}^{-1}\mathrm{s}^{-1}$ & C & \mkt{M4-pten-dephos}{PTEN dephosphorylation of PIP3 to PIP2}~\cite{iijima2002,huang2003}. \\
 $k_\mathrm{SH}$ & \num{1.28} & $\mathrm{s^{-1}}$ & C & PTEN-independent 5-phosphatase removal of PIP3; $k_\mathrm{SH}=k_\mathrm{ship}[\mathrm{SHIP}]$ with a constant catalyst pool of 77 molecules/voxel. \\
 $k_{K,\mathrm{on}}$ & \num{1.32e-3} & $\mu\mathrm{M}^{-1}\mathrm{s}^{-1}$ & D & PH-domain recruitment of PkbA; solved so that the resting rate is $0.002\,\mathrm{s^{-1}}$ at $7298$ PIP3/voxel. \\
 $k_{K,\mathrm{off}}$ & \num{0.05} & $\mathrm{s^{-1}}$ & E & PkbA membrane release. \\

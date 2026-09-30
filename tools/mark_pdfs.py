@@ -40,27 +40,55 @@ def norm(s):
     return re.sub(r"[^0-9a-z]", "", s.lower())
 
 
+def _split(page, words):
+    """x position of the column gap (fewest words crossing it) in the middle 20 % of the page, or None."""
+    w = page.rect.width
+    best = None
+    for x in range(int(0.4 * w), int(0.6 * w), 2):
+        crossing = sum(1 for t in words if t[0] < x < t[2])
+        if best is None or crossing < best[0]:
+            best = (crossing, x)
+    return best[1] if best and best[0] <= 0.02 * len(words) else None
+
+
+def _orders(page):
+    """Candidate reading orders of the words of a page: as stored, and two-column (left column first)."""
+    words = page.get_text("words")
+    yield words
+    x = _split(page, words)
+    key = lambda t: (round(t[1] / 3), t[0])
+    if x:
+        left = [t for t in words if (t[0] + t[2]) / 2 < x]
+        right = [t for t in words if (t[0] + t[2]) / 2 >= x]
+        yield sorted(left, key=key) + sorted(right, key=key)
+    yield sorted(words, key=key)
+
+
 def locate(page, start, end):
     """Return the list of word tuples between the first match of start and the end of end."""
-    words = page.get_text("words")
-    joined, spans = "", []
-    for w in words:
-        n = norm(w[4])
-        spans.append((len(joined), len(joined) + len(n)))
-        joined += n
     s, e = norm(start), norm(end) if end else None
-    i = joined.find(s)
-    if i < 0:
-        raise ValueError(f"start not found on page {page.number + 1}: {start!r}")
-    if joined.find(s, i + 1) >= 0:
-        print(f"    warning: start is ambiguous on page {page.number + 1}: {start[:50]!r}")
-    j = i + len(s)
-    if e:
-        k = joined.find(e, i)
-        if k < 0:
-            raise ValueError(f"end not found on page {page.number + 1}: {end!r}")
-        j = k + len(e)
-    return [w for w, (a, b) in zip(words, spans) if b > i and a < j and b > a]
+    last = None
+    for words in _orders(page):
+        joined, spans = "", []
+        for w in words:
+            n = norm(w[4])
+            spans.append((len(joined), len(joined) + len(n)))
+            joined += n
+        i = joined.find(s)
+        if i < 0:
+            last = f"start not found on page {page.number + 1}: {start!r}"
+            continue
+        j = i + len(s)
+        if e:
+            k = joined.find(e, i)
+            if k < 0:
+                last = f"end not found on page {page.number + 1}: {end!r}"
+                continue
+            j = k + len(e)
+        if joined.find(s, i + 1) >= 0:
+            print(f"    warning: start is ambiguous on page {page.number + 1}: {start[:50]!r}")
+        return [w for w, (a, b) in zip(words, spans) if b > i and a < j and b > a]
+    raise ValueError(last)
 
 
 def line_rects(words):
