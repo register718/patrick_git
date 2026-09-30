@@ -1,0 +1,187 @@
+{
+ "module": "M10",
+ "claims": {
+  "rega_pde": {
+   "text": "RegA (DdPDE2) degrades intracellular cAMP",
+   "color": 1
+  },
+  "relay": {
+   "text": "RdeA transfers phosphate to RegA Asp212 (His-Asp phospho-relay, both directions)",
+   "color": 2
+  },
+  "rega_20": {
+   "text": "phosphorylation activates RegA phosphodiesterase at least 20-fold",
+   "color": 3
+  },
+  "rega_km": {
+   "text": "RegA cAMP phosphodiesterase domain: Km about 5 uM",
+   "color": 4
+  },
+  "rega_loss": {
+   "text": "inhibition of the PDE (loss of RegA) increases PKA activity and affects terminal differentiation",
+   "color": 5
+  },
+  "circuit": {
+   "text": "cAMP activates PKA, PKA inhibits ERK2 and loses ERK2 control, ERK2 phosphorylates RegA and lowers cAMP (Laub and Loomis circuit)",
+   "color": 6
+  },
+  "erk_phase": {
+   "text": "ERK2 activation oscillates in phase with cAMP peaks",
+   "color": 7
+  },
+  "pka_erk": {
+   "text": "PKA regulates ERK2 activation and adaptation (pka- cells: lower, more extended activation)",
+   "color": 8
+  },
+  "erk_rega": {
+   "text": "ERK2 modulates cAMP levels through RegA; ERK2 may phosphorylate and inhibit RegA",
+   "color": 9
+  },
+  "laub_k4": {
+   "text": "Laub-Loomis Table 2: k4 = 1.5 /min",
+   "color": 1
+  },
+  "laub_k6": {
+   "text": "Laub-Loomis Table 2: k6 = 0.8 /min/mM",
+   "color": 2
+  },
+  "laub_k7": {
+   "text": "Laub-Loomis Table 2: k7 = 2.0 /min mM",
+   "color": 3
+  },
+  "laub_k8": {
+   "text": "Laub-Loomis Table 2: k8 = 1.3 /min/mM",
+   "color": 4
+  }
+ },
+ "papers": {
+  "bader2007": [
+   {
+    "claim": "rega_pde",
+    "page": 1,
+    "start": "Intracellular cAMP is degraded by the DdPDE2, a class I enzyme regulated by histidine kinase/phospho-relay"
+   }
+  ],
+  "thomason1999": [
+   {
+    "claim": "rega_20",
+    "page": 1,
+    "start": "Phosphorylation of RegA by a heterologous phospho-donor protein activates RegA phosphodiesterase activity at least 20-fold"
+   },
+   {
+    "claim": "relay",
+    "page": 1,
+    "start": "Phospho-transfer is dependent on the presumed phospho-accepting amino acids, histidine 65 of RdeA and aspartate 212 of RegA, and occurs in both directions"
+   }
+  ],
+  "thomason1998": [
+   {
+    "claim": "rega_km",
+    "page": 1,
+    "start": "One domain is a cAMP phosphodiesterase (Km ~5 μM)"
+   },
+   {
+    "claim": "relay",
+    "page": 1,
+    "start": "It can accept phosphate from acetyl phosphate in a reaction typical of RRs, with transfer dependent on Asp212"
+   }
+  ],
+  "shaulsky1998": [
+   {
+    "claim": "rega_loss",
+    "page": 1,
+    "start": "Genetic analyses indicate that inhibition of the phosphodiesterase results in an increase in the activity of PKA, which acts at a check point for terminal differentiation"
+   }
+  ],
+  "aubry1997": [
+   {
+    "claim": "pka_erk",
+    "page": 1,
+    "start": "In this study we show that other pathways required for aggregation, including Ras and cAMP-dependent protein kinase (PKA), are important regulators of ERK2 activation and adaptation"
+   },
+   {
+    "claim": "pka_erk",
+    "page": 1,
+    "start": "PKA overexpression results in a more rapid, higher level of activation, whereas pka null cells show a lower level but more extended ERK2 activation"
+   }
+  ],
+  "laub1998": [
+   {
+    "claim": "circuit",
+    "page": 1,
+    "start": "A rise in the internal concentration of cAMP activates protein kinase A such that it inhibits ERK2",
+    "end": "internal concentration of cAMP."
+   },
+   {
+    "claim": "laub_k4",
+    "page": 4,
+    "start": "",
+    "rect": [
+     355,
+     143,
+     520,
+     155
+    ],
+    "label": "laub_k4 Table 2"
+   },
+   {
+    "claim": "laub_k6",
+    "page": 4,
+    "start": "",
+    "rect": [
+     355,
+     161,
+     520,
+     173
+    ],
+    "label": "laub_k6 Table 2"
+   },
+   {
+    "claim": "laub_k7",
+    "page": 4,
+    "start": "",
+    "rect": [
+     355,
+     170,
+     520,
+     182
+    ],
+    "label": "laub_k7 Table 2"
+   },
+   {
+    "claim": "laub_k8",
+    "page": 4,
+    "start": "",
+    "rect": [
+     355,
+     179,
+     520,
+     191
+    ],
+    "label": "laub_k8 Table 2"
+   }
+  ],
+  "maeda2004": [
+   {
+    "claim": "erk_phase",
+    "page": 1,
+    "start": "We have observed spontaneous oscillations in activation of the mitogen-activated protein (MAP) kinase ERK2 that occur in phase with peaks of cAMP"
+   },
+   {
+    "claim": "erk_rega",
+    "page": 1,
+    "start": "we show that ERK2 modulates cAMP levels through the phosphodiesterase RegA"
+   },
+   {
+    "claim": "erk_rega",
+    "page": 3,
+    "start": "ERK2 may directly inhibit phosphodiesterase activity by phosphorylation of RegA"
+   },
+   {
+    "claim": "circuit",
+    "page": 2,
+    "start": "Cells lacking PKA return more slowly to basal ERK2 activity, whereas constitutive PKA activity leads to greatly reduced ERK2 activity after stimulation with cAMP"
+   }
+  ]
+ }
+}

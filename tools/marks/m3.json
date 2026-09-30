@@ -1,0 +1,385 @@
+{
+ "module": "M3",
+ "claims": {
+  "trans": {
+   "text": "RasG and RasC are activated rapidly and transiently by cAMP in aggregation-competent cells",
+   "color": 1
+  },
+  "pi3k": {
+   "text": "RasG is the upstream activator of PI3K",
+   "color": 2
+  },
+  "adapt": {
+   "text": "RasG activation shows near-perfect adaptation over a wide range of concentrations",
+   "color": 3
+  },
+  "iffl": {
+   "text": "only the incoherent feed-forward network described the Ras data (integral control did not)",
+   "color": 4
+  },
+  "prop": {
+   "text": "adaptation via proportional activation of upstream components (activator and inhibitor of the IFFL driven by the same input)",
+   "color": 5
+  },
+  "gap_glob": {
+   "text": "possibly a RasGAP acts as the global inhibitor",
+   "color": 6
+  },
+  "legi": {
+   "text": "a local activator and a global inactivator are coordinately controlled by G-protein / receptor occupancy (LEGI)",
+   "color": 7
+  },
+  "fcd3": {
+   "text": "the incoherent feed-forward loop can provide fold-change detection",
+   "color": 8
+  },
+  "nf1": {
+   "text": "DdNF1 is a major regulator of Ras activity; its loss makes Ras activity spatially and temporally unregulated",
+   "color": 9
+  },
+  "rect": {
+   "text": "rectification: Ras activation suppressed while cAMP falls, arises in an IFFL with zero-order ultrasensitivity",
+   "color": 1
+  },
+  "excit": {
+   "text": "the Ras/PI3K/PIP3 network is excitable and fires without external cues",
+   "color": 2
+  },
+  "bias": {
+   "text": "external stimuli bias the threshold and timing of the excitable network",
+   "color": 3
+  },
+  "noint": {
+   "text": "integral control gives oscillations and step-size dependent kinetics, incompatible with the data",
+   "color": 7
+  },
+  "gefr": {
+   "text": "RasGEFR activates RasG",
+   "color": 4
+  },
+  "kort": {
+   "text": "the initial Ras response requires Gbeta",
+   "color": 5
+  },
+  "basal_gap": {
+   "text": "GAP-deficient cells have enhanced basal Ras activity (basal RasGAP)",
+   "color": 6
+  },
+  "nf1kin": {
+   "text": "NF1 GAP domain: KM = 0.3 uM, kcat = 1.4 /s",
+   "color": 8
+  },
+  "pfb": {
+   "text": "Ras -> PI3K -> PIP3 -> Ras positive feedback is the amplifier of the excitable network",
+   "color": 9
+  },
+  "kat": {
+   "text": "symmetry breaking and amplification occur between the G protein and Ras",
+   "color": 1
+  },
+  "ch_adapt": {
+   "text": "in pkbA-/pkbr1- cells RasC activation is increased and fails to adapt by 40 s",
+   "color": 2
+  },
+  "miao_ext": {
+   "text": "negative regulation by PKBs extends to other Ras proteins and PI3K; candidates for delayed negative feedback",
+   "color": 3
+  },
+  "sca1": {
+   "text": "PKB and PKBR1 phosphorylate Sca1 and thereby control RasC",
+   "color": 4
+  },
+  "miao_mech": {
+   "text": "PKBs act through indirect / uncertain routes (Aimless, PI5K) on the RasG reporter",
+   "color": 5
+  },
+  "peak_fast": {
+   "text": "Ras activation peaks within seconds (5 s)",
+   "color": 8
+  },
+  "slower_inh": {
+   "text": "RasGEF activation kinetics are faster than RasGAP kinetics (adaptation)",
+   "color": 9
+  }
+ },
+ "papers": {
+  "kae2004": [
+   {
+    "claim": "trans",
+    "page": 1,
+    "start": "Using this assay, we discovered that RasC and RasG showed a",
+    "end": "chemoattractant cAMP"
+   },
+   {
+    "claim": "peak_fast",
+    "page": 3,
+    "start": "An increase in activated RasC was observed at 5 s after stimulation, with a return to the basal level by 45 s"
+   },
+   {
+    "claim": "peak_fast",
+    "page": 3,
+    "start": "An increase of RasG–GTP was also detected within 5 s of stimulation"
+   }
+  ],
+  "sasaki2004": [
+   {
+    "claim": "pi3k",
+    "page": 1,
+    "start": "Here, we show that Ras is rapidly and transiently activated in response to chemoattractant stimulation and regulates PI3K activity"
+   },
+   {
+    "claim": "pi3k",
+    "page": 1,
+    "start": "Ras is an upstream component of the cell’s compass"
+   },
+   {
+    "claim": "pfb",
+    "page": 1,
+    "start": "These results support a mechanism by which localized Ras activation mediates leading edge formation through activation of basal PI3K"
+   }
+  ],
+  "takeda2012": [
+   {
+    "claim": "pi3k",
+    "page": 1,
+    "start": "which preferential-ly measures activated RasG, the upstream activator of phosphoinositide",
+    "end": "(PI3K)"
+   },
+   {
+    "claim": "adapt",
+    "page": 1,
+    "start": "The response of an activated Ras showed near-perfect adaptation"
+   },
+   {
+    "claim": "adapt",
+    "page": 2,
+    "start": "By 35 s, the normalized RBD-GFP amount returned to the prestimulus",
+    "end": "over a wide range of stimuli"
+   },
+   {
+    "claim": "iffl",
+    "page": 1,
+    "start": "Only the in-coherent feedforward network accurately described the experimental results"
+   },
+   {
+    "claim": "iffl",
+    "page": 3,
+    "start": "Our simulation results indicated that the integral control mechanism was incompatible with our experimental results"
+   },
+   {
+    "claim": "noint",
+    "page": 3,
+    "start": "Contrary to our experimental results, for small concentration increases this network led to oscillations",
+    "end": "as the step size increased"
+   },
+   {
+    "claim": "noint",
+    "page": 3,
+    "start": "this mechanism displayed considerable dependence of the adaptation kinetics on the size of the stimulus step"
+   },
+   {
+    "claim": "prop",
+    "page": 1,
+    "start": "This analysis revealed that adaptation in this Ras pathway is achieved through the proportional activation of upstream components"
+   },
+   {
+    "claim": "gap_glob",
+    "page": 1,
+    "start": "possibly with a Ras guanosine triphosphatase–activating protein acting as a global inhibitor"
+   },
+   {
+    "claim": "peak_fast",
+    "page": 1,
+    "start": "RasG is rapidly and locally activated within seconds"
+   },
+   {
+    "claim": "slower_inh",
+    "page": 3,
+    "start": "the activation kinetics of RasGEF were faster than that of the RasGAP"
+   }
+  ],
+  "levchenko2002": [
+   {
+    "claim": "legi",
+    "page": 1,
+    "start": "a locally acting activator (PI3-kinase) and a globally acting inactivator",
+    "end": "controlled by the G-protein activation"
+   }
+  ],
+  "ma2004": [
+   {
+    "claim": "legi",
+    "page": 1,
+    "start": "We have proposed a model in which the response to chemoattractant is regulated by a balance of a local excitation and a global inhibition",
+    "end": "controlled by receptor occupancy"
+   }
+  ],
+  "goentoro2009": [
+   {
+    "claim": "fcd3",
+    "page": 1,
+    "start": "we demonstrate theoretically that fold-change detection can be generated by one of the most common network motifs",
+    "end": "incoherent feed-forward loop (I1-FFL)"
+   },
+   {
+    "claim": "prop",
+    "page": 1,
+    "start": "in which an activator regulates both a gene and a repressor of the gene"
+   }
+  ],
+  "zhang2008": [
+   {
+    "claim": "nf1",
+    "page": 1,
+    "start": "We identiﬁed an ortholog of mammalian NF1, DdNF1, as a major regulator of Ras activity in Dictyostelium. We show that disruption of nfaA leads to spatially and temporally unregulated Ras activity"
+   },
+   {
+    "claim": "basal_gap",
+    "page": 1,
+    "start": "nfaA2 cells display elevated basal levels as well as extended kinetics of cAMP-induced Ras activation"
+   }
+  ],
+  "nakajima2014": [
+   {
+    "claim": "rect",
+    "page": 1,
+    "start": "suppressed when the chemoattractant concentration is decreasing over time",
+    "end": "rectiﬁcation’ of directional sensing"
+   },
+   {
+    "claim": "rect",
+    "page": 1,
+    "start": "rectiﬁcation arises naturally in a single-layered incoherent feedforward circuit with zero-order ultrasensitivity"
+   }
+  ],
+  "kae2007": [
+   {
+    "claim": "gefr",
+    "page": 1,
+    "start": "Conversely, RasC activation was normal in a gefR mutant, whereas RasG activation was greatly reduced, indicating that RasGEFR activates RasG"
+   }
+  ],
+  "kortholt2013": [
+   {
+    "claim": "kort",
+    "page": 1,
+    "start": "This transient Ras activation is present in ga2",
+    "end": "Gbc mediates the initial activation of Ras"
+   }
+  ],
+  "kataria2013": [
+   {
+    "claim": "kat",
+    "page": 1,
+    "start": "Symmetry breaking and amplification of chemoattractant sensing occurs between heterotrimeric G protein signaling and Ras activation"
+   }
+  ],
+  "fukushima2019": [
+   {
+    "claim": "excit",
+    "page": 1,
+    "start": "the spatiotemporal dynamics of GTP bound Ras (Ras-GTP) breaks the symmetry due its intrinsic excitability even in the absence of extracellular spatial cues"
+   },
+   {
+    "claim": "pfb",
+    "page": 1,
+    "start": "Comprehensive phase analysis of the waves of Ras-GTP and PIP3 metabolism-related molecules revealed the network structure of the excitable system including positive-feedback regulation of Ras-GTP by the downstream PIP3"
+   }
+  ],
+  "miao2017": [
+   {
+    "claim": "excit",
+    "page": 1,
+    "start": "The perturbations at these key nodes of an excitable signal transduction network initiated a causal chain of events: the threshold for network activation was lowered"
+   },
+   {
+    "claim": "miao_ext",
+    "page": 3,
+    "start": "Thus, the negative regulation by PKBs extends beyond RasC to other Ras small GTPases and PI(3)K"
+   },
+   {
+    "claim": "miao_ext",
+    "page": 3,
+    "start": "suggesting that they could act as a delayed negative feedback regulator of the excitable network"
+   },
+   {
+    "claim": "miao_mech",
+    "page": 11,
+    "start": "These are consistent with previous reports suggesting that PKBs indirectly inhibit Ras GEF Aimless",
+    "end": "directly activate PI(5)K"
+   }
+  ],
+  "devreotes2017": [
+   {
+    "claim": "excit",
+    "page": 1,
+    "start": "these networks display hallmarks of excitability, including all-or-nothing responsiveness and wave propagation"
+   },
+   {
+    "claim": "bias",
+    "page": 12,
+    "start": "Extrinsic cues, such as chemoattractants or mechanical signals, could mediate directional sensing by biasing the threshold",
+    "end": "for activation"
+   }
+  ],
+  "iglesias2012": [
+   {
+    "claim": "bias",
+    "page": 1,
+    "start": "A number of reports have suggested that the chemoattractant-mediated signaling can bias excitability"
+   }
+  ],
+  "charest2010": [
+   {
+    "claim": "ch_adapt",
+    "page": 8,
+    "start": "chemoattractant-induced RasC activation is considerably increased and fails to rapidly adapt as it normally does by 40 s after stimulation"
+   },
+   {
+    "claim": "sca1",
+    "page": 1,
+    "start": "In addition, PKB and PKB-related PKBR1 phosphorylate Sca1 and regulate",
+    "end": "RasC activity"
+   },
+   {
+    "claim": "sca1",
+    "page": 7,
+    "start": "induced phosphorylation of Sca1, with a peak at 5–10 s"
+   }
+  ],
+  "xu2021c2gap": [
+   {
+    "claim": "basal_gap",
+    "page": 4,
+    "start": "suggesting its potential role in inhibiting the basal Ras activity of resting cells"
+   },
+   {
+    "claim": "basal_gap",
+    "page": 4,
+    "start": "c2gapA− cells displayed an enhanced basal Ras activity"
+   }
+  ],
+  "wiesmuller1992": [
+   {
+    "claim": "nf1kin",
+    "page": 2,
+    "start": "",
+    "rect": [
+     304,
+     113,
+     500,
+     127
+    ],
+    "label": "NF1-333 row of Table I"
+   }
+  ],
+  "coyle2016": [
+   {
+    "claim": "nf1kin",
+    "page": 11,
+    "start": "has a tight KM for Ras",
+    "end": "kcat (1.4 s-1)"
+   }
+  ]
+ }
+}

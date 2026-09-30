@@ -1,0 +1,255 @@
+{
+ "module": "M8",
+ "claims": {
+  "c_roles": {
+   "text": "RasC is responsible for adenylyl cyclase activation, RasG regulates chemotaxis",
+   "color": 1
+  },
+  "gefa_spec": {
+   "text": "RasGEFA activates RasC but not RasG (RasGEFR activates RasG)",
+   "color": 2
+  },
+  "gefs_g": {
+   "text": "G proteins activate separate Ras pathways using specific RasGEFs",
+   "color": 3
+  },
+  "ras_tor": {
+   "text": "RasC is an upstream regulator of TORC2 / TORC2 binds active RasC and phosphorylates PKBR1",
+   "color": 4
+  },
+  "pip3_ind": {
+   "text": "RasC-TORC2-PKBR1 signalling is independent of PIP3",
+   "color": 5
+  },
+  "aca_prolong": {
+   "text": "activated RasC prolongs ACA activation kinetics (half-time of decline 1.8 -> 5 min)",
+   "color": 6
+  },
+  "tor_pkbs": {
+   "text": "within seconds TORC2 activates PKBA and PKBR1 (hydrophobic motif phosphorylation)",
+   "color": 7
+  },
+  "pi3k_ind": {
+   "text": "PKB substrates are phosphorylated with normal kinetics in cells lacking PI3K activity",
+   "color": 8
+  },
+  "pkbr1_prop": {
+   "text": "PKBR1 has no PH domain, is myristoylated, membrane bound, does not require PI3K",
+   "color": 9
+  },
+  "sca1": {
+   "text": "PKB/PKBR1 phosphorylate Sca1 and control RasC in a negative feedback",
+   "color": 1
+  },
+  "ch_adapt": {
+   "text": "without PKB / TORC2, RasC activation is increased and fails to adapt by 40 s",
+   "color": 2
+  },
+  "ch_peak": {
+   "text": "Sca1 phosphorylation peaks at 5-10 s after stimulation",
+   "color": 3
+  },
+  "pka_fb": {
+   "text": "PKA regulates RasG, Rap1 and TORC2 pathways in a negative feedback",
+   "color": 4
+  },
+  "crac_aca": {
+   "text": "CRAC is required for receptor- and G-protein-mediated activation of ACA",
+   "color": 5
+  },
+  "crac_pip3": {
+   "text": "CRAC is a PH-domain protein binding PI3K products (PIP3)",
+   "color": 6
+  },
+  "crac_rep": {
+   "text": "CRAC translocation reflects activation of the G-protein pathway",
+   "color": 7
+  },
+  "ras_trans": {
+   "text": "RasC and RasG are activated rapidly and transiently by cAMP",
+   "color": 8
+  },
+  "hm_slow": {
+   "text": "PKB substrate / PKBR1 hydrophobic-motif phosphorylation peaks at 20-60 s (PKBR1 HM: 30-60 s, half-life 40 s, baseline after 2-3 min)",
+   "color": 9
+  },
+  "laub_k": {
+   "text": "Laub and Loomis k5 = 0.6 /min (CAR1 -> ERK2) and k6 = 0.8 /min (PKA inhibition of ERK2)",
+   "color": 1
+  }
+ },
+ "papers": {
+  "kae2007": [
+   {
+    "claim": "c_roles",
+    "page": 1,
+    "start": "RasC and RasG are activated in response to cyclic AMP, with each regulating different downstream functions: RasG regulates chemotaxis and RasC is responsible for adenylyl cyclase activation"
+   },
+   {
+    "claim": "gefa_spec",
+    "page": 1,
+    "start": "indicating that RasGEFA activates RasC but not RasG"
+   },
+   {
+    "claim": "gefa_spec",
+    "page": 1,
+    "start": "indicating that RasGEFR activates RasG"
+   },
+   {
+    "claim": "gefs_g",
+    "page": 1,
+    "start": "Cyclic AMP signalling in Dictyostelium: G-proteins activate separate Ras pathways using specific RasGEFs"
+   }
+  ],
+  "cai2010": [
+   {
+    "claim": "ras_tor",
+    "page": 1,
+    "start": "activated forms of RasC prolong the time course of TORC2",
+    "end": "kinase B (PKB; PKBR1)"
+   },
+   {
+    "claim": "ras_tor",
+    "page": 1,
+    "start": "TORC2 binds specifically to the activated form of RasC"
+   },
+   {
+    "claim": "ras_tor",
+    "page": 6,
+    "start": "imply that RasC acts through TORC2"
+   },
+   {
+    "claim": "pip3_ind",
+    "page": 1,
+    "start": "independently of phosphatidylinositol-(3,4,5)-trisphosphate"
+   },
+   {
+    "claim": "aca_prolong",
+    "page": 1,
+    "start": "Paralleling these changes, the kinetics of chemoattractant-induced adenylyl cyclase"
+   },
+   {
+    "claim": "hm_slow",
+    "page": 2,
+    "start": "which peaked at 30–60 s and declined to the prestimulus level by 2–3 min"
+   },
+   {
+    "claim": "hm_slow",
+    "page": 3,
+    "start": "The half-life of HM phosphorylation of PKBR1 was 40 s"
+   }
+  ],
+  "kamimura2008": [
+   {
+    "claim": "tor_pkbs",
+    "page": 1,
+    "start": "Within seconds of stimulating Dictyostelium cells with chemoattractant, two PKB homologs, PKBA and PKBR1, mediate transient phosphorylation of at least eight proteins"
+   },
+   {
+    "claim": "tor_pkbs",
+    "page": 1,
+    "start": "The PKBs are activated through phosphorylation of their hydrophobic motifs via TorC2"
+   },
+   {
+    "claim": "pi3k_ind",
+    "page": 1,
+    "start": "all of the substrates are phosphorylated with normal kinetics in cells lacking PI 3-kinase activity"
+   },
+   {
+    "claim": "hm_slow",
+    "page": 2,
+    "start": "A number of early bands such as pp65/67 and pp90 peaked within 20–60 s of cAMP addition"
+   },
+   {
+    "claim": "hm_slow",
+    "page": 4,
+    "start": "phosphorylations peaked at 30 to 60 s"
+   }
+  ],
+  "meili2000": [
+   {
+    "claim": "pkbr1_prop",
+    "page": 1,
+    "start": "PKBR-1 has a kinase and a carboxy-terminal domain related to those of Akt/PKB, but no PH domain",
+    "end": "constitutive membrane localization"
+   },
+   {
+    "claim": "pkbr1_prop",
+    "page": 1,
+    "start": "but does not require PI3-kinase"
+   }
+  ],
+  "charest2010": [
+   {
+    "claim": "sca1",
+    "page": 1,
+    "start": "In addition, PKB and PKB-related PKBR1 phosphorylate Sca1 and regulate the membrane localization",
+    "end": "negative feedback fashion"
+   },
+   {
+    "claim": "ch_adapt",
+    "page": 8,
+    "start": "chemoattractant-induced RasC activation is considerably increased and fails to rapidly adapt as it normally does by 40 s after stimulation"
+   },
+   {
+    "claim": "ch_peak",
+    "page": 7,
+    "start": "induced phosphorylation of Sca1, with a peak at 5–10 s"
+   }
+  ],
+  "scavello2017": [
+   {
+    "claim": "pka_fb",
+    "page": 1,
+    "start": "we propose that the PKA-mediated regulation of the upstream RasG, Rap1 and TORC2 signaling pathways is part of a negative feedback mechanism",
+    "end": "chemotaxis"
+   }
+  ],
+  "insall1994": [
+   {
+    "claim": "crac_aca",
+    "page": 1,
+    "start": "CRAC, a Cytosolic Protein Containing a Pleckstrin Homology Domain, Is Required for Receptor and G Protein-mediated Activation of Adenylyl Cyclase in Dictyostelium"
+   }
+  ],
+  "comer2005": [
+   {
+    "claim": "crac_pip3",
+    "page": 1,
+    "start": "pleckstrin homology (PH) domain-containing proteins that bind to the PI3K products PI(3,4)P2 and PI(3,4,5)P3, such as CRAC"
+   },
+   {
+    "claim": "crac_aca",
+    "page": 1,
+    "start": "CRAC is essential for the chemoattractant-mediated activation of the adenylyl cyclase ACA"
+   }
+  ],
+  "parent1998": [
+   {
+    "claim": "crac_rep",
+    "page": 1,
+    "start": "The translocation of the PH domain–containing protein CRAC in D. discoideum to binding sites on the inner face of the plasma membrane reﬂects activation of the G protein–linked signaling system"
+   },
+   {
+    "claim": "crac_pip3",
+    "page": 1,
+    "start": "The translocation of the PH domain–containing protein CRAC"
+   }
+  ],
+  "kae2004": [
+   {
+    "claim": "ras_trans",
+    "page": 1,
+    "start": "Using this assay, we discovered that RasC and RasG showed a rapid and transient activation when aggregation-competent cells were stimulated with the chemoattractant cAMP"
+   }
+  ],
+  "laub1998": [
+   {
+    "claim": "laub_k",
+    "page": 4,
+    "start": "the kinetic constants k5 and k6 for the rate of change of ERK2",
+    "end": "0.6 and 0.8 min"
+   }
+  ]
+ }
+}

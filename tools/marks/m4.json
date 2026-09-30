@@ -1,0 +1,224 @@
+{
+ "module": "M4",
+ "claims": {
+  "recip": {
+   "text": "PI3K at the front, PTEN reciprocally at the back (leading-edge vs rear localisation)",
+   "color": 1
+  },
+  "pip3_trans": {
+   "text": "bulk PIP3 rises transiently after stimulation; PI3K activation increases within 5 s and then declines",
+   "color": 2
+  },
+  "pten_dephos": {
+   "text": "PTEN is the PIP3 3-phosphatase; PIP3 changes larger and more prolonged in pten- cells",
+   "color": 3
+  },
+  "crac": {
+   "text": "CRAC translocation reflects activation of the G-protein-linked signalling system",
+   "color": 4
+  },
+  "phcrac": {
+   "text": "PHCrac-GFP: first translocation peaks at 6-8 s, gone after 20 s; second (patches) starts after 30 s",
+   "color": 5
+  },
+  "ras_pi3k": {
+   "text": "Ras activates / regulates PI3K",
+   "color": 6
+  },
+  "mutual": {
+   "text": "PIP3 suppresses PTEN membrane localisation; mutual inhibition gives bistability",
+   "color": 7
+  },
+  "pkb_delay": {
+   "text": "PKB activation lags behind Ras/PI3K; PKBs are delayed negative feedback; Ras activation increased and not adapting in pkb- cells",
+   "color": 8
+  },
+  "pi34p2": {
+   "text": "PI(3,4)P2 is part of a Ras positive-feedback loop essential for excitability",
+   "color": 9
+  },
+  "pkba_recr": {
+   "text": "Akt/PKB (PkbA) is rapidly and transiently activated by cAMP, PI3K dependent, PH domain translocates",
+   "color": 1
+  },
+  "tor_hm": {
+   "text": "PKBs are activated via hydrophobic-motif phosphorylation by TorC2 at the leading edge, then activation-loop phosphorylation",
+   "color": 2
+  },
+  "pdk": {
+   "text": "PdkA and PdkB are the activation-loop kinases of PKB",
+   "color": 3
+  },
+  "sca1fb": {
+   "text": "PKB/PKBR1 phosphorylate Sca1 and regulate the Sca1/RasGEF/PP2A complex and RasC in a negative feedback",
+   "color": 4
+  },
+  "two_pkb": {
+   "text": "PkbA has a PH domain, PKBR1 has none, is myristoylated and PI3K independent (two different gene products)",
+   "color": 5
+  },
+  "tor_ras": {
+   "text": "RasC activates TORC2 (TORC2 binds active RasC)",
+   "color": 6
+  }
+ },
+ "papers": {
+  "funamoto2002": [
+   {
+    "claim": "recip",
+    "page": 1,
+    "start": "PI3K) transiently translocates to the plasma membrane in response to chemoattractant stimulation and to the leading edge in chemotaxing cells, PTEN, a negative regulator of PI3K pathways, exhibits a reciprocal pattern of localization"
+   }
+  ],
+  "iijima2002": [
+   {
+    "claim": "recip",
+    "page": 1,
+    "start": "Exogenously expressed PTEN-GFP localized to the surface membrane at the rear of the cell"
+   },
+   {
+    "claim": "pten_dephos",
+    "page": 1,
+    "start": "Disruption of the PI 3-phosphatase, PTEN, in Dictyostelium discoideum dramatically prolonged and broadened the PH domain relocation",
+    "end": "responses"
+   }
+  ],
+  "huang2003": [
+   {
+    "claim": "pip3_trans",
+    "page": 1,
+    "start": "We ﬁnd that bulk PI(3,4,5)P3 levels increase transiently upon chemoattractant stimulation",
+    "end": "declines to a low level of activity"
+   },
+   {
+    "claim": "pten_dephos",
+    "page": 1,
+    "start": "and the changes are greater and more prolonged in pten cells"
+   }
+  ],
+  "parent1998": [
+   {
+    "claim": "crac",
+    "page": 1,
+    "start": "The translocation of the PH domain–containing protein CRAC in D. discoideum to binding sites on the inner face of the plasma membrane reﬂects activation of the G protein–linked signaling system"
+   }
+  ],
+  "postma2003": [
+   {
+    "claim": "phcrac",
+    "page": 1,
+    "start": "In cells stimulated homogeneously with 1 M cAMP we observed two distinct phases of PHCrac-GFP translocation",
+    "end": "of 4–5 m"
+   }
+  ],
+  "sasaki2004": [
+   {
+    "claim": "ras_pi3k",
+    "page": 1,
+    "start": "Here, we show that Ras is rapidly and transiently activated in response to chemoattractant stimulation and regulates PI3K activity"
+   }
+  ],
+  "fukushima2019": [
+   {
+    "claim": "ras_pi3k",
+    "page": 1,
+    "start": "A stochastic excitation of local and transient Ras activation induced phosphatidylinositol (3,4,5)-trisphosphate (PIP3) accumulation via direct interaction with Phosphoinositide 3-kinase"
+   }
+  ],
+  "matsuoka2018": [
+   {
+    "claim": "mutual",
+    "page": 1,
+    "start": "show PIP3 suppresses the membrane localization of PTEN"
+   },
+   {
+    "claim": "mutual",
+    "page": 1,
+    "start": "Mutual inhibition between PIP3 and PTEN provides a mechanistic basis for bistability",
+    "end": "PTEN-excluded state"
+   }
+  ],
+  "li2018": [
+   {
+    "claim": "pi34p2",
+    "page": 1,
+    "start": "These ﬁndings suggest that Ras activity drives PI(3,4)P2 down",
+    "end": "essential for excitability"
+   }
+  ],
+  "meili1999": [
+   {
+    "claim": "pkba_recr",
+    "page": 1,
+    "start": "We demonstrate that Dictyostelium Akt/PKB, a homologue of mammalian Akt/PKB, is very rapidly and transiently activated by the chemoattractant cAMP",
+    "end": "p110 phosphoinositide-3 kinase"
+   },
+   {
+    "claim": "two_pkb",
+    "page": 1,
+    "start": "the PH domain of Akt/PKB fused to GFP transiently translocates to the plasma membrane in response to cAMP"
+   }
+  ],
+  "meili2000": [
+   {
+    "claim": "two_pkb",
+    "page": 1,
+    "start": "PKBR-1 has a kinase and a carboxy-terminal domain related to those of Akt/PKB, but no PH domain",
+    "end": "constitutive membrane localization"
+   },
+   {
+    "claim": "two_pkb",
+    "page": 1,
+    "start": "but does not require PI3-kinase"
+   }
+  ],
+  "kamimura2008": [
+   {
+    "claim": "tor_hm",
+    "page": 1,
+    "start": "The PKBs are activated through phosphorylation of their hydrophobic motifs via TorC2 and subsequent phosphorylation of their activation loops",
+    "end": "even in the absence of PIP3"
+   }
+  ],
+  "kamimura2010": [
+   {
+    "claim": "pdk",
+    "page": 1,
+    "start": "we show that two PDK (phospho-inositide-dependent protein kinase) homologues, PdkA and PdkB, function as the key AL kinases"
+   }
+  ],
+  "charest2010": [
+   {
+    "claim": "sca1fb",
+    "page": 1,
+    "start": "In addition, PKB and PKB-related PKBR1 phosphorylate Sca1 and regulate the membrane localization of the Sca1/RasGEF/PP2A complex",
+    "end": "negative feedback fashion"
+   },
+   {
+    "claim": "pkb_delay",
+    "page": 8,
+    "start": "chemoattractant-induced RasC activation is considerably increased and fails to rapidly adapt as it normally does by 40 s after stimulation"
+   }
+  ],
+  "miao2017": [
+   {
+    "claim": "pkb_delay",
+    "page": 3,
+    "start": "activation of PKBs is delayed relative to the increase in Ras and PI(3)K activities",
+    "end": "excitable network"
+   }
+  ],
+  "cai2010": [
+   {
+    "claim": "tor_ras",
+    "page": 1,
+    "start": "TORC2 binds specifically to the activated form of RasC"
+   },
+   {
+    "claim": "tor_ras",
+    "page": 6,
+    "start": "imply that RasC acts through TORC2"
+   }
+  ]
+ }
+}

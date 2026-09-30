@@ -1,6 +1,6 @@
 \begin{table*}[!t]
 \centering
-\caption{Module~10 reactions: the intracellular brake. RegA is a conserved three-state moiety: RegA$_u$ (unphosphorylated, weakly active), RegA$_p$ (phosphorylated at D212, active) and RegA$_{pi}$ (phosphorylated by ERK2, inactive). PKA and ERK2 are the kinases of the Laub--Loomis/Maeda circuit.}
+\caption{Module~10 reactions: the intracellular brake. RegA is a conserved three-state moiety: RegA$_u$ (unphosphorylated, weakly active), RegA$_p$ (phosphorylated at D212, active) and RegA$_{pi}$ (phosphorylated by ERK2, inactive). PKA and ERK2 are the kinases of the Laub--Loomis/Maeda circuit. A coloured reaction is the one to which the equally coloured statement in the text and the equally coloured passage in the cited paper refer; a small square appends a further statement.}
 \label{tab:m10rxn}
 \footnotesize
 \renewcommand{\arraystretch}{1.15}
@@ -8,15 +8,15 @@
 \toprule
 ID & Reaction & Propensity (rate law)\\
 \midrule
-10.B1 & $\mathrm{RegA}_u \to \mathrm{RegA}_p$ & $k_{B1}[\mathrm{RegA}_u]$ \\
-10.B2 & $\mathrm{RegA}_p \to \mathrm{RegA}_u$ & $k_{B2}[\mathrm{RegA}_p]$ \\
-10.B3 & $\mathrm{RegA}_p+\mathrm{ERK2}^* \to \mathrm{RegA}_{pi}+\mathrm{ERK2}^*$ & $k_{B3}[\mathrm{RegA}_p][\mathrm{ERK2}^*]$ \\
+\mkt{M10-relay}{10.B1} & \mkt{M10-relay}{$\mathrm{RegA}_u \to \mathrm{RegA}_p$} & $k_{B1}[\mathrm{RegA}_u]$ \\
+\mkt{M10-relay}{10.B2} & \mkt{M10-relay}{$\mathrm{RegA}_p \to \mathrm{RegA}_u$} & $k_{B2}[\mathrm{RegA}_p]$ \\
+\mkn{M10-erk-rega}{M10-circuit}{10.B3} & \mkn{M10-erk-rega}{M10-circuit}{$\mathrm{RegA}_p+\mathrm{ERK2}^* \to \mathrm{RegA}_{pi}+\mathrm{ERK2}^*$} & $k_{B3}[\mathrm{RegA}_p][\mathrm{ERK2}^*]$ \\
 10.B4 & $\mathrm{RegA}_{pi} \to \mathrm{RegA}_p$ & $k_{B4}[\mathrm{RegA}_{pi}]$ \\
-10.C1 & $\mathrm{cAMP}_i+\mathrm{RegA}_p \to \mathrm{RegA}_p$ & $k_\mathrm{cat}[\mathrm{cAMP}_i][\mathrm{RegA}_p]$ \\
-10.C2 & $\mathrm{cAMP}_i+\mathrm{RegA}_u \to \mathrm{RegA}_u$ & $\phi\,k_\mathrm{cat}[\mathrm{cAMP}_i][\mathrm{RegA}_u]$ \\
+\mkn{M10-rega-pde}{M10-rega-km}{10.C1} & \mkn{M10-rega-pde}{M10-rega-km}{$\mathrm{cAMP}_i+\mathrm{RegA}_p \to \mathrm{RegA}_p$} & $k_\mathrm{cat}[\mathrm{cAMP}_i][\mathrm{RegA}_p]$ \\
+\mkt{M10-rega-20}{10.C2} & \mkt{M10-rega-20}{$\mathrm{cAMP}_i+\mathrm{RegA}_u \to \mathrm{RegA}_u$} & $\phi\,k_\mathrm{cat}[\mathrm{cAMP}_i][\mathrm{RegA}_u]$ \\
 10.D1 & $\mathrm{cAMP}_i+\mathrm{PKA} \to \mathrm{cAMP}_i+\mathrm{PKA}^*$ & $k_{D1}[\mathrm{cAMP}_i][\mathrm{PKA}]$ \\
-10.D2 & $\mathrm{PKA}^* \to \mathrm{PKA}$ & $k_{D2}[\mathrm{PKA}^*]$ \\
-10.D3 & $\mathrm{PKA}^*+\mathrm{ERK2}^* \to \mathrm{PKA}^*+\mathrm{ERK2}$ & $k_{D3}[\mathrm{PKA}^*][\mathrm{ERK2}^*]$ \\
+\mkt{M10-laub-k4}{10.D2} & \mkt{M10-laub-k4}{$\mathrm{PKA}^* \to \mathrm{PKA}$} & $k_{D2}[\mathrm{PKA}^*]$ \\
+\mkn{M10-circuit}{M10-pka-erk,M10-laub-k6}{10.D3} & \mkn{M10-circuit}{M10-pka-erk,M10-laub-k6}{$\mathrm{PKA}^*+\mathrm{ERK2}^* \to \mathrm{PKA}^*+\mathrm{ERK2}$} & $k_{D3}[\mathrm{PKA}^*][\mathrm{ERK2}^*]$ \\
 \bottomrule
 \end{tabularx}
 \end{table*}

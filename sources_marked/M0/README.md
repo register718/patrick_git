@@ -13,6 +13,7 @@ Colour = statement of `sections/*.tex` (highlighted in the same colour via `\mk`
 | ford2023 | 3 | green | F2 | at most about once per 4 min (minimum interval / refractory phase of single cells) |
 | ford2023 | 3 | cyan | F3 | inter-pulse intervals follow a gamma distribution (shape 6.6, rate 1.25 /min) |
 | ford2023 | 4 | cyan | F3 | inter-pulse intervals follow a gamma distribution (shape 6.6, rate 1.25 /min) |
+| ford2023 | 4 | orange | F16 | mean inter-pulse interval of the fitted gamma distribution is about 5.3 min (mu = 5.3-5.9 min in Fig. 1E) |
 | ford2023 | 12 | pink | F14 | real cells have a diameter of about 10 um |
 | ford2023 | 12 | pink | F14 | real cells have a diameter of about 10 um |
 | gregor2010 | 1 | salmon | F4 | noise-driven pulsing of single cells below the threshold for collective behaviour is a key step in the onset of oscillations |
@@ -33,6 +34,8 @@ Colour = statement of `sections/*.tex` (highlighted in the same colour via `\mk`
 | maeda2004 | 3 | tan | F7 | phosphorylation of the phosphodiesterase RegA by ERK2 (ERK2 controls RegA) |
 | maeda2004 | 3 | tan | F7 | phosphorylation of the phosphodiesterase RegA by ERK2 (ERK2 controls RegA) |
 | maeda2004 | 3 | blue | F8 | oscillation period of about 7 min |
+| maeda2004 | 3 | cyan | F15 | later work: ERK2 is not essential for ACA activation itself, it acts on cAMP accumulation through RegA (ERK2 gate on ACA is a design choice) |
+| maeda2004 | 3 | cyan | F15 | later work: ERK2 is not essential for ACA activation itself, it acts on cAMP accumulation through RegA (ERK2 gate on ACA is a design choice) |
 | nagumo1962 | 2 | green | F11 | FitzHugh-Nagumo: excitable system with two variables (excitability / activator and refractoriness / delayed inhibitor) |
 | nagumo1962 | 2 | green | F11 | FitzHugh-Nagumo: excitable system with two variables (excitability / activator and refractoriness / delayed inhibitor) |
 | schlogl1972 | 4 | pink | F9 | Schloegl model: reaction scheme A+2X -> 3X, B+X -> C with cubic rate law |

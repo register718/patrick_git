@@ -1,0 +1,148 @@
+{
+ "module": "M9",
+ "claims": {
+  "aca_null": {
+   "text": "aca- cells have little cyclase activity and fail to aggregate; motility and chemotaxis unaffected",
+   "color": 1
+  },
+  "aca_crac": {
+   "text": "ACA activation by receptors / G proteins requires CRAC",
+   "color": 2
+  },
+  "aca_erk2": {
+   "text": "ERK2 is necessary for receptor-mediated activation of adenylyl cyclase",
+   "color": 3
+  },
+  "aca_kin": {
+   "text": "ACA activity peaks at ~30 s and declines with half-time 1.8 min after sustained stimulation",
+   "color": 4
+  },
+  "abcb3": {
+   "text": "AbcB3 is a component of the cAMP export mechanism",
+   "color": 5
+  },
+  "secr_prop": {
+   "text": "the rate of cAMP secretion is proportional to intracellular cAMP",
+   "color": 6
+  },
+  "pulse_amp": {
+   "text": "relay response of ~5 pmol cAMP per 1e6 cells (2-min stimulus, 7 h) = ~3e6 molecules per cell",
+   "color": 7
+  },
+  "ks": {
+   "text": "first-order secretion constants 0.34 and 0.94 /min",
+   "color": 8
+  },
+  "kp": {
+   "text": "intracellular phosphodiesterase destruction rate constant 1.73 /min",
+   "color": 9
+  },
+  "frac": {
+   "text": "16 % (1e-6 M) to 47 % (1e-8 M) of the newly made cAMP is secreted",
+   "color": 1
+  },
+  "pka_null": {
+   "text": "in mutants lacking PKA, ACA and ERK2 activities rise but remain high much longer (PKA terminates ACA activation)",
+   "color": 2
+  },
+  "laub_k2": {
+   "text": "Laub-Loomis k2 = 0.9 /min (ACA inactivation)",
+   "color": 3
+  }
+ },
+ "papers": {
+  "pitt1992": [
+   {
+    "claim": "aca_null",
+    "page": 1,
+    "start": "An aca- mutant, created by gene disruption, has little detectable adenylyl cyclase activity and fails to aggregate",
+    "end": "cell division, which are unaffected"
+   }
+  ],
+  "insall1994": [
+   {
+    "claim": "aca_crac",
+    "page": 1,
+    "start": "Is Required for Receptor and G Protein-mediated Activation of Adenylyl Cyclase in Dictyostelium"
+   },
+   {
+    "claim": "aca_crac",
+    "page": 1,
+    "start": "We trace the signaling defect in dagA- cells to the absence of CRAC"
+   }
+  ],
+  "segall1995": [
+   {
+    "claim": "aca_erk2",
+    "page": 1,
+    "start": "A MAP Kinase Necessary for Receptor-mediated Activation of Adenylyl Cyclase in Dictyostelium"
+   },
+   {
+    "claim": "aca_erk2",
+    "page": 1,
+    "start": "it appears that this kinase is important for receptor-mediated activation of adenylyl cyclase"
+   }
+  ],
+  "cai2010": [
+   {
+    "claim": "aca_kin",
+    "page": 5,
+    "start": "displayed a rapid rise in ACA activity, peaking at 30 s after the addition of cAMP, followed by a return to the prestimulus level with a half-time of 1.8 min"
+   }
+  ],
+  "miranda2015": [
+   {
+    "claim": "abcb3",
+    "page": 1,
+    "start": "Genetic and biochemical evidence suggest that AbcB3 is a component of the cAMP export mechanism in D. discoideum development"
+   }
+  ],
+  "dinauer1980": [
+   {
+    "claim": "secr_prop",
+    "page": 1,
+    "start": "the rate of cAMP secretion was proportional to the intracellular cAMP concentration"
+   },
+   {
+    "claim": "ks",
+    "page": 6,
+    "start": "The value of KS was 0.34 min",
+    "end": "for the experiments shown"
+   },
+   {
+    "claim": "kp",
+    "page": 7,
+    "start": "the slope, equal to KP , was 1.73"
+   },
+   {
+    "claim": "frac",
+    "page": 7,
+    "start": "84% of the newly synthesized cAMP was degraded intracellularly and the remaining 16% was secreted"
+   },
+   {
+    "claim": "frac",
+    "page": 7,
+    "start": "53% of the CAMP was degraded intracellularly, whereas 47% was secreted"
+   }
+  ],
+  "devreotes1979": [
+   {
+    "claim": "pulse_amp",
+    "page": 1,
+    "start": "The secretory response (per 106 cells) to 2-min stimuli increased during differentiation from about 0.2 pmol at 0.5 h to -5 pmol of cAMP at 7 h"
+   }
+  ],
+  "laub1998": [
+   {
+    "claim": "laub_k2",
+    "page": 4,
+    "start": "The kinetic constants for these reactions, k1 and k2, respectively, were set at 1.4 and 0.9 min"
+   },
+   {
+    "claim": "pka_null",
+    "page": 3,
+    "start": "When mutants lacking PKA activity are stimulated by addition of cAMP, the activities of both ACA and ERK2 go up but then remain high for much longer than in wild-type cells"
+   }
+  ]
+ }
+}

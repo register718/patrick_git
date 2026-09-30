@@ -1,0 +1,19 @@
+{
+ "module": "general",
+ "claims": {
+  "ssa": {
+   "text": "exact stochastic simulation algorithm (Monte Carlo procedure) for coupled chemical reactions",
+   "color": 1
+  }
+ },
+ "papers": {
+  "gillespie1977": [
+   {
+    "claim": "ssa",
+    "page": 1,
+    "start": "There is, however, a way to make exact numerical calculations within the framework of the stochastic formulation without having to deal with the master equation directly",
+    "end": "time evolution of the given chemical system"
+   }
+  ]
+ }
+}

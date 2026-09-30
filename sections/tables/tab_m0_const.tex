@@ -11,8 +11,8 @@ Symbol & Value & Unit & Basis & Meaning, justification, source\\
 $H_{\max}$ & \num{100} & $\mathrm{molec/voxel}$ & E & Steady-state level of the abstract \emph{Hunger} variable; held at full developmental competence. \\
 $k_H$ & \num{2.8e-4} & $\mathrm{s^{-1}}$ & E & Relaxation of Hunger ($\tau\approx 1$\,h); the production rate is $H_{\max}k_H$. A slow developmental clock, not a measured rate. \\
 $H_{1/2},\ n_c$ & \num{60},\ 4 & $\mathrm{molec/voxel}$ & E & Half-competence level and steepness of the competence gate; $c(H_{\max})=0.885$. \\
-$k_0$ & \num{3.5} & $\mathrm{molec\,s^{-1}\,cell^{-1}}$ & C & Ignition (seed) rate at full competence. Set on the stochastic engine so that the mean inter-pulse interval of an isolated cell is 726\,s; target \mkt{1}{{$\approx\!12$}\,min}~\cite{ford2023}. \\
-$k_1$ & \num{0.08} & $\mathrm{molec^{-1}s^{-1}}$ & C & Autocatalysis ($2\mathrm X\to3\mathrm X$); creates the excitation threshold ($\approx\!23$ molecules). \\
+$k_0$ & \num{3.5} & $\mathrm{molec\,s^{-1}\,cell^{-1}}$ & C & Ignition (seed) rate before the competence gate ($c(H_{\max})=0.885$). Set on the stochastic engine so that the mean inter-pulse interval of an isolated cell is 726\,s; target \mkt{1}{$\approx\!12$\,min}~\cite{ford2023}. \\
+$k_1$ & \num{0.08} & $\mathrm{molec^{-1}s^{-1}}$ & C & Autocatalysis ($2\mathrm X\to3\mathrm X$); creates the excitation threshold ($\approx\!24$ molecules). \\
 $k_6$ & \num{5e-4} & $\mathrm{molec^{-2}s^{-1}}$ & C & Cubic self-limitation; bounds the spike at $\approx\!456$ molecules per cell. \\
 $k_2$ & \num{1} & $\mathrm{s^{-1}}$ & C & Basal removal of X (relaxation time 1\,s). \\
 $k_3$ & \num{6.25e-5} & $\mathrm{molec^{-1}s^{-1}}$ & C & Spike-triggered production of the recovery variable Y. \\
@@ -25,7 +25,7 @@ $k_{Ed}$ & \num{0.02} & $\mathrm{s^{-1}}$ & E & ERK2 dephosphorylation ($\tau=50
 $k_{XA}$ & \num{65} & $\mu\mathrm{M}^{-1}\mathrm{s}^{-1}$ & C & X-driven ACA activation, gated on ERK2$^*$; sets the $\approx\!10$\,s rise of ACA$^*$. \\
 $K_E,\ n_E$ & \num{192},\ 4 & $\mathrm{molec/voxel}$ & C & ERK2$^*$ level (12.5\,\% of the pool) at half-open ACA gate; enforces the ordering ERK2$\to$ACA. \\
 \midrule
-$N_\mathrm{vox}$ & \num{13} &  & E & Voxels per cell (plus-shaped footprint of $52\,\mu\mathrm{m}^2$, i.e.\ about 8\,$\mu$m diameter, in a 2\,$\mu$m thick layer, $104\,\mu\mathrm{m}^3$); real cells have a \mkt{4}{diameter of about 10\,{$\mu$}m}~\cite{ford2023}, so the cell volume is underestimated. $M_c=13\times4817.6=62\,629$ molecules\,$\mu\mathrm{M}^{-1}$ per cell. \\
+$N_\mathrm{vox}$ & \num{13} &  & E & Voxels per cell (plus-shaped footprint of $52\,\mu\mathrm{m}^2$, i.e.\ about 8\,$\mu$m diameter, in a 2\,$\mu$m thick layer, $104\,\mu\mathrm{m}^3$); real cells have a \mkt{4}{diameter of about 10\,$\mu$m}~\cite{ford2023}, so the cell volume is underestimated. $M_c=13\times4817.6=62\,629$ molecules\,$\mu\mathrm{M}^{-1}$ per cell. \\
 $[\mathrm{ERK2}]_\mathrm{tot}$ & \num{1540} & $\mathrm{molec/voxel}$ & E & Pool size on the scale of the other kinases ($0.32\,\mu$M). \\
 $[\mathrm{ACA}]_\mathrm{tot}$ & \num{865} & $\mathrm{molec/voxel}$ & C & Chosen so that one pulse exports $\approx\!10^7$ cAMP molecules per cell at $k_9+k_{11}=20\,\mathrm{s^{-1}}$ (Module~9). \\
 $D_\mathrm{X},D_\mathrm{Y},D_\mathrm{Rf},D_\mathrm{ERK2}$ & \num{10} & $\mu\mathrm{m^2/s}$ & E & Generic cytosolic value; the cell is mixed in $\approx\!2.5$\,s, which matters because the gates are evaluated per voxel. \\

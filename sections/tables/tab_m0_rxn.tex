@@ -1,6 +1,6 @@
 \begin{table*}[!t]
 \centering
-\caption{Module~0 reactions: Hunger, the excitable element (X, Y), the refractory clock (Rf) and the ERK2$\to$ACA output stage. For the species of the excitable element $N_s$ is the copy number of species $s$ \emph{per cell}; $c(\mathrm H)$ and $b(\mathrm{Rf})$ are the Hill gates of Sec.~\ref{sec:hill}.}
+\caption{Module~0 reactions: Hunger, the excitable element (X, Y), the refractory clock (Rf) and the ERK2$\to$ACA output stage. For the species of the excitable element $N_s$ is the copy number of species $s$ \emph{per cell}; $c(\mathrm H)$ and $b(\mathrm{Rf})$ are the Hill gates of Sec.~\ref{sec:hill}. A coloured reaction is the one to which the equally coloured statement in the text and the equally coloured passage in the cited paper refer; a small square appends a further statement.}
 \label{tab:m0rxn}
 \footnotesize
 \renewcommand{\arraystretch}{1.15}
@@ -10,18 +10,18 @@ ID & Reaction & Propensity (rate law)\\
 \midrule
 0.8a & $\varnothing \to \mathrm{H}$ & $k_H\,H_{\max}\ \text{(zeroth order)}$ \\
 0.8b & $\mathrm{H} \to \varnothing$ & $k_H\, N_\mathrm{H}$ \\
-0.9a & $\varnothing \to \mathrm{X}$ & $k_0\, c(\mathrm{H})\, b(\mathrm{Rf})\quad[\text{molec\,s}^{-1}\text{cell}^{-1}]$ \\
-0.9b & $2\mathrm{X} \to 3\mathrm{X}$ & $\tfrac{k_1}{2}N_\mathrm{X}(N_\mathrm{X}-1)$ \\
-0.9c & $3\mathrm{X} \to 2\mathrm{X}$ & $\tfrac{k_6}{6}N_\mathrm{X}(N_\mathrm{X}-1)(N_\mathrm{X}-2)$ \\
-0.9d & $\mathrm{X} \to \varnothing$ & $k_2 N_\mathrm{X}$ \\
-0.9y1 & $2\mathrm{X} \to 2\mathrm{X}+\mathrm{Y}$ & $\tfrac{k_3}{2}N_\mathrm{X}(N_\mathrm{X}-1)$ \\
-0.9y2 & $\mathrm{X}+\mathrm{Y} \to \mathrm{Y}$ & $k_5 N_\mathrm{X}N_\mathrm{Y}$ \\
-0.9y3 & $\mathrm{Y} \to \varnothing$ & $k_4 N_\mathrm{Y}$ \\
-0.9r1 & $2\mathrm{X} \to 2\mathrm{X}+\mathrm{Rf}$ & $\tfrac{k_{Rp}}{2}N_\mathrm{X}(N_\mathrm{X}-1)$ \\
-0.9r2 & $\mathrm{Rf} \to \varnothing$ & $k_{Rd} N_\mathrm{Rf}$ \\
-0.9e & $2\mathrm{X}+\mathrm{ERK2} \to 2\mathrm{X}+\mathrm{ERK2}^*$ & $k_{XE}\,[\mathrm{X}]^2[\mathrm{ERK2}]\ \text{(falling factorial in }N_\mathrm{X})$ \\
-0.9e$'$ & $\mathrm{ERK2}^* \to \mathrm{ERK2}$ & $k_{Ed}[\mathrm{ERK2}^*]$ \\
-0.9f & $\mathrm{X}+\mathrm{ACA} \to \mathrm{X}+\mathrm{ACA}^*$ & $k_{XA}[\mathrm{X}][\mathrm{ACA}]\,\dfrac{[\mathrm{ERK2}^*]^4}{K_E^4+[\mathrm{ERK2}^*]^4}$ \\
+\mkx{1}{9}{0.9a} & \mkx{1}{9}{$\varnothing \to \mathrm{X}$} & $k_0\, c(\mathrm{H})\, b(\mathrm{Rf})\quad[\text{molec\,s}^{-1}\text{cell}^{-1}]$ \\
+\mkx{4}{3}{0.9b} & \mkx{4}{3}{$2\mathrm{X} \to 3\mathrm{X}$} & $\tfrac{k_1}{2}N_\mathrm{X}(N_\mathrm{X}-1)$ \\
+\mkx{4}{3}{0.9c} & \mkx{4}{3}{$3\mathrm{X} \to 2\mathrm{X}$} & $\tfrac{k_6}{6}N_\mathrm{X}(N_\mathrm{X}-1)(N_\mathrm{X}-2)$ \\
+\mkx{4}{3}{0.9d} & \mkx{4}{3}{$\mathrm{X} \to \varnothing$} & $k_2 N_\mathrm{X}$ \\
+\mkt{2}{0.9y1} & \mkt{2}{$2\mathrm{X} \to 2\mathrm{X}+\mathrm{Y}$} & $\tfrac{k_3}{2}N_\mathrm{X}(N_\mathrm{X}-1)$ \\
+\mkt{2}{0.9y2} & \mkt{2}{$\mathrm{X}+\mathrm{Y} \to \mathrm{Y}$} & $k_5 N_\mathrm{X}N_\mathrm{Y}$ \\
+\mkt{2}{0.9y3} & \mkt{2}{$\mathrm{Y} \to \varnothing$} & $k_4 N_\mathrm{Y}$ \\
+\mkx{2}{8}{0.9r1} & \mkx{2}{8}{$2\mathrm{X} \to 2\mathrm{X}+\mathrm{Rf}$} & $\tfrac{k_{Rp}}{2}N_\mathrm{X}(N_\mathrm{X}-1)$ \\
+\mkx{2}{8}{0.9r2} & \mkx{2}{8}{$\mathrm{Rf} \to \varnothing$} & $k_{Rd} N_\mathrm{Rf}$ \\
+\mkt{5}{0.9e} & \mkt{5}{$2\mathrm{X}+\mathrm{ERK2} \to 2\mathrm{X}+\mathrm{ERK2}^*$} & $k_{XE}\,[\mathrm{X}]^2[\mathrm{ERK2}]\ \text{(falling factorial in }N_\mathrm{X})$ \\
+\mkt{1}{0.9e$'$} & \mkt{1}{$\mathrm{ERK2}^* \to \mathrm{ERK2}$} & $k_{Ed}[\mathrm{ERK2}^*]$ \\
+\mkxx{5}{1}{3}{0.9f} & \mkxx{5}{1}{3}{$\mathrm{X}+\mathrm{ACA} \to \mathrm{X}+\mathrm{ACA}^*$} & $k_{XA}[\mathrm{X}][\mathrm{ACA}]\,\dfrac{[\mathrm{ERK2}^*]^4}{K_E^4+[\mathrm{ERK2}^*]^4}$ \\
 \bottomrule
 \end{tabularx}
 \end{table*}
