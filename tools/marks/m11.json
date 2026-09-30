@@ -1,0 +1,151 @@
+{
+ "module": "M11",
+ "claims": {
+  "pde_sec": {
+   "text": "the level of extracellular cAMP is controlled by a phosphodiesterase secreted by the cells",
+   "color": 1
+  },
+  "pde_bader": {
+   "text": "extracellular cAMP is degraded predominantly by DdPDE1 (PdsA) and DdPDE7",
+   "color": 2
+  },
+  "pde_null_g": {
+   "text": "pdsA- cells respond to a narrower range of cAMP and do not form streams at low density",
+   "color": 3
+  },
+  "pde_null_s": {
+   "text": "PDE-null cells cannot move in a coordinated manner in mounds",
+   "color": 4
+  },
+  "promoters": {
+   "text": "the pdsA gene has separate promoters for growth, aggregation and late development",
+   "color": 5
+  },
+  "pa_off": {
+   "text": "the aggregative PdsA promoter is down-regulated after aggregation",
+   "color": 6
+  },
+  "inhib_stoich": {
+   "text": "inhibitor and PDE interact with 1:1 stoichiometry",
+   "color": 7
+  },
+  "inhib_absent": {
+   "text": "the inhibitor is not produced during growth and appears after transfer to starvation buffer",
+   "color": 8
+  },
+  "inhib_reg": {
+   "text": "inhibitor synthesis is repressed by (pulses of) exogenous cAMP, regulated independently of the enzyme",
+   "color": 9
+  },
+  "kd": {
+   "text": "PDE-inhibitor dissociation constant about 1e-10 M",
+   "color": 1
+  },
+  "km": {
+   "text": "DdPDE1 Km 0.75 uM (Hill 0.8)",
+   "color": 3
+  },
+  "dcamp": {
+   "text": "cAMP diffusion coefficient 4.44e-6 cm2/s",
+   "color": 2
+  }
+ },
+ "papers": {
+  "bader2007": [
+   {
+    "claim": "pde_bader",
+    "page": 1,
+    "start": "Extracellular cAMP is degraded predominantly by the class II high-afﬁnity enzyme DdPDE1 and its close homologue DdPDE7"
+   },
+   {
+    "claim": "km",
+    "page": 3,
+    "start": "",
+    "rect": [
+     130,
+     164,
+     300,
+     178
+    ],
+    "label": "PDE1 row of the kinetic table"
+   }
+  ],
+  "sucgang1997": [
+   {
+    "claim": "pde_sec",
+    "page": 1,
+    "start": "The levels of cAMP are controlled by a cyclic nucleotide phosphodiesterase (PDE) that is secreted by the cells"
+   },
+   {
+    "claim": "pde_null_s",
+    "page": 1,
+    "start": "PDE-null cells aggregated with isogenic wild-type cells in chimeric mixtures, but could not move in a coordinated manner in mounds"
+   }
+  ],
+  "garcia2009": [
+   {
+    "claim": "pde_null_g",
+    "page": 1,
+    "start": "We ﬁnd that pdsA cells respond chemotactically to a narrower range of chemoattractant concentrations compared with wild-type (WT) cells",
+    "end": "high cell densities"
+   }
+  ],
+  "faure1990": [
+   {
+    "claim": "promoters",
+    "page": 1,
+    "start": "A 1.9-kilobase (kb) mRNA is specific for growth, a 2.4-kb mRNA is specific for aggregation, and a 2.2-kb mRNA is specific for late development"
+   },
+   {
+    "claim": "promoters",
+    "page": 1,
+    "start": "indicated separate promoters for each of the three mRNAs"
+   }
+  ],
+  "weening2003": [
+   {
+    "claim": "pa_off",
+    "page": 1,
+    "start": "PdA was down-regulated after aggregation irrespective of stimulation with any of the factors known to control gene expression"
+   }
+  ],
+  "franke1981": [
+   {
+    "claim": "inhib_stoich",
+    "page": 1,
+    "start": "The interaction of the inhibitor and the cyclic nucleotide phosphodiesterase occurs with 1: 1 stoichiometry and with a dissociation constant",
+    "end": "1: 1 stoichiometry"
+   },
+   {
+    "claim": "kd",
+    "page": 1,
+    "start": "with a dissociation constant of about",
+    "end": "10"
+   },
+   {
+    "claim": "inhib_absent",
+    "page": 1,
+    "start": "Inhibitor is not produced by cells during logarithmic growth but appears in quantity during stationary phase and after transfer from growth medium to phosphate buffer"
+   }
+  ],
+  "yeh1978": [
+   {
+    "claim": "inhib_reg",
+    "page": 1,
+    "start": "When amoebae of Dictyostelium discoideum, suspended in buffer, were treated with 100 nM pulses of cAMP, the extracellular cAMP phosphodiesterase (ePD) activity increased dramatically and the synthesis of the phosphodiesterase inhibitor (PDI) was repressed"
+   },
+   {
+    "claim": "inhib_reg",
+    "page": 1,
+    "start": "Independent Regulation of the Extracellular Cyclic AMP Phosphodiesterase-Inhibitor System"
+   }
+  ],
+  "dworkin1977": [
+   {
+    "claim": "dcamp",
+    "page": 1,
+    "start": "the diffusion coefficient is 4.44 x"
+   }
+  ]
+ }
+}
