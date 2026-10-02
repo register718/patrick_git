@@ -19,7 +19,7 @@ Module~8 injects an activator into an excitable element (Module~0) that opens th
 Intracellular cAMP is exported (Module~9), degraded intracellularly and feeds back through PKA, ERK2 and RegA (Module~10), and is degraded extracellularly by the secreted phosphodiesterase PdsA and its inhibitor PdiA (Module~11), which closes the loop.
 
 \paragraph{Spatial discretisation and stochastic engine.}
-The domain is a square lattice with voxel edge $2\,\mu$m, so that one voxel has a volume of $8\,\mu\mathrm{m}^3$ and $1\,\mu\mathrm{M}$ corresponds to $M=4817.6$ molecules per voxel.
+The domain is a square lattice with voxel edge $2\,\mu$m, so that one voxel has a area of $4\,\mu\mathrm{m}^2$ and $1\,\mu\mathrm{M}$ corresponds to $M=4817.6$ molecules per voxel.
 A cell occupies $N_\mathrm{vox}=13$ voxels (a $3\times3$ block plus one voxel on each side), i.e.\ $104\,\mu\mathrm{m}^3$.
 In every time step of $\Delta t=2$\,ms, each voxel runs \mk{Mgen-ssa}{an exact stochastic simulation of its reactions} up to $\Delta t$~\cite{gillespie1977}, after which molecules move to neighbouring voxels; the diffusion step requires $D\Delta t/\Delta x^2\le0.25$, which holds for the fastest species, cAMP ($D=350\,\mu\mathrm{m^2/s}$, value $0.175$).
 Membrane-bound and cytosolic species of the cell are confined to its voxels, whereas extracellular species (cAMP$_e$, PdsA$_e$, PdiA and their complex) live on the world lattice, which they leave at the domain boundary.
@@ -76,7 +76,7 @@ PIP3 relay gate $g$ & 8.14 & $[1+(K/x)^n]^{-1}$ & 8 & $5000$ PIP3/voxel & The re
 NF1 saturable GAP & \mkn{M3-rect}{M3-nf1kin}{3.7z} & $x/(K+x)$ & 1 & $0.2\,\mu$M & Michaelis--Menten hydrolysis with $K\ll[\mathrm{Ras}]_\mathrm{tot}$ (zero-order regime), which produces \mkt{M3-rect}{rectification of Ras activation}~\cite{nakajima2014}; \mkt{M3-nf1kin}{$K$ from}~\cite{wiesmuller1992,coyle2016}. \\
 PdsA induction $P(H)$ & 11.D1b, 11.E1 & $H^n/(K^n+H^n)$ & 2 & $25$ molec/voxel & Starvation gate of the aggregation-stage \emph{pdsA}/\emph{pdiA} expression; opens early relative to the Hunger ramp, $P(100)=0.94$. \\
 PdiA repression $r$ & \mkt{M11-inhib-reg}{11.E1} & $[1+(x/K)^n]^{-1}$ & 2 & $0.05\,\mu$M cAMP$_s$ & \mkt{M11-inhib-reg}{Repression of PdiA synthesis by the slowly filtered cAMP signal}~\cite{yeh1978}; $n=2$ gives a graded but steeper-than-hyperbolic switch. \\
-Memory writing (optional) & M.1 & $x^n/(K^n+x^n)$ & 3 & $5000$ PIP3/voxel & Writes the mark only on the PIP3 rise ($H(\text{rest})\approx0.03$, $H(7500)\approx0.77$). \\
+Memory writing (optional) & (M.1) & $x^n/(K^n+x^n)$ & 3 & $5000$ PIP3/voxel & Writes the mark only on the PIP3 rise ($H(\text{rest})\approx0.03$, $H(7500)\approx0.77$). \\
 \bottomrule
 \end{tabularx}
 \end{table*}

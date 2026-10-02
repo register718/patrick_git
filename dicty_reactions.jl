@@ -1303,53 +1303,6 @@ r3_3 = Reaction([:RasGEFRa_cyto, :RasG_GDP_mem], [:RasG_GTP_mem, :RasGEFRa_cyto]
 # 3.4 RC_mem + RasGAP_cyto → RC_mem + RasGAP*_cyto  (delayed inhibitor)
 r3_4 = Reaction([:RC_mem, :RasGAP_cyto], [:RasGAPa_cyto, :RC_mem],        k_gapOn,           nothing)
 
-# 3.4f RpC_mem + RasGAP_cyto → RasGAP*_cyto + RpC_mem  (the PHOSPHORYLATED
-#      receptor's copy of the 3.4 inhibitor arm)
-#
-# ⚠⚠ THIS ARM INVERTED THE WHOLE LEGI ABOVE ~10 nM AND IS NOW OFF BY DEFAULT
-# [2026-09-06].  Full measurement: calib/CALIBRATION_M3_R34F_2026-09-06.md.
-#
-# It was added 2026-08-26 (607099f) into the CORE list — i.e. OUTSIDE the
-# `M3_INHIB` switch that selects the inhibitor's input — with its educt spelled
-# `:RasGAP_cyto0`, a species that does not exist, so it was INERT.  The typo was
-# corrected a commit later (7fceeff, "dicty reaciotn fix") and the arm went live,
-# at `k_gapOn * EPS_GEF` with `EPS_GEF` = 1.0 — a Module 2 constant that Fix 1b
-# had raised 0.05 → 1.0 the previous day for a Module 2 reason.  Nobody chose
-# that strength for this reaction.
-#
-# WHY IT INVERTS.  A LEGI's two arms MUST read the same upstream variable, or
-# the ratio E/I acquires a dose dependence of its own — the defect
-# calib/CALIBRATION_M3.md diagnosed and fixed on 2026-08-08.  The excitor 3.1
-# reads `Gbg_cyto`, whose transfer `d ln x / d ln c` is 0.13 at 60 nM because
-# Module 2 is 70 % saturated.  This arm reads `RpC_mem`, whose transfer is 0.98
-# — precisely BECAUSE Fix 1b's de-saturation works, and the phospho receptor is
-# the stage that still reports dose once `RC_mem` has flattened.  So the
-# inhibitor outruns the excitor and Ras-GTP falls when cAMP rises.  Measured on
-# the deterministic whole-cell network (analyse/cascade_transfer.jl), transient
-# max-rise / max-fall of Δln x per Δln c:
-#
-#     RasG_GTP_mem   60 nM   ON: +0.000/-0.119     OFF: +0.050/-0.000
-#                   200 nM   ON: +0.000/-0.163     OFF: +0.022/-0.008
-#     PIP3_mem       60 nM   ON: +0.000/-0.087     OFF: +0.053/-0.000
-#                     2 nM   ON: +0.235            OFF: +0.245
-#
-# At and above 60 nM the max-RISE with the arm live is EXACTLY ZERO: Ras-GTP and
-# PIP3 do not rise and then overshoot, they fall monotonically from the first
-# instant of a cAMP step.  The population's whole working range (~40 nM at 60 µm
-# from a firing neighbour, ~200 nM at the source) is inside that region, so every
-# cell in a population run was steering off an inverted gradient.  The fix is
-# free at 2 nM, which is where CALIBRATION_M8's dose-independent relay lives.
-#
-# ⚠ IT IS NOT DELETED, because a phospho-receptor inhibitor arm is not
-# biologically absurd — it is the `M3_INHIB="rc"` mechanism applied to the
-# desensitised receptor, and cAR1 phosphorylation is real.  What was wrong is
-# that it ran under `M3_INHIB="gbg"`, which is documented to mean "the inhibitor
-# is Gβγ-driven", and at a strength imported by accident.  So it is now gated by
-# the SAME switch as its siblings and carries its OWN coefficient.
-# `DICTY_M3_EPSGAPRP=1` reproduces the pre-2026-09-06 network exactly.
-const EPS_GAP_RP = _m3("DICTY_M3_EPSGAPRP", 0.0f0, 1.0f0)
-r3_4f = Reaction([:RpC_mem, :RasGAP_cyto], [:RasGAPa_cyto, :RpC_mem],
-                 k_gapOn * EPS_GAP_RP, nothing)
 # 3.4b RasGAP_cyto → RasGAP*_cyto  (basal, receptor-independent inhibitor production)
 r3_4b = Reaction([:RasGAP_cyto], [:RasGAPa_cyto], k_gapBasal, nothing)
 # 3.4e Gbg_cyto + RasGAP_cyto → RasGAPa_cyto + Gbg_cyto  (LEGI inhibitor, same
@@ -3562,7 +3515,7 @@ const MODULE_12_REACTIONS = vcat(MODULE_1_REACTIONS, MODULE_2_REACTIONS)
 # off").  They are restored together and DICTY_M3_STEN=0 removes both.
 const M3_STEN = get(ENV, "DICTY_M3_STEN", "1") == "1"
 const MODULE_3_REACTIONS = vcat(
-    [r3_1, r3_2, r3_3, r3_5, M3_ZOU ? r3_7z : r3_7, r3_4f],                 # CORE (3.7z: NF1 zero-order, opt-in)
+    [r3_1, r3_2, r3_3, r3_5, M3_ZOU ? r3_7z : r3_7],                 # CORE (3.7z: NF1 zero-order, opt-in)
     M3_INHIB in ("rc", "both")  ? [r3_4]  : Reaction[],               # LEGI inhibitor, RC_mem-driven
     M3_INHIB in ("gbg", "both") ? [r3_4e] : Reaction[],               # LEGI inhibitor, Gβγ-driven (default)
     [r3_4b],                                                          # basal arming, either way

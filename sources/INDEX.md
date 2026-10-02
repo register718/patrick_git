@@ -89,7 +89,7 @@
 
 ## By module
 
-**M0 — Developmental state, excitable element, refractory clock** (10): `fitzhugh1961`, `ford2023`, `gregor2010`, `laub1998`, `maeda1996`, `maeda2004`, `nagumo1962`, `schlogl1972`, `segall1995`, `sgro2015`
+**M0 — Developmental state, excitable element, refractory clock** (11): `fitzhugh1961`, `ford2023`, `gregor2010`, `laub1998`, `maeda1996`, `maeda2004`, `nagumo1962`, `schlogl1972`, `segall1995`, `sgro2015`, `aubry1997`
 
 **M1 — cAMP receptor** (11): `biswas2021`, `caterina1995a`, `caterina1995b`, `hereld1994`, `johnson1991`, `kamino2017`, `kim1997`, `takebayashi2023`, `ueda2001`, `vanhaastert1984`, `vaughan1988`
 

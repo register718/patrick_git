@@ -55,7 +55,7 @@
     },
     "F13": {
       "color": 1,
-      "text": "ERK2 activation by cAMP is rapid and transient"
+      "text": "ERK2 activity after cAMP peaks within about 1-2 min and returns to near-basal levels within minutes (4 min; 5-8 min in another strain/assay)"
     },
     "F15": {
       "color": 3,
@@ -198,6 +198,11 @@
         "page": 9,
         "start": "the period of oscillation predicted by solving the equations is 6.7 min",
         "end": "is ;8 min"
+      },
+      {
+        "claim": "F13",
+        "page": 3,
+        "start": "In the next few minutes, ERK2 activity returns to basal levels"
       }
     ],
     "maeda2004": [
@@ -256,9 +261,10 @@
     ],
     "maeda1996": [
       {
-        "claim": "F13",
+        "claim": "F5",
         "page": 1,
-        "start": "is rapidly and transiently activated in response to the chemoattractant cAMP"
+        "start": "ERK2 is rapidly and transiently activated in response to the chemoattractant cAMP",
+        "end": "independent of the coupled"
       },
       {
         "claim": "F13",
@@ -337,6 +343,14 @@
           286
         ],
         "label": "BVP equations (2)"
+      }
+    ],
+    "aubry1997": [
+      {
+        "claim": "F13",
+        "page": 2,
+        "start": "wild-type cells show a rapid activation of the 42-kDa ERK2 that peaks at",
+        "end": "basal levels within 5 8 min"
       }
     ]
   }

@@ -3,3 +3,7 @@ Main.aux
 Main.log
 token
 tools/__pycache__/
+Main.bbl
+Main.blg
+Main.fdb_latexmk
+Main.fls

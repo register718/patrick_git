@@ -21,7 +21,7 @@ $k_4$ & \num{0.01} & $\mathrm{s^{-1}}$ & C & Decay of Y ($\tau=100$\,s); sets th
 $k_{Rp},\ k_{Rd}$ & \num{5e-3},\ \num{5e-3} & $\mathrm{molec^{-1}s^{-1}},\ \mathrm{s^{-1}}$ & C & Charging and decay ($\tau_R=200$\,s) of the refractory clock. \\
 $K_R,\ n_R$ & \num{450},\ 4 & $\mathrm{molec/cell}$ & C & Half-block level and steepness of the refractory gate (Sec.~\ref{sec:hill}). \\
 $k_{XE}$ & \num{1823} & $\mu\mathrm{M}^{-2}\mathrm{s}^{-1}$ & C & X$^2$-driven activation of ERK2 (cell units); second order in X to raise the contrast between spike and resting leak. \\
-$k_{Ed}$ & \num{0.02} & $\mathrm{s^{-1}}$ & E & ERK2 dephosphorylation ($\tau=50$\,s); ERK2 activation is \mkt{1}{transient}~\cite{maeda1996}. \\
+$k_{Ed}$ & \num{0.02} & $\mathrm{s^{-1}}$ & E & ERK2$^*$ decay ($\tau=50$\,s); not a measured dephosphorylation rate. Chosen so that ERK2 activity, which \mkt{1}{peaks at 50--60\,s and is near-basal after 4--8\,min}~\cite{maeda1996,laub1998,aubry1997}, has decayed by more than 95\,\% after 3\,min (fast end of the range). \\
 $k_{XA}$ & \num{65} & $\mu\mathrm{M}^{-1}\mathrm{s}^{-1}$ & C & X-driven ACA activation, gated on ERK2$^*$; sets the $\approx\!10$\,s rise of ACA$^*$. \\
 $K_E,\ n_E$ & \num{192},\ 4 & $\mathrm{molec/voxel}$ & C & ERK2$^*$ level (12.5\,\% of the pool) at half-open ACA gate; enforces the ordering ERK2$\to$ACA. \\
 \midrule

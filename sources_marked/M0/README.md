@@ -4,6 +4,7 @@ Colour = statement of `sections/*.tex` (highlighted in the same colour via `\mk`
 
 | Paper | Page | Colour | Id | Statement supported by the marked passage |
 |---|---|---|---|---|
+| aubry1997 | 2 | yellow | F13 | ERK2 activity after cAMP peaks within about 1-2 min and returns to near-basal levels within minutes (4 min; 5-8 min in another strain/assay) |
 | fitzhugh1961 | 1 | green | F11 | FitzHugh-Nagumo: excitable system with two variables (excitability / activator and refractoriness / delayed inhibitor) |
 | fitzhugh1961 | 3 | green | F11 | FitzHugh-Nagumo: excitable system with two variables (excitability / activator and refractoriness / delayed inhibitor) |
 | fitzhugh1961 | 7 | green | F11 | FitzHugh-Nagumo: excitable system with two variables (excitability / activator and refractoriness / delayed inhibitor) |
@@ -24,9 +25,10 @@ Colour = statement of `sections/*.tex` (highlighted in the same colour via `\mk`
 | laub1998 | 1 | tan | F7 | phosphorylation of the phosphodiesterase RegA by ERK2 (ERK2 controls RegA) |
 | laub1998 | 3 | orange | F5 | cAMP-induced activation of ACA and ERK2 |
 | laub1998 | 3 | violet | F6 | inhibition of ERK2 by PKA |
+| laub1998 | 3 | yellow | F13 | ERK2 activity after cAMP peaks within about 1-2 min and returns to near-basal levels within minutes (4 min; 5-8 min in another strain/assay) |
 | laub1998 | 9 | blue | F8 | oscillation period of about 7 min |
-| maeda1996 | 1 | yellow | F13 | ERK2 activation by cAMP is rapid and transient |
-| maeda1996 | 2 | yellow | F13 | ERK2 activation by cAMP is rapid and transient |
+| maeda1996 | 1 | orange | F5 | cAMP-induced activation of ACA and ERK2 |
+| maeda1996 | 2 | yellow | F13 | ERK2 activity after cAMP peaks within about 1-2 min and returns to near-basal levels within minutes (4 min; 5-8 min in another strain/assay) |
 | maeda2004 | 1 | blue | F8 | oscillation period of about 7 min |
 | maeda2004 | 1 | tan | F7 | phosphorylation of the phosphodiesterase RegA by ERK2 (ERK2 controls RegA) |
 | maeda2004 | 2 | orange | F5 | cAMP-induced activation of ACA and ERK2 |

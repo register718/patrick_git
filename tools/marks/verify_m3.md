@@ -7,7 +7,6 @@
 | RasG, GEF_R, GAP, brake pools | 38 500, 138 600, 46 200, 1540 /voxel | L1149-1203 | ok |
 | k_E,on, k_E,off, k_R,on | 3.8e-3, 0.5, 0.333 | L1204-1206 | ok (tau_E = 2 s) |
 | k_I,on (3.4e), k_I,off, k_I,b | 2.53e-4, 0.033 (tau_I 30 s), 5e-4 | L1207-1216, L1276 | ok |
-| k_I,p (3.4f) | 0 | EPS_GAP_RP = 0, L1327 | ok |
 | K_NF1 | 0.2 uM | L1436 | ok |
 | k_cat | 15.8 /s, 11 x 1.4 | L1443: recomputed from k_rasGon/M x (E/I)_rest x RasG/theta with Gbg_rest = 6/voxel (from the 2.0/2.3/2.5 balance), E/I = 2.974: 15.84 | ok |
 | k_PIP3 | 0.04 | 40/PIP2_SCALE (1000.3) = 0.03999 | ok |

@@ -60,6 +60,14 @@
 % 
 %^^%
 \usepackage{cite}
+% Zitate als internes BibTeX-Kuerzel anzeigen (auskommentieren fuer normale Nummern)
+\usepackage{etoolbox}
+\makeatletter
+\renewcommand\cite[2][]{[\texttt{\detokenize{#2}}]}
+\AtBeginEnvironment{thebibliography}{%
+  \let\origbibitem\bibitem
+  \renewcommand\bibitem[2][]{\origbibitem[\texttt{\detokenize{#2}}]{#2}}}
+\makeatother
 %\usepackage[final]{graphicx}
 % \usepackage{subfig}
 % \usepackage{enumitem}
@@ -181,7 +189,7 @@ Outline of the paper\\
 \ifCLASSOPTIONcaptionsoff
   \newpage
 \fi
-\bibliographystyle{IEEEtran}
+\bibliographystyle{labelalpha}
 \bibliography{Bibliography}
 
 
