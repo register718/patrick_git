@@ -52,6 +52,14 @@
   "laub_k8": {
    "text": "Laub-Loomis Table 2: k8 = 1.3 /min/mM",
    "color": 4
+  },
+  "rega_phosphatase": {
+   "text": "a protein phosphatase activates RegA so that it hydrolyses internal cAMP",
+   "color": 5
+  },
+  "pka_r": {
+   "text": "cAMP activates PKA by binding to the regulatory subunit of PKA",
+   "color": 7
   }
  },
  "papers": {
@@ -159,6 +167,17 @@
      191
     ],
     "label": "laub_k8 Table 2"
+   },
+   {
+    "claim": "rega_phosphatase",
+    "page": 3,
+    "start": "A protein phosphatase activates REG A",
+    "end": "internal cAMP"
+   },
+   {
+    "claim": "pka_r",
+    "page": 3,
+    "start": "it activates the protein kinase PKA by binding to the regulatory subunit of PKA"
    }
   ],
   "maeda2004": [

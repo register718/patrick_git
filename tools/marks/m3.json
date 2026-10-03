@@ -208,6 +208,10 @@
   "sca1_rasc": {
    "text": "the Sca1 complex regulates RasC activity while RasG activation is unaffected",
    "color": 7
+  },
+  "gef_exch": {
+   "text": "Ras GEFs catalyse the exchange of GDP for GTP and thereby activate Ras",
+   "color": 10
   }
  },
  "papers": {
@@ -233,6 +237,12 @@
     "page": 1,
     "start": "We have found that the Ras-binding domain (RBD) of",
     "end": "activated form of RasC"
+   },
+   {
+    "claim": "gef_exch",
+    "page": 1,
+    "start": "Extracellular signals stimulate guanine nucleotide exchange factors",
+    "end": "thereby activating the Ras protein"
    }
   ],
   "sasaki2004": [
@@ -380,6 +390,11 @@
     "claim": "gefr",
     "page": 1,
     "start": "Conversely, RasC activation was normal in a gefR mutant, whereas RasG activation was greatly reduced, indicating that RasGEFR activates RasG"
+   },
+   {
+    "claim": "gef_exch",
+    "page": 1,
+    "start": "the exchange of GDP for GTP is catalysed by a group of proteins called Ras guanine nucleotide exchange factors"
    }
   ],
   "kortholt2013": [
@@ -601,6 +616,12 @@
     "page": 4,
     "start": "Using trial and error",
     "end": "transient and adaptive Ras signaling"
+   },
+   {
+    "claim": "gef_exch",
+    "page": 2,
+    "start": "Ras is activated by guanine nucleotide exchange factors",
+    "end": "exchange of GDP for GTP"
    }
   ],
   "kortholt2011": [

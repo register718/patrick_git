@@ -11,25 +11,25 @@ ID & Reaction & Propensity (rate law)\\
 \mkt{M8-gefs-g}{8.1} & \mkt{M8-gefs-g}{$\mathrm{G}_{\beta\gamma}+\mathrm{GEF_A} \to \mathrm{GEF_A^*}+\mathrm{G}_{\beta\gamma}$} & $k_{A,\mathrm{on}}[\mathrm{G}_{\beta\gamma}][\mathrm{GEF_A}]$ \\
 \mkt{M8-gefs-g}{8.2} & \mkt{M8-gefs-g}{$\mathrm{GEF_A^*} \to \mathrm{GEF_A}$} & $k_{A,\mathrm{off}}[\mathrm{GEF_A^*}]$ \\
 \mkt{M8-sca1}{8.2p} & \mkt{M8-sca1}{$\mathrm{PKBR1^*}+\mathrm{S} \to \mathrm{S}^*+\mathrm{PKBR1^*}$} & $k_{S,\mathrm{on}}[\mathrm{PKBR1^*}][\mathrm{S}]$ \\
-8.2q & $\mathrm{S}^* \to \mathrm{S}$ & $k_{S,\mathrm{off}}[\mathrm{S}^*]$ \\
+\mkt{M8-sca1-pp2a}{8.2q} & \mkt{M8-sca1-pp2a}{$\mathrm{S}^* \to \mathrm{S}$} & $k_{S,\mathrm{off}}[\mathrm{S}^*]$ \\
 \mkn{M8-sca1}{M8-ch-adapt}{8.2s} & \mkn{M8-sca1}{M8-ch-adapt}{$\mathrm{S}^*+\mathrm{GEF_A^*} \to \mathrm{GEF_A}+\mathrm{S}^*$} & $k_S[\mathrm{S}^*][\mathrm{GEF_A^*}]$ \\
 \mkn{M8-gefa-spec}{M8-c-roles}{8.3} & \mkn{M8-gefa-spec}{M8-c-roles}{$\mathrm{GEF_A^*}+\mathrm{RasC}^{\mathrm{GDP}} \to \mathrm{RasC}^{\mathrm{GTP}}+\mathrm{GEF_A^*}$} & $k_{C,\mathrm{on}}[\mathrm{GEF_A^*}][\mathrm{RasC}^{\mathrm{GDP}}]$ \\
-8.4 & $\mathrm{RasC}^{\mathrm{GTP}} \to \mathrm{RasC}^{\mathrm{GDP}}$ & $k_{C,\mathrm{off}}[\mathrm{RasC}^{\mathrm{GTP}}]$ \\
-8.4b & $\mathrm{RC}+\mathrm{CGAP} \to \mathrm{RC}+\mathrm{CGAP^*}$ & $k_{CG,\mathrm{on}}[\mathrm{RC}][\mathrm{CGAP}]$ \\
-8.4c & $\mathrm{CGAP^*} \to \mathrm{CGAP}$ & $k_{CG,\mathrm{off}}[\mathrm{CGAP^*}]$ \\
-8.4d & $\mathrm{CGAP^*}+\mathrm{RasC}^{\mathrm{GTP}} \to \mathrm{RasC}^{\mathrm{GDP}}+\mathrm{CGAP^*}$ & $k_{CG,\mathrm{hyd}}[\mathrm{CGAP^*}][\mathrm{RasC}^{\mathrm{GTP}}]$ \\
+\mkt{M8-ras-gtpase}{8.4} & \mkt{M8-ras-gtpase}{$\mathrm{RasC}^{\mathrm{GTP}} \to \mathrm{RasC}^{\mathrm{GDP}}$} & $k_{C,\mathrm{off}}[\mathrm{RasC}^{\mathrm{GTP}}]$ \\
+\mkt{M8-rasc-gap}{8.4b} & \mkt{M8-rasc-gap}{$\mathrm{RC}+\mathrm{CGAP} \to \mathrm{RC}+\mathrm{CGAP^*}$} & $k_{CG,\mathrm{on}}[\mathrm{RC}][\mathrm{CGAP}]$ \\
+\mkt{M8-rasc-gap}{8.4c} & \mkt{M8-rasc-gap}{$\mathrm{CGAP^*} \to \mathrm{CGAP}$} & $k_{CG,\mathrm{off}}[\mathrm{CGAP^*}]$ \\
+\mkt{M8-rasc-gap}{8.4d} & \mkt{M8-rasc-gap}{$\mathrm{CGAP^*}+\mathrm{RasC}^{\mathrm{GTP}} \to \mathrm{RasC}^{\mathrm{GDP}}+\mathrm{CGAP^*}$} & $k_{CG,\mathrm{hyd}}[\mathrm{CGAP^*}][\mathrm{RasC}^{\mathrm{GTP}}]$ \\
 \mkn{M8-ras-tor}{M8-pip3-ind}{8.5} & \mkn{M8-ras-tor}{M8-pip3-ind}{$\mathrm{RasC}^{\mathrm{GTP}}+\mathrm{TORC2} \to \mathrm{TORC2^*}+\mathrm{RasC}^{\mathrm{GTP}}$} & $k_{T,\mathrm{on}}[\mathrm{RasC}^{\mathrm{GTP}}][\mathrm{TORC2}]$ \\
 \mkt{M8-ch-peak}{8.6} & \mkt{M8-ch-peak}{$\mathrm{TORC2^*} \to \mathrm{TORC2}$} & $k_{T,\mathrm{off}}[\mathrm{TORC2^*}]$ \\
 \mkn{M8-ras-tor}{M8-hm-slow}{8b.1} & \mkn{M8-ras-tor}{M8-hm-slow}{$\mathrm{TORC2^*}+\mathrm{PKBR1} \to \mathrm{PKBR1^*}+\mathrm{TORC2^*}$} & $k_{P,\mathrm{on}}[\mathrm{TORC2^*}][\mathrm{PKBR1}]$ \\
 \mkt{M8-hm-slow}{8b.2} & \mkt{M8-hm-slow}{$\mathrm{PKBR1^*} \to \mathrm{PKBR1}$} & $k_{P,\mathrm{off}}[\mathrm{PKBR1^*}]$ \\
-8b.3 & $\mathrm{PKBR1^*}+\mathrm{CRAC}_m \to \mathrm{CRAC}_m^*+\mathrm{PKBR1^*}$ & $k_\mathrm{Cr}[\mathrm{PKBR1^*}][\mathrm{CRAC}_m]$ \\
+\mkt{M8-aca-req-pkb}{8b.3} & \mkt{M8-aca-req-pkb}{$\mathrm{PKBR1^*}+\mathrm{CRAC}_m \to \mathrm{CRAC}_m^*+\mathrm{PKBR1^*}$} & $k_\mathrm{Cr}[\mathrm{PKBR1^*}][\mathrm{CRAC}_m]$ \\
 \mkt{M8-pka-fb}{8b.4} & \mkt{M8-pka-fb}{$\mathrm{PKA^*}+\mathrm{PKBR1^*} \to \mathrm{PKA^*}+\mathrm{PKBR1}$} & $k_{PKA}[\mathrm{PKA^*}][\mathrm{PKBR1^*}]$ \\
-8.9 & $\mathrm{PKBA}_m^*+\mathrm{CRAC}_m \to \mathrm{CRAC}_m^*+\mathrm{PKBA}_m^*$ & $k_\mathrm{Cr}[\mathrm{PKBA}_m^*][\mathrm{CRAC}_m]$ \\
+\mkt{M8-aca-req-pkb}{8.9} & \mkt{M8-aca-req-pkb}{$\mathrm{PKBA}_m^*+\mathrm{CRAC}_m \to \mathrm{CRAC}_m^*+\mathrm{PKBA}_m^*$} & $k_\mathrm{Cr}[\mathrm{PKBA}_m^*][\mathrm{CRAC}_m]$ \\
 \mkt{M8-crac-pip3}{8.9b} & \mkt{M8-crac-pip3}{$\mathrm{PIP3}+\mathrm{CRAC}_c \to \mathrm{CRAC}_m+\mathrm{PIP3}$} & $k_{\mathrm{Cr},P}[\mathrm{PIP3}][\mathrm{CRAC}_c]$ \\
 \mkt{M8-pi3k-ind}{8.9c} & \mkt{M8-pi3k-ind}{$\mathrm{CRAC}_c \to \mathrm{CRAC}_m$} & $k_{\mathrm{Cr},b}[\mathrm{CRAC}_c]$ \\
-8.10 & $\mathrm{CRAC}_m^* \to \mathrm{CRAC}_m$ & $k_{\mathrm{Cr},\mathrm{dp}}[\mathrm{CRAC}_m^*]$ \\
-8.10b & $\mathrm{CRAC}_m \to \mathrm{CRAC}_c$ & $k_{\mathrm{Cr},\mathrm{off}}[\mathrm{CRAC}_m]$ \\
-8.14 & $\mathrm{CRAC}_m^* \to \mathrm{CRAC}_m^*+\mathrm{X}$ & $\dfrac{k_{X}}{N_\mathrm{CRAC}}\,N_{\mathrm{CRAC}^*}\,g(\mathrm{PIP3})\,b(\mathrm{Rf})\quad[\text{molec\,s}^{-1}\text{cell}^{-1}]$ \\
+\mkt{M8-crac-transient}{8.10} & \mkt{M8-crac-transient}{$\mathrm{CRAC}_m^* \to \mathrm{CRAC}_m$} & $k_{\mathrm{Cr},\mathrm{dp}}[\mathrm{CRAC}_m^*]$ \\
+\mkt{M8-crac-transient}{8.10b} & \mkt{M8-crac-transient}{$\mathrm{CRAC}_m \to \mathrm{CRAC}_c$} & $k_{\mathrm{Cr},\mathrm{off}}[\mathrm{CRAC}_m]$ \\
+\mkt{M8-crac-aca}{8.14} & \mkt{M8-crac-aca}{$\mathrm{CRAC}_m^* \to \mathrm{CRAC}_m^*+\mathrm{X}$} & $\dfrac{k_{X}}{N_\mathrm{CRAC}}\,N_{\mathrm{CRAC}^*}\,g(\mathrm{PIP3})\,b(\mathrm{Rf})\quad[\text{molec\,s}^{-1}\text{cell}^{-1}]$ \\
 \bottomrule
 \end{tabularx}
 \end{table*}

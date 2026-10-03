@@ -12,13 +12,13 @@ Module~11 therefore contains the synthesis and secretion chain of the enzyme, a 
 
 \paragraph{Reactions.}
 \begin{description}\itemsep0pt
-\item[11.D1a/b] PdsA is synthesised in the cell at a constitutive rate (11.D1a) and at a starvation-induced rate gated by $P(H)$ (11.D1b), so that the enzyme appears with development. The gate depends only on the developmental variable $H$; the model contains no dependence of PdsA synthesis on pulses of cAMP.
-\item[11.D2/D3] The enzyme is transferred from an intracellular precursor to the cell surface (11.D2) and shed into the medium (11.D3) as PdsA$_e$, which diffuses. Only the secreted form clears extracellular cAMP; the surface-bound form is an explicit, non-diffusing species.
-\item[11.D4] All protein states turn over with one rate constant. The reactions for the secreted enzyme and the complex run in cells and on free voxels, so that clearance takes place everywhere.
-\item[11.F1/F2] A per-voxel low-pass filter of cAMP$_e$, cAMP$_s$, lets PdiA repression follow the envelope of the pulse train and not individual pulses. Its time constant of 42\,min is a modelling choice.
+\item[11.D1a/b] PdsA is synthesised in the cell at a constitutive rate (11.D1a; \mk{M11-pdsa-growth}{pdsA is already expressed during vegetative growth}~\cite{sucgang1997}) and at a starvation-induced rate gated by $P(H)$ (11.D1b), so that the enzyme appears with development. The gate depends only on the developmental variable $H$; the model contains no dependence of PdsA synthesis on pulses of cAMP.
+\item[11.D2/D3] The enzyme is transferred from an intracellular precursor to the cell surface (11.D2) and shed into the medium (11.D3) as PdsA$_e$, which diffuses. \mk{M11-pdsa-er}{The intracellular pool of PdsA lies in the endoplasmic reticulum, a possible compartment for storage and secretion}~\cite{garcia2009}, and \mk{M11-pdsa-loc}{the enzyme can be secreted into the medium or exposed on the cell surface}~\cite{bader2007}. Only the secreted form clears extracellular cAMP; the surface-bound form is an explicit, non-diffusing species.
+\item[11.D4] All protein states turn over with one rate constant; no measurement of the turnover of PdsA or PdiA is available, so 11.D4a--d and 11.E2 are design choices. The reactions for the secreted enzyme and the complex run in cells and on free voxels, so that clearance takes place everywhere.
+\item[11.F1/F2] A per-voxel low-pass filter of cAMP$_e$, cAMP$_s$, lets PdiA repression follow the envelope of the pulse train and not individual pulses. Its time constant of 42\,min is a modelling choice; what it implements is \mk{M11-inhib-reg}{the repression of inhibitor synthesis by pulses of exogenous cAMP}~\cite{yeh1978}.
 \item[11.E1/E2] PdiA is synthesised under the same starvation gate as PdsA and \mk{M11-inhib-reg}{repressed by cAMP$_s$}~\cite{yeh1978}, and degraded like PdsA.
 \item[11.E3] PdsA and PdiA bind reversibly with \mk{M11-inhib-stoich}{1:1 stoichiometry}~\cite{franke1981}. The inhibition is titratable: as cells pack, the total pools scale with density, and the fraction of enzyme that is complexed rises.
-\item[11.E4] The complex retains a small residual activity, $10^{-3}$ of the free enzyme.
+\item[11.E4] The complex retains a small residual activity, $10^{-3}$ of the free enzyme (the factor is a choice); \mk{M11-complex-km}{the inhibitor raises the $K_M$ of the phosphodiesterase from about 10\,$\mu$M to 2\,mM}~\cite{franke1981}, so that the complex is not fully inactive.
 \item[11.2] Free PdsA hydrolyses cAMP$_e$ (the enzyme is a catalyst and is not consumed); this is the primary clearance of the extracellular signal.
 \end{description}
 

@@ -12,6 +12,7 @@ Colour = statement of `sections/*.tex` (highlighted in the same colour via `\mk`
 | funamoto2002 | 1 | yellow | recip | PI3K at the front, PTEN reciprocally at the back (leading-edge vs rear localisation) |
 | huang2003 | 1 | green | pip3_trans | bulk PIP3 rises transiently after stimulation; PI3K activation increases within 5 s and then declines |
 | huang2003 | 1 | cyan | pten_dephos | PTEN is the PIP3 3-phosphatase; PIP3 changes larger and more prolonged in pten- cells |
+| huang2003 | 4 | tan | pi3k_pip3 | PI3K phosphorylates the 3-position of PI(4,5)P2 to produce PI(3,4,5)P3 |
 | iijima2002 | 1 | yellow | recip | PI3K at the front, PTEN reciprocally at the back (leading-edge vs rear localisation) |
 | iijima2002 | 1 | cyan | pten_dephos | PTEN is the PIP3 3-phosphatase; PIP3 changes larger and more prolonged in pten- cells |
 | kamimura2008 | 1 | green | tor_hm | PKBs are activated via hydrophobic-motif phosphorylation by TorC2 at the leading edge, then activation-loop phosphorylation |
@@ -21,6 +22,7 @@ Colour = statement of `sections/*.tex` (highlighted in the same colour via `\mk`
 | matsuoka2018 | 1 | tan | mutual | PIP3 suppresses PTEN membrane localisation; mutual inhibition gives bistability |
 | meili1999 | 1 | yellow | pkba_recr | Akt/PKB (PkbA) is rapidly and transiently activated by cAMP, PI3K dependent, PH domain translocates |
 | meili1999 | 1 | orange | two_pkb | PkbA has a PH domain, PKBR1 has none, is myristoylated and PI3K independent (two different gene products) |
+| meili1999 | 1 | blue | pkba_transient | Akt/PKB (PkbA) is activated very rapidly and only transiently by cAMP |
 | meili2000 | 1 | orange | two_pkb | PkbA has a PH domain, PKBR1 has none, is myristoylated and PI3K independent (two different gene products) |
 | meili2000 | 1 | orange | two_pkb | PkbA has a PH domain, PKBR1 has none, is myristoylated and PI3K independent (two different gene products) |
 | miao2017 | 3 | blue | pkb_delay | PKB activation lags behind Ras/PI3K; PKBs are delayed negative feedback; Ras activation increased and not adapting in pkb- cells |

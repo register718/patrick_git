@@ -31,9 +31,11 @@ Colour = statement of `sections/*.tex` (highlighted in the same colour via `\mk`
 | janetopoulos2001 | 1 | violet | g_persist | G-protein activation does not decline during continuous stimulation, whereas downstream responses subside |
 | kae2004 | 1 | yellow | trans | RasG and RasC are activated rapidly and transiently by cAMP in aggregation-competent cells |
 | kae2004 | 1 | green | rbd | Raf1-RBD binds activated RasG but not RasC; in cells RasG, Rap1 and RasC are the primary factors of its membrane localisation |
+| kae2004 | 1 | grey | gef_exch | Ras GEFs catalyse the exchange of GDP for GTP and thereby activate Ras |
 | kae2004 | 3 | blue | peak_fast | Ras activation peaks within seconds (5 s) |
 | kae2004 | 3 | blue | peak_fast | Ras activation peaks within seconds (5 s) |
 | kae2007 | 1 | pink | gefr | RasGEFR activates RasG |
+| kae2007 | 1 | grey | gef_exch | Ras GEFs catalyse the exchange of GDP for GTP and thereby activate Ras |
 | kataria2013 | 1 | yellow | kat | symmetry breaking and amplification occur between the G protein and Ras |
 | kortholt2011 | 1 | pink | ras_no_down | the Ras response to uniform cAMP needs no PI3K, TorC2, PLA2 or sGC and is unchanged when they are inhibited (also with LatA, also in a pkbR1-null background) |
 | kortholt2011 | 1 | pink | ras_no_down | the Ras response to uniform cAMP needs no PI3K, TorC2, PLA2 or sGC and is unchanged when they are inhibited (also with LatA, also in a pkbR1-null background) |
@@ -44,7 +46,7 @@ Colour = statement of `sections/*.tex` (highlighted in the same colour via `\mk`
 | li2018 | 1 | violet | li_gap | RasGAP2 and RapGAP3 bind to PI(3,4)P2 |
 | li2018 | 4 | orange | pip3_small | elevated Ras activity depends largely on decreased PI(3,4)P2, with a contribution of feedback from PIP3 |
 | meierschellersheim2006 | 5 | cyan | gap_gbg | in a published chemosensing model a RasGAP is activated by Gbetagamma, translocates to the membrane and deactivates Ras |
-| meierschellersheim2006 | 12 | teal | legi | G-protein-coupled receptor signalling drives both an activator (RasGEF) and an inactivator (RasGAP) of Ras (LEGI-type wiring) |
+| meierschellersheim2006 | 12 | grey | legi | G-protein-coupled receptor signalling drives both an activator (RasGEF) and an inactivator (RasGAP) of Ras (LEGI-type wiring) |
 | miao2017 | 1 | green | excit | the Ras/PI3K/PIP3 network is excitable and fires without external cues |
 | miao2017 | 3 | cyan | miao_ext | negative regulation by PKBs extends to other Ras proteins and PI3K; candidates for delayed negative feedback |
 | miao2017 | 3 | cyan | miao_ext | negative regulation by PKBs extends to other Ras proteins and PI3K; candidates for delayed negative feedback |
@@ -67,7 +69,7 @@ Colour = statement of `sections/*.tex` (highlighted in the same colour via `\mk`
 | takeda2012 | 3 | tan | noint | integral control gives oscillations and step-size dependent kinetics, incompatible with the data |
 | takeda2012 | 3 | tan | noint | integral control gives oscillations and step-size dependent kinetics, incompatible with the data |
 | takeda2012 | 3 | salmon | slower_inh | RasGEF activation kinetics are faster than RasGAP kinetics (adaptation) |
-| takeda2012 | 4 | teal | legi | G-protein-coupled receptor signalling drives both an activator (RasGEF) and an inactivator (RasGAP) of Ras (LEGI-type wiring) |
+| takeda2012 | 4 | grey | legi | G-protein-coupled receptor signalling drives both an activator (RasGEF) and an inactivator (RasGAP) of Ras (LEGI-type wiring) |
 | takeda2012_supp | 3 | pink | int_def | the rejected integral-control model has a GAP produced in proportion to Ras-GTP and removed at a constant (zero-order) rate |
 | takeda2012_supp | 5 | green | tau_pair | in the fit the activation rates were tied to the deactivation rates (kGEF = 0.1 k-GEF, kGAP = 0.1 k-GAP) |
 | takeda2012_supp | 5 | green | tau_pair | in the fit the activation rates were tied to the deactivation rates (kGEF = 0.1 k-GEF, kGAP = 0.1 k-GAP) |
@@ -82,6 +84,7 @@ Colour = statement of `sections/*.tex` (highlighted in the same colour via `\mk`
 | xu2022 | 1 | salmon | nfblb_def | in a negative feedback loop with a buffer node (NFBLB) the output is shut down by an inhibitor induced by the output itself |
 | xu2022 | 2 | yellow | c2gap_ras | membrane translocation and activation of the RasGAP C2GAP1 require Ras on the membrane, i.e. an NFBLB mechanism |
 | xu2022 | 2 | cyan | nfblb_fit | models with a RasGAP activated by Galpha2-GTP, by Ras-GTP or by both reproduce transient, adaptive Ras signalling |
+| xu2022 | 2 | grey | gef_exch | Ras GEFs catalyse the exchange of GDP for GTP and thereby activate Ras |
 | xu2022 | 3 | green | g_steps | under two successive cAMP steps the G-protein dissociation rises step-like and persists, while Ras responds transiently to each step |
 | xu2022 | 3 | violet | reset | after removal of cAMP the network returns to its prestimulus state in less than 1 min |
 | xu2022 | 4 | cyan | nfblb_fit | models with a RasGAP activated by Galpha2-GTP, by Ras-GTP or by both reproduce transient, adaptive Ras signalling |

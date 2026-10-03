@@ -5,6 +5,7 @@ Colour = statement of `sections/*.tex` (highlighted in the same colour via `\mk`
 | Paper | Page | Colour | Id | Statement supported by the marked passage |
 |---|---|---|---|---|
 | bader2007 | 1 | green | pde_bader | extracellular cAMP is degraded predominantly by DdPDE1 (PdsA) and DdPDE7 |
+| bader2007 | 1 | violet | pdsa_loc | PdsA can be secreted into the medium or exposed on the cell surface |
 | bader2007 | 3 | cyan | km | DdPDE1 Km 0.75 uM (Hill 0.8) |
 | dworkin1977 | 1 | green | dcamp | cAMP diffusion coefficient 4.44e-6 cm2/s |
 | faure1990 | 1 | orange | promoters | the pdsA gene has separate promoters for growth, aggregation and late development |
@@ -12,9 +13,12 @@ Colour = statement of `sections/*.tex` (highlighted in the same colour via `\mk`
 | franke1981 | 1 | tan | inhib_stoich | inhibitor and PDE interact with 1:1 stoichiometry |
 | franke1981 | 1 | yellow | kd | PDE-inhibitor dissociation constant about 1e-10 M |
 | franke1981 | 1 | blue | inhib_absent | the inhibitor is not produced during growth and appears after transfer to starvation buffer |
+| franke1981 | 1 | salmon | complex_km | the inhibitor raises the Km of the phosphodiesterase (about 10 uM to 2 mM), i.e. the complex retains a strongly reduced activity |
 | garcia2009 | 1 | cyan | pde_null_g | pdsA- cells respond to a narrower range of cAMP and do not form streams at low density |
+| garcia2009 | 1 | pink | pdsa_er | the intracellular pool of PdsA is localised to the endoplasmic reticulum, a possible compartment for storage and secretion |
 | sucgang1997 | 1 | yellow | pde_sec | the level of extracellular cAMP is controlled by a phosphodiesterase secreted by the cells |
 | sucgang1997 | 1 | pink | pde_null_s | PDE-null cells cannot move in a coordinated manner in mounds |
+| sucgang1997 | 1 | orange | pdsa_growth | pdsA is expressed during vegetative growth, aggregation and in prestalk cells |
 | weening2003 | 1 | violet | pa_off | the aggregative PdsA promoter is down-regulated after aggregation |
 | yeh1978 | 1 | salmon | inhib_reg | inhibitor synthesis is repressed by (pulses of) exogenous cAMP, regulated independently of the enzyme |
 | yeh1978 | 1 | salmon | inhib_reg | inhibitor synthesis is repressed by (pulses of) exogenous cAMP, regulated independently of the enzyme |

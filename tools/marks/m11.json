@@ -48,6 +48,22 @@
   "dcamp": {
    "text": "cAMP diffusion coefficient 4.44e-6 cm2/s",
    "color": 2
+  },
+  "pdsa_growth": {
+   "text": "pdsA is expressed during vegetative growth, aggregation and in prestalk cells",
+   "color": 5
+  },
+  "pdsa_er": {
+   "text": "the intracellular pool of PdsA is localised to the endoplasmic reticulum, a possible compartment for storage and secretion",
+   "color": 4
+  },
+  "pdsa_loc": {
+   "text": "PdsA can be secreted into the medium or exposed on the cell surface",
+   "color": 6
+  },
+  "complex_km": {
+   "text": "the inhibitor raises the Km of the phosphodiesterase (about 10 uM to 2 mM), i.e. the complex retains a strongly reduced activity",
+   "color": 9
   }
  },
  "papers": {
@@ -68,6 +84,11 @@
      178
     ],
     "label": "PDE1 row of the kinetic table"
+   },
+   {
+    "claim": "pdsa_loc",
+    "page": 1,
+    "start": "The enzyme can be secreted in the medium, or exposed on the cell surface"
    }
   ],
   "sucgang1997": [
@@ -80,6 +101,11 @@
     "claim": "pde_null_s",
     "page": 1,
     "start": "PDE-null cells aggregated with isogenic wild-type cells in chimeric mixtures, but could not move in a coordinated manner in mounds"
+   },
+   {
+    "claim": "pdsa_growth",
+    "page": 1,
+    "start": "The PDE gene (pdsA) is controlled by three promoters that permit expression during vegetative growth"
    }
   ],
   "garcia2009": [
@@ -88,6 +114,12 @@
     "page": 1,
     "start": "We ﬁnd that pdsA cells respond chemotactically to a narrower range of chemoattractant concentrations compared with wild-type (WT) cells",
     "end": "high cell densities"
+   },
+   {
+    "claim": "pdsa_er",
+    "page": 1,
+    "start": "We find that the intracellular pool of PdsA is localized to the endoplasmic reticulum",
+    "end": "storage and secretion of PdsA"
    }
   ],
   "faure1990": [
@@ -126,6 +158,12 @@
     "claim": "inhib_absent",
     "page": 1,
     "start": "Inhibitor is not produced by cells during logarithmic growth but appears in quantity during stationary phase and after transfer from growth medium to phosphate buffer"
+   },
+   {
+    "claim": "complex_km",
+    "page": 1,
+    "start": "the kinetic effect of the inhibitor is to alter",
+    "end": "phosphodiesterase from 10"
    }
   ],
   "yeh1978": [

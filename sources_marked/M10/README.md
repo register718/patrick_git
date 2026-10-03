@@ -8,6 +8,8 @@ Colour = statement of `sections/*.tex` (highlighted in the same colour via `\mk`
 | aubry1997 | 1 | blue | pka_erk | PKA regulates ERK2 activation and adaptation (pka- cells: lower, more extended activation) |
 | bader2007 | 1 | yellow | rega_pde | RegA (DdPDE2) degrades intracellular cAMP |
 | laub1998 | 1 | violet | circuit | cAMP activates PKA, PKA inhibits ERK2 and loses ERK2 control, ERK2 phosphorylates RegA and lowers cAMP (Laub and Loomis circuit) |
+| laub1998 | 3 | orange | rega_phosphatase | a protein phosphatase activates RegA so that it hydrolyses internal cAMP |
+| laub1998 | 3 | tan | pka_r | cAMP activates PKA by binding to the regulatory subunit of PKA |
 | laub1998 | 4 | yellow | laub_k4 | Laub-Loomis Table 2: k4 = 1.5 /min |
 | laub1998 | 4 | green | laub_k6 | Laub-Loomis Table 2: k6 = 0.8 /min/mM |
 | laub1998 | 4 | cyan | laub_k7 | Laub-Loomis Table 2: k7 = 2.0 /min mM |

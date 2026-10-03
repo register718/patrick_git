@@ -19,3 +19,4 @@ Colour = statement of `sections/*.tex` (highlighted in the same colour via `\mk`
 | pitt1992 | 1 | yellow | aca_null | aca- cells have little cyclase activity and fail to aggregate; motility and chemotaxis unaffected |
 | segall1995 | 1 | cyan | aca_erk2 | ERK2 is necessary for receptor-mediated activation of adenylyl cyclase |
 | segall1995 | 1 | cyan | aca_erk2 | ERK2 is necessary for receptor-mediated activation of adenylyl cyclase |
+| segall1995 | 1 | pink | aca_synth | adenylyl cyclase synthesises cAMP, which is then secreted |

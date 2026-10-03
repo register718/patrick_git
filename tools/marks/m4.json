@@ -60,6 +60,14 @@
   "tor_ras": {
    "text": "RasC activates TORC2 (TORC2 binds active RasC)",
    "color": 6
+  },
+  "pi3k_pip3": {
+   "text": "PI3K phosphorylates the 3-position of PI(4,5)P2 to produce PI(3,4,5)P3",
+   "color": 7
+  },
+  "pkba_transient": {
+   "text": "Akt/PKB (PkbA) is activated very rapidly and only transiently by cAMP",
+   "color": 8
   }
  },
  "papers": {
@@ -94,6 +102,12 @@
     "claim": "pten_dephos",
     "page": 1,
     "start": "and the changes are greater and more prolonged in pten cells"
+   },
+   {
+    "claim": "pi3k_pip3",
+    "page": 4,
+    "start": "PI3K phosphorylates the 3",
+    "end": "to produce PI(3,4,5)P3"
    }
   ],
   "parent1998": [
@@ -157,6 +171,11 @@
     "claim": "two_pkb",
     "page": 1,
     "start": "the PH domain of Akt/PKB fused to GFP transiently translocates to the plasma membrane in response to cAMP"
+   },
+   {
+    "claim": "pkba_transient",
+    "page": 1,
+    "start": "is very rapidly and transiently activated by the chemoattractant cAMP"
    }
   ],
   "meili2000": [

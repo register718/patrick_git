@@ -10,7 +10,7 @@ ID & Reaction & Propensity (rate law)\\
 \midrule
 \mkt{M4-ras-pi3k}{4.1} & \mkt{M4-ras-pi3k}{$\mathrm{RasG}^{\mathrm{GTP}}+\mathrm{PI3K}_c \to \mathrm{PI3K}_m+\mathrm{RasG}^{\mathrm{GTP}}$} & $k_{3K,\mathrm{on}}[\mathrm{RasG}^{\mathrm{GTP}}][\mathrm{PI3K}_c]$ \\
 \mkt{M4-pip3-trans}{4.2} & \mkt{M4-pip3-trans}{$\mathrm{PI3K}_m \to \mathrm{PI3K}_c$} & $k_{3K,\mathrm{off}}[\mathrm{PI3K}_m]$ \\
-4.3 & $\mathrm{PIP2}+\mathrm{PI3K}_m \to \mathrm{PIP3}+\mathrm{PI3K}_m$ & $k_\mathrm{syn}[\mathrm{PIP2}][\mathrm{PI3K}_m]$ \\
+\mkt{M4-pi3k-pip3}{4.3} & \mkt{M4-pi3k-pip3}{$\mathrm{PIP2}+\mathrm{PI3K}_m \to \mathrm{PIP3}+\mathrm{PI3K}_m$} & $k_\mathrm{syn}[\mathrm{PIP2}][\mathrm{PI3K}_m]$ \\
 \mkt{M4-recip}{4.4} & \mkt{M4-recip}{$\mathrm{PTEN}_c+\mathrm{PIP2} \to \mathrm{PTEN}_m+\mathrm{PIP2}$} & $k_{PT,\mathrm{on}}[\mathrm{PTEN}_c][\mathrm{PIP2}]$ \\
 \mkt{M4-recip}{4.5} & \mkt{M4-recip}{$\mathrm{PTEN}_m \to \mathrm{PTEN}_c$} & $k_{PT,\mathrm{off}}[\mathrm{PTEN}_m]$ \\
 \mkt{M4-mutual}{4.6c} & \mkt{M4-mutual}{$\mathrm{PTEN}_m \to \mathrm{PTEN}_c$} & $k_\mathrm{ev}[\mathrm{PTEN}_m]\,\dfrac{N_\mathrm{PIP3}^2}{K_\mathrm{ev}^2+N_\mathrm{PIP3}^2}$ \\
@@ -19,7 +19,7 @@ ID & Reaction & Propensity (rate law)\\
 \mkn{M4-pkba-recr}{M4-two-pkb}{4.10} & \mkn{M4-pkba-recr}{M4-two-pkb}{$\mathrm{PIP3}+\mathrm{PKBA}_c \to \mathrm{PKBA}_m+\mathrm{PIP3}$} & $k_{K,\mathrm{on}}[\mathrm{PIP3}][\mathrm{PKBA}_c]$ \\
 \mkt{M4-pkba-recr}{4.11} & \mkt{M4-pkba-recr}{$\mathrm{PKBA}_m \to \mathrm{PKBA}_c$} & $k_{K,\mathrm{off}}[\mathrm{PKBA}_m]$ \\
 \mkn{M4-tor-hm}{M4-tor-ras}{4.12} & \mkn{M4-tor-hm}{M4-tor-ras}{$\mathrm{PKBA}_m+\mathrm{TORC2}^* \to \mathrm{PKBA}_m^*+\mathrm{TORC2}^*$} & $k_{K,\mathrm{act}}[\mathrm{PKBA}_m][\mathrm{TORC2}^*]$ \\
-4.13 & $\mathrm{PKBA}_m^* \to \mathrm{PKBA}_c$ & $k_{K,\mathrm{deact}}[\mathrm{PKBA}_m^*]$ \\
+\mkt{M4-pkba-transient}{4.13} & \mkt{M4-pkba-transient}{$\mathrm{PKBA}_m^* \to \mathrm{PKBA}_c$} & $k_{K,\mathrm{deact}}[\mathrm{PKBA}_m^*]$ \\
 \mkn{M4-sca1fb}{M4-pkb-delay}{4.14} & \mkn{M4-sca1fb}{M4-pkb-delay}{$\mathrm{PKBA}_m^*+\mathrm{PI3K}_m \to \mathrm{PKBA}_m^*+\mathrm{PI3K}_c$} & $k_{K,\mathrm{fb}}[\mathrm{PKBA}_m^*][\mathrm{PI3K}_m]$ \\
 \bottomrule
 \end{tabularx}

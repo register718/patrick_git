@@ -76,6 +76,26 @@
   "laub_k": {
    "text": "Laub and Loomis k5 = 0.6 /min (CAR1 -> ERK2) and k6 = 0.8 /min (PKA inhibition of ERK2)",
    "color": 1
+  },
+  "sca1_pp2a": {
+   "text": "the Sca1 complex contains the phosphatase PP2A",
+   "color": 4
+  },
+  "ras_gtpase": {
+   "text": "Ras is inactivated by its intrinsic GTPase activity, which GAPs enhance",
+   "color": 2
+  },
+  "rasc_gap": {
+   "text": "prolonged RasC activation in gefR cells reflects reduced activity of a negative regulator such as a RasGAP; RasGAPs may be activated by the same signal as Ras and so entrain adaptation",
+   "color": 5
+  },
+  "aca_req_pkb": {
+   "text": "TORC2 and the two PKBs are required for ACA activation (CRAC is essential for ACA activation)",
+   "color": 3
+  },
+  "crac_transient": {
+   "text": "CRAC is translocated to the membrane during each transient activation of adenylyl cyclase",
+   "color": 8
   }
  },
  "papers": {
@@ -99,6 +119,18 @@
     "claim": "gefs_g",
     "page": 1,
     "start": "Cyclic AMP signalling in Dictyostelium: G-proteins activate separate Ras pathways using specific RasGEFs"
+   },
+   {
+    "claim": "rasc_gap",
+    "page": 4,
+    "start": "this extended peak of Ras-GTP should reflect reduced activity of a negative regulator of Ras",
+    "end": "such as a RasGAP"
+   },
+   {
+    "claim": "rasc_gap",
+    "page": 4,
+    "start": "It is possible that RasGAPs are activated by the same signal that activates the Ras proteins",
+    "end": "with the activation response"
    }
   ],
   "cai2010": [
@@ -137,6 +169,12 @@
     "claim": "hm_slow",
     "page": 3,
     "start": "The half-life of HM phosphorylation of PKBR1 was 40 s"
+   },
+   {
+    "claim": "aca_req_pkb",
+    "page": 4,
+    "start": "because RasC",
+    "end": "and the two PKBs"
    }
   ],
   "kamimura2008": [
@@ -195,6 +233,12 @@
     "claim": "ch_peak",
     "page": 7,
     "start": "induced phosphorylation of Sca1, with a peak at 5–10 s"
+   },
+   {
+    "claim": "sca1_pp2a",
+    "page": 1,
+    "start": "We report the discovery of a Ras signaling complex",
+    "end": "scaffold designated Sca1"
    }
   ],
   "scavello2017": [
@@ -222,6 +266,11 @@
     "claim": "crac_aca",
     "page": 1,
     "start": "CRAC is essential for the chemoattractant-mediated activation of the adenylyl cyclase ACA"
+   },
+   {
+    "claim": "aca_req_pkb",
+    "page": 1,
+    "start": "CRAC is essential for the chemoattractant-mediated activation of the adenylyl cyclase ACA"
    }
   ],
   "parent1998": [
@@ -234,6 +283,11 @@
     "claim": "crac_pip3",
     "page": 1,
     "start": "The translocation of the PH domain–containing protein CRAC"
+   },
+   {
+    "claim": "crac_transient",
+    "page": 1,
+    "start": "must be translocated to the plasma membrane during each transient activation of adenylyl cyclase"
    }
   ],
   "kae2004": [
@@ -241,6 +295,11 @@
     "claim": "ras_trans",
     "page": 1,
     "start": "Using this assay, we discovered that RasC and RasG showed a rapid and transient activation when aggregation-competent cells were stimulated with the chemoattractant cAMP"
+   },
+   {
+    "claim": "ras_gtpase",
+    "page": 1,
+    "start": "the subsequent inactivation is due to an enhancement of the intrinsic GTPase activity"
    }
   ],
   "laub1998": [

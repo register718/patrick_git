@@ -8,20 +8,20 @@
 \toprule
 ID & Reaction & Propensity (rate law)\\
 \midrule
-11.D1a & $\varnothing \to \mathrm{PdsA}_i$ & $k_\mathrm{bas}\ \text{(zeroth order)}$ \\
+\mkt{M11-pdsa-growth}{11.D1a} & \mkt{M11-pdsa-growth}{$\varnothing \to \mathrm{PdsA}_i$} & $k_\mathrm{bas}\ \text{(zeroth order)}$ \\
 \mkt{M11-promoters}{11.D1b} & \mkt{M11-promoters}{$\varnothing \to \mathrm{PdsA}_i$} & $k_\mathrm{ind}\,P(H)\ \text{(zeroth order)}$ \\
-11.D2 & $\mathrm{PdsA}_i \to \mathrm{PdsA}_m$ & $k_\mathrm{sec}[\mathrm{PdsA}_i]$ \\
-11.D3 & $\mathrm{PdsA}_m \to \mathrm{PdsA}_e$ & $k_\mathrm{shed}[\mathrm{PdsA}_m]$ \\
+\mkt{M11-pdsa-er}{11.D2} & \mkt{M11-pdsa-er}{$\mathrm{PdsA}_i \to \mathrm{PdsA}_m$} & $k_\mathrm{sec}[\mathrm{PdsA}_i]$ \\
+\mkt{M11-pdsa-loc}{11.D3} & \mkt{M11-pdsa-loc}{$\mathrm{PdsA}_m \to \mathrm{PdsA}_e$} & $k_\mathrm{shed}[\mathrm{PdsA}_m]$ \\
 11.D4a,b & $\mathrm{PdsA}_m \to \varnothing;\ \ \mathrm{PdsA}_i \to \varnothing$ & $k_\mathrm{deg}[\,\cdot\,]$ \\
 11.D4c$^\ast$ & $\mathrm{PdsA}_e \to \varnothing$ & $k_\mathrm{deg}[\mathrm{PdsA}_e]$ \\
 11.D4d$^\ast$ & $\mathrm{PdsA{:}PdiA} \to \varnothing$ & $k_\mathrm{deg}[\mathrm{PdsA{:}PdiA}]$ \\
-11.F1 & $\mathrm{cAMP}_e \to \mathrm{cAMP}_e+\mathrm{cAMP}_s$ & $k_\mathrm{trk}[\mathrm{cAMP}_e]$ \\
-11.F2 & $\mathrm{cAMP}_s \to \varnothing$ & $k_\mathrm{trk}[\mathrm{cAMP}_s]$ \\
+\mkt{M11-inhib-reg}{11.F1} & \mkt{M11-inhib-reg}{$\mathrm{cAMP}_e \to \mathrm{cAMP}_e+\mathrm{cAMP}_s$} & $k_\mathrm{trk}[\mathrm{cAMP}_e]$ \\
+\mkt{M11-inhib-reg}{11.F2} & \mkt{M11-inhib-reg}{$\mathrm{cAMP}_s \to \varnothing$} & $k_\mathrm{trk}[\mathrm{cAMP}_s]$ \\
 \mkn{M11-inhib-reg}{M11-inhib-absent}{11.E1} & \mkn{M11-inhib-reg}{M11-inhib-absent}{$\varnothing \to \mathrm{PdiA}$} & $k_\mathrm{pdi}\,P(H)\,r(\mathrm{cAMP}_s)\ \text{(zeroth order)}$ \\
 11.E2$^\ast$ & $\mathrm{PdiA} \to \varnothing$ & $k_\mathrm{deg}[\mathrm{PdiA}]$ \\
 \mkt{M11-inhib-stoich}{11.E3f$^\ast$} & \mkt{M11-inhib-stoich}{$\mathrm{PdsA}_e+\mathrm{PdiA} \to \mathrm{PdsA{:}PdiA}$} & $k_{i,\mathrm{on}}[\mathrm{PdsA}_e][\mathrm{PdiA}]$ \\
 \mkn{M11-inhib-stoich}{M11-kd}{11.E3r$^\ast$} & \mkn{M11-inhib-stoich}{M11-kd}{$\mathrm{PdsA{:}PdiA} \to \mathrm{PdsA}_e+\mathrm{PdiA}$} & $k_{i,\mathrm{off}}[\mathrm{PdsA{:}PdiA}]$ \\
-11.E4$^\ast$ & $\mathrm{cAMP}_e+\mathrm{PdsA{:}PdiA} \to \mathrm{PdsA{:}PdiA}$ & $k_\mathrm{res}[\mathrm{cAMP}_e][\mathrm{PdsA{:}PdiA}]$ \\
+\mkt{M11-complex-km}{11.E4$^\ast$} & \mkt{M11-complex-km}{$\mathrm{cAMP}_e+\mathrm{PdsA{:}PdiA} \to \mathrm{PdsA{:}PdiA}$} & $k_\mathrm{res}[\mathrm{cAMP}_e][\mathrm{PdsA{:}PdiA}]$ \\
 \mkn{M11-pde-bader}{M11-km}{11.2$^\ast$} & \mkn{M11-pde-bader}{M11-km}{$\mathrm{cAMP}_e+\mathrm{PdsA}_e \to \mathrm{PdsA}_e$} & $k_\mathrm{pdsa}[\mathrm{cAMP}_e][\mathrm{PdsA}_e]$ \\
 \bottomrule
 \end{tabularx}

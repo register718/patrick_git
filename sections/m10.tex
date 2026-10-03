@@ -15,9 +15,9 @@ Module~10 is the resulting brake: at rest RegA holds intracellular cAMP near zer
 \begin{description}\itemsep0pt
 \item[10.B1/10.B2] The phospho-relay activates RegA and reverses. The pair sets the resting active fraction, 0.9. Only \mk{M10-relay}{the lumped transfer from RdeA to RegA} is modelled~\cite{thomason1999}.
 \item[10.B3] ERK2$^*$ converts active RegA into an inactive, ERK2-modified form. The model implements \mk{M10-erk-rega}{the control of RegA by ERK2}~\cite{maeda2004} as inactivation, the sign required for an ERK2 spike to escape the brake.
-\item[10.B4] The inactive form returns to the active form ($\tau=60$\,s). This reset step is the one that terminates each pulse; without it RegA would be lost irreversibly.
+\item[10.B4] The inactive form returns to the active form ($\tau=60$\,s), since \mk{M10-rega-phosphatase}{a protein phosphatase activates RegA}~\cite{laub1998}. This reset step is the one that terminates each pulse; without it RegA would be lost irreversibly.
 \item[10.C1/10.C2] RegA hydrolyses cAMP$_i$. The rate is linear in cAMP because cAMP$_i$ stays far below the Michaelis constant; \mk{M10-rega-20}{the unphosphorylated form keeps $1/20$ of the activity of the phosphorylated form}~\cite{thomason1999}.
-\item[10.D1/10.D2] cAMP activates PKA by binding to its regulatory subunit, and PKA$^*$ decays with $\tau=40$\,s, which sets the minutes-long tail of the refractory period.
+\item[10.D1/10.D2] \mk{M10-pka-r}{cAMP activates PKA by binding to its regulatory subunit}~\cite{laub1998}, and PKA$^*$ decays with $\tau=40$\,s, which sets the minutes-long tail of the refractory period.
 \item[10.D3] \mk{M10-circuit}{PKA$^*$ inactivates ERK2$^*$}, which closes the loop~\cite{laub1998,aubry1997}.
 \end{description}
 

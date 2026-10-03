@@ -10,18 +10,24 @@ Colour = statement of `sections/*.tex` (highlighted in the same colour via `\mk`
 | cai2010 | 1 | violet | aca_prolong | activated RasC prolongs ACA activation kinetics (half-time of decline 1.8 -> 5 min) |
 | cai2010 | 2 | salmon | hm_slow | PKB substrate / PKBR1 hydrophobic-motif phosphorylation peaks at 20-60 s (PKBR1 HM: 30-60 s, half-life 40 s, baseline after 2-3 min) |
 | cai2010 | 3 | salmon | hm_slow | PKB substrate / PKBR1 hydrophobic-motif phosphorylation peaks at 20-60 s (PKBR1 HM: 30-60 s, half-life 40 s, baseline after 2-3 min) |
+| cai2010 | 4 | cyan | aca_req_pkb | TORC2 and the two PKBs are required for ACA activation (CRAC is essential for ACA activation) |
 | cai2010 | 6 | pink | ras_tor | RasC is an upstream regulator of TORC2 / TORC2 binds active RasC and phosphorylates PKBR1 |
 | charest2010 | 1 | yellow | sca1 | PKB/PKBR1 phosphorylate Sca1 and control RasC in a negative feedback |
+| charest2010 | 1 | pink | sca1_pp2a | the Sca1 complex contains the phosphatase PP2A |
 | charest2010 | 7 | cyan | ch_peak | Sca1 phosphorylation peaks at 5-10 s after stimulation |
 | charest2010 | 8 | green | ch_adapt | without PKB / TORC2, RasC activation is increased and fails to adapt by 40 s |
 | comer2005 | 1 | violet | crac_pip3 | CRAC is a PH-domain protein binding PI3K products (PIP3) |
 | comer2005 | 1 | orange | crac_aca | CRAC is required for receptor- and G-protein-mediated activation of ACA |
+| comer2005 | 1 | cyan | aca_req_pkb | TORC2 and the two PKBs are required for ACA activation (CRAC is essential for ACA activation) |
 | insall1994 | 1 | orange | crac_aca | CRAC is required for receptor- and G-protein-mediated activation of ACA |
 | kae2004 | 1 | blue | ras_trans | RasC and RasG are activated rapidly and transiently by cAMP |
+| kae2004 | 1 | green | ras_gtpase | Ras is inactivated by its intrinsic GTPase activity, which GAPs enhance |
 | kae2007 | 1 | yellow | c_roles | RasC is responsible for adenylyl cyclase activation, RasG regulates chemotaxis |
 | kae2007 | 1 | green | gefa_spec | RasGEFA activates RasC but not RasG (RasGEFR activates RasG) |
 | kae2007 | 1 | green | gefa_spec | RasGEFA activates RasC but not RasG (RasGEFR activates RasG) |
 | kae2007 | 1 | cyan | gefs_g | G proteins activate separate Ras pathways using specific RasGEFs |
+| kae2007 | 4 | orange | rasc_gap | prolonged RasC activation in gefR cells reflects reduced activity of a negative regulator such as a RasGAP; RasGAPs may be activated by the same signal as Ras and so entrain adaptation |
+| kae2007 | 4 | orange | rasc_gap | prolonged RasC activation in gefR cells reflects reduced activity of a negative regulator such as a RasGAP; RasGAPs may be activated by the same signal as Ras and so entrain adaptation |
 | kamimura2008 | 1 | tan | tor_pkbs | within seconds TORC2 activates PKBA and PKBR1 (hydrophobic motif phosphorylation) |
 | kamimura2008 | 1 | tan | tor_pkbs | within seconds TORC2 activates PKBA and PKBR1 (hydrophobic motif phosphorylation) |
 | kamimura2008 | 1 | blue | pi3k_ind | PKB substrates are phosphorylated with normal kinetics in cells lacking PI3K activity |
@@ -32,4 +38,5 @@ Colour = statement of `sections/*.tex` (highlighted in the same colour via `\mk`
 | meili2000 | 1 | salmon | pkbr1_prop | PKBR1 has no PH domain, is myristoylated, membrane bound, does not require PI3K |
 | parent1998 | 1 | tan | crac_rep | CRAC translocation reflects activation of the G-protein pathway |
 | parent1998 | 1 | violet | crac_pip3 | CRAC is a PH-domain protein binding PI3K products (PIP3) |
+| parent1998 | 1 | blue | crac_transient | CRAC is translocated to the membrane during each transient activation of adenylyl cyclase |
 | scavello2017 | 1 | pink | pka_fb | PKA regulates RasG, Rap1 and TORC2 pathways in a negative feedback |

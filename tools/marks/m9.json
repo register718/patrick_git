@@ -48,6 +48,10 @@
   "laub_k2": {
    "text": "Laub-Loomis k2 = 0.9 /min (ACA inactivation)",
    "color": 3
+  },
+  "aca_synth": {
+   "text": "adenylyl cyclase synthesises cAMP, which is then secreted",
+   "color": 4
   }
  },
  "papers": {
@@ -81,6 +85,11 @@
     "claim": "aca_erk2",
     "page": 1,
     "start": "it appears that this kinase is important for receptor-mediated activation of adenylyl cyclase"
+   },
+   {
+    "claim": "aca_synth",
+    "page": 1,
+    "start": "stimulate adenylyl cyclase, resulting in the synthesis and secretion of cAMP"
    }
   ],
   "cai2010": [
