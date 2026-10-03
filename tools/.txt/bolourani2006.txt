@@ -1,0 +1,735 @@
+Molecular Biology of the Cell
+Vol. 17, 4543– 4550, October 2006
+
+Delineation of the Roles Played by RasG and RasC in
+cAMP-dependent Signal Transduction during the Early
+Development of Dictyostelium discoideum
+Parvin Bolourani, George B. Spiegelman, and Gerald Weeks
+Department of Microbiology and Immunology, University of British Columbia, Vancouver,
+British Columbia, V6T 1Z3, Canada
+Submitted November 5, 2005; Revised July 19, 2006; Accepted July 26, 2006
+Monitoring Editor: John Pringle
+
+On starvation, the cellular slime mold Dictyostelium discoideum initiates a program of development leading to formation
+of multicellular structures. The initial cell aggregation requires chemotaxis to cyclic AMP (cAMP) and relay of the cAMP
+signal by the activation of adenylyl cyclase (ACA), and it has been shown previously that the Ras protein RasC is involved
+in both processes. Insertional inactivation of the rasG gene resulted in delayed aggregation and a partial inhibition of
+early gene expression, suggesting that RasG also has a role in early development. Both chemotaxis and ACA activation
+were reduced in the rasGⴚ cells, but the effect on chemotaxis was more pronounced. When the responses of rasGⴚ cells
+to cAMP were compared with the responses of rasCⴚ and rasCⴚrasGⴚ strains, generated in otherwise isogenic backgrounds, these studies revealed that signal transduction through RasG is more important in chemotaxis and early gene
+expression, but that signal transduction through RasC is more important in ACA activation. Because the loss of either of
+the two Ras proteins alone did not result in a total loss of signal output down either of the branches of the cAMP
+signal-response pathway, there appears to be some overlap of function.
+
+INTRODUCTION
+In the presence of nutrients, the cellular slime mold Dictyostelium discoideum grows as free living single-celled amoebae, but upon starvation these amoebae aggregate into a
+multicellular organism that progresses through a motile slug
+stage to form a spore mass or sorus supported by a stalk
+(Kessin, 2001). Aggregation occurs in response to cyclic
+AMP (cAMP), which is synthesized and secreted soon after
+the onset of starvation. cAMP binds to cell surface cAMP
+receptors, resulting in the dissociation and activation of a
+heterotrimeric G protein, and this in turn leads to signaling
+through various downstream effectors that mediate chemotaxis to cAMP and the cAMP relay, the process by which the
+signal is passed throughout the cell population. The chemotactic response involves the activation of phosphatidylinositol 3-kinase (PI3K) and protein kinase B (PKB; Iijima et al.,
+2002; Manahan et al., 2004; Postma et al., 2004), whereas the
+cAMP relay involves the activation of adenylyl cyclase
+(ACA; Parent and Devreotes, 1996).
+Ras proteins are monomeric, small GTPases that function
+as molecular switches, cycling between active GTP-bound
+and inactive GDP-bound states (Bourne et al., 1991). Activation is regulated by guanine-nucleotide-exchange factors
+(GEFs), and inactivation is regulated by GTPase-activating
+proteins (GAPs) that stimulate the hydrolysis of the bound
+GTP to GDP (Boguski and McCormick, 1993). The Ras superfamily can be divided, on the basis of sequence comparThis article was published online ahead of print in MBC in Press
+(http://www.molbiolcell.org/cgi/doi/10.1091/mbc.E05–11–1019)
+on August 2, 2006.
+Address correspondence to: Gerald Weeks (gerwee@interchange.
+ubc.ca).
+© 2006 by The American Society for Cell Biology
+
+isons, into several distinct subfamilies, one of which is the
+Ras subfamily (Colicelli, 2004). The human Ras subfamily
+consists of 36 distinct gene products that can be divided into
+several groups (Mitin et al., 2005). The search for downstream effectors has revealed some specificity but also an
+enormous complexity of overlapping functions, even between members of the different groups within the subfamily
+(Rodriguez-Viciana et al., 2004). Despite a relatively small
+genome, Dictyostelium possesses a large number of Ras subfamily GTPases (Weeks et al., 2005), and there is evidence
+that each protein performs a distinct function (Weeks and
+Spiegelman, 2003). Dictyostelium therefore provides a useful
+experimental model for the study of Ras function.
+The initial evidence for a role of Ras signaling pathways in
+regulating the Dictyostelium aggregation process was the
+disruption of a gene encoding a RasGEF, RasGEFA, which
+prevented aggregation (Insall et al., 1996). Direct evidence
+for a role for Ras came with the disruption of the rasC gene,
+which produced cells that failed to aggregate (Lim et al.,
+2001). rasC null cells exhibited reduced activation of ACA
+and reduced phosphorylation of PKB in response to cAMP,
+suggesting a role for RasC in the signal transduction pathways that regulate both the cAMP relay and chemotaxis.
+We recently found that both RasC and RasG were activated in response to cAMP, suggesting a possible role for
+RasG in the aggregation process (Kae et al., 2004). However,
+the properties of the two previously isolated rasG null
+strains, IR15 and IR17, had suggested that the major role for
+RasG was in Dictyostelium growth and other vegetative cell
+functions (Tuxworth et al., 1997; Khosla et al., 2000), and the
+only defect observed in development was a slight but inconsistent delay in the onset of aggregation (R. H. Insall, personal communication). In view of the variable defects in
+development and the relative instability of the previously
+described rasG null strains (Khosla et al., 2000; R. H. Insall
+4543
+
+P. Bolourani et al.
+
+and G. Weeks, unpublished observations), new rasG null
+strains were generated, to study more definitively the possible role of RasG in early development. For comparison, we
+also generated a rasC rasG double null and rasC null strains
+in an isogenic background. Studies of these strains have
+revealed that the branches of the bipartite cAMP signaltransduction pathway depend primarily on either RasG or
+RasC, although there is also some overlap of Ras protein
+function.
+MATERIALS AND METHODS
+Generation of Null Mutant Strains
+The AX2/rasG⫺ strains were generated as described previously (Tuxworth et
+al., 1997). Screening of 270 blasticidin S-resistant transformants by PCR
+yielded three AX2/rasG⫺ mutants. To generate rasG⫺ mutants in the JH10
+strain background, a rasG-thy1 disruption vector was constructed by inserting
+the BamHI fragment of plasmid pJH60, containing the thy1 gene (Hadwiger
+and Firtel, 1992), into the single BglII site in the rasG promoter in plasmid
+pRHI125, which contains only the promoter and exon II of rasG (R. H. Insall,
+personal communication). Transformants were selected in the absence of
+thymidine and screened by PCR. From 280 clones, three JH10/rasG⫺ cell lines
+were isolated. Southern blot analysis confirmed each of the presumptive gene
+disruptions and indicated that each was the result of a single insertion into the
+genome (unpublished data). Construction of the AX2/rasC⫺ and JH10/rasC⫺
+strains has been described previously (Lim et al., 2001; Khosla et al., 2005). To
+make a rasC⫺rasG⫺ double-disruption strain, the rasC disruption vector
+pJLW26, carrying the blasticidin-resistance (bsr) selectable marker (Lim et al.,
+2001), was transformed into JH10/rasG⫺ cells, and the blasticidin-resistant
+clones were screened by PCR. From 700 clones, two rasC⫺rasG⫺ cell lines
+were isolated. rasG⫺/rasG rescued strains were generated as previously described (Tuxworth et al., 1997). rasC⫺rasG⫺/rasC rasG rescued strains were
+created by cotransforming the previously described rasG-containing (Tuxworth et al., 1997) and rasC-containing (Lim et al., 2001) plasmids into the
+double-disruption strain.
+For all transformations, 20 ␮g of the appropriate vector were cleaved with
+restriction enzymes and electroporated into Dictyostelium cells as previously
+described (Alibaud et al., 2003). Clones containing the selectable marker were
+isolated 7–15 d after the application of the selection conditions. These clonal
+isolates were plaque purified on a bacterial lawn. Isolated clones were
+screened for single or double gene disruptions by PCR using rasG or rasC
+specific primers. To prepare templates for PCR amplification, cells were lysed
+in 10 mM Tris, pH 8.0, 1 mM EDTA, 0.3% Tween-20, 60 ␮g/ml proteinase K,
+and the lysates were incubated for 1 h at 56°C. The lysates were then boiled
+for 10 min, and 1 ␮l of the crude cell lysate was used as template in a 10-␮l
+PCR reaction in glass capillary tubes with reactions conducted in a Idaho
+RapidCycler (Idaho Technologies, Idaho Falls, ID). PCR amplification was
+conducted with the following cycling parameters: 2 cycles of 92°C for 90 s,
+50°C for 10 s, 72°C for 120 s; followed by 35 cycles of 91°C for 7 s, 50°C for 7 s,
+72°C for 60 s; followed by holding at 72°C for 180 s.
+
+Cell Culture and Development
+Strain AX2 and its derivatives were grown at 22°C in HL5 medium (Watts and
+Ashworth, 1970) containing 50 ␮g/ml streptomycin sulfate (Sigma, St. Louis,
+MO). The JH10/rasG⫺ cells were grown in the same medium, and strain JH10
+was grown in the same medium supplemented with 100 ␮g/ml thymidine
+(Sigma). The JH10/rasC⫺rasG⫺ and JH10/rasG⫺/rasG rescue cells were
+grown in the same medium but without thymidine and containing 10 ␮g/ml
+blasticidin S (Calbiochem, San Diego, CA) or 10 ␮g/ml G418 (Invitrogen,
+Carlsbad, CA), respectively. Because the JH10/rasG⫺ and JH10/rasC⫺rasG⫺
+cells grow poorly in shaken suspension (unpublished data), all strains were
+grown in Nunc tissue-culture plates.
+To obtain cAMP-pulsed cells, vegetative cells were harvested, washed
+twice in KK2 (20 mM potassium phosphate, pH 6.1), and resuspended in KK2
+to a final density of 5 ⫻ 106 cells/ml. Thirty milliliters of this cell suspension
+was shaken at 150 rpm for 1 h and then pulsed with 50 nM cAMP every 6 min
+for 5 h. For some experiments, cells were pulsed with cAMP for 8 h. To
+observe multicellular development, axenically grown or cAMP-pulsed cells
+were washed twice in Bonner’s salts (10 mM NaCl, 10 mM KCl, 2 mM CaCl2)
+and plated on nitrocellulose filters (Millipore, Bedford, MA) supported by
+KK2- saturated pads. To observe aggregation streaming, vegetative or 5-h
+cAMP-pulsed cells were washed twice in Bonner’s salts, seeded at ⬃4 ⫻ 105
+cells/cm2 in Nunc tissue-culture dishes submerged under Bonner’s salts, and
+incubated at 22°C. For plaque purification, Dictyostelium cells were diluted and
+plated in association with Klebsiella oxytoca on SM agar plates (Sussman, 1987).
+
+Chemotaxis Assays
+For cAMP micropipette assays, cells were pulsed with cAMP as described
+above, washed twice with Bonner’s salts, and then seeded in Nunc tissue-
+
+4544
+
+culture dishes at a cell density of ⬃5 ⫻ 105 cell/cm2 in Bonner’s salts. At t ⫽
+0, a micropipette (Eppendorf Femtotip, Hamburg, Germany) filled with 100
+␮M cAMP was placed in the field of view, and cell movements toward the
+micropipette tip were monitored by time-lapse videomicroscopy using an
+Olympus IX-70 inverted microscope (Melville, NY), a DAGE-MTI CCD-100
+camera (Michigan City, IN), and Scion (Frederick, MD) Image 4.0 software.
+Instantaneous velocities and chemotaxis indices were determined as described previously (Wessels et al., 2004).
+
+Western-Blot Analyses and PKB Phosphorylation Assays
+Cells were pelleted by centrifugation and lysed in 1⫻ Laemmli SDS-PAGE
+loading buffer (6⫻ buffer: 350 mM Tris-Cl, pH 6.8, 10% SDS, 600 mM DTT,
+0.012% wt/vol bromophenol blue, 30% glycerol) by boiling for 5 min
+(Sambrook et al., 1989). Protein, 10 ␮g, was then fractionated by SDS-PAGE.
+After electrophoresis, the proteins were transferred electrophoretically onto
+nitrocellulose membranes (Amersham, Buckinghamshire, England), which
+were then blocked with nonfat milk (Sambrook et al., 1989) and probed with
+the appropriate antibody, which was then detected by enhanced chemiluminescence (ECL, Amersham). The RasG antibody (Khosla et al., 1994) and the
+RasC antibody (Lim et al., 2001) have been described previously.
+PKB phosphorylation was determined as described previously (Lim et al.,
+2001). Briefly, cAMP-pulsed cells were washed twice in KK2, resuspended to
+5 ⫻ 107 cells/ml in KK2 and then stimulated with cAMP at a final concentration of 100 nM. Aliquots of 100 ␮l were removed at intervals, before and
+after stimulation, and mixed with 20 ␮l of 6⫻ SDS-PAGE loading buffer.
+Protein,10 ␮g, was fractionated by SDS-PAGE and then subjected to Western
+blot analysis using a phosphothreonine-specific antibody (cat. no. 9381, Cell
+Signaling Technology, Danvers, MA). Equal sample loading was verified by
+staining a duplicate gel with Coomassie Blue. To assess equal PKB expression
+levels in all strains, Western blots were also analyzed using a PKB-specific
+antibody (a gift from F. Jiang and R. Dottin).
+
+Northern Blot Analyses
+For Northern blot analyses, cells were pulsed with cAMP as described above,
+and total RNA was extracted at intervals using guanidinium isocyanate
+(Chomczynki and Sacchi, 1987). Aliquots, 15-␮g, were size-fractionated on
+1.25% agarose-formaldehyde gels, blotted onto Hybond-N⫹ membrane (Amersham), and probed with DNA fragments from plasmids carrying the specific genes of interest, as previously described (Robbins et al., 1989).
+
+cAMP Accumulation and Adenylyl Cyclase Assay
+cAMP production was measured by a previously described method (van
+Haastert, 1984). Briefly, cells were pulsed with cAMP as described above,
+washed twice, and resuspended in KK2 at a density of 6.25 ⫻ 107 cells/ml.
+The cells were stimulated with 10 ␮M 2⬘-deoxy cAMP, and 100-␮l samples
+were lysed at intervals by addition of 100 ␮l of 3.5% perchloric acid, followed
+by the addition of 50 ␮l of 50% saturated KHCO3. cAMP levels were then
+measured using a cAMP-binding protein assay kit (Amersham TRK432). In
+vitro adenylyl cyclase activity was determined as described previously (Lim
+et al., 2001), except that cell suspensions were lysed by freezing on dry ice and
+thawing, followed by vortexing in the presence of glass beads (⬍106 ␮m,
+Sigma). cAMP was recovered by sequential chromatography through Dowex
+and Alumina columns, and the eluted 32P-cAMP was measured using a
+Beckman LS6000IC scintillation counter (Fullerton, CA).
+
+cGMP Assay
+To measure cGMP production, cells were pulsed with cAMP as described
+above, washed twice with KK2, and resuspended to a density of 1 ⫻ 108
+cells/ml in KK2 containing 2 mM caffeine. The cells were stimulated with 100
+nM cAMP, and 100-␮l samples were lysed at intervals with 100 ␮l of 3.5%
+perchloric acid followed by addition of 50 ␮l of 50% saturated KHCO3. cGMP
+levels were then measured using a cGMP-3H assay kit (Amersham TRK500).
+
+RESULTS
+Generation of rasG and rasC rasG Null Strains
+In view of the instability and variability of the originally
+isolated rasG null strains (Khosla et al., 2000), we generated
+new rasG null strains in order to study the role of RasG
+during early development. To control for possible strainbackground differences, the mutants were generated in two
+different backgrounds: one in AX2 (Watts and Ashworth,
+1970) and one in JH10, a thymidine-requiring derivative of
+AX3 (Hadwiger and Firtel, 1992). All the AX2/rasG⫺ and
+JH10/rasG⫺clones exhibited identical properties, so detailed
+studies were conducted on a representative isolate of each.
+Western blots revealed no RasG protein in either AX2/rasG⫺
+Molecular Biology of the Cell
+
+Role of Ras in cAMP Signal Transduction
+
+Figure 1. Western blot analysis of Ras protein levels. Cell lysates
+from JH10, JH10/rasC⫺, JH10/rasG⫺, JH10/rasC⫺rasG⫺, AX2, AX2/
+rasC⫺, and AX2/rasG⫺ were probed with RasG- and RasC-specific
+antibodies, as indicated.
+
+or JH10/rasG⫺ isolates (Figure 1), and both new mutants
+showed the same growth defects as the original IR15 and
+IR17 rasG null strains (Tuxworth et al., 1997; Khosla et al.,
+2000). However, unlike the original strains, both new rasG
+null strains had stable phenotypes during prolonged growth
+(unpublished data). Ectopic expression of RasG protein from
+the rasG promoter (see Materials and Methods) rescued all the
+phenotypic defects of the rasG⫺ mutants, including the developmental defects described below (our unpublished
+results).
+To investigate possible overlap of function between RasC
+and RasG, rasC⫺rasG⫺ double-mutant strains were generated by disrupting rasC in the JH10/rasG⫺ background. Both
+independently isolated rasC⫺rasG⫺ double-mutant clones
+lacked the RasC and RasG proteins and had identical properties. A Western blot analysis of one of the strains is shown
+in Figure 1. The rasC⫺rasG⫺ strains exhibited vegetative
+growth defects that were similar to those of the rasG null
+strains (our unpublished results). Ectopic expression of both
+RasC and RasG restored a wild-type phenotype to the doubly disrupted rasC⫺rasG⫺ strain (our unpublished results).
+Developmental Phenotype of the Null Strains
+When grown in association with bacteria, plaques of the
+JH10/rasG⫺ and AX2/rasG⫺ strains showed large clearing
+zones before differentiation commenced (unpublished data),
+as observed previously for the original rasG⫺ strains (R. H.
+Insall and G. Weeks, unpublished observations). Like JH10/
+rasC⫺ cells (Khosla et al., 2005), the JH10/rasC⫺rasG⫺ cells
+did not form aggregates on bacterial lawns (unpublished
+data). Aggregation of parental and mutant strains was observed in more detail by plating cells in plastic dishes under
+nonnutrient buffer. Aggregation streams of JH10 cells were
+observed 8 h after plating, and typical tight aggregates
+formed by 12 h (Figure 2A). JH10/rasG⫺ (Figure 2B) and
+AX2/rasG⫺ cells (unpublished data) formed aggregation
+streams with a delay of ⬃4 h relative to wild type, and the
+final aggregates were smaller. The JH10/rasC⫺ cells formed
+very small clumps (Figure 2C), similar to those observed previously for AX2/rasC⫺ (Lim et al., 2001). The JH10/rasC⫺rasG⫺
+strains showed no sign of aggregation or clumping, even
+after prolonged incubation (Figure 2D). When pulsed with
+cAMP for 5 h before plating in plastic dishes, JH10 cells
+rapidly formed aggregation streams (Figure 2E), whereas
+JH10/rasG⫺ cells were somewhat delayed in aggregatestream formation (Figure 2F). Under these conditions JH10/
+rasC⫺ cells formed large clumps without detectable aggregate-stream formation (Figure 2G), whereas JH10/rasC⫺rasG⫺
+cells exhibited no detectable cell– cell association (Figure 2H).
+Developmental phenotypes were also observed after plating on nitrocellulose filters under starvation conditions (see
+Materials and Methods). Both the JH10/rasG⫺ and AX2/rasG⫺
+Vol. 17, October 2006
+
+Figure 2. Aggregation on a plastic surface of cells submerged in
+Bonner’s salts solution, without (A–D) or with (E–H) 5 h of prior
+pulsing with cAMP (see Materials and Methods). Strains JH10 (A and
+E), JH10/rasG⫺ (B and F), JH10/rasC⫺ (C and G), and JH10/
+rasC⫺rasG⫺ (D and H) were photographed at the indicated times
+after plating. Single experiments are shown, but the results for the
+various strains were highly reproducible.
+
+strains formed small fruiting bodies, but culmination was
+not observed until ⬃30 h, compared with 24 h for JH10 and
+AX2 cells (unpublished data). Although the JH10/rasC⫺
+cells did not routinely undergo development under these
+conditions, some filters occasionally contained small fruiting
+bodies, but the JH10/rasC⫺rasG⫺ cells did not aggregate or
+form any developmental structures (unpublished data). It
+was shown previously that AX2/rasC⫺ cells formed multicellular clumps after the administration of cAMP pulses,
+and these clumps went on to form fruiting bodies when
+plated on nitrocellulose filters (Lim et al., 2001). Although
+JH10/rasC⫺ cells also formed fruiting bodies under these
+conditions, the JH10/rasC⫺rasG⫺ cells failed to form any
+developmental structures (unpublished data). The finding
+4545
+
+P. Bolourani et al.
+
+Figure 3. Northern blot analysis of early developmental gene expression. Cells of strains JH10 (A), JH10/rasG⫺ (B), JH10/rasC⫺ (C),
+and JH10/rasC⫺rasG⫺ (D) were pulsed with cAMP as described in
+Materials and Methods, and RNA was isolated at the indicated times
+(in hours) after the onset of pulsing. Blots were hybridized with
+cDNA probes corresponding to the indicated genes.
+
+that the developmental defect in the JH10/rasC⫺rasG⫺ cells
+was far more pronounced than that of JH10/rasC⫺ cells
+provided additional evidence for an involvement of RasG in
+early development.
+Early Developmental Gene Expression
+The pronounced defect in aggregation of the JH10/rasC⫺rasG⫺
+strains might be due to a defect in early gene expression, as
+observed for some other mutants (Parent and Devreotes,
+1996; Manahan et al., 2004). To test this possibility, cells
+were washed and pulsed with cAMP; the levels of expression of three representative genes were then determined
+by Northern blot analysis. In the control JH10 cells, the
+expression of all three genes increased markedly over the
+first 8 h (Figure 3A). The expression of two genes (carA and
+gpaB) was not appreciably reduced in JH10/rasC⫺ cells (Figure 3C), but expression was significantly reduced and delayed in JH10/rasG⫺ cells (Figure 3B), and similar results
+were obtained for the AX2/rasG⫺cells (unpublished data).
+These results indicated an involvement of a RasG-dependent signal-transduction pathway for the optimum expression of these genes. In the JH10/rasC⫺rasG⫺ cells, the expression of carA and gpaB was further reduced (Figure 3D).
+This low level of expression could partially explain the total
+absence of aggregation in the JH10/rasC⫺rasG⫺ cells. These
+data also suggested that a small but significant level of
+signal transduction through a RasC-dependent pathway
+also contributes to the expression of these early developmental genes in rasG⫺ cells. For the third gene, the aggregation-specific csaA expression was only slightly lower in
+JH10/rasC⫺ and JH10/rasG⫺cells than in JH10 cells, but was
+appreciably lower in the JH10/rasC⫺rasG⫺ cells, suggesting
+that signaling through either RasC or RasG was sufficient for
+csaA expression.
+Starved rasGⴚ Cells Exhibit Reduced Chemotaxis
+Diffusion of cAMP from the tip of a micropipette establishes
+a spatial cAMP gradient, and chemotaxis-competent cells
+respond by migrating toward the tip (Firtel and Chung,
+2000). Chemotaxis assays were performed with cells that
+had been pulsed with cAMP for 5 h before the assay. Under
+these conditions, JH10 and JH10/rasC⫺ cells were highly
+polarized and migrated rapidly toward the cAMP source
+(Figure 4, A and C). In contrast, chemotaxis by pulsed JH10/
+4546
+
+Figure 4. Chemotaxis toward a source of cAMP of cells that had
+been pulsed with cAMP for 5 h (A–D) or 8 h (E–H). Cells of strains
+JH10 (A and E), JH10/rasG⫺ (B and F), JH10/rasC⫺ (C and G), and
+JH10/rasC⫺rasG⫺ (D and H) were photographed at the indicated
+times after the release of cAMP from the micropipette tip.
+
+rasG⫺ cells (Figure 4B) and AX2/rasG⫺ cells (unpublished
+data) was slower, and the cells were less polarized than JH10
+cells even upon reaching the pipette tip. The pulsed JH10/
+rasC⫺rasG⫺ cells exhibited no net migration to the pipette tip
+(Figure 4D). A few cells did show slight movement toward
+the tip but then dispersed. Calculation of the rates of cell
+motility revealed no significant difference between the JH10
+and JH10/rasC⫺ cells, but average instantaneous velocities
+of the JH10/rasG⫺ cells and JH10/rasG⫺rasC⫺ were lower
+than those for the wild type (Table 1). The instantaneous
+velocity values obtained for the JH10 and JH10/rasC⫺ cells
+were not significantly different from the values published
+previously for AX2 and AX2/rasC⫺ strains (Wessels et al.,
+2004). A calculation of chemotactic index revealed no reduction relative to JH10 for the JH10/rasC⫺ cells, but the index
+was lower for the JH10/rasG⫺ cells and very low for the
+Molecular Biology of the Cell
+
+Role of Ras in cAMP Signal Transduction
+
+Table 1. Chemotaxis analysis of Dictyostelium cells in a spatial
+gradient of cAMP
+Strain
+JH10 (n ⫽ 20)
+rasG⫺ (n ⫽ 22)
+rasC⫺ (n ⫽ 21)
+rasC⫺rasG⫺ (n ⫽ 18)
+
+Instantaneous
+velocity (␮m/min)
+
+Chemotaxis
+indexa
+
+11.02 ⫾ 1.56
+5.97 ⫾ 1.74
+12.88 ⫾ 3.32
+6.48 ⫾ 3.40
+
+0.60 ⫾ 0.14
+0.43 ⫾ 0.16
+0.70 ⫾ 0.13
+0.05 ⫾ 0.02
+
+Values are mean ⫾ SD; n ⫽ number of cells.
+a
+Chemotaxis index was calculated as the net distance traveled
+toward the source of chemoattractant divided by the total distance
+traveled in that time period.
+
+JH10/rasC⫺rasG⫺ cells (Table 1), reflecting the virtual absence of chemotaxis for the latter strain, as seen in Figure 4D.
+These results indicate that the defect in chemotaxis for the
+double-null cells is far greater than the defect in motility.
+Because the delay of carA expression in the JH10/rasG⫺
+cells (Figure 3) could possibly explain the delay in aggregation and reduced chemotaxis, the experiments were repeated with cells that had been pulsed with cAMP for 8 h to
+ensure maximum expression of carA. However, the results
+were not detectably different from those for 5 h cAMPpulsed cells (Figure 4, E–H). The chemotaxis defects exhibited by the JH10/rasG⫺ cells suggest an important role for
+RasG in the signaling pathway responsible for cAMP chemotaxis. However, the finding that rasG⫺ cells are still capable of some chemotaxis suggests that RasC is capable of
+contributing to this pathway, at least in the absence of RasG.
+cGMP Production in Response to cAMP
+In Dictyostelium, cGMP production has been shown to be
+associated with the chemotactic response (van Haastert and
+Kuwayama, 1997). We therefore examined cGMP production in response to cAMP in the ras mutant strains. As
+previously reported for wild-type cells, there was a burst of
+cGMP production in JH10 cells 10 s after the application of
+cAMP, and basal levels were recovered after ⬃30 s. This
+response was reduced in JH10/rasC⫺ cells but reduced to an
+even greater extent in JH10/rasG⫺ cells (Figure 5) and in
+AX2/rasG⫺ cells (unpublished data). There was a barely
+detectable response in JH10/rasC⫺rasG⫺ cells (Figure 5).
+These results mirror the results obtained in the chemotaxis
+
+Figure 5. cGMP production in response to cAMP. JH10 (䉬), JH10/
+rasG⫺ (䡲), JH10/rasC⫺ (Œ), and JH10/rasC⫺rasG⫺ (●) cells were
+pulsed for 5 h with cAMP, washed, and then stimulated with 100
+nM cAMP. Samples were taken at the indicated times and assayed
+for cGMP accumulation (see Material and Methods). The means and
+SDs for three independent experiments are shown.
+Vol. 17, October 2006
+
+Figure 6. PKB phosphorylation in response to cAMP. Cells were
+pulsed with cAMP for 5 h (A) or 8 h (B) and then treated with 100
+nM cAMP. Cell extracts from JH10, JH10/rasG⫺, JH10/rasC⫺, and
+JH10/rasC⫺rasG⫺ were prepared at the indicated times after the
+cAMP stimulus and subjected to Western blot analysis. Blots were
+probed with a phosphothreonine-specific antibody.
+
+assays and further substantiate the importance of RasG for
+chemotaxis signaling.
+RasG Is More Important than RasC for PKB
+Phosphorylation
+The Dictyostelium chemotactic response to cAMP involves a
+PI3K-mediated signaling pathway that leads to the transient
+phosphorylation of PKB (see Introduction). To test the possible involvement of RasG in the PI3K-PKB pathway, lysates
+of cAMP-stimulated cells were analyzed by Western blotting
+using a phosphothreonine-specific antibody that is capable
+of unambiguously detecting the phosphorylation of PKB
+(Lim et al., 2001). In JH10 cells, PKB was transiently phosphorylated after 10 s in response to cAMP (Figure 6A). The
+phosphorylation level then decreased, and there was a second, smaller increase after 120 s. This response was reduced
+in JH10/rasC⫺ cells and more severely reduced in JH10/
+rasG⫺ cells (Figure 6A) and in AX2/rasG⫺ cells (unpublished data). The response was totally eliminated in the
+JH10/rasC⫺rasG⫺ cells. The total amounts of PKB protein, as
+detected using a specific PKB antibody, were identical in all
+four strains (Figure 6A). These results indicate that the
+cAMP-stimulated phosphorylation of PKB depends more on
+the RasG signaling pathway than on the RasC pathway.
+When cells were pulsed for 8 h rather than for 5 h with
+cAMP, identical results were obtained (Figure 6B), indicating that the reduction in PKB phosphorylation in the JH10/
+rasG⫺ cells was not due to the delayed expression of carA.
+RasC Is More Important than RasG for Adenylyl Cyclase
+Activation
+To test for a role of RasG in the cAMP-stimulated activation
+of adenylyl cyclase, cells that had been pulsed with cAMP
+for either 5 or 8 h were washed, stimulated with 2⬘-deoxycAMP, and assayed for cAMP accumulation at various times
+after stimulation. JH10/rasG⫺ cells produced lower levels of
+cAMP upon stimulation than the JH10 wild-type cells, but
+the reduction was far less pronounced than that observed
+for JH10/rasC⫺ cells (Figure 7, A and B). AX2/rasG⫺ cells
+were similar to JH10/rasG⫺ cells (unpublished data). These
+results suggest that RasC is more important for the activation of ACA but that RasG can also make a contribution.
+JH10/rasC⫺rasG⫺ cells produced negligible levels of cAMP.
+Although cAMP production increases in some strains as
+cells progress through aggregation (Brenner, 1978), our find4547
+
+P. Bolourani et al.
+
+Figure 7. cAMP accumulation and ACA activation in the various ras mutant strains. (A
+and B) Cells of strains JH10 (䉬), JH10/rasG⫺
+(䡲), JH10/rasC⫺ (Œ), and JH10/rasC⫺rasG⫺
+(●) were pulsed with cAMP for 5 (A) or 8 h
+(B), washed, and then stimulated with 2⬘-deoxy cAMP (see Materials and Methods). Samples taken at the indicated times were assayed
+for cAMP accumulation. The means and SDs
+for three independent experiments are shown.
+(C and D) The same strains were pulsed with
+cAMP for 5 (C) or 8 h (D), and then lysates
+were assayed for ACA activity in the presence
+of 5 mM MnSO4 (u), 40 ␮M GTP␥S (f), or no
+additional component (䡺). Plotted values are
+normalized relative to the unstimulated activity in the absence of MnSO4 or GTP␥S (䡺).
+The means and SDs for three independent
+experiments are shown.
+
+ing that the levels of cAMP production in the JH10 wild-type
+cells were identical after 5 and 8 h of cAMP pulsing is not
+surprising, because cells pulsed for 5 h are fully aggregation
+competent and would not be expected to change appreciably
+in their physiological responses during the additional 3 h of
+pulsing.
+The potential roles of RasG and RasC in the cAMP relay
+were also examined by measuring in vitro GTP␥S-mediated
+activation of ACA in lysates prepared from cAMP- pulsed
+cells. GTP␥S stimulates ACA activity by uncoupling the G␤␥
+subunit from the heterotrimeric G-protein, thus bypassing
+the need for receptor activation (Theibert and Devreotes,
+1986; Parent and Devreotes, 1996). GTP␥S stimulated the
+ACA activity of JH10 lysates ⬃18-fold, JH10/rasG⫺ lysates
+⬃15-fold, AX2/rasG⫺ lysates ⬃15-fold, JH10/rasC⫺ lysates
+⬃7-fold, and JH10/rasC⫺rasG⫺ lysates ⬃2.5-fold over the
+basal levels (Figure 7, C and D, and unpublished data).
+These results are consistent with the idea that RasC is more
+important than RasG for activating the cAMP relay. The
+ACA activity of lysates was also assayed in the presence of
+Mn2⫹ (Figure 7, C and D) to provide an accurate measure of
+the unstimulated ACA activity. This activity was comparable for JH10, JH10/rasC⫺, and JH10/rasG⫺ lysates, indicating that the lower levels of activation in the cell lysates of
+these strains were not due to reduced levels of ACA. However, ACA activity was reduced in the lysates of JH10/
+rasC⫺rasG⫺ cells (Figures 7, C and D), suggesting that these
+cells expressed less ACA, a result consistent with the defect
+in early gene expression in this strain revealed by Northern
+blot analysis (Figure 3).
+DISCUSSION
+Previous studies with Dictyostelium ras null mutants had
+indicated a predominant role for RasG in growth and vegetative-cell functions and a predominant role for RasC in the
+regulation of aggregation (Tuxworth et al., 1997; Khosla et al.,
+2000; Lim et al., 2001). However, other studies had suggested
+a possible additional role for RasG in early development. For
+example, PI3K plays a pivotal role in the chemotactic re4548
+
+sponse to cAMP (Meili et al., 1999; Funamoto et al., 2001;
+Huang et al., 2003), and because RasG interacts with the Ras
+binding domains (RBDs) of two of the Dictyostelium phosphoinositol kinases (PI3K1 and PI3K2), it had been postulated that RasG is a regulator of PI3K activity and hence of
+the chemotactic response (Funamoto et al., 2002). In addition,
+the Dictyostelium protein Rip3 was identified as interacting
+with RasG, and cells lacking Rip3 are defective in aggregation (Lee et al., 1999). Finally, RasG has been shown to be
+activated in response to cAMP (Kae et al., 2004). These
+studies pointed to the possibility that RasG was involved in
+cAMP signal transduction during early development. However, definitive proof for a role of RasG had been lacking.
+To study further the possible role of RasG in early development, we isolated two new rasG null mutants, AX2/rasG⫺
+and JH10/rasG⫺. The new rasG⫺ strains exhibited all the
+previously described vegetative-cell phenotypes, but both
+were stable and exhibited a consistent delay in aggregation.
+Because rasG⫺ cells grow slowly (Tuxworth et al., 1997;
+Khosla et al., 2000), there is clearly an opportunity for a
+suppressor strain to take over the population. It is not apparent why the new strains were less susceptible than the
+originals to such suppression, but it did not appear to be
+related to parental background, because mutants in both
+AX2 and AX3 (JH10) backgrounds were found to be stable in
+the current study.
+After being pulsed with cAMP, the rasG⫺ strains in both
+backgrounds exhibited reduced polarity and reduced cAMP
+chemotaxis in a spatial gradient of cAMP. They also exhibited considerably reduced cGMP accumulation and a dramatic reduction in PKB phosphorylation in response to
+cAMP. These effects were far more pronounced than those
+observed for JH10/rasC⫺ mutant cells, suggesting that RasG
+is more important than RasC for chemotaxis. The opposite
+was true for cAMP accumulation and ACA activation. The
+defects in these properties were more pronounced in rasC⫺
+cells than in the rasG⫺ cells, suggesting that signaling
+through RasC was more important for the cAMP relay than
+signaling through RasG. Because stimulation with cAMP
+does not activate RasC or RasG in g␤⫺ cells (Kae et al., 2004),
+Molecular Biology of the Cell
+
+Role of Ras in cAMP Signal Transduction
+
+it is likely that the RasGEFs responsible for the activation of
+RasC and RasG act downstream of the heterotrimeric Gprotein, G␣2␤␥.
+Activation of ACA also requires the cytosolic protein
+CRAC, which translocates to the membrane in response to
+production of PIP3; another soluble protein, Pianissimo;
+RasGEFA; and Rip3 (Insall et al., 1994; Insall et al., 1996; Chen
+et al., 1997; Lee et al., 1999). rasC⫺, gefA⫺, crac⫺, pia⫺, and
+rip3⫺ cells all share somewhat similar phenotypes. In a
+gefA⫺ mutant, RasC does not become activated upon stimulation with cAMP, whereas RasG is fully activated, indicating that the guanine-nucleotide-exchange activity of
+RasGEFA is specific for RasC (H. Kae, personal communication). In view of the finding that Rip3 interacts better with
+RasG than with other Dictyostelium Ras proteins in yeast
+two-hybrid assays (Lee et al., 1999), the interaction between
+Rip3 and RasC and RasG clearly needs to be reassessed.
+Although chemotaxis predominantly required RasG,
+whereas the cAMP relay predominantly required RasC, the
+mutant studies also provided evidence for some overlap of
+function. Signaling through RasC was capable of mediating
+PI3K activation in rasG⫺ cells, although with reduced efficiency, and signaling through RasG was capable of mediating ACA activation in rasC⫺ cells, although again with reduced efficiency. The finding that JH10/rasC⫺rasG⫺ cells
+were devoid of both the cAMP relay and chemotaxis is
+consistent with the idea that all cAMP signaling passes
+through the RasG and RasC proteins. However, we do not
+have formal proof of this proposal, because the defects in
+chemotaxis and the cAMP relay in the JH10/rasC⫺rasG⫺
+cells might also be explained by the markedly reduced early
+developmental gene expression in this strain.
+The apparent overlap of function for RasC and RasG is
+less extensive than that observed with mammalian Ras proteins (Rodriguez-Viciana et al., 2004; Mitin et al., 2005), suggesting that Dictyostelium may be a fruitful model to investigate the specificity of Ras-protein signal-transduction
+networks. Studies of the interaction of mammalian Ras proteins with their effector molecules have identified two highly
+flexible Ras domains, Switch I and Switch II, that dominate
+these interactions. It has been proposed that the essential
+residues in these regions have “multispecificities” that are
+influenced by neighboring amino acids, that is, that identical
+residues can interact with different effectors in different
+ways (Herrmann, 2003; Biou and Cherfils, 2004; Mitin et al.,
+2005). RasC and RasG have identical sequences for the
+Switch II region, although the residues flanking this sequence differ slightly, providing possible explanations for
+both specificity and overlap of function. Furthermore, although there is considerable sequence conservation in the
+Switch I region, there are also some significant differences,
+again perhaps allowing for both functional specificity and
+overlap of function. The creation of stable gene disruptions
+in isogenic Dictyostelium backgrounds will provide a rich
+resource for functional studies to examine the role of these
+switch regions in Ras protein specificity.
+
+ACKNOWLEDGMENTS
+We thank Dr. R. H. Insall for providing the pRHI125 plasmid; Dr. J. Hadwiger
+for the JH10 cells and plasmid pJH60; and F. Jiang and Dr. R. Dottin for the
+PKB-specific antibody. We would also like to thank Dr. C. J. Lim for stimulating discussions, and the reviewers and Associate Editor, Dr. J. Pringle, who
+made important suggestions that considerably improved the manuscript. P.B.
+was the recipient of a scholarship from the Ministry of Science Research and
+Technology of Iran. This research was funded by a grant to G.W. from the
+Canadian Institute of Health Research.
+
+Vol. 17, October 2006
+
+REFERENCES
+Alibaud, L., Cosson, P., and Benghezal, M. (2003). Dictyostelium discoideum
+transformation by oscillating electric field electroporation. Biotechniques 35,
+78 – 83.
+Biou, V., and Cherfils, J. (2004). Structural principles for the multispecificity of
+small GTP-binding proteins. Biochemistry 43, 6833– 6840.
+Boguski, M. S., and McCormick, F. (1993). Proteins regulating Ras and its
+relatives. Nature 366, 643– 654.
+Bourne, H. R., Sanders, D. A., and McCormick, F. (1991). The GTPase superfamily: conserved structure and molecular mechanism. Nature 349, 117–127.
+Brenner, M. (1978). Cyclic AMP levels and turnover during development of
+the cellular slime mold Dictyostelium discoideum. Dev. Biol. 64, 210 –223.
+Chen, M. Y., Long, Y., and Devreotes, P. N. (1997). A novel cytosolic regulator,
+Pianissimo, is required for chemoattractant receptor and G protein-mediated
+activation of the 12 transmembrane domain adenylyl cyclase in Dictyostelium.
+Genes Dev. 11, 3218 –3231.
+Chomczynki, P., and Sacchi, N. (1987). Single step method of RNA isolation
+by guanidinium thiocyanate-phenol-chloroform extraction. Anal. Biochem.
+162, 156 –159.
+Colicelli, J. (2004). Human RAS superfamily proteins and related GTPases. Sci.
+STKE 2004, RE13.
+Firtel, R. A., and Chung, C. Y. (2000). The molecular genetics of chemotaxis:
+sensing and responding to chemoattractant gradients. Bioessays 22, 603– 615.
+Funamoto, S., Meili, R., Lee, S., Parry, L., and Firtel, R. A. (2002). Spatial and
+temporal regulation of 3-phosphoinositides by PI3-kinase and PTEN mediates
+chemotaxis. Cell 109, 611– 623.
+Funamoto, S., Milan, K., Meili, R., and Firtel, R. A. (2001). Role of phosphatidylinositol 3⬘ kinase and a downstream pleckstrin homology domain-containing protein in controlling chemotaxis in Dictyostelium. J. Cell Biol. 153,
+795– 810.
+Hadwiger, J. A., and Firtel, R. A. (1992). Analysis of G alpha 4, a G-protein
+subunit required for multicellular development in Dictyostelium. Genes Dev.
+6, 38 – 49.
+Herrmann, C. (2003). Ras-effector interactions: after one decade. Curr. Opin.
+Struct. Biol. 13, 122–129.
+Huang, Y. E., Iijima, M., Parent, C. A., Funamoto, S., Firtel, R. A., and
+Devreotes, P. (2003). Receptor-mediated regulation of PI3Ks confines
+PI(3,4,5)P3 to the leading edge of chemotaxing cells. Mol. Biol. Cell 14,
+1913–1922.
+Iijima, M., Huang, Y. E., and Devreotes, P. (2002). Temporal and spatial
+regulation of chemotaxis. Dev. Cell 3, 469 – 478.
+Insall, R., Kuspa, A., Lilly, P. J., Shaulsky, G., Levin, L. R., Loomis, W. F., and
+Devreotes, P. (1994). CRAC, a cytosolic protein containing a pleckstrin homology domain, is required for receptor and G protein-mediated activation of
+adenylyl cyclase in Dictyostelium. J. Cell Biol. 126, 1537–1545.
+Insall, R. H., Borleis, J., and Devreotes, P. N. (1996). The aimless RasGEF is
+required for processing of chemotactic signals through G-protein-coupled
+receptors in Dictyostelium. Curr. Biol. 6, 719 –729.
+Kae, H., Lim, C. J., Spiegelman, G. B., and Weeks, G. (2004). Chemoattractantinduced Ras activation during Dictyostelium aggregation. EMBO Rep. 5, 602–
+606.
+Kessin, R. H. (2001). Dictyostelium—Evolution, cell biology, and the development of multicellularity. Cambridge, UK: Cambridge University Press.
+Khosla, M., Spiegelman, G. B., Insall, R., and Weeks, G. (2000). Functional
+overlap of the Dictyostelium RasG, RasD and RasB proteins. J. Cell Sci.
+113(Pt 8), 1427–1434.
+Khosla, M., Spiegelman, G. B., and Weeks, G. (2005). The effect of the disruption of a gene encoding a PI4 kinase on the developmental defect exhibited by
+Dictyostelium rasC⫺ cells. Dev. Biol. 284, 412– 420.
+Khosla, M., Spiegelman, G. B., Weeks, G., Sands, T. W., Virdy, K. J., and
+Cotter, D. A. (1994). RasG protein accumulation occurs just prior to amoebae
+emergence during spore germination in Dictyostelium discoideum. FEMS Microbiol. Lett. 117, 293–298.
+Lee, S., Parent, C. A., Insall, R., and Firtel, R. A. (1999). A novel Ras-interacting
+protein required for chemotaxis and cyclic adenosine monophosphate signal
+relay in Dictyostelium. Mol. Biol. Cell 10, 2829 –2845.
+Lim, C. J., Spiegelman, G. B., and Weeks, G. (2001). RasC is required for
+optimal activation of adenylyl cyclase and Akt/PKB during aggregation.
+EMBO J. 20, 4490 – 4499.
+
+4549
+
+P. Bolourani et al.
+Manahan, C. L., Iglesias, P. A., Long, Y., and Devreotes, P. N. (2004). Chemoattractant signaling in Dictyostelium discoideum. Annu. Rev. Cell Dev. Biol.
+20, 223–253.
+Meili, R., Ellsworth, C., Lee, S., Reddy, T. B., Ma, H., and Firtel, R. A. (1999).
+Chemoattractant-mediated transient activation and membrane localization of
+Akt/PKB is required for efficient chemotaxis to cAMP in Dictyostelium.
+EMBO J. 18, 2092–2105.
+Mitin, N., Rossman, K. L., and Der, C. J. (2005). Signaling interplay in Ras
+superfamily function. Curr. Biol. 15, R563–574.
+Parent, C. A., and Devreotes, P. N. (1996). Molecular genetics of signal
+transduction in Dictyostelium. Annu. Rev. Biochem. 65, 411– 440.
+Postma, M., Bosgraaf, L., Loovers, H. M., and Van Haastert, P. J. (2004).
+Chemotaxis: signalling modules join hands at front and tail. EMBO Rep. 5,
+35– 40.
+Robbins, S. M., Williams, J. G., Jermyn, K. A., Spiegelman, G. B., and Weeks,
+G. (1989). Growing and developing Dictyostelium cells express different ras
+genes. Proc. Natl. Acad. Sci. USA 86, 938 –942.
+Rodriguez-Viciana, P., Sabatier, C., and McCormick, F. (2004). Signaling specificity by Ras family GTPases is determined by the full spectrum of effectors
+they regulate. Mol. Cell. Biol. 24, 4943– 4954.
+Sambrook, J., Fritsch, E. F., and Maniatis, T. (1989). Molecular Cloning. A
+Laboratory Manual., 2nd ed., Cold Spring Harbor, NY: Cold Spring Harbor
+Laboratory Press.
+Sussman, M. (1987). Cultivation and synchronous morphogenesis of Dictyostelium under controlled experimental conditions. Methods Cell Biol. 28, 9 –29.
+
+4550
+
+Theibert, A., and Devreotes, P. N. (1986). Surface receptor-mediated activation of adenylate cyclase in Dictyostelium. Regulation by guanine nucleotides
+in wild-type cells and aggregation deficient mutants. J. Biol. Chem. 261,
+15121–15125.
+Tuxworth, R. I., Cheetham, J. L., Machesky, L. M., Spiegelmann, G. B., Weeks,
+G., and Insall, R. H. (1997). Dictyostelium RasG is required for normal motility
+and cytokinesis, but not growth. J. Cell Biol. 138, 605– 614.
+van Haastert, P.J.M. (1984). A method for studying cAMP-relay in Dictyostelium discoideum: the effect of temperature on cAMP-relay. J. Gen. Microbiol.
+130, 2559 –2564.
+van Haastert, P.J.M., and Kuwayama, H. (1997). cGMP as second messenger
+during Dictyostelium chemotaxis. FEBS Lett. 410, 25–28.
+Watts, D. J., and Ashworth, J. M. (1970). Growth of myxameobae of the
+cellular slime mould Dictyostelium discoideum in axenic culture. Biochem. J.
+119, 171–174.
+Weeks, G., Gaudet, P., and Insall, R. H. (2005). The small GTPase superfamily.
+In: Dictyostelium Genomics, ed. W. F. Loomis and A. Kuspa, Norfold, UK:
+Horizon Bioscience, 211–234.
+Weeks, G., and Spiegelman, G. B. (2003). Roles played by Ras subfamily
+proteins in the cell and developmental biology of microorganisms. Cell Signal. 15, 901–909.
+Wessels, D., et al. (2004). RasC plays a role in transduction of temporal
+gradient information in the cyclic-AMP wave of Dictyostelium discoideum.
+Eukaryot. Cell 3, 646 – 662.
+
+Molecular Biology of the Cell
+
+

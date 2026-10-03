@@ -1,0 +1,1184 @@
+MBoC | ARTICLE
+
+A systems approach to investigate
+GPCR-mediated Ras signaling network
+in chemoattractant sensing
+Xuehua Xua, Wei Quana, Fengkai Zhangb, and Tian Jina,*
+a
+
+Chemotaxis Signal Section, Laboratory of Immunogenetics, National Institute of Allergy and Infectious Diseases,
+National Institutes of Health, Rockville, MD 20852; bComputational Biology Section, Laboratory of Immune System
+Biology, National Institute of Allergy and Infectious Diseases, National Institutes of Health, Bethesda, MD 20892
+
+ABSTRACT A GPCR-mediated signaling network enables a chemotactic cell to generate adaptative Ras signaling in response to a large range of concentrations of a chemoattractant. To
+explore potential regulatory mechanisms of GPCR-controlled Ras signaling in chemosensing,
+we applied a software package, Simmune, to construct detailed spatiotemporal models simulating responses of the cAR1-mediated Ras signaling network. We first determined the dynamics of G-protein activation and Ras signaling in Dictyostelium cells in response to cAMP
+stimulations using live-cell imaging and then constructed computation models by incorporating potential mechanisms. Using simulations, we validated the dynamics of signaling events
+and predicted the dynamic profiles of those events in the cAR1-mediated Ras signaling networks with defective Ras inhibitory mechanisms, such as without RasGAP, with RasGAP overexpression, or with RasGAP hyperactivation. We describe a method of using Simmune to
+construct spatiotemporal models of a signaling network and run computational simulations
+without writing mathematical equations. This approach will help biologists to develop and
+analyze computational models that parallel live-cell experiments.
+
+Monitoring Editor
+Carole Parent
+University of Michigan
+Received: Aug 19, 2020
+Revised: Dec 1, 2021
+Accepted: Dec 10, 2021
+
+INTRODUCTION
+Chemotaxis, the directional cell movement along chemoattractant
+gradients (Chung et al., 2001; Iijima et al., 2002; Van Haastert and
+Devreotes, 2004), is critical for diverse physiological and pathophysiological processes, such as the recruitment of leukocytes to sites of
+infection, trafficking of lymphocytes throughout the human body,
+metastasis of cancer cells, and development of the social amoeba
+Dictyostelium discoideum (Jin et al., 2008; Chou et al., 2010; BravoCordero et al., 2012). To migrate in a wide range of chemoattractant
+concentration gradients, cells need to rapidly terminate responses
+
+This article was published online ahead of print in MBoC in Press (http://www
+.molbiolcell.org/cgi/doi/10.1091/mbc.E20-08-0545) on December 15, 2021.
+*Address correspondence to: Tian Jin (tjin@niaid.nih.gov).
+Abbreviations used: cAMP, 3’,5’-cyclic adenosine monophosphate; cAR1, cyclic
+AMP receptor 1; FRET, fluorescence resonance energy transfer; GPCR, G-proteincoupled-receptor; IFFLP, incoherent feedforward loop with a proportional node;
+NFBLB, negative feedback loop with a buffer node; RasGAP, Ras GTPase-activating protein; RasGEF, Ras guanine nucleotide exchange factor.
+© 2021 Xu et al. This article is distributed by The American Society for Cell Biology under license from the author(s). Two months after publication it is available
+to the public under an Attribution–Noncommercial-Share Alike 4.0 International
+Creative Commons License (http://creativecommons.org/licenses/by-nc-sa/4.0).
+“ASCB®,” “The American Society for Cell Biology®,” and “Molecular Biology of
+the Cell®” are registered trademarks of The American Society for Cell Biology.
+
+Molecular Biology of the Cell • 33:ar23, 1–15, March 1, 2022
+
+to any given sustained stimulation and reset themselves, in a process called “adaptation” (Parent and Devreotes, 1999; Iijima et al.,
+2002; Jin, 2013). One of the central questions in the study of eukaryotic chemotaxis is how a chemoattractant GPCR mediates intracellular pathways to achieve temporal “adaptation” and to respond to
+a large range of concentrations (Meinhardt, 1999; Devreotes and
+Janetopoulos, 2003; Jin, 2013). A theoretical study pointed out that
+there are two major classes of simple network topology that can
+possess adaptation (Ma et al., 2009). One type is the Negative
+Feedback Loop with a Buffer node (NFBLB), and the other is the Incoherent Feedforward Loop with a Proportional node (IFFLP). In the
+NFBLB model, a receptor stimulates an activator that causes output
+to rise initially, and the output is shut down by an inhibitor induced
+by the output itself. In the IFFLP model, a stimulus quickly turns the
+activators on to produce an output and also proportionally activates
+an inhibitor but with a delay in action to generate an adaptive output (Ma et al., 2009; Hoeller et al., 2014). Over the years, D. discoideum has been established as a model system for studying eukaryotic chemotaxis. This organism uses a GPCR, the cyclic AMP receptor
+1 (cAR1), to detect its chemoattractant, cAMP, and to mediate chemotactic responses over a large range of concentrations (from 10–8
+to 10–4 M) (Parent and Devreotes, 1999). Several conceptual models
+33:ar23, 1  
+
+have been proposed to explain how a receptor-controlled signaling
+network may generate adaptation (Meinhardt, 1999; Parent and
+Devreotes, 1999; Iijima et al., 2002; Takeda et al., 2012; Nakajima
+et al., 2014). One of the earliest models is the Local Excitation and
+Global Inhibition (LEGI) model (Parent and Devreotes, 1999). This
+model consists of a fast and locally acting activator and a slow, globally controlled inhibitor, both of which are activated by external
+stimuli (input). The response (output) is defined as the difference
+between the levels of activation and inhibition. Thus, LEGI is an IFFLP-type model. These models help discuss the organizing principles of a signaling network for adaption, but they were constructed
+by abstract modules rather than defined by specific molecules and
+molecular interactions. To understand how signaling components
+work together in a GPCR-mediated signaling network, we aimed for
+constructing a detailed model based on specific molecular interactions, which would allow direct comparison with experimental data.
+Simmune is a software package that applies an intuitive interface
+to construct complex signaling networks based on the definition of
+specific molecular interactions and the subcellular localization of
+molecules, and it automatically translates the inputs into differential
+equations that compute outputs into spatially resolved simulations
+and dynamic representations of the signaling network (Meier-Schellersheim et al., 2009). Over the years, several models of signaling
+networks were reported, including models of a chemoattractant
+GPCR-controlled Ras signaling (Ma et al., 2004; Levine et al., 2006;
+Takeda et al., 2012; Cheng and Othmer, 2016; Kamino et al., 2017).
+These models were all constructed by writing mathematical equations “by hand,” which is defining each reaction for molecule complex formation, association/deassociation, or enzymatic transformation separately, and the tasks are time-consuming and very difficult
+due to the large number of reaction equations. It is almost impossible for many experimental biologists to complete the tasks by themselves due to the requirements for math skills. The software package
+Simmune allows people to construct signaling networks and to run
+simulations without dealing with mathematical equations (MeierSchellersheim et al., 2009). The URL of the online official release of
+Simmune is https://bioinformatics.niaid.nih.gov/simmune/.
+The current version has three components: 1: The Simmune
+Modeler for creating signaling networks, 2: The Simmune Cell
+Designer for defining cellular morphologies, and 3: The Simmune
+Simulator for running simulations (Materials and Methods). These
+features allow biologists to develop and analyze computational
+models that parallel live-cell experiments.
+The cAR1 GPCR-controlled Ras activation is the first key signaling event that displays adaptation (Parent et al., 1998; Xu et al.,
+2005; Takeda et al., 2012). The binding of chemoattractant cAMP to
+cAR1 activates the GPCR that induces dissociation (or activation) of
+heterotrimeric G-proteins into Gα2 and Gβγ subunits (Janetopoulos
+et al., 2001; Xu et al., 2010). Activation of G-proteins regulates Ras
+activation, which mediates downstream signaling events leading to
+the reorganization of the actin cytoskeleton for chemotaxis (Kae
+et al., 2004; Sasaki et al., 2004; Charest et al., 2010; Kortholt et al.,
+2011). Ras functions as a molecular switch existing in two states, an
+inactive GDP-bound state and an active GTP-bound state. Ras is
+activated by guanine nucleotide exchange factors (GEFs), which
+catalyze the exchange of GDP for GTP, and is deactivated by GTPase-activating proteins (GAPs), which stimulate the GTPase activity
+that converts RasGTP to RasGDP (Insall et al., 1996; Kae et al., 2007;
+Zhang et al., 2008; Charest et al., 2010). Several Ras isoforms are
+activated by chemoattractant GPCRs in D. discoideum (Kae et al.,
+2004; Sasaki et al., 2004) and neutrophils (Zheng et al., 1997). In D.
+discoideum, two Ras isoforms, RasC and RasG, have been exten2 | X. Xu et al.
+
+sively studied in cAR1-mediated signaling (Kae et al., 2007). It appears that RasC and RasG have their GTP-exchanging factors (GEFs)
+and GAPs (Charest and Firtel, 2006; Kae et al., 2007; Zhang et al.,
+2008). In the genome of D. discoideum, 18 genes encode potential
+RasGAP proteins (Xu et al., 2017). Disruption of RasGAP, nf1, Ddnf1,
+or c2gapA results in elevated Ras signaling and chemotaxis defects
+(Zhang et al., 2008; Bloomfield et al., 2015; Xu et al., 2017). Activation of GPCR and G-proteins induces a translocation of C2GAP1
+from cytosol to the cell membrane, where it functions as a Ras inhibitor (Xu et al., 2017). Chemoattractant GPCR-mediated membrane
+translocation and activation of C2GAP1 requires Ras proteins on the
+membrane (Xu et al., 2017), indicating the involvement of an NFBLB
+mechanism. Despite this progress, it is still not clear how GPCRs
+regulate RasGAP activities and how many RasGAP proteins are involved in chemotaxis.
+In this study, we first experimentally determined the dynamics of
+G-protein activation and Ras activation in response to various cAMP
+stimuli using live-cell imaging. Our quantitative measurements provided dynamic profiles of signaling events, including ligand binding
+to GPCR, activation of heterotrimeric G-proteins, and Ras activation.
+These dynamics provided the foundation for evaluating and modifying quantitative models based on molecular interactions. To investigate the regulatory mechanism of Ras inhibitor RasGAP, we proposed that RasGAP is activated by either Gα2-GTP, Ras-GTP, or
+both Gα2-GTP and Ras-GTP, which represent a model of IFFLP-only,
+NFBLB-only, or combined IFFLP+NFBLB, respectively. Using Simmune, we built mechanistic models and carried out computer simulations. Our study explored potential mechanisms underlying cAR1mediated RasGAP activation and predicted dynamic profiles of
+signaling events in the cAR1-mediated Ras signaling network with
+no RasGAP, overexpressing RasGAP, or hyperactive RasGAP. Importantly, we describe a protocol using Simmune to construct spatiotemporal models of a signaling network and to run computational
+simulations without writing mathematical equations.
+
+RESULTS
+Kinetics of Ras signaling in response to two cAMP
+stimulations
+We and others have developed techniques to image cAMP concentration using a fluorescent dye, G-protein activation using fluorescence resonance energy transfer (FRET) imaging, and Ras activation
+using an active Ras probe, RBD-GFP, to determine the kinetics of ligand concentration and activation of G-protein and Ras in a single
+living cell upon cAMP stimulations (Figure 1A). Cells display a persistent activation of G-proteins (Janetopoulos et al., 2001; Xu et al.,
+2005) and a transient Ras activation in response to stimulation of
+cAMP at different concentrations (Parent et al., 1998; Xu et al.,
+2005). To determine the dynamics of cAMP-induced activation and
+deactivation of Ras signaling, we simultaneously imaged the dynamics of cAMP changes around cells and Ras activation in the cells that
+were sequentially exposed to a uniform cAMP stimulation followed
+by a withdrawal of the stimulation and then a second cAMP stimulation (Figure 1B). cAMP (1 μM [10–6 M]) mixed with a fluorescent dye,
+Alexa 594, was first applied to the cells at time 0 s and removed
+from the cells at 150 s. At 200 s, 1 μM cAMP was reapplied to the
+cells. Temporal changes of cAMP stimuli were measured by imaging
+Alexa 594 around the cells (Figure 1B, top panel). In response to
+cAMP stimuli, RBD-GFP quickly translocated to the cell membrane
+and then returned to a low and steady level (Figure 1B, bottom
+panel). Upon removal of the cAMP stimulation at 150 s, the amount
+of membrane-bound RBD-GFP further decreased to reach the prestimulus level. This result showed that activation of cAR1 induces a
+Molecular Biology of the Cell
+
+previous response (from 0 to 50 s) (Figure
+1B), indicating that the signaling network
+returned to prestimulus states in less than
+1 min following the removal of previous
+cAMP stimuli, and thus the network can
+properly respond to other stimuli.
+
+Kinetics of G-protein dissociation
+and Ras activation in response to a
+two-step cAMP stimulation
+
+FIGURE 1: (A) Scheme of the cAR1 GPCR signaling network contains the following signaling
+steps: ligand/GPCR interaction, G-protein activation, and Ras activation. Fluorescent imaging
+methods were developed to monitor cAMP concentration (fluorescent dye), G-protein activation
+(FRET method), Ras activation (fluorescence probe: active Ras binding domain tagged with GFP,
+RBD-GFP). (B) Dynamics of Ras activation in response to two identical cAMP stimulations. Top
+panel shows the temporal changes in cAMP concentration around the cell visualized by mixing
+fluorescent dye Alexa 594 with 10–6 M cAMP. The bottom panel shows Ras activation in the cells
+expressing RBD-GFP. To facilitate quantitative measurement, the immobile cells were obtained
+by treatment with the actin polymerization inhibitor latrunculin B (1 μM). (C) Kinetics of signaling
+events induced by two-step sustained cAMP stimulation. Top panel shows the kinetics of
+G-protein activation measured as FRET changes on the membrane of single live cells in response
+to 10 nM and 10 μM cAMP, which were uniformly applied at 0 and 75 s. A normalized FRET
+change is expressed as the CFP/YFP ratio. The kinetics of cAMP-induced changes in FRET ratio
+are shown in the time course. The bottom panel shows the dynamics of Ras activation measured
+by the level of RBD-GFP on the membrane. Temporal changes in RBD-GFP on the membrane
+are shown in the time course in response to 10 nM and 10 μM cAMP, which were uniformly
+applied at time points shown as red arrows.
+
+transient Ras activation; however, for the duration of the cAMP stimulus (1 μM), the level of Ras activation did not return to the prestimulus level, indicating that adaptation of Ras signaling is not complete.
+Following the removal of cAMP from 150 to 200 s, signaling events
+of both heterotrimeric G-protein (Xu et al, 2007) and Ras quickly
+deactivated and returned to the prestimulus states (Figure 1B).
+When cAMP was reapplied at 200 s, the cells generated another
+transient Ras activation (from 200 to 250 s) that is identical to the
+Volume 33 March 1, 2022
+
+One key feature of the cAR1-controlled signaling network is that the network can reset
+its activity in response to a static cAMP concentration and then responds to another increase in cAMP concentration followed by
+adaptation (Devreotes and Steck, 1979; Parent and Devreotes, 1999; Hoeller et al.,
+2014). We measured the kinetics of two
+cAR1-induced G-protein activation and Ras
+activation, in response to two sustained
+cAMP stimulations, a low dose (10 nM or
+10–8 M) followed by a high dose (10 μM or
+10–5 M) (Figure 1C). We monitored the Gprotein dissociation (activation) by assessing
+FRET changes between Gα2-CFP and GβYFP (Janetopoulos et al., 2001; Xu et al.,
+2005), and Ras activation by analyzing
+changes in membrane-bound RBD-GFP
+(Sasaki et al., 2004). The kinetics of G-protein dissociation showed a pattern of two
+step–like persistent increases (Figure 1C,
+top panel). In contrast, the kinetics of Ras
+activation showed two transient responses
+(Figure 1C, bottom panel) where the first
+stimulation (10 nM or 10–8 M) induced a response followed by a nearly perfect adaptation, while the second stimulation (10 μM or
+10–5 M) triggered another response followed by an imperfect adaptation. A previous study also reported that cAMP-induced
+Ras activation displays the imperfect adaptation (Nakajima et al., 2014).
+
+Three different models of
+GPCR-mediated Ras signaling
+
+To investigate the potential regulatory
+mechanisms of the inhibitor of Ras signaling,
+we built three models of a cAR1/G-protein–
+mediated Ras signaling (Figure 2A). Each
+model included the same mechanisms of ligand binding to cAR1 GPCR, G-protein dissociation into Gα2GTP and free Gβγ, and
+free Gβγ-activating RasGEF to induce Ras
+activation. A previous study proposed a
+molecular mechanism controlling RasGEF to regulate Ras activity in
+a model in which Gα-GTP recruits RasGEF from cytosol to cell membrane and then free Gβγ activates RasGEF (Cheng and Othmer,
+2016). Because the regulatory mechanism of RasGEF has not been
+determined, we simply defined that free Gβγ serves as RasGEF that
+interacts with Ras to convert Ras-GDP to Ras-GTP in our current
+models. To study the regulation of RasGAP, we incorporated different activating mechanisms of RasGAP, which are by Gα2-GTP alone
+Modeling of GPCR-mediated chemosensing
+
+| 3
+
+FIGURE 2: Construction of a signaling network based on molecular interactions using the
+Simmune Modeler. (A) Scheme shows a GPCR-mediated activation (dissociation) of G-protein
+into Gα-GTP and Gβγ and activation of Ras. RasGEF is activated by Gβγ and promotes the
+conversion of Ras-GDP to Ras-GTP. RasGAP is activated by both Gα-GTP (indicated as IFFLP)
+and Ras-GTP (indicated as NFBLB). Upon activation, RasGAP becomes membrane-bound, and
+this change promotes the conversion of Ras-GTP to Ras-GDP (indicated as signaling event 4).
+(B) Top panel shows the interaction between a ligand (one circle with binding site 1) and
+extracellular domain of the receptor (one circle with binding site 3). The binding leads to the
+activation of the cytoplasmic domain of the receptor, which is indicated by the red square
+switching from an empty square (inactive) to a filled square (active). The bottom panel shows
+that the active receptor associates with heterotrimeric G-protein, Gα-GDP (middle circle with
+binding sites 1 and 2), and Gβγ (left circle with bind site 2) to form an active receptor/G-protein
+complex. (C) Signaling network of a GPCR-mediated heterotrimeric G-protein dissociation into
+Gα-GTP and Gβγ, which in turn activate Ras through RasGEF and RasGAP. To simplify modeling,
+free Gβγ serves as RasGEF, which interacts with Ras to convert Ras-GDP to Ras-GTP. RasGAP is
+activated by both Gα2-GTP and Ras-GTP.
+
+(IFFLP), Ras-GTP alone (NFBLB), or both Gα2-GTP and Ras-GTP
+(IFFLP+NFBLB).
+Using the Simmune Modeler (Zhang et al., 2013), we constructed
+three signaling networks of a cAR1-mediated Ras signaling network
+based on molecular interactions (Figure 2, B and C). Specifically, we
+4 | X. Xu et al.
+
+defined molecular complexes and their biochemistry involved in Ras signaling networks, including binding sites, domain status (for example, active or inactive states),
+parameters for molecular complex association/dissociation, and transformation processes (Figure 2B). After inputting these
+specifications, the Simmune Modeler generated a signaling network (Figure 2C). We
+then defined a three-dimensional (3D) digital cell as a spherical object (10 μm in diameter) with membrane and cytosol regions
+using the Simmune Cell Designer (Figure
+3A) (Angermann et al., 2012). Then, we simulated cellular response by defining initial
+simulation state conditions and “stimulating” the digital cell with cAMP stimulations
+applied in our wet-lab assays using the Simmune Simulator. (Figure 3B). To select the
+parameters of the molecules in each model,
+we first defined parameters based on earlier
+experiments and assumptions, then simulated the dynamics of signaling events, and
+finally modified the parameters to fit the
+simulated dynamics to the experimentally
+measured dynamics of signaling events. To
+carry out simulations, we started with a set
+of parameters and specified the initial biochemistry of the modeled signaling networks and then allowed the simulated cell
+to equilibrate to a stable (prestimulus) state
+for 300 s. We then applied stimulations corresponding to the wet-lab experiments and
+followed the time evolution of the concentrations of the involved molecular species.
+Numbers of molecules or molecular complexes in selected regions of the model cells
+were visualized and plotted as a function of
+time (Figure 3C). We thus retrieved the spatiotemporal dynamics of each signaling
+event in a way that permits direct comparison with the real biological systems, thereby
+allowing us to evaluate models and modify
+parameters for better agreement between
+model and experiment. Using trial and error,
+we identified a set of parameters for each
+model (Table 1) that allows the simulated
+cell to generate transient and adaptive Ras
+signaling (Figure 4).
+
+Simulated dynamics of
+GPCR-controlled Ras signaling in
+response to uniform stimuli
+
+Using the Simmune Simulator, we simulated
+responses in a modeled cell with a cAR1mediated Ras signaling network with three
+different deactivation mechanisms by RasGAP: IFFLP model by Gα2-GTP alone (Figure 4A), NFBLB model by
+Ras-GTP alone (Figure 4B), or IFFLP+NFBLB model by Gα2-GTP
+and Ras-GTP (Figure 4C). After the modeled cell equilibrated to a
+prestimulus state for 299 s, a cAMP stimulation was uniformly applied to the cell at 300 s. In response to stimulations at different
+Molecular Biology of the Cell
+
+and G-protein that reflected cAMP concentrations and a transient
+Ras activation (Ras-GTP) followed by an imperfect adaptation; simulated dynamics of G-protein activation and Ras activation matched
+well with the dynamic profiles that were experimentally determined.
+Each model was able to respond to a large range of cAMP concentrations (from 10–9 to 10–4 M), as real cells do, indicating that
+a GPCR-mediated signaling network with IFFLP, NFBLB, or
+IFFLP+NFBLB is sufficient to produce adaptive Ras signaling in response to a large range of cAMP concentrations.
+Each model predicted the dynamics of active-RasGEF (RasGEF)
+and active-RasGAP (RasGAP) (Figure 4). The dynamics of RasGEF
+and RasGAP displayed the following features. First, a stimulus proportionally activated both RasGEF and RasGAP. Second, the stimulation-induced activation of RasGEF increased faster than that of
+RasGAP. Third, when the activation of RasGEF and RasGAP reached
+a balance, Ras signaling began to adapt and reached a lower and
+steady level at a later time point. However, because RasGAP is activated by different mechanisms in each model, its dynamic profiles
+differed among the three models. The dynamics of RasGAP in
+Figure 4, A and C, were similar, while the profile of RasGAP in Figure
+4B differed from those shown in Figure 4, A and C, was transient,
+and returned to lower levels. Interestingly, because each model was
+able to produce an imperfect adaptation of Ras signaling, our computational simulations showed that RasGAP could be activated by
+either an IFFLP mechanism (such as by Gα-GTP in Figure 4A) or an
+NFBLB mechanism (such as by Ras-GTP in Figure 4B) or by a combination of IFFLP and NFBLB mechanisms (such as by both Gα-GTP
+and Ras-GTP in Figure 4C) in chemotactic cells.
+
+Simulated dynamics of GPCR-controlled Ras in response to
+two cAMP stimulations
+
+FIGURE 3: Simmune software consists of three components: the
+Simmune Modeler defines molecules and constructs the signaling
+network, the Simmune Cell Designer defines cell geometry, and the
+Simmune simulator runs computer simulations. Construction of a
+signaling network based on molecular interactionsusing the Simmune
+Modeler (Figure 2). (A) Defining a 3D digital cell using the Simmune
+Cell Designer; 10 μm diameter. (B) Interface of computer simulations
+using the Simmune Simulator. A digital cell is exposed to a gradient of
+cAMP. Rainbow color indicates the concentration changes around the
+cell. (C) Once the simulation is run, the dynamic changes of any
+component can be obtained in a selected region.
+
+concentrations (10–9 M orange, 10–8 light blue, 10–7 purple, 10–6
+green, 10–5 brown, and 10–4 dark blue, respectively), a model cell
+with an IFFLP mechanism (Figure 4A), an NFBLB mechanism (Figure
+4B), or an IFFLP+NFBLB mechanism (Figure 4C) generated signaling
+events as shown in the cAMP/GPCR complex, G-protein activation,
+Ras-GTP, activated-RasGEF, and activated-RasGAP. Each cell generated persistent activations of GPCR (cAMP/GPCR complex)
+Volume 33 March 1, 2022
+
+We simulated the dynamics of the modeled cell in response to two
+cAMP stimulations (Figure 5). After the modeled cell equilibrated to
+a stable state for 300 s, cAMP (1 μM) was applied to the cell at 300
+s, remained until 399 s, was removed from the cell at 400 s, and was
+then reapplied to the cell at 500 s. We found that each model generated dynamics of the signaling events, including cAMP/GPCR
+(GPCR activation), G-protein activation, and Ras-GTP (Figure 5,
+A–C), that matched well those measured in live-cell experiments
+(Figure 1B) (Xu et al., 2007). A sudden increase in binding of cAMP
+to its receptor (cAMP/GPCR) from 300 to 399 s induced a persistent
+G-protein activation and a transient increase of Ras-GTP (activation).
+From 300 to 399 s, the level of Ras-GTP did not return to the prestimulus level, showing an imperfect Ras adaptation. Following the
+removal of cAMP from 399 to 499 s, the signaling events of G-protein activation and Ras-GTP quickly returned to the prestimulus
+states (Figure 5, A–C), showing that the signaling network returned
+to prestimulus states in less than 1 min following the removal of
+cAMP and was able to respond to another stimulation at 500 s. Our
+simulations also predicted the dynamics of RasGEF and RasGAP in
+response to the sudden increase in cAMP at 300 s, the withdrawal
+of the stimulations at 399 s, and another increase of cAMP/GPCR at
+500 s. Our results indicated that a signaling network with an IFFLP
+(Figure 5A), NFBLB (Figure 5B), or IFFLP+NFBLB (Figure 5C) mechanism can respond to stimulation, quickly reset the network to a prestimulus state when the stimulation is removed, and respond to
+another stimulation.
+
+Simulated dynamics of GPCR-controlled Ras signaling in
+response to two step–wise cAMP stimulations
+We simulated the dynamics of the modeled cells in response to
+two step–wise cAMP stimulations (Figure 6). After the model cell
+Modeling of GPCR-mediated chemosensing
+
+| 5
+
+Associations (l/mol s)
+
+Dissociations (/s)
+
+Figure 4C. RasGAP activated by Ga2 and RasGTPa
+
+Ligand_GPCR
+binding—10,000,000
+
+Ligand_act-GPCR
+dissoc—1
+
+Ligand_GPCR
+Receptor_Gabg
+
+Receptor_Gabg
+binding—50,000
+
+rec act ga gdp
+dissoc—0.01
+
+Ga2_Gbg
+
+GDP-Ga_Gbg assoc—
+1e-06
+
+Transformations (/s)
+
+Initial conditions
+GPCR-basal: 50
+
+GPCR activation—3
+
+Ga2_Gbg_3 basal: 50
+
+rec act ga gtp
+dissoc—10
+
+Ras-GDP: 50
+
+rec inact ga dissoc—10
+
+RasGAP_basal: 1e-06
+
+Ga-GTP_Gbg
+dissoc—10
+gabg-gdp dissoc—1e-03
+
+Ga2
+Ga2_Rasgap
+
+G alpha auto GTPase—3
+Ga2-GDP_RasGAP inact
+assoc—0.01
+
+Ga2-GTP_RasGAP
+dissoc—2e-03
+
+Ga2-GTP_RasGAP
+assoc—0.01
+
+Ga2-GDP_RasGAP inact
+dissoc—2e-03
+
+Ga2-GTP_RasGAP
+activation—100
+
+RasGAP_Ga2-GTP
+assoc—1e06
+Gbg_Ras
+
+Gbg_Ras assoc—1e-06
+
+Gbg_Ras dissoc—1e-03
+
+Gbg_Ras
+activation—100
+
+Ras_RasGAP
+
+Ras_RasGAP assoc—
+1e-08
+
+Ras-GTP_RasGAP
+dissoc—1e-03
+
+Ras-GTP_RasGAP
+activation—100
+
+RasGAP_RasGTP
+assoc—1e-05
+
+Ras_RasGAP dissoc—
+1e-03
+
+Ras_RasGAP
+deactivation—1e-03
+
+RasGDP_RasGAP
+inactive assoc—-0.1
+
+RasGDP_RasGAP
+inactive dissoc—0.1
+
+RasGAP
+
+RasGAP
+deactivation—0.03
+
+Figure 4A. RasGAP is
+activated by Ga2b
+Ligand_GPCR
+
+Ligand_GPCR binding—
+10,000,000
+
+Ligand_act-GPCR
+dissoc—1
+
+Receptor_Gabg
+
+Receptor_Gabg
+binding—50,000
+
+rec act ga gdp
+dissoc—0.01
+
+Ga2_Gbg
+
+GDP-Ga_Gbg assoc—
+1e-06
+
+GPCR-basal: 50
+GPCR activation—3
+
+Ga2_Gbg_3 basal: 50
+
+rec act ga gtp
+dissoc—10
+
+Ras-GDP: 50
+
+rec inact ga dissoc—10
+
+RasGAP_8: 0.0001
+
+Ga-GTP_Gbg
+dissoc—10
+gabg-gdp dissoc—1e-03
+
+Ga2
+Ga2_Rasgap
+
+G alpha auto GTPase—3
+Ga2-GDP_RasGAP inact
+assoc—0.01
+
+Ga2-GTP_RasGAP
+dissoc—2e-03
+
+Ga2-GTP_RasGAP
+assoc—0.01
+
+Ga2-GDP_RasGAP inact
+dissoc—2e-03
+
+Ga2-GTP_RasGAP
+activation—100
+
+RasGAP_Ga2-GTP
+assoc—1e-06
+Gbg_Ras
+
+Gbg_Ras assoc—1e-06
+
+Gbg_Ras dissoc—1e-03
+
+TABLE 1: One set of parameters for each of the three models.
+
+6 | X. Xu et al.
+
+Gbg_Ras
+activation—100
+(Continues)
+
+Molecular Biology of the Cell
+
+Ras_RasGAP
+
+Associations (l/mol s)
+
+Dissociations (/s)
+
+Transformations (/s)
+
+Ras_RasGAP assoc—
+1e-07
+
+Ras-GTP_RasGAP
+dissoc—0
+
+Ras-GTP_RasGAP
+activation—0
+
+RasGAP_RasGTP
+assoc—0
+
+Ras_RasGAP dissoc—
+1e-09
+
+Ras_RasGAP
+deactivation—1e-03
+
+RasGDP_RasGAP
+inactive assoc—0
+
+RasGDP_RasGAP
+inactive dissoc—0
+
+RasGAP
+
+RasGAP deactivation—0.06
+
+Ras
+
+Ras auto GTPase—3
+
+Initial conditions
+
+Figure 4B. RasGAP is
+activated by Rasc
+Ligand_GPCR
+
+Ligand_GPCR
+binding—10,000,000
+
+Ligand_act-GPCR
+dissoc—1
+
+Receptor_Gabg
+
+Receptor_Gabg
+binding—50,000
+
+rec act ga gdp
+dissoc—0.01
+
+Ga2_Gbg
+
+GDP-Ga_Gbg assoc—
+1e-06
+
+GPCR-basal: 50
+GPCR activation—3
+
+Ga2_Gbg_3 basal: 50
+
+rec act ga gtp
+dissoc—10
+
+Ras-GDP: 50
+
+rec inact ga dissoc—10
+
+RasGAP_basal: 1e-06
+
+Ga-GTP_Gbg
+dissoc—10
+gabg-gdp dissoc—1e-03
+
+Ga2
+Ga2_Rasgap
+
+G alpha auto GTPase—3
+Ga2-GDP_RasGAP inact
+assoc—0
+
+Ga2-GTP_RasGAP
+dissoc—0
+
+Ga2-GTP_RasGAP
+assoc—0
+
+Ga2-GDP_RasGAP inact
+dissoc—0
+
+Ga2-GTP_RasGAP
+activation—0
+
+RasGAP_Ga2-GTP
+assoc—0
+Gbg_Ras
+
+Gbg_Ras assoc—1e-07
+
+Gbg_Ras dissoc—1e-03
+
+Gbg_Ras activation—
+1e-03
+
+Ras_RasGAP
+
+Ras_RasGAP assoc—
+1e-09
+
+Ras-GTP_RasGAP
+dissoc—1e-05
+
+Ras-GTP_RasGAP
+activation—100
+
+RasGAP_RasGTP
+assoc—1e-06
+
+Ras_RasGAP dissoc—
+1e=04
+
+Ras_RasGAP
+deactivation—1e-09
+
+RasGDP_RasGAP
+inactive assoc—0.1
+
+RasGDP_RasGAP
+inactive dissoc—0.1
+
+RasGAP
+
+RasGAP
+deactivation—0.03
+
+Diffusion coefficients [m^2/s]. Member proteins: GPCR: 1.0e-15, Ras: 1.0e-13, Gβγ: 1.0e-13, and Gα 1.0e-13. All cytosolic components (such as RasGAP) 1.0 e-11.
+The set of parameters for the model of Figure 4C in which RasGAP is activated by both Gα-GTP and Ras-GTP.
+The set of parameters for the model of Figure 4A in which RasGAP is activated by Gα-GTP.
+The set of parameters for the model of Figure 4B in which RasGAP is activated by Ras-GTP.
+
+TABLE 1: One set of parameters for each of the three models. Continued
+
+equilibrated to a stable state for 300 s, a low dose of cAMP
+stimulation (10 nM or 10–8 M) was applied to the cell at 300 s followed by a high dose of cAMP stimulation (10 μM or 10–5 M) at
+400 s (Figure 6). In response to two step–wise cAMP stimulations,
+each model generated two step–like persistent increases in
+GPCR activation (cAMP/GPCR) and G-protein activation and two
+transient responses in Ras-GTP (Figure 6, A–C). Simulated
+
+Volume 33 March 1, 2022
+
+dynamic profiles of G-protein activation and Ras-GTP of each
+model matched those measured in live-cell experiments (Figure
+1C). Each of the three models also predicted the dynamics
+of active RasGEF and active RasGAP. Our simulations indicate
+that each model can reset its activity and adapt to a static stimulation and then respond to another stimulation followed by
+adaptation.
+
+Modeling of GPCR-mediated chemosensing
+
+| 7
+
+FIGURE 4: Simulated dynamics of five signaling steps in response to uniformly applied cAMP stimulation. The signaling
+networks (A–C) have different RasGAP regulatory mechanisms: Panel A shows that RasGAP is activated by Gα-GTP
+alone, panel B shows that RasGAP is activated by Ras-GTP alone, and panel C shows RasGAP is activated by both
+Gα-GTP and Ras-GTP. Simulated dynamics of five signaling steps in three signaling networks include the complex of
+cAMP/GPCR, G-protein activation, Ras-GTP, RasGEF, and RasGAP in response to uniformly applied cAMP stimulations
+at concentrations of 10–9 (yellow), 10–8 (light blue), 10–7 (purple), 10–6 (green), 10–5 (brown), and 10–4 (dark blue) M.
+
+8 | X. Xu et al.
+
+Molecular Biology of the Cell
+
+FIGURE 5: Simulated dynamics of five signaling events in response to two identical cAMP stimulations. The signaling
+networks have different RasGAP regulatory mechanisms: RasGAP is activated by Gα-GTP alone (A: IFFLP), by Ras-GTP
+alone (B: NFBLB), and by both Gα-GTP and Ras-GTP (C: IFFLP+NFBLB). Simulated dynamics of five signaling steps
+include cAMP/GPCR, G-protein activation, Ras-GTP, RasGEF, and RasGAP in response to two cAMP stimulations.
+
+Dynamic behaviors of the signaling network with defective
+RasGAPs
+To explore how mutations in RasGAP affect dynamic behaviors of
+the signaling network, we generated RasGAP mutations in silico
+using the model with the IFFLP+NFBLB mechanism (shown in
+Figure 4C) and then carried out simulations (Figure 7). Using Simmune, we first deleted RasGAP from the network by setting its
+
+Volume 33 March 1, 2022
+
+concentration to 0 and allowed the modeled cell lacking RasGAP
+(rasGAP-) to equilibrate to its basal (prestimulated) state from 0 to
+300 s. In response to cAMP (1 μM or 10–6 M) stimulation applied at
+300 s, the rasGAP- cell generated dynamics of the signaling events
+(blue curves), which are shown with those from the wild-type (WT)
+modeled cell (red curves) (Figure 7A). We found that the rasGAPcell displayed unchanged dynamics at the signaling events of
+
+Modeling of GPCR-mediated chemosensing
+
+| 9
+
+FIGURE 6: Simulated dynamics of five signaling events in response to a two-step cAMP stimulation. The signaling
+networks have different RasGAP regulatory mechanisms: RasGAP is activated by Gα-GTP alone (A: IFFLP), by Ras-GTP
+alone (B: NFBLB), and by both Gα-GTP and Ras-GTP (C: IFFLP+NFBLB). Simulated dynamics of five signaling steps
+include cAMP/GPCR, G-protein activation, Ras-GTP, RasGEF, and RasGAP in response to a two-step cAMP stimulation.
+
+ligand/GPCR, G-protein activation, and RasGEF, while Ras-GTP
+dynamics changed dramatically. Ras-GTP remained at a fully activated level even before the cAMP stimulation, and cAMP stimulation could not further activate Ras signaling (Ras-GTP, blue curve in
+Figure 7A), demonstrating that receptor-induced inhibition of Ras
+is essential for a network to produce a transient and adaptive Ras
+signaling.
+To elevate RasGAP activity, we increased either the number of
+RasGAP molecules by 1000-fold (overexpressing RasGAP,
+10 | X. Xu et al.
+
+RasGAPOE: a blue curve in Figure 7B) or the activity of GAP by 1000fold (hyperactive RasGAP, RasGAPHA: blue curves in Figure 7C) in
+silico and simulated the responses of the two mutant networks to
+cAMP stimulation. The modeled cell was stimulated with cAMP
+(10–6 M) at 300 s, and the simulated dynamics of signaling events
+(blue curves) were compared with those from the WT signaling network (red curves in Figure 7). As expected, Ras signaling could no
+longer be activated by the cAMP stimulation (Ras-GTP; blue curves
+in Figure 7, B and C) in the signaling network with either
+Molecular Biology of the Cell
+
+FIGURE 7: Simulated dynamics of signaling events in networks with mutated RasGAPs. (A) Simulated dynamics of five
+signaling events in the signaling network without RasGAP (blue) and with normal RasGAP (red) in response to uniformly
+applied cAMP (10–6 M). (B) Simulated dynamics of five signaling events in the signaling network with overexpressed
+RasGAP (RasGAPOE, blue) and with normal RasGAP (red) in response to uniformly applied cAMP (10–6 M). (C) Simulated
+dynamics of five signaling events in the signaling network with hyperactive RasGAP (RasGAPHA, blue) and with normal
+RasGAP (red).
+
+Volume 33 March 1, 2022
+
+Modeling of GPCR-mediated chemosensing
+
+| 11
+
+overexpressing RasGAP (Figure 7B) or hyperactive RasGAP (Figure
+7C). However, overexpressing RasGAP, unlike hyperactive RasGAP,
+significantly altered the dynamics of G-protein activation and RasGEF (Figure 7, B and C). Because the WT model uses a combination
+of IFFLP and NFBLB mechanisms, RasGAP has two binding sites,
+one for Gα-GTP and the other for Ras-GTP. Therefore, increasing
+the number of RasGAP would elevate the numbers of both Gα-GTPRasGAP and RasGAP-RasGTP complexes, thereby reducing the
+number of Gα-GDP, which resulted in a significant increase in the
+number of free Gβγ upon cAMP stimulation, and the elevation of
+free Gβγ caused a clear increase in active RasGEF (Figure 7B). In
+contrast, increasing the activity of only RasGAP would not significantly change the numbers of either the Gα-GTP-RasGAP or the
+RasGAP-RasGTP complex and therefore would not affect the dynamics of free Gβγ and RasGEF (Figure 7C). Here, we computationally studied the functions of RasGAP in a GPCR-mediated Ras adaptation by simulating and comparing the dynamic behaviors of a
+signaling network with WT RasGAP, deletion of RasGAP, overexpressing RasGAP, or hyperactive RasGAP. This strategy can be used
+to computationally explore functions of any given component and
+to mathematically predict the effects of a given mutation in the signaling network.
+
+Simulated spatiotemporal dynamics of signaling events in
+response to cAMP gradients
+We tested how each model performs in response to cAMP gradients (Figure 8). We tracked five signaling events upon exposure to a
+cAMP gradient (1 μM or 10–6 M at the front and 0.5 μM or 0.5 × 10–6
+M at the back): ligand/GPCR, G-protein activation, Ras-GTP, RasGEF, and RasGAP, in both the front and back regions of the modeled cell. The results are shown in Figure 8, A, C, and E. The dynamic profiles of ligand/GPCR, G-protein activation, and Ras-GTP in
+both the front and back regions are similar in all three models, and
+these profiles closely resembled those measured experimentally in
+real cells (Xu et al., 2005). Our simulations also predicted the spatiotemporal dynamics of active RasGEF and active RasGAP in the modeled cell in response to a cAMP gradient. We found that each of the
+three adaptation models showed increasing responses along the
+hierarchy of the five signaling steps, ligand/GPCR, G-protein activation, Ras-GTP, RasGEF, and RasGAP, in the front regions. However,
+the differences between the front and back regions for each signaling event were not significant in any of the three models under
+these stimulation conditions, indicating that there was no significant
+spatial amplification at these signaling steps.
+To further test our models in response to a much steeper cAMP
+gradient, we simulated the dynamic responses of a modeled cell exposed to 10 μM (10–5 M) cAMP at the front and 100 nM (10–7 M) at the
+back (Figure 8, B, D, and F). Our simulations showed that the dynamic
+patterns of each signaling step remained like those generated when
+the modeled cell is exposed to uniform stimuli (Figure 4, A–C) and a
+shallow gradient (Figure 8, A, C, and E). We found that a stronger
+stimulus in the front region of the cell induced higher local responses
+in the front than in the back for ligand/GPCR, G-protein activation,
+Ras-GTP, active RasGEF, and active RasGAP. The steeper gradient
+induced increasing differences at each signaling step. Our simulations indicated that our adaptation models can generate directional
+responses but without significant spatial amplification at the signaling
+steps, including ligand/GPCR, G-protein activation, Ras-GTP, active
+RasGEF, and active RasGAP, between the front and back regions in
+response to gradients at different concentrations and/or steepness.
+Amplification of the directional information provided at the receptor
+level thus likely occurs downstream of the Ras signaling.
+12 | X. Xu et al.
+
+DISCUSSION
+In this study, we describe an approach with the combination of experimental measurements and computational modeling to investigate a chemoattractant GPCR-mediated Ras signaling network. We
+first determined the spatiotemporal dynamics of Ras signaling in
+response to various cAMP stimuli using live-cell imaging and then
+constructed computational models of a GPCR-mediated Ras signaling network by incorporating possible regulatory mechanisms of
+Ras signaling, selected a set of parameters for each model, and
+simulated the dynamic profiles of signaling events using Simmune,
+a software package. We constructed detailed computational models that allow us to simulate how a GPCR-mediated signaling network organizes at a molecular level, dynamically encodes information at each signaling step, and systematically produces outputs of
+adaptive Ras signaling.
+Experimentally, we revealed the dynamics of cAR1-mediated Ras
+activation in live cells in response to various cAMP stimuli. From
+previous and current studies, we and others determined the dynamic profiles of cAR1-mediated signaling events, including ligand/
+GPCR (Ueda et al., 2001; Xu et al., 2005), G-protein activation (Janetopoulos et al., 2001; Xu et al., 2005), and Ras signaling (Sasaki
+et al., 2004; Kortholt et al., 2013), in a cell system without the complications associated with additional feedback regulation from the
+actin cytoskeletal system (Huang et al., 2013). Upon a uniform cAMP
+stimulation (Figure 1), cells generated a persistent G-protein dissociation (activation) and a transient Ras activation, followed by an
+imperfect adaptation process of Ras signaling. When the stimulation
+was withdrawn (Figure 1B), each of the cAR1-mediated signaling
+events in the cell quickly returned to the basal (prestimulus) levels
+and became ready to respond to another stimulation. In response to
+a two-step increase in the concentration of uniformly applied cAMP
+stimuli (Figure 1C), each signaling event showed distinct kinetic patterns: G-protein displayed a step-like persistent dissociation/activation, while Ras showed two transient activations with an imperfect
+adaptation. Our measured dynamics of several signaling events
+serve as the foundation for our testing of computational models and
+exploring possible mechanisms of cAR1-mediated activation of RasGEF and RasGAP, which controls activation and deactivation of Ras.
+It is still not clear how the GPCR/G-protein machinery controls
+the activities of Ras regulators, such as RasGEF and RasGAP, to
+achieve adaptation in Ras signaling in chemotaxing cells. Many conceptual models of a chemoattractant GPCR-mediated signaling network have been proposed, and all of them are the IFFLP type (Parent and Devreotes, 1999; Takeda et al., 2012). Meier-Schellersheim
+et al. (2006) reported a detailed cAR1-mediated chemosensing
+model in which RasGAP is activated by Gα2-GTP, which belongs to
+an IFFLP topology. In the current study, we constructed three models by incorporating different activation mechanisms of RasGAP by
+cAR1, including activation by Gα-GTP, an IFFLP type (Figure 4A); by
+Ras-GTP, an NFBLB type (Figure 4B); or both Gα-GTP and Ras-GTP,
+a combination of IFFLP and NFBLB types (Figure 4C). Through trial
+and error, we selected one set of parameters for each model that
+was able to reproduce the characteristics of the experimentally observed imperfect Ras adaptation (Figure 4, A–C). Each model also
+performed well in response to two cAMP stimulations (Figure 5,
+A–C) or two step-wise cAMP stimulations (Figure 6, A–C), indicating
+that the signaling network in each model can properly respond to a
+large range of chemoattractant concentrations, to quickly return to
+the prestimulus stage when the stimulation is withdrawn, and to
+adapt to a sustained stimulus and be ready to respond to another
+stimulation. Furthermore, each model can produce directional
+responses to cAMP gradients (Figure 8), indicating their spatial
+Molecular Biology of the Cell
+
+FIGURE 8: Simulated spatiotemporal dynamics of signaling events in response to cAMP gradients. (A, C, E) In response
+to a cAMP gradient (10–6 M in the front region and 0.5 × 10–6 M in the back region), simulated dynamics of five signaling
+events in the front (blue curves) and back (red curves) regions of the digital cell with the signaling networks shown in
+Figure 6, A, B, and C, respectively. (B, D, F) In response to a cAMP gradient (10–5 M at the front and 10–7 M at the back),
+simulated dynamics of five signaling events in the front (blue curves) and the back region of the digital cell with the
+signaling networks of IFFLP only (A, B), NFBLB only (C, D) and IFFLP+NFBLB (E, F), respectively.
+
+sensing ability. In this study, we did not determine the space of possible parameter values that define each model. Future study is
+needed to scan parameters and determine parameter space for
+models, thereby helping us to determine which model is more likely
+to represent the real cell.
+Many sensory systems in cells and organisms share a property
+called fold-change detection (FCD), which describes a system that is
+sensitive to the fold change in the input signal and not to the absolute change (Goentoro et al., 2009; Shoval et al., 2010; Kamino
+et al., 2017). FCD systems have identical dynamic responses to signals with the same fold change, and the response shows a transient
+increase followed by a perfect adaptation. The FCD property applies to a range of input signals and breaks down when signals are
+too weak or too strong. Previous models simulated fold-change responses for the adaptive responses at the signaling steps of Ras
+signaling (Takeda et al., 2012), PIP3 production, and cAMP production (Kamino et al., 2017). In our study, we included mechanisms
+regulating dissociation of heterotrimeric G-proteins, and our simulations showed that cAMP-induced G-protein dissociation/activation
+displays persistent and incremental increases, unlike the adaptive
+responses of Ras activation, PIP3, and cAMP production. Our simulations showed that cAR1-mediated Ras signaling modeled in each
+network generates transient responses followed by adaptation in
+response to cAMP stimuli ranging from 10–9 to 10–4 M (Figure 4) and
+produces two transient responses upon two step–wise cAMP stimulations (Figure 6, A–C), indicating that each of the networks (IFFLP,
+NFBLB, or IFFLP+NFBLB) displays the characteristics of a FCD system. Two types of gradient sensing models of eukaryotic cells have
+been proposed: one is spatial sensing, where a cell detects the spatial difference of stimuli between its front and back (Parent and
+Devreotes, 1999); the other is temporal sensing, used in bacterial
+Volume 33 March 1, 2022
+
+chemotaxis, in which a cell senses temporal changes in stimuli
+(Levine et al., 2006). Our simulations showed that our models generate directional responses to stimuli with spatial changes. Our adaptation models can generate directional responses but without spatial amplification at the signaling steps, including ligand/GPCR,
+G-protein activation, Ras-GTP, active RasGEF, and active RasGAP,
+between the front and back regions in response to gradients of different concentrations and/or steepness. Amplification of the directional difference at the receptor level thus likely occurs downstream
+of the Ras activating signaling steps. In the future, we will investigate
+how the models respond to stimuli with temporal changes and spatiotemporal changes such as waves.
+The systems biology approach, comprising single-cell quantitative measurements and computational modeling, has been used to
+study different fundamental cellular processes, such as cell polarity in
+yeast (Howell et al., 2012), the dynamic control of signal transmission
+by the Ras/Erk module (Toettcher et al., 2013), the regulation of
+GPCR dynamics by its regulator (Xu et al., 2010; Venkatapurapu
+et al., 2015), and calcium homeostasis (Bandara et al., 2013). This
+study is another step toward more clearly comprehending the complex signaling network underlying eukaryotic chemotaxis. We are
+aware of the fact that cells contain additional Ras regulatory mechanisms that feed back from the actin cytoskeletal system to upstream
+signaling steps (Charest and Firtel, 2006; Charest et al., 2010; Lee
+et al., 2010; Huang et al., 2013; Xu et al., 2017). For example, a Sca1/
+RasGEF/PP2A protein complex is recruited to the membrane of the
+leading edge of chemotaxing cells in an F-actin–dependent manner,
+and there it regulates F-actin dynamics by controlling the activation
+of RasC (Charest et al., 2010), and cells lacking the actin motor myosin II show a prolonged Ras activation (Lee et al., 2010). These are
+components of a more complex cAR1-mediated signaling network
+Modeling of GPCR-mediated chemosensing
+
+| 13
+
+that contains additional elements regulating Ras signaling and contributing to spatiotemporal Ras activation in a chemotaxing cell.
+While our cAR1-mediated Ras signaling models are far from complete and are still missing many components involved in chemotaxis,
+the modeling approach, using Simmune, will allow us and others to
+readily extend the degree of molecular detail and test the validity of
+the models with added assumptions through the interplay between
+experimental measurements and computational simulations.
+
+acceptor (YFP) tagged to Gβ and the donor (CFP) tagged to Gα2,
+using a spectral confocal fluorescence microscope (LSM 510 META)
+with a time-lapse acquisition of lambda stacks as previously described (Xu et al., 2005). The intensities of each fluorophore in the
+membrane in the time lapse were measured, normalized, and expressed as a function of time in response to cAMP stimulations, using the software LSM 510 META (Xu et al., 2005).
+
+Imaging and data processing
+MATERIALS AND METHODS
+Request a protocol through Bio-protocol.
+
+Cell culture and development
+D. discoideum cell lines expressing RBD-GFP (Sasaki et al., 2004),
+PHCrac-GFP (Parent et al., 1998), and both Gα2CFP and YFPGβ
+(Janetopoulos et al., 2001) were developed to the chemotactic
+stage. Briefly, log-phase vegetative cells were harvested from shaking culture (5 × 106 cells/ml), washed twice with developmental buffer
+(DB) buffer, resuspended at 2 × 107 cells/ml with shaking at 100 rpm,
+and allowed to differentiate with 75 nM adenosine 3′:5′-cyclic monophosphate (cAMP) (Sigma, Steinheim, Germany) pulses at 6-min intervals for 5–7 h or longer to obtain chemotactic cells. Differentiated
+cells were diluted to 1 × 107 cells/ml in DB buffer with 2.5 mM caffeine
+and shaken at 200 rpm for 15 min.
+
+Live-cell imaging
+Cells were plated on a one-well or a four-well chamber, allowed to
+adhere to the cover glass for 10 min, and then covered with additional DB buffer. Live cells were imaged using a Zeiss Laser Scanning
+Microscope, LSM 510 META, with a 40×NA 1.3 differential interference contrast (DIC) plan-Neofluar objective. To monitor cAMP and
+RBD-GFP, cells were excited with two laser lines, 488 nm for GFP
+and 543 nm for Alexa 594, a water-soluble fluorescence dye mixed
+with cAMP. Images were simultaneously recorded in three channels:
+channel one, fluorescent emissions from 505 to 530 nm for GFP
+(green); channel two, emissions from 580 to 650 nm for Alexa 594
+(red); and channel three, DIC.
+
+Generation and measurement of applied cAMP stimulations
+Spatiotemporal changes in Alexa 594 and cells expressing RBD-GFP
+were directly imaged using a confocal microscope. Fluorescence intensities of Alexa 594 and GFP were simultaneously recorded in two
+different channels. To apply the uniform stimulation in Figure 1 or
+the two-step cAMP stimulation in Figure 3, 100 μl of a mixture of
+cAMP and Alexa 594 (Molecular Probes) was added to the top of
+cells placed in a four-well chamber (Xu et al., 2005). To suddenly
+expose a cell to two identical cAMP stimulations in Figure 2 or to a
+stable gradient in Figure 4, a micropipette releasing a mixture of
+cAMP and Alexa 594 linked to a Femtojet was set at least 1000 μm
+away from cells and then was quickly positioned close to the cells.
+To withdraw the cAMP stimulation, the micropipette was quickly
+moved away from the cells. During the experiments, we changed
+only the distance between the micropipette and the cells to stimulate the cells with two cAMP stimulations or a stable gradient. After
+live-cell experiments, cAMP stimulations around the cells were analyzed during data analyses; stimulations with abnormal spatiotemporal changes in cAMP around a cell were not used in this study.
+
+FRET measurement to monitor cAMP-induced dissociation
+of G-proteins
+To monitor G-protein dissociation (activation) upon cAMP stimulation, we measured the intensity changes of a FRET pair, with the
+14 | X. Xu et al.
+
+Images were processed by LSM 510 META software and converted
+to TIFF files by Adobe Photoshop software. All frames of any given
+series were processed identically. Selected frames of the series
+were assembled as montages. Quantification of fluorescence intensities of Alexa 594, GFP, CFP, or YFP in the regions of interest
+(ROI) was performed using LSM 510 META software and was further processed with Microsoft Excel as previously described (Xu
+et al., 2005).
+
+Model constructions and computer simulations using
+Simmune
+The Simmune software package is a visual interface for creating
+signaling networks and running simulations (Angermann et al.,
+2012). The URL of the online official release of Simmune is https://
+bioinformatics.niaid.nih.gov/simmune/. Simmune consists of three
+components: 1) the Simmune Modeler, which is used to generate
+a signaling network by defining molecules, their states, and binding sites for the specification of molecular interactions or enzymatic transformations (Zhang et al., 2013); 2) the Simmune Cell
+Designer, which is used to generate a 3D digital cell by defining
+cellular morphologies (Angermann et al., 2012); and 3) the Simmune Simulator, which is used to run simulations in response to
+spatiotemporal changes of extracellular stimuli. Simulated results
+can be viewed as a total number of changes of molecules (and
+molecular complexes) in the signaling network in the modeled cell
+in space and time.
+
+ACKNOWLEDGMENTS
+We thank Martin Meier-Schellersheim for developing Simmune software and making it available to the public (https://bioinformatics
+.niaid.nih.gov/simmune/). This study was supported by National Institute of Allergy and Infectious Diseases, National Institutes of
+Health, intramural funds.
+
+REFERENCES
+
+Angermann BR, Klauschen F, Garcia AD, Prustel T, Zhang F, Germain RN,
+Meier-Schellersheim M (2012). Computational modeling of cellular signaling processes embedded into dynamic spatial contexts. Nat Methods
+9, 283–289.
+Bandara S, Malmersjo S, Meyer T (2013). Regulators of calcium homeostasis
+identified by inference of kinetic model parameters from live single cells
+perturbed by siRNA. Sci Signal 6, ra56.
+Bloomfield G, Traynor D, Sander SP, Veltman DM, Pachebat JA, Kay RR
+(2015). Neurofibromin controls macropinocytosis and phagocytosis in
+Dictyostelium. eLife 4, e04940.
+Bravo-Cordero JJ, Hodgson L, Condeelis J (2012). Directed cell invasion
+and migration during metastasis. Curr Opin Cell Biol 24, 277–283.
+Charest PG, Firtel RA (2006). Feedback signaling controls leading-edge
+formation during chemotaxis. Curr Opin Genet Dev 16, 339–347.
+Charest PG, Shen Z, Lakoduk A, Sasaki AT, Briggs SP, Firtel RA (2010). A Ras
+signaling complex controls the RasC-TORC2 pathway and directed cell
+migration. Dev Cell 18, 737–749.
+Cheng Y, Othmer H (2016). A model for direction sensing in Dictyostelium discoideum: Ras activity and symmetry breaking driven by a
+Gbetagamma-mediated, Galpha2-Ric8–dependent signal transduction
+network. PLoS Comput Biol 12, e1004900.
+Molecular Biology of the Cell
+
+Chou RC, Kim ND, Sadik CD, Seung E, Lan Y, Byrne MH, Haribabu B,
+Iwakura Y, Luster AD (2010). Lipid-cytokine-chemokine cascade drives
+neutrophil recruitment in a murine model of inflammatory arthritis.
+Immunity 33, 266–278.
+Chung CY, Funamoto S, Firtel RA (2001). Signaling pathways controlling cell
+polarity and chemotaxis. Trends Biochem Sci 26, 557–566.
+Devreotes P, Janetopoulos C (2003). Eukaryotic chemotaxis: distinctions between directional sensing and polarization. J Biol Chem 278, 20445–20448.
+Devreotes PN, Steck TL (1979). Cyclic 3',5' AMP relay in Dictyostelium
+discoideum. II. Requirements for the initiation and termination of the
+response. J Cell Biol 80, 300–309.
+Goentoro L, Shoval O, Kirschner MW, Alon U (2009). The incoherent feedforward loop can provide fold-change detection in gene regulation. Mol
+Cell 36, 894–899.
+Hoeller O, Gong D, Weiner OD (2014). How to understand and outwit
+adaptation. Dev Cell 28, 607–616.
+Howell AS, Jin M, Wu CF, Zyla TR, Elston TC, Lew DJ (2012). Negative feedback enhances robustness in the yeast polarity establishment circuit.
+Cell 149, 322–333.
+Huang CH, Tang M, Shi C, Iglesias PA, Devreotes PN (2013). An excitable
+signal integrator couples to an idling cytoskeletal oscillator to drive cell
+migration. Nat Cell Biol 15, 1307–1316.
+Iglesias PA, Devreotes PN (2012). Biased excitable networks: how cells
+direct motion in response to gradients. Curr Opin Cell Biol 24, 245–253.
+Iijima M, Huang YE, Devreotes P (2002). Temporal and spatial regulation of
+chemotaxis. Dev Cell 3, 469–478.
+Insall RH, Borleis J, Devreotes PN (1996). The aimless RasGEF is required for
+processing of chemotactic signals through G-protein-coupled receptors
+in Dictyostelium. Curr Biol 6, 719–729.
+Janetopoulos C, Jin T, Devreotes P (2001). Receptor-mediated activation of
+heterotrimeric G-proteins in living cells. Science 291, 2408–2411.
+Jin T (2013). Gradient sensing during chemotaxis. Curr Opin Cell Biol 25,
+532–537.
+Jin T, Xu X, Hereld D (2008). Chemotaxis, chemokine receptors and human
+disease. Cytokine 44, 1–8.
+Kae H, Kortholt A, Rehmann H, Insall RH, Van Haastert PJ, Spiegelman GB,
+Weeks G (2007). Cyclic AMP signalling in Dictyostelium: G-proteins
+activate separate Ras pathways using specific RasGEFs. EMBO Rep 8,
+477–482.
+Kae H, Lim CJ, Spiegelman GB, Weeks G (2004). Chemoattractant-induced
+Ras activation during Dictyostelium aggregation. EMBO Rep 5, 602–606.
+Kamino K, Kondo Y, Nakajima A, Honda-Kitahara M, Kaneko K, Sawai S
+(2017). Fold-change detection and scale invariance of cell-cell signaling
+in social amoeba. Proc Natl Acad Sci USA 114, E4149–E4157.
+Kortholt A, Kataria R, Keizer-Gunnink I, Van Egmond WN, Khanna A, Van
+Haastert PJ (2011). Dictyostelium chemotaxis: essential Ras activation
+and accessory signalling pathways for amplification. EMBO Rep 12,
+1273–1279.
+Kortholt A, Keizer-Gunnink I, Kataria R, Van Haastert PJ (2013). Ras activation and symmetry breaking during Dictyostelium chemotaxis. J Cell Sci
+126, 4502–4513.
+Lee S, Shen Z, Robinson DN, Briggs S, Firtel RA (2010). Involvement of the
+cytoskeleton in controlling leading-edge function during chemotaxis.
+Mol Biol Cell 21, 1810–1824.
+Levine H, Kessler DA, Rappel WJ (2006). Directional sensing in eukaryotic
+chemotaxis: a balanced inactivation model. Proc Natl Acad Sci USA 103,
+9761–9766.
+Ma L, Janetopoulos C, Yang L, Devreotes PN, Iglesias PA (2004). Two
+complementary, local excitation, global inhibition mechanisms acting in
+parallel can explain the chemoattractant-induced regulation of PI(3,4,5)
+P3 response in dictyostelium cells. Biophys J 87, 3764–3774.
+
+Volume 33 March 1, 2022
+
+Ma W, Trusina A, El-Samad H, Lim WA, Tang C (2009). Defining network
+topologies that can achieve biochemical adaptation. Cell 138, 760–773.
+Meier-Schellersheim M, Klauschen F, Angermann B (2009). Computational
+modeling of signaling networks for eukaryotic chemosensing. Methods
+Mol Biol 571, 507–526.
+Meier-Schellersheim M, Xu X, Angermann B, Kunkel EJ, Jin T, Germain RN
+(2006). Key role of local regulation in chemosensing revealed by a new
+molecular interaction-based modeling method. PLoS Comput Biol 2,
+e82.
+Meinhardt H (1999). Orientation of chemotactic cells and growth cones:
+models and mechanisms. J Cell Sci 112 (Pt 17), 2867–2874.
+Nakajima A, Ishihara S, Imoto D, Sawai S (2014). Rectified directional sensing in long-range cell migration. Nat Commun 5, 5367.
+Parent CA, Blacklock BJ, Froehlich WM, Murphy DB, Devreotes PN (1998).
+G protein signaling events are activated at the leading edge of chemotactic cells. Cell 95, 81–91.
+Parent CA, Devreotes PN (1999). A cell's sense of direction. Science 284,
+765–770.
+Sasaki AT, Chun C, Takeda K, Firtel RA (2004). Localized Ras signaling at the
+leading edge regulates PI3K, cell polarity, and directional cell movement. J Cell Biol 167, 505–518.
+Shoval O, Goentoro L, Hart Y, Mayo A, Sontag E, Alon U (2010). Foldchange detection and scalar symmetry of sensory input fields. Proc Natl
+Acad Sci USA 107, 15995–16000.
+Takeda K, Shao D, Adler M, Charest PG, Loomis WF, Levine H, Groisman
+A, Rappel WJ, Firtel RA (2012). Incoherent feedforward control governs
+adaptation of activated Ras in a eukaryotic chemotaxis pathway. Sci
+Signal 5, ra2.
+Toettcher JE, Weiner OD, Lim WA (2013). Using optogenetics to interrogate
+the dynamic control of signal transmission by the Ras/Erk module. Cell
+155, 1422–1434.
+Ueda M, Sako Y, Tanaka T, Devreotes P, Yanagida T (2001). Single-molecule
+analysis of chemotactic signaling in Dictyostelium cells. Science 294,
+864–867.
+Van Haastert PJ, Devreotes PN (2004). Chemotaxis: signalling the way
+forward. Nat Rev Mol Cell Biol 5, 626–634.
+Venkatapurapu SP, Kelley JB, Dixit G, Pena M, Errede B, Dohlman HG,
+Elston TC (2015). Modulation of receptor dynamics by the regulator of
+G protein signaling Sst2. Mol Biol Cell 26, 4124–4134.
+Xu X, Meckel T, Brzostowski JA, Yan J, Meier-Schellersheim M, Jin T (2010).
+Coupling mechanism of a GPCR and a heterotrimeric G protein during
+chemoattractant gradient sensing in Dictyostelium. Sci Signal 3, ra71.
+Xu X, Meier-Schellersheim M, Jiao X, Nelson LE, Jin T (2005). Quantitative
+imaging of single live cells reveals spatiotemporal dynamics of multistep
+signaling events of chemoattractant gradient sensing in Dictyostelium.
+Mol Biol Cell 16, 676–688.
+Xu X, Meier-Schellersheim M, Yan J, Jin T (2007). Locally controlled inhibitory mechanisms are involved in eukaryotic GPCR-mediated chemosensing. J Cell Biol 178, 141–153.
+Xu X, Wen X, Veltman DM, Keizer-Gunnink I, Pots H, Kortholt A, Jin T
+(2017). GPCR-controlled membrane recruitment of negative regulator
+C2GAP1 locally inhibits Ras signaling for adaptation and long-range
+chemotaxis. Proc Natl Acad Sci USA 114, E10092–E10101.
+Zhang F, Angermann BR, Meier-Schellersheim M (2013). The Simmune
+Modeler visual interface for creating signaling networks based on bimolecular interactions. Bioinformatics 29, 1229–1230.
+Zhang S, Charest PG, Firtel RA (2008). Spatiotemporal regulation of Ras
+activity provides directional sensing. Curr Biol 18, 1587–1593.
+Zheng L, Eckerdal J, Dimitrijevic I, Andersson T (1997). Chemotactic
+peptide-induced activation of Ras in human neutrophils is associated
+with inhibition of p120-GAP activity. J Biol Chem 272, 23448–23454.
+
+Modeling of GPCR-mediated chemosensing
+
+| 15
+
+

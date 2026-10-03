@@ -1,0 +1,981 @@
+2922
+
+Research Article
+
+Mobility of G proteins is heterogeneous and polarized
+during chemotaxis
+Freek van Hemert1,*, Milena D. Lazova2,*, B. Ewa Snaar-Jagaska2 and Thomas Schmidt1,‡
+1
+
+Leiden Institute of Physics and 2Leiden Institute of Biology, Leiden University, Niels Bohrweg 2, 2333 CA Leiden, The Netherlands
+
+*These authors contributed equally to this work
+‡
+Author for correspondence (schmidt@physics.leidenuniv.nl)
+
+Accepted 24 May 2010
+Journal of Cell Science 123, 2922-2930
+© 2010. Published by The Company of Biologists Ltd
+doi:10.1242/jcs.063990
+
+Journal of Cell Science
+
+Summary
+The interaction of G-protein-coupled receptors with G proteins is a key event in transmembrane signal transduction that leads to vital
+decision-making by the cell. Here, we applied single-molecule epifluorescence microscopy to study the mobility of both the G and
+the G2 subunits of the G protein heterotrimer in comparison with the cAMP receptor responsible for chemotactic signaling in
+Dictyostelium discoideum. Our experimental results suggest that ~30% of the G protein heterotrimers exist in receptor-precoupled
+complexes. Upon stimulation in a chemotactic gradient, this complex dissociates, subsequently leading to a linear diffusion and
+collision amplification of the external signal. We further found that G was partially immobilized and confined in an agonist-, F-actinand G2-dependent fashion. This led to the hypothesis that functional nanometric domains exist in the plasma membrane, which
+locally restrict the activation signal, and in turn, lead to faithful and efficient chemotactic signaling.
+Key words: Directional sensing, G protein signaling, G-protein-coupled receptor, Single-molecule biophysics
+
+Introduction
+G-protein-mediated signaling is a widely used mechanism for
+transmembrane signal transduction. It entails a seventransmembrane receptor, the G-protein-coupled receptor (GPCR),
+and a heterotrimeric G protein consisting of a G and a
+heterodimeric G subunit. Compared with other transmembrane
+signaling systems, the complex, modular mechanics of G-proteinlinked signaling allows for divergence, convergence and regulation
+to take place at the level of the GPCR–G protein complex by
+modulation of their interaction (Wettschureck and Offermanns,
+2005). Mammalian genomes generally encode more than 1000
+GPCRs, the majority of which do not have a known ligand.
+Although the atomic structure of three GPCRs has been resolved
+(Palczewski et al., 2000; Rasmussen et al., 2007; Jaakola et al.,
+2008), a mechanism for how ligand induced conformational
+changes lead to G protein activation is still unknown. Even the
+simple question of whether GPCRs and G proteins can exist
+together in a stable complex or interact dynamically has been
+solved for only one system (Nobles et al., 2005). In the dogmatic
+view, the ligand-based activation of the GPCR promotes the
+exchange of guanosine diphosphate (GDP) for guanosine
+triphosphate (GTP) in the G subunit, which subsequently
+dissociates from the complex, allowing both G and G to engage
+in downstream signaling. Hydrolysis of GTP to GDP in the G
+subunit, either autocatalytically or by effector proteins, leads to
+reassociation of the GPCR–G complex.
+An intriguing system in which GPCR signaling leads to a
+dramatic change in cellular behavior is that of eukaryotic
+chemotaxis. Chemotaxis controls the developmental cycle in the
+social amoeba Dictyostelium discoideum. Generally, chemotaxis is
+interpreted as a three-stage process starting with gradient sensing,
+followed by cellular polarization and ultimately results in directional
+movement. D. discoideum cells secrete cyclic adenosine monophosphate (cAMP), which acts as a chemoattractant leading to cell
+
+aggregation. Aggregation is achieved by a chemotactic process
+initiated by activation of the cAMP receptor 1 (cAR1), which in
+turn activates a G protein heterotrimer, consisting of a G2 and a
+G subunit (Kimmel and Parent, 2003). Sequencing of the D.
+discoideum genome showed that there is a single G and a single
+G subunit type in D. discoideum (Lilly et al., 1993; Zhang et al.,
+2001). Consequently, the G heterodimer participates in all GPCRtriggered responses. Receptor-mediated activation of heterotrimeric
+G protein complexes was visualized in D. discoideum using
+fluorescence resonance energy transfer (FRET) between the G2
+and G subunits, fused to cyan and yellow fluorescent proteins,
+respectively (Janetopoulos et al., 2001). These FRET experiments
+demonstrated that G protein heterotrimers are stable in the absence
+of agonist and rapidly dissociate upon addition of cAMP. Recently,
+the FRET experiments were complemented with fluorescence
+recovery after photobleaching (FRAP) data. A new model for G
+protein signaling was suggested in which the G2 increases the
+time it spends on the membrane or in a cAR1-bound state and the
+activated G subunit to dissociate into the cytosol. Both processes
+will lead to a cycling of the G protein heterotrimer between the
+membrane-bound and a free cytosolic state (Elzie et al., 2009).
+Although many molecular details of the pathways are known, a
+direct connection between gradient sensing and the movement
+machinery is still to be determined. There are several pathways
+currently known to act in parallel downstream of G protein
+activation that mediate the final chemotactic response. The most
+thoroughly studied pathway involves phosphoinositide 3-kinase
+(PI3K) and its antagonist, a phosphoinositide 3-phosphatase
+(PTEN). The coordinated action of both leads to local accumulation
+of phosphatidylinositol (3,4,5)-trisphosphate [PtdIns(3,4,5)P3] at
+the leading edge of the crawling cells (Iijima and Devreotes, 2002;
+Funamoto et al., 2002). Recently, additional signaling pathways
+have been found to act in parallel: the phospholipase A2 (PLA2)
+(Chen et al., 2007), the soluble guanylyl cyclase (sGC) (Veltman
+
+Journal of Cell Science
+
+Mobility of G proteins
+et al., 2006), and the TorC2 (Kamimura et al., 2008) pathways all
+cooperate, presumably to achieve higher chemotactic efficiencies
+(Veltman et al., 2008).
+In cells placed in a gradient of cAMP, the pathways downstream
+of G protein signaling trigger actin polymerization selectively in
+the cell leading edge, whereas actin polymerization occurs globally
+upon uniform cAMP stimulation (Chen et al., 2003). Unlike the
+highly polarized localization in actin polymerization and the
+preceding highly polar translocation of a variety of intracellular
+signaling molecules such as PtdIns(3,4,5)P3 and PtdIns(4,5)P2,
+receptor localization is fully homogeneous. The G subunit of the
+G protein is localized in a shallow anterior–posterior gradient, at a
+level of polarization that is impossible to restrict signaling to the
+leading edge (Jin et al., 2000). Recent studies (de Keijzer et al.,
+2008) revealed, however, a spatially restricted increase of receptor
+mobility in the leading edge of D. discoideum cells when exposed
+to a stable cAMP gradient. Those data suggested an asymmetry in
+the activation level of the receptor–G-protein pathway with a
+predicted linear amplification of the local activation level of the G
+proteins.
+Here, we set out to address this prediction. We analyzed G2
+and G mobility in the absence of agonist, upon uniform cAMP
+stimulation, and in a cAMP gradient using single-molecule
+epifluorescence microscopy (Schmidt et al., 1996). We found that
+G2 and G occur as a smaller (~30%) receptor-precoupled
+fraction, and a larger (~70%) receptor-uncoupled fraction. Upon
+global stimulation with cAMP, the receptor-coupled fraction
+disappeared. In terms of the receptor, those occupation numbers
+correspond to about 50% of all available receptors. The activated
+G molecules immobilize in an F-actin-dependent manner.
+Concurrently, the formation of F-actin-dependent domains of ~600
+nm was observed. Strikingly, the dramatic changes in mobility
+were restricted to the leading edge of chemotaxing cells. We
+propose that G immobilization is caused by its incorporation
+into a larger signaling complex, a signalosome, for which F-actin
+functions as a scaffold. Such a mechanism would lead to
+stabilization of pseudopods and the formation of a persistent leading
+edge by means of a direct F-actin–G-protein feedback loop.
+Results
+Heterogeneity in the mobility of G2-YFP and G-YFP in
+the absence of agonist
+
+D. discoideum cells were transformed stably with G2-YFP or
+G-YFP constructs to analyze the mobility of individual G2 and
+G molecules, respectively. The fluorescent fusion proteins were
+shown to be functional because they rescued the developmental
+and chemotactic defects of g2– and g– cells. In contrast to g2–
+and g– cells, which are both fully deficient in cAMP-induced
+responses, the G2-YFP g2– and G-YFP g– transformants
+faithfully crawl towards a cAMP source and rescue the
+developmental cycle started upon starvation (Jin et al., 2000;
+Janetopoulos et al., 2001).
+Single-molecule microscopy, a combination of regular widefield microscopy with laser excitation and ultra-sensitive CCD
+camera detection (Schmidt et al., 1996), was used to observe the
+diffusion of G2-YFP and G-YFP on the apical cellular membrane
+of D. discoideum. Measurements on the apical membrane eliminate
+any potential influence of the substrate surface on mobility.
+Fluorescence images were taken consecutively for up to 500 images
+per sequence at an imaging rate of 20 Hz. Diffraction-limited
+fluorescent signals with signal strengths comparable with that
+
+2923
+
+reported for individual monomeric YFP molecules (Harms et al.,
+2001) were observed and followed over time (Fig. 1B,C). Given
+the signal-to-noise ratio achieved, the position of each molecule
+was determined to an accuracy of ~40 nm. Statistical significance
+of all results was assured by the analysis of more than 40 cells for
+each experimental condition. In total, our analysis is based on
+1⫻104 to 4⫻104 observed molecules per condition.
+Particle image correlation spectroscopy (PICS) (Semrau and
+Schmidt, 2007) was subsequently applied to construct the
+cumulative probability (cumulative density function, c.d.f.) of the
+
+Fig. 1. Experimental set-up. (A)A micropipette containing 10M cAMP is
+used to create a stable concentration gradient around its opening. D.
+discoideum cells in the vicinity of the pipette polarize within minutes and
+move up the cAMP concentration gradient. The anterior and posterior of a cell
+was defined as the part closest and farthest away from the pipette, respectively.
+(B)A 514 nm laser beam was focused on the apical cell membrane where
+signals originating from individual G-YFP or G2-YFP proteins were
+observed with a signal-to-noise ratio of ~30. (C)The image stacks were
+scanned for single molecule signatures of which the positions were determined
+to an accuracy of ~40 nm by fitting to a 2D Gaussian profile. Using particle
+image correlation spectroscopy (PICS), the cumulative probability density as a
+function of jump distance (r2, yellow circles) for each time lag (tlag50
+mseconds between subsequent images) [cdf(r2,tlag)] was constructed.
+(D)cdf(r2) at a time lag of 50 mseconds is fitted to a two-component model
+(Eq. 4, orange solid line) [one-component model is shown for comparison
+(Eq. 3, dark-yellow dashed line)]. This results in 2 MSDs and a size
+denominator for both fractions,  and 1- (top left). The same process is
+repeated for multiple time lags (up to eight), as expected the data shifts with
+time lag towards higher squared displacements (top right). The mean-squared
+displacements are plotted versus time lag for the slow fraction (bottom left) and
+the fast fraction (bottom right) of G-YFP in naive wt cells. The free-diffusion
+model (Eq. 1) yielded diffusion constants of D10.15±0.01m2/second and
+D20.011±0.001m2/second. The offset at zero time lag, s0, in C and D is
+given by the limited positional accuracy, s04020.0064m2. The mobility
+of the slow fraction is equivalent to that of the cAMP receptor
+DcAR0.012m2/second (data not shown). Error bars indicate s.e. obtained
+from ten bootstrap runs of the fitting routine.
+
+2924
+
+Journal of Cell Science 123 (17)
+
+squared displacements for time-lags of 0.05–0.4 seconds (Fig.
+1C,D). To our surprise, it became obvious for all c.d.f. values that
+G protein mobility was not homogeneous and was best described
+by a two-fraction model (Fig. 1D), which, after fitting, yielded a
+fraction size and two mean-squared displacements per time lag
+(see the Materials and Methods). The result of a final analysis is
+shown in Fig. 1D for the fast and slow fraction of G-YFP in nonstimulated aggregation-competent cells, respectively (see Fig. 3
+for results on G2-YFP). For both fractions, the mean-squared
+displacement, MSD, increased linearly with time lag, indicative of
+free Brownian motion of the proteins within the membrane
+characterized by diffusion constant D,
+
+Journal of Cell Science
+
+MSD(tlag)  4Dtlag + s0 ,
+
+and D20.023±0.001 m2/second in car1–, respectively (Fig. 2B,
+left), higher than the diffusion constants in wild-type cells, and in
+particular the diffusion constant of cAR1. In comparison, the
+mobility of the fast fractions, D10.16±0.01 m2/second in g2–
+and D10.19±0.01 m2/second in car1–, were unchanged compared
+with wild-type cells (Fig. 2C, left). Within levels of experimental
+uncertainty, G2 mobility was unchanged in car1– and g– cells
+(Fig. 3B,C, left).
+
+(1)
+
+where the offset, s0, accounts for the limited positional accuracy,
+, in the experiment (s0420.0064 m2 with 40 nm). Because
+the G subunit has been shown to be essential for the membrane
+localization of G (Zhang et al., 2001) we assume, in what follows,
+that G is in heterodimeric form and all information obtained for
+G reflects in an identical manner the behavior of G. For GYFP in unstimulated cells, the fast fraction was characterized by a
+diffusion constant D10.15±0.01 m2/second, and the slow fraction,
+consisting of 32±3% of all molecules, was characterized by
+D20.011±0.001 m2/second. For the membrane-bound G2-YFP
+in unstimulated cells the respective diffusion constants of the fast
+and the slow fraction were D10.14±0.01 m2/second and
+D20.015±0.001 m2/second, with the slow fraction constituting
+32±4% of the total pool of molecules (Fig. 3). Identical results for
+the mobility and fraction size of G2 and G were obtained in
+g2– and g– cells that expressed G2-YFP and G-YFP,
+respectively, at endogenous levels (supplementary material Fig.
+S1). The latter findings proved that the predominant fast fraction
+was not an artifact caused by the overexpression of the constructs
+in a wild-type background.
+Mobility suggests the existence of a receptor–G-protein
+precoupled complex in the absence of agonist
+
+The strong similarity of the diffusion constants of both fractions
+for G2 and G further suggests that all membrane-bound G
+proteins in unstimulated cells were G2 heterotrimers. It is
+tempting to associate the slow mobility fractions of G2 and G
+to a receptor–G-protein precoupled complex. The G protein
+diffusion constants (D20.015 m2/second for G2 and D20.011
+m2/second for G) were similar to that found for the fast fraction
+of the receptor cAR1 [MSD(44 mseconds)0.034 m2 (de Keijzer
+et al., 2008); D0.015 m2/second, our unpublished results).
+However, the diffusion constants of the fast fractions of the G
+protein subunits in unstimulated, aggregation-competent cells were
+one order of magnitude higher than that found for cAR1,
+demonstrating that the fast fraction cannot be associated with a
+receptor-precoupled complex.
+The association of the slow G protein fractions with a receptor–
+G-protein precoupled complex was further supported by the analysis
+of G-YFP mobility in car1– and in g2– cells (Fig. 2). Both, GYFP car1– and G-YFP g2– cells were fully deficient in
+chemotactic signaling and unable to aggregate. For both cell types,
+mobility was best described by a two-fraction model, with
+decreased slow fraction size of 18±3% and 27±4% for G-YFP
+car1– and G-YFP g2–, respectively (Fig. 2A). In addition, the
+diffusion constants of the slow fraction of G-YFP in both knockout
+cell types was found to be D20.020±0.001 m2/second in g2–
+
+Fig. 2. Mobility of G-YFP upon stimulation. (A)Size of the slow fraction
+for G-YFP in wt (black) and g2– (light blue), car1– (violet) and wt cells
+treated with 0.5M lat A (green), before and after global stimulation with
+10M cAMP (indicated by – and +, respectively). The slowly diffusing
+population of G-YFP in wt cells increased after cAMP stimulation. The slow
+fractions of G-YFP in g2– and car1– were smaller and did not change
+significantly upon cAMP addition. In latA-treated cells, the slow fraction was
+the same when compared with untreated cells. After stimulation, however,
+there was an increase similar to that found for cells with intact actin
+cytoskeleton. (B)MSD2 versus time-lag plot of the slow fraction of G-YFP in
+wt (black), g2– (light blue), car1– (violet), and wt cells after treatment with
+0.5M latA (green) before (left) and after (right) stimulation with 10M
+cAMP. In wt cells, the slow fraction was fully immobilized after cAMP
+stimulation. G-YFP in g2– and car1– cells was diffusing nearly twice as fast
+as G-YFP in wt cells. In the knockout strains, cAMP addition did not
+influence the diffusion constants, suggesting that immobilization of the slow
+population of G-YFP in wt cells was due to signaling events. LatA-treated wt
+cells did not show any immobilization, suggesting that immobilization is
+caused by interaction of the G subunit with F-actin structures. (C)MSD1
+versus time lag of the fast fraction of G-YFP in wt (black), g2– (light blue),
+car1– (violet), and wt cells treated with 0.5M lat A (green) before (left) and
+after (right) stimulation with 10M cAMP. The diffusion behavior of G-YFP
+in wt cells changed from free (Eq. 1) to confined (Eq. 2) upon cAMP
+stimulation. This was not observed in latA-treated, g2– and car1– cells, where
+G protein signaling was impaired. All values are means ± s.e. obtained from
+ten bootstrap runs of the fitting routine.
+
+Journal of Cell Science
+
+Mobility of G proteins
+
+2925
+
+Fig. 4. Comparison of the mobility of the fast fractions of G-YFP and
+G2-YFP. The behavior of the fast G-YFP (black) and G2-YFP (red) on
+the apical membrane of wt D. discoideum (A) before, and (B) after uniform
+stimulation with 10M cAMP changes from free to confined diffusion,
+respectively. The formed domains have an average side length of 600 nm.
+Error bars represent s.e. obtained from ten bootstrap runs of the fitting
+routine.
+Fig. 3. Mobility of G2-YFP upon stimulation. (A)Size of the slow fraction
+of G2-YFP in wt (red), g– (cyan), car1– (purple), and cells treated with
+0.5M latA (blue), before (–) and after (+) global stimulation with 10M
+cAMP. (B)MSD2 versus time lag of the slow fraction of G2-YFP in wt (red),
+g2– (cyan), car1– (purple), and cells treated with 0.5M latA (blue) before
+(left) and after (right) uniform stimulation with 10M cAMP. The diffusion of
+the slow fraction of G2-YFP was not influenced by stimulation with cAMP,
+knockout of g, or disruption of the F-actin cytoskeleton. (C)MSD1 versus
+time lag of the fast fraction of G2-YFP in wt (red), g– (cyan), car1–
+(purple), and cells treated with 0.5M latA (blue) before (left) and after (right)
+uniform stimulation with 10M cAMP. The diffusion behavior of G2-YFP in
+wt changed from free (Eq. 1) to confined (Eq. 2) upon cAMP stimulation. This
+was not observed for latA-treated, g– or car1– cells. All values are means ±
+s.e. obtained from ten bootstrap runs of the fitting routine.
+
+Additional support for our hypothesis on association of the slow
+fraction with a receptor–G-protein precoupled complex was obtained
+from the estimated expression levels of all components in wild-type
+and knockout cells. We used the membrane-localized fluorescence
+signal to estimate the density of G-YFP and G2-YFP (see the
+Materials and Methods). Approximately 7.7⫻104 G-YFP were
+expressed, which is at the lower end of the expression level of
+reported endogenous G molecules of 8⫻104–40⫻104 molecules
+(Jin et al., 2000). It was reported earlier that 4⫻104 receptors were
+expressed in wild-type and in transformed cells (Van Haastert et al.,
+1996; de Keijzer et al., 2008), the active fraction of which, 2⫻104
+(~50% of 4⫻104) (de Keijzer et al., 2008) corresponds very well to
+the number of slow G molecules, 2.5⫻104 (~32% of 7.7⫻104).
+A fraction of G-YFP becomes immobilized upon cAMPinduced receptor activation
+
+To study the effect of cAMP-induced activation on G2 and G
+mobility, cells were uniformly stimulated with 10 M cAMP.
+
+Single-molecule data were taken between 1 and 20 minutes after
+addition of cAMP (see the Materials and Methods). A
+redistribution of the fraction sizes and mobilities was observed.
+The slow fraction of G-YFP increased to 41±3% upon
+stimulation (Fig. 2A), and became immobile (D2≤0.001
+m2/second; Fig. 2B, right).
+Neither immobilization nor change in fraction size was observed
+for G2-YFP (Fig. 3A,B). Because G2 cycles rapidly between
+the membrane and the cytosol upon stimulation of cAR1 (Elzie et
+al., 2009), this latter finding suggests that a receptor–G2 complex
+is formed before the full receptor–G-protein heterotrimer complex.
+The increase of the G-YFP slow fraction and concomitant
+immobilization was not observed in G-YFP car1– and G-YFP
+g2– cells, where the slow fraction was 22±4% and 21±3% after
+stimulation, respectively (Fig. 2A,B, right). This remaining slow
+fraction might be bound to other G subunits that are related to
+signaling via other G protein coupled receptors. Whereas the result
+on G-YFP car1– was predicted, the lack of G-YFP response in
+G-YFP g2– cells supports the notion that coupling to and
+activation by cAR1 requires G2. These observations together
+were taken as further support for the hypothesis that the slow G2YFP and G-YFP population reflected a receptor–G-protein
+precoupled complex, which dissociates upon ligand binding and
+receptor activation.
+cAMP stimulation induces confined diffusion of fast G2YFP and G-YFP fractions into 600 nm membrane
+domains
+
+Upon global cAMP stimulation, the fast fractions of both G2YFP and G-YFP changed their behavior from free diffusion (Eq.
+1) to confined diffusion (Fig. 4, Eq. 2). Confined diffusion is a
+process in which a molecule is free to diffuse in a restricted domain
+
+2926
+
+Journal of Cell Science 123 (17)
+
+surrounded by impermeable fences. The corresponding relation
+between MSD and time lag is:
+MSD(tlag ) =
+
+⎛ −12 Dinit tlag ⎞ ⎞
+L2 ⎛
+1 − exp ⎜
+⎜
+⎟⎠ ⎟ + s0 ,
+3⎝
+L2
+⎝
+⎠
+
+(2)
+
+where Dinit is the initial diffusion coefficient for small time lags,
+and L represents the side length of a square domain (Kusumi et al.,
+1993). From Fig. 4B, the domain size was determined to be
+600±100 nm for both G2-YFP and G-YFP, and the initial
+diffusion constants Dinit,10.19±0.02 and Dinit,10.16±0.02
+m2/second for the two constructs, respectively.
+
+Journal of Cell Science
+
+cAMP-induced membrane domains and G-YFP
+immobilization are F-actin dependent
+
+To determine whether there is a relation between actin
+polymerization, the 600 nm membrane domains, and the cAMPinduced immobilization of the G slow fraction, aggregationcompetent G-YFP wt cells were incubated with 0.5 M latrunculin
+A (latA) for 10 minutes. The diffusion behavior of G2-YFP and
+G-YFP was unchanged after latA treatment in unstimulated cells
+(Fig. 2B,C, left; Fig. 3B,C, left). However, upon global stimulation
+with 10 M cAMP, a significant change in diffusion behavior was
+observed. The slow fraction size of G-YFP increased slightly to
+39±5%, and the immobilization seen for untreated cells disappeared
+(D20.016±0.001 m2/second; Fig. 2B, right). Furthermore, the
+confinement observed in the fast fractions of G2-YFP and GYFP vanished and both constructs diffused freely with
+D10.15±0.01 m2/second (Fig. 2C, right; Fig. 3C). These results
+led us to conclude that the membrane domains observed were Factin dependent, and that immobilization of G-YFP required
+either a direct or an indirect interaction of G-YFP with the F-actin
+meshwork. It should be noted, however, that the increase of the
+slow fraction upon global cAMP stimulation was undisturbed by
+latA. By contrast, the immobilization of the slow G-YFP fraction
+was clearly regulated by F-actin and is presumably involved in
+maintaining cell polarity during chemotaxis.
+The increase of the slow fraction and G immobilization
+occurs selectively in the leading edge of D. discoideum
+cells
+
+Whether the increase of the slow fraction and immobilization of
+G-YFP upon global stimulation with 10 M cAMP reflects a
+differential G protein behavior in the chemotaxis process was
+subsequently tested in a micropipette assay. The opening of a
+micropipette, filled with 10 M cAMP, was placed at a distance of
+75 m from the cells generating a shallow cAMP gradient of ~0.4
+nM/m at the cell position. After 1–3 minutes, cells became highly
+polarized and oriented towards the micropipette (Fig. 1A). The
+size of the slow fraction of G-YFP differed significantly when
+comparing leading to trailing edge, which were found to be 38±4%
+and 23±3%, respectively (Fig. 5A). Strikingly we found that the
+diffusion constants of the slow fraction were different at the anterior
+compared with the posterior: at the anterior, the slow G-YFP
+fraction was immobilized (D2<0.001 m2/second; Fig. 5C, left)
+exactly as observed upon global stimulation, whereas at the
+posterior, the diffusion constant was comparable with that found
+for unstimulated cells (D20.012±0.001 m2/second). We also
+found that the formation of the characteristic 600 nm domains was
+restricted to the anterior (Fig. 5B). All together, the behavior of
+G in the absence of agonist matches the behavior in the posterior,
+whereas G behavior at the anterior matches the situation observed
+
+Fig. 5. G-YFP mobility is highly polarized. The diffusion of G-YFP in the
+anterior (red) and the posterior (blue) apical membrane of wt D. discoideum
+crawling in a shallow (0.4 nM/m) cAMP gradient shows distinct differences.
+The black lines show the results obtained for cells before (dashed line; Fig.
+1D, lower left and right) and after global stimulation with 10M cAMP (solid
+line, Fig. 1D, lower right). (A)Slow fraction size of G-YFP in the leading
+(red) and trailing (blue) edge of wt cells (left) and cells treated with latA.
+(B)MSD1 versus time lag for the fast fraction in the leading (red) and trailing
+edge (blue). Confinement was only observed for the fast fraction at the anterior
+upon stimulation with a cAMP gradient. (C)MSD versus time plot for the
+slow fraction in the leading (red) and trailing edge (blue) in wt cells (top) and
+cells treated with latA (bottom). In the wt cells, the slow fraction was
+immobilized in the front (D<0.001m2/second). Immobilization was not
+observed in latA-treated cells. All values are means ± s.e. obtained from ten
+bootstrap runs of the fitting routine.
+
+after global agonist stimulation. Micropipette experiments on latAtreated cells confirmed that F-actin, in part, controls G protein
+mobility in an activation-dependent manner. As latA-pretreated
+cells did not evolve any morphological polarity, we defined the
+part nearest to the micropipette as the anterior. The posterior part
+of the cell was defined accordingly. The difference in slow fraction
+size between the anterior and the posterior cell regions was found
+to be the same as that found in polarized cells with intact
+cytoskeleton (Fig. 4A, right). This finding could have been
+
+Mobility of G proteins
+
+2927
+
+predicted given that gradient sensing is an actin-independent
+process. Similarly to the case of uniform cAMP stimulation, the
+immobilization of G-YFP at the anterior, as well as the confined
+diffusion behavior of the fast fraction disappeared upon F-actin
+disruption.
+
+Journal of Cell Science
+
+cAMP-induced domain formation is independent of PI3K
+and PLA2
+
+To investigate whether the observed cAMP-induced changes in the
+mobility of the G subunits are the consequence of the activity of
+the PI3K pathway, we treated the cells with the PI3K inhibitor
+LY294002. At a concentration of 60 M and incubation times of
+15 minutes, PI3K activity is reduced by >95% (Chen et al., 2007).
+In the absence of agonist, the inhibitor did not influence the
+mobility of G subunits. Uniform stimulation with 10 M cAMP
+also resulted in diffusion parameters that were similar to the control
+situation of wild-type cells stimulated with cAMP. The fast fraction
+was confined, revealing the presence of ~600 nm domains (Fig.
+6C). The slow fraction in LY294002-treated cells was significantly
+slowed (D20.006±0.001 m2/second), but mobile (Fig. 6B).
+Similarly to the control experiments on global cAMP stimulation,
+the size of the slow fraction grew by 17% (Fig. 6A).
+The observed results suggested that the F-actin-dependent
+domain formation was independent of PI3K activity. Although the
+PI3K–PTEN pathway is known to be important for ligand-induced
+actin polymerization, the latter finding is probably justified by the
+presence of parallel pathways. Therefore, in addition to LY294002,
+we also used the PLA2 inhibitor bromoenol lactone (BEL) at a
+saturating concentration of 5 M (Chen et al., 2007). Cells were
+incubated with both inhibitors and subsequently stimulated with
+10 M cAMP. Treatment with both inhibitors did not result in any
+significant change in the mobility when compared with treatment
+with LY294002 alone (Fig. 6B). This result further proved the
+notion that additional pathways act in parallel to PI3K and PLA2
+pathways and that they are sufficient for actin reorganization, albeit
+at a reduced efficient compared with when all pathways are active.
+Discussion
+The spatiotemporal behavior and interaction of activated GPCRs
+with G proteins constitutes a key event in chemotaxis. Using
+single-molecule epifluorescence microscopy we measured G
+protein diffusion in the absence and presence of agonist and in
+cells in an agonist gradient. By analysis of the mobility in various
+signaling states, we developed a mechanistic model of the early
+steps in chemotactic signaling (Fig. 7). In the inactive state (Fig.
+7, top), G proteins at the membrane are in one of two fractions:
+a highly mobile G2 heterotrimer or a low-mobility receptor–
+G2 precoupled complex. The receptor–G2 complex, which
+accounts for 32% of the membrane-bound G2, 32% of the G,
+and 50% of the activatable receptor population, was identified by
+comparison of their mobility. Binding of the G protein to the
+receptor leads to a slow-down in its mobility by one order of
+magnitude. This latter finding is in line with recent FRAP and
+TIRFM experiments (Elzie et al., 2009) in which an increase in
+membrane-bound G protein fraction on receptor activation has
+been found and attributed to G-protein–receptor interaction. Given
+that fast cytosolic proteins (Potma et al., 2001) are not visible
+with our technique and only lead to an increased background
+signal, our results provide a detailed view on the membranebound fraction and the processes that have a role within the
+membrane.
+
+Fig. 6. Mobility of G-YFP on inhibition of PI3K and PLA2. Diffusion of
+G-YFP on the apical membrane of wt D. discoideum treated with the
+PtdIns(3,4,5)P3 kinase inhibitor LY294002, and the PLA2 inhibitor bromoenol
+lactone (BEL). (A)Size of the slow fraction of G-YFP before and after
+uniform stimulation with 10M cAMP in wt cells (black), cells treated with
+LY294002 (gray) and cells treated with both LY294002 and BEL (light gray).
+(B)MSD2 versus time lag of the slow fraction of G-YFP in wt cells (black),
+cells treated with LY204002 (gray), and cells treated with both LY294002 and
+BEL (light gray) before (left) and after (right) uniform stimulation with 10M
+cAMP. cAMP stimulation caused a dramatic slow down of the diffusion of the
+slow fraction in wt cells. This slow down was impaired after treatment with
+both inhibitors. (C)MSD1 versus time plot of the fast fraction of G-YFP in
+wt cells (black), cells treated with LY294002 (gray), and cells treated with
+both LY294002 and BEL (light gray) before (left) and after (right) uniform
+stimulation with 10M cAMP. Confinement upon cAMP stimulation was
+observed even in presence of both LY294002 and BEL. These findings suggest
+that a third parallel pathway, which was not inhibited [most likely the TorC2
+pathway (Kamimura et al., 2008)], is acting in gradient sensing. All values are
+means ± s.e. obtained from ten bootstrap runs of the fitting routine.
+
+Receptor activation by stimulation with cAMP (Fig. 7, bottom)
+disrupts the equilibrium between the G2 heterotrimer and the
+receptor–G2 precoupled complex by allowing the latter to form
+an activated receptor–G2 complex. This intermediate complex
+subsequently dissociates into a free activated receptor, and into
+free G and G2GTP subunits. As argued by de Keijzer and
+colleagues (de Keijzer et al., 2008), the activated cAMP-receptor
+is able in turn to interact with and activate further G2
+heterotrimers (68% of the initial G and the membrane-bound
+G2 population) (Fig. 7, bottom, red arrows), resulting in a local
+increase of G protein activation until cAMP dissociates from cAR1
+at a rate of 0.4–1 second–1 (Janssens and Van Haastert, 1987). It
+was predicted earlier (de Keijzer et al., 2008) that such a local
+amplification step, governed by the simultaneous increase in
+
+Journal of Cell Science
+
+2928
+
+Journal of Cell Science 123 (17)
+
+Fig. 7. Model describing the dynamic cAR1–G-protein interaction at the
+leading and trailing edge. Before cAMP stimulation (top) the G protein fast
+fraction is diffusing freely on the membrane with diffusion constant
+D0.15m2/second. The slow fraction (D0.011m2/second) exists as a
+complex, which is precoupled to cAR1. 30% of the G protein and about 60%
+of the receptor population exist in this fraction. Upon binding of cAMP to the
+receptor (bottom), the G protein heterotrimer is dissociated: the G2 subunit
+exchanges GDP for GTP and diffuses into the cytosol where it is free to
+activate downstream signaling molecules. The previously precoupled cAR1
+fraction is engaged in catalytic activation of the large G protein heterotrimer
+pool (indicated by red arrows). The G heterodimeric subunit is immobilized
+by interaction with F-actin associated structures, which potentially serve to
+locally enhance chemotactic signaling. Tightening of membrane-associated Factin restricts the diffusion of G proteins to ~600 nm domains.
+
+receptor mobility, will lead to a final fivefold linear amplification
+of the external cAMP gradient to an intracellular gradient in active
+G proteins. The current experiments confirmed this prediction.
+Using the diffusion behavior of the G proteins as characterized
+here for the finite-element model described before (de Keijzer et
+al., 2008), we found that one cAR1 receptor activates 5–10 G
+proteins at gradient conditions that were experimentally realized.
+In parallel to the increase in fraction size, we observed a slowdown of G mobility upon stimulation. Since measurements were
+performed within 20 minutes of stimulation, a time after which
+adaptive processes have been initiated (Devreotes and Steck, 1979;
+Wessels et al., 1989), we conclude that the immobilization is not
+transient, but persists as long as cells are stimulated. The
+observation confirms the previously observed dose-dependent
+steady-state loss of FRET, which was explained by the dissociation
+of the G2 complex into its subunits (Janetopoulos et al., 2001).
+Following G protein activation and further downstream signaling,
+the actin cytoskeleton is reorganized (Franca-Koh et al., 2006).
+Reorganization leads to a tightening of membrane-associated Factin, which is apparent in G2 and G mobility and shows
+
+confinement to F-actin-dependent domains of ~600 nm in size. At
+this point, it is still unclear whether F-actin is sufficient for G
+immobilization or whether associated proteins are needed to allow
+for the immobilization to occur. Inhibition of downstream PI3K
+(with 60 M LY294002) and PLA2 (with 5 M BEL), however,
+revealed that G slow-down was dependent on PI3K and PLA2
+only to a certain degree. Complete immobilization, as in the control
+experiment, was not observed. This might indicate either
+immobilization of only a part of the G subunits, binding to less
+rigid F-actin fibers, or the fact that F-actin polymerizes only
+partially, as shown upon addition of any of these two inhibitors
+(Chen et al., 2007).
+The formation of the 600 nm F-actin-dependent domains, by
+contrast, was undisturbed. The restriction of activated signaling
+molecules to a small part of the membrane by inhibiting them from
+moving across the cell leads to a suggestive biological role for Factin-mediated confinement. Indeed, the leading edge of moving
+epidermal keratocytes isolated from fish has been described as a
+diffusion barrier, even for lipids (Weisswange et al., 2005).
+Clustering of signaling components into a multicomponent
+signaling complex via a scaffold and/or anchoring proteins to the
+cytoskeleton was found for various signaling cascades (Pawson
+and Scott, 1997) and seems ubiquitous. After initial G protein
+activation and respective activation of downstream signaling,
+enhanced actin polymerization is observed at the front. Activated
+G subunits are constrained to actin-dependent scaffolds at the
+leading edge. This process, which spatially restricts G signaling,
+might in turn lead to a further enhancement of the related signaling
+cascade at the anterior of the cell in an F-actin-dependent positivefeedback loop. This process might facilitate chemotactic signaling
+by spatially restricting the activated signaling components in a
+larger protein complex: a signalosome. Our data show that, if
+domains are present before stimulation, they must have a sidelength of L>1 m (Fig. 1D, lower left). Upon stimulation, such
+domains shrink to L600 nm (Fig. 1D, lower right). Assuming a
+homogeneous distribution of receptors and G proteins in the cell
+membrane (surface area540 m2, see the Materials and Methods)
+before stimulation, we estimate that such domains on average
+contain 4⫻104 receptors per 540 m2⫻(600 nm)227 receptors,
+~48 G2 subunits and ~ 52 G subunits. Experiments performed
+on F-actin-depleted cells have revealed that gradient sensing, the
+mere detection of the chemical gradient, was not impaired (Parent
+et al., 1998). Hence, the role of G immobilization is probably
+related to the stabilization of pseudopods and perhaps, at a later
+stage, to the development of an innate cell polarity as is observed
+after prolonged directional stimulation of D. discoideum (FrancaKoh et al., 2006).
+A variety of studies have clearly demonstrated that gradient
+sensing is reflected as a remarkable relocation of signaling
+components shortly after application of the chemical gradient
+(Parent et al., 1998; Comer and Parent, 2002; Xu et al., 2005).
+PtdIns(3,4,5)P3 and its related kinase (PI3K) are largely localized
+at the leading edge, whereas their related phosphatase (PTEN) is
+excluded from the anterior (Iijima and Devreotes, 2002). Despite
+extensive research, relocation of neither the receptor nor the G
+protein has ever been observed. Protein behavior and activation
+can be different at different locations owing to local variations in
+membrane curvature (Fischer et al., 2007), activated signaling
+cascades (Ueda et al., 2001) and the presence of signaling scaffolds
+(Pawson and Scott, 1997). Our experiments here show, as for the
+cAMP receptor, that cell polarization is reflected in a dynamic
+
+Journal of Cell Science
+
+Mobility of G proteins
+property of the G proteins, namely their mobility, rather than in
+their localization. It is noteworthy that the polarized distribution of
+G mobility was found to be independent of the presence of Factin: an identical distribution between fast (inactive) and slow
+(active) fractions was observed in cells treated with 0.5 M latA.
+From the fact that the initial diffusion constant, in contrast to the
+MSD behavior over time, is equal across the cell body during
+chemotaxis, we conclude that the 3D membrane structure is not an
+important factor in the interpretation of the molecular mobilities.
+Together, we conclude that the increase in G protein activity is
+related to gradient sensing and not to processes responsible for
+subsequent pseudopod stabilization or amplification and persistent
+cell polarity.
+We and other groups have shown before that polarization in
+chemotaxing D. discoideum cells is present at the level of the
+GPCR (Ueda et al., 2001; de Keijzer et al., 2008). Here, we
+extended our model and show an F-actin-dependent, leading-edgespecific immobilization of the G heterodimer, which is an
+important mediator of chemotactic responses. We show that this
+immobilization is due to activation of the chemotactic pathway
+and hypothesize that F-actin functions, either directly or indirectly,
+as a signaling-enhancing scaffold, suggesting a function for this
+mechanism in the stabilization of pseudopods and the onset of a
+persistent leading edge. Likewise, in terms of a balanced
+inactivation model (Levine et al., 2006), which suggests a possible
+inhibitory function for G, binding G to F-actin would prevent
+its inhibitory function specifically at the leading edge, finally
+leading to the steep amplification of the activation signal observed
+in experiments.
+Materials and Methods
+Cell culture and transformation
+
+D. discoideum axenically growing strain Ax2 (Watts and Ashworth, 1970) was used
+in this study and referred to as wild type (wt), to discriminate from other genetic
+backgrounds that were used. The wt, g– (LW5), g2– and car1– cells were
+transformed by electroporation with a plasmid, encoding the G-YFP fusion protein.
+The same procedure was followed for wt and g2– and car1– cells with the plasmid
+encoding the G2-YFP fusion protein. G418 (Geneticin, Invitrogen) was used to
+select for successfully transformed D. discoideum. Cells were grown as a monolayer
+on plastic dishes in axenic culture medium, HL5-C (Formedium), containing 100
+g/ml penicillin-streptomycin (1:1) (Invitrogen) and 20 g/ml G418, at 22°C.
+Cell preparation for measurements
+
+To assess chemotactic competence, D. discoideum cells from axenic exponentially
+growing cultures were cultured in a plastic dish overnight in low fluorescence
+medium (Formedium). The physiological state of the cells treated in this way was
+comparable with cells starved for 1–2 hours. Next, the cells were detached from the
+plate, washed three times with developmental buffer (www.Dictybase.org),
+centrifuged for 3 minutes at 1500 r.p.m. and resuspended in 5 ml developmental
+buffer at a concentration of ~107 cells/ml in a 100 ml Erlenmeyer flask. After 1 hour
+of shaking at 150 r.p.m., the cells were pulsed with a peristaltic pump (Gilson,
+Minipulse 2) with 30 nM cAMP at 6-minute intervals, for 4 hours for the
+transformants in wt background and overnight for transformants in knockout
+backgrounds (Dictyostelium discoideum protocols, Eichiner Rivero, 2006; Humana
+Press). After pulsing, the cells were shaken for an additional 30 minutes, and finally
+diluted in developmental buffer to a concentration of 106 cells/ml. Cells were
+transferred into two-well chambered coverslips (1.5 Borosilicate Sterile, Lab Tek II)
+where they were allowed to adhere.
+Developmental test
+–
+
+–
+
+–
+
+–
+
+G2-YFP g2 and G-YFP g transformants, as well as g2 and g cells were
+pulsed overnight with 30 nM cAMP as described later, were plated on non-nutrient
+1.5% agar plates at a concentration of 3–4⫻107 cells/cm2. After 24 hours, the
+developmental state was assessed.
+Global cAMP stimulation assay
+
+The developmental buffer, covering the developed cells in the chambered coverslips
+was supplemented with cAMP to a final concentration of 10 M. Experiments were
+performed within 20 minutes of addition of cAMP.
+
+2929
+
+Chemotaxis micropipette assay
+
+Cells were placed at a distance of ~75 m from the opening (r0.25 m) of a pipette
+(Eppendorf femtotip) filled with 10 M cAMP. The internal pressure in the pipette
+was set to 40 kPa by means of a FemtoJet injector (Eppendorf). This set-up created
+a stable, shallow gradient estimated at 0.4 nM/m cAMP over the cell body at a mid
+concentration of ~60 nM. The gradient caused polarization of the developed D.
+discoideum cells towards the micropipette tip. The region of interest was set to the
+leading and trailing edge (30% of the cell body) of a polarized cell, respectively.
+Latrunculin A treatment
+
+The developmental buffer, covering the developed cells in the chambered coverslips
+was supplemented with 0.5 M latrunculin A. After 10 minutes, single-molecule
+measurements were performed for 10 minutes. To observe the effect of latrunculin
+A on the cell response to cAMP, 10 minutes after addition of the latrunculin A,
+cAMP was added to the buffer at final concentration of 10 M, measurements were
+taken within 10 minutes of cAMP addition (Frigeri and Apgar, 1999).
+Single-molecule microscopy
+
+The experimental set-up for single-molecule imaging has been described in detail
+previously (Schmidt et al., 1996). The samples were mounted onto an inverted
+microscope (Axiovert100, Zeiss) equipped with a 100⫻ objective (NA1.4, Zeiss).
+The region of interest was set to 50⫻50 pixels. The apparent pixel size was 220 nm.
+Measurements were performed by illumination of the samples for 5 mseconds at 514
+nm (Argon-ion laser, Spectra Physics) at intensity of 2 kW/cm2. The cells were
+photobleached for a period of 2–5 seconds and sequences of 500 images with a time
+lag of 50 mseconds were taken. Use of an appropriate filter combination (Chroma)
+permitted the detection of the fluorescence signal on a liquid-nitrogen-cooled CCD
+camera (Princeton Instruments). The set-up allowed imaging of individual
+fluorophores at a signal-to-background-noise ratio of ~30, leading to a positional
+accuracy of 040 nm.
+Estimation of the expression level of G2-YFP and G-YFP
+
+The expression level of G2-YFP in g2–, and G-YFP in g– cells was calculated
+in the following manner. The image of a single fluorescent molecule was given by
+an intensity distribution characterized by a full-width-at-half-maximum of w01.7,
+pixel0.37 m. The average signal for a single YFP molecule was S1220 counts
+when illuminated with 2 kW/cm2 for 5 mseconds at 514 nm (Harms et al., 2001).
+The fluorescence of G-YFP at the apical membrane at identical conditions was
+SG4300 counts/pixel, and for G2-YFP SG24000 counts/pixel. The surface of
+the membrane for a whole cell (approximated by a spheroid with a short axis of r15
+m and long axis r210 m) is about 540 m2. The fluorescence data were used in
+the estimation of the expression level yielding (SG/S1)⫻(A/w02)7.7⫻104 G-YFP
+and 7.2⫻104 G2-YFP molecules per cell. A similar estimation has been done for
+the receptor yielding 4⫻104 cAR1 molecules per cell (de Keijzer et al., 2008).
+Particle image correlation spectroscopy (PICS)
+
+The reconstruction of trajectories from molecule positions is severely hampered by
+blinking and photobleaching of eYFP (Harms et al., 2001). Therefore, we used an
+alternative analysis method, particle image correlation spectroscopy (PICS), which
+is described in detail elsewhere (Semrau and Schmidt, 2007). In short, the crosscorrelation between single-molecule positions at two different time lags is calculated.
+Subsequently, the linear contribution from uncorrelated molecules in close proximity
+is subtracted. This results in the cumulative distribution function cdf(r2,tlag), which
+yields the distribution of squared jump widths within the given time lag tlag. For each
+time lag cdf(r2,tlag) is fitted to a two-fraction model Eq. 4 (Fig. 1C,D).
+Analysis of the cumulative probability functions
+
+From the jump-width distributions, the diffusion characteristics of all molecules is
+extracted. Given that the population of particles is homogeneous, the diffusion
+equation is solved for cdf(r2,tlag) given by:
+⎞
+⎛
+−r 2
+cdf (r 2 ,tla g ) = 1 − exp ⎜
+⎟ ,
+⎝ MSD(tla g ) ⎠
+
+(3)
+
+where MSD(tlag) is the mean-square displacement at time lag tlag. Given the
+exponential distribution in r2, data are represented on log(r2)-scale. Our experimental
+data could not be fitted with this one fraction model, however (Fig. 1D). Therefore
+the data were fit to a two-fraction model described by:
+⎞
+⎞
+⎛
+⎛
+−r 2
+−r 2
+cdf (r 2 ,tla g ) = 1 − α exp ⎜
+⎟ − 1 − α exp ⎜ MSD (t ) ⎟ ,
+⎝ MSD2 (tla g ) ⎠
+⎝
+1 la g ⎠
+
+(
+
+)
+
+(4)
+
+where MSD2(tlag) is the characteristic mean squared displacement for the slow
+fraction of size , and MSD1(tlag) the characteristic mean squared displacement for
+the fast fraction of size 1–. The bi-exponential fit properly describes the experimental
+results (Fig. 1D). This showed that there are two fractions of G-YFP and of G2YFP molecules that differ in their mobility on the membrane. Molecules were
+defined immobile when their MSD for the largest time lag (0.4 second) was smaller
+than twice the positional accuracy. Together with Eq. 1, this leads to an upper
+estimate for their diffusion constant of Dimmobile<0.001 m2/second.
+
+2930
+
+Journal of Cell Science 123 (17)
+
+We would like to thank the Dicty Stock Center
+(http://dictybase.org/StockCenter/StockCenter.html) for generously
+providing the Dictyostelium discoideum strains and plasmids. Sandra
+de Keijzer (U. Nijmegen, The Netherlands) is thanked for helpful
+discussions. This work was supported by funds from the Human
+Frontiers Science Program grant RGP66/2004, and the Dutch
+CYTTRON consortium sponsored by the ministry of economic affairs.
+Supplementary material available online at
+http://jcs.biologists.org/cgi/content/full/123/17/2922/DC1
+
+Journal of Cell Science
+
+References
+Chen, L., Janetopoulos, C., Huang, Y. E., Iijima, M., Borleis, J. and Devreotes, P. N.
+(2003). Two phases of actin polymerization display different dependencies on PI(3,4,5)P3
+accumulation and have unique roles during chemotaxis. Mol. Biol. Cell 14, 5028-5037.
+Chen, L., Iijima, M., Tang, M., Landree, M. A., Huang, Y. E., Xiong, Y., Iglesias, P.
+A. and Devreotes, P. N. (2007). PLA2 and PI3K/PTEN pathways act in parallel to
+mediate chemotaxis. Dev. Cell 12, 603-614.
+Comer, F. I. and Parent, C. A. (2002). PI 3-kinases and PTEN: how opposites
+chemoattract. Cell 109, 541-544.
+de Keijzer, S., Serge, A., van Hemert, F., Lommerse, P. H. M., Lamers, G. E. M.,
+Spaink, H. P., Schmidt, T. and Snaar-Jagalska, B. E. (2008). A spatially restricted
+increase in receptor mobility is involved in directional sensing during Dictyostelium
+discoideum chemotaxis. J. Cell Sci. 121, 1750-1757.
+Devreotes, P. N. and Steck, T. L. (1979). Cyclic 3⬘,5⬘ AMP relay in Dictyostelium
+discoideum. II. Requirements for the initiation and termination of the response. J. Cell
+Biol. 80, 300-309.
+Eichinger, L. and Rivero, F. (2006) Dictiostelium Discoideum Protocols: In Methods in
+Molecular Biology, Berlin, Springer.
+Elzie, C. A., Colby, J., Sammons, M. A. and Janetopoulos, C. (2009). Dynamic
+localization of G proteins in Dictyostelium discoideum. J. Cell Sci. 122, 2597-2603.
+Fischer, T., Lu, L., Haigler, H. T. and Langen, R. (2007). Annexin B12 is a sensor of
+membrane curvature and undergoes major curvature-dependent structural changes. J.
+Biol. Chem. 282, 9996-10004.
+Franca-Koh, J., Kamimura, Y. and Devreotes, P. N. (2006). Navigating signaling
+networks: chemotaxis in Dictyostelium discoideum. Curr. Opin. Genet. Dev. 16, 333338.
+Frigeri, L. and Apgar, J. R. (1999). The role of actin microfilaments in the downregulation of the degranulation response in RBL-2H3 mast cells. J. Immunol. 162,
+2243-2250.
+Funamoto, S., Meili, R., Lee, S., Parry, L. and Firtel, R. A. (2002). Spatial and temporal
+regulation of 3-phosphoinositides by PI 3-kinase and PTEN mediates chemotaxis. Cell
+109, 611-623.
+Harms, G. S., Cognet, L., Lommerse, P. H., Blab, G. A. and Schmidt, T. (2001).
+Autofluorescent proteins in single-molecule research: applications to live cell imaging
+microscopy. Biophys. J. 80, 2396-2408.
+Iijima, M. and Devreotes, P. N. (2002). Tumor suppressor PTEN mediates sensing of
+chemoattractant gradients. Cell 109, 599-610.
+Jaakola, V. P., Griffith, M. T., Hanson, M. A., Cherezov, V., Chien, E. Y. T., Lane, J.
+R., IJzerman, A. P. and Stevens, R. C. (2008). The 2.6 Angstrom crystal structure of
+a human A2A adenosine receptor bound to an antagonist. Science 322, 1211-1217.
+Janetopoulos, C., Jin, T. and Devreotes, P. N. (2001). Receptor-mediated activation of
+heterotrimeric G-proteins in living cells. Science 291, 2408-2411.
+Janssens, P. M. and Van Haastert, P. J. (1987). Molecular basis of transmembrane signal
+transduction in Dictyostelium discoideum. Microbiol. Rev. 51, 396-418.
+Jin, T., Zhang, N., Long, Y., Parent, C. A. and Devreotes, P. N. (2000). Localization of
+the G protein complex in living cells during chemotaxis. Science 287, 1034-1036.
+
+Kamimura, Y., Xiong, Y., Iglesias, P. A., Hoeller, O., Bolourani, P. and Devreotes, P.
+N. (2008). PIP3-independent activation of TorC2 and PKB at the cell’s leading edge
+mediates chemotaxis. Curr. Biol. 18, 1034-1043.
+Kimmel, A. R. and Parent, C. A. (2003). The signal to move: D. discoideum go
+orienteering. Science 300, 1525-1527.
+Kusumi, A., Sako, Y. and Yamamoto, M. (1993). Confined lateral diffusion of membrane
+receptors as studied by single particle tracking (nanovid microscopy). Effects of calciuminduced differentiation in cultured epithelial cells. Biophys. J. 65, 2021-2040.
+Levine, H., Kessler, D. A. and Rappel, W. J. (2006). Directional sensing in eukaryotic
+chemotaxis: a balanced inactivation model. Proc. Natl. Acad. Sci. USA 103, 9761-9766.
+Lilly, P., Wu, L., Welker, D. L. and Devreotes, P. N. (1993). A G-protein beta-subunit is
+essential for Dictyostelium development. Genes Dev. 7, 986-995.
+Nobles, M., Benians, A. and Tinker, A. (2005). Heterotrimeric G proteins precouple with
+G protein-coupled receptors in living cells. Proc. Natl. Acad. Sci. USA 102, 18706-18711.
+Palczewski, K., Kumasaka, T., Hori, T., Behnke, C. A., Motoshima, H., Fox, B. A.,
+Trong, I. L., Teller, D. C., Okada, T., Stenkamp, R. E. et al. (2000). Crystal structure
+of rhodopsin: a G protein-coupled receptor. Science 289, 739-745.
+Parent, C. A., Blacklock, B. J., Froehlich, W. M., Murphy, D. B. and Devreotes, P. N.
+(1998). G protein signaling events are activated at the leading edge of chemotactic cells.
+Cell 95, 81-91.
+Pawson, T. and Scott, J. D. (1997). Signaling through scaffold, anchoring, and adaptor
+proteins. Science 278, 2075-2080.
+Potma, E. O., de Boeij, W. P., Bosgraaf, L., Roelofs, J., Van Haastert, P. J. and
+Wiersma, D. A. (2001). Reduced protein diffusion rate by cytoskeleton in vegetative
+and polarized dictyostelium cells. Biophys. J. 81, 2010-2019.
+Rasmussen, S. G. F., Choi, H. J., Rosenbaum, D. M., Kobilka, T. S., Thian, F. S.,
+Edwards, P. C., Burghammer, M., Ratnala, V. R. P., Sanishvili, R., Fischetti, R. F.
+et al. (2007). Crystal structure of the human [bgr]2 adrenergic G-protein-coupled
+receptor. Nature 450, 383-387.
+Schmidt, T., Schutz, G. J., Baumgartner, W., Gruber, H. J. and Schindler, H. (1996).
+Imaging of single molecule diffusion. Proc. Natl. Acad. Sci. USA 93, 2926-2929.
+Semrau, S. and Schmidt, T. (2007). Particle image correlation spectroscopy (PICS):
+retrieving nanometer-scale correlations from high-density single-molecule position data.
+Biophys. J. 92, 613-621.
+Ueda, M., Sako, Y., Tanaka, T., Devreotes, P. N.. and Yanagida, T. (2001). Singlemolecule analysis of chemotactic signaling in Dictyostelium cells. Science 294, 864-867.
+van Haastert, P. J., Bishop, J. D. and Gomer, R. H. (1996). The cell density factor CMF
+regulates the chemoattractant receptor cAR1 in Dictyostelium. J. Cell Biol. 134, 15431549.
+Veltman, D. M., Van Haastert, P. J. (2006). Guanylyl cyclase protein and cGMP product
+independently control front and back of chemotaxing Dictyostelium cells. Mol. Biol.
+Cell. 17, 3921-3929.
+Veltman, D. M. and Van Haastert, P. J. (2008). Four key signaling pathways mediating
+chemotaxis in Dictyostelium discoideum. J. Cell Biol. 180, 747-753.
+Watts, D. J. and Ashworth, J. M. (1970). Growth of myxameobae of the cellular slime
+mould Dictyostelium discoideum in axenic culture. Biochem. J. 119, 171-174.
+Weisswange, I., Bretschneider, T. and Anderson, K. I. (2005). The leading edge is a
+lipid diffusion barrier. J. Cell Sci. 118, 4375-4380.
+Wessels, D., Schroeder, N. A., Voss, E., Hall, A. L., Condeelis, J. and Soll, D. R. (1989).
+cAMP-mediated inhibition of intracellular particle movement and actin reorganization
+in Dictyostelium. J. Cell Biol. 109, 2841-2851.
+Wettschureck, N. and Offermanns, S. (2005). Mammalian G proteins and their cell type
+specific functions. Physiol. Rev. 85, 1159-1204.
+Xu, X., Meier-Schellersheim, M., Jiao, X., Nelson, L. E. and Jin, T. (2005). Quantitative
+imaging of single live cells reveals spatiotemporal dynamics of multistep signaling
+events of chemoattractant gradient sensing in Dictyostelium. Mol. Biol. Cell 16, 676-688.
+Zhang, N., Long, Y. and Devreotes, P. N. (2001). Ggamma in Dictyostelium: its role in
+localization of Gbeta gamma to the membrane is required for chemotaxis in shallow
+gradients. Mol. Biol. Cell 12, 3204-3213.
+
+

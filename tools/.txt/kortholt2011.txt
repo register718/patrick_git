@@ -1,0 +1,1146 @@
+scientific
+report
+scientificreport
+Dictyostelium chemotaxis: essential Ras activation
+and accessory signalling pathways for amplification
+Arjan Kortholt, Rama Kataria, Ineke Keizer-Gunnink, Wouter N. Van Egmond, Ankita Khanna
+& Peter J.M. Van Haastert+
+Department of Cell Biochemistry, University of Groningen, Groningen, The Netherlands
+
+Central to chemotaxis is the molecular mechanism by which
+cells exhibit directed movement in shallow gradients of a
+chemoattractant. We used Dictyostelium mutants to investigate
+the minimal requirements for chemotaxis, and identified a basal
+signalling module providing activation of Ras at the leading
+edge, which is sufficient for chemotaxis. The signalling enzymes
+PI3K, TorC2, PLA2 and sGC are not required for Ras activation
+and chemotaxis to folate or to steep gradients of cAMP, but they
+provide a memory of direction and improved orientation of the
+cell, which together increase the sensitivity about 150-fold for
+chemotaxis in shallow cAMP gradients.
+Keywords: chemotaxis; shallow gradients; Ras; amplification;
+synergy
+EMBO reports (2011) 12, 1273–1279. doi:10.1038/embor.2011.210
+
+and their associated G proteins Ga2bg, in a manner that is
+approximately proportional to the steepness of the gradient (Xiao
+et al, 1997; Jin et al, 2000). In contrast, activation of Ras is much
+stronger in the front than in the rear of chemotaxing cells (Zhang
+et al, 2008). Four signalling enzymes, PI3K, TorC2, PLA2 and sGC,
+have been implicated in chemotaxis (Chen et al, 2007; Kamimura
+et al, 2008; Veltman et al, 2008; Liao et al, 2010). Activation of
+PI3K, TorC2 and sGC occurs downstream of Ras, and simultaneous disruption of both rasC and rasG results in the total loss
+of cAMP-mediated signalling (Bolourani et al, 2006; Kortholt &
+van Haastert, 2008).
+A central question in chemotaxis is how these pathways allow
+efficient navigation of cells in very shallow gradients. Here we
+obtained quantitative data on Ras activation and chemotaxis in
+cAMP and folic acid gradients and report on the minimal
+requirements for chemotaxis of Dictyostelium cells.
+
+INTRODUCTION
+An important aspect of cell motility is the ability of cells to
+respond to directional cues and display oriented migration (Van
+Haastert & Devreotes, 2004). Gradients of diffusive chemicals give
+rise to chemotaxis (Hoeller & Kay, 2007; Swaney et al, 2010).
+Chemotaxis has a pivotal role in finding nutrients in prokaryotes,
+forming multicellular structures in protozoa, tracking bacterial
+infections in neutrophils and organizing the embryonic cells in
+metazoa (Van Haastert & Devreotes, 2004). Sensitive cells, such
+as Dictyostelium or neutrophils, can detect very shallow spatial
+gradients of about 1% concentration difference across the cell
+(Mato et al, 1975).
+The signal transduction cascade for chemotaxis consists of
+surface receptors, heterotrimeric and small G proteins, as well as
+several signalling enzymes, leading to the local activation of the
+cytoskeleton, predominantly F actin at the front and myosin
+filaments in the rear of the cell. In Dictyostelium, a shallow
+gradient of cyclic AMP induces the activation of cAMP receptors
+
+Department of Cell Biochemistry, University of Groningen, Nijenborgh 7,
+9747 AG Groningen, The Netherlands
++
+Corresponding author. Tel: þ 31 50 3634172; Fax: þ 31 50 3634165;
+E-mail p.j.m.van.haastert@rug.nl
+Received 17 June 2011; revised 16 September 2011; accepted 22 September 2011;
+published online 11 November 2011
+
+&2011 EUROPEAN MOLECULAR BIOLOGY ORGANIZATION
+
+RESULTS AND DISCUSSION
+Ras activation is independent of the signalling pathways
+Four signalling pathways, PI3K, TorC2, PLA2 and sGC, contribute
+to chemotaxis (Chen et al, 2007; van Haastert et al, 2007;
+Kamimura et al, 2008; Veltman et al, 2008). PI3K-mediated
+phosphorylation of Akt/PKB is completely inhibited by 20 mM
+LY, whereas TorC2-stimulated phosphorylation of PKBR1 is not
+inhibited by 20 mM LY but is strongly inhibited by 90 mM LY
+(Kamimura et al, 2008; Liao et al, 2010). Here we used sgc/pla2null cells with 90 mM LY, by which all four pathways are inhibited.
+Similar results were obtained for two different cell lines in which
+all four signalling pathways are inhibited: sgc/pla2/pkbR1null þ 90 mM LY and gc-null þ 90 mM LY þ 2 mM BPB (inhibition
+of PLA2). To investigate the function of the signalling enzymes in
+directional movement, we obtained quantitative data on Ras
+activation and formation of F actin in the cortex, which can be
+detected as the translocation of Ras-binding domain (RBD)-Raf–
+GFP (green fluorescent protein) and LimEDcoil–GFP, respectively.
+Mutant cells with a deletion of the single Dictyostelium gb
+gene do not show any chemotaxis, actin polymerization or Ras
+activation (data not shown (Wu et al, 1995; Sasaki et al, 2004)).
+Cells lacking either RasC or RasG exhibit good chemotaxis,
+whereas cells lacking both RasC and RasG move in random
+directions at all cAMP gradients tested (supplementary Fig S1A
+EMBO reports VOL 12 | NO 12 | 2011 1 2 7 3
+
+scientific report
+
+Minimal requirements for chemotaxis
+A. Kortholt et al
+
+A
+Buffer
+
+Uniform cAMP
+
+Gradient cAMP
+
+Wild type
+
+Raf–GFP in cytoplasm (%)
+
+B
+
+110
+
+WT
+sgc/pla2+LY
+
+100
+90
+80
+70
+60
+0
+
+10
+
+sgc/pla2-null
++ 90 μM LY
+
+RBD-Raf–GFP (activated Ras)
+
+Raf–GFP in cytoplasm
+(% depletion)
+
+C
+
+sgc/pla2-null
++ 90 μM LY
++ 5 μM Lat A
+
+20
+
+30
+
+Time (s)
+
+40
+
+WT
+sgc/pla2+LY
+
+30
+
+20
+
+10
+
+0
+0
+
+10–10 10–9 10–8 10–7 10–6 10–5
+cAMP concentration (M)
+
+Fig 1 | Translocation of RBD-Raf–GFP from the cytoplasm to the cell boundary in wild-type cells, sgc/pla2-null cells with 90 mm LY and sgc/pla2-null/LY
+cells with 5 mM LatA. (A) Images of RBD-Raf–GFP-expressing cells in buffer, 3–6 s after the addition of uniform cAMP or in a cAMP gradient; scale
+bar, 5 mm. (B) The time course of translocation after uniform stimulation with 1 mM cAMP as means and s.e.m. of eight cells. (C) The response at
+3–6 s after addition of uniform cAMP with different concentrations; shown are the means and s.e.m. of at least eight cells. cAMP, cyclic AMP;
+GFP, green fluorescent protein; LatA, Latrunculin A; WT, wild type.
+
+online (Bolourani et al, 2006)). Furthermore, rasC/G-null cells do
+not exhibit RBD-Raf–GFP translocation to the membrane upon
+cAMP stimulation and have a very poor cAMP-stimulated F-actin
+response (supplementary Fig S1B online (Bolourani et al, 2006)).
+These experiments confirm that Gbg and RasC/G are essential
+for chemotaxis (Wu et al, 1995; Sasaki et al, 2004). In wild-type
+cells, uniform cAMP induces a translocation of RBD-Raf–GFP
+and LimEDcoil–GFP from the cytosol to the membrane (Fig 1;
+supplementary Fig S2 online). Mutant sgc/pla2-null/LY cells
+exhibit essentially the same response as wild-type cells (Fig 1;
+supplementary Fig S2 online). Furthermore, even sgc/pla2-null/LY
+cells incubated with 5 mM actin-polymerization inhibitor Latrunculin A show a Ras response that is indistinguishable from that of
+wild-type cells (Fig 1A).
+Upon application of a cAMP gradient to wild-type cells, initially
+RBD-Raf–GFP transiently translocates uniformly to the cell
+boundary, which is then followed by RBD-Raf–GFP localization
+at the side of the cell facing the cAMP gradient (Fig 2A;
+supplementary Movie 1 online). Wild-type cells in a cAMP
+gradient are very polarized and exhibit strong localization of
+RBD-Raf–GFP in a well-defined crescent with a length of
+4.4±0.6 mm and an intensity that is 230±50% above the intensity
+of the cytoplasm (mean and s.d., n ¼ 16 cells, Fig 2A). In a steep
+cAMP gradient, mutant sgc/pla2-null/LY cells are less polarized
+and have a broader leading edge (Fig 2B); however, they show the
+1 2 7 4 EMBO reports
+
+VOL 12 | NO 12 | 2011
+
+accumulation of RBD-Raf–GFP and LimEDcoil–GFP at the side of
+the cell facing the cAMP gradient, and cells exhibit significant
+chemotaxis (Figs 1,2; supplementary Fig S2 and Movie 2 online).
+Consistent with a broader leading edge, RBD-Raf–GFP is
+enriched in a larger crescent with a length of 7.6±0.6 mm and
+with a lower fluorescent intensity that is 130±30% above the
+intensity of the cytoplasm. The amount of Ras activation, defined
+as the product of crescent size and increase of intensity, is not
+significantly different between wild-type (1,012±260 mm%) and
+sgc/pla2-null/LY cells (988±240 mm%). Wild-type cells treated
+with 5 mM Latrunculin A exhibit strong localized Ras activation in
+a cAMP gradient (Fig 1A; supplementary Movie 3 online). The
+length of the crescent is 7.5±1.3 mm, with an intensity that is
+155±30% above the intensity of the cytoplasm (product 1,160±
+300 mm%), similar to the crescent of sgc/pla2-null/LY cells.
+Together, these results show that Ras is activated at the leading
+edge through a pathway consisting of Gabg, which does not depend
+on the four signalling pathways or a functional cytoskeleton.
+
+Chemotaxis in shallow cAMP gradients
+The input signal for chemotaxis is a spatial gradient of cAMP,
+dC/dx (Mato et al, 1975). We measured Ras activation and
+chemotaxis of wild-type and mutant cells exposed to cAMP
+gradients with different steepness; see Postma and van Haastert
+(2009) for the equations that define the spatial gradient
+&2011 EUROPEAN MOLECULAR BIOLOGY ORGANIZATION
+
+scientific report
+
+Minimal requirements for chemotaxis
+A. Kortholt et al
+
+C
+
+Wild type
+
+1.0
+0.8
+
+Chemotaxis index (ο,o)
+
+*
+
+B
+
+sgc/pla2-null+LY
+
+Wild type
+
+100
+
+0.6
+
+75
+
+0.4
+
+50
+
+0.2
+
+25
+
+0
+0.01 0.1
+
+1
+
+10
+
+1.0
+sgc/pla2-null + LY
+0.8
+
+100
+
+0.6
+
+75
+
+0.4
+
+50
+
+0.2
+
+25
+
+0
+
+*
+
+0
+100
+
+1
+10
+0.01 0.1
+dC/dx (nM μm–1)
+
+Percentage of cells with RBD-Raf–GFP at front (Δ,Δ)
+
+A
+
+0
+100
+
+D
+Wild type 12.3
+Amplification
+
+100
+
+10
+
+3.0
+
+3.2
+2.7
+
+4.9
+
+PI
+
+3K
+To
+rC
+2
+sG
+C
+p
+cG
+M
+P
+PL
+A2
+
+1
+RBD-Raf–GFP
+(activated Ras)
+
+Fig 2 | Activation of Ras and chemotaxis in cAMP gradients.
+(A,B) Images from a movie of wild-type and sgc/pla2-null/LY cells,
+respectively. The asterisks indicate the position of the pipette; scale bar,
+10 mm. The chemotaxis index and the fraction of cells with significant
+enhanced RBD-Raf–GFP at the leading edge were determined (defined as
+cells containing a fluorescence intensity of RBD-Raf–GFP at the leading
+edge that was at least 30% above the fluorescence intensity in the
+cytosol). (C) Strong Ras activation occurs only in steep gradients both
+in wild-type and sgc/pla2-null/LY cells. Chemotaxis of sgc/pla2-null/LY
+mutant cells occurs also only in these steep gradients, whereas wild-type
+cells exhibit chemotaxis in about 150-fold more shallow gradients.
+(D) A cluster analysis of amplification and synergy of signalling
+pathways derived from Table 1. The data points indicate the means and
+s.d. of amplification, and the numbers represent synergy (both obtained
+from Table 1). The tree was built by cluster analysis of the five pathways
+using the neighbour-joining method with synergy and amplification as
+distance measures. cAMP, cyclic AMP; GFP, green fluorescent protein.
+
+at different distances from a pipette. Fig 2C presents the fraction
+of cells that exhibit significant enrichment of RBD-Raf–GFP at
+the leading edge (significant is defined as more than 30% above
+the intensity of the cytoplasm). These translocation experiments
+can only detect strong responses. Weak responses are undetectable, because boundary pixels are on average half filled
+with cytoplasm; as a result, the association of small amounts of
+RBD-Raf–GFP to the membrane does not result in a fluorescent
+&2011 EUROPEAN MOLECULAR BIOLOGY ORGANIZATION
+
+intensity of the boundary pixel that is more than the fluorescent
+intensity in the adjacent cytosolic pixels (Bosgraaf et al, 2008).
+Half-maximal strong activation of Ras occurs at about 2,000 pM
+mm1 in both wild-type and sgc/pla2-null/LY cells (Fig 2C). The
+data suggest that activation of Ras is essentially the same in wildtype and sgc/pla2-null/LY cells, except that in the mutant
+activation occurs in a broader leading edge. These results reveal
+that none of the four signalling enzymes (PI3K, TorC2, PLA2 and
+sGC), or potentially other enzymes inhibited by the high
+concentrations of LY294002, are involved in the transient
+activation of Ras to uniform cAMP, or persistent activation of
+Ras at the leading edge in a cAMP gradient.
+Interestingly, chemotaxis of sgc/pla2-null/LY cells occurs in
+gradients with the same steepness as strong activation of Ras,
+whereas chemotaxis of wild-type cells is observed in spatial
+gradients that are about 150-fold smaller. Together, these experiments suggest that directional movement in the absence of the four
+pathways occurs without amplification of the spatial information
+that is carried by the localized Ras activation, whereas the four
+pathways allow chemotaxis to cAMP in very shallow gradients.
+During chemotaxis in natural cAMP waves, cells are exposed to
+cAMP gradients up to about 3,000 pM mm1 (Tomchik & Devreotes,
+1981; Postma & van Haastert, 2009). The results presented in
+Table 1 reveal that many mutants will chemotax in such gradients,
+despite their reduced sensitivity. This indicates that wild-type cells
+have a large spare sensitivity to tolerate non-optimal conditions in
+the soil; it also explains why many mutant cells show good cell
+aggregation under laboratory conditions.
+
+Synergy provides amplification of cAMP gradient sensing
+We determined the steepness of the cAMP gradient that induces
+half-maximal chemotaxis (dC/dx)50 in a large collection of
+mutants (see supplementary Table S1 online). Wild-type cells
+exhibit half-maximal chemotaxis in a cAMP gradient of magnitude
+22 pM mm1. Using three different cell lines in which all four
+pathways are inhibited, we obtained (dC/dx)50 ¼ 3,588±356 pM
+mm1, which is about 150-fold larger than the (dC/dx)50 of wildtype cells. To delineate the contribution of the pathways in
+amplification, we determined for many mutants the steepness of
+the gradient that induces half-maximal chemotaxis. In a mutant
+with pathway X active, the value of (dC/dx)50 relative to 3,588 pM
+mm1 of the four-pathway null mutant indicates the increase of
+sensitivity, or amplification, that is provided by pathway X.
+When only one enzyme is active, chemotaxis occurs in slightly
+shallower gradients compared with the four-pathway null cells
+(Table 1). Expression of two pathways further increases sensitivity.
+Some combinations of pathways (for example, PI3K þ sGC)
+exhibit a weak amplification, which in magnitude is similar
+to the product of the amplifications induced by the individual
+pathways, as would be expected for independent effects.
+However, other combinations (for example, PI3K þ TorC2,
+sGC þ TorC2 and sGC þ PLA2) induce very good chemotaxis with
+strong amplification, indicating synergy of signalling pathways.
+The sGC enzyme has two functions in chemotaxis: one as a
+protein that localizes at the leading edge (sGCp), and one as
+enzyme producing cyclic GMP (cGMP; Veltman & van Haastert,
+2006). By using two mutant proteins, namely sGCDCat,
+which prevents cGMP synthesis, and sGCDN, by which the
+protein becomes cytosolic but retains the ability to synthesize
+EMBO reports VOL 12 | NO 12 | 2011 1 2 7 5
+
+scientific report
+
+Minimal requirements for chemotaxis
+A. Kortholt et al
+
+Table 1 | Amplification of chemotaxis by synergy of signalling pathways
+Active pathways
+
+(dC/dx)50 (pM lm1)
+
+Amplification
+
+Synergy*
+
+Mean±s.d.
+
+Nz
+
+Observedy
+
+No active pathway
+
+3,588±356
+
+7 (3), a
+
+1.00
+
+PI3K
+
+2,414±89
+
+3 (1), b
+
+1.49
+
+TorC2
+
+1,246±218
+
+6 (2), c
+
+2.88
+
+PLA2
+
+1,772±375
+
+3 (1), d
+
+2.03
+
+sGC ¼ (sGCp+cGMP)
+
+1,848±273
+
+11 (4), e
+
+1.94
+
+sGCp
+
+2,474±74
+
+4 (1), f
+
+1.45
+
+cGMP
+
+3,417±311
+
+4 (1), g
+
+1.05
+
+PI3K+TorC2
+
+283±60
+
+6 (2), h
+
+12.69
+
+4.29
+
+2.96±0.82**
+
+PI3K+PLA2
+
+1,082±225
+
+3 (1), i
+
+3.32
+
+3.01
+
+1.10±0.33 NS
+
+PI3K+sGC
+
+1,025±258
+
+4 (2), j
+
+3.50
+
+2.89
+
+1.21±0.36 NS
+
+TorC2+PLA2
+
+430±123
+
+4 (1), k
+
+8.34
+
+5.83
+
+1.43±0.57 NS
+
+TorC2+sGC
+
+220±20
+
+14 (5), l
+
+16.28
+
+5.59
+
+2.91±0.71**
+
+TorC2+sGCp
+
+322±12
+
+4 (1), m
+
+11.16
+
+4.17
+
+2.67±0.48**
+
+TorC2+cGMP
+
+1,472±69
+
+4 (1), n
+
+2.44
+
+3.02
+
+0.81±0.16 NS
+
+296±67
+
+9 (4), o
+
+12.11
+
+3.93
+
+3.08±1.06**
+
+PLA2+sGCp
+
+975±188
+
+4 (1), p
+
+3.68
+
+2.94
+
+1.25±0.36 NS
+
+PLA2+cGMP
+
+343±16
+
+4 (1), q
+
+10.47
+
+2.13
+
+4.92±1.16**
+
+PI3K+TorC2+PLA2
+
+183±27
+
+4 (1), r
+
+19.59
+
+8.66
+
+2.26±0.71**
+
+PI3K+PLA2+sGC
+
+185±14
+
+4 (2), s
+
+19.43
+
+4.58
+
+4.24±1.05**
+
+PI3K+TorC2+cGC
+
+171±9
+
+6 (2), t
+
+20.96
+
+6.51
+
+3.22±0.67**
+
+TorC2+PLA2+cGC
+
+86±12
+
+9 (3), u
+
+41.63
+
+8.88
+
+4.69±1.51**
+
+PI3K+TorC2+PLA2+sGC
+
+22±2
+
+6 (1), v
+
+162.69
+
+13.19
+
+12.33±3.85**
+
+PLA2+sGC
+
+Expected||
+
+Mean±s.d.
+1.00±0.10
+
+Chemotaxis was tested to cAMP gradients with different steepness (as shown in Fig 2C). The spatial gradient that induces half-maximal chemotaxis is defined as (dC/dx)50.
+Experiments were performed with various mutants and inhibitors to obtain cells with the combination of pathways active (see supplementary Table S1 online for these
+conditions). The s.d. for amplification and synergy were calculated using the mean and s.d. of the (dC/dx)50 data; s.d. for amplification are not shown.
+*Synergy is the observed amplification divided by the expected amplification. The significance of synergy was tested relative to 1.00±0.10, the synergy for the condition ‘no
+active pathway’; **Po0.001; NS, not significant at P40.05. zNumber of observations indicates total number of replicates with the number of strains in parenthesis. The letters
+refer to the strains used as indicated in supplementary Table S1 online. yObserved amplification: (dC/dx)50 ¼ 3,588 of ‘no pathway’ divided by (dC/dx)50 of the specified
+active pathway. ||Expected amplification is the product of observed amplifications of the individual pathways.
+cAMP, cyclic AMP; PI3K, phosphoinositide kinase-3.
+
+cGMP (Veltman & van Haastert, 2006), it could be shown
+that the cGMP function synergizes with PLA2, whereas
+the localization function of sGCp protein synergizes with
+TorC2 signalling (Table 1).
+Cluster analysis was used to determine the interactions
+between signalling pathways for optimal synergy and amplification. The obtained tree presented in Fig 2D reveals two branches
+of synergizing activities, a branch with PI3K þ TorC2 þ sGCp, and
+a branch with cGMP þ PLA2, respectively. Interestingly, this tree
+on chemotaxis has the same hierarchy as the tree that describes
+how signalling enzymes modulate pseudopodia in gradients
+of the chemoattractant (Bosgraaf & van Haastert, 2009;
+P.J.M. van Haastert, unpublished observations on TorC2 mutants).
+PI3K, sGCp and TorC2 are activated in the same region of the cell
+as activated Ras; that is, at the side of the cell facing the gradient
+(Funamoto et al, 2002; Veltman & van Haastert, 2006; Zhang
+1 2 7 6 EMBO reports
+
+VOL 12 | NO 12 | 2011
+
+et al, 2008), where they increase the probability that a pseudopod
+is formed. Thus, this synergizing cluster induces orientation
+of the cell towards the gradient. The second cluster consists of
+cytosolic cGMP and PLA2 (Chen et al, 2007), which are not
+involved in orientation but induce splitting of the current
+pseudopod (Bosgraaf & van Haastert, 2009). As a daughtersplitting pseudopod is extended in a similar direction to that
+of the parent pseudopod, the cGMP/PLA2 cluster functions as a
+memory of current direction.
+In summary, one individual pathway does not contribute
+strongly to chemotaxis, but it can synergize with other pathways,
+which together increases the sensitivity about 150-fold.
+
+Folate chemotaxis is independent of the pathways
+Folate activates many signalling pathways in a way that is
+similar to activation by cAMP. Folate activates a folate receptor
+&2011 EUROPEAN MOLECULAR BIOLOGY ORGANIZATION
+
+scientific report
+
+Minimal requirements for chemotaxis
+A. Kortholt et al
+
+Buffer
+
+B
+
+Uniform folate Gradient folate
+
+110
+Raf–GFP in cytoplasm (%)
+
+A
+
+Wild type
+
+sgc/pla2/pkbR1null+LY
+
+AX3
+sgc/pla2/pkbR1-null + LY
+
+100
+90
+80
+70
+60
+0
+
+RBD-Raf–GFP (activated Ras)
+
+5
+
+10
+
+15
+
+Time (s)
+
+C
+
+D
+
+gc-null + BPB +LY
+
+Chemotaxis index
+
+1.0
+
+sgc/pla2/pkbR1-null + LY
+
+0.8
+
+cAMP
+
+rasC/G-null
+
+0.6
+Folate
+
+0.4
+
+g4-null
+g-null
+
+0.2
+WT
+0
+0.001
+
+0.01
+
+0.1
+
+1
+
+10
+
+100
+
+dC/dx (nM μm–1)
+
+1
+
+10
+
+100
+
+1,000
+
+10,000 100,000
+
+(dC/dx)50 (nM μm–1)
+
+Fig 3 | Folate chemotaxis. (A) Images of RBD-Raf–GFP-expressing cells in buffer, 3–6 s after the addition of folate or in a folate gradient; scale bar,
+5 mm. (B) The time course of translocation after uniform stimulation with 1 mM folate as means and s.e.m. of minimal seven cells. (C) The chemotaxis
+index of wild-type cells exposed to different spatial gradients of cAMP or folate. (D) The gradient inducing half-maximal folate chemotaxis (dC/dx)50
+was determined for the mutants shown; mutants rasC/G-null and gb-null do not exhibit chemotaxis in the steepest gradient tested. The data shown are
+the means and s.d. of at least three experiments with at least 12 cells in each. Data for cAMP and folate chemotaxis were determined in cells starved
+for 5 and 0.5 h, respectively. cAMP, cyclic AMP; GFP, green fluorescent protein.
+
+(De Wit & Bulgakov, 1985), predominantly the G protein Ga4bg
+(Hadwiger et al, 1994), Ras (Lim et al, 2005) and the signalling
+enzymes PI3K, mTOR and guanylyl cyclase (Mato et al, 1977),
+leading to the formation of F actin and myosin filaments in the
+cortex (McRobbie & Newell, 1985). In a gradient of folate, Ras is
+activated at the leading edge with similar kinetics to that observed
+for cAMP (Fig 3A,B). The onset and magnitude of the response
+upon uniform stimulation are similar in wild-type and mutant cells
+lacking the four signalling enzymes, but recover faster in mutant
+cells (Fig 3A,B). Compared with cAMP chemotaxis, the response
+to folate requires steeper gradients, and the maximal chemotaxis
+index is smaller (Fig 3C; about 0.9 for cAMP versus about 0.6 for
+folate; the half-maximal response is about 0.3, and the gradient
+that induces a half-maximal response is defined as (dC/dx)50). For
+wild-type cells, we observed half-maximal chemotaxis to folate with
+a gradient of (dC/dx)50 ¼ 2.8±1.4 nM mm1 (Fig 3D). Unexpectedly,
+inhibition of all four signalling enzymes had no effect on folate
+chemotaxis (Fig 3D). Mutant sgc/pla2/pkbR1-null cells in the
+presence of 20 mM LY or gc-null cells in the presence of BPB and
+LY exhibit chemotaxis in folate gradients that is at least as great as
+that of wild-type cells in the absence or presence of 20 mM LY.
+Although these pathways are activated well by uniform folate, and
+probably at the leading edge in a folate gradient (Mato et al, 1977;
+McRobbie & Newell, 1985; Lim et al, 2005; Liao et al, 2010),
+apparently this activity does not support chemotaxis. Possibly, the
+target enzymes are not activated strongly in vegetative cells.
+&2011 EUROPEAN MOLECULAR BIOLOGY ORGANIZATION
+
+Model for chemotaxis
+Fig 4 combines previous and current experiments to yield a model
+for chemotaxis. Our results show that activation of Ras by cAMP is
+independent of the four signalling enzymes sGC, PLA2, PI3K and
+TorC2 and actin formation. Furthermore, none of the pathways
+are essential for chemotaxis to folate or to steep gradients of
+cAMP. As chemotaxis is completely lost in cells lacking Gb (Wu
+et al, 1995) or RasC/G (Bolourani et al, 2006), we suggest a basal
+signalling module consisting of heterotrimeric and monomeric G
+proteins. This basal module provides activation of Ras at the
+leading edge, which is sufficient for chemotaxis. The next
+challenge will be to identify further components of this basal
+pathway and to determine the mechanism by which heterotrimeric G proteins induce Ras activation. As activation of Ras
+results in rapid actin polymerization, the basal module most
+probably will contain regulators of the cytoskeleton such as Rho
+family GTPases, ARP 2/3, WASP WAVE/Scar and mDIA (Stradal
+et al, 2004). The second module consists of the Ras-activated
+enzymes that induce amplification of gradient sensing. Activation
+of these enzymes at the leading edge has little effect on folate
+chemotaxis and is also not strictly essential for cAMP chemotaxis,
+but is very important to allow chemotaxis in shallow cAMP
+gradients. Important, but only partly known, are the interaction
+of these pathways with the cytoskeleton and the machinery of
+pseudopod formation. Positive and negative feedback loops
+between the different components in these two modules probably
+EMBO reports VOL 12 | NO 12 | 2011 1 2 7 7
+
+scientific report
+
+Minimal requirements for chemotaxis
+A. Kortholt et al
+
+cAMP
+
+FA
+
+cAR1
+
+FAR
+
+Gα2βγ
+
+Gα4βγ
+
+cAMP
+
+FA
+
+cAR1
+
+FAR
+
+Gα2βγ
+
+Gα4βγ
+
+RasGEF
+
+RasGDP
+
+RasGTP
+
+RasGAP
+RasGEF
+
+RasGDP
+
+RasGTP
+
+RasGAP
+
+PLA2
+AA?
+
+Persistence
+at front
+Orientation
+
+sGC
+
+cGMP
+
+TorC2 PI3K
+
+sGCp
+
+PIP3
+Persistent at front
+
+Splitting
+
+Orientation
+
+Memory
+
+F-actin
+Pseudopod
+
+F-actin
+Pseudopod
+
+Chemotaxis
+
+Chemotaxis
+
+Essential
+Ras activation
+chemotaxis
+
+Amplification
+strong in cAMP
+weak in FA
+
+Fig 4 | Model for chemotaxis. A basal essential module provides prolonged activation of Ras and F actin at the leading edge of the cell, thereby
+inducing chemotaxis. This response occurs only in steep gradients. Amplification: activated Ras induces the activation of four signalling pathways.
+Strong synergy of PI3K, TorC2 and sGC protein at the leading edge induces the upgradient orientation of the cell. Synergy of cGMP and PLA2 induces
+splitting of the pseudopod, and as a daughter-splitting pseudopod is extended in a similar direction to that of the parent pseudopod, the cGMP/PLA2
+cluster functions as a memory of current direction. Together, memory and orientation allow chemotaxis in more shallow cAMP gradients but have
+little effect on folate chemotaxis. AA, arachidonic acid; cAMP, cyclic AMP; FA, folic acid; FAR, folic acid receptor; PI3K, phosphoinositide kinase-3;
+PIP, phosphoinositides; PLA2, phospholipase A2; sGC, soluble guanylyl cyclase.
+
+further enhance chemotaxis in shallow gradients. Therefore, this
+model provides a conceptual framework that can be used to
+identify critical components and missing links in chemotaxis,
+which might be useful to fine-tune and deepen our understanding
+of chemotaxis.
+
+METHODS
+Cell culture and preparation. The strains and conditions used
+in the chemotaxis experiments are described in supplementary
+Table S1 online (these strains have been described; see Veltman
+et al, 2008). The sgc/pla2/pkbR1-null strain was obtained by the
+inactivation of the pkbR1 gene in sgc/pla2-null cells.
+1 2 7 8 EMBO reports
+
+VOL 12 | NO 12 | 2011
+
+Cells were transformed with the plasmid pDm115RafRBD
+expressing RBD-Raf–GFP (amino acids 50–134 of RAF1) that
+binds to the activated GTP-bound state of Ras proteins (Kortholt &
+van Haastert, 2008), or plasmid LB15B expressing LimEDcoil–GFP
+(amino acids 1–145 of LimE) that binds to F actin. Cells
+were grown in HL5-C medium including glucose (ForMedium),
+containing 50 mg ml1HygromycinB (Invitrogen) for selection.
+Cells were collected and suspended in 10 mM KH2PO4/Na2HPO4,
+pH 6.5 (phosphate buffer (PB)).
+Chemotaxis assays. Chemotaxis was measured with the small
+population assay as described (Konijn, 1970), and with micropipettes (supplementary Table S1 online). To obtain mutant cells
+&2011 EUROPEAN MOLECULAR BIOLOGY ORGANIZATION
+
+Minimal requirements for chemotaxis
+A. Kortholt et al
+
+that were in an optimal state for chemotaxis towards cAMP in the
+micropipette assays, unlabelled wild-type cells were mixed with
+equal amounts of green fluorescent protein (GFP)-tagged mutant
+cells and starved as a confluent layer (about 106 cells per cm2) on
+plastic support for 5–7 h until streams started to form. Cells were
+collected in PB and incubated on a glass support at a lower density
+of approximately 4  104 cells per cm2. The distance between
+adjacent cells is about 5 cell lengths, where cells do not form
+streams, and chemotaxis can be measured in the absence of strong
+interactions between mutant and wild-type cells. Chemotaxis was
+observed using a confocal fluorescent microscope, detecting
+wild-type and mutant cells in the phase-contrast and fluorescent
+channels, respectively.
+For chemotaxis to cAMP, we used pipettes with a tip opening
+of 0.5 mm, containing 0.1 mM cAMP and operated at 0 or 25 hPa.
+For folate chemotaxis, the conditions were 1 mM or 1 mM folate, a
+pipette tip opening of 3 mm and a pressure of 1, 4 or 16 hPa. The
+actual gradient was measured with the fluorescent dye alexa 594
+that was added to the chemoattractant solution, and the local
+concentration was recorded in the red channel of the confocal
+microscope (Postma & van Haastert, 2009). Most chemotaxis data
+were recorded at a distance x of 30–100 mm from the pipette. It
+holds that the concentration is given by C(x) ¼ xdC/dx (Postma &
+van Haastert, 2009).
+Confocal images were recorded using a Zeiss LSM 510 METANLO confocal laser scanning microscope equipped with a Zeiss
+plan-apochromatic  63 numerical aperture 1.4 objective. The
+chemotaxis index and speed were determined as described
+(Veltman & van Haastert, 2006). The fluorescent intensity of
+RBD-Raf–GFP in the cytoplasm was determined in large area
+selections of the cytoplasm using ImageJ. The crescent of RBDRaf–GFP at the leading edge is defined as the area with fluorescent
+intensity that is at least 1.3-fold the fluorescent intensity of
+the cytoplasm. The fluorescent intensity of RBD-Raf–GFP in the
+crescent was determined with curved lines using ImageJ; the
+length of the crescent is defined as the length of the curved line.
+Supplementary information is available at EMBO reports online
+(http://www.emboreports.org).
+ACKNOWLEDGEMENTS
+We thank P. Devreotes, R. Firtel and the Dictyostelium stock center
+for providing Dictyostelium mutants. We thank D. Veltman for initial
+experiments on the F-actin response of sgc/pla2-null cells.
+CONFLICT OF INTEREST
+The authors declare that they have no conflict of interest.
+REFERENCES
+Bolourani P, Spiegelman GB, Weeks G (2006) Delineation of the roles played
+by RasG and RasC in cAMP-dependent signal transduction during
+the early development of Dictyostelium discoideum. Mol Biol Cell 17:
+4543–4550
+Bosgraaf L, Keizer-Gunnink I, van Haastert PJ (2008) PI3-kinase signaling
+contributes to orientation in shallow gradients and enhances speed in
+steep chemoattractant gradients. J Cell Sci 121: 3589–3597
+Bosgraaf L, van Haastert PJ (2009) Navigation of chemotactic cells by
+parallel signaling to pseudopod persistence and orientation. PLoS ONE
+4: e6842
+Chen L, Iijima M, Tang M, Landree MA, Huang YE, Xiong Y, Iglesias PA,
+Devreotes PN (2007) PLA2 and PI3K/PTEN pathways act in parallel
+to mediate chemotaxis. Dev Cell 12: 603–614
+
+&2011 EUROPEAN MOLECULAR BIOLOGY ORGANIZATION
+
+scientific report
+De Wit RJ, Bulgakov R (1985) Guanine nucleotides modulate the ligand
+binding properties of cell surface folate receptors in Dictyostelium
+discoideum. FEBS Lett 179: 257–261
+Funamoto S, Meili R, Lee S, Parry L, Firtel RA (2002) Spatial and temporal
+regulation of 3-phosphoinositides by PI 3-kinase and PTEN mediates
+chemotaxis. Cell 109: 611–623
+Hadwiger JA, Lee S, Firtel RA (1994) The Ga subunit Ga4 couples to
+pterin receptors and identifies a signaling pathway that is essential for
+multicellular development in Dictyostelium. Proc Natl Acad Sci USA
+91: 10566–10570
+Hoeller O, Kay RR (2007) Chemotaxis in the absence of PIP3 gradients.
+Curr Biol 17: 813–817
+Jin T, Zhang N, Long Y, Parent CA, Devreotes PN (2000) Localization of
+the G protein bg complex in living cells during chemotaxis. Science 287:
+1034–1036
+Kamimura Y, Xiong Y, Iglesias PA, Hoeller O, Bolourani P, Devreotes PN
+(2008) PIP3-independent activation of TorC2 and PKB at the cell’s
+leading edge mediates chemotaxis. Curr Biol 18: 1034–1043
+Konijn TM (1970) Microbiological assay of cyclic 30 ,50 -AMP. Experientia
+26: 367–369
+Kortholt A, van Haastert PJ (2008) Highlighting the role of Ras and Rap during
+Dictyostelium chemotaxis. Cell Signal 20: 1415–1422
+Liao XH, Buggey J, Kimmel AR (2010) Chemotactic activation of
+Dictyostelium AGC-family kinases AKT and PKBR1 requires separate
+but coordinated functions of PDK1 and TORC2. J Cell Sci 123:
+983–992
+Lim CJ, Zawadzki KA, Khosla M, Secko DM, Spiegelman GB, Weeks G
+(2005) Loss of the Dictyostelium RasC protein alters vegetative cell size,
+motility and endocytosis. Exp Cell Res 306: 47–55
+Mato JM, Losada A, Nanjundiah V, Konijn TM (1975) Signal input for a
+chemotactic response in the cellular slime mold Dictyostelium
+discoideum. Proc Natl Acad Sci USA 72: 4991–4993
+Mato JM, van Haastert PJ, Krens FA, Rhijnsburger EH, Dobbe FC, Konijn TM
+(1977) Cyclic AMP and folic acid mediated cyclic GMP accumulation
+in Dictyostelium discoideum. FEBS Lett 79: 331–336
+McRobbie SJ, Newell PC (1985) Effects of cytochalasin B on cell movements
+and chemoattractant-elicited actin changes of Dictyostelium. Exp Cell
+Res 160: 275–286
+Postma M, van Haastert PJ (2009) Mathematics of experimentally generated
+chemoattractant gradients. Methods Mol Biol 571: 473–488
+Sasaki AT, Chun C, Takeda K, Firtel RA (2004) Localized Ras signaling at
+the leading edge regulates PI3K, cell polarity, and directional cell
+movement. J Cell Biol 167: 505–518
+Stradal TEB, Rottner K, Disanza A, Confalonieri S, Innocenti M, Scita G (2004)
+Regulation of actin dynamics by WASP and WAVE family proteins.
+Trends Cell Biol 14: 303–311
+Swaney KF, Huang CH, Devreotes PN (2010) Eukaryotic chemotaxis:
+a network of signaling pathways controls motility, directional sensing,
+and polarity. Annu Rev Biophys 39: 265–289
+Tomchik KJ, Devreotes PN (1981) Adenosine 30 ,50 -monophosphate
+waves in Dictyostelium discoideum: a demonstration by isotope
+dilution–fluorography. Science 212: 443–446
+van Haastert PJ, Keizer-Gunnink I, Kortholt A (2007) Essential role of
+PI3-kinase and phospholipase A2 in Dictyostelium discoideum
+chemotaxis. J Cell Biol 177: 809–816
+Van Haastert PJM, Devreotes PN (2004) Chemotaxis: signalling the way
+forward. Nat Rev Mol Cell Biol 5: 626–634
+Veltman DM, Keizer-Gunnik I, van Haastert PJ (2008) Four key signaling
+pathways mediating chemotaxis in Dictyostelium discoideum. J Cell Biol
+180: 747–753
+Veltman DM, van Haastert PJ (2006) Guanylyl cyclase protein and cGMP
+product independently control front and back of chemotaxing
+Dictyostelium cells. Mol Biol Cell 17: 3921–3929
+Wu LJ, Valkema R, Vanhaastert PJM, Devreotes PN (1995) The G-protein
+b-subunit is essential for multiple responses to chemoattractants in
+Dictyostelium. J Cell Biol 129: 1667–1675
+Xiao Z, Zhang N, Murphy DB, Devreotes PN (1997) Dynamic distribution
+of chemoattractant receptors in living cells during chemotaxis and
+persistent stimulation. J Cell Biol 139: 365–374
+Zhang S, Charest PG, Firtel RA (2008) Spatiotemporal regulation of Ras
+activity provides directional sensing. Curr Biol 18: 1587–1593
+
+EMBO reports VOL 12 | NO 12 | 2011 1 2 7 9
+
+

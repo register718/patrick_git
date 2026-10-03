@@ -1,0 +1,825 @@
+THE JOURNAL OF BIOLOGICAL CHEMISTRY VOL. 283, NO. 16, pp. 10232–10240, April 18, 2008
+© 2008 by The American Society for Biochemistry and Molecular Biology, Inc. Printed in the U.S.A.
+
+Rap1 Activation in Response to cAMP Occurs Downstream of
+Ras Activation during Dictyostelium Aggregation*
+Received for publication, September 5, 2007, and in revised form, December 7, 2007 Published, JBC Papers in Press, January 7, 2008, DOI 10.1074/jbc.M707459200
+
+Parvin Bolourani1, George B. Spiegelman, and Gerald Weeks2
+From the Department of Microbiology and Immunology, University of British Columbia, Vancouver, British Columbia V6T 1Z3, Canada
+We have used a doubly disrupted rasCⴚ/rasGⴚ strain of Dictyostelium discoideum, which ectopically expresses the carA
+gene, to explore the relationship between the activation of RasC
+and RasG, the two proteins that are necessary for optimum
+cAMP signaling, and the activation of Rap1, a Ras subfamily
+protein, that is also activated by cAMP. The ectopic expression
+of carA restored early developmental gene expression to the
+rasCⴚ/rasGⴚ strain, rendering it suitable for an analysis of
+cAMP signal transduction. Because there was negligible signaling through both the cAMP chemotactic pathway and the adenylyl cyclase activation pathway in the rasCⴚ/rasGⴚ/[act15]:carA
+strain, it is clear that RasG and RasC are the only two Ras subfamily proteins that directly control these pathways. The position of Rap1 in the signal transduction cascade was clarified by
+the finding that Rap1 activation was totally abolished in rasCⴚ/
+rasGⴚ/[act15]:carA and rasGⴚ cells but only slightly reduced in
+rasCⴚ cells. Rap1 activation, therefore, occurs downstream of
+the Ras proteins and predominantly, if not exclusively, downstream of RasG. The finding that in vitro guanylyl cyclase activation is also abolished in the rasCⴚ/rasGⴚ/[act15]:carA strain
+identifies RasG/RasC as the presumptive monomeric GTPases
+required for this activation.
+
+The Ras subfamily proteins are monomeric GTPases that
+function as molecular switches by cycling between the active
+GTP-bound and the inactive GDP-bound state (1). In mammalian cells, activated Ras proteins impact multiple cellular signaling pathways that include mitogen-activated protein kinase
+cascades, phosphatidylinositide 3-kinase (PI3K)3-regulated
+pathways and RalGDS-dependent activation of Ral (2). These
+Ras-mediated responses regulate a wide range of cellular processes, including proliferation, cytoskeletal function, and differentiation. The discovery of a large number of Ras subfamily
+homologues in mammals and in the model organisms Drosophila melanogaster, Caenorhabditis elegans, and Dictyostelium
+
+* This research was funded in part by a grant from the Canadian Institute of
+Health Research (to G. W.). The costs of publication of this article were
+defrayed in part by the payment of page charges. This article must therefore be hereby marked “advertisement” in accordance with 18 U.S.C. Section 1734 solely to indicate this fact.
+1
+Recipient of a scholarship from the Ministry of Science Research and Technology of Iran.
+2
+To whom correspondence should be addressed: Life Sciences Centre, 2350
+Health Sciences Mall, University of British Columbia, Vancouver, British
+Columbia V6T 1Z3, Canada. Tel.: 604-822-6649; Fax: 604-822-6041; E-mail:
+gerwee@interchange.ubc.ca.
+3
+The abbreviations used are: PI3K, phosphatidylinositide 3-kinase; ACA, adenylyl cyclase A; PKB, protein kinase B; GTP␥S, guanosine 5⬘-3-O-(thio)triphosphate; RBD, Ras-binding domain; GST, glutathione S-transferase.
+
+discoideum (3, 4) has raised important questions regarding the
+specific functions of individual Ras proteins. For example, the
+human Ras subfamily consists of 36 gene products that can be
+divided into several groups (5). The search for downstream
+effectors has revealed some specificity but also an enormous
+complexity of apparently overlapping functions (6). Thus, a
+major step in understanding the patterns of Ras signal transduction would be to identify the contributions made by each
+Ras subfamily member to a specific signaling pathway. This
+analysis is difficult, if there is cross-talk between the components of different pathways, or if a single input signal results in
+multiple responses. One useful tool in understanding Ras function is provided by examining genetically tractable organisms,
+such as Dictyostelium, that are disrupted in the ras gene of
+interest.
+In the presence of nutrients, the cellular slime mold, Dictyostelium, grows as free-living, single-celled amoebae, but upon
+starvation these amoebae aggregate into a multicellular organism that progresses through a motile slug stage to form a spore
+mass or sorus supported by a stalk (7). The aggregation process
+is driven in response to cAMP, which is synthesized and
+secreted soon after the onset of starvation. cAMP binds to cell
+surface cAMP receptors (for example, the cAR1 receptor
+encoded by the carA gene), resulting in the dissociation and
+activation of a heterotrimeric G protein. This leads to chemotaxis to cAMP and to the activation of adenylyl cyclase A (ACA)
+(8).
+Fourteen Dictyostelium Ras subfamily proteins, with a high
+level of amino acid identity to the mammalian H, N, and K-Ras
+proteins, have been described (9). The rasC, rasS, rasG, and
+rasD genes have all been disrupted, and each of the resulting
+strains has a distinct phenotype, suggesting that each encoded
+product performs a different function (10 –14). It has been previously shown that both RasC and RasG are activated in
+response to cAMP, suggesting roles for both RasC and RasG in
+cAMP signaling (15, 16). A role for RasC and RasG has been
+further indicated by the finding that rasC⫺ cells fail to aggregate
+and rasG⫺ cells are delayed in aggregation (10, 14). Furthermore, ACA activation is more impacted than chemotaxis in the
+rasC⫺ cells, whereas chemotaxis is more impacted than ACA
+activation in the rasG⫺ cells (10). However, the loss of RasG or
+RasC alone did not result in a total loss of either chemotaxis or
+ACA activation, suggesting three possibilities: some overlap of
+function between RasC and RasG; a requirement of both RasC
+and RasG for optimal chemotaxis and optimal ACA activation;
+or the existence of an additional pathway for cAMP signaling.
+The recent finding that Rap1 is activated in response to cAMP
+(17) provides a potential mechanism for the third possibility:
+
+This is an Open Access article under the CC BY license.
+
+10232 JOURNAL OF BIOLOGICAL CHEMISTRY
+
+VOLUME 283 • NUMBER 16 • APRIL 18, 2008
+
+Role of Ras in Chemotaxis and cAMP Relay
+signaling through Rap1 acting in parallel to signaling through
+RasC or RasG. To eliminate this possibility, we have ectopically
+expressed the carA gene in a doubly disrupted rasC⫺/rasG⫺
+strain. This ectopic expression was necessary, because the
+rasC⫺/rasG⫺ strain exhibited greatly reduced expression of
+gpaB and carA, the genes encoding the G␣2 subunit of the heterotrimeric G protein and the cAMP receptor cAR1, respectively, and was deficient in the developmentally induced production of ACA (10). The absence of these essential
+components for cAMP signaling rendered the rasC⫺/rasG⫺
+strain inappropriate for an analysis of signal transduction. We
+report experiments that show that early developmental gene
+expression is restored in the rasC⫺/rasG⫺/[act15]:carA
+mutant, but these cells exhibit negligible chemotaxis and cAMP
+relay, conclusively demonstrating the essential role of RasC or
+RasG in these processes. In addition, an examination of cAMPdependent Rap1 activation in the various ras null strains provided evidence that Rap1 activation occurs downstream of
+RasG. Finally, the availability of the rasC⫺/rasG⫺/[act15]:carA
+strain enabled us to demonstrate the essential role of RasC and
+RasG in guanylyl cyclase activation.
+
+EXPERIMENTAL PROCEDURES
+Dictyostelium Strains—Generation of rasG⫺, rasC⫺, and
+rasC⫺/rasG⫺ strains, all in the JH10 background, has been
+described previously (10). To generate rasC⫺/rasG⫺/[act15]:
+carA strain, 20 ␮g of the PcAR1-B18 expression vector, which
+contains carA cDNA under the control of the constitutively
+active actin 15 promoter and a neomycin-resistance cassette
+(18), was electroporated into rasC⫺/rasG⫺ cells as previously
+described (19). Clones containing the selectable marker were
+isolated 8 –15 days following the application of the selection
+conditions and maintained in HL5 media supplemented with
+10 ␮g/ml G418 (Invitrogen).
+Cell Culture and Development—The JH10 strain was grown
+at 22 °C in HL5 medium (20) containing 50 ␮g/ml streptomycin
+sulfate (Sigma) and 100 ␮g/ml thymidine (Sigma). The various
+ras gene-disrupted strains were grown in the same medium
+without thymidine. In addition, the rasC⫺/rasG⫺ strain was
+grown in the presence of 10 ␮g/ml blasticidin S (Calbiochem),
+and the rasC⫺/rasG⫺/[act15]:carA strain was grown in the
+presence of 10 ␮g/ml blasticidin S and 10 ␮g/ml G418 (Invitrogen). Because the rasG⫺, rasC⫺/rasG⫺, and rasC⫺/rasG⫺/
+[act15]:carA cells grow poorly in shaken suspension, all strains
+were grown in Nunc tissue-culture plates.
+To obtain cAMP-pulsed cells, wild-type and mutant vegetative cells were harvested, washed twice in KK2 (20 mM potassium phosphate, pH 6.1), and resuspended in KK2 to a final
+density of 5 ⫻ 106 cells/ml. 30 ml of this cell suspension was
+shaken at 150 rpm for 1 h and then pulsed with 100 ␮l of cAMP
+to a final concentration of 50 nM every 6 min for 5 h. To observe
+aggregation streaming, vegetative or 5-h cAMP-pulsed cells
+were washed twice in Bonner’s salts (10 mM NaCl, 10 mM KCl, 2
+mM CaCl2), seeded at ⬃4 ⫻ 105 cells/cm2 in Nunc tissue culture
+dishes submerged under Bonner’s salts, incubated at 22 °C, and
+photographed with a Leica DMIL inverted microscope (Leica
+Microsystems, Wetzlar, Germany), a Leica DFC350F camera
+APRIL 18, 2008 • VOLUME 283 • NUMBER 16
+
+(Leica Microsystems), and Openlab software (Improvision,
+Coventry, England).
+cAMP Binding Assay— cAMP-pulsed cells were treated with
+2 mM caffeine for 30 min, washed twice in ice-cold KK2, and
+resuspended to a density of 1.5 ⫻ 108 cells/ml. The binding of
+[3H]cAMP to the cell surface was measured by the ammonium
+sulfate stabilization assay (21). Cells (1.5 ⫻ 107) were incubated
+with 100 ␮l of KK2 containing 10 nM [3H]cAMP (0.9 TBq/
+mmol, GE Healthcare, Little Chalfont, Buckinghamshire, England) and 5 mM dithiothreitol (Sigma) for 1 min at 0 °C. 1 ml of
+saturated ammonium sulfate was then added, followed immediately by the addition of 100 ␮l of bovine serum albumin (10
+mg/ml, Sigma). After 5-min incubation at 0 °C, the samples
+were centrifuged at 8000 ⫻ g for 2 min. The supernatant was
+removed, and the pellet was resuspended in 110 ␮l of 1 M acetic
+acid. 100 ␮l of the resuspended pellet was mixed with 4 ml of
+scintillation mixture (Ready Safe liquid scintillation cocktails,
+Beckman Coulter, Fullerton, CA), and the amount of bound
+[3H]cAMP was measured using a Beckman LS6000IC scintillation counter.
+Chemotaxis Assays—For cAMP micropipet assays, cells were
+pulsed with cAMP as described above, washed twice with Bonner’s salts, and then seeded in Nunc tissue culture dishes at a
+cell density of ⬃5 ⫻ 105 cell/cm2 in Bonner’s salts. At t ⫽ 0, an
+Eppendorf Femtotip Micropipet (Hamburg, Germany) filled
+with 100 ␮M cAMP was placed in the field of view, and cell
+movements toward the micropipet were monitored by timelapse video microscopy using an Olympus IX-70 inverted
+microscope, a DAGE-MTI CCD-100 camera (Michigan City,
+IN), and Scion Image 4.0 software (Frederick, MD). Instantaneous velocities and chemotaxis indices were determined as
+described previously (22).
+Western Blot Analyses and PKB Phosphorylation Assays—
+Cells were pelleted by centrifugation and lysed in 1⫻ Laemmli
+SDS-PAGE loading buffer (6⫻ buffer: 350 mM Tris-Cl, pH 6.8,
+10% SDS, 600 mM dithiothreitol, 0.012% w/v bromphenol blue,
+30% glycerol) by boiling for 5 min (23). 10 ␮g of protein was
+then fractionated by SDS-PAGE. After electrophoresis, the
+proteins were transferred electrophoretically onto Hybond-P
+polyvinylidene difluoride membranes (Amersham Biosciences), which were then blocked with nonfat milk (23) and
+probed with the appropriate antibody. Antibody binding was
+detected by enhanced chemiluminescence (ECL, GE Healthcare). PKB phosphorylation was determined as described previously (14). Briefly, cAMP-pulsed cells were washed twice in
+KK2, resuspended to 5 ⫻ 107 cells/ml in KK2, and then stimulated by addition of cAMP to a final concentration of 100 nM.
+Aliquots of 100 ␮l were removed at intervals, before and after
+stimulation, and mixed with 20 ␮l of 6⫻ SDS-PAGE loading
+buffer. 10 ␮g of protein was fractionated by SDS-PAGE and
+then subjected to Western blot analysis using a phosphothreonine-specific antibody (Cat#9381, Cell Signaling Technologies,
+Danvers, MA). Equal sample loading was verified by staining a
+duplicate gel with Coomassie Blue. To assess equal PKB expression levels in all strains, Western blots were also analyzed using
+a PKB-specific antibody. The protein concentration was determined using the protein assay from Bio-Rad.
+JOURNAL OF BIOLOGICAL CHEMISTRY
+
+10233
+
+Role of Ras in Chemotaxis and cAMP Relay
+Northern Blot Analyses—For Northern blot analyses, cells were
+pulsed with cAMP as described above, and total RNA was
+extracted at intervals using guanidinium isothiocyanate (24).
+15-␮g aliquots were size-fractionated on 1.25% agarose-formaldehyde gels, blotted onto Hybond-N⫹ membrane (Amersham Biosciences), and probed with DNA fragments from plasmids carrying the specific genes of interest, as previously described (25).
+Adenylyl Cyclase Assay—In vitro adenylyl cyclase activity was
+determined as described previously (14), except that cell suspensions were frozen on dry ice and thawed, and then vortexed
+in the presence of glass beads (⬍106 ␮m, Sigma). cAMP was
+recovered by sequential chromatography through Dowex and
+Alumina columns, and the eluted [32P]cAMP was measured
+using a Beckman LS6000IC scintillation counter.
+cGMP Production and Guanylyl Cyclase Activation—To
+measure cGMP production, cells were pulsed with cAMP as
+described above, washed twice with KK2, and resuspended to a
+density of 1 ⫻ 108 cells/ml in KK2 containing 2 mM caffeine.
+The cells were stimulated with 100 nM cAMP, and 100-␮l samples were lysed at intervals by the addition of 100 ␮l of 3.5%
+perchloric acid, followed by the addition of 50 ␮l of 50% saturated KHCO3. cGMP levels were then measured using a
+[3H]cGMP assay kit (GE Healthcare, TRK500).
+In vitro guanylyl cyclase assay was determined as described
+previously (26). Briefly, cAMP-pulsed cells were washed and
+resuspended to a density of 2 ⫻ 108 cells/ml in KK2. One volume of cell suspension was mixed with one volume of 10 mM
+Tris-Cl, pH 8, 1.5 mM EGTA, 500 mM sucrose, in the presence
+or absence of 200 ␮M GTP␥S, and immediately lysed by pushing
+the cells through a 5 ␮M Isopore Membrane Filter (Millipore,
+Ireland) placed directly between a 1-ml syringe and a B-D
+26G1/2 needle (BD Biosciences). 150 ␮l of cell lysate was mixed
+with an equal volume of assay mix (10 mM Tris-Cl, pH 8, 250
+mM sucrose, 40 mM dithiothreitol, 1 mM GTP, 5 mM MgCl2),
+and the mixture was incubated at 22 °C for 60 s. Aliquots (100
+␮l) were mixed with 100 ␮l of 3.5% perchloric acid, followed by
+addition of 50 ␮l of 50% saturated KHCO3. cGMP levels were
+then measured using a [3H]cGMP assay kit (GE Healthcare
+TRK500).
+RasG, RasC, and Rap1 Activation Assays—The Ras-binding
+domain (RBD) of Byr2 was expressed in Escherichia coli as a
+GST fusion protein and purified as described previously (15).
+The purified GST-Byr2-RBD was used for the detection of activated proteins. After cAMP pulsing, cells were harvested by
+centrifugation and resuspended at a density of 2 ⫻ 107 cells/ml
+in KK2 containing 1 mM caffeine. After 30 min, aliquots (2 ml)
+of cell suspension were stimulated by addition of cAMP to a
+final concentration of 15 ␮M. Cell suspensions (350 ␮l) were
+lysed at the indicated times by mixing with an equal volume of
+2 ⫻ lysis buffer (20 mM sodium phosphate, pH 7.2, 2% Triton
+X-100, 20% glycerol, 300 mM NaCl, 20 mM MgCl2, 2 mM EDTA,
+2 mM Na3VO4, 10 mM NaF, containing two tablets of protease
+inhibitor mixture (Roche Diagnostics) per 50-ml buffer). The
+lysates were centrifuged for 10 min, and the protein concentrations of the supernatants were determined using the protein
+assay from Bio-Rad. 400 ␮g of protein was incubated with 100
+␮g of GST-Byr2-RBD on glutathione-Sepharose beads (GE
+Healthcare Bio-sciences AB, Uppsala, Sweden) at 4 °C for 1 h.
+
+10234 JOURNAL OF BIOLOGICAL CHEMISTRY
+
+FIGURE 1. Northern blot analysis of early developmental gene expression. RNA was isolated from JH10 (A), rasC⫺/rasG⫺ (B), and rasC⫺/rasG⫺/
+[act15]:carA (C) cells that had been pulsed with cAMP for the indicated times
+(in hours), and then subjected to electrophoretic fractionation. Blots were
+hybridized with cDNA probes corresponding to the indicated genes.
+
+TABLE 1
+Cell surface cAMP binding
+cAMP bounda
+
+Strain
+
+nmol/107 cells
+
+JH10
+rasC⫺/rasG⫺
+rasC⫺/rasG⫺/关act15兴:carA
+a
+
+4.3 ⫾ 0.4
+0.8 ⫾ 0.2
+6.6 ⫾ 0.5
+
+The values are the means of two experiments.
+
+The beads were harvested by centrifugation and washed three
+times in 1 ⫻ lysis buffer. 50 ␮l of 1 ⫻ SDS gel loading buffer was
+then added to the pelleted beads, and the suspension was boiled
+for 5 min. Samples were subjected to SDS-PAGE and Western
+blot analysis with anti-RasG, RasC, or Rap1 antibodies.
+
+RESULTS
+Restoration of Early Developmental Gene Expression in rasC⫺/
+rasG⫺ Strain by the Ectopic Expression of carA—Characterization
+of a rasC⫺/rasG⫺ double mutant by Northern blot analysis had
+revealed that expression of the early developmentally genes, carA,
+gpaB, and csaA, was dramatically reduced, with the effect on carA
+expression being the most pronounced (10). Thus, any signaling
+phenotype observed in this strain could be due to insufficient levels
+of essential developmentally expressed signaling proteins, such as
+cAR1, G␣2, and ACA. Because carA expression was the most
+defective, we expressed the gene encoding cAR1 (carA) from the
+constitutively active act15 promoter in the rasC⫺/rasG⫺ strain, in
+an attempt to provide sufficient cAR1 to allow at least some cAMP
+signaling. As anticipated, carA was now clearly expressed in vegetative cells of this strain, whereas, in contrast it was undetectable in
+vegetative JH10 and rasC⫺/rasG⫺ cells. Surprisingly gpaB and
+csaA were also expressed in vegetative rasC⫺/rasG⫺/[act15]:carA
+cells at much greater levels than in JH10 or rasC⫺/rasG⫺ cells.
+Even more surprisingly, the developmental expression of carA,
+gpaB, and csaA was restored by the ectopic expression of carA (Fig.
+1, A and C). Thus, the presence of cAR1 in vegetative cells at the
+onset of development is a positive regulator of early gene expression and is able to offset the absence of RasG and RasC, normally
+required for this induction. Because early gene expression was
+restored in the rasC⫺/rasG⫺/[act15]:carA strain, it enabled an
+investigation of the possible roles of other Ras proteins in cAMPinduced signal transduction.
+To demonstrate that the restored carA expression in the
+rasC⫺/rasG⫺/[act15]:carA strain produced functional cAR1,
+we determined the binding of cAMP to the cell surface of
+VOLUME 283 • NUMBER 16 • APRIL 18, 2008
+
+Role of Ras in Chemotaxis and cAMP Relay
+
+FIGURE 2. Aggregation on a plastic surface of cells submerged in Bonner’s salts solution. Strains JH10 (A), rasC⫺/rasG⫺ (B), and rasC⫺/rasG⫺/
+[act15]:carA (C) were photographed at the indicated times after plating.
+Single experiments are shown, but the results for the strains were highly
+reproducible.
+
+cAMP-pulsed cells. The results, shown in Table 1, indicated
+that cAMP binding was reduced, as expected, in the rasC⫺/
+rasG⫺ relative to JH10, but restored to greater than wild-type
+levels in the rasC⫺/rasG⫺/[act15]:carA cells. This result demonstrated that the overexpression of carA indicated in Fig. 1
+resulted in functional protein being localized on the surface of
+the rasC⫺/rasG⫺/[act15]:carA cells.
+As was the case with the original rasG⫺ cells (12), the new
+rasG⫺ strains grew poorly in shaken suspension and were
+multinucleate (data not shown). The rasC⫺/rasG⫺ and rasC⫺/
+rasG⫺/[act15]:carA cells exhibited no growth whatsoever in
+shaken suspension and grew less efficiently than rasG⫺ cells on
+a plastic surfaces (data not shown). These results indicate that
+RasC is capable of performing some of the RasG functions in
+vegetative cells. In addition, it was shown previously that,
+although rasC⫺ cell grew normally, they exhibited deficiencies
+in some vegetative cell functions, indicating an important role
+for RasC in vegetative cells (27).
+Developmental Phenotype—When grown in association
+with bacteria, the rasC⫺/rasG⫺/[act15]:carA cells did not
+form aggregates on bacterial lawns (data not shown). In addition, aggregation streams were not observed when cells were
+plated in plastic dishes under non-nutrient buffer, although
+small cell clumps were formed after prolonged incubation
+(Fig. 2C), results similar to those observed previously for
+AX2/rasC⫺ (14) and JH10/rasC⫺ cells (10). The rasC⫺/
+rasG⫺ cells did not form small clumps under these conditions (Fig. 2B). The formation of aggregation streams by the
+control JH10 cells was observed 10 h after plating, and typical tight aggregates formed by 12 h (Fig. 2A). When pulsed
+with cAMP for 5 h before plating in plastic dishes, rasC⫺/
+rasG⫺/[act15]:carA exhibited the same phenotype as the
+non-pulsed cells (data not shown). Thus, cells containing
+neither RasG nor RasC are incapable of aggregation under
+any of the experimental conditions tested, and this defect is
+not due to the inability to express the early developmental
+APRIL 18, 2008 • VOLUME 283 • NUMBER 16
+
+FIGURE 3. In vitro GTP␥S stimulation of adenylyl cyclase activity. JH10,
+rasC⫺/rasG⫺, and rasC⫺/rasG⫺/[act15]:carA cells were pulsed with cAMP for
+5 h, and lysates were assayed for ACA activity in the presence of 5 mM MnSO4
+(gray bar), 40 ␮M GTP␥S (black bar), or no additional component (white bar).
+Plotted values are normalized relative to the unstimulated activity in the
+absence of MnSO4 or GTP␥S (white bar). The means and standard deviations
+for three independent experiments are shown.
+
+genes (Fig. 1C). These results show that aggregation is totally
+blocked in the absence of both RasC and RasG. To determine
+the role played by these proteins in the cAMP relay and
+chemotaxis signal pathways, these downstream responses to
+cAMP were further explored.
+The Presence of Either RasG or RasC Is Essential for ACA
+Activation—The activation of ACA by signaling through the
+heterotrimeric G protein is essential during aggregation to provide the extracellular cAMP to relay the signal through the population (8). GTP␥S activates ACA by uncoupling the G␣ subunits from the G␤␥ subunits without the requirement for
+receptor occupation by cAMP (8, 28). ACA activity in the
+absence of GTP␥S was reduced in the lysates of cAMP-pulsed
+rasC⫺/rasG⫺ cells (Fig. 3), suggesting that these cells expressed
+less ACA, a result consistent with the defect in early gene
+expression (Fig. 1). In contrast, lysates prepared from cAMPpulsed rasC⫺/rasG⫺/[act15]:carA cells, had wild-type levels of
+ACA activity. When stimulated with GTP␥S, there was no
+increase in ACA activity in either rasC⫺/rasG⫺ or in rasC⫺/
+rasG⫺/[act15]:carA cells (Fig. 3). This result indicates that
+rasC⫺/rasG⫺/[act15]:carA cells are incapable of cAMP-induced signal relay and is in marked contrast to those observed
+previously for cells with single ras gene disruptions, which
+exhibit some ACA activation (10, 14). Thus, signal transduction
+from the heterotrimeric G protein to ACA must involve either
+RasC or RasG.
+The Presence of Either RasG or RasC Is Essential for Chemotaxis,
+PKB Phosphorylation, and Guanylyl Cyclase Activation—
+To investigate the requirement of RasC and RasG for chemotaxis, cells that had been pulsed for 5 h with cAMP were
+subjected to a spatial gradient created by diffusion of cAMP
+from the tip of a micropipet. Under these conditions,
+chemotaxis-competent cells respond by migrating toward
+the tip (29). Chemotactic indices for the rasC⫺/rasG⫺ and
+the rasC⫺/rasG⫺/[act15]:carA cells revealed the virtual
+absence of chemotaxis in these two strains (Table 2). Thus,
+cAMP-induced chemotaxis toward cAMP requires signal
+transduction through either RasC or RasG. The results for
+the double ras gene deletion strains are in marked contrast to
+JOURNAL OF BIOLOGICAL CHEMISTRY
+
+10235
+
+Role of Ras in Chemotaxis and cAMP Relay
+TABLE 2
+Chemotaxis analysis of Dictyostelium cells in a spatial gradient of
+cAMP
+All values are means ⫾ S.D. for the indicated number of cells.
+Strain
+
+Number of
+cells
+
+Instantaneous
+velocity
+
+JH10
+rasG⫺
+rasC⫺
+rasC⫺/rasG⫺
+rasC⫺/rasG⫺/关act15兴:carA
+
+20
+21
+22
+20
+20
+
+11.18 ⫾ 1.51
+5.98 ⫾ 1.73
+12.97 ⫾ 3.99
+6.60 ⫾ 3.33
+5.91 ⫾ 3.41
+
+Chemotaxis
+indexa
+
+␮m/min
+
+a
+
+0.62 ⫾ 0.12
+0.45 ⫾ 0.14
+0.71 ⫾ 0.15
+0.05 ⫾ 0.02
+0.04 ⫾ 0.01
+
+Chemotaxis index was calculated as the net distance traveled toward the source of
+chemoattractant divided by the total distance traveled in that time period.
+
+FIGURE 4. PKB phosphorylation in response to cAMP. Extracts from JH10,
+rasC⫺/rasG⫺, and rasC⫺/rasG⫺/[act15]:carA cells that had been pulsed with
+cAMP for 5 h were prepared at the indicated times after a single 100 nM cAMP
+stimulus and subjected to Western blot analysis using a phosphothreoninespecific antibody.
+
+those obtained previously for the single ras gene deletion
+strains, which both exhibited appreciable chemotaxis (see
+Table 2 for comparative values). The calculated average
+instantaneous velocities of the rasC⫺/rasG⫺ and rasC⫺/
+rasG⫺/[act15]:carA cells were lower than those for the wild
+type, although the values clearly indicate that both strains
+are still capable of random motility (Table 2).
+It has been suggested that PI3K-mediated signaling pathway is important for Dictyostelium chemotaxis (30 –34).
+cAMP stimulation of aggregation competent cells leads to an
+increase in phosphatidylinositol 3,4,5-triphosphate at the
+leading edge of chemotaxing cells followed by translocation
+and activation of PH domain containing protein such as PKB
+to the site of PI3K activity (32, 35, 36). To test the role of
+RasC and RasG in PI3K activation we monitored cAMP-induced PKB phosphorylation, because PKB is one of the
+downstream targets of PI3K. Lysates of cAMP-stimulated
+rasC⫺/rasG⫺/[act15]:carA cells were probed by Western
+blotting using a phosphothreonine-specific antibody, which
+is capable of unambiguously detecting the phosphorylation
+of PKB (14). PKB was transiently phosphorylated after 10 s in
+response to cAMP in JH10 cells, and the phosphorylation
+level then decreased, with a second, smaller increase occurring after 120 s (Fig. 4). In rasC⫺/rasG⫺ and rasC⫺/rasG⫺/
+[act15]:carA cells, the transient activation of PKB was totally
+eliminated, although the basal level of phosphorylated PKB
+was higher in the latter strain. The total amounts of PKB
+protein, as detected using a specific PKB antibody, were
+identical in all three strains. These results demonstrated that
+all cAMP-dependent signal transduction leading to PKB
+phosphorylation occurs through either RasG or RasC.
+In Dictyostelium, cGMP production has also been shown
+to be associated with the chemotactic response (37, 38). We
+therefore examined cGMP production in response to cAMP
+in the ras mutant strains. In the JH10 parental cell line, there
+was a burst of cGMP production 10 s after the application of
+
+10236 JOURNAL OF BIOLOGICAL CHEMISTRY
+
+FIGURE 5. cGMP production in response to cAMP and in vitro GTP␥S stimulation of guanylyl cyclase activity. A, JH10 (⽧), rasC⫺/rasG⫺ (f), and
+rasC⫺/rasG⫺/[act15]:carA (Œ) cells were pulsed for 5 h with cAMP, washed,
+and then stimulated with 100 nM cAMP. Samples were taken at the indicated
+times and assayed for cGMP accumulation (see “Experimental Procedures”).
+The means and standard deviations for three independent experiments are
+shown. B, JH10, rasG⫺, rasC⫺, rasC⫺/rasG⫺, and rasC⫺/rasG⫺/[act15]:carA
+cells were pulsed with cAMP for 5 h, and lysates were then assayed for guanylyl cyclase activity in the absence (gray bar) or the presence of GTP␥S (black
+bar). The means and standard deviations for three independent experiments
+are shown.
+
+cAMP, which then returned to the basal level after ⬃30 s.
+However, this response was not detectable in rasC⫺/rasG⫺/
+[act15]:carA cells or rasC⫺/rasG⫺ cells (Fig. 5A), consistent
+with a requirement of either RasC or RasG for the activation
+of guanylyl cyclases. It had been shown previously that there
+was still appreciable cGMP production in response to cAMP
+in the single ras gene deletion strains (10).
+GTP␥S stimulates in vitro guanylyl cyclase activity (39), and
+an involvement of a monomeric GTPase has been proposed
+(40). We therefore investigated the possibility that either RasC
+or RasG might be this presumptive protein, by examining the
+GTP␥S stimulation of guanylyl cyclase activity in the various
+ras mutant strains. GTP␥S stimulated the guanylyl cyclase
+activity of JH10 lysates ⬃8-fold, but stimulation was not detectable in either the rasC⫺/rasG⫺ and rasC⫺/rasG⫺/[act15]:carA
+cell lysates (Fig. 5B). These results are consistent with the conclusion that all cAMP signal transduction responsible for guanylyl cyclase activation is mediated through pathways involving
+either RasG or RasC. The guanylyl cyclase activity of rasC⫺
+lysates was stimulated ⬃5.5-fold and that of rasG⫺ lysates
+⬃2.5-fold (Fig. 5B), consistent with the idea that RasG is more
+important than RasC for guanylyl cyclase activation (10).
+Rap1 Activation—To understand the relationship between
+Rap1 activation on the one hand and RasG and RasC activation
+VOLUME 283 • NUMBER 16 • APRIL 18, 2008
+
+Role of Ras in Chemotaxis and cAMP Relay
+
+FIGURE 6. Ras subfamily protein activation in response to cAMP.
+A, extracts from JH10, rasG⫺, rasC⫺, rasC⫺/rasG⫺, and rasC⫺/rasG⫺/
+[act15]:carA cells, that had been pulsed with cAMP and then subjected to
+a single cAMP stimulus for the indicated times (in seconds), were bound to
+GST-Byr2-RBD. The bound material was analyzed by Western blots, using
+an antibody specific for Rap1. B, extracts from JH10, rasG⫺, and rasC⫺ cells,
+that had been pulsed with cAMP and then subjected to a single cAMP
+stimulus for the indicated times (in seconds), were bound to GST-Byr2RBD. The bound material was analyzed by Western blots, using antibodies
+specific for RasG and RasC.
+
+on the other, Rap1 activation was determined in the various ras
+null strains. Strains were pulsed with cAMP for 5 h and then
+stimulated with cAMP. Cells were lysed, and the level of GTPbound Rap1 was determined by an affinity “pulldown” assay
+(15). There was a high basal level of activated Rap1 in JH10 cells,
+but there was an appreciable further activation in response to
+cAMP (Fig. 6A). Rap1 activation in response to cAMP was
+totally eliminated in rasG⫺ cells, in rasC⫺/rasG⫺, and in
+rasC⫺/rasG⫺/[act15]:carA cells. In contrast, Rap1 activation
+was only slightly reduced in rasC⫺ cells compared with JH10
+cells (Fig. 6A). These data suggest that signaling through RasG
+is essential for Rap1 activation, although signaling through
+RasC may play a part.
+RasG and RasC Activation—To investigate possible crosstalk between the RasG- and RasC-mediated signal transduction pathways, we determined whether either RasC or RasG
+was differentially activated in the rasG⫺ and rasC⫺ mutant
+strains. RasG was rapidly activated in rasC⫺ cells with a peak
+of activation at ⬃10 s, which was similar to that for JH10
+cells, suggesting no compensation. However, the subsequent
+loss of activated RasG was less pronounced (Fig. 6B) suggesting an alteration in the adaptation component of the signaling process. In rasG⫺ cells, the activation of RasC was
+enhanced (Fig. 6B), suggesting a compensatory role for RasC
+in these cells.
+APRIL 18, 2008 • VOLUME 283 • NUMBER 16
+
+FIGURE 7. Model of cAMP signaling via RasC and RasG. The cAMP-signaling
+pathway branches at the level of RasGEF specificity. Signaling through guanylyl cyclase (GC) and signaling through PI3K appear to constitute parallel
+pathways during the chemotactic response to cAMP. Rap1 is activated downstream of RasG, but its precise site of action is as yet unknown.
+
+DISCUSSION
+During Dictyostelium aggregation, cAMP induces both
+the activation of ACA, and chemotaxis (Fig. 7). Both processes require the cAMP receptor (cAR1) and the associated
+heterotrimeric G protein (G␣2␤␥) (41), and we have previously shown that RasC and RasG act downstream of G␣2␤␥
+and upstream of the other known components (10, 14, 15).
+The available evidence suggests that signaling through RasC
+is more important for the activation of ACA, whereas signaling through RasG is more important for chemotaxis (10).
+However, neither ACA activation nor chemotaxis was completely eliminated in either the rasC⫺ or the rasG⫺ strains.
+Because the defects in the single null strains were not simply
+additive, we favored the hypothesis that there was some
+overlap of function (10). However, there are at least two
+other possibilities: that both RasC and RasG are required for
+both optimal chemotaxis and optimal ACA activation, or
+that an additional Ras protein, such as Rap1, recently shown to
+be activated in response to cAMP (17), is also important at this
+point in the signal transduction pathway.
+The finding that early gene expression is markedly repressed
+in the rasC⫺/rasG⫺ strain indicates an important role for RasC
+and RasG in response to starvation that induces early gene
+expression. Expression of carA gene from the constitutive actin
+15 promoter markedly elevates the levels of carA expression in
+vegetative cells. This observed expression clearly restores the
+developmentally regulated expression of carA itself and that of
+JOURNAL OF BIOLOGICAL CHEMISTRY
+
+10237
+
+Role of Ras in Chemotaxis and cAMP Relay
+other developmental genes, that was suppressed in the rasC⫺/
+rasG⫺ strain. The mechanism by which early gene expression is
+repressed in the rasC⫺/rasG⫺ strain and the mechanism by
+which such expression is restored in the rasC⫺/rasG⫺/[act15]:
+carA strain were not pursued in this study, which was designed
+specifically to look at the role of Ras proteins in the signal transduction pathway.
+The experiments using the rasC⫺/rasG⫺/[act15]:carA
+mutant strain show conclusively that all chemotactic and
+signal relay responses to cAMP are mediated through either
+RasG or RasC, and the results negate the need for an additional Ras protein at this step of the pathway (Fig. 7). The
+partial chemotaxis and ACA activation observed in the single ras null mutants could be due to an overlap of RasC and
+RasG function, because there is close amino acid similarity
+between the two proteins. Thus, there could be an interaction of the one Ras protein with the effectors of the other. In
+the wild-type strain, each Ras protein would out-compete
+the other for its own effectors. However, in the single null
+strains, where one protein is missing, the competition would
+be removed, allowing an interaction of the remaining Ras
+protein with both sets of effectors. Consistent with this idea
+of a compensatory mechanism, is the finding that there is an
+increase in RasC activation in rasG⫺ cells (Fig. 6B), although
+there was no reciprocal increase in RasG activation in rasC⫺
+cells (Fig. 6B).
+It is also possible that there is a dual role for RasG and
+RasC in both ACA activation and in chemotaxis. This idea is
+attractive, because a requirement for the two Ras proteins
+for ACA activation could explain the enhancement in the
+cAMP signal relay as aggregation progresses. Thus, RasG
+might be responsible for initiating the process, but RasC
+might be important for the amplification of the signal that is
+needed to entrain the cells into aggregation streams. Similarly, if there is a dual role for RasG and RasC in chemotaxis,
+RasC might be required early in aggregation for a response to
+low concentrations of cAMP and RasG required later in
+aggregation for a response to higher concentrations of
+cAMP. This interpretation is consistent with the delayed
+aggregation by the rasG⫺ cells and the absence of aggregation of the rasC⫺ cells. However, because there is as yet no
+experimental support for these possibilities, they have not
+been included in our model (Fig. 7).
+Rap1 overexpression leads to shape changes and enhanced
+cell adhesion of vegetative Dictyostelium cells (42, 43). In
+addition, the available evidence suggests that Rap1 is essential for vegetative cell viability (44). Activated Rap1 is capable of binding to the RBD of Phg2, and it has been suggested
+that this binding leads to an increase in cell adhesion (45)
+and plays a role in cell motility (17). It has also been shown
+that Rap1 is activated by the RasGEF activity of GbpD in
+vegetative cells (45). A potential role for Rap1 during aggregation has been recently suggested by the finding that the
+protein is activated in response to cAMP in aggregation
+competent cells (17). This activation was absent in rasC⫺/
+rasG⫺/[act15]:carA and rasG⫺ cells, indicating that it occurs
+downstream of signaling through RasG. Because we have no
+evidence for the exact role of Rap1 in this signal transduction
+
+10238 JOURNAL OF BIOLOGICAL CHEMISTRY
+
+pathway, we have simply placed it downstream of RasG and
+upstream of polarity/chemotaxis (Fig. 7). Rap1 activation in
+response to cAMP was slightly reduced in rasC⫺ cells, and
+we therefore can’t rule out the possibility that some signaling
+is mediated through RasC, but this has also not been considered in our model (Fig. 7). The levels of activated Rap1 that
+were present prior to the cAMP stimulation were also
+reduced in rasG⫺ cells but not reduced in rasC⫺ cells, indicating a role for RasG in regulating basal levels of Rap1 activation. Because GbpD is involved in Rap activation in vegetative cells (45), it might also be involved in the activation of
+Rap1 in chemotaxing cells in response to cAMP. It will be
+interesting to investigate the nature of the link between RasG
+and GbpD.
+Because RasG interacts with the RBD of two of the Dictyostelium PI3Ks (PI3K1 and PI3K2), it was postulated that RasG is
+a regulator of PI3K activity (46). Initially it was suggested that
+the production of PIP3 by the activity of PI3K plays a pivotal
+role in the chemotactic response to cAMP (35, 36, 47). However, recently there have been two reports indicating that
+strains with several deleted pi3k genes remain chemotactic,
+although they are less polar and do move more slowly in
+response to cAMP (30, 48). It would appear that PI3K is an
+important determinant for the establishment of polarity, which
+streamlines the chemotaxis process, but is not essential. In contrast, mutants that have disruptions in the genes encoding
+the enzymes responsible for cGMP production, gca and sgc,
+are only slightly chemotactic to cAMP (37). Taken together,
+these results indicate that the generation of cGMP plays a
+more important role in the chemotactic process than the production of inositol 1,4,5-trisphosphate. A comparison of the
+rates of chemotaxis of the various ras null strains relative to
+levels of PKB phosphorylation (as a measure of PI3K activity)
+and cGMP production is consistent with this interpretation.
+Thus, both chemotaxis and cGMP production were only
+reduced by a factor of two in rasG⫺ cells, whereas PKB activation was barely detectable in these cells. Furthermore, the rate
+of chemotaxis was very similar in rasC⫺ cells to that of the
+parental cell line, and cGMP production was only slightly
+reduced, whereas PKB phosphorylation was markedly reduced.
+In addition, an examination of the rasG⫺ cell morphology during chemotaxis revealed little polarity, even though these cells
+perform relatively efficient chemotaxis (10), consistent with the
+idea that cGMP pathway is more important for chemotaxis
+than the PI3K pathway.
+There is strong evidence for specificity among the RasGEF
+proteins, that act upstream of Ras proteins in the cAMP signaling pathway (49). RasGEFA is specific for RasC and appears to
+be the only RasGEF capable of converting RasC to the GTPbound form (Fig. 7). RasGEFR is specific for RasG, but because
+RasG is still partially activated in a gefR⫺ strain, other RasGEFs
+(whose identifies are currently unknown and, therefore,
+denoted as RasGEF-? in Fig. 7) can also activate RasG. Thus, the
+input to RasG is more complex than is the input to RasC, which
+may reflect the fact that RasG has multiple functions in the cell.
+A key question, still to be examined, is how the activation of the
+RasGEFs is linked to components of the cAMP receptor
+complex.
+VOLUME 283 • NUMBER 16 • APRIL 18, 2008
+
+Role of Ras in Chemotaxis and cAMP Relay
+Downstream of RasG and RasC there is clearly a bifurcation
+of the signaling pathways (Fig. 7). The differential impact of
+RasG and RasC on ACA activation versus chemotaxis is almost
+certainly due to differences in the interaction of the Ras proteins with their downstream effectors. There is already evidence for differential affinity, because the RBDs of mammalian
+Raf1 and RalGDS and of Dictyostelium PI3K1 and PI3K2 bind
+more effectively to RasG than to RasC (15). The higher affinity
+of PI3K1 and PI3K2 for RasG is consistent for the proposed
+roles for PI3K and RasG in establishing polarity. A yeast twohybrid analysis has shown that RIP3 also interacts strongly with
+RasG but does not interact with RasC (50), but the function of
+RIP3 remains an enigma, because there is a marked discrepancy
+between this biochemical and the available genetic data. The
+rip3⫺ strain is defective in aggregation (50, 51), a phenotype
+that closely resembles that of the rasC⫺ and gefA⫺ strains, and
+very different from the delayed aggregation phenotype of
+rasG⫺ cells. This genetic data, therefore, indicates a close connection between RIP3, RasGEFA, and RasC and provides no
+evidence for a connection between RIP3 and RasG. The failure
+of RIP3 to bind to RasC in yeast two-hybrid assays (50) is not
+simply an artifact, resulting from the failure of RasC to express
+properly in yeast, because RIP3 binds to RasG but does not
+bind to RasC in a RBD-RIP3 pulldown assay.4 A further complication is that RIP3 is a component of the TORC2 complex,
+which is necessary for optimum ACA activation and optimum chemotaxis. Understanding these signaling pathways
+will require a greater understanding of the role(s) of the
+TORC2 complex. In addition to these affinity considerations, a spatial separation of RasG and RasC may play an
+important role in the signal bifurcation, because ACA activation occurs at the trailing end of a migrating cell while
+PI3K stimulation of PKB occurs at the leading end. The study
+of this activation in live cells is currently hampered by the
+lack of specific reagents that can uniquely identify activated
+RasC and activated RasG. Creating such specific reagents
+will be an important step for future understanding.
+Acknowledgments—We thank the Dicty Stock Center, Columbia University for providing the PcAR1-B18 plasmid used in this study, and
+we thank F. Jiang and Dr. R. Dottin (Hunter College, New York) for the
+PKB-specific antibody.
+REFERENCES
+1. Bourne, H. R., Sanders, D. A., and McCormick, F. (1991) Nature 349,
+117–127
+2. Campbell, S. L., Khosravi-Far, R., Rossman, K. L., Clark, G. J., and Der, C. J.
+(1998) Oncogene 17, 1395–1413
+3. Reuther, G. W., and Der, C. J. (2000) Curr. Opin. Cell Biol. 12, 157–165
+4. Wilkins, A., and Insall, R. H. (2001) Trends Genet. 17, 41– 48
+5. Mitin, N., Rossman, K. L., and Der, C. J. (2005) Curr. Biol. 15,
+R563–R574
+6. Rodriguez-Viciana, P., Sabatier, C., and McCormick, F. (2004) Mol. Cell.
+Biol. 24, 4943– 4954
+7. Kessin, R. H. (2001) Dictyostelium: Evolution, Cell Biology, and the Development of Multicellularity, Developmental and Cell Biology Series,
+pp. 1– 8, Cambridge University Press, Cambridge, UK
+4
+
+H. Kae and G. Weeks, unpublished observations.
+
+APRIL 18, 2008 • VOLUME 283 • NUMBER 16
+
+8. Parent, C. A., and Devreotes, P. N. (1996) Annu. Rev. Biochem. 65, 411– 440
+9. Weeks, G., Gaudet, P., and Insall, R. H. (2005) in Dictyostelium Genomics
+(Loomis, W. F., and Kuspa, A., eds) pp. 211–234, Horizon Bioscience,
+Norfold, UK
+10. Bolourani, P., Spiegelman, G. B., and Weeks, G. (2006) Mol. Biol. Cell 17,
+4543– 4550
+11. Chubb, J. R., Wilkins, A., Thomas, G. M., and Insall, R. H. (2000) J. Cell Sci.
+113, 709 –719
+12. Tuxworth, R. I., Cheetham, J. L., Machesky, L. M., Spiegelmann, G. B.,
+Weeks, G., and Insall, R. H. (1997) J. Cell Biol. 138, 605– 614
+13. Wilkins, A., Khosla, M., Fraser, D. J., Spiegelman, G. B., Fisher, P. R.,
+Weeks, G., and Insall, R. H. (2000) Genes Dev. 14, 1407–1413
+14. Lim, C. J., Spiegelman, G. B., and Weeks, G. (2001) EMBO J. 20,
+4490 – 4499
+15. Kae, H., Lim, C. J., Spiegelman, G. B., and Weeks, G. (2004) EMBO Rep. 5,
+602– 606
+16. Sasaki, A. T., Chun, C., Takeda, K., and Firtel, R. A. (2004) J. Cell Biol. 167,
+505–518
+17. Jeon, T. J., Lee, D. J., Merlot, S., Weeks, G., and Firtel, R. A. (2007) J. Cell
+Biol. 176, 1021–1033
+18. Johnson, R. L., Vaughan, R. A., Caterina, M. J., Van Haastert, P. J., and
+Devreotes, P. N. (1991) Biochemistry 30, 6982– 6986
+19. Alibaud, L., Cosson, P., and Benghezal, M. (2003) BioTechniques 35, 78 – 83
+20. Watts, D. J., and Ashworth, J. M. (1970) Biochem. J. 119, 171–174
+21. Van Haastert, P. J., and Kien, E. (1983) J. Biol. Chem. 258, 9636 –9642
+22. Wessels, D., Brincks, R., Kuhl, S., Stepanovic, V., Daniels, K. J., Weeks, G.,
+Lim, C. J., Spiegelman, G., Fuller, D., Iranfar, N., Loomis, W. F., and Soll,
+D. R. (2004) Eukaryot. Cell 3, 646 – 662
+23. Sambrook, J., Fritsch, E. F., and Maniatis, T. (1989) Molecular Cloning: A
+Laboratory Manual, 2nd Ed., Cold Spring Harbor Laboratory Press, Cold
+Spring Harbor, NY
+24. Chomczynki, P., and Sacchi, N. (1987) Anal. Biochem. 162, 156 –159
+25. Robbins, S. M., Williams, J. G., Jermyn, K. A., Spiegelman, G. B., and
+Weeks, G. (1989) Proc. Natl. Acad. Sci. U. S. A. 86, 938 –942
+26. Snaar-Jagalska, B. E., and Van Haastert, P. J. (1994) Methods Enzymol. 237,
+387– 408
+27. Lim, C. J., Zawadzki, K. A., Khosla, M., Secko, D. M., Spiegelman, G. B., and
+Weeks, G. (2005) Exp. Cell Res. 306, 47–55
+28. Theibert, A., and Devreotes, P. N. (1986) J. Biol. Chem. 261, 15121–15125
+29. Firtel, R. A., and Chung, C. Y. (2000) BioEssays 22, 603– 615
+30. Takeda, K., Sasaki, A. T., Ha, H., Seung, H. A., and Firtel, R. A. (2007)
+J. Biol. Chem. 282, 11874 –11884
+31. Manahan, C. L., Iglesias, P. A., Long, Y., and Devreotes, P. N. (2004) Annu.
+Rev. Cell Dev. Biol. 20, 223–253
+32. Loovers, H. M., Postma, M., Keizer-Gunnink, I., Huang, Y. E., Devreotes,
+P. N., and van Haastert, P. J. (2006) Mol. Biol. Cell 17, 1503–1513
+33. Iijima, M., Huang, Y. E., and Devreotes, P. (2002) Dev. Cell 3, 469 – 478
+34. Postma, M., Bosgraaf, L., Loovers, H. M., and Van Haastert, P. J. (2004)
+EMBO Rep. 5, 35– 40
+35. Meili, R., Ellsworth, C., Lee, S., Reddy, T. B., Ma, H., and Firtel, R. A. (1999)
+EMBO J. 18, 2092–2105
+36. Huang, Y. E., Iijima, M., Parent, C. A., Funamoto, S., Firtel, R. A., and
+Devreotes, P. (2003) Mol. Biol. Cell 14, 1913–1922
+37. Bosgraaf, L., Russcher, H., Smith, J. L., Wessels, D., Soll, D. R., and Van
+Haastert, P. J. (2002) EMBO J. 21, 4560 – 4570
+38. Bosgraaf, L., and Van Haastert, P. J. (2002) J. Muscle Res. Cell Motil. 23,
+781–791
+39. van Haastert, P. J. M., and Kuwayama, H. (1997) FEBS Lett. 410, 25–28
+40. Wu, L., Valkema, R., Van Haastert, P. J., and Devreotes, P. N. (1995) J. Cell
+Biol. 129, 1667–1675
+41. Kimmel, A. R., and Parent, C. A. (2003) Science 300, 1525–1527
+42. Rebstein, P. J., Weeks, G., and Spiegelman, G. B. (1993) Dev. Genet. 14,
+347–355
+43. Rebstein, P. J., Cardelli, J., Weeks, G., and Spiegelman, G. B. (1997) Exp.
+Cell Res. 231, 276 –283
+44. Kang, R., Kae, H., Ip, H., Spiegelman, G. B., and Weeks, G. (2002) J. Cell Sci.
+115, 3675–3682
+45. Kortholt, A., Rehmann, H., Kae, H., Bosgraaf, L., Keizer-Gunnink, I.,
+
+JOURNAL OF BIOLOGICAL CHEMISTRY
+
+10239
+
+Role of Ras in Chemotaxis and cAMP Relay
+Weeks, G., Wittinghofer, A., and Van Haastert, P. J. (2006) J. Biol. Chem.
+281, 23367–23376
+46. Funamoto, S., Meili, R., Lee, S., Parry, L., and Firtel, R. A. (2002) Cell 109,
+611– 623
+47. Funamoto, S., Milan, K., Meili, R., and Firtel, R. A. (2001) J. Cell Biol. 153,
+795– 810
+48. Hoeller, O., and Kay, R. R. (2007) Curr. Biol. 17, 813– 817
+
+10240 JOURNAL OF BIOLOGICAL CHEMISTRY
+
+49. Kae, H., Kortholt, A., Rehmann, H., Insall, R. H., Van Haastert, P. J.,
+Spiegelman, G. B., and Weeks, G. (2007) EMBO Rep. 8, 477– 482
+50. Lee, S., Parent, C. A., Insall, R., and Firtel, R. A. (1999) Mol. Biol. Cell 10,
+2829 –2845
+51. Lee, S., Comer, F. I., Sasaki, A., McLeod, I. X., Duong, Y., Okumura, K.,
+Yates Iii, J. R., Parent, C. A., and Firtel, R. A. (2005) Mol. Biol. Cell 16,
+4572– 4583
+
+VOLUME 283 • NUMBER 16 • APRIL 18, 2008
+
+

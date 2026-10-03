@@ -212,6 +212,10 @@
   "gef_exch": {
    "text": "Ras GEFs catalyse the exchange of GDP for GTP and thereby activate Ras",
    "color": 10
+  },
+  "g_follows_stim": {
+   "text": "G-protein activation provides a simple intracellular translation of the external gradient and reflects the local cAMP receptor occupancy",
+   "color": 10
   }
  },
  "papers": {
@@ -569,7 +573,8 @@
    {
     "claim": "gbg_pi3k_indep",
     "page": 6,
-    "start": "domain formation was independent of PI3K activity"
+    "start": "Uniform stimulation with 10",
+    "end": "the size of the slow fraction grew by 17%"
    }
   ],
   "janetopoulos2001": [
@@ -757,6 +762,14 @@
     "page": 12,
     "start": "allow for a direct activation of Ras through",
     "end": "Gbc activates RasGAP"
+   }
+  ],
+  "xu2005": [
+   {
+    "claim": "g_follows_stim",
+    "page": 10,
+    "start": "provides a simple, intracellular translation",
+    "end": "cAMP"
    }
   ]
  }

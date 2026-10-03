@@ -79,6 +79,7 @@ Colour = statement of `sections/*.tex` (highlighted in the same colour via `\mk`
 | takeda2012_supp | 22 | salmon | tau_fit | fitted IFFL model: k-GEF = 0.4 /s and k-GAP = 0.1 /s; k-GAP sets the time of the return to the basal amount; k-GEF larger than k-GAP |
 | vanhemert2010 | 6 | tan | gbg_pi3k_indep | cAMP-induced change of the Gbetagamma mobility and domain formation are independent of PI3K activity (LY294002) |
 | wiesmuller1992 | 2 | blue | nf1kin | NF1 GAP domain: KM = 0.3 uM, kcat = 1.4 /s |
+| xu2005 | 10 | grey | g_follows_stim | G-protein activation provides a simple intracellular translation of the external gradient and reflects the local cAMP receptor occupancy |
 | xu2021c2gap | 4 | violet | basal_gap | GAP-deficient cells have enhanced basal Ras activity (basal RasGAP) |
 | xu2021c2gap | 4 | violet | basal_gap | GAP-deficient cells have enhanced basal Ras activity (basal RasGAP) |
 | xu2022 | 1 | salmon | nfblb_def | in a negative feedback loop with a buffer node (NFBLB) the output is shut down by an inhibitor induced by the output itself |

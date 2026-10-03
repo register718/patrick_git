@@ -1,0 +1,1200 @@
+Heterotrimeric G-protein shuttling via Gip1 extends the
+dynamic range of eukaryotic chemotaxis
+Yoichiro Kamimuraa,b,1, Yukihiro Miyanagaa,b,1, and Masahiro Uedaa,b,2
+a
+Laboratory for Cell Signaling Dynamics, Quantitative Biology Center (QBiC), RIKEN, Suita, Osaka, 565-0874, Japan; and bLaboratory for Single Molecular
+Biology, Department of Biological Sciences, Graduate School of Science, Osaka University, Toyonaka, Osaka, 560-0043, Japan
+
+Edited by Peter N. Devreotes, The Johns Hopkins University School of Medicine, Baltimore, MD, and approved March 7, 2016 (received for review September
+11, 2015)
+
+Chemotactic eukaryote cells can sense chemical gradients over a
+wide range of concentrations via heterotrimeric G-protein signaling;
+however, the underlying wide-range sensing mechanisms are only
+partially understood. Here we report that a novel regulator of G proteins, G protein-interacting protein 1 (Gip1), is essential for extending
+the chemotactic range of Dictyostelium cells. Genetic disruption of
+Gip1 caused severe defects in gradient sensing and directed cell migration at high but not low concentrations of chemoattractant. Also,
+Gip1 was found to bind and sequester G proteins in cytosolic pools.
+Receptor activation induced G-protein translocation to the plasma
+membrane from the cytosol in a Gip1-dependent manner, causing a
+biased redistribution of G protein on the membrane along a chemoattractant gradient. These findings suggest that Gip1 regulates
+G-protein shuttling between the cytosol and the membrane to ensure
+the availability and biased redistribution of G protein on the membrane for receptor-mediated chemotactic signaling. This mechanism
+offers an explanation for the wide-range sensing seen in eukaryotic
+chemotaxis.
+
+|
+
+eukaryotic chemotaxis gradient sensing
+heterotrimeric G protein
+
+| dynamic range extension |
+
+C
+
+hemotaxis in eukaryotic cells is observed in many physiological processes including embryogenesis, neuronal wiring,
+wound healing, and immune responses (1, 2). Chemotactic cells
+share basic properties including high sensitivity to shallow gradients
+and responsiveness to a wide dynamic range of chemoattractants
+(3, 4). For instance, human neutrophils and Dictyostelium cells can
+sense spatial differences in chemoattractant concentration across
+the cell body in shallow gradients as low as 2% and exhibit chemotaxis over a 105–106-fold range of background concentrations
+(5–7). Thus, wide-range sensing and adaptation are critical features
+of chemotaxis as well as other sensory systems such as visual signal
+transduction (8). However, the underlying regulatory mechanisms
+in eukaryotic chemotaxis remain unclear.
+The molecular mechanisms of chemotaxis are evolutionarily
+conserved among many eukaryotes that use G protein-coupled
+receptors (GPCRs) and heterotrimeric G proteins to detect
+chemoattractant gradients (3, 4). In Dictyostelium cells, extracellular
+cAMP works as a chemoattractant, and binding to its receptor cyclic
+AMP receptor 1 (cAR1) activates G proteins (Gα2Gβγ) along the
+concentration gradient, leading to the activation of multiple signaling cascades including the PI3K–PTEN, TorC2–PDK–PKB,
+phospholipase A2, and guanylyl cyclase pathways. In contrast to the
+spatial distributions of cAMP/cAR1 association and G-protein activation, downstream signaling pathways are activated in an extremely biased manner at the anterior or posterior of the cell (3, 4).
+For example, localized patches of phosphatidylinositol 3,4,5trisphosphate (PIP3) are generated at the plasma membrane by
+an intracellular signal transduction excitable network (STEN) and
+function as a cue to control the pseudopod formation of motile cells
+(9, 10). Because PIP3 patches have a relatively constant size of a few
+microns in diameter, this excitable mechanism can ensure a constant output of chemotactic responses over a wide range of concentrations. However, it is unclear how chemical gradients are sensed
+4356–4361 | PNAS | April 19, 2016 | vol. 113 | no. 16
+
+adaptively over a wide range in the signal transduction cascades
+upstream of STEN.
+Insight into this question is provided by bacterial chemotaxis
+and other sensory systems, such as photoreceptor rhodopsin (8).
+Chemoreceptor methylation in bacteria confers a broad chemotactic range (11). In light adaptation, the phosphorylation of rhodopsins in the visual system leads to rhodopsin down-regulation by
+arrestin, which blocks physical interaction with G-protein transducin (12). Phosphorylation-dependent receptor internalization is a
+feature of other systems for suppressing intracellular responses
+(13). Overall, in these sensory systems, the chemical modifications
+of receptors are important for regulating the dynamic range of the
+response. Consistently, Dictyostelium cells expressing unphosphorylated mutant cAR1 exhibit a narrow chemotactic range (14), and
+phosphorylated cAR1s have reduced affinity for cAMP (15). Thus,
+chemical modifications of chemoattractant receptors are also important in eukaryotic chemotaxis as a mechanism to extend the
+chemotactic range. In addition to the receptor modifications, G
+proteins are phosphorylated and recruited from the cytosol to the
+plasma membrane upon receptor stimulation in Dictyostelium cells
+(16, 17), although the relevance of these actions on wide-range
+sensing and adaptation is unknown.
+Here we report that a novel regulator of G proteins, G proteininteracting protein 1 (Gip1), is essential for the wide-range chemotaxis in Dictyostelium cells. Gip1 regulates G-protein localization between the cytosol and plasma membrane upon receptor
+activation, which targets cytosolic G proteins to the membrane in
+a biased manner along chemoattractant gradients at higher
+chemotactic ranges. These findings provide evidence for a widerange sensing mechanism in which Gip1-dependent G-protein
+Significance
+Eukaryotic chemotactic cells can recognize chemical gradients
+over a wide range of concentrations. This ability is physiologically important for numerous biological processes; however,
+its underlying mechanism is unknown. Here we report that the
+dynamic range of chemotaxis is extended to higher concentrations by gradient sensing achieved via regulation of trimeric
+G-protein shuttling between the cytosol and plasma membrane. G protein-interacting protein 1 (Gip1) regulates this intracellular G-protein translocation, which redistributes cytosolic
+G proteins to the plasma membrane along chemical gradients at
+high chemoattractant concentrations. This dynamic spatiotemporal
+regulation of trimeric G protein yields proper processing of
+receptor-mediated signaling.
+Author contributions: Y.K., Y.M., and M.U. designed research; Y.K. and Y.M. performed
+research; Y.K. and Y.M. analyzed data; and Y.K., Y.M., and M.U. wrote the paper.
+The authors declare no conflict of interest.
+This article is a PNAS Direct Submission.
+1
+
+Y.K. and Y.M. contributed equally to this work.
+
+2
+
+To whom correspondence should be addressed. Email: masahiroueda@fbs.osaka-u.ac.jp.
+
+This article contains supporting information online at www.pnas.org/lookup/suppl/doi:10.
+1073/pnas.1516767113/-/DCSupplemental.
+
+www.pnas.org/cgi/doi/10.1073/pnas.1516767113
+
+Results
+Gip1 Is an Interactor of Trimeric G Protein. We identified Gip1 by
+using a tandem affinity purification (TAP) tag of Gβ. For the TAP
+assay, whole-cell extracts (WCEs) were prepared from cells in
+vegetative growth and chemotactically competent cells with or
+without cAMP stimulation. Under these conditions, four bands
+were observed at around 240, 40, 30, and 9 kDa in addition to the
+TAP-tagged Gβ protein (Fig. 1A and Fig. S1A). Mass spectrometry
+(MS) analysis revealed that p40 and p9 were Gα4 and Gγ, respectively; p240 was ElmoE, which is a known Gβ-binding protein
+(18); and p30 was a previously uncharacterized protein encoded by
+DDB_G0271086 and designated as Gip1. Gip1 contained a pleckstrin
+homology (PH) domain at the N terminus between amino acids
+1–109 and an unidentified region at the C terminus. Gip1 homologs exist in other protists, such as Entamoeba and Acanthamoeba
+(Fig. S1 B and C). In addition, the Gip1 C terminus, where there is
+no similarity to known G-protein interactors including the regulator of G proteins signaling, has weak but significant similarity to
+tumor necrosis factor α-induced protein 8 (TNFAIP8) in Homo
+sapiens (Fig. S1 B and C) (19).
+
+TAP: F2G-Gβ
+
+A
+
+B
+
+wt cells
+none
+Gip1-GFP-Flag
+Gα4-GFP-Flag
+
+v 0” 30”
+
+kDa
+
+WCE
+
++
+
+IP: α-Flag
+
++
+
++
+
++
+
++
+
+Gβ
+
+250
+
+ElmoE
+Gα4-GFPF
+Gip1-GFPF
+
+150
+100
+75
+
+F2G-Gβ
+
+50
+
+Gα
+
+37
+
+Gip1
+25
+20
+
+C
+
+gip1Δ cells
+
+Gip1(Full)-GFPF
+Gip1(C)-GFPF
+Gip1(N)-GFPF
+
+WCE
+
++
+
++
+
+IP: α-Flag
+
++
++
+
++
+
++
+
+Gβ
+Gip1(Full)-GFPF
+
+15
+
+D
+
++
+
+10
+
+Gγ
+
+wt
+
+gip1Δ
+9h
+
+Gip1(C)-GFPF
+Gip1(N)-GFPF
+gip1Δ
+
+9h
+
+Gip1OE +Gip1-GFPF +Gip1(N)-GFPF +Gip1(C)-GFPF
+9h
+
+Fig. 1. Gip1 is an interactor of trimeric G protein. (A) TAP using Flag×2-GFPGβ (F2G-Gβ) in vegetative growth (v) and before (0’’) and 30 s after (30’’)
+cAMP stimulation. Silver staining showed F2G-Gβ copurified with Gip1 along
+with ElmoE, Gα, and Gγ. (B) Gip1-GFP-Flag (Gip1-GFPF) and Gα4-GFP-Flag
+(Gα4-GFPF) proteins were expressed in WT cells and immunoprecipitated (IP)
+with α-Flag antibody from WCE. Copurification of Gβ (Upper) and GFP-Flag
+(Lower) was evaluated by immunoblotting. Gα4-GFPF was used as a positive
+control and confirmed the coprecipitation of Gβ. (C) Full-length Gip1 and its
+C and N termini tagged with GFP-Flag (Gip1-GFPF) were immunoprecipitated
+with α-Flag antibody from WCE. Copurification of Gβ (Upper) and GFP-Flag
+(Lower) was evaluated by immunoblotting. (D) Cells were starved on nonnutrient DB agar. Gip1OE cells are WT cells with full-length Gip1 overexpression.
+
+Kamimura et al.
+
+The interaction between Gip1 and Gβ was verified by a pulldown assay using GFP-Flag–tagged Gip1 (Gip1-GFPF), as shown
+in Fig. 1B. To identify the interaction region, the N-terminal PH
+domain (amino acids 1–109) and the Gip1 C terminus (amino acids
+108–310) were separately expressed and used in the assay. The C
+but not N terminus bound to Gβ as efficiently as the full-length
+protein (Fig. 1C). Furthermore, to determine whether G proteins
+bind Gip1, the proteins that copurified with Gip1-GFPF by TAP
+were analyzed by MS (Fig. S1 D and E). The two prominent bands
+at 35 and 40 kDa in Fig. S1D were Gβ and Gα subtypes, respectively, including Gα4, Gα9, Gα5, and Gα2. Together with the
+additional data in SI Text (Fig. S1 F–K), these results confirmed
+that Gip1 binds to G proteins via the C terminus.
+The physiological roles of Gip1 in the development of Dictyostelium cells were investigated by examining the phenotype of gip1knockout (gip1Δ) cells (Fig. S1L). Wild-type (WT) cells formed
+streams that consisted of a collective migration of chemotactic cells
+upon starvation, whereas gip1Δ cells caused smaller aggregates with
+reduced stream formation (Fig. 1D). Moreover, Gip1 overexpression in WT cells (Gip1OE cells) delayed progression of the
+early development, suggesting requirements to maintain the WT
+expression level for normal development (Fig. S1M). The early
+developmental defects in gip1Δ cells were rescued by ectopically
+expressing Gip1-GFPF but not the N or C terminus (Fig. 1D), indicating that normal development depended on the full length of
+Gip1. gip1Δ cells expressed normal levels of endogenous cAR1,
+which is a marker of transcriptional regulation in early development, indicating normal transcriptional regulation in gip1Δ cells but
+defects in cell aggregation (Fig. S1N).
+Gip1 Is Essential for Chemotaxis at Higher Concentration Ranges.
+
+Because chemotaxis is a major event for cell aggregation, we
+examined the chemotactic ability of gip1Δ cells. Unusual phenotypes of gip1Δ cells showed defects in the chemotactic range.
+cAMP was applied in a gradient with a micropipette such that
+the concentration decreased with distance from the tip (Fig. S2A,
+Upper Right). At 100 μM cAMP in the micropipette, WT cells
+displayed efficient chemotaxis independent of the distance from
+the micropipette tip and ultimately reached the tip (Fig. 2A and
+Movie S1). gip1Δ cells showed efficient chemotaxis at lower
+cAMP concentration regions, but severe defects were observed
+at higher concentration regions near the tip, resulting in an area
+of exclusion there (Fig. 2A and Movie S2). The chemotactic index (CI), which was calculated based on distance from the micropipette tip, increased for WT cells but decreased for gip1Δ
+cells at higher cAMP concentrations (Fig. 2B, Upper Left panels).
+gip1Δ cells had slightly reduced motility compared with WT cells
+that had similar dependence on distance from the tip. At 10 μM
+cAMP in the micropipette, however, gip1Δ cells exhibited efficient chemotaxis. These chemotactic abilities were confirmed by
+the small population assay (see Fig. S2B for the method) (20).
+That is, WT cells exhibited efficient chemotaxis in response to
+0.1–100 μM cAMP, whereas gip1Δ cells exhibited reduced chemotaxis at concentrations >10 μM, thus showing a narrower
+chemotactic range (Fig. 2C and Fig. S2C). These chemotactic
+defects of gip1Δ cells at higher cAMP concentrations were rescued by the ectopic expression of full-length Gip1, but not of the
+Gip1 N or C terminus (Fig. S2A and Movies S3–S5).
+Gip1OE and gip1Δ cells had distinct effects on the chemotactic
+ranges (Fig. 2C). Gip1OE cells had severely impaired chemotaxis
+at lower cAMP concentrations but exhibited normal chemotaxis
+at higher concentrations. Overexpression of the Gip1 C terminus
+also impaired chemotaxis, but differently, as chemotaxis was
+inhibited at the lower and higher concentration ranges but preserved at concentrations in between (Fig. 2C). These results
+suggest that full-length Gip1 at a normal expression level is required for wide-range chemotaxis.
+PNAS | April 19, 2016 | vol. 113 | no. 16 | 4357
+
+CELL BIOLOGY
+
+translocation ensures the availability and biased redistribution of
+G protein for receptor-mediated signaling at the higher range,
+which is in contrast to the chemical modification mechanisms
+underlying adaptation by sensory receptors.
+
+Chemotactic index
+
+0.0
+0 150 300 450 600 750
+1.0
+10 μM cAMP
+0.5
+0.0
+
+20
+
+100 μM cAMP
+
+0.5
+
+0 150 300 450 600 750
+
+gip1Δ
+
+60’
+
+Motility speed (μm/min)
+
+B 1.0
+
+0’
+
+15
+
+wt 100 μM cAMP
+gip1Δ
+
+C
+
+10
+5
+0
+0 150 300 450 600 750
+20
+10 μM cAMP
+15
+10
+5
+0
+0 150 300 450 600 750
+
+Distance from pipette (μm)
+
+Response
+(responded droplet / examined droplet)
+
+A wt
+
+150’
+
+0’
+
+1.0
+
+wt
+gip1Δ
+Gip1OE
+Gip1(C)
+/gip1Δ
+
+0.5
+
+0.0
+-8
+
+-7
+
+-6
+
+Uniform Receptor Stimulation Induced Normal Signaling Responses in
+gip1Δ Cells. To identify the defects in the chemotactic signaling of
+
+gip1Δ cells, we followed the chemoattractant-triggered signaling
+reactions (3, 4). Cells were uniformly stimulated with cAMP, and
+the phosphorylation of cAR1, Gα2, PKBR1, PKBA, and Erk2 as
+well as fluorescence resonance energy transfer (FRET) changes
+between G-protein subunits, PIP3 production at the plasma
+membrane, and actin polymerization were evaluated (Fig. S3). As
+described in detail in SI Text, no obvious differences in these signaling reactions upon uniform cAMP stimulations were observed
+in gip1Δ or WT cells, showing that the uniform increase of cAMP
+from the basal level can induce normal activation of chemotactic
+signaling pathways in gip1Δ cells. Thus, cells can detect the initial
+increase of cAMP concentrations in a Gip1-independent manner.
+Gip1 Sequesters Trimeric G Protein in Cytosolic Pools. We next investigated the subcellular localization of G proteins, given that
+they are modified upon cAMP stimulation (17). Gα2 and Gγ
+conjugated with the fluorescent dye TMR (Gα2-TMR and TMRGγ, respectively) via a Halo tag were used for localization analysis.
+Gα2-TMR and TMR-Gγ were present in both the cytosol and
+plasma membrane of WT cells, whereas the cytosolic fractions of
+both proteins were significantly decreased in gip1Δ cells (Fig. 3A
+and Fig. S4A). Gip1OE cells exhibited an increase in the cytosolic
+fraction of G proteins, which was also observed by expression of
+the Gip1 C terminus but not of the Gip1 N terminus. These observations were confirmed for endogenous Gα2 and Gβ by biochemical fractionation into cytosolic and membrane components
+(Fig. 3B). The cytosolic amounts of Gα2 and Gβ were significantly
+reduced to about 20% and 40%, respectively, in gip1Δ compared
+with WT cells. Overexpression of the Gip1 and Gip1 C terminus
+compared with vector control increased cytosolic Gα2 by 2.3-fold
+and 1.6-fold, respectively, and cytosolic Gβ by 3.8-fold and 2.0fold. The lesser effect of Gip1 C terminus compared with fulllength Gip1 is attributed to a difference in the expression level of
+these proteins (Fig. S4B). Thus, the cytosolic localization of G
+proteins requires Gip1, likely by complex formation via its C terminus in the cytosol (Fig. 1C). Consistently, the full-length and N
+and C termini of Gip1 were localized mostly in the cytosol (Fig.
+S4C). The biochemical fractionation assay confirmed that endogenous Gip1 as well as ectopically expressed full-length and the
+N and C termini of Gip1 were predominantly found in the
+supernatant fraction (Fig. S4 C and D). Thus, Gip1 is responsible
+for maintaining the cytosolic pools of G proteins in the absence
+of chemoattractants.
+4358 | www.pnas.org/cgi/doi/10.1073/pnas.1516767113
+
+-5
+
+-4
+
+log [cAMP]
+
+-3
+
+-2
+
+Fig. 2. Chemotactic dynamic range is extended to
+higher concentrations via Gip1. (A) Chemical gradients were applied to WT and gip1Δ cells from a
+micropipette tip filled with 100 μM cAMP. Representative images of cell trajectories (red lines) are
+shown before (0’) and 60 or 150 min after (60’ and
+150’, respectively) the start of the assay. Cells are
+highlighted in green. (Scale bar, 50 μm.) (B) CI and
+motility speed were calculated from the assay in A
+following application of 10 or 100 μM cAMP at different distances from the micropipette tip. Each bar
+represents the average of at least 10 cells. (C) The
+chemotactic response to different cAMP concentrations was evaluated by the small population assay
+(Fig. S2B). Data represent the mean ± SEM of three
+experiments.
+
+Gip1 Regulates G-Protein Shuttling upon Receptor Stimulation. Because chemotaxis-competent cells redirect G proteins from the
+cytosol to the plasma membrane upon cAMP stimulation (17), we
+investigated whether Gip1 is involved in this process. In WT cells,
+Gα2 was clearly recruited to the membrane upon cAMP addition,
+which was assessed by the decreased levels of cytosolic Gα2-TMR
+(Fig. 4 A and B, and Movie S6). Gip1OE cells showed similar
+cAMP-induced Gα2 translocation, with a half-maximum at around
+10 nM cAMP (Fig. 4 A–C). However, the same was not true of
+gip1Δ cells even though there was less Gα2-TMR protein in the
+cytosol under resting conditions (Fig. 4 A–C). Instead, the amounts
+of Gα2 on the membrane decreased slightly with the cAMP concentration in gip1Δ cells (Fig. 4 B and C). Biochemical fractionation analysis of Gα2 localization confirmed these observations
+(Fig. 4D). Additionally, unlike G protein, Gip1 remained in the
+cytosol upon cAMP addition (Fig. S4 E and F). Together with the
+detailed characterization described in SI Text, we concluded that
+cAMP-induced Gα2 translocation depends on Gip1 but not on Ras
+activation, PIP3 production, or actin polymerization (Fig. S5).
+Next we sought to identify the region of Gip1 required for
+G-protein translocation. Full-length Gip1 expression in gip1Δ cells
+rescued Gα2-TMR translocation upon cAMP stimulation (Fig. 4 A
+and B and Movie S6). The Gip1 N terminus did not revert Gα2 to
+the resting-state cytosolic localization, nor did it rescue cAMPinduced Gα2 translocation (Fig. 4 A and B). In contrast, the C
+terminus caused cytosolic retention of Gα2, an effect that was
+unaltered by cAMP stimulation (Fig. 4 A–C). The C terminus is
+therefore sufficient for tethering G proteins in the cytosol but
+insufficient for inducing G-protein translocation to the membrane upon cAMP stimulation, suggesting regulatory roles of the
+N-terminal PH domain in G-protein translocation. Sequestration of
+cytosolic G protein via Gip1 C terminus is inhibitory for chemotaxis
+because the proteins available for receptor-mediated signaling are
+depleted from the membrane. Upon receptor stimulations at the
+higher concentration ranges, G protein translocates to the membrane, probably by releasing from Gip1, thus serving as a possible
+receptor-mediated signal (see Discussion for details).
+gip1Δ Cells Fail to Process Gradient Signals at Higher Ranges. As
+shown in Fig. 2, gip1Δ cells exhibited decreased chemotaxis without severe motility defects, suggesting that Gip1-dependent
+G-protein translocation is involved in gradient sensing. To estimate
+the extent of gradient sensing, PIP3 production was evaluated by using
+the specific probe PHAKT-GFP (21, 22). When 10 μM cAMP was
+applied as a gradient by a micropipette to WT cells, a crescent-like
+Kamimura et al.
+
+wt
+
+gip1Δ
+
+Gip1OE
+
+Gip1(full) / gip1Δ
+
+Gip1(N) / gip1Δ
+
+Gip1(C) / gip1Δ
+
+TMR-Gγ
+
+Gα2-TMR
+
+TMR-Gγ
+
+Gα2-TMR
+
+wt
+empty vector Gip1(full)
+Gip1(N)
+W S
+P W S P W S
+P
+
+Gip1(C)
+W S P
+
+Gα2
+
+0.8
+0.6
+
+0.4
+
+0.4
+
+0.2
+0.0
+
+wt gip1Δ
+
+wt gip1Δ
+
+Gβ
+
+***
+
+*
+
+**
+
+0.2
+0.0
+
+Fig. 3. Gip1 regulates shuttling of trimeric G protein between the cytosol and
+the plasma membrane. (A) Intracellular distribution of Gα2-TMR and TMR-Gγ,
+respectively. Gip1(full), Gip1(N), and Gip1(C) represent the coexpression of the
+full-length (full), N terminus, and C terminus of Gip1, respectively. (Scale bar,
+10 μm.) (B) WCEs (W) prepared from the indicated cell lines were separated
+into supernatant (S) and pellet (P) fractions. Endogenous Gα2 and Gβ were
+detected by immunoblotting (Top). The fraction of the supernatant was calculated by band intensities (Bottom). *P < 0.05, **P < 0.01, ***P < 0.005, t test.
+
+accumulation of PHAKT-GFP was observed in areas close to
+higher cAMP concentrations (Fig. 5A, Fig. S6A, Upper Left, and
+Movie S7), whereas gip1Δ cells did not exhibit the same bias in
+PHAKT-GFP localization under cAMP gradients with high background concentrations (Fig. 5A, Fig. S6A, Upper Right, and Movie
+S8). In lower cAMP concentrations supplied by a micropipette
+containing 0.1 μM cAMP, crescent-like distributions of PHAKTGFP near the source were observed in WT cells and also in gip1Δ
+cells but with less efficiency (Fig. 5A and Fig. S6A, Lower panels).
+To further confirm the defects in gradient sensing of gip1Δ cells, we
+used Ras binding domain (RBD)-GFP to detect activated Ras,
+which is another reporter for the cAMP signaling pathway (4).
+RBD-GFP behaved similarly to PHAKT-GFP in WT and gip1Δ cells
+(Fig. S6 B and C). These results indicate that Gip1 is required for
+gradient sensing at higher chemoattractant concentrations.
+We next examined the spatiotemporal dynamics in PHAKT-GFP
+localization upon gradient stimulation. Gradient stimulation initially caused a uniform increase in PHAKT-GFP signals along
+the entire contour of WT cells within 10 s, and this effect was
+followed by an abrupt signal reduction on the membrane (Fig. 5B,
+Upper panels), which is due to the excitable property of PIP3 production (10, 23, 24). These initial responses were similar in WT and
+Kamimura et al.
+
+Gα2-TMR
+Gip1(full)
+OE
+Gip1
+/ gip1Δ
+
+A
+wt
+
+gip1Δ
+
+Gip1(N)
+/ gip1Δ
+
+Gip1(C)
+/ gip1Δ
+
+B 1.4
+
+wt
+1.4
+gip1Δ
+Gip1OE
+1.3
+1.3
+cAMP stimulation
+1.2 (10 μM)
+1.2
+1.1
+
+1.1
+
+1.0
+
+1.0
+
+0.9
+
+0.9
+
+0.8
+
+0.8
+
+0.7
+
+0.7
+
+50
+
+D
+Time
+(min)
+Gα2
+
+C 1.1
+1.0
+
+0.9
+
+-50
+0
+50
+100
+Time (sec)
+
+wt
+0
+0.5
+W S P W S P
+
+Gip1(N) / gip1Δ
+Gip1(C) / gip1Δ
+Gip1(full) / gip1Δ
+cAMP stimulation
+(10 μM)
+
+0
+
+2
+W S P
+
+50 100
+Time (sec)
+
+0.8
+
+wt
+
+gip1Δ
+OE
+
+Gip1
+
+Gip1(C) / gip1Δ
+0 -10 -9
+
+gip1Δ
+0
+0.5
+2
+W S P W S P W S P
+
+-8 -7 -6
+log [cAMP]
+1.0
+
+wt
+
+-5
+
+-4
+
+gip1Δ
+
+0.5
+0
+
+0’ 0.5’ 2’
+Time (min)
+
+Fig. 4. Gip1 modulates spatial regulation of trimeric G protein in response to
+chemoattractants. (A) Fluorescent images of Gα2-TMR. Cells were treated with
+cAMP in the presence of 5 μM latrunculin A. (Scale bar, 10 μm.) (B) Cells
+expressing Gα2-TMR were stimulated with cAMP, and fluorescence intensity in
+the cytosol (mean ± SD) was quantified at 4-s intervals. (C) Translocation of
+Gα2-TMR to the plasma membrane was assessed quantitatively by the decrease in cytosolic fluorescence intensity. Gα2-TMR protein was expressed in
+WT and gip1Δ cells harboring Gip1-GFPF (full-length and C terminus). A dosedependent curve was plotted (mean ± SD). (D) Cells were fractionated before
+and after stimulation with 1 μM cAMP for 0.5 and 2 min (Left). The signal
+intensity of the supernatant fraction relative to that of WT cells at 0 min was
+quantified (Right).
+
+PNAS | April 19, 2016 | vol. 113 | no. 16 | 4359
+
+CELL BIOLOGY
+
+*
+
+0.6
+
+Gα2
+
+Relative intensity
+of sup
+
+1.0
+
+p=0.35
+
+***
+
+Gβ
+
+p=0.61
+
+0.8
+
+Gα2
+
+p=0.42
+
+1.0
+
+)
+C
+1(
+ip
+G
+)
+N
+1(
+ip
+G
+ll)
+fu
+1(
+ip
+G
+y
+pt or
+em ect
+v
+)
+C
+1(
+ip
+G
+)
+N
+1(
+ip
+G
+ll)
+fu
+1(
+ip
+G
+y
+pt or
+em ect
+v
+
+relative amount
+of cytosolic G protein
+
+Gβ
+
+Fluorescence intensity in cytosol
+(+cAMP/-cAMP)
+
+P
+
+gip1Δ
+W S P
+
+- cAMP
+
+wt
+W S
+
++ cAMP
+
+B
+
+gip1Δ cells (Fig. 5B), which is consistent with the kinetics of PIP3
+production upon uniform stimuli (Fig. S3C). Differences between
+WT and gip1Δ cells were observed after the initial responses, the socalled second response. The restricted accumulation of PHAKTGFP was induced at the high side of the gradient in WT cells
+showing gradient sensing but not in gip1Δ cells (Fig. 5B). The diminished signals were never retained in gip1Δ cells. These data
+indicate that gip1Δ cells can detect information about the initial
+increase in cAMP but not gradient information with sufficient accuracy at higher chemoattractant ranges.
+We further assessed Gip1-dependent Gα2 translocation under
+cAMP gradients by using a theta glass pipette with two separate
+chambers containing 0 and 10 nM cAMP solutions, respectively
+(Fig. 5C, Top Left). In WT cells, Gα2-TMR accumulated in the
+area stimulated with a higher cAMP concentration (Fig. 5C,
+arrowheads). The fluorescence intensities of Gα2-TMR in the
+stimulated region were 1.4-fold higher than in the unstimulated
+region. In contrast, the uniform distribution of the fluorescence
+signals along the entire membrane was not changed in gip1Δ cells
+upon gradient stimulation (Fig. 5C). That is, receptor stimulation
+induced Gα2 accumulation at the stimulated region of the
+membrane in a Gip1-dependent manner. Thus, Gip1-dependent
+G-protein translocation can underlie the availability and biased
+redistribution of G protein at the membrane under chemical
+gradients at the higher range. Moreover, the full availability of G
+protein to the membrane is insufficient for efficient gradient
+
+Fluorescence intensity in cytosol
+(normalized)
+
+A
+
+B
+
+Source of cAMP
+
+10 μM cAMP
+
+Fluorescence intensity (normalized)
+
+2.0
+
+1.0
+
+1.0
+
+0.5
+
+0.5
+
+0.0
+2.0
+
+0.0
+
+wt
+
+0.1 μM cAMP
+
+10 μM cAMP
+
+2.0
+
+C
+
+a
+
+2
+
+gip1Δ
+
+1.0
+
+1.0
+
+0.5
+
+0.5
+
+0.0
+-20
+
+0.0
+10
+20 -20
+-10
+Perimeter index (a.u.)
+
+0
+cAMP
+
+10 nM
+nM
+M
+cAMP
+
+0
+
+20
+
+40 60 80
+Time (sec)
+
+10”
+
+30”
+
+wt
+gip1Δ
+
+1.5 P<0.005
+
+P=0.36
+1.0
+
+0.5
+
+0.0
+
+1
+
+0”
+
+1.5
+
+0
+
+3 wt
+
+-20
+
+1.5
+
+-10
+
+120”
+
+b
+
+1.5
+
+1.5
+
+gip1Δ
+
+30”
+
+cAMP-filled pipette
+Fluorescence intensity
+(normalized)
+
+wt
+
+10”
+
+0
+
+10
+Perimeter index
+
+2.0
+
+0”
+
+Relative fluorescence intensity
+(region a / region b)
+
+-10
+-20
+20
+
+no
+
+local
+
+no
+
+local
+
+wt / no stimulus
+
+wt / local stimulus
+
+gip1Δ / no stimulus
+
+gip1Δ / local stimulus
+
+100 120
+120”
+
+0.1 μM cAMP
+
+0
+
+10
+
+20
+
+Fluorescence intensity
+(normalized)
+
+A
+
+closer region
+far region
+
+3 gip1Δ
+2
+1
+-20
+
+0
+
+20
+
+40 60 80
+Time (sec)
+
+100 120
+
+Fig. 5. Gip1 is involved in the signal transduction of chemical gradients. (A) Gradient sensing monitored by a PIP3 probe, PHAKT-GFP. Cells were treated with
+5 μM latrunculin A and stimulated with a micropipette tip containing 10 or 0.1 μM cAMP. The cell perimeter was divided into 40 points (Top); relative intensities (mean ± SD) of PHAKT-GFP in WT and gip1Δ cells are shown as histograms in green and red, respectively. (B) Representative temporal changes of
+PHAKT-GFP localization in WT (Top) and gip1Δ (Bottom) cells when stimulated by a micropipette containing 10 μM cAMP. Red arrows show the direction of the
+gradient source. Fluorescence intensities at the near (orange diamond) or far (blue circle) side of a cell from the micropipette were plotted over time as the
+mean ± SD. (Scale bar, 10 μm.) (C) Gα2 localization under steep cAMP gradients. Cells expressing Gα2-TMR were stimulated by a theta micropipette with two
+separate chambers containing either 0 or 10 nM cAMP (Top Left), and Gα2-TMR localization was visualized (Bottom). The left and right images show pre- and
+poststimulation, respectively. Ratios of the fluorescence intensities in the regions a and b were measured (Top Right, mean ± SD). (Scale bar, 10 μm.)
+
+sensing at the higher range, as seen by gip1Δ cells lacking the
+translocation-mediated redistribution.
+Such defects in gradient sensing by gip1Δ cells were also observed in moving cells. F-actin, as monitored by LimEΔcoil-RFP
+(25), was selectively localized at the higher cAMP gradient in
+WT cells, but the region of this signal was weakly restricted in
+gip1Δ cells (Fig. S6D). Similarly, RBD-GFP and PHAKT-GFP
+were localized much more broadly in gip1Δ than in WT cells (Fig.
+S6D). These data suggest that Gip1 confines pseudopod formation along chemical gradients through the regulation of G-protein
+translocation for efficient chemotaxis.
+Discussion
+Identification of Gip1 as a Novel Regulator of Trimeric G Protein.
+
+Using TAP of Gβ, we identified four interacting proteins with high
+specificity: Gα, Gγ, ElmoE, and Gip1 (Fig. 1A). ElmoE associates
+with Gβγ and serves as a guanine nucleotide exchange factor for
+Rac to control F-actin in pseudopods (18). Because the interaction
+between G proteins and ElmoE was unaffected in gip1Δ cells (Fig.
+S1D), Gip1 and ElmoE function independently. We found Gip1
+can bind to various Gα subtypes, such as Gα2, Gα4, Gα5, and Gα9
+(Fig. S1 D and E), although phenotypic defects of gip1Δ cells were
+obvious only in Gα2-dependent chemotaxis in response to cAMP
+during early development. As discussed below, our analyses suggest Gip1 functions as a regulator of G-protein localization between the cytosol and the plasma membrane.
+Gip1-Dependent G-Protein Translocation for Wide-Range Chemtotaxis.
+
+Previous studies have revealed that G proteins undergo translocation to the membrane upon receptor stimulation (17). We found
+that Gip1 regulates G-protein translocation by its sequestering
+function (Figs. 3 and 4) and is required for chemotaxis at higher
+ranges (Figs. 2 and 5). Furthermore, we found that receptor stimulation induced a biased redistribution of G protein under chemical
+gradients on the membrane in a Gip1-dependent manner (Fig. 5).
+4360 | www.pnas.org/cgi/doi/10.1073/pnas.1516767113
+
+Based on these observations, we propose a model in which the role
+of Gip1 in G-protein translocation for wide-range chemotaxis can be
+explained by the following three steps (Fig. S7). First, Gip1 sequesters the cytosolic pools of G proteins through binding at the C
+terminus, where cytosolic G proteins are not available for chemotactic signaling on the membrane (Figs. 1 and 3). Second, receptor
+stimulation facilitates G-protein translocation from the cytosol to
+the membrane depending on the N-terminal PH domain of Gip1
+(Fig. 4). Third, Gip1-dependent translocation supplies a signal
+transducer for chemoattractant receptors at higher ranges and
+causes a biased redistribution of G proteins on the membrane along
+chemical gradients (Fig. 5). This biased redistribution contributes to
+proper gradient sensing at higher concentration ranges.
+Chemotaxis ranges observed in the cells with the knockout,
+overproduction, and truncation of Gip1 can be explained by
+G-protein dynamics in G-protein subcellular localizations—that is,
+sequestering in the cytosol, translocation to the membrane, and
+biased redistribution on the membrane. Because G protein on
+the membrane is responsible for chemotactic signaling, its cytosolic sequestering by Gip1 inhibits chemotaxis. G-protein translocation upon receptor stimulation can eliminate the inhibitory
+effects of Gip1, resulting in fully available G protein on the
+membrane. Gip1OE cells have impaired chemtotaxis at the lower
+but not higher ranges because of excessive sequestration but
+functional translocation of cytosolic G protein. On the other
+hand, C-terminal Gip1OE cells have impaired chemotaxis at the
+lower and higher ranges because C-terminal Gip1 loses the
+translocation activity of G protein but still maintains sequestration activity. In the case of gip1Δ cells, G protein is fully available
+over a wide range but has an impaired biased redistribution of G
+protein, leading to chemotactic defects at the higher ranges. Thus,
+it is likely that the proper regulation of G-protein availability by
+Gip1 is a prerequisite for gradient sensing over a wide range.
+Recently, it was reported that the Ric8 homolog in Dictyostelium
+cells contributes to chemotaxis by amplifying G-protein activity at
+Kamimura et al.
+
+Gip1-Dependent Gradient Sensing. We show evidence that Gip1 is
+involved in gradient sensing at higher chemotactic ranges (Fig. 5).
+Under uniform chemoattractant concentrations, gip1Δ cells exhibited
+receptor-induced reactions almost normally (Fig. S3). Upon gradient
+stimulations, gip1Δ cells initially distributed PIP3 along the entire
+plasma membrane (Fig. 5B). These results indicate that a sudden
+increase of receptor stimulation can be transduced by G protein
+without Gip1 leading to the excitation of PIP3, suggesting that STEN
+works normally without Gip1. This excitable reaction was subsequently followed by the biased accumulation of PIP3 along chemical gradients in WT cells, whereas this event was not observed in
+gip1Δ cells (Fig. 5 A and B). During the biased PIP3 accumulation,
+cells obtained gradient signals by adapting to the average concentration of the chemoattractant across the cell body, which can be
+explained by a local excitation and global inhibition (LEGI) model
+combined with STEN (LEGI–STEN model) (10). LEGI works as an
+adaptive network that detects gradient signals of various concentrations by combining the excitor and the inhibitor, which reflect the
+local and the average concentration of the chemical gradient, respectively. STEN works as an amplifier of the LEGI output to generate a localized signal in an all-or-none fashion. According to the
+LEGI–STEN model, gip1Δ cells likely have defective LEGI but
+functional STEN, because the initial PIP3 excitation was normal but
+the biased PIP3 accumulation was not. Our observations also suggest
+that the Gip1-dependent translocation and redistribution of G protein on the membrane can contribute to a gradual localization of
+excitor in chemotactic signaling at higher chemotactic ranges, which
+expands the dynamic range for chemotaxis.
+1. Trepat X, Chen Z, Jacobson K (2012) Cell migration. Compr Physiol 2(4):2369–2392.
+2. Kolaczkowska E, Kubes P (2013) Neutrophil recruitment and function in health and
+inflammation. Nat Rev Immunol 13(3):159–175.
+3. Van Haastert PJM, Devreotes PN (2004) Chemotaxis: Signalling the way forward. Nat
+Rev Mol Cell Biol 5(8):626–634.
+4. Artemenko Y, Lampert TJ, Devreotes PN (2014) Moving towards a paradigm: Common mechanisms of chemotactic signaling in Dictyostelium and mammalian leukocytes. Cell Mol Life Sci 71(19):3711–3747.
+5. Zigmond SH (1977) Ability of polymorphonuclear leukocytes to orient in gradients of
+chemotactic factors. J Cell Biol 75(2 Pt 1):606–616.
+6. Fisher PR, Merkl R, Gerisch G (1989) Quantitative analysis of cell motility and chemotaxis
+in Dictyostelium discoideum by using an image processing system and a novel chemotaxis chamber providing stationary chemical gradients. J Cell Biol 108(3):973–984.
+7. Ueda M, Shibata T (2007) Stochastic signal processing and transduction in chemotactic
+response of eukaryotic cells. Biophys J 93(1):11–20.
+8. Hoeller O, Gong D, Weiner OD (2014) How to understand and outwit adaptation. Dev
+Cell 28(6):607–616.
+9. Arai Y, et al. (2010) Self-organization of the phosphatidylinositol lipids signaling
+system for random cell migration. Proc Natl Acad Sci USA 107(27):12399–12404.
+10. Tang M, et al. (2014) Evolutionarily conserved coupling of adaptive and excitable
+networks mediates eukaryotic chemotaxis. Nat Commun 5:5175.
+11. Tu Y (2013) Quantitative modeling of bacterial chemotaxis: Signal amplification and
+accurate adaptation. Annu Rev Biophys 42(February):337–359.
+12. Fain GL, Matthews HR, Cornwall MC, Koutalos Y (2001) Adaptation in vertebrate
+photoreceptors. Physiol Rev 81(1):117–151.
+13. Marchese A, Chen C, Kim Y-M, Benovic JL (2003) The ins and outs of G protein-coupled receptor trafficking. Trends Biochem Sci 28(7):369–376.
+14. Kim JY, et al. (1997) Phosphorylation of chemoattractant receptors is not essential for
+chemotaxis or termination of G-protein-mediated responses. J Biol Chem 272(43):
+27313–27318.
+15. Xiao Z, Yao Y, Long Y, Devreotes P (1999) Desensitization of G-protein-coupled receptors. Agonist-induced phosphorylation of the chemoattractant receptor cAR1
+lowers its intrinsic affinity for cAMP. J Biol Chem 274(3):1440–1448.
+16. Gundersen RE, Devreotes PN (1990) In vivo receptor-mediated phosphorylation of a G
+protein in Dictyostelium. Science 248(4955):591–593.
+
+Kamimura et al.
+
+Materials and Methods
+Chemotaxis Assay. Before the assay, cells were treated to proceed with their
+development as previously described (20). For the small population assay, ∼3,000
+developed cells in a 1-μL droplet on the nonnutrient agar plate was placed next
+to a drop of cAMP solution. The distance between the centers of the two
+droplets was 2 mm. After 30 min, a responded droplet was assessed by cell accumulation at the edge near a cAMP droplet. For the micropipette assay, 2 × 105
+developed cells were seeded on a glass-bottom dish, and cAMP gradients were
+applied by a Femtotip microcapillary (Eppendorf) containing 10 or 100 μM cAMP
+and ATTO 532 (AD 532–21; ATTO-TEC GmbH) with a constant pressure of 10 hPa.
+Gradient Sensing Assay by PHAKT-GFP Measurements. Cells expressing PHAKTGFP were subjected to cAMP gradients by a Femtotip microcapillary containing
+100 nM or 10 μM cAMP in the presence of 5 μM latrunculin A. Fluorescence
+images of PHAKT-GFP were acquired by confocal microscopy at 1- or 10-s intervals. Fluorescence intensities were measured along the plasma membrane of
+each cell and then normalized by the average intensity of the perimeter.
+Trimeric G-Protein Translocation. Starved cells expressing Gα2-TMR and TMRGγ were treated with 5 μM latrunculin A. Cells were stimulated uniformly by
+adding 200 μL of various concentrations of cAMP solution to 10 μL of a cell
+suspension droplet in a glass-bottom dish. Fluorescence images were acquired
+by confocal microscopy at 4-s intervals, and the intensities on the plasma
+membrane and the cytosol were measured.
+Cell Preparations and Other Methods. Dictyostelium discoideum cells were
+used for all experiments. Full methods and any associated references are
+described in SI Materials and Methods.
+ACKNOWLEDGMENTS. We thank S. Taguchi and K. Tanabe for technical
+assistance; T. Miyagawa for purified Gip1 proteins; and Y.K., Y.M., and M.U.
+laboratory members for helpful discussion and advice. We thank Dr. P. Devreotes
+and his laboratory members for helpful discussion and advice. We are also grateful
+to Dr. R. Nakagawa for MS analysis and P. Karagiannis for reading the manuscript.
+rasC– and rasG– cells were provided by National BioResource Project (NBRP)-Nenkin.
+We appreciate the basic information from the DictyBase. This work was supported
+by Japan Society for the Promotion of Science (JSPS) KAKENHI Grant 24570224
+(to Y.K.).
+
+17. Elzie CA, Colby J, Sammons MA, Janetopoulos C (2009) Dynamic localization of G
+proteins in Dictyostelium discoideum. J Cell Sci 122(Pt 15):2597–2603.
+18. Yan J, et al. (2012) A Gβγ effector, ElmoE, transduces GPCR signaling to the actin
+network during chemotaxis. Dev Cell 22(1):92–103.
+19. Lou Y, Liu S (2011) The TIPE (TNFAIP8) family in inflammation, immunity, and cancer.
+Mol Immunol 49(1-2):4–7.
+20. Kamimura Y, Tang M, Devreotes P (2009) Assays for chemotaxis and chemoattractantstimulated TorC2 activation and PKB substrate phosphorylation in Dictyostelium.
+Methods Mol Biol 571:255–270.
+21. Parent CA, Blacklock BJ, Froehlich WM, Murphy DB, Devreotes PN (1998) G protein
+signaling events are activated at the leading edge of chemotactic cells. Cell 95(1):81–91.
+22. Janetopoulos C, Ma L, Devreotes PN, Iglesias PA (2004) Chemoattractant-induced
+phosphatidylinositol 3,4,5-trisphosphate accumulation is spatially amplified and adapts,
+independent of the actin cytoskeleton. Proc Natl Acad Sci USA 101(24):8951–8956.
+23. Postma M, et al. (2004) Sensitization of Dictyostelium chemotaxis by phosphoinositide-3kinase-mediated self-organizing signalling patches. J Cell Sci 117(Pt 14):2925–2935.
+24. Nishikawa M, Hörning M, Ueda M, Shibata T (2014) Excitable signal transduction
+induces both spontaneous and directional cell asymmetries in the phosphatidylinositol lipid signaling system for eukaryotic chemotaxis. Biophys J 106(3):723–734.
+25. Schneider N, et al. (2003) A Lim protein involved in the progression of cytokinesis and
+regulation of the mitotic spindle. Cell Motil Cytoskeleton 56(2):130–139.
+26. Kataria R, et al. (2013) Dictyostelium Ric8 is a nonreceptor guanine exchange factor
+for heterotrimeric G proteins and is important for development and chemotaxis. Proc
+Natl Acad Sci USA 110(16):6424–6429.
+27. Janetopoulos C, Jin T, Devreotes P (2001) Receptor-mediated activation of heterotrimeric G-proteins in living cells. Science 291(5512):2408–2411.
+28. Asano Y, Nagasaki A, Uyeda TQP (2008) Correlated waves of actin filaments and PIP3
+in Dictyostelium cells. Cell Motil Cytoskeleton 65(12):923–934.
+29. Kamimura Y, et al. (2008) PIP3-independent activation of TorC2 and PKB at the cell’s
+leading edge mediates chemotaxis. Curr Biol 18(14):1034–1043.
+30. Brzostowski JA, Kimmel AR (2006) Nonadaptive regulation of ERK2 in Dictyostelium:
+Implications for mechanisms of cAMP relay. Mol Biol Cell 17(10):4220–4227.
+31. Funamoto S, Meili R, Lee S, Parry L, Firtel RA (2002) Spatial and temporal regulation of
+3-phosphoinositides by PI 3-kinase and PTEN mediates chemotaxis. Cell 109(5):
+611–623.
+
+PNAS | April 19, 2016 | vol. 113 | no. 16 | 4361
+
+CELL BIOLOGY
+
+lower cAMP concentrations (26). Thus, the wide sensitivity to
+chemical gradients could be achieved by multiple mechanisms,
+including receptor phosphorylation, Ric8, and Gip1.
+
+
