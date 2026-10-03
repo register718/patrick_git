@@ -10,9 +10,12 @@
 
 | key | reference | in | file |
 |---|---|---|---|
+| `artemenko2016` | Artemenko et al. 2016, *Proceedings of the National Academy of Sciences* — Chemical and mechanical stimuli act on common signal transduction and cytoskeletal networks | M3 | `all/artemenko2016.pdf` |
 | `aubry1997` | Aubry et al. 1997, *Journal of Biological Chemistry* — The Dictyostelium Mitogen-activated Protein Kinase ERK2 Is Regulated b | M10 | `all/aubry1997.pdf` |
 | `bader2007` | Bader et al. 2007, *Biochemical Journal* — Seven Dictyostelium discoideum phosphodiesterases degrade three pools  | M10, M11 | `all/bader2007.pdf` |
 | `biswas2021` | Biswas et al. 2021, *PLOS Computational Biology* — Three-dimensional stochastic simulation of chemoattractant-mediated ex | M1, M2 | `all/biswas2021.pdf` |
+| `bolourani2006` | Bolourani et al. 2006, *Molecular Biology of the Cell* — Delineation of the roles played by RasG and RasC in cAMP-dependent signal transduction | M3 | `all/bolourani2006.pdf` |
+| `bolourani2008` | Bolourani et al. 2008, *Journal of Biological Chemistry* — Rap1 activation in response to cAMP occurs downstream of Ras activation | M3 | `all/bolourani2008.pdf` |
 | `cai2010` | Cai et al. 2010, *Journal of Cell Biology* — Ras-mediated activation of the TORC2--PKB pathway is critical for chem | M4, M8, M9 | `all/cai2010.pdf` |
 | `caterina1995a` | Caterina et al. 1995, *Journal of Biological Chemistry* — Agonist-induced Loss of Ligand Binding Is Correlated with Phosphorylat | M1 | `all/caterina1995a.pdf` |
 | `caterina1995b` | Caterina et al. 1995, *Journal of Biological Chemistry* — Occupancy of the Dictyostelium cAMP Receptor, cAR1, Induces a Reductio | M1 | `all/caterina1995b.pdf` |
@@ -23,7 +26,7 @@
 | `devreotes2017` | Devreotes et al. 2017, *Annual Review of Cell and Developmental Biology* — Excitable Signal Transduction Networks in Directed Cell Migration | M3 | `all/devreotes2017.pdf` |
 | `dinauer1980` | Dinauer et al. 1980, *The Journal of cell biology* — Cyclic 3',5'-AMP relay in Dictyostelium discoideum III. The relationsh | M9 | `all/dinauer1980.pdf` |
 | `dworkin1977` | Dworkin et al. 1977, *Journal of Biological Chemistry* — Solubility and diffusion coefficient of adenosine 3':5'-monophosphate. | M11 | `all/dworkin1977.pdf` |
-| `elzie2009` | Elzie et al. 2009, *Journal of Cell Science* — Dynamic localization of G proteins in Dictyostelium discoideum | M2 | `all/elzie2009.pdf` |
+| `elzie2009` | Elzie et al. 2009, *Journal of Cell Science* — Dynamic localization of G proteins in Dictyostelium discoideum | M2, M3 | `all/elzie2009.pdf` |
 | `faure1990` | Faure et al. 1990, *Molecular and Cellular Biology* — The cyclic nucleotide phosphodiesterase gene of Dictyostelium discoide | M11 | `all/faure1990.pdf` |
 | `fitzhugh1961` | FitzHugh 1961, *Biophysical Journal* — Impulses and Physiological States in Theoretical Models of Nerve Membr | M0 | `all/fitzhugh1961.pdf` |
 | `ford2023` | Ford et al. 2023, *eLife* — Controlling periodic long-range signalling to drive a morphogenetic tr | M0 | `all/ford2023.pdf` |
@@ -39,23 +42,28 @@
 | `iglesias2012` | Iglesias et al. 2012, *Current Opinion in Cell Biology* — Biased excitable networks: how cells direct motion in response to grad | M3 | `all/iglesias2012.pdf` |
 | `iijima2002` | Iijima et al. 2002, *Cell* — Tumor Suppressor PTEN Mediates Sensing of Chemoattractant Gradients | M4 | `all/iijima2002.pdf` |
 | `insall1994` | Insall et al. 1994, *The Journal of cell biology* — CRAC, a cytosolic protein containing a pleckstrin homology domain, is  | M8, M9 | `all/insall1994.pdf` |
-| `janetopoulos2001` | Janetopoulos et al. 2001, *Science* — Receptor-Mediated Activation of Heterotrimeric G-Proteins in Living Ce | M2 | `all/janetopoulos2001.pdf` |
+| `iwamoto2025` | Iwamoto et al. 2025, *Nature Communications* — Excitable Ras dynamics-based screens reveal RasGEFX is required for macropinocytosis and random cell migration | M3 | `all/iwamoto2025.pdf` |
+| `janetopoulos2001` | Janetopoulos et al. 2001, *Science* — Receptor-Mediated Activation of Heterotrimeric G-Proteins in Living Ce | M2, M3 | `all/janetopoulos2001.pdf` |
 | `johnson1991` | Johnson et al. 1991, *Biochemistry* — Overexpression of the cAMP receptor 1 in growing Dictyostelium cells | M1 | `all/johnson1991.pdf` |
 | `kae2004` | Kae et al. 2004, *The EMBO Reports* — Chemoattractant-induced Ras activation during Dictyostelium aggregatio | M3, M8 | `all/kae2004.pdf` |
 | `kae2007` | Kae et al. 2007, *The EMBO Reports* — Cyclic AMP signalling in Dictyostelium: G-proteins activate separate R | M3, M8 | `all/kae2007.pdf` |
 | `kamimura2008` | Kamimura et al. 2008, *Current Biology* — PIP3-Independent Activation of TorC2 and PKB at the Cell's Leading Edg | M4, M8 | `all/kamimura2008.pdf` |
 | `kamimura2010` | Kamimura et al. 2010, *Journal of Biological Chemistry* — Phosphoinositide-dependent Protein Kinase (PDK) Activity Regulates Pho | M4 | `all/kamimura2010.pdf` |
+| `kamimura2016` | Kamimura et al. 2016, *Proceedings of the National Academy of Sciences* — Heterotrimeric G-protein shuttling via Gip1 extends the dynamic range of eukaryotic chemotaxis | M3 | `all/kamimura2016.pdf` |
 | `kamino2017` | Kamino et al. 2017, *Proceedings of the National Academy of Sciences* — Fold-change detection and scale invariance of cell--cell signaling in  | M1 | `all/kamino2017.pdf` |
 | `kataria2013` | Kataria et al. 2013, *Proceedings of the National Academy of Sciences* — Dictyostelium Ric8 is a nonreceptor guanine exchange factor for hetero | M2, M3 | `all/kataria2013.pdf` |
 | `kim1997` | Kim et al. 1997, *Journal of Biological Chemistry* — Phosphorylation of Chemoattractant Receptors Is Not Essential for Chem | M1 | `all/kim1997.pdf` |
+| `kortholt2011` | Kortholt et al. 2011, *EMBO Reports* — Dictyostelium chemotaxis: essential Ras activation and accessory signalling pathways for amplification | M3 | `all/kortholt2011.pdf` |
 | `kortholt2013` | Kortholt et al. 2013, *Journal of Cell Science* — Ras activation and symmetry breaking during Dictyostelium chemotaxis | M2, M3 | `all/kortholt2013.pdf` |
 | `laub1998` | Laub et al. 1998, *Molecular Biology of the Cell* — A Molecular Network That Produces Spontaneous Oscillations in Excitabl | M0, M10, M8, M9 | `all/laub1998.pdf` |
 | `levchenko2002` | Levchenko et al. 2002, *Biophysical Journal* — Models of Eukaryotic Gradient Sensing: Application to Chemotaxis of Am | M3 | `all/levchenko2002.pdf` |
-| `li2018` | Li et al. 2018, *Proceedings of the National Academy of Sciences* — Mutually inhibitory Ras-PI(3,4)P $_{2}$ feedback loops mediate cell mi | M4 | `all/li2018.pdf` |
+| `li2018` | Li et al. 2018, *Proceedings of the National Academy of Sciences* — Mutually inhibitory Ras-PI(3,4)P $_{2}$ feedback loops mediate cell mi | M3, M4 | `all/li2018.pdf` |
+| `loovers2006` | Loovers et al. 2006, *Molecular Biology of the Cell* — Distinct roles of PI(3,4,5)P3 during chemoattractant signaling in Dictyostelium | M3 | `all/loovers2006.pdf` |
 | `ma2004` | Ma et al. 2004, *Biophysical Journal* — Two Complementary, Local Excitation, Global Inhibition Mechanisms Acti | M3 | `all/ma2004.pdf` |
 | `maeda1996` | Maeda et al. 1996, *Journal of Biological Chemistry* — Seven Helix Chemoattractant Receptors Transiently Stimulate Mitogen-ac | M0 | `all/maeda1996.pdf` |
 | `maeda2004` | Maeda et al. 2004, *Science* — Periodic Signaling Controlled by an Oscillatory Circuit That Includes  | M0, M10 | `all/maeda2004.pdf` |
 | `matsuoka2018` | Matsuoka et al. 2018, *Nature Communications* — Mutual inhibition between PTEN and PIP3 generates bistability for pola | M4 | `all/matsuoka2018.pdf` |
+| `meierschellersheim2006` | Meier-Schellersheim et al. 2006, *PLoS Computational Biology* — Key role of local regulation in chemosensing revealed by a new molecular interaction-based modeling method | M3 | `all/meierschellersheim2006.pdf` |
 | `meili1999` | Meili et al. 1999, *The EMBO Journal* — Chemoattractant-mediated transient activation and membrane localizatio | M4 | `all/meili1999.pdf` |
 | `meili2000` | Meili et al. 2000, *Current Biology* — A novel Akt/PKB-related kinase is essential for morphogenesis in Dicty | M4, M8 | `all/meili2000.pdf` |
 | `miao2017` | Miao et al. 2017, *Nature Cell Biology* — Altering the threshold of an excitable signal transduction network cha | M3, M4 | `all/miao2017.pdf` |
@@ -80,10 +88,13 @@
 | `thomason1999` | Thomason et al. 1999, *Journal of Biological Chemistry* — The RdeA-RegA System, a Eukaryotic Phospho-relay Controlling cAMP Brea | M10 | `all/thomason1999.pdf` |
 | `ueda2001` | Ueda et al. 2001, *Science* — Single-Molecule Analysis of Chemotactic Signaling in Dictyostelium Cel | M1 | `all/ueda2001.pdf` |
 | `vanhaastert1984` | Van Haastert et al. 1984, *Journal of Biological Chemistry* — Demonstration of receptor heterogeneity and affinity modulation by non | M1 | `all/vanhaastert1984.pdf` |
+| `vanhemert2010` | Van Hemert et al. 2010, *Journal of Cell Science* — Mobility of G proteins is heterogeneous and polarized during chemotaxis | M3 | `all/vanhemert2010.pdf` |
 | `vaughan1988` | Vaughan et al. 1988, *Journal of Biological Chemistry* — Ligand-induced phosphorylation of the cAMP receptor from Dictyostelium | M1 | `all/vaughan1988.pdf` |
 | `weening2003` | Weening et al. 2003, *Developmental Biology* — Contrasting activities of the aggregative and late PDSA promoters in D | M11 | `all/weening2003.pdf` |
 | `wiesmuller1992` | Wiesm{\"u}ller et al. 1992, *Journal of Biological Chemistry* — Expression of the GTPase activating domain of the neurofibromatosis ty | M3 | `all/wiesmuller1992.pdf` |
+| `xu2005` | Xu et al. 2005, *Molecular Biology of the Cell* — Quantitative imaging of single live cells reveals spatiotemporal dynamics of multistep signaling events | M3 | `all/xu2005.pdf` |
 | `xu2021c2gap` | Xu et al. 2021, *Frontiers in Cell and Developmental Biology* — Membrane Targeting of C2GAP1 Enables Dictyostelium discoideum to Sense | M3 | `all/xu2021c2gap.pdf` |
+| `xu2022` | Xu et al. 2022, *Molecular Biology of the Cell* — A systems approach to investigate GPCR-mediated Ras signaling network in chemoattractant sensing | M3 | `all/xu2022.pdf` |
 | `yeh1978` | Yeh et al. 1978, *Developmental Biology* — Independent regulation of the extracellular cyclic AMP phosphodiestera | M11 | `all/yeh1978.pdf` |
 | `zhang2008` | Zhang et al. 2008, *Current Biology* — Spatiotemporal Regulation of Ras Activity Provides Directional Sensing | M3 | `all/zhang2008.pdf` |
 
@@ -95,7 +106,7 @@
 
 **M2 — G-protein cycle** (6): `biswas2021`, `elzie2009`, `janetopoulos2001`, `kataria2013`, `kortholt2013`, `tang2014`
 
-**M3 — Ras activation, adaptation, amplification** (19): `charest2010`, `coyle2016`, `devreotes2017`, `fukushima2019`, `goentoro2009`, `iglesias2012`, `kae2004`, `kae2007`, `kataria2013`, `kortholt2013`, `levchenko2002`, `ma2004`, `miao2017`, `nakajima2014`, `sasaki2004`, `takeda2012`, `wiesmuller1992`, `xu2021c2gap`, `zhang2008`
+**M3 — Ras activation, adaptation, amplification** (33): `artemenko2016`, `bolourani2006`, `bolourani2008`, `charest2010`, `coyle2016`, `devreotes2017`, `elzie2009`, `fukushima2019`, `goentoro2009`, `iglesias2012`, `iwamoto2025`, `janetopoulos2001`, `kae2004`, `kae2007`, `kamimura2016`, `kataria2013`, `kortholt2011`, `kortholt2013`, `levchenko2002`, `li2018`, `loovers2006`, `ma2004`, `meierschellersheim2006`, `miao2017`, `nakajima2014`, `sasaki2004`, `takeda2012`, `vanhemert2010`, `wiesmuller1992`, `xu2005`, `xu2021c2gap`, `xu2022`, `zhang2008`
 
 **M4 — PIP3 / PTEN / PkbA** (16): `cai2010`, `charest2010`, `fukushima2019`, `funamoto2002`, `huang2003`, `iijima2002`, `kamimura2008`, `kamimura2010`, `li2018`, `matsuoka2018`, `meili1999`, `meili2000`, `miao2017`, `parent1998`, `postma2003`, `sasaki2004`
 

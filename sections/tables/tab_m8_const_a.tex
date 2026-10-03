@@ -11,7 +11,10 @@ Symbol & Value & Unit & Basis & Meaning, justification, source\\
 $[\mathrm{GEF_A}]_\mathrm{tot}$ & \num{1600} & $\mathrm{molec/voxel}$ & D & Sized so that the number of active RasGEFA at the driven state (67\,000 G$\beta\gamma$/voxel) equals that of the previous, saturated parameterisation. \\
 $k_{A,\mathrm{on}}$ & \num{7.6e-4} & $\mu\mathrm{M}^{-1}\mathrm{s}^{-1}$ & D & $k_{E,\mathrm{on}}k_{A,\mathrm{off}}/k_{E,\mathrm{off}}$: RasGEFA and RasGEFR are both \mkt{M8-gefs-g}{G-protein-driven GEFs}~\cite{kae2007} and share the activated-fraction curve in G$\beta\gamma$. \\
 $k_{A,\mathrm{off}}$ & \num{0.1} & $\mathrm{s^{-1}}$ & E & RasGEFA inactivation. \\
-$k_S$ & \num{1} & $\mu\mathrm{M}^{-1}\mathrm{s}^{-1}$ & C & Release of active RasGEFA by the PKB-phosphorylated Sca1-like brake (negative feedback on RasC); calibrated so that \mkt{M8-ch-adapt}{RasC returns near baseline within $\approx\!40$\,s}~\cite{charest2010}. \\
+$k_{S,\mathrm{on}}$ & \num{24.1} & $\mu\mathrm{M}^{-1}\mathrm{s}^{-1}$ & E & Phosphorylation of S by PKBR1$^*$ (8.2p); half-activation at 20 PKBR1$^*$ molecules/voxel (design anchor), \mkt{M8-sca1}{PKB and PKBR1 phosphorylate Sca1}~\cite{charest2010}. Same value as the former PKB reader of the Module-3 brake. \\
+$k_{S,\mathrm{off}}$ & \num{0.1} & $\mathrm{s^{-1}}$ & E & Dephosphorylation of S$^*$ ($\tau=10$\,s, 8.2q), design choice. \\
+$[\mathrm{S}]_\mathrm{tot}$ & \num{1540} & $\mathrm{molec/voxel}$ & E & Pool of the Sca1-like substrate, equal to the former brake pool; $D=20\,\mu\mathrm{m^2/s}$ as before. \\
+$k_S$ & \num{1} & $\mu\mathrm{M}^{-1}\mathrm{s}^{-1}$ & C & Release of active RasGEFA by the phosphorylated Sca1-like substrate S$^*$ (negative feedback on RasC); calibrated so that \mkt{M8-ch-adapt}{RasC returns near baseline within $\approx\!40$\,s}~\cite{charest2010}. \\
 $k_{C,\mathrm{on}}$ & \num{2} & $\mu\mathrm{M}^{-1}\mathrm{s}^{-1}$ & E & \mkt{M8-gefa-spec}{RasGEFA-catalysed exchange on RasC}~\cite{kae2007}. \\
 $k_{C,\mathrm{off}}$ & \num{0.02} & $\mathrm{s^{-1}}$ & E & Intrinsic RasC hydrolysis (constitutive, slow). \\
 $k_{CG,\mathrm{on}},\ k_{CG,\mathrm{off}},\ k_{CG,\mathrm{hyd}}$ & \num{0.05},\ \num{0.005},\ \num{150} & $\mu\mathrm{M}^{-1}\mathrm{s}^{-1},\ \mathrm{s^{-1}},\ \mu\mathrm{M}^{-1}\mathrm{s}^{-1}$ & E & Receptor-driven, slowly decaying RasC GAP that holds RasC adapted. \\

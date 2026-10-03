@@ -1,6 +1,6 @@
 \begin{table*}[!t]
 \centering
-\caption{Module~3 reactions in the default configuration. GEF$_R$ and GAP are the cytosolic RasG exchange factor and GTPase-activating protein (asterisk: active form); $\mathrm{RasG}^{\mathrm{GTP/GDP}}$ are the membrane-bound Ras states; B is the substrate of the delayed brake (3.3c--e), activated by PKBR1$^*$ from Module~8. A coloured reaction is the one to which the equally coloured statement in the text and the equally coloured passage in the cited paper refer; a small square appends a further statement.}
+\caption{Module~3 reactions in the default configuration. GEF$_R$ and GAP are the cytosolic RasG exchange factor and GTPase-activating protein (asterisk: active form); $\mathrm{RasG}^{\mathrm{GTP/GDP}}$ are the membrane-bound Ras states; B is the substrate of the delayed brake (3.3c$_\mathrm{R}$--e), activated by RasG-GTP. 3.1--3.7z form the adaptation (incoherent feed-forward loop, read from G$\beta\gamma$), 3.3b the amplification and 3.3c$_\mathrm{R}$--e the brake (read from RasG-GTP). Reactions marked $^\dagger$ are \emph{proposed}: the mechanism is a candidate, and they are kept only if tuning shows that they are needed (see text). A coloured reaction is the one to which the equally coloured statement in the text and the equally coloured passage in the cited paper refer; a small square appends a further statement.}
 \label{tab:m3rxn}
 \footnotesize
 \renewcommand{\arraystretch}{1.15}
@@ -9,16 +9,16 @@
 ID & Reaction & Propensity (rate law)\\
 \midrule
 \mkn{M3-kort}{M3-prop,M3-legi}{3.1} & \mkn{M3-kort}{M3-prop,M3-legi}{$\mathrm{G}_{\beta\gamma}+\mathrm{GEF_R} \to \mathrm{GEF_R^*}+\mathrm{G}_{\beta\gamma}$} & $k_{E,\mathrm{on}}[\mathrm{G}_{\beta\gamma}][\mathrm{GEF_R}]$ \\
-\mkt{M3-peak-fast}{3.2} & \mkt{M3-peak-fast}{$\mathrm{GEF_R^*} \to \mathrm{GEF_R}$} & $k_{E,\mathrm{off}}[\mathrm{GEF_R^*}]$ \\
+\mkn{M3-peak-fast}{M3-tau-fit}{3.2} & \mkn{M3-peak-fast}{M3-tau-fit}{$\mathrm{GEF_R^*} \to \mathrm{GEF_R}$} & $k_{E,\mathrm{off}}[\mathrm{GEF_R^*}]$ \\
 \mkn{M3-gefr}{M3-trans}{3.3} & \mkn{M3-gefr}{M3-trans}{$\mathrm{GEF_R^*}+\mathrm{RasG}^{\mathrm{GDP}} \to \mathrm{RasG}^{\mathrm{GTP}}+\mathrm{GEF_R^*}$} & $k_{R,\mathrm{on}}[\mathrm{GEF_R^*}][\mathrm{RasG}^{\mathrm{GDP}}]$ \\
-\mkn{M3-prop}{M3-gap-glob,M3-legi,M3-iffl}{3.4e} & \mkn{M3-prop}{M3-gap-glob,M3-legi,M3-iffl}{$\mathrm{G}_{\beta\gamma}+\mathrm{GAP} \to \mathrm{GAP^*}+\mathrm{G}_{\beta\gamma}$} & $k_{I,\mathrm{on}}[\mathrm{G}_{\beta\gamma}][\mathrm{GAP}]$ \\
+\mkn{M3-prop}{M3-gap-glob,M3-legi,M3-iffl,M3-gap-gbg}{3.4e} & \mkn{M3-prop}{M3-gap-glob,M3-legi,M3-iffl,M3-gap-gbg}{$\mathrm{G}_{\beta\gamma}+\mathrm{GAP} \to \mathrm{GAP^*}+\mathrm{G}_{\beta\gamma}$} & $k_{I,\mathrm{on}}[\mathrm{G}_{\beta\gamma}][\mathrm{GAP}]$ \\
 \mkt{M3-basal-gap}{3.4b} & \mkt{M3-basal-gap}{$\mathrm{GAP} \to \mathrm{GAP^*}$} & $k_{I,\mathrm{b}}[\mathrm{GAP}]$ \\
-\mkt{M3-slower-inh}{3.5} & \mkt{M3-slower-inh}{$\mathrm{GAP^*} \to \mathrm{GAP}$} & $k_{I,\mathrm{off}}[\mathrm{GAP^*}]$ \\
-\mkn{M3-rect}{M3-nf1kin}{3.7z} & \mkn{M3-rect}{M3-nf1kin}{$\mathrm{GAP^*}+\mathrm{RasG}^{\mathrm{GTP}} \to \mathrm{RasG}^{\mathrm{GDP}}+\mathrm{GAP^*}$} & $k_\mathrm{cat}[\mathrm{GAP^*}]\,\dfrac{[\mathrm{RasG}^{\mathrm{GTP}}]}{K_\mathrm{NF1}+[\mathrm{RasG}^{\mathrm{GTP}}]}$ \\
-\mkn{M3-pfb}{M3-kat}{3.3b} & \mkn{M3-pfb}{M3-kat}{$\mathrm{RasG}^{\mathrm{GDP}}+\mathrm{PIP3} \to \mathrm{RasG}^{\mathrm{GTP}}+\mathrm{PIP3}$} & $k_\mathrm{PIP3}[\mathrm{PIP3}][\mathrm{RasG}^{\mathrm{GDP}}]$ \\
-\mkn{M3-sca1}{M3-miao-ext}{3.3c} & \mkn{M3-sca1}{M3-miao-ext}{$\mathrm{PKBR1}^*+\mathrm{B} \to \mathrm{B}^*+\mathrm{PKBR1}^*$} & $k_{B,\mathrm{on}}[\mathrm{PKBR1}^*][\mathrm{B}]$ \\
-\mkt{M3-miao-ext}{3.3d} & \mkt{M3-miao-ext}{$\mathrm{B}^* \to \mathrm{B}$} & $k_{B,\mathrm{off}}[\mathrm{B}^*]$ \\
-\mkn{M3-ch-adapt}{M3-miao-ext,M3-miao-mech}{3.3e} & \mkn{M3-ch-adapt}{M3-miao-ext,M3-miao-mech}{$\mathrm{B}^*+\mathrm{RasG}^{\mathrm{GTP}} \to \mathrm{RasG}^{\mathrm{GDP}}+\mathrm{B}^*$} & $k_{B,\mathrm{hyd}}[\mathrm{B}^*][\mathrm{RasG}^{\mathrm{GTP}}]$ \\
+\mkn{M3-tau-fit}{M3-slower-inh,M3-undershoot}{3.5} & \mkn{M3-tau-fit}{M3-slower-inh,M3-undershoot}{$\mathrm{GAP^*} \to \mathrm{GAP}$} & $k_{I,\mathrm{off}}[\mathrm{GAP^*}]$ \\
+\mkn{M3-rect}{M3-nf1kin,M3-nf1-rasg}{3.7z} & \mkn{M3-rect}{M3-nf1kin,M3-nf1-rasg}{$\mathrm{GAP^*}+\mathrm{RasG}^{\mathrm{GTP}} \to \mathrm{RasG}^{\mathrm{GDP}}+\mathrm{GAP^*}$} & $k_\mathrm{cat}[\mathrm{GAP^*}]\,\dfrac{[\mathrm{RasG}^{\mathrm{GTP}}]}{K_\mathrm{NF1}+[\mathrm{RasG}^{\mathrm{GTP}}]}$ \\
+\mkn{M3-pfb}{M3-pip3-gef,M3-ly-red,M3-pip3-small}{3.3b} & \mkn{M3-pfb}{M3-pip3-gef,M3-ly-red,M3-pip3-small}{$\mathrm{RasG}^{\mathrm{GDP}}+\mathrm{PIP3} \to \mathrm{RasG}^{\mathrm{GTP}}+\mathrm{PIP3}$} & $k_\mathrm{PIP3,R}[\mathrm{PIP3}][\mathrm{RasG}^{\mathrm{GDP}}]$ \\
+\mkn{M3-nfblb-def}{M3-c2gap-ras,M3-dnf}{3.3c$_\mathrm{R}^\dagger$} & \mkn{M3-nfblb-def}{M3-c2gap-ras,M3-dnf}{$\mathrm{RasG}^{\mathrm{GTP}}+\mathrm{B} \to \mathrm{B}^*+\mathrm{RasG}^{\mathrm{GTP}}$} & $k_{B,\mathrm{on}}[\mathrm{RasG}^{\mathrm{GTP}}][\mathrm{B}]$ \\
+\mkn{M3-refr}{M3-slow-buf}{3.3d$^\dagger$} & \mkn{M3-refr}{M3-slow-buf}{$\mathrm{B}^* \to \mathrm{B}$} & $k_{B,\mathrm{off}}[\mathrm{B}^*]$ \\
+\mkn{M3-c2gap-ras}{M3-nfblb-fit}{3.3e$^\dagger$} & \mkn{M3-c2gap-ras}{M3-nfblb-fit}{$\mathrm{B}^*+\mathrm{RasG}^{\mathrm{GTP}} \to \mathrm{RasG}^{\mathrm{GDP}}+\mathrm{B}^*$} & $k_{B,\mathrm{hyd}}[\mathrm{B}^*][\mathrm{RasG}^{\mathrm{GTP}}]$ \\
 \bottomrule
 \end{tabularx}
 \end{table*}

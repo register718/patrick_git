@@ -1,4 +1,14 @@
 # ============================================================================
+# ⚠ 2026-10-02 — MODULE 3 DEFAULTS CHANGED, NOT RE-CALIBRATED (no run was made):
+#   * PIP3 feedback back on RasG (3.3b, DICTY_M3_PIP3PATH=ras); 3.3g (PIP3 → Gβγ) is an option.
+#   * brake 3.3c read by RasG-GTP (3.3c_R, DICTY_M3_BRAKEREAD=ras; pkb|pip3 are options);
+#     BRAKE_HALF_RAS = 6400/voxel is a design anchor to be re-measured.
+#   * τ_I 30 → 10 s (Takeda 2012 Supp. Table S1), k_gapOn/k_gapOnG/k_gapBasal ×3.03 so the
+#     activated GAP fractions are unchanged.
+#   * Sca1 feedback on RasC uses its own species Sca1_cyto/Sca1a_mem (8.2p/8.2q/8.2s).
+#   Evidence: sections/m3.tex, sources/M3/SYNTHESE_Rueckkopplung.md, tools/marks/verify_m3.md.
+#   Check before use: rest state low branch, step return < 35 s, no post-peak oscillation.
+# ============================================================================
 # ⚠ STATE AS OF 2026-08-26 — read this before trusting any constant below.
 # ============================================================================
 # MEASURED ON THE ENGINE AND ACTED ON:
@@ -1207,14 +1217,26 @@ const k_gefRoff = _m3("DICTY_M3_KGEFROFF", 0.5f0, 0.1f0)     # s⁻¹  τ_E = 2 
 
 const k_rasGon  = _m3("DICTY_M3_KRASGON",  0.333325f0, 15.0f0)  # µM⁻¹s⁻¹  [200 -> 0.275 -> 4.0 -> 1.3333, 2026-08-24]
 
-const k_gapOn  = _m3("DICTY_M3_KGAPON",  0.08f0, 0.05f0)     # µM⁻¹s⁻¹
-const k_gapOff = _m3("DICTY_M3_KGAPOFF", 0.033f0, 0.005f0)   # s⁻¹  τ_I = 30 s  [0.0015 -> 0.033]
+# ── τ_I = 30 s → 10 s [2026-10-02], ALL THREE ARMING RATES SCALED WITH IT ────────
+# Takeda et al. 2012 (Supp. Table S1, p. 22) fitted k−GAP = 0.1 s⁻¹ (τ = 10 s) and
+# k−GEF = 0.4 s⁻¹; "k-GAP determined the time scale of the return to basal amount"
+# (Supp. p. 6).  The model had τ_I = 30 s.  k_gapOff is set to Takeda's value and the
+# arming rates of 3.4, 3.4e and 3.4b are multiplied by the SAME factor 0.1/0.033, so
+# every activated GAP fraction (rest, adapted plateau, _fI_rest, _fI_rest_G and hence
+# k_nf1Cat) is unchanged and only the time constant moves — the pairing Takeda used
+# himself ("we fixed kGAP=0.1k-GAP", Supp. p. 5).  ⚠ NOT RE-CALIBRATED: the faster
+# inhibitor shortens and lowers the Ras transient; re-check the step return (<35 s,
+# Takeda p. 2) and the downstream modules.  `DICTY_M3_KGAPOFF=0.033
+# DICTY_M3_KGAPONG=0.000253 DICTY_M3_KGAPBASAL=5e-4 DICTY_M3_KGAPON=0.08` restores τ_I = 30 s.
+const _M3_TAUI_PAIR = Float32(0.1 / 0.033)                    # 3.0303, k_off(new)/k_off(old)
+const k_gapOn  = _m3("DICTY_M3_KGAPON",  0.08f0 * _M3_TAUI_PAIR, 0.05f0)  # µM⁻¹s⁻¹  [0.08 -> 0.2424, 2026-10-02]
+const k_gapOff = _m3("DICTY_M3_KGAPOFF", 0.1f0, 0.005f0)     # s⁻¹  τ_I = 10 s (Takeda 2012)  [0.0015 -> 0.033 -> 0.1]
 
 const M3_INHIB = get(ENV, "DICTY_M3_INHIB", "gbg")
 M3_INHIB in ("rc", "gbg", "both") ||
     error("DICTY_M3_INHIB must be rc|gbg|both, got $(repr(M3_INHIB))")
 
-const k_gapOnG = _m3("DICTY_M3_KGAPONG", 0.000253f0, 0.0f0) # TODO: 0.08  # µM⁻¹s⁻¹  (3.4e) [0.00253 -> 0.000253, 2026-08-24]
+const k_gapOnG = _m3("DICTY_M3_KGAPONG", 0.000253f0 * _M3_TAUI_PAIR, 0.0f0) # µM⁻¹s⁻¹  (3.4e) [0.00253 -> 0.000253 -> 0.000767 (τ_I pairing), 2026-10-02]
 
 const k_rasGoff = _m3("DICTY_M3_KRASGOFF", 5.5f0, 150.0f0)  # µM⁻¹s⁻¹  [2200 -> 1.56 -> 220 -> 22, 2026-08-24]
 
@@ -1292,7 +1314,7 @@ const k_rasGoff = _m3("DICTY_M3_KRASGOFF", 5.5f0, 150.0f0)  # µM⁻¹s⁻¹  [2
 # (Zhang et al. 2008). [CALIBRATED] minimum: 5e-5 latches, 2e-4 gives the low rest state
 # (RasG-GTP ≈ 1, PIP3 ≈ 8 /voxel); 5e-4 is 2.5× above it (1.5 % of the GAP pool armed at
 # rest). `DICTY_M3_KGAPBASAL=0` restores the previous value.
-const k_gapBasal = _m3("DICTY_M3_KGAPBASAL", 5.0f-4, 0.0f0)  # s⁻¹  (3.4b, basal I→I*)  [8e-5 -> 0 -> 1.5e-3 -> 0 -> 5e-4]
+const k_gapBasal = _m3("DICTY_M3_KGAPBASAL", 5.0f-4 * _M3_TAUI_PAIR, 0.0f0)  # s⁻¹  (3.4b, basal I→I*)  [8e-5 -> 0 -> 1.5e-3 -> 0 -> 5e-4 -> 1.515e-3 (τ_I pairing, 2026-10-02)]
 
 # 3.1 Gbg_cyto + RasGEFR_cyto → RasGEFR*_cyto + Gbg_cyto
 r3_1 = Reaction([:Gbg_cyto, :RasGEFR_cyto], [:RasGEFRa_cyto, :Gbg_cyto],  k_gefRon,   nothing)
@@ -1997,6 +2019,59 @@ const k_pip3GapOff = _m3("DICTY_M3_KPIP3GAPOFF", 1.0f0,  0.0f0) / Float32(PIP2_S
 
 # 3.3b RasG_GDP_mem + PIP3_mem → RasG_GTP_mem + PIP3_mem
 r3_3b = Reaction([:RasG_GDP_mem, :PIP3_mem], [:RasG_GTP_mem, :PIP3_mem], k_pip3Ras, nothing)
+
+# ── 3.3b IS THE DEFAULT AGAIN [2026-10-02, later the same day]; 3.3g IS AN OPTION ──
+# `DICTY_M3_PIP3PATH = ras (DEFAULT, 3.3b above) | gbg (3.3g below)`.
+# WHY 3.3b.  The literature check (sources/M3/SYNTHESE_Rueckkopplung.md, sections/m3.tex)
+# found every G-protein measurement against 3.3g: G-protein activation persists while
+# downstream responses adapt (Janetopoulos 2001 p. 2408; Elzie 2009 p. 2598), rises
+# step-like under two cAMP steps while Ras is transient (Xu 2022 p. 3), and the Gβγ
+# domain change is PI3K-independent (van Hemert 2010 p. 2927).  The published Ras/PIP3
+# model puts the PIP3 feedback into the Ras GEF term (Fukushima 2019 p. 10, Eqn 11:
+# "One term defines the basal activity of Ras and the other defines feedback from
+# PIP3"), which is 3.3b.  Its PIP3 share of Ras activity is small (Li 2018 p. E9128;
+# Sasaki 2004 p. 511: LY reduces, does not abolish).  k_pip3Ras = 40 is the value that
+# was committed for 3.3b before the switch to 3.3g.
+# The history of the 3.3g attempt follows; it is kept as the `gbg` option.
+# ── (history) 3.3g — THE PIP3 FEEDBACK ENTERS AT Gβγ, NOT AT RasG-GTP [2026-10-02, morning] ─
+# WHY.  3.3b made PIP3 convert RasG-GDP to RasG-GTP DIRECTLY.  No source in the
+# repo documents such a PIP3 → Ras-GEF edge; what is documented is (i) the
+# Ras → PI3K → PIP3 → Ras loop as a whole (Sasaki 2004, Fukushima 2019) and
+# (ii) that "the amplification sits between the G protein and Ras" (Kataria
+# 2013).  The feedback is therefore moved UPSTREAM of Ras, onto the G protein:
+# PIP3 accelerates the dissociation of the heterotrimer, which releases Gβγ,
+# and Gβγ then drives everything it already drives (3.1 → RasG, 3.4e → GAP,
+# 8.1 → RasGEFA).  PIP3 no longer touches RasG-GTP at all.
+#   3.3g  Gabg_mem + PIP3_mem → Ga2GTP_mem + Gbg_cyto + PIP3_mem
+# It is the same product set as 2.1 (receptor-catalysed exchange) with PIP3 as a
+# second catalyst, and r2_5 (reassociation) removes the extra Gβγ again, so the
+# G-protein pool is conserved.
+# ⚠ EVIDENCE CHECK 2026-10-02 (sources in the repo): NO source measures a PIP3/PI3K effect
+# on the G protein, and what exists points the other way.  Elzie 2009: membrane
+# G-protein activation does not decline during continuous stimulation although PI3K
+# activity subsides; van Hemert 2010: the cAMP-induced Gβγ mobility change/domain
+# formation is PI3K-independent (mobility, NOT dissociation, was measured); Kortholt
+# 2013: Ras symmetry breaking needs Gα2/Gβγ but not the PIP3 pathway; Fukushima 2019:
+# Ras waves occur without PIP3 (PI3K inhibition only destabilises them).  The measured
+# PIP3 → Ras effect has no documented attachment point.  `DICTY_M3_PIP3PATH=ras` is the
+# alternative; decide by tuning which one restores the rest state.
+# ⚠ WHAT THIS CHANGES FOR THE LEGI STAGE — read before tuning.  Gβγ drives BOTH
+# arms (3.1 excitor, 3.4e inhibitor), so the feedback is amplified by the
+# excitor and partly CANCELLED by the inhibitor (the GAP is armed by the same
+# Gβγ), and it also raises RasGEFA (M8) and thereby the RasC arm.  This is
+# deliberate: it is what "feedback onto Gβγ" means, and it is the reason the
+# gain below cannot be taken over from 3.3b.  It also means the Gabg pool
+# (≈70 % dissociated at the working dose, see Module 2) caps what the loop can
+# add: the feedback can only act on the ≈30 % that is still intact.
+# ⚠ k_pip3Gbg IS NOT CALIBRATED.  Starting value = the old k_pip3Ras per molecule
+# (same units, same PIP2_SCALE catalyst compensation) so that the first run is
+# comparable; there is no measurement for it.  TUNING: raise it until the cell
+# fires and the PIP3 patch forms at the working dose, lower it until the rest
+# state is the low branch (RasG-GTP ≈ 1, PIP3 ≈ 8 /voxel, see k_gapBasal).  The
+# check list is in the 3.3c′ block (the brake is what restores the rest state).
+const M3_PIP3PATH = get(ENV, "DICTY_M3_PIP3PATH", "ras")   # ras (3.3b, DEFAULT) | gbg (3.3g)
+const k_pip3Gbg   = _m3("DICTY_M3_KPIP3GBG", 40.0f0, 0.0f0) / Float32(PIP2_SCALE)  # µM⁻¹s⁻¹ (3.3g), catalyst-compensated, UNTUNED
+r3_3g = Reaction([:Gabg_mem, :PIP3_mem], [:Ga2GTP_mem, :Gbg_cyto, :PIP3_mem], k_pip3Gbg, nothing)
 #r3_4c removed since only depended on constant species => useless
 # 3.4d RasGAPa_cyto + PIP3_mem -> RasGAP_cyto + PIP3_mem
 # ⚠ OFF BY DEFAULT (DICTY_M3_PIP3GAP=1 restores it): "biologically not
@@ -2011,6 +2086,11 @@ const M3_PIP3GAP = get(ENV, "DICTY_M3_PIP3GAP", "0") == "1"
 r3_4d = Reaction([:RasGAPa_cyto, :PIP3_mem], [:RasGAP_cyto, :PIP3_mem], k_pip3GapOff, nothing)
 
 # ── 3.3c/d/e — THE STEN BRAKE, WRITTEN 2026-09-06 ───────────────────────────
+# ⚠ 2026-10-02: THE BRAKE IS A PROPOSED TERM WITHOUT LITERATURE SUPPORT FOR RasG,
+# and the amplifier it brakes is now 3.3g (PIP3 → Gβγ), not 3.3b.  Read the
+# "PROPOSED" block below (3.3c′) for the status and the tuning decision rule.
+# The text below is the history of how it was built; where it says "3.3b" read
+# "the PIP3 amplifier" (3.3g by default).
 # ⚠ THIS IS A NEW REACTION EDGE, OFF BY DEFAULT (`DICTY_M3_BRAKE=1` enables).
 #
 # WHY IT DID NOT EXIST.  `MODULE_3_REACTIONS`' own comment calls its contents
@@ -2151,36 +2231,68 @@ r3_3d = Reaction([:RasBrakea_mem], [:RasBrake_cyto], k_brakeOff, nothing)
 # 3.3e RasBrakea_mem + RasG_GTP_mem → RasG_GDP_mem + RasBrakea_mem
 r3_3e = Reaction([:RasBrakea_mem, :RasG_GTP_mem], [:RasG_GDP_mem, :RasBrakea_mem], k_brakeHydro, nothing)
 
-# ── 3.3c′ — THE BRAKE'S READER RE-FOUNDED ON PKB [2026-09-29, opt-in] ─────────
-# `DICTY_M3_BRAKEREAD = pkb (DEFAULT since 2026-09-30) | pip3 (the 3.3c above, previous default)`.
-# THE LITERATURE HAS NO PIP3-ACTIVATED Ras BRAKE. What it has is a DELAYED
-# NEGATIVE FEEDBACK CARRIED BY PKB, through which PIP3 acts only indirectly:
-#   * Charest et al. 2010 Dev Cell 18:737 (PMC2893887): PKB and PKBR1
-#     phosphorylate the scaffold Sca1 ("a peak at ~5–10 sec after stimulation"),
-#     releasing the Sca1/RasGEF(Aimless)/PP2A complex from the membrane. In
-#     pkbA⁻/pkbr1⁻ and TORC2-null (piaA⁻) cells Ras activation is "considerably
-#     increased and fails to rapidly adapt as it normally does by 40 s"; LY294002
-#     (no PIP3) gives "increased and prolonged GFP-Sca1 translocation" and
-#     "slightly prolongs" Ras activation — the PIP3 → adaptation link.
-#     ⚠ That paper's Ras is RasC ("RasG activation is unaffected" by the complex).
-#   * Miao et al. 2017 Nat Cell Biol 19:329 (PMC5394931) extends it to the RasG
-#     reporter: pkbA⁻/pkbR1⁻ cells show "enhanced activities" of RBD and PHcrac
-#     (suppressed by re-expressing PKBA), LY294002+PP242 elevate RBD, and "PKBs
-#     … are strong candidates for the delayed negative feedback that resolves
-#     the activation", PKB activation being "delayed relative to the increase in
-#     Ras and PI3K activities". Mechanism for RasG not identified (Sca1→Aimless
-#     is RasC's GEF; PKB→PI5K→PIP2 proposed).
-#   * Takeda et al. 2012 Sci Signal 5:ra2 (PMC3928814): the ADAPTED LEVEL of
-#     RasG-GTP is set by the incoherent feed-forward loop, not by feedback — so
-#     this brake must be OFF at rest and after adaptation, and shape only the
-#     transient.
-# So the brake substrate is modelled as a Sca1-like PKB substrate: phosphorylated
-# (activated) by PKBR1a (8b) and PKBAa (4.12, PIP3-gated), dephosphorylated by
-# 3.3d. Weights: Charest 2010 — Sca1 phosphorylation "reduced in cells lacking
-# PKB (pkbA⁻), reduced to a greater extent in pkbr1⁻ cells, and abolished" in
-# both, i.e. both kinases, PKBR1 the larger. Constants below are anchors, see
-# the calibration note calib/BRAKE_PKB_2026-09-29.md.
-const M3_BRAKE_READ   = get(ENV, "DICTY_M3_BRAKEREAD", "pkb")
+# ── 3.3c/d/e — THE BRAKE IS A PROPOSAL, NOT A LITERATURE MECHANISM [2026-10-02] ─
+# ⚠⚠ PROPOSED.  NOT TAKEN FROM THE LITERATURE.  KEPT ONLY IF TUNING SHOWS IT IS
+# NEEDED TO RETURN THE SYSTEM TO ITS REST STATE.
+# WHAT THE SOURCES DO AND DO NOT DOCUMENT (checked against the PDFs in sources/):
+#   * RasG's documented brake is the Gβγ-driven RasGAP of the incoherent
+#     feed-forward loop (Takeda 2012; the RasG GAP is NF1/NfaA, Zhang 2008,
+#     Kortholt 2013) = reactions 3.4/3.4e/3.7 in this file.  That is ADAPTATION,
+#     not a feedback from PIP3 or PKB.  Takeda 2012 tested and did not support a
+#     GAP activated by Ras-GTP (integral control).
+#   * PKB/PKBR1 → Sca1 → RasGEFA ↓ is documented for RasC (Charest 2010, Cai 2010,
+#     Scavello 2017) = Module 8, reaction 8.2s.  Cai 2010: RasG-Q61L does NOT
+#     change PKB phosphorylation, so the RasC pathway is separate from RasG.
+#   * PKB → RasG is NOT documented.  Miao 2017 reports elevated RBD (an
+#     isoform-NON-specific Ras sensor) and PHcrac in pkbA⁻/pkbR1⁻ cells and calls
+#     the PKBs "candidates"; "the mechanism for the RasG reporter is not
+#     identified".
+#   * No source documents a PIP3-activated RasG brake either (see 3.3c above).
+# So THIS EDGE CROSSES THE TWO BRANCHES: B (a Sca1-like substrate of PKBR1*, which
+# is RasC's pathway) is made to hydrolyse RasG-GTP (3.3e).  It is a design
+# choice that keeps the behaviour of the previous default (activation by PKBR1*,
+# τ = 10 s decay, hydrolysis of RasG-GTP) and nothing more.
+# PROPOSED ROLE.  Without any delayed inhibitor the PIP3 → Gβγ → RasG → PI3K →
+# PIP3 loop (3.3g) has two regimes: too little gain, or a latched patch / latched
+# rest state (measured, see k_gapBasal).  The brake is what removed the latched
+# rest state (RasG-GTP 90 % of pool without it, ≈1 with it).
+# HOW TO DECIDE WHETHER IT STAYS (do this when tuning 3.3g):
+#   1. Run the rest-state solve + a 1800 s no-stimulus run with the brake OFF
+#      (`DICTY_M3_BRAKE=0`).  If rest is already the low branch (RasG-GTP ≈ 1,
+#      PIP3 ≈ 8 /voxel) and the cell fires at the Module-0 rate (2.41 spikes /
+#      1800 s), the brake is NOT NEEDED: delete 3.3c/d/e and the 3.3c′ reader and
+#      say so in the text.  The Gβγ route may already damp the loop, because the
+#      GAP arm 3.4e is armed by the same Gβγ.
+#   2. If it latches with the brake off, switch it on and tune ONLY
+#      `DICTY_M3_BRAKEHALFPKB` (PKBR1* level, molecules/voxel, for half
+#      activation; default 20), `DICTY_M3_BRAKESTR` (hydrolysis as a fraction of
+#      the LEGI GAP arm at half activation; default 0.6) and
+#      `DICTY_M3_KBRAKEOFF` (decay, default 0.1 s⁻¹ = τ 10 s).  The brake has to
+#      be OFF at rest and after adaptation (Takeda 2012: the adapted level is set
+#      by the IFFL) and act only on the transient.
+#   3. Alternative reader if the PKB reading does not help: `DICTY_M3_BRAKEREAD=pip3`
+#      (3.3c, activation by PIP3, the earlier default).  Report which reader was
+#      needed; that is the result to carry back into the TeX (Module 3).
+# Any number quoted from a run with the brake ON must say it is a proposed term.
+#
+# ── 3.3c′ — THE BRAKE'S READER, PKB-BASED (default since 2026-09-30) ────────────
+# `DICTY_M3_BRAKEREAD = pkb (DEFAULT) | pip3 (the 3.3c above, previous default)`.
+# NOTE ON THE EARLIER COMMENT HERE: it said Miao 2017 "extends it to the RasG
+# reporter".  That overstated it — see the list above; Charest 2010 is RasC only
+# ("RasG activation is unaffected" by the Sca1 complex).  Kept for the record:
+#   * Charest et al. 2010 Dev Cell 18:737: PKB and PKBR1 phosphorylate Sca1
+#     ("a peak at ~5–10 sec after stimulation"), releasing the Sca1/RasGEF
+#     (Aimless)/PP2A complex from the membrane; in pkbA⁻/pkbr1⁻ cells RasC
+#     activation "fails to rapidly adapt as it normally does by 40 s".  RasC.
+#   * Weights below: Sca1 phosphorylation is "reduced in cells lacking PKB
+#     (pkbA⁻), reduced to a greater extent in pkbr1⁻ cells, and abolished" in
+#     both, i.e. both kinases, PKBR1 the larger (again a RasC statement).
+# Constants are anchors, see calib/BRAKE_PKB_2026-09-29.md.
+# ⚠ [2026-10-02] NO LONGER THE DEFAULT — superseded by the RasG-GTP reader 3.3c_R below.
+# `DICTY_M3_BRAKEREAD = ras (DEFAULT) | pkb (this block) | pip3 (3.3c)`.
+const M3_BRAKE_READ   = get(ENV, "DICTY_M3_BRAKEREAD", "ras")
+M3_BRAKE_READ in ("ras", "pkb", "pip3") ||
+    error("DICTY_M3_BRAKEREAD must be ras|pkb|pip3, got $(repr(M3_BRAKE_READ))")
 # PKB activity (weighted molecules/voxel) at which the brake is half-activated
 const BRAKE_HALF_PKB  = parse(Float64, get(ENV, "DICTY_M3_BRAKEHALFPKB", "20"))
 const BRAKE_W_PKBR1   = parse(Float64, get(ENV, "DICTY_M3_BRAKEWR1", "1.0"))
@@ -2190,6 +2302,36 @@ r3_3cR = Reaction([:PKBR1a_mem, :RasBrake_cyto], [:RasBrakea_mem, :PKBR1a_mem],
                   Float32(BRAKE_W_PKBR1) * k_brakeOnPKB, nothing)
 r3_3cA = Reaction([:PKBAa_mem, :RasBrake_cyto], [:RasBrakea_mem, :PKBAa_mem],
                   Float32(BRAKE_W_PKBA) * k_brakeOnPKB, nothing)
+
+# ── 3.3c_R — THE BRAKE IS READ BY RasG-GTP (DEFAULT since 2026-10-02) ────────────
+# `DICTY_M3_BRAKEREAD=ras`.  The brake becomes a negative feedback loop with a
+# buffer node on RasG itself (NFBLB, Xu et al. 2022 p. 1: "the output is shut down
+# by an inhibitor induced by the output itself").  Sources (all in sources/M3,
+# marked in sources_marked/M3, see sections/m3.tex 3.3c_R):
+#   * the reader can be neither PIP3 nor PKB(R1): Ras is excitable with the PIP3,
+#     TorC2, PLA2 and sGC pathways all inhibited and without F-actin (Fukushima 2019
+#     p. 2, p. 7), and the cAMP Ras response is unchanged in sgc/pla2(/pkbR1)-null+LY
+#     cells, with LatA too (Kortholt 2011 p. 1273-1274);
+#   * a RasGAP whose membrane recruitment and activation require Ras exists
+#     (C2GAP1, Xu 2022 p. 2), and c2gapA- cells have elevated basal Ras
+#     (Xu 2021 p. 4); a RasGAP activated by Ras-GTP reproduces the transient,
+#     adaptive Ras response (Xu 2022 p. 4);
+#   * k_brakeOff = 0.1 s⁻¹ (τ = 10 s) now has an anchor: the refractory period
+#     recovers with t½ ≈ 7 s (Artemenko 2016 p. E7503), τ = 7 s / ln 2 ≈ 10 s.
+# It is NOT Takeda's rejected integral controller (Supp. p. 3: GAP produced ∝ Ras-GTP,
+# removed at a CONSTANT rate): B* decays in first order and has no setpoint, and the
+# adapted level stays the IFFL's.  Takeda Supp. p. 9: the buffer must be slow to
+# avoid oscillations — check the post-peak decay for sign changes when tuning.
+# ⚠ BRAKE_HALF_RAS IS A DESIGN ANCHOR, NOT A MEASUREMENT: half activation at the
+# driven RasG-GTP so the brake is ~off at rest and in the adapted plateau (its
+# removal flux ∝ [B*][RasG-GTP] ∝ RasG-GTP² while unsaturated).  6400/voxel is the
+# only driven RasG-GTP recorded in this file (6390.9 at gain 200, see the 3.3c block);
+# re-measure the driven level at the committed gain and set it there.
+# k_brakeHydro (3.3e) and RasBrake_v are unchanged.
+const BRAKE_HALF_RAS = parse(Float64, get(ENV, "DICTY_M3_BRAKEHALFRAS", "6400"))  # RasG-GTP molec/voxel
+const k_brakeOnRas   = Float32(Float64(k_brakeOff) * Float64(MOLEC_PER_µM) / BRAKE_HALF_RAS)  # µM⁻¹s⁻¹
+# 3.3c_R RasG_GTP_mem + RasBrake_cyto → RasBrakea_mem + RasG_GTP_mem
+r3_3cG = Reaction([:RasG_GTP_mem, :RasBrake_cyto], [:RasBrakea_mem, :RasG_GTP_mem], k_brakeOnRas, nothing)
 
 
 # ============================================================================
@@ -2230,7 +2372,25 @@ r8_1  = Reaction([:Gbg_cyto, :RasGEFA_cyto], [:RasGEFAa_cyto, :Gbg_cyto], k_gefA
 # 2026-09-30; 0 = off). ⚠ k = 1 vs 3 not yet decided (calib/BRAKE_PKB_2026-09-29.md round 3).
 # [CALIBRATED] against 'RasC back near baseline by ~40 s' (Charest 2010).
 const k_sca1Fb = parse(Float32, get(ENV, "DICTY_M8_SCA1FB", "1"))
-r8_2s = Reaction([:RasBrakea_mem, :RasGEFAa_cyto], [:RasGEFA_cyto, :RasBrakea_mem], k_sca1Fb, nothing)
+# ⚠ [2026-10-02] Sca1 IS NOW ITS OWN SPECIES (`Sca1_cyto` / `Sca1a_mem`), NO LONGER
+# Module 3's `RasBrakea_mem`.  The shared species made one substrate brake both RasC
+# (documented, Charest 2010) and RasG (not documented: "the Sca1 complex regulates
+# RasC activity while RasG activation is unaffected", Charest 2010 p. 740).  The RasG
+# brake is now read by RasG-GTP (3.3c_R).  8.2p/8.2q copy the former PKB reader 3.3c′
+# and decay 3.3d exactly (same k_brakeOnPKB, weights, k_brakeOff, pool, D), and every
+# step is catalytic for Sca1*, so the RasC arm behaves as under the previous default
+# (DICTY_M3_BRAKEREAD=pkb), only no longer gated on the M3 brake switches.
+const Sca1_v = RasBrake_v                                              # Sca1-like substrate / voxel
+# 8.2p PKBR1a_mem + Sca1_cyto → Sca1a_mem + PKBR1a_mem   (PKBR1 phosphorylates Sca1)
+r8_2p  = Reaction([:PKBR1a_mem, :Sca1_cyto], [:Sca1a_mem, :PKBR1a_mem],
+                  Float32(BRAKE_W_PKBR1) * k_brakeOnPKB, nothing)
+# 8.2pA PKBAa_mem + Sca1_cyto → Sca1a_mem + PKBAa_mem   (PKBA, weight 0 by default)
+r8_2pA = Reaction([:PKBAa_mem, :Sca1_cyto], [:Sca1a_mem, :PKBAa_mem],
+                  Float32(BRAKE_W_PKBA) * k_brakeOnPKB, nothing)
+# 8.2q Sca1a_mem → Sca1_cyto   (τ = 10 s, as 3.3d)
+r8_2q  = Reaction([:Sca1a_mem], [:Sca1_cyto], k_brakeOff, nothing)
+# 8.2s Sca1a_mem + RasGEFAa_cyto → RasGEFA_cyto + Sca1a_mem
+r8_2s = Reaction([:Sca1a_mem, :RasGEFAa_cyto], [:RasGEFA_cyto, :Sca1a_mem], k_sca1Fb, nothing)
 # 8.2  RasGEFA*_cyto → RasGEFA_cyto                             (k_gefAoff = 0.1  s⁻¹)
 r8_2  = Reaction([:RasGEFAa_cyto], [:RasGEFA_cyto],    k_gefAoff,         nothing)
 r8_3  = Reaction([:RasGEFAa_cyto, :RasC_GDP_mem], [:RasC_GTP_mem, :RasGEFAa_cyto], 2.0f0, nothing)
@@ -2935,7 +3095,10 @@ r8_14 = Reaction([:CRACa_mem], [:CRACa_mem, :X], Float32(k_m8X_max / CRAC_TOT),
 const MODULE_8_ON = get(ENV, "DICTY_MODULE8", "1") == "1"
 const MODULE_8_REACTIONS = MODULE_8_ON ? [
     r8_1, r8_2, r8_3, r8_4, r8_4b, r8_4c, r8_4d,   # RasGEFA → RasC-GTP + its GAP adaptation
-    ((k_sca1Fb > 0 && get(ENV, "DICTY_M3_STEN", "1") == "1" && M3_BRAKE) ? [r8_2s] : Reaction[])...,  # Sca1 feedback (Charest 2010), opt-in
+    # Sca1 feedback on RasC (Charest 2010): own species since 2026-10-02 (see 8.2s); DICTY_M8_SCA1FB=0 removes it
+    (k_sca1Fb > 0 ? vcat(BRAKE_W_PKBR1 > 0 ? [r8_2p] : Reaction[],
+                         (M4_REFRACTORY && BRAKE_W_PKBA > 0) ? [r8_2pA] : Reaction[],
+                         [r8_2q, r8_2s]) : Reaction[])...,
     r8_5, r8_6,                                     # RasC → TORC2*
     r8b_1, r8b_2, r8b_3, r8b_4,                     # PKBR1 arm (M8's own kinase) + PKA brake
     r8_9, r8_9b, r8_9c, r8_10, r8_10b,              # the three-state CRAC moiety
@@ -2960,8 +3123,10 @@ const M8_INITIAL = Dict{Symbol, Int}(
     :TORC2_mem     => TORC_v,   :TORC2a_mem    => 0,
     :PKBR1_mem     => PKBR1_v,  :PKBR1a_mem    => 0,
     :CRAC_cyto     => CRAC_v,   :CRAC_mem      => 0,  :CRACa_mem => 0,
+    :Sca1_cyto     => Sca1_v,   :Sca1a_mem     => 0,  # Sca1-like PKB substrate (8.2p/q/s), all unphosphorylated at rest
 )
 const M8_DIFFUSION = Dict{Symbol, Float32}(
+    :Sca1_cyto     => D_M3_BRAKE, :Sca1a_mem   => D_M3_BRAKE,  # as the former shared brake species (RasC arm unchanged)
     :RasGEFA_cyto  => 10.0f0,   :RasGEFAa_cyto => 2.0f0,   # as CELL_DIFF's generic cytosolic
     :RasCGAP_cyto  => 10.0f0,   :RasCGAPa_cyto => 10.0f0,
     :RasC_GDP_mem  => 0.1f0,    :RasC_GTP_mem  => 0.1f0,   # prenylated, as RasG (M3_DIFFUSION)
@@ -3519,7 +3684,8 @@ const MODULE_3_REACTIONS = vcat(
     M3_INHIB in ("rc", "both")  ? [r3_4]  : Reaction[],               # LEGI inhibitor, RC_mem-driven
     M3_INHIB in ("gbg", "both") ? [r3_4e] : Reaction[],               # LEGI inhibitor, Gβγ-driven (default)
     [r3_4b],                                                          # basal arming, either way
-    M3_STEN ? [r3_3b] : Reaction[],                     # 3.3b PIP3 -> RasG-GTP amplifier
+    # PIP3 amplifier: 3.3b PIP3 -> RasG-GTP (DEFAULT since 2026-10-02) or 3.3g PIP3 -> Gβγ release (DICTY_M3_PIP3PATH=gbg)
+    M3_STEN ? (M3_PIP3PATH == "ras" ? [r3_3b] : [r3_3g]) : Reaction[],
     (M3_STEN && M3_PIP3GAP) ? [r3_4d] : Reaction[],     # 3.4d PIP3 -| RasGAP* (2nd amplifier, OFF)
     # 3.3c/d/e the STEN brake — the delayed negative feedback 3.3b has been
     # running without.  ON by default since 2026-09-06 (DICTY_M3_BRAKE=0 removes
@@ -3538,12 +3704,16 @@ const MODULE_3_REACTIONS = vcat(
     # mode Takeda names: `SINGLE` (no 2nd excursion) PASSES at 29.8 %, and
     # m3_probe reports 0 sign changes in the smoothed post-peak decay — no
     # oscillation.
+    # [2026-10-02] reader: RasG-GTP (3.3c_R, DEFAULT), PKB (3.3c′, =pkb) or PIP3 (3.3c, =pip3).
+    # With the RasG-GTP reader the activation is ∝ RasG-GTP rather than PIP3; the rest of
+    # this comment (written for the PIP3 reader) still holds: first order, no setpoint.
     (M3_STEN && M3_BRAKE) ? vcat(
+        M3_BRAKE_READ == "ras" ? [r3_3cG] :
         M3_BRAKE_READ == "pkb" ?
             vcat((MODULE_8_ON && BRAKE_W_PKBR1 > 0) ? [r3_3cR] : Reaction[],
                  (M4_REFRACTORY && BRAKE_W_PKBA > 0) ? [r3_3cA] : Reaction[]) :
             [r3_3c],
-        [r3_3d, r3_3e]) : Reaction[],   # 3.3c reader: PIP3 (default) or PKB (3.3c′, DICTY_M3_BRAKEREAD=pkb)
+        [r3_3d, r3_3e]) : Reaction[],
 )
 # Module 11 PdsA/PdiA — the agent-side half (synthesis/secretion/shedding are
 # cell-only; the six dual-copy reactions also run on free voxels via

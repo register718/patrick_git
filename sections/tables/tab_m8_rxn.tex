@@ -1,6 +1,6 @@
 \begin{table*}[!t]
 \centering
-\caption{Module~8 reactions: the RasC$\to$TORC2$\to$PKB$\to$CRAC relay arm and its output edge 8.14 into the excitable element of Module~0. PKBR1 (module 8b) and CRAC are the kinase and effector; $g(\mathrm{PIP3})=[1+(K_P/N_\mathrm{PIP3})^{8}]^{-1}$ and $b(\mathrm{Rf})$ are the gates of Sec.~\ref{sec:hill}. A coloured reaction is the one to which the equally coloured statement in the text and the equally coloured passage in the cited paper refer; a small square appends a further statement.}
+\caption{Module~8 reactions: the RasC$\to$TORC2$\to$PKB$\to$CRAC relay arm and its output edge 8.14 into the excitable element of Module~0. PKBR1 (module 8b) and CRAC are the kinase and effector; S is the Sca1-like PKB substrate (asterisk: phosphorylated); $g(\mathrm{PIP3})=[1+(K_P/N_\mathrm{PIP3})^{8}]^{-1}$ and $b(\mathrm{Rf})$ are the gates of Sec.~\ref{sec:hill}. A coloured reaction is the one to which the equally coloured statement in the text and the equally coloured passage in the cited paper refer; a small square appends a further statement.}
 \label{tab:m8rxn}
 \footnotesize
 \renewcommand{\arraystretch}{1.15}
@@ -10,7 +10,9 @@ ID & Reaction & Propensity (rate law)\\
 \midrule
 \mkt{M8-gefs-g}{8.1} & \mkt{M8-gefs-g}{$\mathrm{G}_{\beta\gamma}+\mathrm{GEF_A} \to \mathrm{GEF_A^*}+\mathrm{G}_{\beta\gamma}$} & $k_{A,\mathrm{on}}[\mathrm{G}_{\beta\gamma}][\mathrm{GEF_A}]$ \\
 \mkt{M8-gefs-g}{8.2} & \mkt{M8-gefs-g}{$\mathrm{GEF_A^*} \to \mathrm{GEF_A}$} & $k_{A,\mathrm{off}}[\mathrm{GEF_A^*}]$ \\
-\mkn{M8-sca1}{M8-ch-adapt}{8.2s} & \mkn{M8-sca1}{M8-ch-adapt}{$\mathrm{B}^*+\mathrm{GEF_A^*} \to \mathrm{GEF_A}+\mathrm{B}^*$} & $k_S[\mathrm{B}^*][\mathrm{GEF_A^*}]$ \\
+\mkt{M8-sca1}{8.2p} & \mkt{M8-sca1}{$\mathrm{PKBR1^*}+\mathrm{S} \to \mathrm{S}^*+\mathrm{PKBR1^*}$} & $k_{S,\mathrm{on}}[\mathrm{PKBR1^*}][\mathrm{S}]$ \\
+8.2q & $\mathrm{S}^* \to \mathrm{S}$ & $k_{S,\mathrm{off}}[\mathrm{S}^*]$ \\
+\mkn{M8-sca1}{M8-ch-adapt}{8.2s} & \mkn{M8-sca1}{M8-ch-adapt}{$\mathrm{S}^*+\mathrm{GEF_A^*} \to \mathrm{GEF_A}+\mathrm{S}^*$} & $k_S[\mathrm{S}^*][\mathrm{GEF_A^*}]$ \\
 \mkn{M8-gefa-spec}{M8-c-roles}{8.3} & \mkn{M8-gefa-spec}{M8-c-roles}{$\mathrm{GEF_A^*}+\mathrm{RasC}^{\mathrm{GDP}} \to \mathrm{RasC}^{\mathrm{GTP}}+\mathrm{GEF_A^*}$} & $k_{C,\mathrm{on}}[\mathrm{GEF_A^*}][\mathrm{RasC}^{\mathrm{GDP}}]$ \\
 8.4 & $\mathrm{RasC}^{\mathrm{GTP}} \to \mathrm{RasC}^{\mathrm{GDP}}$ & $k_{C,\mathrm{off}}[\mathrm{RasC}^{\mathrm{GTP}}]$ \\
 8.4b & $\mathrm{RC}+\mathrm{CGAP} \to \mathrm{RC}+\mathrm{CGAP^*}$ & $k_{CG,\mathrm{on}}[\mathrm{RC}][\mathrm{CGAP}]$ \\
