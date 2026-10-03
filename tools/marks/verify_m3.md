@@ -24,7 +24,7 @@
 | near-perfect adaptation, only IFFL fits, proportional activation, RasGAP as global inhibitor | Takeda 2012, abstract, p. 2-3 | ok |
 | integral control gives oscillations and step-dependent kinetics | Takeda 2012, p. 3 | ok |
 | RasGEF activation faster than RasGAP | Takeda 2012, p. 3 | ok |
-| LEGI | Levchenko 2002 abstract ("coordinately controlled by the G-protein activation"); Ma 2004 abstract ("controlled by receptor occupancy") | ok; the two papers name different control variables (G protein / receptor occupancy), the tex follows Levchenko |
+| Ras activator/inactivator (RasGEF, RasGAP) both driven by receptor/G protein | Takeda 2012, Fig. 3A legend, PDF p. 4 ("leading to the activation of both RasGEF and RasGAP, which activates and inactivates Ras"); Meier-Schellersheim 2006, PDF p. 12 ("direct activation of Ras through Gβγ. In addition, Gβγ activates RasGAP"; modelling paper) | ok; Levchenko 2002 / Ma 2004 describe LEGI for PI3K/PTEN, not Ras, and are cited only for the LEGI concept (unmarked) |
 | fold-change detection | Goentoro 2009, abstract | ok |
 | DdNF1 major Ras regulator, unregulated Ras in nfaA- | Zhang 2008, abstract | ok |
 | rectification with zero-order ultrasensitivity | Nakajima 2014, abstract | ok |

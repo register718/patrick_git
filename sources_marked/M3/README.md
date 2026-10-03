@@ -41,11 +41,10 @@ Colour = statement of `sections/*.tex` (highlighted in the same colour via `\mk`
 | kortholt2011 | 2 | pink | ras_no_down | the Ras response to uniform cAMP needs no PI3K, TorC2, PLA2 or sGC and is unchanged when they are inhibited (also with LatA, also in a pkbR1-null background) |
 | kortholt2013 | 1 | orange | kort | the initial Ras response requires Gbeta |
 | kortholt2013 | 1 | yellow | sb_pip3_indep | symmetry breaking of Ras requires Galpha2 and Gbetagamma but not the PIP3, cGMP, TorC2 and PLA2 pathways |
-| levchenko2002 | 1 | tan | legi | a local activator and a global inactivator are coordinately controlled by G-protein / receptor occupancy (LEGI) |
 | li2018 | 1 | violet | li_gap | RasGAP2 and RapGAP3 bind to PI(3,4)P2 |
 | li2018 | 4 | orange | pip3_small | elevated Ras activity depends largely on decreased PI(3,4)P2, with a contribution of feedback from PIP3 |
-| ma2004 | 1 | tan | legi | a local activator and a global inactivator are coordinately controlled by G-protein / receptor occupancy (LEGI) |
 | meierschellersheim2006 | 5 | cyan | gap_gbg | in a published chemosensing model a RasGAP is activated by Gbetagamma, translocates to the membrane and deactivates Ras |
+| meierschellersheim2006 | 12 | teal | legi | G-protein-coupled receptor signalling drives both an activator (RasGEF) and an inactivator (RasGAP) of Ras (LEGI-type wiring) |
 | miao2017 | 1 | green | excit | the Ras/PI3K/PIP3 network is excitable and fires without external cues |
 | miao2017 | 3 | cyan | miao_ext | negative regulation by PKBs extends to other Ras proteins and PI3K; candidates for delayed negative feedback |
 | miao2017 | 3 | cyan | miao_ext | negative regulation by PKBs extends to other Ras proteins and PI3K; candidates for delayed negative feedback |
@@ -68,6 +67,7 @@ Colour = statement of `sections/*.tex` (highlighted in the same colour via `\mk`
 | takeda2012 | 3 | tan | noint | integral control gives oscillations and step-size dependent kinetics, incompatible with the data |
 | takeda2012 | 3 | tan | noint | integral control gives oscillations and step-size dependent kinetics, incompatible with the data |
 | takeda2012 | 3 | salmon | slower_inh | RasGEF activation kinetics are faster than RasGAP kinetics (adaptation) |
+| takeda2012 | 4 | teal | legi | G-protein-coupled receptor signalling drives both an activator (RasGEF) and an inactivator (RasGAP) of Ras (LEGI-type wiring) |
 | takeda2012_supp | 3 | pink | int_def | the rejected integral-control model has a GAP produced in proportion to Ras-GTP and removed at a constant (zero-order) rate |
 | takeda2012_supp | 5 | green | tau_pair | in the fit the activation rates were tied to the deactivation rates (kGEF = 0.1 k-GEF, kGAP = 0.1 k-GAP) |
 | takeda2012_supp | 5 | green | tau_pair | in the fit the activation rates were tied to the deactivation rates (kGEF = 0.1 k-GEF, kGAP = 0.1 k-GAP) |

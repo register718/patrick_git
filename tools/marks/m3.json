@@ -26,8 +26,8 @@
    "color": 6
   },
   "legi": {
-   "text": "a local activator and a global inactivator are coordinately controlled by G-protein / receptor occupancy (LEGI)",
-   "color": 7
+   "text": "G-protein-coupled receptor signalling drives both an activator (RasGEF) and an inactivator (RasGAP) of Ras (LEGI-type wiring)",
+   "color": 10
   },
   "fcd3": {
    "text": "the incoherent feed-forward loop can provide fold-change detection",
@@ -208,10 +208,6 @@
   "sca1_rasc": {
    "text": "the Sca1 complex regulates RasC activity while RasG activation is unaffected",
    "color": 7
-  },
-  "g_gefgap": {
-   "text": "chemoattractant receptor signalling activates both a RasGEF and a RasGAP (incoherent feed-forward model of Ras adaptation)",
-   "color": 9
   }
  },
  "papers": {
@@ -328,27 +324,13 @@
     "end": "slow return to the basal amount"
    },
    {
-    "claim": "g_gefgap",
+    "claim": "legi",
     "page": 4,
     "start": "leading to the activation of both RasGEF and RasGAP"
    }
   ],
-  "levchenko2002": [
-   {
-    "claim": "legi",
-    "page": 1,
-    "start": "a locally acting activator (PI3-kinase) and a globally acting inactivator",
-    "end": "controlled by the G-protein activation"
-   }
-  ],
-  "ma2004": [
-   {
-    "claim": "legi",
-    "page": 1,
-    "start": "We have proposed a model in which the response to chemoattractant is regulated by a balance of a local excitation and a global inhibition",
-    "end": "controlled by receptor occupancy"
-   }
-  ],
+  "levchenko2002": [],
+  "ma2004": [],
   "goentoro2009": [
    {
     "claim": "fcd3",
@@ -748,6 +730,12 @@
     "claim": "gap_gbg",
     "page": 5,
     "start": "translocates to the membrane and deactivates Ras after activation by"
+   },
+   {
+    "claim": "legi",
+    "page": 12,
+    "start": "allow for a direct activation of Ras through",
+    "end": "Gbc activates RasGAP"
    }
   ]
  }
