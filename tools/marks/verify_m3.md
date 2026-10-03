@@ -60,7 +60,7 @@ Changes in `dicty_reactions.jl` (no simulation was run; the module is not re-cal
 | k_I,off | 0.1 /s (tau_I 10 s) | `k_gapOff` 0.1 | ok (Takeda 2012 Supp. Table S1, p. 22) |
 | k_I,on (3.4e), k_I,b | 7.67e-4, 1.52e-3 | 0.000253 x 3.0303 = 7.667e-4; 5e-4 x 3.0303 = 1.515e-3 | ok; rc-path k_gapOn 0.08 -> 0.2424 likewise (not in the table, not default) |
 | k_cat | 15.8 /s | `_fI_rest_G` depends on k_gapOnG/k_gapOff only -> unchanged | ok |
-| brake reader | 3.3c_R, RasG-GTP | `M3_BRAKE_READ` default `ras`, `r3_3cG` | ok; `pkb`, `pip3` remain |
+| brake reader | 3.3c_R, RasG-GTP | `M3_BRAKE_READ` default `ras`, `r3_3cR` (renamed from `r3_3cG` 2026-10-03; PKB readers 3.3c′ now `r3_3cP1`, `r3_3cPA`) | ok; `pkb`, `pip3` remain |
 | k_B,on | 0.0753 | 0.1 x 4817.6 / 6400 = 0.07528 | ok (`BRAKE_HALF_RAS` = 6400, design anchor) |
 | k_B,off, k_B,hyd, B_tot, D | 0.1, 39.8, 1540, 20 | unchanged | ok |
 | Sca1 (M8) | 8.2p/8.2q/8.2s with S | `r8_2p`, `r8_2pA`, `r8_2q`, `r8_2s` on `Sca1_cyto`/`Sca1a_mem`; k_S,on = 24.09, k_S,off = 0.1, S_tot = 1540, D = 20 | ok; gated only on `DICTY_M8_SCA1FB` > 0 |

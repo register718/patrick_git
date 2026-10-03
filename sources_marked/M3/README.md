@@ -7,10 +7,7 @@ Colour = statement of `sections/*.tex` (highlighted in the same colour via `\mk`
 | artemenko2016 | 4 | tan | refr | refractoriness (F-actin reporter LimE, paired 2-s mechanical stimuli): no response to a second stimulus at intervals below 12 s, recovery half-time about 7 s as for chemoattractant; a refractory period is a feature of excitable systems |
 | artemenko2016 | 4 | tan | refr | refractoriness (F-actin reporter LimE, paired 2-s mechanical stimuli): no response to a second stimulus at intervals below 12 s, recovery half-time about 7 s as for chemoattractant; a refractory period is a feature of excitable systems |
 | artemenko2016 | 5 | tan | refr | refractoriness (F-actin reporter LimE, paired 2-s mechanical stimuli): no response to a second stimulus at intervals below 12 s, recovery half-time about 7 s as for chemoattractant; a refractory period is a feature of excitable systems |
-| charest2010 | 1 | pink | sca1 | PKB and PKBR1 phosphorylate Sca1 and thereby control RasC |
 | charest2010 | 4 | tan | sca1_rasc | the Sca1 complex regulates RasC activity while RasG activation is unaffected |
-| charest2010 | 7 | pink | sca1 | PKB and PKBR1 phosphorylate Sca1 and thereby control RasC |
-| charest2010 | 8 | green | ch_adapt | in pkbA-/pkbr1- cells RasC activation is increased and fails to adapt by 40 s |
 | coyle2016 | 11 | blue | nf1kin | NF1 GAP domain: KM = 0.3 uM, kcat = 1.4 /s |
 | devreotes2017 | 1 | green | excit | the Ras/PI3K/PIP3 network is excitable and fires without external cues |
 | devreotes2017 | 12 | cyan | bias | external stimuli bias the threshold and timing of the excitable network |
@@ -20,17 +17,17 @@ Colour = statement of `sections/*.tex` (highlighted in the same colour via `\mk`
 | fukushima2019 | 1 | violet | dnf | excitability requires positive feedback (all-or-none response) and delayed negative feedback (decline of the response, followed by the refractory period) |
 | fukushima2019 | 2 | cyan | ras_pip3_indep | PIP3 production and degradation are not necessary for Ras wave generation |
 | fukushima2019 | 2 | orange | excit_intr | Ras is excitable without the PIP3, TorC2, PLA2 and sGC pathways and without a functional actin cytoskeleton |
+| fukushima2019 | 5 | tan | fuk_nfb | the published Ras/PIP3 model places the positive and the delayed negative feedback on Ras; its GAP recruitment is promoted by Ras-GDP and opposed by Ras-GTP |
 | fukushima2019 | 7 | orange | excit_intr | Ras is excitable without the PIP3, TorC2, PLA2 and sGC pathways and without a functional actin cytoskeleton |
 | fukushima2019 | 10 | pink | pip3_gef | in the published Ras/PIP3 model the Ras GEF reaction has a basal term and a term for the feedback from PIP3 |
+| fukushima2019 | 10 | tan | fuk_nfb | the published Ras/PIP3 model places the positive and the delayed negative feedback on Ras; its GAP recruitment is promoted by Ras-GDP and opposed by Ras-GTP |
 | goentoro2009 | 1 | blue | fcd3 | the incoherent feed-forward loop can provide fold-change detection |
 | goentoro2009 | 1 | orange | prop | adaptation via proportional activation of upstream components (activator and inhibitor of the IFFL driven by the same input) |
 | iglesias2012 | 1 | cyan | bias | external stimuli bias the threshold and timing of the excitable network |
-| iwamoto2025 | 2 | green | rbd | Raf1-RBD binds activated RasG but not RasC; in cells RasG, Rap1 and RasC are the primary factors of its membrane localisation |
 | iwamoto2025 | 2 | orange | excit_intr | Ras is excitable without the PIP3, TorC2, PLA2 and sGC pathways and without a functional actin cytoskeleton |
 | iwamoto2025 | 10 | blue | gef_pfb | the co-localisation of RasGEFX and RasGEFB with Ras-GTP-enriched domains suggests Ras-GTP-dependent recruitment and a positive feedback between these GEFs and Ras-GTP |
 | janetopoulos2001 | 1 | violet | g_persist | G-protein activation does not decline during continuous stimulation, whereas downstream responses subside |
 | kae2004 | 1 | yellow | trans | RasG and RasC are activated rapidly and transiently by cAMP in aggregation-competent cells |
-| kae2004 | 1 | green | rbd | Raf1-RBD binds activated RasG but not RasC; in cells RasG, Rap1 and RasC are the primary factors of its membrane localisation |
 | kae2004 | 1 | grey | gef_exch | Ras GEFs catalyse the exchange of GDP for GTP and thereby activate Ras |
 | kae2004 | 3 | blue | peak_fast | Ras activation peaks within seconds (5 s) |
 | kae2004 | 3 | blue | peak_fast | Ras activation peaks within seconds (5 s) |
@@ -50,7 +47,7 @@ Colour = statement of `sections/*.tex` (highlighted in the same colour via `\mk`
 | miao2017 | 1 | green | excit | the Ras/PI3K/PIP3 network is excitable and fires without external cues |
 | miao2017 | 3 | cyan | miao_ext | negative regulation by PKBs extends to other Ras proteins and PI3K; candidates for delayed negative feedback |
 | miao2017 | 3 | cyan | miao_ext | negative regulation by PKBs extends to other Ras proteins and PI3K; candidates for delayed negative feedback |
-| miao2017 | 11 | orange | miao_mech | PKBs act through indirect / uncertain routes (Aimless, PI5K) on the RasG reporter |
+| miao2017 | 11 | orange | miao_mech | PKBs are suggested to act indirectly, by inhibiting the RasGEF Aimless and by activating PI5K |
 | nakajima2014 | 1 | yellow | rect | rectification: Ras activation suppressed while cAMP falls, arises in an IFFL with zero-order ultrasensitivity |
 | nakajima2014 | 1 | yellow | rect | rectification: Ras activation suppressed while cAMP falls, arises in an IFFL with zero-order ultrasensitivity |
 | sasaki2004 | 1 | green | pi3k | RasG is the upstream activator of PI3K |
@@ -75,14 +72,17 @@ Colour = statement of `sections/*.tex` (highlighted in the same colour via `\mk`
 | takeda2012_supp | 5 | green | tau_pair | in the fit the activation rates were tied to the deactivation rates (kGEF = 0.1 k-GEF, kGAP = 0.1 k-GAP) |
 | takeda2012_supp | 6 | salmon | tau_fit | fitted IFFL model: k-GEF = 0.4 /s and k-GAP = 0.1 /s; k-GAP sets the time of the return to the basal amount; k-GEF larger than k-GAP |
 | takeda2012_supp | 6 | salmon | tau_fit | fitted IFFL model: k-GEF = 0.4 /s and k-GAP = 0.1 /s; k-GAP sets the time of the return to the basal amount; k-GEF larger than k-GAP |
-| takeda2012_supp | 9 | orange | slow_buf | the buffering node of a negative feedback must be slow to avoid oscillations |
 | takeda2012_supp | 22 | salmon | tau_fit | fitted IFFL model: k-GEF = 0.4 /s and k-GAP = 0.1 /s; k-GAP sets the time of the return to the basal amount; k-GEF larger than k-GAP |
 | vanhemert2010 | 6 | tan | gbg_pi3k_indep | cAMP-induced change of the Gbetagamma mobility and domain formation are independent of PI3K activity (LY294002) |
 | wiesmuller1992 | 2 | blue | nf1kin | NF1 GAP domain: KM = 0.3 uM, kcat = 1.4 /s |
 | xu2005 | 10 | grey | g_follows_stim | G-protein activation provides a simple intracellular translation of the external gradient and reflects the local cAMP receptor occupancy |
+| xu2021c2gap | 1 | green | c2gap_adapt | C2GAP1 controls both the basal Ras activity and the GPCR-mediated Ras adaptation |
+| xu2021c2gap | 2 | green | c2gap_adapt | C2GAP1 controls both the basal Ras activity and the GPCR-mediated Ras adaptation |
+| xu2021c2gap | 2 | pink | c2gap_local | C2GAP1 is a locally recruited RasGAP |
 | xu2021c2gap | 4 | violet | basal_gap | GAP-deficient cells have enhanced basal Ras activity (basal RasGAP) |
 | xu2021c2gap | 4 | violet | basal_gap | GAP-deficient cells have enhanced basal Ras activity (basal RasGAP) |
-| xu2022 | 1 | salmon | nfblb_def | in a negative feedback loop with a buffer node (NFBLB) the output is shut down by an inhibitor induced by the output itself |
+| xu2022 | 1 | salmon | nfblb_def | a negative feedback loop with a buffer node (NFBLB), in which the output is shut down by an inhibitor induced by the output itself, is one of the two simple topologies that produce adaptation |
+| xu2022 | 1 | salmon | nfblb_def | a negative feedback loop with a buffer node (NFBLB), in which the output is shut down by an inhibitor induced by the output itself, is one of the two simple topologies that produce adaptation |
 | xu2022 | 2 | yellow | c2gap_ras | membrane translocation and activation of the RasGAP C2GAP1 require Ras on the membrane, i.e. an NFBLB mechanism |
 | xu2022 | 2 | cyan | nfblb_fit | models with a RasGAP activated by Galpha2-GTP, by Ras-GTP or by both reproduce transient, adaptive Ras signalling |
 | xu2022 | 2 | grey | gef_exch | Ras GEFs catalyse the exchange of GDP for GTP and thereby activate Ras |

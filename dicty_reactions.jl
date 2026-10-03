@@ -1481,6 +1481,16 @@ const D_M3_GAP   = _m3("DICTY_M3_DGAP",   20.0f0, 10.0f0) # µm²/s — GLOBAL i
 # rename is the cleanup.
 # `DICTY_M3_DBRAKE=0.4` restores the local brake. Old rationale, still the
 # reason the constant exists: Modules.pdf's own D_PKB*s = 0.4 µm²/s (Table 4).
+#
+# ⚠⚠ OPEN CONTRADICTION [2026-10-03], RasG-GTP READER (3.3c_R, now default): the
+# A/B above was measured with the PIP3 reader (local brake vs NO brake; "global
+# keeps the contrast" is argued, not measured).  With the RasG reader the brake's
+# stated purpose is LOCAL — terminating a spontaneous excursion where it occurs —
+# and its candidate molecule is local ("a locally recruited RasGAP protein,
+# C2GAP1", Xu 2021 p. 2).  At D = 20 and τ = 10 s, √(Dτ) ≈ 14 µm ≈ one cell, so
+# B* is global and dilutes away from the excursion that made it.  Local (0.4)
+# vs global (20) has NOT been compared for this reader; decide it in tuning.
+# sections/m3.tex 3.3c_R--e ("Range") states the same.
 const D_M3_BRAKE = _m3("DICTY_M3_DBRAKE", 20.0f0, 0.4f0)  # µm²/s — GLOBAL (was 0.4, LOCAL)
 const M3_DIFFUSION = Dict{Symbol, Float32}(
     :RasGEFR_cyto  => D_M3_GEFR, :RasGEFRa_cyto => D_M3_GEFR,  # LOCAL excitor
@@ -2298,30 +2308,48 @@ const BRAKE_HALF_PKB  = parse(Float64, get(ENV, "DICTY_M3_BRAKEHALFPKB", "20"))
 const BRAKE_W_PKBR1   = parse(Float64, get(ENV, "DICTY_M3_BRAKEWR1", "1.0"))
 const BRAKE_W_PKBA    = parse(Float64, get(ENV, "DICTY_M3_BRAKEWA",  "0.0"))
 const k_brakeOnPKB    = Float32(Float64(k_brakeOff) * Float64(MOLEC_PER_µM) / BRAKE_HALF_PKB)  # µM⁻¹s⁻¹
-r3_3cR = Reaction([:PKBR1a_mem, :RasBrake_cyto], [:RasBrakea_mem, :PKBR1a_mem],
+r3_3cP1 = Reaction([:PKBR1a_mem, :RasBrake_cyto], [:RasBrakea_mem, :PKBR1a_mem],
                   Float32(BRAKE_W_PKBR1) * k_brakeOnPKB, nothing)
-r3_3cA = Reaction([:PKBAa_mem, :RasBrake_cyto], [:RasBrakea_mem, :PKBAa_mem],
+r3_3cPA = Reaction([:PKBAa_mem, :RasBrake_cyto], [:RasBrakea_mem, :PKBAa_mem],
                   Float32(BRAKE_W_PKBA) * k_brakeOnPKB, nothing)
 
 # ── 3.3c_R — THE BRAKE IS READ BY RasG-GTP (DEFAULT since 2026-10-02) ────────────
-# `DICTY_M3_BRAKEREAD=ras`.  The brake becomes a negative feedback loop with a
-# buffer node on RasG itself (NFBLB, Xu et al. 2022 p. 1: "the output is shut down
-# by an inhibitor induced by the output itself").  Sources (all in sources/M3,
-# marked in sources_marked/M3, see sections/m3.tex 3.3c_R):
-#   * the reader can be neither PIP3 nor PKB(R1): Ras is excitable with the PIP3,
-#     TorC2, PLA2 and sGC pathways all inhibited and without F-actin (Fukushima 2019
-#     p. 2, p. 7), and the cAMP Ras response is unchanged in sgc/pla2(/pkbR1)-null+LY
-#     cells, with LatA too (Kortholt 2011 p. 1273-1274);
-#   * a RasGAP whose membrane recruitment and activation require Ras exists
-#     (C2GAP1, Xu 2022 p. 2), and c2gapA- cells have elevated basal Ras
-#     (Xu 2021 p. 4); a RasGAP activated by Ras-GTP reproduces the transient,
-#     adaptive Ras response (Xu 2022 p. 4);
-#   * k_brakeOff = 0.1 s⁻¹ (τ = 10 s) now has an anchor: the refractory period
-#     recovers with t½ ≈ 7 s (Artemenko 2016 p. E7503), τ = 7 s / ln 2 ≈ 10 s.
+# `DICTY_M3_BRAKEREAD=ras`.  Kept in step with sections/m3.tex, 3.3c_R--e (rewritten
+# 2026-10-03); passages marked in sources_marked/M3.
+# [2026-10-03] Variables renamed to the TeX IDs: `r3_3cR` is now THIS reader
+# (RasG-GTP, 3.3c_R; was `r3_3cG`); the PKB readers of 3.3c′ are `r3_3cP1` (PKBR1,
+# was `r3_3cR`) and `r3_3cPA` (PKBA, was `r3_3cA`).
+#   * PURPOSE: the delayed negative feedback that excitability needs (Fukushima 2019
+#     p. 1); it terminates Ras excursions the stimulus did not cause.  The IFFL
+#     inhibitor reads Gβγ and is not raised by such an excursion.
+#   * READER: neither PIP3 nor PKB(R1) — Ras is excitable with the PIP3, TorC2, PLA2
+#     and sGC pathways inhibited and without F-actin (Fukushima 2019 p. 2, p. 7), and
+#     the cAMP Ras response is unchanged in sgc/pla2(/pkbR1)-null+LY cells, with LatA
+#     too (Kortholt 2011 p. 1273-1274).  Fukushima 2019 (p. 5) also puts the delayed
+#     negative feedback on Ras, but in another FORM (p. 10: GAP recruitment promoted
+#     by Ras-GDP, opposed by Ras-GTP); a GAP activity induced by RasG-GTP is our
+#     simpler choice, not theirs.
+#   * CANDIDATE MOLECULE, NOT EVIDENCE FOR THE ROLE: C2GAP1 needs Ras on the
+#     membrane for translocation and activation (Xu 2022 p. 2, citing Xu 2017, not
+#     in sources/), but in the sources it controls BASAL Ras activity and Ras
+#     ADAPTATION (Xu 2021 p. 1-2) — the brake is off at rest and does not set the
+#     adapted level.  That a Ras-read GAP terminates spontaneous excursions is an
+#     ASSUMPTION of this model.  In Xu 2022 a Ras-read GAP (NFBLB, p. 1) is an
+#     adaptation topology; keeping it out of the adapted state is OUR design choice.
+#   * k_brakeOff = 0.1 s⁻¹ (τ = 10 s): refractory recovery t½ ≈ 7 s (Artemenko 2016
+#     p. E7503), τ = 7 s / ln 2 ≈ 10 s, assuming B* sets the recovery.  Measured with
+#     an F-actin reporter after MECHANICAL stimulation, not for Ras; τ_I is also
+#     10 s, so the measurement cannot tell the brake from the IFFL inhibitor.
+#   * RANGE — OPEN CONTRADICTION: the purpose (a local excursion) and the candidate
+#     ("a locally recruited RasGAP protein, C2GAP1", Xu 2021 p. 2) are LOCAL, but
+#     D_M3_BRAKE = 20 µm²/s makes B* GLOBAL (√(Dτ) ≈ 14 µm ≈ one cell).  See the
+#     D_M3_BRAKE block; `DICTY_M3_DBRAKE=0.4` gives the local brake.  Untested with
+#     this reader.
 # It is NOT Takeda's rejected integral controller (Supp. p. 3: GAP produced ∝ Ras-GTP,
 # removed at a CONSTANT rate): B* decays in first order and has no setpoint, and the
-# adapted level stays the IFFL's.  Takeda Supp. p. 9: the buffer must be slow to
-# avoid oscillations — check the post-peak decay for sign changes when tuning.
+# adapted level stays the IFFL's.  (Takeda Supp. p. 9 "the buffer must be slow" was
+# derived for that integral motif and is NOT cited for the brake; still check the
+# post-peak decay for a second excursion when tuning.)
 # ⚠ BRAKE_HALF_RAS IS A DESIGN ANCHOR, NOT A MEASUREMENT: half activation at the
 # driven RasG-GTP so the brake is ~off at rest and in the adapted plateau (its
 # removal flux ∝ [B*][RasG-GTP] ∝ RasG-GTP² while unsaturated).  6400/voxel is the
@@ -2331,7 +2359,7 @@ r3_3cA = Reaction([:PKBAa_mem, :RasBrake_cyto], [:RasBrakea_mem, :PKBAa_mem],
 const BRAKE_HALF_RAS = parse(Float64, get(ENV, "DICTY_M3_BRAKEHALFRAS", "6400"))  # RasG-GTP molec/voxel
 const k_brakeOnRas   = Float32(Float64(k_brakeOff) * Float64(MOLEC_PER_µM) / BRAKE_HALF_RAS)  # µM⁻¹s⁻¹
 # 3.3c_R RasG_GTP_mem + RasBrake_cyto → RasBrakea_mem + RasG_GTP_mem
-r3_3cG = Reaction([:RasG_GTP_mem, :RasBrake_cyto], [:RasBrakea_mem, :RasG_GTP_mem], k_brakeOnRas, nothing)
+r3_3cR = Reaction([:RasG_GTP_mem, :RasBrake_cyto], [:RasBrakea_mem, :RasG_GTP_mem], k_brakeOnRas, nothing)
 
 
 # ============================================================================
@@ -3696,22 +3724,22 @@ const MODULE_3_REACTIONS = vcat(
     # zero.  Takeda et al. 2012 rejected exactly that for Dictyostelium Ras — it
     # produces spurious oscillations and stimulus-dependent kinetics — in favour
     # of the incoherent feedforward loop 3.1–3.7.  The brake has NO setpoint and
-    # NO integrator: it is a local, membrane-bound, first-order negative feedback
-    # (activation ∝ PIP3, decay τ = 10 s) acting on the STEN amplifier 3.3b, of
-    # the same class as Module 0.9's validated FitzHugh–Nagumo inhibitor.
-    # Adaptation still comes from the IFFL and only from the IFFL; the brake's
-    # job is to keep 3.3b's autocatalysis from latching.  Checked for the failure
-    # mode Takeda names: `SINGLE` (no 2nd excursion) PASSES at 29.8 %, and
-    # m3_probe reports 0 sign changes in the smoothed post-peak decay — no
-    # oscillation.
-    # [2026-10-02] reader: RasG-GTP (3.3c_R, DEFAULT), PKB (3.3c′, =pkb) or PIP3 (3.3c, =pip3).
-    # With the RasG-GTP reader the activation is ∝ RasG-GTP rather than PIP3; the rest of
-    # this comment (written for the PIP3 reader) still holds: first order, no setpoint.
+    # NO integrator: it is a first-order negative feedback (decay τ = 10 s, 3.3d)
+    # acting on RasG-GTP (3.3e), of the same class as Module 0.9's validated
+    # FitzHugh–Nagumo inhibitor.  Adaptation still comes from the IFFL and only
+    # from the IFFL; the brake's job is to terminate Ras excursions the stimulus
+    # did not cause (incl. 3.3b's autocatalysis latching).
+    # Readers (`DICTY_M3_BRAKEREAD`): RasG-GTP (3.3c_R, `r3_3cR`, DEFAULT since
+    # 2026-10-02), PKB (3.3c′, `r3_3cP1`/`r3_3cPA`, =pkb) or PIP3 (3.3c, `r3_3c`, =pip3).
+    # ⚠ The test results below were obtained with the PIP3 reader and do NOT carry
+    # over to the default RasG reader: `SINGLE`
+    # (no 2nd excursion) passed at 29.8 %, and m3_probe reported 0 sign changes in
+    # the smoothed post-peak decay.  The RasG reader is untuned (see 3.3c_R block).
     (M3_STEN && M3_BRAKE) ? vcat(
-        M3_BRAKE_READ == "ras" ? [r3_3cG] :
+        M3_BRAKE_READ == "ras" ? [r3_3cR] :
         M3_BRAKE_READ == "pkb" ?
-            vcat((MODULE_8_ON && BRAKE_W_PKBR1 > 0) ? [r3_3cR] : Reaction[],
-                 (M4_REFRACTORY && BRAKE_W_PKBA > 0) ? [r3_3cA] : Reaction[]) :
+            vcat((MODULE_8_ON && BRAKE_W_PKBR1 > 0) ? [r3_3cP1] : Reaction[],
+                 (M4_REFRACTORY && BRAKE_W_PKBA > 0) ? [r3_3cPA] : Reaction[]) :
             [r3_3c],
         [r3_3d, r3_3e]) : Reaction[],
 )

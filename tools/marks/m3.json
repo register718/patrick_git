@@ -77,20 +77,12 @@
    "text": "symmetry breaking and amplification occur between the G protein and Ras",
    "color": 1
   },
-  "ch_adapt": {
-   "text": "in pkbA-/pkbr1- cells RasC activation is increased and fails to adapt by 40 s",
-   "color": 2
-  },
   "miao_ext": {
    "text": "negative regulation by PKBs extends to other Ras proteins and PI3K; candidates for delayed negative feedback",
    "color": 3
   },
-  "sca1": {
-   "text": "PKB and PKBR1 phosphorylate Sca1 and thereby control RasC",
-   "color": 4
-  },
   "miao_mech": {
-   "text": "PKBs act through indirect / uncertain routes (Aimless, PI5K) on the RasG reporter",
+   "text": "PKBs are suggested to act indirectly, by inhibiting the RasGEF Aimless and by activating PI5K",
    "color": 5
   },
   "peak_fast": {
@@ -178,7 +170,7 @@
    "color": 8
   },
   "nfblb_def": {
-   "text": "in a negative feedback loop with a buffer node (NFBLB) the output is shut down by an inhibitor induced by the output itself",
+   "text": "a negative feedback loop with a buffer node (NFBLB), in which the output is shut down by an inhibitor induced by the output itself, is one of the two simple topologies that produce adaptation",
    "color": 9
   },
   "c2gap_ras": {
@@ -193,17 +185,9 @@
    "text": "the rejected integral-control model has a GAP produced in proportion to Ras-GTP and removed at a constant (zero-order) rate",
    "color": 4
   },
-  "slow_buf": {
-   "text": "the buffering node of a negative feedback must be slow to avoid oscillations",
-   "color": 5
-  },
   "reset": {
    "text": "after removal of cAMP the network returns to its prestimulus state in less than 1 min",
    "color": 6
-  },
-  "rbd": {
-   "text": "Raf1-RBD binds activated RasG but not RasC; in cells RasG, Rap1 and RasC are the primary factors of its membrane localisation",
-   "color": 2
   },
   "sca1_rasc": {
    "text": "the Sca1 complex regulates RasC activity while RasG activation is unaffected",
@@ -216,6 +200,18 @@
   "g_follows_stim": {
    "text": "G-protein activation provides a simple intracellular translation of the external gradient and reflects the local cAMP receptor occupancy",
    "color": 10
+  },
+  "c2gap_adapt": {
+   "text": "C2GAP1 controls both the basal Ras activity and the GPCR-mediated Ras adaptation",
+   "color": 2
+  },
+  "fuk_nfb": {
+   "text": "the published Ras/PIP3 model places the positive and the delayed negative feedback on Ras; its GAP recruitment is promoted by Ras-GDP and opposed by Ras-GTP",
+   "color": 7
+  },
+  "c2gap_local": {
+   "text": "C2GAP1 is a locally recruited RasGAP",
+   "color": 4
   }
  },
  "papers": {
@@ -235,12 +231,6 @@
     "claim": "peak_fast",
     "page": 3,
     "start": "An increase of RasG–GTP was also detected within 5 s of stimulation"
-   },
-   {
-    "claim": "rbd",
-    "page": 1,
-    "start": "We have found that the Ras-binding domain (RBD) of",
-    "end": "activated form of RasC"
    },
    {
     "claim": "gef_exch",
@@ -460,6 +450,18 @@
     "page": 1,
     "start": "These features require two feedback mechanisms",
     "end": "followed by the refractory period"
+   },
+   {
+    "claim": "fuk_nfb",
+    "page": 5,
+    "start": "Ras excitability was modeled with positive and delayed",
+    "end": "negative feedbacks on Ras"
+   },
+   {
+    "claim": "fuk_nfb",
+    "page": 10,
+    "start": "we introduced positive regulation from Ras-GDP and negative regulation from",
+    "end": "recruitment of GAPs to the membrane"
    }
   ],
   "miao2017": [
@@ -507,22 +509,6 @@
   ],
   "charest2010": [
    {
-    "claim": "ch_adapt",
-    "page": 8,
-    "start": "chemoattractant-induced RasC activation is considerably increased and fails to rapidly adapt as it normally does by 40 s after stimulation"
-   },
-   {
-    "claim": "sca1",
-    "page": 1,
-    "start": "In addition, PKB and PKB-related PKBR1 phosphorylate Sca1 and regulate",
-    "end": "RasC activity"
-   },
-   {
-    "claim": "sca1",
-    "page": 7,
-    "start": "induced phosphorylation of Sca1, with a peak at 5–10 s"
-   },
-   {
     "claim": "sca1_rasc",
     "page": 4,
     "start": "we show that the Sca1 complex regulates RasC activity while RasG activation is unaffected"
@@ -538,6 +524,21 @@
     "claim": "basal_gap",
     "page": 4,
     "start": "c2gapA− cells displayed an enhanced basal Ras activity"
+   },
+   {
+    "claim": "c2gap_adapt",
+    "page": 2,
+    "start": "C2GAP1 controls both the basal activity and the GPCR-mediated adaptation"
+   },
+   {
+    "claim": "c2gap_adapt",
+    "page": 1,
+    "start": "have shown that C2GAP1 controls G protein coupled receptor-mediated Ras adaptation"
+   },
+   {
+    "claim": "c2gap_local",
+    "page": 2,
+    "start": "a locally recruited RasGAP protein, C2GAP1"
    }
   ],
   "wiesmuller1992": [
@@ -627,6 +628,12 @@
     "page": 2,
     "start": "Ras is activated by guanine nucleotide exchange factors",
     "end": "exchange of GDP for GTP"
+   },
+   {
+    "claim": "nfblb_def",
+    "page": 1,
+    "start": "there are two major classes of simple network topology that can possess adaptation",
+    "end": "Negative Feedback Loop with a Buffer node"
    }
   ],
   "kortholt2011": [
@@ -715,11 +722,6 @@
     "end": "contains a zero-order term"
    },
    {
-    "claim": "slow_buf",
-    "page": 9,
-    "start": "needs to be slow to avoid oscillations"
-   },
-   {
     "claim": "tau_fit",
     "page": 22,
     "start": "",
@@ -733,11 +735,6 @@
    }
   ],
   "iwamoto2025": [
-   {
-    "claim": "rbd",
-    "page": 2,
-    "start": "these three small GTPase are the primary factors in the membrane localization of"
-   },
    {
     "claim": "excit_intr",
     "page": 2,

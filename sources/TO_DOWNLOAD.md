@@ -24,6 +24,7 @@ Priority A = fixes a claim the paper currently makes without a source, B = stren
 | C | `lee1999` | Lee, Parent, Insall, Firtel 1999, Mol Biol Cell 10:2829 — RIP3 | 10.1091/mbc.10.9.2829 | RIP3 (TORC2 component) needed for ACA (M8) |
 | C | `iglesias2012b` | Iglesias 2012, Sci Signal 5:pe8 — Adaptation and amplification | 10.1126/scisignal.2002897 | LEGI and amplification review (M3) |
 | C | `roos1977` | Roos, Nanjundiah, Malchow, Gerisch 1977 — adenylyl cyclase and differentiation | 10.1016/0045-6039(77)90018-5 | measured ACA activities (M9) |
+| B | `xu2017` | Xu et al. 2017, PNAS 114:E10092 — GPCR-controlled membrane recruitment of C2GAP1 | 10.1073/pnas.1703208114 | primary evidence that C2GAP1 activation requires Ras (M3 brake 3.3c$_R$; now cited only via `xu2022`); check whether C2GAP1 acts on RasG |
 
 ## Model assumptions for which no supporting paper was found
 
